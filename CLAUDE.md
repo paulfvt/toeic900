@@ -42,13 +42,24 @@ Répondre en français.
 
 | Phase | Contenu | État |
 |---|---|---|
-| 1 | Squelette, base locale, entraînement Part 5 avec corrections, révision espacée, premier lot de 120 questions Part 5 | lancée le 12/11/2026 |
-| 2 | Parts 6 et 7, fiches de cours, chemin de leçons | à faire |
+| 1 | Squelette, base locale, entraînement Part 5 avec corrections, révision espacée, premier lot de 120 questions Part 5 | terminée le 12/11/2026 |
+| 2 | Parts 6 et 7, fiches de cours, chemin de leçons, Part 5 complétée à 300 questions | à faire |
 | 3 | Stats, score estimé, XP, série, badges, objectifs, notifications, animations, demi-test Reading | à faire |
 | 4 | Pipeline audio et images, Parts 1 à 4 | à faire |
 | 5 | Diagnostic complet, tests blancs, session recommandée | à faire |
 
 Le demi-test Reading est avancé en Phase 3 : sans lui, le score estimé n'aurait aucun test blanc sur lequel s'appuyer.
+
+## État du code après la Phase 1
+
+- **Outils** : wrapper Gradle 9.8.0, AGP 9.4.1 (Kotlin intégré, pas de plugin `kotlin-android`), Kotlin 2.4.20, KSP 2.3.12, Room 2.8.5, Compose 1.12.1, Material 3 1.4.0. Versions dans `gradle/libs.versions.toml`. Le JDK embarqué d'Android Studio est en version 25 : `JAVA_HOME="C:\Program Files\Android\Android Studio\jbr"`.
+- **Paquet** : `fr.toeic900`. `domain/` (Leitner, QuestionReview, QuestionPicker), `data/` (ContentDatabase, UserDatabase, ContentImporter, TrainingRepository, SettingsRepository), `ui/` (thème Élan, composants, écrans). Injection manuelle dans `AppContainer`.
+- **Contenu** : sources dans `content/bank/part5/lot-0N.json`, schéma et taxonomie (16 tags) dans `content/schemas/`, guide dans `content/GUIDE-REDACTION.md`. `python content/tools/build.py` valide puis écrit `app/src/main/assets/content/content.json` ; l'app réimporte quand la version calculée change. Identifiants utilisés : `p5-0001` à `p5-0120` ; continuer à `p5-0121`, ne jamais renuméroter.
+- **Rédaction des lots** : sous-agents Sonnet par lots de 30, avec tag, difficulté et lettre de la bonne réponse imposés par question ; relecture critique ensuite. Donner à chaque sous-agent son propre dossier de travail : en Phase 1, deux d'entre eux ont écrasé le script temporaire de l'autre dans le dossier partagé.
+- **Tests** : `gradlew testDebugUnitTest` (43), `python -m unittest discover -s content/tools/tests` (36), et 4 tests sur appareil lancés par `adb shell am instrument -w fr.toeic900.test/androidx.test.runner.AndroidJUnitRunner` après `gradlew installDebug installDebugAndroidTest`. `gradlew connectedDebugAndroidTest` réussit mais rapporte 0 test sur ce poste : ne pas s'y fier.
+- **Émulateur** : l'appareil virtuel s'appelle `Medium_Phone_API_37.0`. `local.properties` s'écrit avec des `/` (`sdk.dir=C:/Users/...`).
+- **Non vérifié** : installation sur le Galaxy S25+ réel ; relecture visuelle complète du mode sombre (seuls l'accueil, le choix de session, une question et le bilan ont été vus sur émulateur).
+- **Limites connues** : session en cours non reprise après fermeture de l'app ; textes d'interface en français dans le code (pas de `strings.xml`) ; difficulté des questions estimée, non calibrée.
 
 ## Façon de travailler
 
