@@ -292,7 +292,7 @@ private fun FeedbackSheet(
                 )
             }
             Text(
-                "${tr("Bonne réponse", "Correct answer")} : (${LETTERS[question.answerIndex]}) ${question.options[question.answerIndex]}",
+                tr("Bonne réponse : ", "Correct answer: ") + "(${LETTERS[question.answerIndex]}) ${question.options[question.answerIndex]}",
                 style = type.titleM,
                 color = c.onSurface,
             )
@@ -334,6 +334,7 @@ fun leitnerMessage(label: String, outcome: AnswerOutcome, english: Boolean): Str
         val whenText = if (days == 1) "tomorrow" else "in $days days"
         when {
             !moved -> "$label stays in box ${outcome.boxAfter}: it was not due for review yet."
+            !outcome.correct && before == null -> "$label starts in box 1: review $whenText."
             !outcome.correct -> "$label goes back to box 1: review $whenText."
             else -> "$label moves to box ${outcome.boxAfter} of ${Leitner.LAST_BOX}: review $whenText."
         }
@@ -341,6 +342,7 @@ fun leitnerMessage(label: String, outcome: AnswerOutcome, english: Boolean): Str
         val whenText = if (days == 1) "demain" else "dans $days jours"
         when {
             !moved -> "$label reste en boîte ${outcome.boxAfter} : elle n'était pas encore à réviser."
+            !outcome.correct && before == null -> "$label démarre en boîte 1 : à revoir $whenText."
             !outcome.correct -> "$label revient en boîte 1 : à revoir $whenText."
             else -> "$label passe en boîte ${outcome.boxAfter} sur ${Leitner.LAST_BOX} : à revoir $whenText."
         }
