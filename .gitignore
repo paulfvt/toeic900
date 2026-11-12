@@ -1,0 +1,28 @@
+# Gradle / Android
+.gradle/
+build/
+local.properties
+*.apk
+*.aab
+captures/
+.externalNativeBuild/
+.cxx/
+.kotlin/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Python (pipeline content/)
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Systèmes
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Réglages locaux de Claude Code
+.claude/settings.local.json

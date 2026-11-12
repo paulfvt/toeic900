@@ -1,0 +1,440 @@
+/* =========================================================================
+   TOEIC 900 — Design system (phase exploration)
+   Référence : Material 3 (rôles de couleur, échelle typo, échelle de formes,
+   noms de composants). Tout le visuel passe par des tokens.
+
+   3 directions candidates = 3 jeux de tokens, portés par un attribut :
+     [data-dir="papier" | "elan" | "cockpit"]   (+ [data-mode="dark"])
+   Les classes de composants plus bas sont IDENTIQUES pour les trois.
+   Quand une direction est retenue, son bloc devient :root
+   (et son bloc sombre :root[data-theme="dark"]).
+
+   Couleurs en OKLCH : même teinte, on fait varier la clarté (L) pour
+   construire chaque rampe. Les paires fond / texte sont vérifiées par
+   calcul (WCAG) — voir le script de contrôle.
+   ========================================================================= */
+
+:root{
+  /* ---- Espacement : une seule échelle (grille 4) ---- */
+  --sp-2:2px; --sp-4:4px; --sp-8:8px; --sp-12:12px; --sp-16:16px;
+  --sp-20:20px; --sp-24:24px; --sp-32:32px; --sp-48:48px;
+  --target-min:48px;                 /* cible tactile minimale Android */
+
+  /* ---- Formes : bornes communes ---- */
+  --r-none:0; --r-full:999px;
+
+  /* ---- Icônes : tailles (l'épaisseur du trait dépend de la direction) ---- */
+  --icon-size:24px; --icon-inline:18px; --icon-large:28px;
+
+  /* ---- Mouvement ---- */
+  --dur-fast:120ms; --dur-base:240ms;
+  --ease:cubic-bezier(.2,.8,.2,1);
+  --ease-spring:cubic-bezier(.34,1.4,.5,1);
+}
+
+/* =========================================================================
+   DIRECTION A — « Papier & surligneur »
+   Page d'examen : encre bleu nuit, serif pour les textes, filets fins,
+   jaune surligneur réservé aux points à retenir.
+   ========================================================================= */
+[data-dir="papier"]{
+  --bg:oklch(98.4% .003 260);                 --on-bg:oklch(24% .03 262);
+  --surface:oklch(100% 0 0);                  --on-surface:oklch(24% .03 262);
+  --surface-container:oklch(96.3% .005 260);
+  --surface-container-high:oklch(93.5% .007 260);
+  --muted:oklch(46% .025 262);                --subtle:oklch(54% .02 262);
+  --outline:oklch(62% .02 262);               --outline-variant:oklch(89% .008 262);
+
+  --primary:oklch(31% .1 262);                --on-primary:oklch(100% 0 0);
+  --primary-strong:oklch(24% .09 262);        --primary-ink:oklch(31% .1 262);
+  --primary-container:oklch(93.5% .028 262);  --on-primary-container:oklch(27% .1 262);
+
+  --accent:oklch(90% .17 100);                --on-accent:oklch(26% .05 100);
+  --accent-strong:oklch(80% .16 95);          --accent-ink:oklch(48% .1 85);
+  --accent-container:oklch(94% .11 102);      --on-accent-container:oklch(28% .05 95);
+
+  --success:oklch(48% .12 152);               --on-success:oklch(100% 0 0);
+  --success-ink:oklch(42% .105 152);
+  --success-container:oklch(94% .05 152);     --on-success-container:oklch(30% .075 152);
+  --error:oklch(52% .2 27);                   --on-error:oklch(100% 0 0);
+  --error-ink:oklch(47% .19 27);
+  --error-container:oklch(92.5% .035 25);       --on-error-container:oklch(33% .13 27);
+  --warning:oklch(80% .15 78);                --on-warning:oklch(27% .06 70);
+  --warning-container:oklch(94% .055 85);      --on-warning-container:oklch(34% .07 70);
+
+  /* Typo : serif pour les titres et les textes d'examen, Inter pour l'interface */
+  --font-display:'Source Serif 4',Georgia,'Times New Roman',serif;
+  --font-body:'Inter',system-ui,'Segoe UI',Roboto,sans-serif;
+  --font-reading:'Source Serif 4',Georgia,'Times New Roman',serif;
+  --font-num:'Source Serif 4',Georgia,'Times New Roman',serif;
+  --font-label:'Inter',system-ui,'Segoe UI',Roboto,sans-serif;
+  --w-display:600; --w-title:600; --w-strong:600; --w-label:600; --w-body:400;
+  --track-display:-.02em; --label-case:uppercase; --label-track:.08em;
+  --btn-case:none; --btn-track:0em; --fs-btn:16px;
+  --fs-reading:19px; --lh-reading:1.5;
+
+  /* Formes : angles fins */
+  --r-xs:2px; --r-sm:4px; --r-md:6px; --r-lg:8px; --r-xl:12px;
+  --shape-button:var(--r-md); --shape-chip:var(--r-sm); --shape-card:var(--r-lg);
+  --shape-option:var(--r-md); --shape-sheet:var(--r-xl); --shape-indicator:var(--r-sm);
+  --shape-node:var(--r-lg);
+
+  /* Relief : aucun — des filets d'1 px séparent les surfaces */
+  --border-w:1px; --card-outline:var(--outline-variant);
+  --edge:0px; --edge-color:transparent;
+  --elev-sheet:0 -1px 0 var(--outline-variant),0 -12px 32px oklch(24% .03 262 / .08);
+  --sheet-bg:var(--surface); --nav-bg:var(--surface);
+  --nav-indicator:transparent; --nav-active:var(--primary-ink);
+  --progress-h:4px;
+
+  --icon-stroke:1.6; --icon-cap:round; --icon-join:round;
+
+  /* Densité : aérée */
+  --gap-related:var(--sp-8); --gap-section:var(--sp-24); --gap-major:var(--sp-32);
+  --layout-gutter:var(--sp-24); --control-h:48px;
+}
+[data-dir="papier"][data-mode="dark"]{
+  --bg:oklch(16.5% .008 262);                 --on-bg:oklch(93% .006 262);
+  --surface:oklch(19.5% .01 262);             --on-surface:oklch(93% .006 262);
+  --surface-container:oklch(23% .012 262);
+  --surface-container-high:oklch(27% .014 262);
+  --muted:oklch(76% .015 262);                --subtle:oklch(66% .015 262);
+  --outline:oklch(52% .02 262);               --outline-variant:oklch(32% .014 262);
+
+  --primary:oklch(86% .06 262);               --on-primary:oklch(24% .08 262);
+  --primary-strong:oklch(78% .07 262);        --primary-ink:oklch(86% .06 262);
+  --primary-container:oklch(32% .07 262);     --on-primary-container:oklch(92% .033 262);
+
+  --accent:oklch(88% .16 100);                --on-accent:oklch(26% .05 100);
+  --accent-strong:oklch(78% .15 95);          --accent-ink:oklch(86% .14 98);
+  --accent-container:oklch(36% .07 100);      --on-accent-container:oklch(94% .1 102);
+
+  --success:oklch(74% .15 152);               --on-success:oklch(22% .06 152);
+  --success-ink:oklch(78% .15 152);
+  --success-container:oklch(30% .06 152);     --on-success-container:oklch(90% .08 152);
+  --error:oklch(72% .16 25);                  --on-error:oklch(22% .08 27);
+  --error-ink:oklch(76% .14 25);
+  --error-container:oklch(31% .08 27);        --on-error-container:oklch(90% .05 25);
+  --warning:oklch(82% .14 78);                --on-warning:oklch(27% .06 70);
+  --warning-container:oklch(34% .06 78);      --on-warning-container:oklch(92% .08 85);
+
+  --elev-sheet:0 -1px 0 var(--outline-variant),0 -12px 32px oklch(8% .01 262 / .5);
+}
+
+/* =========================================================================
+   DIRECTION B — « Élan »
+   Commandes épaisses à presser, grands arrondis, une couleur vive (violet)
+   et un ambre pour la série et les XP.
+   ========================================================================= */
+[data-dir="elan"]{
+  --bg:oklch(97.3% .008 290);                 --on-bg:oklch(25% .04 288);
+  --surface:oklch(100% 0 0);                  --on-surface:oklch(25% .04 288);
+  --surface-container:oklch(95.5% .012 290);
+  --surface-container-high:oklch(92.5% .016 290);
+  --muted:oklch(47% .04 288);                 --subtle:oklch(54% .035 288);
+  --outline:oklch(62% .035 288);              --outline-variant:oklch(88% .02 290);
+
+  --primary:oklch(52% .22 288);               --on-primary:oklch(100% 0 0);
+  --primary-strong:oklch(42% .2 288);         --primary-ink:oklch(47% .21 288);
+  --primary-container:oklch(92.5% .034 290);    --on-primary-container:oklch(32% .16 288);
+
+  --accent:oklch(84% .16 82);                 --on-accent:oklch(28% .06 70);
+  --accent-strong:oklch(72% .15 72);          --accent-ink:oklch(50% .105 65);
+  --accent-container:oklch(94% .06 88);       --on-accent-container:oklch(32% .07 70);
+
+  --success:oklch(56% .155 148);              --on-success:oklch(12% .03 150);
+  --success-ink:oklch(44% .115 150);
+  --success-container:oklch(93% .07 150);     --on-success-container:oklch(30% .08 150);
+  --error:oklch(54% .22 27);                  --on-error:oklch(100% 0 0);
+  --error-ink:oklch(48% .185 27);
+  --error-container:oklch(92% .036 25);      --on-error-container:oklch(34% .14 27);
+  --warning:oklch(74% .17 55);                --on-warning:oklch(25% .07 50);
+  --warning-container:oklch(92.5% .045 65);      --on-warning-container:oklch(36% .1 50);
+
+  /* Typo : une sans arrondie pour l'interface, sa variante droite pour lire */
+  --font-display:'Nunito','Segoe UI',system-ui,sans-serif;
+  --font-body:'Nunito','Segoe UI',system-ui,sans-serif;
+  --font-reading:'Nunito Sans','Segoe UI',system-ui,sans-serif;
+  --font-num:'Nunito','Segoe UI',system-ui,sans-serif;
+  --font-label:'Nunito','Segoe UI',system-ui,sans-serif;
+  --w-display:900; --w-title:800; --w-strong:700; --w-label:800; --w-body:500;
+  --track-display:-.01em; --label-case:uppercase; --label-track:.06em;
+  --btn-case:uppercase; --btn-track:.04em; --fs-btn:15px;
+  --fs-reading:18px; --lh-reading:1.5;
+
+  /* Formes : grands arrondis */
+  --r-xs:6px; --r-sm:10px; --r-md:14px; --r-lg:18px; --r-xl:22px;
+  --shape-button:var(--r-lg); --shape-chip:var(--r-full); --shape-card:var(--r-xl);
+  --shape-option:var(--r-lg); --shape-sheet:28px; --shape-indicator:var(--r-full);
+  --shape-node:var(--r-full);
+
+  /* Relief : bordure 2 px + tranche pleine sous les éléments pressables */
+  --border-w:2px; --card-outline:var(--outline-variant);
+  --edge:4px; --edge-color:var(--outline-variant);
+  --elev-sheet:0 -2px 0 var(--outline-variant);
+  --sheet-bg:var(--surface); --nav-bg:var(--surface);
+  --nav-indicator:var(--primary-container); --nav-active:var(--on-primary-container);
+  --progress-h:14px;
+
+  --icon-stroke:2.4; --icon-cap:round; --icon-join:round;
+
+  /* Densité : confortable, grandes cibles */
+  --gap-related:var(--sp-8); --gap-section:var(--sp-20); --gap-major:var(--sp-32);
+  --layout-gutter:var(--sp-20); --control-h:52px;
+}
+[data-dir="elan"][data-mode="dark"]{
+  --bg:oklch(17.5% .02 290);                  --on-bg:oklch(94% .01 290);
+  --surface:oklch(21% .025 290);              --on-surface:oklch(94% .01 290);
+  --surface-container:oklch(25% .03 290);
+  --surface-container-high:oklch(29% .034 290);
+  --muted:oklch(78% .03 290);                 --subtle:oklch(68% .03 290);
+  --outline:oklch(55% .04 290);               --outline-variant:oklch(34% .035 290);
+
+  --primary:oklch(74% .135 290);               --on-primary:oklch(20% .09 288);
+  --primary-strong:oklch(60% .17 290);        --primary-ink:oklch(80% .095 290);
+  --primary-container:oklch(34% .12 288);     --on-primary-container:oklch(92% .035 290);
+
+  --accent:oklch(84% .16 82);                 --on-accent:oklch(28% .06 70);
+  --accent-strong:oklch(70% .15 72);          --accent-ink:oklch(86% .15 84);
+  --accent-container:oklch(36% .07 80);       --on-accent-container:oklch(92% .085 88);
+
+  --success:oklch(76% .19 148);               --on-success:oklch(20% .06 150);
+  --success-ink:oklch(80% .18 148);
+  --success-container:oklch(31% .08 150);     --on-success-container:oklch(90% .1 150);
+  --error:oklch(70% .18 25);                  --on-error:oklch(20% .08 27);
+  --error-ink:oklch(76% .13 25);
+  --error-container:oklch(32% .1 27);         --on-error-container:oklch(90% .05 25);
+  --warning:oklch(78% .15 60);                --on-warning:oklch(25% .07 50);
+  --warning-container:oklch(34% .07 60);      --on-warning-container:oklch(90% .07 70);
+}
+
+/* =========================================================================
+   DIRECTION C — « Cockpit »
+   Tableau de bord : surfaces tonales sans bordure, chiffres à chasse fixe,
+   un seul bleu signal. Pensée d'abord pour le sombre.
+   ========================================================================= */
+[data-dir="cockpit"]{
+  --bg:oklch(96.8% .006 250);                 --on-bg:oklch(23% .03 250);
+  --surface:oklch(100% 0 0);                  --on-surface:oklch(23% .03 250);
+  --surface-container:oklch(94.3% .008 250);
+  --surface-container-high:oklch(91% .012 250);
+  --muted:oklch(45% .03 250);                 --subtle:oklch(53% .028 250);
+  --outline:oklch(60% .028 250);              --outline-variant:oklch(87% .012 250);
+
+  --primary:oklch(47% .115 248);               --on-primary:oklch(100% 0 0);
+  --primary-strong:oklch(39% .1 248);        --primary-ink:oklch(44% .11 248);
+  --primary-container:oklch(92% .035 240);     --on-primary-container:oklch(30% .08 248);
+
+  --accent:oklch(80% .15 78);                 --on-accent:oklch(26% .06 70);
+  --accent-strong:oklch(70% .14 72);          --accent-ink:oklch(48% .1 68);
+  --accent-container:oklch(94% .055 85);     --on-accent-container:oklch(32% .07 70);
+
+  --success:oklch(48% .12 155);               --on-success:oklch(100% 0 0);
+  --success-ink:oklch(42% .095 155);
+  --success-container:oklch(93.5% .05 155);   --on-success-container:oklch(30% .08 155);
+  --error:oklch(52% .19 25);                  --on-error:oklch(100% 0 0);
+  --error-ink:oklch(47% .18 25);
+  --error-container:oklch(92.5% .035 22);       --on-error-container:oklch(33% .13 25);
+  --warning:oklch(78% .15 65);                --on-warning:oklch(25% .07 55);
+  --warning-container:oklch(92.5% .048 70);    --on-warning-container:oklch(35% .09 55);
+
+  /* Typo : une seule famille technique, sa version mono pour chiffres et étiquettes */
+  --font-display:'IBM Plex Sans','Segoe UI',system-ui,sans-serif;
+  --font-body:'IBM Plex Sans','Segoe UI',system-ui,sans-serif;
+  --font-reading:'IBM Plex Sans','Segoe UI',system-ui,sans-serif;
+  --font-num:'IBM Plex Mono',ui-monospace,Consolas,monospace;
+  --font-label:'IBM Plex Mono',ui-monospace,Consolas,monospace;
+  --w-display:500; --w-title:600; --w-strong:600; --w-label:500; --w-body:400;
+  --track-display:-.03em; --label-case:uppercase; --label-track:.08em;
+  --btn-case:none; --btn-track:0em; --fs-btn:16px;
+  --fs-reading:17px; --lh-reading:1.55;
+
+  /* Formes : arrondis moyens */
+  --r-xs:3px; --r-sm:6px; --r-md:10px; --r-lg:14px; --r-xl:20px;
+  --shape-button:var(--r-md); --shape-chip:var(--r-sm); --shape-card:var(--r-lg);
+  --shape-option:var(--r-md); --shape-sheet:var(--r-xl); --shape-indicator:var(--r-md);
+  --shape-node:var(--r-md);
+
+  /* Relief : tonal — pas de bordure de carte, la teinte sépare les surfaces */
+  --border-w:1px; --card-outline:transparent;
+  --edge:0px; --edge-color:transparent;
+  --elev-sheet:0 -12px 32px oklch(23% .03 250 / .14);
+  --sheet-bg:var(--surface-container-high); --nav-bg:var(--surface-container);
+  --nav-indicator:var(--primary-container); --nav-active:var(--on-primary-container);
+  --progress-h:6px;
+
+  --icon-stroke:1.8; --icon-cap:butt; --icon-join:miter;
+
+  /* Densité : compacte */
+  --gap-related:var(--sp-8); --gap-section:var(--sp-20); --gap-major:var(--sp-24);
+  --layout-gutter:var(--sp-20); --control-h:48px;
+}
+[data-dir="cockpit"][data-mode="dark"]{
+  --bg:oklch(16.5% .015 250);                 --on-bg:oklch(93% .008 250);
+  --surface:oklch(20.5% .018 250);            --on-surface:oklch(93% .008 250);
+  --surface-container:oklch(24.5% .02 250);
+  --surface-container-high:oklch(29% .022 250);
+  --muted:oklch(76% .02 250);                 --subtle:oklch(66% .02 250);
+  --outline:oklch(54% .025 250);              --outline-variant:oklch(33% .02 250);
+
+  --primary:oklch(80% .115 225);              --on-primary:oklch(21% .05 235);
+  --primary-strong:oklch(70% .12 228);        --primary-ink:oklch(82% .1 225);
+  --primary-container:oklch(31% .06 235);     --on-primary-container:oklch(91% .05 225);
+
+  --accent:oklch(82% .14 78);                 --on-accent:oklch(26% .06 70);
+  --accent-strong:oklch(72% .14 72);          --accent-ink:oklch(84% .13 80);
+  --accent-container:oklch(35% .06 80);       --on-accent-container:oklch(92% .075 85);
+
+  --success:oklch(76% .15 155);               --on-success:oklch(21% .05 155);
+  --success-ink:oklch(80% .14 155);
+  --success-container:oklch(30% .06 155);     --on-success-container:oklch(90% .08 155);
+  --error:oklch(72% .16 22);                  --on-error:oklch(21% .08 25);
+  --error-ink:oklch(77% .13 22);
+  --error-container:oklch(31% .08 25);        --on-error-container:oklch(90% .05 22);
+  --warning:oklch(80% .15 65);                --on-warning:oklch(25% .07 55);
+  --warning-container:oklch(34% .07 65);      --on-warning-container:oklch(91% .065 75);
+
+  --elev-sheet:0 -16px 40px oklch(10% .02 250 / .45);
+}
+
+/* Tokens dérivés, communs aux trois directions */
+[data-dir]{
+  --focus-ring:0 0 0 2px var(--surface),0 0 0 4px var(--primary);
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+
+/* =========================================================================
+   TYPOGRAPHIE — noms de l'échelle Material 3. Familles et graisses = tokens.
+   ========================================================================= */
+.t-display{font:var(--w-display) 64px/1 var(--font-num);letter-spacing:var(--track-display);font-variant-numeric:tabular-nums lining-nums}
+.t-headline{font:var(--w-title) 24px/1.2 var(--font-display);letter-spacing:var(--track-display)}
+.t-title-l{font:var(--w-title) 20px/1.25 var(--font-display)}
+.t-title-m{font:var(--w-strong) 16px/1.3 var(--font-body)}
+.t-body-l{font:var(--w-body) 16px/1.5 var(--font-body)}
+.t-body-m{font:var(--w-body) 14px/1.45 var(--font-body)}
+.t-label-l{font:var(--w-label) 14px/1.3 var(--font-body)}
+.t-label-s{font:var(--w-label) 11px/1.3 var(--font-label);letter-spacing:var(--label-track);text-transform:var(--label-case);color:var(--muted)}
+/* texte d'examen (énoncés, passages, options) : sa propre police de lecture */
+.t-reading{font:400 var(--fs-reading)/var(--lh-reading) var(--font-reading)}
+.strong{font-weight:var(--w-strong)}
+.muted{color:var(--muted)}
+.num{font-family:var(--font-num);font-variant-numeric:tabular-nums lining-nums}
+.link{color:var(--primary-ink);text-decoration:none;cursor:pointer}
+.tone-accent{color:var(--accent-ink)}
+mark{background:var(--accent);color:var(--on-accent);padding:0 var(--sp-4);border-radius:var(--r-xs)}
+
+/* =========================================================================
+   COMPOSANTS — ne référencent que des tokens.
+   ========================================================================= */
+
+/* Icône (sprite SVG en ligne) */
+.ico{width:var(--icon-size);height:var(--icon-size);flex:0 0 auto;display:inline-block;vertical-align:middle;
+  fill:none;stroke:currentColor;stroke-width:var(--icon-stroke);stroke-linecap:var(--icon-cap);stroke-linejoin:var(--icon-join)}
+.ico--sm{--icon-size:var(--icon-inline)}
+.ico--lg{--icon-size:var(--icon-large)}
+
+/* Boutons : filled / tonal / outlined / text */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:var(--sp-8);
+  min-height:var(--control-h);padding:0 var(--sp-20);
+  border:var(--border-w) solid transparent;border-radius:var(--shape-button);
+  background:transparent;color:var(--primary-ink);
+  font:var(--w-label) var(--fs-btn)/1 var(--font-body);letter-spacing:var(--btn-track);text-transform:var(--btn-case);
+  cursor:pointer;transition:transform var(--dur-fast) var(--ease),filter var(--dur-fast) var(--ease)}
+.btn-filled{background:var(--primary);color:var(--on-primary);box-shadow:0 var(--edge) 0 var(--primary-strong);margin-bottom:var(--edge)}
+.btn-filled:hover{filter:brightness(1.06)}
+.btn-filled:active{transform:translateY(var(--edge));box-shadow:none}
+.btn-tonal{background:var(--primary-container);color:var(--on-primary-container)}
+.btn-outlined{background:var(--surface);border-color:var(--outline);box-shadow:0 var(--edge) 0 var(--edge-color);margin-bottom:var(--edge)}
+.btn-text{padding:0 var(--sp-12)}
+.btn-block{width:100%}
+.btn.is-disabled{opacity:.4;cursor:not-allowed}
+.btn:focus-visible,.icon-btn:focus-visible{outline:none;box-shadow:var(--focus-ring)}
+
+/* Bouton icône */
+.icon-btn{width:var(--target-min);height:var(--target-min);flex:0 0 auto;display:grid;place-items:center;
+  border:0;border-radius:var(--r-full);background:transparent;color:var(--on-surface);cursor:pointer}
+
+/* Chip */
+.chip{display:inline-flex;align-items:center;gap:var(--sp-4);height:32px;padding:0 var(--sp-12);
+  border:var(--border-w) solid var(--outline-variant);border-radius:var(--shape-chip);
+  background:var(--surface);color:var(--on-surface);font:var(--w-label) 13px/1 var(--font-body);white-space:nowrap}
+.chip-tonal{border-color:transparent;background:var(--surface-container-high)}
+.chip.is-selected{border-color:transparent;background:var(--primary-container);color:var(--on-primary-container)}
+
+/* Cartes : outlined / filled / tonal */
+.card{border-radius:var(--shape-card);padding:var(--sp-16)}
+.card-outlined{background:var(--surface);color:var(--on-surface);border:var(--border-w) solid var(--card-outline);
+  box-shadow:0 var(--edge) 0 var(--edge-color);margin-bottom:var(--edge)}
+.card-filled{background:var(--primary-container);color:var(--on-primary-container)}
+.card-filled .t-label-s,.card-filled .muted,.card-filled .link{color:var(--on-primary-container)}
+.card-filled .link{text-decoration:underline;text-underline-offset:3px}
+.card-tonal{background:var(--surface-container);color:var(--on-surface)}
+
+/* Barre de progression linéaire */
+.progress-linear{height:var(--progress-h);border-radius:var(--r-full);background:var(--surface-container-high);overflow:hidden}
+.progress-linear .bar{height:100%;border-radius:var(--r-full);background:var(--primary)}
+.card-filled .progress-linear{background:color-mix(in oklab,var(--on-primary-container) 16%,transparent)}
+
+/* Élément de liste + séparateur */
+.list-item{display:flex;align-items:center;gap:var(--sp-12);min-height:40px}
+.grow{flex:1;min-width:0}
+.divider{height:1px;border:0;background:var(--outline-variant)}
+
+/* Barre d'application (haut) */
+.appbar{height:64px;flex:0 0 auto;display:flex;align-items:center;gap:var(--sp-8);padding:0 var(--sp-8);color:var(--on-surface)}
+.appbar-title{flex:1;min-width:0;padding-left:calc(var(--layout-gutter) - var(--sp-8))}
+.appbar-end{padding-right:var(--sp-12)}
+
+/* Barre de navigation (bas) */
+.navbar{height:80px;flex:0 0 auto;display:flex;background:var(--nav-bg);border-top:var(--border-w) solid var(--card-outline)}
+.navbar .ni{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:var(--sp-4);
+  color:var(--muted);font:var(--w-label) 11px/1 var(--font-body);text-decoration:none;cursor:pointer}
+.navbar .ind{width:56px;height:32px;display:grid;place-items:center;border-radius:var(--shape-indicator)}
+.navbar .ni.is-selected{color:var(--on-surface)}
+.navbar .ni.is-selected .ind{background:var(--nav-indicator);color:var(--nav-active)}
+
+/* Option de réponse (extension : sélection, spécifique à l'app)
+   états : défaut / is-correct / is-wrong */
+.option{display:flex;align-items:center;gap:var(--sp-12);min-height:var(--control-h);padding:0 var(--sp-12);
+  border:var(--border-w) solid var(--outline);border-radius:var(--shape-option);
+  background:var(--surface);color:var(--on-surface);
+  box-shadow:0 var(--edge) 0 var(--edge-color);margin-bottom:var(--edge);cursor:pointer}
+.option .key{width:28px;height:28px;flex:0 0 auto;display:grid;place-items:center;
+  border:var(--border-w) solid var(--outline-variant);border-radius:var(--shape-chip);
+  font:var(--w-label) 13px/1 var(--font-label);color:var(--muted)}
+.option .txt{flex:1;min-width:0;font:400 var(--fs-reading)/1.3 var(--font-reading)}
+.option.is-correct{--edge-color:var(--success);background:var(--success-container);border-color:var(--success);color:var(--on-success-container)}
+.option.is-wrong{--edge-color:var(--error);background:var(--error-container);border-color:var(--error);color:var(--on-error-container)}
+.option.is-correct .key,.option.is-wrong .key{border-color:currentColor;color:inherit}
+
+/* Feuille du bas (bottom sheet) + variante de correction */
+.sheet{background:var(--sheet-bg);color:var(--on-surface);border-radius:var(--shape-sheet) var(--shape-sheet) 0 0;
+  box-shadow:var(--elev-sheet);padding:var(--sp-12) var(--layout-gutter) var(--sp-20)}
+.sheet-handle{width:32px;height:4px;margin:0 auto var(--sp-12);border-radius:var(--r-full);background:var(--outline-variant)}
+.fb-head{display:flex;align-items:center;gap:var(--sp-8)}
+.sheet.is-wrong .fb-head{color:var(--error-ink)}
+.sheet.is-correct .fb-head{color:var(--success-ink)}
+
+/* Encadré « à retenir » (extension) */
+.callout{display:flex;gap:var(--sp-12);padding:var(--sp-12);border-radius:var(--shape-option);
+  background:var(--accent-container);color:var(--on-accent-container)}
+.callout .t-label-s{color:inherit}
+
+/* Étape du chemin de leçons (extension) — états : is-done / is-current / is-locked */
+.path{display:flex;flex-direction:column;gap:var(--sp-16)}
+.path-step{display:flex;align-items:center;gap:var(--sp-16)}
+.path-step:nth-child(4n+2),.path-step:nth-child(4n){margin-left:36px}
+.path-step:nth-child(4n+3){margin-left:72px}
+.node{width:60px;height:60px;flex:0 0 auto;display:grid;place-items:center;border-radius:var(--shape-node);
+  box-shadow:0 var(--edge) 0 var(--edge-color);margin-bottom:var(--edge)}
+.node.is-done{--edge-color:var(--success);background:var(--success-container);color:var(--on-success-container)}
+.node.is-current{--edge-color:var(--primary-strong);background:var(--primary);color:var(--on-primary);
+  outline:var(--border-w) solid var(--primary);outline-offset:3px}
+.node.is-locked{--edge-color:var(--outline-variant);background:var(--surface-container-high);color:var(--subtle)}
+
+/* Suivi de la semaine (extension) — états : défaut / is-done / is-today */
+.weekdots{display:flex;gap:var(--sp-4)}
+.wd{width:14px;height:14px;border-radius:calc(var(--shape-node) / 4);background:var(--surface-container-high)}
+.wd.is-done{background:var(--accent);box-shadow:inset 0 0 0 2px var(--accent-ink)}
+.wd.is-today{background:transparent;box-shadow:inset 0 0 0 2px var(--primary)}
