@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Seules couleurs en XML : celles dont Android a besoin avant le démarrage de Compose.
+         La palette complète est dans ui/theme/Color.kt. -->
+    <color name="window_background">#F6F5FB</color>
+    <color name="launcher_background">#6A43DD</color>
+</resources>
