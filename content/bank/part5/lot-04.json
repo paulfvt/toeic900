@@ -1,0 +1,1086 @@
+{
+  "part": 5,
+  "pool": "training",
+  "questions": [
+    {
+      "id": "p5-0091",
+      "part": 5,
+      "tags": [
+        "prepositions"
+      ],
+      "difficulty": 2,
+      "stem": "All invoices must be submitted ------- Friday at noon so that payments can be processed before the end of the month.",
+      "options": [
+        "by",
+        "until",
+        "during",
+        "since"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "« submitted » est un événement ponctuel et « Friday at noon » est une date limite : « by » signifie « au plus tard à ».",
+          "distractors": {
+            "B": "« until » indique qu'une action dure jusqu'à un moment ; « submitted » ne dure pas.",
+            "C": "« during » est suivi d'une période (« during the meeting »), pas d'une échéance précise.",
+            "D": "« since » marque un point de départ dans le passé, alors que « Friday at noon » est une échéance à venir."
+          },
+          "trap": "Verbe ponctuel + échéance → « by » ; action qui dure jusqu'à un moment → « until »."
+        },
+        "en": {
+          "rule": "\"submitted\" is a one-time event and \"Friday at noon\" is a deadline: \"by\" means \"no later than\".",
+          "distractors": {
+            "B": "\"until\" shows that an action continues up to a point in time; \"submitted\" does not last.",
+            "C": "\"during\" takes a period (\"during the meeting\"), not a precise deadline.",
+            "D": "\"since\" marks a starting point in the past, but \"Friday at noon\" is an upcoming deadline."
+          },
+          "trap": "One-time action + deadline = \"by\"; ongoing action up to a time = \"until\"."
+        }
+      }
+    },
+    {
+      "id": "p5-0092",
+      "part": 5,
+      "tags": [
+        "prepositions"
+      ],
+      "difficulty": 2,
+      "stem": "The printer has been out of service ------- three days, and the technician has not yet identified the problem.",
+      "options": [
+        "since",
+        "during",
+        "for",
+        "within"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "« three days » est une durée, et le présent parfait « has been » appelle « for » + durée.",
+          "distractors": {
+            "A": "« since » se construit avec un point de départ (« since Monday »), pas avec une durée.",
+            "B": "« during » répond à « quand ? » et se place avant un événement ou une période nommée, pas avant une durée chiffrée.",
+            "D": "« within » signifie « dans un délai de » et regarde vers l'avenir ; il ne décrit pas une panne déjà en cours."
+          },
+          "trap": "Durée chiffrée → « for » ; point de départ → « since » ; événement ou période nommée → « during »."
+        },
+        "en": {
+          "rule": "\"three days\" is a length of time, and the present perfect \"has been\" calls for \"for\" + duration.",
+          "distractors": {
+            "A": "\"since\" takes a starting point (\"since Monday\"), not a length of time.",
+            "B": "\"during\" answers \"when?\" and goes before a named event or period, not a counted duration.",
+            "D": "\"within\" means \"inside a time limit\" and looks forward; it does not describe a breakdown already under way."
+          },
+          "trap": "Counted duration = \"for\"; starting point = \"since\"; named event = \"during\"."
+        }
+      }
+    },
+    {
+      "id": "p5-0093",
+      "part": 5,
+      "tags": [
+        "prepositions"
+      ],
+      "difficulty": 2,
+      "stem": "The training session for new hires will begin ------- 9:00 a.m. sharp in the main conference room.",
+      "options": [
+        "on",
+        "in",
+        "at",
+        "to"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "Devant une heure précise (« 9:00 a.m. »), on utilise « at ».",
+          "distractors": {
+            "A": "« on » s'emploie avec un jour ou une date (« on Monday »), pas avec une heure.",
+            "B": "« in » s'emploie avec un mois, une année ou un moment de la journée (« in the morning »), pas avec une heure exacte.",
+            "D": "« to » n'introduit pas un moment ; « begin to » serait suivi d'un verbe."
+          },
+          "trap": "Heure précise → « at » ; jour ou date → « on » ; mois, année, partie de la journée → « in »."
+        },
+        "en": {
+          "rule": "Before an exact time (\"9:00 a.m.\"), use \"at\".",
+          "distractors": {
+            "A": "\"on\" goes with a day or date (\"on Monday\"), not a clock time.",
+            "B": "\"in\" goes with a month, a year or a part of the day (\"in the morning\"), not an exact time.",
+            "D": "\"to\" does not introduce a point in time; \"begin to\" would need a verb after it."
+          },
+          "trap": "Exact time = \"at\"; day or date = \"on\"; month, year, part of day = \"in\"."
+        }
+      }
+    },
+    {
+      "id": "p5-0094",
+      "part": 5,
+      "tags": [
+        "prepositions"
+      ],
+      "difficulty": 1,
+      "stem": "The warehouse manager is responsible ------- ensuring that all shipments are inspected before they leave the dock.",
+      "options": [
+        "of",
+        "for",
+        "to",
+        "with"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "L'adjectif « responsible » se construit avec « for » : « responsible for ensuring ».",
+          "distractors": {
+            "A": "« responsible of » n'existe pas en anglais ; le français « responsable de » induit cette erreur.",
+            "C": "« responsible to » existe, mais devant une personne (« responsible to the director »), et pas devant un -ing.",
+            "D": "« with » ne se combine pas avec « responsible » pour dire « chargé de »."
+          },
+          "trap": "« responsible for » + nom ou -ing (et non « of »)."
+        },
+        "en": {
+          "rule": "The adjective \"responsible\" is followed by \"for\": \"responsible for ensuring\".",
+          "distractors": {
+            "A": "\"responsible of\" does not exist in English; the French \"responsable de\" causes this mistake.",
+            "C": "\"responsible to\" exists, but before a person (\"responsible to the director\"), not before an -ing form.",
+            "D": "\"with\" does not combine with \"responsible\" to mean \"in charge of\"."
+          },
+          "trap": "\"responsible for\" + noun or -ing (not \"of\")."
+        }
+      }
+    },
+    {
+      "id": "p5-0095",
+      "part": 5,
+      "tags": [
+        "prepositions"
+      ],
+      "difficulty": 3,
+      "stem": "------- accordance with company policy, all expense reports must be accompanied by original receipts for purchases over fifty dollars.",
+      "options": [
+        "In",
+        "With",
+        "As",
+        "Under"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "« in accordance with » est une locution figée qui signifie « conformément à » ; on n'y change aucun mot.",
+          "distractors": {
+            "B": "« with accordance » n'existe pas : seule la forme « in accordance with » est correcte.",
+            "C": "« as » ne forme pas de locution avec « accordance ».",
+            "D": "« under company policy » serait possible, mais « under accordance with » ne l'est pas : la locution exige « in »."
+          },
+          "trap": "Les locutions prépositionnelles sont figées : « in accordance with », « on behalf of », « prior to »."
+        },
+        "en": {
+          "rule": "\"in accordance with\" is a fixed phrase meaning \"following the rules of\"; none of its words can change.",
+          "distractors": {
+            "B": "\"with accordance\" does not exist: only \"in accordance with\" is correct.",
+            "C": "\"as\" does not form a phrase with \"accordance\".",
+            "D": "\"under company policy\" would work, but \"under accordance with\" does not: the phrase requires \"in\"."
+          },
+          "trap": "Prepositional phrases are fixed: \"in accordance with\", \"on behalf of\", \"prior to\"."
+        }
+      }
+    },
+    {
+      "id": "p5-0096",
+      "part": 5,
+      "tags": [
+        "prepositions"
+      ],
+      "difficulty": 2,
+      "stem": "The shipping department is located ------- the hall from the main lobby, so visitors can easily find it.",
+      "options": [
+        "across",
+        "through",
+        "beyond",
+        "along"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "« from the main lobby » complète la locution « across the hall from », qui situe un lieu en face d'un autre.",
+          "distractors": {
+            "B": "« through » indique un passage à l'intérieur de quelque chose, pas une position en face.",
+            "C": "« beyond » signifie « au-delà de » et ne se construit pas avec « the hall from ».",
+            "D": "« along » suit la longueur de quelque chose ; « along the hall from » n'est pas une construction correcte."
+          },
+          "trap": "« across (the hall) from » = en face de."
+        },
+        "en": {
+          "rule": "\"from the main lobby\" completes the phrase \"across the hall from\", which places one location opposite another.",
+          "distractors": {
+            "B": "\"through\" shows movement inside something, not a position opposite.",
+            "C": "\"beyond\" means \"farther than\" and is not used with \"the hall from\".",
+            "D": "\"along\" follows the length of something; \"along the hall from\" is not a correct structure."
+          },
+          "trap": "\"across (the hall) from\" = opposite."
+        }
+      }
+    },
+    {
+      "id": "p5-0097",
+      "part": 5,
+      "tags": [
+        "prepositions"
+      ],
+      "difficulty": 1,
+      "stem": "There has been a sharp increase ------- demand for electric bicycles since the city opened new bike lanes.",
+      "options": [
+        "for",
+        "in",
+        "with",
+        "by"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "Le nom « increase » se construit avec « in » pour dire ce qui augmente : « an increase in demand ».",
+          "distractors": {
+            "A": "« for » n'est pas la préposition associée à « increase » pour nommer ce qui augmente.",
+            "C": "« with » ne se combine pas avec « increase » dans ce sens.",
+            "D": "« by » s'emploie pour la mesure (« increased by 5 % »), pas pour nommer ce qui augmente."
+          },
+          "trap": "« an increase / a decrease in » + ce qui varie."
+        },
+        "en": {
+          "rule": "The noun \"increase\" takes \"in\" to name what rises: \"an increase in demand\".",
+          "distractors": {
+            "A": "\"for\" is not the preposition that goes with \"increase\" to name what rises.",
+            "C": "\"with\" does not combine with \"increase\" in this sense.",
+            "D": "\"by\" gives the size of a change (\"increased by 5%\"), not what is changing."
+          },
+          "trap": "\"an increase / a decrease in\" + the thing that changes."
+        }
+      }
+    },
+    {
+      "id": "p5-0098",
+      "part": 5,
+      "tags": [
+        "prepositions"
+      ],
+      "difficulty": 3,
+      "stem": "The membership fee is identical for all participants, ------- of how many sessions they attend during the year.",
+      "options": [
+        "regarding",
+        "regarded",
+        "regards",
+        "regardless"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "Devant « of », seule la locution « regardless of » (« quel que soit ») convient, et le sens colle : le tarif ne change pas selon le nombre de séances.",
+          "distractors": {
+            "A": "« regarding » signifie « concernant » et se construit sans « of » : « regarding the fee ».",
+            "B": "« regarded » est un participe (« is regarded as »), qui ne forme pas de locution avec « of ».",
+            "C": "« regards » est un nom (« best regards ») ou un verbe, pas une préposition suivie de « of »."
+          },
+          "trap": "« regardless of » = quel que soit ; « regarding » = concernant (sans « of »)."
+        },
+        "en": {
+          "rule": "Before \"of\", only the phrase \"regardless of\" (\"no matter\") fits, and the meaning works: the fee does not change with the number of sessions.",
+          "distractors": {
+            "A": "\"regarding\" means \"about\" and takes no \"of\": \"regarding the fee\".",
+            "B": "\"regarded\" is a participle (\"is regarded as\") and does not form a phrase with \"of\".",
+            "C": "\"regards\" is a noun (\"best regards\") or a verb, not a preposition followed by \"of\"."
+          },
+          "trap": "\"regardless of\" = no matter; \"regarding\" = about (no \"of\")."
+        }
+      }
+    },
+    {
+      "id": "p5-0099",
+      "part": 5,
+      "tags": [
+        "conjunctions-connectors"
+      ],
+      "difficulty": 2,
+      "stem": "Customers may pay either by credit card ------- by bank transfer, but cash is not accepted at this branch.",
+      "options": [
+        "and",
+        "but",
+        "nor",
+        "or"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "« either » ouvre un choix entre deux options et se complète toujours par « or » : « either … or ».",
+          "distractors": {
+            "A": "« either … and » n'existe pas : « either » annonce « or ».",
+            "B": "« but » oppose deux idées ; ici on propose deux moyens de paiement équivalents.",
+            "C": "« nor » accompagne « neither » (« neither … nor »), pas « either »."
+          },
+          "trap": "either … or ; neither … nor ; both … and ; not only … but also."
+        },
+        "en": {
+          "rule": "\"either\" opens a choice between two options and is always completed by \"or\": \"either … or\".",
+          "distractors": {
+            "A": "\"either … and\" does not exist: \"either\" is followed by \"or\".",
+            "B": "\"but\" contrasts two ideas; here two equal payment methods are offered.",
+            "C": "\"nor\" goes with \"neither\" (\"neither … nor\"), not with \"either\"."
+          },
+          "trap": "either … or; neither … nor; both … and; not only … but also."
+        }
+      }
+    },
+    {
+      "id": "p5-0100",
+      "part": 5,
+      "tags": [
+        "conjunctions-connectors"
+      ],
+      "difficulty": 1,
+      "stem": "The receptionist answered several calls ------- the manager was meeting with the investors in the boardroom.",
+      "options": [
+        "during",
+        "while",
+        "despite",
+        "because of"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "Le trou est suivi d'une proposition complète (« the manager was meeting ») et deux actions se déroulent en même temps : « while ».",
+          "distractors": {
+            "A": "« during » est une préposition : elle se place devant un nom (« during the meeting »), pas devant sujet + verbe.",
+            "C": "« despite » est une préposition de concession ; de plus, il n'y a aucune opposition entre les deux actions.",
+            "D": "« because of » est une préposition de cause suivie d'un nom, et le réceptionniste ne répond pas aux appels à cause de la réunion."
+          },
+          "trap": "Sujet + verbe → « while » ; nom → « during »."
+        },
+        "en": {
+          "rule": "The blank is followed by a full clause (\"the manager was meeting\") and two actions happen at the same time: \"while\".",
+          "distractors": {
+            "A": "\"during\" is a preposition: it goes before a noun (\"during the meeting\"), not before subject + verb.",
+            "C": "\"despite\" is a preposition of contrast; also, nothing in the two actions is in opposition.",
+            "D": "\"because of\" is a preposition of cause followed by a noun, and the receptionist does not answer calls because of the meeting."
+          },
+          "trap": "Subject + verb = \"while\"; noun = \"during\"."
+        }
+      }
+    },
+    {
+      "id": "p5-0101",
+      "part": 5,
+      "tags": [
+        "conjunctions-connectors"
+      ],
+      "difficulty": 1,
+      "stem": "The seminar was moved to a larger room ------- more than two hundred people had registered to attend.",
+      "options": [
+        "because of",
+        "despite",
+        "unless",
+        "because"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "Le trou est suivi d'un sujet et d'un verbe (« people had registered ») et la proposition donne la cause du changement de salle : « because ».",
+          "distractors": {
+            "A": "« because of » est suivi d'un nom, pas d'une proposition avec sujet + verbe.",
+            "B": "« despite » est une préposition de concession ; l'inscription nombreuse n'est pas en contradiction avec le changement de salle.",
+            "C": "« unless » signifie « à moins que » et exprime une condition, pas une cause."
+          },
+          "trap": "« because » + sujet + verbe ; « because of » + nom."
+        },
+        "en": {
+          "rule": "The blank is followed by a subject and a verb (\"people had registered\") and the clause gives the cause of the room change: \"because\".",
+          "distractors": {
+            "A": "\"because of\" is followed by a noun, not by a clause with subject + verb.",
+            "B": "\"despite\" is a preposition of contrast; many registrations do not contradict the move to a larger room.",
+            "C": "\"unless\" means \"if not\" and expresses a condition, not a cause."
+          },
+          "trap": "\"because\" + subject + verb; \"because of\" + noun."
+        }
+      }
+    },
+    {
+      "id": "p5-0102",
+      "part": 5,
+      "tags": [
+        "conjunctions-connectors"
+      ],
+      "difficulty": 3,
+      "stem": "The new training program not only reduced onboarding time for recent graduates ------- also improved their long-term retention rates.",
+      "options": [
+        "or",
+        "so",
+        "but",
+        "as"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "« not only » forme une paire corrélative avec « but also » : « not only … but also ». L'élément intercalé (« for recent graduates ») ne change pas la paire.",
+          "distractors": {
+            "A": "« or » accompagne « either », pas « not only ».",
+            "B": "« so » exprime la conséquence ; « not only … so also » n'existe pas.",
+            "D": "« as » compare ou donne une cause ; il ne complète pas « not only »."
+          },
+          "trap": "« not only » appelle toujours « but also », même si un groupe de mots les sépare."
+        },
+        "en": {
+          "rule": "\"not only\" forms a correlative pair with \"but also\": \"not only … but also\". The words in between (\"for recent graduates\") do not change the pair.",
+          "distractors": {
+            "A": "\"or\" goes with \"either\", not with \"not only\".",
+            "B": "\"so\" expresses a result; \"not only … so also\" does not exist.",
+            "D": "\"as\" compares or gives a reason; it does not complete \"not only\"."
+          },
+          "trap": "\"not only\" always calls for \"but also\", even when other words come between them."
+        }
+      }
+    },
+    {
+      "id": "p5-0103",
+      "part": 5,
+      "tags": [
+        "conjunctions-connectors"
+      ],
+      "difficulty": 2,
+      "stem": "The refund will not be issued ------- the customer returns the product in its original packaging within thirty days.",
+      "options": [
+        "if",
+        "unless",
+        "although",
+        "whether"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "« will not be issued unless … » signifie « ne sera pas versé, sauf si » : le remboursement dépend du retour du produit.",
+          "distractors": {
+            "A": "« will not be issued if the customer returns » dirait exactement le contraire : pas de remboursement quand le produit est retourné.",
+            "C": "« although » exprime une concession, alors qu'il s'agit ici d'une condition.",
+            "D": "« whether » introduit une alternative (« whether or not ») et ne s'emploie pas ainsi après un verbe passif."
+          },
+          "trap": "« not … unless » = « not … sauf si » ; « if » avec une négation change le sens."
+        },
+        "en": {
+          "rule": "\"will not be issued unless …\" means \"will be issued only if\": the refund depends on the product being returned.",
+          "distractors": {
+            "A": "\"will not be issued if the customer returns\" would say the opposite: no refund when the product is returned.",
+            "C": "\"although\" expresses contrast, but here we need a condition.",
+            "D": "\"whether\" introduces an alternative (\"whether or not\") and is not used this way after a passive verb."
+          },
+          "trap": "\"not … unless\" = \"only if\"; \"if\" with a negative changes the meaning."
+        }
+      }
+    },
+    {
+      "id": "p5-0104",
+      "part": 5,
+      "tags": [
+        "conjunctions-connectors"
+      ],
+      "difficulty": 3,
+      "stem": "The original schedule called for a spring launch; ------- supply problems have forced the team to postpone the release until autumn.",
+      "options": [
+        "therefore",
+        "however",
+        "moreover",
+        "likewise"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "Après un point-virgule, on attend un adverbe de liaison suivi d'une virgule ; les deux idées s'opposent (printemps prévu, report à l'automne) : « however ».",
+          "distractors": {
+            "A": "« therefore » exprime la conséquence ; le report n'est pas la conséquence du calendrier initial.",
+            "C": "« moreover » ajoute une information du même sens, alors que la seconde idée contredit la première.",
+            "D": "« likewise » signifie « de même » et relie deux idées semblables."
+          },
+          "trap": "Après « ; », choisis l'adverbe selon la relation : however (opposition), therefore (conséquence), moreover (ajout)."
+        },
+        "en": {
+          "rule": "After a semicolon, a linking adverb is expected; the two ideas contrast (spring planned, postponed to autumn): \"however\".",
+          "distractors": {
+            "A": "\"therefore\" expresses a result; the delay is not a result of the original schedule.",
+            "C": "\"moreover\" adds information that points the same way, but the second idea contradicts the first.",
+            "D": "\"likewise\" means \"in the same way\" and links two similar ideas."
+          },
+          "trap": "After a semicolon, pick the adverb by relationship: however (contrast), therefore (result), moreover (addition)."
+        }
+      }
+    },
+    {
+      "id": "p5-0105",
+      "part": 5,
+      "tags": [
+        "conjunctions-connectors"
+      ],
+      "difficulty": 2,
+      "stem": "The new hire will report to both the finance director ------- the operations manager during the first six months.",
+      "options": [
+        "or",
+        "yet",
+        "nor",
+        "and"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "« both » annonce « and » : « both … and » désigne les deux responsables à la fois.",
+          "distractors": {
+            "A": "« or » donnerait un choix entre les deux et accompagne « either », pas « both ».",
+            "B": "« yet » exprime une opposition ; ici les deux personnes sont réunies.",
+            "C": "« nor » s'emploie avec « neither » dans une phrase négative."
+          },
+          "trap": "« both » appelle toujours « and »."
+        },
+        "en": {
+          "rule": "\"both\" is followed by \"and\": \"both … and\" names the two managers together.",
+          "distractors": {
+            "A": "\"or\" would give a choice between them and goes with \"either\", not \"both\".",
+            "B": "\"yet\" expresses contrast; here the two people are joined.",
+            "C": "\"nor\" goes with \"neither\" in a negative sentence."
+          },
+          "trap": "\"both\" always calls for \"and\"."
+        }
+      }
+    },
+    {
+      "id": "p5-0106",
+      "part": 5,
+      "tags": [
+        "conjunctions-connectors"
+      ],
+      "difficulty": 2,
+      "stem": "Please send the final figures by Tuesday ------- the board can review them before the meeting on Thursday.",
+      "options": [
+        "as if",
+        "even though",
+        "rather than",
+        "so that"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "« so that » + sujet + modal (« can ») exprime le but : on envoie les chiffres pour que le conseil puisse les examiner.",
+          "distractors": {
+            "A": "« as if » compare avec une situation imaginaire (« comme si ») ; il n'exprime pas un but.",
+            "B": "« even though » exprime une concession forte, alors que l'envoi des chiffres et leur examen vont dans le même sens.",
+            "C": "« rather than » exprime une préférence entre deux options et ne se construit pas avec sujet + « can »."
+          },
+          "trap": "But + modal (can, will) après le trou → « so that »."
+        },
+        "en": {
+          "rule": "\"so that\" + subject + modal (\"can\") expresses purpose: the figures are sent so the board is able to review them.",
+          "distractors": {
+            "A": "\"as if\" compares with an imaginary situation; it does not express purpose.",
+            "B": "\"even though\" expresses strong contrast, but sending the figures and reviewing them go in the same direction.",
+            "C": "\"rather than\" expresses a preference between two options and is not followed by subject + \"can\"."
+          },
+          "trap": "Purpose + modal (can, will) after the blank = \"so that\"."
+        }
+      }
+    },
+    {
+      "id": "p5-0107",
+      "part": 5,
+      "tags": [
+        "vocabulary-in-context"
+      ],
+      "difficulty": 2,
+      "stem": "The quality control team will ------- every batch of components before it is approved for assembly.",
+      "options": [
+        "reserve",
+        "inspect",
+        "attach",
+        "delegate"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "Le contrôle qualité vérifie chaque lot avant approbation : « inspect » (examiner pour vérifier) est le seul verbe qui convient.",
+          "distractors": {
+            "A": "« reserve » signifie « réserver » (une table, une salle), pas « contrôler ».",
+            "C": "« attach » signifie « fixer ou joindre » ; ce n'est pas l'action d'une équipe de contrôle avant approbation.",
+            "D": "« delegate » signifie « confier une tâche à quelqu'un » et a besoin d'un destinataire de la tâche."
+          },
+          "trap": "Lis le rôle de l'équipe (contrôle qualité) pour choisir le verbe."
+        },
+        "en": {
+          "rule": "A quality control team checks each batch before approval: \"inspect\" (examine to check) is the only verb that fits.",
+          "distractors": {
+            "A": "\"reserve\" means to book (a table, a room), not to check.",
+            "C": "\"attach\" means to fasten or add; it is not what a quality control team does before approval.",
+            "D": "\"delegate\" means to hand a task to someone and needs a person who receives the task."
+          },
+          "trap": "Use the team's role (quality control) to choose the verb."
+        }
+      }
+    },
+    {
+      "id": "p5-0108",
+      "part": 5,
+      "tags": [
+        "vocabulary-in-context"
+      ],
+      "difficulty": 2,
+      "stem": "The airline apologized for the ------- caused by the cancellation of Flight 204 and offered each passenger a travel voucher.",
+      "options": [
+        "inconvenience",
+        "deficiency",
+        "hesitation",
+        "distinction"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "On s'excuse d'un désagrément causé aux passagers par l'annulation : « inconvenience ».",
+          "distractors": {
+            "B": "« deficiency » désigne un manque ou un défaut (de vitamines, de qualité), pas le désagrément subi par des clients.",
+            "C": "« hesitation » est un moment d'incertitude avant d'agir ; une annulation n'en cause pas.",
+            "D": "« distinction » signifie « différence » ou « honneur » et ne peut pas être « caused by a cancellation »."
+          },
+          "trap": "Après « apologized for the … caused by », pense à un désagrément : « inconvenience »."
+        },
+        "en": {
+          "rule": "An airline apologizes for the trouble the cancellation caused its passengers: \"inconvenience\".",
+          "distractors": {
+            "B": "\"deficiency\" means a lack or flaw (of vitamins, of quality), not the trouble customers suffer.",
+            "C": "\"hesitation\" is a pause of uncertainty before acting; a cancellation does not cause it.",
+            "D": "\"distinction\" means \"difference\" or \"honor\" and cannot be \"caused by a cancellation\"."
+          },
+          "trap": "After \"apologized for the … caused by\", think of trouble to customers: \"inconvenience\"."
+        }
+      }
+    },
+    {
+      "id": "p5-0109",
+      "part": 5,
+      "tags": [
+        "vocabulary-in-context"
+      ],
+      "difficulty": 1,
+      "stem": "The new scheduling software is ------- to use, so employees can start working with it after a short demonstration.",
+      "options": [
+        "careful",
+        "easy",
+        "polite",
+        "wise"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "Le logiciel est utilisable après une courte démonstration : il est « easy to use ». Les autres adjectifs décrivent des personnes.",
+          "distractors": {
+            "A": "« careful » décrit une personne qui fait attention ; un logiciel n'est pas « careful to use ».",
+            "C": "« polite » décrit un comportement courtois et ne s'applique pas à un logiciel.",
+            "D": "« wise » décrit une personne sage ; « wise to use » ne se dit pas d'un logiciel."
+          },
+          "trap": "Pour un objet ou un logiciel : « easy / simple to use »."
+        },
+        "en": {
+          "rule": "The software can be used after a short demonstration: it is \"easy to use\". The other adjectives describe people.",
+          "distractors": {
+            "A": "\"careful\" describes a person who pays attention; software is not \"careful to use\".",
+            "C": "\"polite\" describes courteous behavior and does not apply to software.",
+            "D": "\"wise\" describes a sensible person; \"wise to use\" is not said of software."
+          },
+          "trap": "For an object or software: \"easy / simple to use\"."
+        }
+      }
+    },
+    {
+      "id": "p5-0110",
+      "part": 5,
+      "tags": [
+        "vocabulary-in-context"
+      ],
+      "difficulty": 1,
+      "stem": "The new laptop is ------- lighter than the previous model, so many business travelers have already switched to it.",
+      "options": [
+        "slowly",
+        "nearly",
+        "rarely",
+        "noticeably"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "« lighter » est un comparatif ; l'adverbe qui l'intensifie et explique que des voyageurs changent de modèle est « noticeably » (nettement).",
+          "distractors": {
+            "A": "« slowly » décrit une vitesse d'action, pas le degré d'une différence.",
+            "B": "« nearly » signifie « presque » et ne se place pas devant un comparatif.",
+            "C": "« rarely » exprime la fréquence (« rarement ») et n'a pas de sens devant « lighter »."
+          },
+          "trap": "Devant un comparatif, un adverbe de degré : noticeably, considerably, slightly."
+        },
+        "en": {
+          "rule": "\"lighter\" is a comparative; the adverb that strengthens it and explains why travelers switched is \"noticeably\".",
+          "distractors": {
+            "A": "\"slowly\" describes the speed of an action, not the size of a difference.",
+            "B": "\"nearly\" means \"almost\" and is not used before a comparative.",
+            "C": "\"rarely\" expresses frequency and makes no sense before \"lighter\"."
+          },
+          "trap": "Before a comparative, use an adverb of degree: noticeably, considerably, slightly."
+        }
+      }
+    },
+    {
+      "id": "p5-0111",
+      "part": 5,
+      "tags": [
+        "vocabulary-in-context"
+      ],
+      "difficulty": 3,
+      "stem": "The auditor found a ------- between the sales figures reported by the Denver branch and those recorded at headquarters.",
+      "options": [
+        "fluctuation",
+        "shortage",
+        "discrepancy",
+        "adjustment"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "Deux séries de chiffres qui devraient être identiques ne le sont pas : c'est un « discrepancy » (écart, incohérence) « between » les deux.",
+          "distractors": {
+            "A": "« fluctuation » est une variation au fil du temps d'un même chiffre, pas un écart entre deux sources.",
+            "B": "« shortage » désigne un manque de ressources ou de produits, et ne se place pas « between » deux séries de chiffres.",
+            "D": "« adjustment » est une correction que l'on apporte ; l'auditeur ne la « trouve » pas entre deux sources."
+          },
+          "trap": "Un écart entre deux sources qui devraient concorder = « discrepancy »."
+        },
+        "en": {
+          "rule": "Two sets of figures that should match do not: this is a \"discrepancy\" (a gap or inconsistency) \"between\" them.",
+          "distractors": {
+            "A": "\"fluctuation\" is a change in one figure over time, not a gap between two sources.",
+            "B": "\"shortage\" means a lack of resources or goods and does not fit \"between\" two sets of figures.",
+            "D": "\"adjustment\" is a correction someone makes; an auditor does not \"find\" it between two sources."
+          },
+          "trap": "A gap between two sources that should agree = \"discrepancy\"."
+        }
+      }
+    },
+    {
+      "id": "p5-0112",
+      "part": 5,
+      "tags": [
+        "vocabulary-in-context"
+      ],
+      "difficulty": 3,
+      "stem": "The board decided to ------- the expansion plan until the company's financial situation becomes clearer.",
+      "options": [
+        "postpone",
+        "abolish",
+        "alter",
+        "compile"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "« until » indique que l'action sera reportée à plus tard : seul « postpone » (reporter) exprime ce sens.",
+          "distractors": {
+            "B": "« abolish » signifie « supprimer définitivement » (une loi, une règle) ; il ne s'accorde pas avec « until ».",
+            "C": "« alter » signifie « modifier » et n'exprime pas de report dans le temps.",
+            "D": "« compile » signifie « rassembler des données » ; on ne compile pas un plan d'expansion en attendant que la situation s'éclaircisse."
+          },
+          "trap": "« until » après le trou signale un report dans le temps."
+        },
+        "en": {
+          "rule": "\"until\" shows that the action is pushed back to a later time: only \"postpone\" has that meaning.",
+          "distractors": {
+            "B": "\"abolish\" means to end something permanently (a law, a rule); it does not fit with \"until\".",
+            "C": "\"alter\" means to change and does not express delay.",
+            "D": "\"compile\" means to gather data; you do not compile an expansion plan while waiting for the situation to clear."
+          },
+          "trap": "\"until\" after the blank signals a delay in time."
+        }
+      }
+    },
+    {
+      "id": "p5-0113",
+      "part": 5,
+      "tags": [
+        "vocabulary-in-context"
+      ],
+      "difficulty": 2,
+      "stem": "The consultant's report offers a ------- analysis of the factors affecting customer loyalty, covering both price and service quality.",
+      "options": [
+        "comprehensive",
+        "adjacent",
+        "reluctant",
+        "mandatory"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "L'analyse « couvre à la fois le prix et la qualité de service » : elle est complète, donc « comprehensive ».",
+          "distractors": {
+            "B": "« adjacent » signifie « voisin, contigu » et s'applique à des lieux (« adjacent buildings »).",
+            "C": "« reluctant » décrit une personne qui hésite à faire quelque chose, pas une analyse.",
+            "D": "« mandatory » signifie « obligatoire » ; rien n'indique que l'analyse soit imposée."
+          },
+          "trap": "Cherche l'indice dans la fin de la phrase (« covering both… ») pour trancher."
+        },
+        "en": {
+          "rule": "The analysis \"covers both price and service quality\": it is complete, so \"comprehensive\".",
+          "distractors": {
+            "B": "\"adjacent\" means \"next to\" and applies to places (\"adjacent buildings\").",
+            "C": "\"reluctant\" describes a person who hesitates to do something, not an analysis.",
+            "D": "\"mandatory\" means required; nothing says the analysis is imposed."
+          },
+          "trap": "Look for the clue at the end of the sentence (\"covering both…\") to decide."
+        }
+      }
+    },
+    {
+      "id": "p5-0114",
+      "part": 5,
+      "tags": [
+        "collocations"
+      ],
+      "difficulty": 2,
+      "stem": "Customers who ------- an order before noon receive same-day shipping for a small additional fee.",
+      "options": [
+        "set",
+        "lay",
+        "bring",
+        "place"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "La collocation habituelle est « place an order » (passer une commande).",
+          "distractors": {
+            "A": "« set » se combine avec « a date », « a goal », « a price », mais pas avec « an order » dans ce sens.",
+            "B": "« lay » se combine avec « a foundation » ou « a plan », pas avec « an order ».",
+            "C": "« bring » ne se combine pas avec « an order » : on ne dit pas « bring an order » pour commander."
+          },
+          "trap": "À retenir : place an order, meet a deadline, reach an agreement."
+        },
+        "en": {
+          "rule": "The usual collocation is \"place an order\".",
+          "distractors": {
+            "A": "\"set\" combines with \"a date\", \"a goal\" or \"a price\", but not with \"an order\" in this sense.",
+            "B": "\"lay\" combines with \"a foundation\" or \"a plan\", not with \"an order\".",
+            "C": "\"bring\" does not combine with \"an order\": you do not say \"bring an order\" to mean order something."
+          },
+          "trap": "Remember: place an order, meet a deadline, reach an agreement."
+        }
+      }
+    },
+    {
+      "id": "p5-0115",
+      "part": 5,
+      "tags": [
+        "collocations"
+      ],
+      "difficulty": 3,
+      "stem": "The new manager must ------- a balance between cutting costs and maintaining the quality of the company's products.",
+      "options": [
+        "strike",
+        "tie",
+        "cast",
+        "grasp"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "La collocation est « strike a balance » (trouver un équilibre entre deux exigences).",
+          "distractors": {
+            "B": "« tie » se combine avec « a knot » ou « a score », pas avec « a balance ».",
+            "C": "« cast » se combine avec « a vote », « a shadow » ou « doubt », pas avec « a balance ».",
+            "D": "« grasp » signifie « saisir » ou « comprendre » (« grasp the idea »), mais ne se combine pas avec « a balance »."
+          },
+          "trap": "« strike a balance » : le verbe est « strike », pas « make » ni « do »."
+        },
+        "en": {
+          "rule": "The collocation is \"strike a balance\" (find a fair middle point between two needs).",
+          "distractors": {
+            "B": "\"tie\" combines with \"a knot\" or \"a score\", not with \"a balance\".",
+            "C": "\"cast\" combines with \"a vote\", \"a shadow\" or \"doubt\", not with \"a balance\".",
+            "D": "\"grasp\" means to seize or understand (\"grasp the idea\"), but it does not combine with \"a balance\"."
+          },
+          "trap": "\"strike a balance\": the verb is \"strike\", not \"make\" or \"do\"."
+        }
+      }
+    },
+    {
+      "id": "p5-0116",
+      "part": 5,
+      "tags": [
+        "collocations"
+      ],
+      "difficulty": 2,
+      "stem": "Because of the annual trade fair, the Riverside Inn is ------- booked until the end of next week.",
+      "options": [
+        "highly",
+        "widely",
+        "deeply",
+        "fully"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "« fully booked » est la collocation habituelle pour dire qu'il ne reste plus de chambre.",
+          "distractors": {
+            "A": "« highly » se combine avec « recommended », « skilled » ou « successful », pas avec « booked ».",
+            "B": "« widely » se combine avec « known » ou « used », pas avec « booked ».",
+            "C": "« deeply » se combine avec des sentiments (« deeply concerned »), pas avec « booked »."
+          },
+          "trap": "L'adverbe dépend de l'adjectif : fully booked, highly recommended, widely known."
+        },
+        "en": {
+          "rule": "\"fully booked\" is the usual collocation for \"no rooms left\".",
+          "distractors": {
+            "A": "\"highly\" combines with \"recommended\", \"skilled\" or \"successful\", not with \"booked\".",
+            "B": "\"widely\" combines with \"known\" or \"used\", not with \"booked\".",
+            "C": "\"deeply\" combines with feelings (\"deeply concerned\"), not with \"booked\"."
+          },
+          "trap": "The adverb depends on the adjective: fully booked, highly recommended, widely known."
+        }
+      }
+    },
+    {
+      "id": "p5-0117",
+      "part": 5,
+      "tags": [
+        "collocations"
+      ],
+      "difficulty": 3,
+      "stem": "Higher shipping costs have narrowed the ------- margin on our imported products, which are now barely worth selling.",
+      "options": [
+        "revenue",
+        "income",
+        "profit",
+        "gain"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "« profit margin » (marge bénéficiaire) est le nom composé habituel ; la fin de phrase confirme qu'il s'agit du bénéfice par produit.",
+          "distractors": {
+            "A": "« revenue » désigne le chiffre d'affaires ; « revenue margin » ne s'emploie pas.",
+            "B": "« income » désigne un revenu ; la marge s'exprime en « profit margin », pas « income margin ».",
+            "D": "« gain » désigne un avantage obtenu ; « gain margin » n'est pas une expression d'affaires."
+          },
+          "trap": "« profit margin », « profit and loss », « sales figures » : apprends les noms composés."
+        },
+        "en": {
+          "rule": "\"profit margin\" is the usual compound noun, and the end of the sentence confirms it is about profit per product.",
+          "distractors": {
+            "A": "\"revenue\" means total sales income; \"revenue margin\" is not used.",
+            "B": "\"income\" means money received; the margin is a \"profit margin\", not an \"income margin\".",
+            "D": "\"gain\" means a benefit obtained; \"gain margin\" is not a business expression."
+          },
+          "trap": "\"profit margin\", \"profit and loss\", \"sales figures\": learn compound nouns as units."
+        }
+      }
+    },
+    {
+      "id": "p5-0118",
+      "part": 5,
+      "tags": [
+        "collocations"
+      ],
+      "difficulty": 1,
+      "stem": "The tour guide was ------- recommended by several of our colleagues who visited Prague last spring.",
+      "options": [
+        "mostly",
+        "deeply",
+        "highly",
+        "largely"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "« highly recommended » est la collocation habituelle pour une forte recommandation.",
+          "distractors": {
+            "A": "« mostly » signifie « principalement » et ne se combine pas avec « recommended ».",
+            "B": "« deeply » se combine avec des émotions (« deeply grateful »), pas avec « recommended ».",
+            "D": "« largely » signifie « en grande partie » (« largely unchanged ») et ne se combine pas avec « recommended »."
+          },
+          "trap": "highly recommended, fully booked, widely known."
+        },
+        "en": {
+          "rule": "\"highly recommended\" is the usual collocation for a strong recommendation.",
+          "distractors": {
+            "A": "\"mostly\" means \"mainly\" and does not combine with \"recommended\".",
+            "B": "\"deeply\" combines with emotions (\"deeply grateful\"), not with \"recommended\".",
+            "D": "\"largely\" means \"to a great extent\" (\"largely unchanged\") and does not combine with \"recommended\"."
+          },
+          "trap": "highly recommended, fully booked, widely known."
+        }
+      }
+    },
+    {
+      "id": "p5-0119",
+      "part": 5,
+      "tags": [
+        "collocations"
+      ],
+      "difficulty": 1,
+      "stem": "Our printing company always manages to ------- tight deadlines, even when clients submit their files at the last minute.",
+      "options": [
+        "take",
+        "meet",
+        "fill",
+        "touch"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "La collocation est « meet a deadline » (respecter une échéance).",
+          "distractors": {
+            "A": "« take » ne se combine pas avec « deadline » : on dit « meet » une échéance, pas la « prendre ».",
+            "C": "« fill » se combine avec « a position » ou « a form », pas avec « a deadline ».",
+            "D": "« touch » signifie « toucher » physiquement et ne se combine pas avec « deadline »."
+          },
+          "trap": "meet a deadline (et non « respect » ni « take »)."
+        },
+        "en": {
+          "rule": "The collocation is \"meet a deadline\".",
+          "distractors": {
+            "A": "\"take\" does not combine with \"deadline\": you meet a deadline, you do not take it.",
+            "C": "\"fill\" combines with \"a position\" or \"a form\", not with \"a deadline\".",
+            "D": "\"touch\" means to touch physically and does not combine with \"deadline\"."
+          },
+          "trap": "meet a deadline (not \"respect\" or \"take\")."
+        }
+      }
+    },
+    {
+      "id": "p5-0120",
+      "part": 5,
+      "tags": [
+        "collocations"
+      ],
+      "difficulty": 2,
+      "stem": "The research firm will ------- a survey of five thousand households to find out how people use streaming services.",
+      "options": [
+        "bring",
+        "spend",
+        "conduct",
+        "draw"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "La collocation est « conduct a survey » (mener une enquête).",
+          "distractors": {
+            "A": "« bring » signifie « apporter » et ne se combine pas avec « a survey ».",
+            "B": "« spend » se combine avec « time » ou « money », pas avec « a survey ».",
+            "D": "« draw » se combine avec « a conclusion » ou « attention », mais pas avec « a survey »."
+          },
+          "trap": "conduct a survey / a study / an interview ; reach a conclusion ; raise awareness."
+        },
+        "en": {
+          "rule": "The collocation is \"conduct a survey\".",
+          "distractors": {
+            "A": "\"bring\" means to carry something to a place and does not combine with \"a survey\".",
+            "B": "\"spend\" combines with \"time\" or \"money\", not with \"a survey\".",
+            "D": "\"draw\" combines with \"a conclusion\" or \"attention\", but not with \"a survey\"."
+          },
+          "trap": "conduct a survey / a study / an interview; reach a conclusion; raise awareness."
+        }
+      }
+    }
+  ]
+}

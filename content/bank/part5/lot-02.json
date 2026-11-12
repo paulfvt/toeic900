@@ -1,0 +1,1086 @@
+{
+  "part": 5,
+  "pool": "training",
+  "questions": [
+    {
+      "id": "p5-0031",
+      "part": 5,
+      "tags": [
+        "verb-tense"
+      ],
+      "difficulty": 2,
+      "stem": "Since the company moved its headquarters to Lisbon in 2019, its international sales ------- steadily.",
+      "options": [
+        "grow",
+        "have grown",
+        "grew",
+        "will grow"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "« Since » + un point de départ passé (« in 2019 ») impose le present perfect dans la proposition principale : « have grown ».",
+          "distractors": {
+            "A": "« grow » est le présent simple : il n'exprime pas une évolution qui dure depuis 2019.",
+            "C": "« grew » est un prétérit : il décrirait un fait terminé, incompatible avec « since » qui relie le passé à aujourd'hui.",
+            "D": "« will grow » est un futur : « since 2019 » regarde vers le passé."
+          },
+          "trap": "« since » + date → present perfect, pas de présent ni de prétérit."
+        },
+        "en": {
+          "rule": "\"Since\" followed by a past starting point (\"in 2019\") calls for the present perfect in the main clause: \"have grown\".",
+          "distractors": {
+            "A": "\"grow\" is the simple present: it does not express a change that has lasted since 2019.",
+            "C": "\"grew\" is a simple past: it would describe a finished fact, which clashes with \"since\" linking the past to now.",
+            "D": "\"will grow\" is a future: \"since 2019\" looks backward."
+          },
+          "trap": "\"since\" + date → present perfect, not simple present or simple past."
+        }
+      }
+    },
+    {
+      "id": "p5-0032",
+      "part": 5,
+      "tags": [
+        "verb-tense"
+      ],
+      "difficulty": 3,
+      "stem": "By the time the auditors arrive next Monday, the accounting team ------- all of the quarterly records.",
+      "options": [
+        "finishes",
+        "had finished",
+        "will have finished",
+        "is finishing"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "« By the time » + présent (« arrive ») + « next Monday » désigne un moment futur : l'action sera achevée avant lui, d'où le futur antérieur « will have finished ».",
+          "distractors": {
+            "A": "« finishes » est un présent simple : il n'exprime pas qu'une action sera terminée avant un moment futur.",
+            "B": "« had finished » est un plus-que-parfait : il se rapporte à un repère passé, or « next Monday » est dans le futur.",
+            "D": "« is finishing » est un présent continu : il décrit une action en cours, pas achevée avant l'arrivée des auditeurs."
+          },
+          "trap": "« By the time » + présent à sens futur → futur antérieur (will have + participe) dans l'autre proposition."
+        },
+        "en": {
+          "rule": "\"By the time\" + present (\"arrive\") with \"next Monday\" points to a future moment: the action will be completed before it, so the future perfect \"will have finished\" is needed.",
+          "distractors": {
+            "A": "\"finishes\" is the simple present: it does not show an action completed before a future moment.",
+            "B": "\"had finished\" is the past perfect: it needs a past reference point, but \"next Monday\" is in the future.",
+            "D": "\"is finishing\" is the present continuous: it describes an action in progress, not completed before the auditors arrive."
+          },
+          "trap": "\"By the time\" + present with future meaning → future perfect (will have + past participle)."
+        }
+      }
+    },
+    {
+      "id": "p5-0033",
+      "part": 5,
+      "tags": [
+        "verb-tense"
+      ],
+      "difficulty": 2,
+      "stem": "Ms. Okafor ------- the new inventory software last year, and the warehouse has used it ever since.",
+      "options": [
+        "installs",
+        "has installed",
+        "will install",
+        "installed"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "« Last year » est une date terminée dans le passé : on emploie le prétérit « installed ».",
+          "distractors": {
+            "A": "« installs » est un présent simple : il ne peut pas se combiner avec « last year ».",
+            "B": "« has installed » est un present perfect : il est incompatible avec une date précise terminée comme « last year ».",
+            "C": "« will install » est un futur : « last year » et « has used it ever since » montrent que c'est déjà fait."
+          },
+          "trap": "Date passée précise (« last year », « in 2020 ») → prétérit, jamais present perfect."
+        },
+        "en": {
+          "rule": "\"Last year\" is a finished time in the past, so the simple past \"installed\" is needed.",
+          "distractors": {
+            "A": "\"installs\" is the simple present: it cannot go with \"last year\".",
+            "B": "\"has installed\" is a present perfect: it clashes with a finished, specific time such as \"last year\".",
+            "C": "\"will install\" is a future: \"last year\" and \"has used it ever since\" show it is already done."
+          },
+          "trap": "A finished past time (\"last year\", \"in 2020\") → simple past, never present perfect."
+        }
+      }
+    },
+    {
+      "id": "p5-0034",
+      "part": 5,
+      "tags": [
+        "verb-tense"
+      ],
+      "difficulty": 2,
+      "stem": "As soon as the new shipment ------- at the dock, the supervisor will notify the sales team.",
+      "options": [
+        "will arrive",
+        "arrived",
+        "has been arriving",
+        "arrives"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "Après « as soon as », une proposition de temps à sens futur se met au présent ; la principale (« will notify ») porte le futur. On écrit donc « arrives ».",
+          "distractors": {
+            "A": "« will arrive » met un futur après « as soon as » : c'est interdit dans une proposition de temps.",
+            "B": "« arrived » est un prétérit : il contredit « will notify » qui place la scène dans le futur.",
+            "C": "« has been arriving » insiste sur une action qui dure depuis un moment : le sens ne convient pas à l'arrivée d'une livraison unique."
+          },
+          "trap": "« as soon as / when / once / before » à sens futur → présent, jamais « will »."
+        },
+        "en": {
+          "rule": "After \"as soon as\", a time clause with future meaning uses the present; the main clause (\"will notify\") carries the future. So the answer is \"arrives\".",
+          "distractors": {
+            "A": "\"will arrive\" puts a future after \"as soon as\": that is not allowed in a time clause.",
+            "B": "\"arrived\" is a simple past: it contradicts \"will notify\", which places the scene in the future.",
+            "C": "\"has been arriving\" stresses an action lasting for some time: that does not fit the arrival of a single shipment."
+          },
+          "trap": "\"as soon as / when / once / before\" with future meaning → present tense, never \"will\"."
+        }
+      }
+    },
+    {
+      "id": "p5-0035",
+      "part": 5,
+      "tags": [
+        "verb-tense"
+      ],
+      "difficulty": 2,
+      "stem": "Mr. Tanaka ------- a presentation to the board right now, so please do not enter the conference room.",
+      "options": [
+        "is giving",
+        "gives",
+        "gave",
+        "will have given"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "« Right now » indique une action en cours au moment où l'on parle : le présent continu « is giving ».",
+          "distractors": {
+            "B": "« gives » est un présent simple : il décrit une habitude, pas une action qui se déroule en ce moment.",
+            "C": "« gave » est un prétérit : l'action serait terminée, alors que « do not enter » montre qu'elle continue.",
+            "D": "« will have given » est un futur antérieur : il parle d'une action achevée plus tard, pas d'une action en cours."
+          },
+          "trap": "« right now / currently / at the moment » → présent continu."
+        },
+        "en": {
+          "rule": "\"Right now\" shows an action in progress at the time of speaking: the present continuous \"is giving\".",
+          "distractors": {
+            "B": "\"gives\" is the simple present: it describes a habit, not something happening at this moment.",
+            "C": "\"gave\" is a simple past: the action would be over, but \"do not enter\" shows it is still going on.",
+            "D": "\"will have given\" is a future perfect: it refers to an action completed later, not one in progress."
+          },
+          "trap": "\"right now / currently / at the moment\" → present continuous."
+        }
+      }
+    },
+    {
+      "id": "p5-0036",
+      "part": 5,
+      "tags": [
+        "verb-tense"
+      ],
+      "difficulty": 3,
+      "stem": "If the vendor from Rotterdam ------- us a larger discount on bulk orders, our department would place the entire order with it this month.",
+      "options": [
+        "offers",
+        "offered",
+        "will offer",
+        "has offered"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "« Would place » dans la principale annonce une condition de type 2 (hypothèse peu probable) : la proposition en « if » se met au prétérit, « offered ».",
+          "distractors": {
+            "A": "« offers » est un présent : il correspond au type 1, qui irait avec « will place », pas avec « would place ».",
+            "C": "« will offer » : on n'emploie pas « will » après « if » pour exprimer une condition.",
+            "D": "« has offered » est un present perfect : il ne s'associe pas à « would » dans une condition."
+          },
+          "trap": "« would » dans la principale → prétérit après « if » ; « will » dans la principale → présent après « if »."
+        },
+        "en": {
+          "rule": "\"Would place\" in the main clause signals a type 2 conditional (unlikely situation): the \"if\" clause takes the simple past, \"offered\".",
+          "distractors": {
+            "A": "\"offers\" is the present: it belongs to type 1, which pairs with \"will place\", not \"would place\".",
+            "C": "\"will offer\": \"will\" is not used after \"if\" to express the condition.",
+            "D": "\"has offered\" is a present perfect: it does not combine with \"would\" in a conditional."
+          },
+          "trap": "\"would\" in the main clause → simple past after \"if\"; \"will\" in the main clause → present after \"if\"."
+        }
+      }
+    },
+    {
+      "id": "p5-0037",
+      "part": 5,
+      "tags": [
+        "verb-tense"
+      ],
+      "difficulty": 1,
+      "stem": "Last week, the human resources department ------- twelve candidates for the analyst position.",
+      "options": [
+        "interviewed",
+        "interviews",
+        "will interview",
+        "has interviewed"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "« Last week » est un moment terminé du passé : on utilise le prétérit « interviewed ».",
+          "distractors": {
+            "B": "« interviews » est un présent simple : il ne va pas avec « last week ».",
+            "C": "« will interview » est un futur : « last week » renvoie au passé.",
+            "D": "« has interviewed » est un present perfect : il ne se combine pas avec un moment passé précis comme « last week »."
+          },
+          "trap": "Marqueur de passé terminé (« last week », « yesterday », « ago ») → prétérit."
+        },
+        "en": {
+          "rule": "\"Last week\" is a finished moment in the past, so the simple past \"interviewed\" is needed.",
+          "distractors": {
+            "B": "\"interviews\" is the simple present: it does not fit with \"last week\".",
+            "C": "\"will interview\" is a future: \"last week\" points to the past.",
+            "D": "\"has interviewed\" is a present perfect: it does not combine with a specific past time such as \"last week\"."
+          },
+          "trap": "A finished past marker (\"last week\", \"yesterday\", \"ago\") → simple past."
+        }
+      }
+    },
+    {
+      "id": "p5-0038",
+      "part": 5,
+      "tags": [
+        "verb-tense"
+      ],
+      "difficulty": 1,
+      "stem": "Next quarter, the retail chain ------- a new branch in Singapore to serve its growing Asian customer base.",
+      "options": [
+        "opened",
+        "has opened",
+        "will open",
+        "was opening"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "« Next quarter » est dans le futur : on utilise le futur avec « will open ».",
+          "distractors": {
+            "A": "« opened » est un prétérit : « next quarter » ne renvoie pas au passé.",
+            "B": "« has opened » est un present perfect : il décrit un fait déjà accompli, pas un projet.",
+            "D": "« was opening » est un passé continu : il décrit une action en cours dans le passé."
+          },
+          "trap": "« next + période » → futur (will + verbe)."
+        },
+        "en": {
+          "rule": "\"Next quarter\" is in the future, so the future form \"will open\" is needed.",
+          "distractors": {
+            "A": "\"opened\" is a simple past: \"next quarter\" does not refer to the past.",
+            "B": "\"has opened\" is a present perfect: it describes something already done, not a plan.",
+            "D": "\"was opening\" is a past continuous: it describes an action in progress in the past."
+          },
+          "trap": "\"next + period\" → future (will + base verb)."
+        }
+      }
+    },
+    {
+      "id": "p5-0039",
+      "part": 5,
+      "tags": [
+        "subject-verb-agreement"
+      ],
+      "difficulty": 2,
+      "stem": "The list of approved suppliers ------- currently posted on the company intranet for all employees.",
+      "options": [
+        "are",
+        "were",
+        "have been",
+        "is"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "Le sujet est « list » (singulier) ; « of approved suppliers » n'est qu'un complément. « Currently » impose le présent : « is ».",
+          "distractors": {
+            "A": "« are » est le pluriel : il s'accorde avec « suppliers », qui n'est pas le sujet.",
+            "B": "« were » est un prétérit pluriel : « currently » exclut le passé et le sujet est singulier.",
+            "C": "« have been » est un pluriel : le sujet « list » est singulier, et « currently » appelle le présent."
+          },
+          "trap": "Cherche le nom noyau avant « of » : il commande le verbe, pas le nom qui suit."
+        },
+        "en": {
+          "rule": "The subject is \"list\" (singular); \"of approved suppliers\" is only a modifier. \"Currently\" requires the present: \"is\".",
+          "distractors": {
+            "A": "\"are\" is plural: it agrees with \"suppliers\", which is not the subject.",
+            "B": "\"were\" is a plural past form: \"currently\" excludes the past and the subject is singular.",
+            "C": "\"have been\" is plural: the subject \"list\" is singular, and \"currently\" calls for the present."
+          },
+          "trap": "Find the head noun before \"of\": it controls the verb, not the noun that follows."
+        }
+      }
+    },
+    {
+      "id": "p5-0040",
+      "part": 5,
+      "tags": [
+        "subject-verb-agreement"
+      ],
+      "difficulty": 3,
+      "stem": "The number of employees requesting remote work ------- risen sharply since the new policy took effect.",
+      "options": [
+        "have",
+        "are",
+        "has",
+        "were"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "« The number of » est suivi d'un verbe au singulier. Avec « since the new policy took effect », il faut le present perfect : « has risen ».",
+          "distractors": {
+            "A": "« have » est un pluriel : il s'accorde avec « employees », mais le sujet est « the number ».",
+            "B": "« are » est un pluriel et ne forme pas un temps correct avec « risen ».",
+            "D": "« were » est un prétérit pluriel : il ne forme pas non plus le present perfect imposé par « since »."
+          },
+          "trap": "« The number of » = singulier ; « a number of » = pluriel."
+        },
+        "en": {
+          "rule": "\"The number of\" takes a singular verb. With \"since the new policy took effect\", the present perfect is needed: \"has risen\".",
+          "distractors": {
+            "A": "\"have\" is plural: it agrees with \"employees\", but the subject is \"the number\".",
+            "B": "\"are\" is plural and does not form a correct tense with \"risen\".",
+            "D": "\"were\" is a plural past form: it does not build the present perfect that \"since\" requires."
+          },
+          "trap": "\"The number of\" = singular; \"a number of\" = plural."
+        }
+      }
+    },
+    {
+      "id": "p5-0041",
+      "part": 5,
+      "tags": [
+        "subject-verb-agreement"
+      ],
+      "difficulty": 2,
+      "stem": "Starting this month, each of the technicians at the Denver plant ------- required to complete a safety course before servicing any machine.",
+      "options": [
+        "are",
+        "have been",
+        "being",
+        "is"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "« Each » est toujours singulier, même suivi de « of the technicians ». « Starting this month » impose le présent : « is required ».",
+          "distractors": {
+            "A": "« are » est le pluriel : il s'accorde avec « technicians », alors que « each » commande le verbe.",
+            "B": "« have been » est un pluriel : « each » est singulier.",
+            "C": "« being » est un participe : il ne peut pas servir de verbe conjugué dans cette phrase."
+          },
+          "trap": "« each / every / either / neither (of) » → verbe au singulier."
+        },
+        "en": {
+          "rule": "\"Each\" is always singular, even before \"of the technicians\". \"Starting this month\" requires the present: \"is required\".",
+          "distractors": {
+            "A": "\"are\" is plural: it agrees with \"technicians\", but \"each\" controls the verb.",
+            "B": "\"have been\" is plural: \"each\" is singular.",
+            "C": "\"being\" is a participle: it cannot be the conjugated verb of this sentence."
+          },
+          "trap": "\"each / every / either / neither (of)\" → singular verb."
+        }
+      }
+    },
+    {
+      "id": "p5-0042",
+      "part": 5,
+      "tags": [
+        "subject-verb-agreement"
+      ],
+      "difficulty": 1,
+      "stem": "There ------- several vacant offices on the third floor that can be rented by new tenants.",
+      "options": [
+        "are",
+        "is",
+        "was",
+        "has been"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "Après « there », le verbe s'accorde avec le nom qui suit : « several vacant offices » est pluriel, et « can be rented » est au présent : « are ».",
+          "distractors": {
+            "B": "« is » est un singulier : il ne s'accorde pas avec « offices ».",
+            "C": "« was » est un singulier au passé : il ne convient ni à « offices » ni au présent de « can be rented ».",
+            "D": "« has been » est un singulier : le sujet réel « offices » est pluriel."
+          },
+          "trap": "Avec « there is / there are », accorde le verbe avec le nom qui suit."
+        },
+        "en": {
+          "rule": "After \"there\", the verb agrees with the noun that follows: \"several vacant offices\" is plural, and \"can be rented\" is present: \"are\".",
+          "distractors": {
+            "B": "\"is\" is singular: it does not agree with \"offices\".",
+            "C": "\"was\" is a singular past form: it fits neither \"offices\" nor the present \"can be rented\".",
+            "D": "\"has been\" is singular: the real subject \"offices\" is plural."
+          },
+          "trap": "With \"there is / there are\", agree the verb with the noun after it."
+        }
+      }
+    },
+    {
+      "id": "p5-0043",
+      "part": 5,
+      "tags": [
+        "subject-verb-agreement"
+      ],
+      "difficulty": 1,
+      "stem": "The equipment in the storage room ------- inspected every month to ensure it meets safety standards.",
+      "options": [
+        "are",
+        "have",
+        "is",
+        "being"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "« Equipment » est un nom indénombrable : il se construit au singulier. « Every month » et « meets » imposent le présent : « is inspected ».",
+          "distractors": {
+            "A": "« are » est un pluriel : « equipment » n'a pas de pluriel.",
+            "B": "« have » ne peut pas précéder « inspected » dans un passif : il faudrait « has been », et le sujet est singulier.",
+            "D": "« being » est un participe : il ne peut pas servir de verbe conjugué ici."
+          },
+          "trap": "« equipment, information, furniture, advice » sont indénombrables → verbe au singulier."
+        },
+        "en": {
+          "rule": "\"Equipment\" is uncountable, so it takes a singular verb. \"Every month\" and \"meets\" require the present: \"is inspected\".",
+          "distractors": {
+            "A": "\"are\" is plural: \"equipment\" has no plural.",
+            "B": "\"have\" cannot come before \"inspected\" in a passive: it would need \"has been\", and the subject is singular.",
+            "D": "\"being\" is a participle: it cannot be the conjugated verb here."
+          },
+          "trap": "\"equipment, information, furniture, advice\" are uncountable → singular verb."
+        }
+      }
+    },
+    {
+      "id": "p5-0044",
+      "part": 5,
+      "tags": [
+        "subject-verb-agreement"
+      ],
+      "difficulty": 3,
+      "stem": "Mr. Alvarez, along with two members of his sales team, ------- attending the trade fair in Dubai next week.",
+      "options": [
+        "are",
+        "were",
+        "is",
+        "has been"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "« Along with » ne forme pas un sujet pluriel : le sujet reste « Mr. Alvarez » (singulier). Avec « next week », le présent continu à sens futur donne « is attending ».",
+          "distractors": {
+            "A": "« are » est un pluriel : il s'accorde avec « members », qui n'est pas le sujet.",
+            "B": "« were » est un pluriel du passé : « next week » est dans le futur.",
+            "D": "« has been » forme « has been attending », un present perfect continu : il ne s'emploie pas avec « next week » qui est dans le futur."
+          },
+          "trap": "« along with / as well as / together with » n'ajoutent pas de pluriel au sujet."
+        },
+        "en": {
+          "rule": "\"Along with\" does not make the subject plural: the subject stays \"Mr. Alvarez\" (singular). With \"next week\", the present continuous with future meaning gives \"is attending\".",
+          "distractors": {
+            "A": "\"are\" is plural: it agrees with \"members\", which is not the subject.",
+            "B": "\"were\" is a plural past form: \"next week\" is in the future.",
+            "D": "\"has been\" makes \"has been attending\", a present perfect continuous: it cannot be used with \"next week\", which is in the future."
+          },
+          "trap": "\"along with / as well as / together with\" do not make the subject plural."
+        }
+      }
+    },
+    {
+      "id": "p5-0045",
+      "part": 5,
+      "tags": [
+        "subject-verb-agreement"
+      ],
+      "difficulty": 2,
+      "stem": "A number of customers ------- complained about the delayed deliveries, so the manager plans to review the courier contract.",
+      "options": [
+        "has",
+        "have",
+        "is",
+        "was"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "« A number of » + nom pluriel a le sens de « plusieurs » et se construit avec un verbe pluriel : « have complained ».",
+          "distractors": {
+            "A": "« has » est un singulier : « a number of customers » est pluriel (contrairement à « the number of »).",
+            "C": "« is » est un singulier et ne forme pas un temps correct avec « complained ».",
+            "D": "« was » est un singulier et ne forme pas un temps correct avec « complained »."
+          },
+          "trap": "« A number of » = pluriel ; « the number of » = singulier."
+        },
+        "en": {
+          "rule": "\"A number of\" + plural noun means \"several\" and takes a plural verb: \"have complained\".",
+          "distractors": {
+            "A": "\"has\" is singular: \"a number of customers\" is plural (unlike \"the number of\").",
+            "C": "\"is\" is singular and does not form a correct tense with \"complained\".",
+            "D": "\"was\" is singular and does not form a correct tense with \"complained\"."
+          },
+          "trap": "\"A number of\" = plural; \"the number of\" = singular."
+        }
+      }
+    },
+    {
+      "id": "p5-0046",
+      "part": 5,
+      "tags": [
+        "passive-voice"
+      ],
+      "difficulty": 3,
+      "stem": "A delay in the supply chain ------- last week, which forced the factory to suspend two production lines.",
+      "options": [
+        "was occurred",
+        "is occurring",
+        "occurred",
+        "had been occurred"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "« Occur » est un verbe intransitif : il n'a pas de passif. « Last week » demande le prétérit actif : « occurred ».",
+          "distractors": {
+            "A": "« was occurred » est un passif impossible : « occur » n'a pas de complément d'objet.",
+            "B": "« is occurring » est un présent continu : « last week » renvoie au passé.",
+            "D": "« had been occurred » est un passif impossible, et le plus-que-parfait n'a pas de repère passé ici."
+          },
+          "trap": "Les verbes intransitifs (occur, happen, arrive, remain) ne se mettent jamais au passif."
+        },
+        "en": {
+          "rule": "\"Occur\" is an intransitive verb: it has no passive. \"Last week\" calls for the active simple past: \"occurred\".",
+          "distractors": {
+            "A": "\"was occurred\" is an impossible passive: \"occur\" takes no object.",
+            "B": "\"is occurring\" is a present continuous: \"last week\" refers to the past.",
+            "D": "\"had been occurred\" is an impossible passive, and the past perfect has no past reference point here."
+          },
+          "trap": "Intransitive verbs (occur, happen, arrive, remain) are never passive."
+        }
+      }
+    },
+    {
+      "id": "p5-0047",
+      "part": 5,
+      "tags": [
+        "passive-voice"
+      ],
+      "difficulty": 1,
+      "stem": "The annual budget ------- by the finance committee before the end of the month.",
+      "options": [
+        "will be approved",
+        "will approve",
+        "approving",
+        "has approved"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "Le sujet « budget » reçoit l'action et il n'y a pas de complément d'objet : il faut un passif, « will be approved » (le comité est l'agent, introduit par « by »).",
+          "distractors": {
+            "B": "« will approve » est un actif : il exigerait un complément d'objet après le verbe.",
+            "C": "« approving » est un participe présent : il ne peut pas servir de verbe conjugué ici.",
+            "D": "« has approved » est un actif : il exigerait un complément d'objet, et « by » annonce un passif."
+          },
+          "trap": "Pas de complément d'objet après le trou + « by » → passif."
+        },
+        "en": {
+          "rule": "The subject \"budget\" receives the action and there is no object: a passive is needed, \"will be approved\" (the committee is the agent, introduced by \"by\").",
+          "distractors": {
+            "B": "\"will approve\" is active: it would need an object after the verb.",
+            "C": "\"approving\" is a present participle: it cannot be the conjugated verb here.",
+            "D": "\"has approved\" is active: it would need an object, and \"by\" signals a passive."
+          },
+          "trap": "No object after the blank + \"by\" → passive."
+        }
+      }
+    },
+    {
+      "id": "p5-0048",
+      "part": 5,
+      "tags": [
+        "passive-voice"
+      ],
+      "difficulty": 3,
+      "stem": "Several mistakes in the original invoice ------- by the billing clerk before it was mailed to the client.",
+      "options": [
+        "corrected",
+        "were corrected",
+        "have corrected",
+        "correct"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "Les erreurs ne se corrigent pas elles-mêmes : le sujet subit l'action de « the billing clerk » (« by »). Le passif au prétérit « were corrected » convient à « before it was mailed ».",
+          "distractors": {
+            "A": "« corrected » seul est un participe sans auxiliaire : la phrase n'aurait pas de verbe conjugué.",
+            "C": "« have corrected » est un actif : il exigerait un complément d'objet, et « by » annonce un passif.",
+            "D": "« correct » est au présent actif : il exigerait un complément d'objet et ne convient pas à la scène passée."
+          },
+          "trap": "Un sujet long avant le trou ne change rien : cherche s'il y a un complément d'objet après."
+        },
+        "en": {
+          "rule": "The mistakes do not correct themselves: the subject undergoes the action of \"the billing clerk\" (\"by\"). The simple past passive \"were corrected\" fits \"before it was mailed\".",
+          "distractors": {
+            "A": "\"corrected\" alone is a participle without an auxiliary: the sentence would have no finite verb.",
+            "C": "\"have corrected\" is active: it would need an object, and \"by\" signals a passive.",
+            "D": "\"correct\" is the active present: it would need an object and does not fit the past scene."
+          },
+          "trap": "A long subject before the blank changes nothing: check whether an object follows."
+        }
+      }
+    },
+    {
+      "id": "p5-0049",
+      "part": 5,
+      "tags": [
+        "passive-voice"
+      ],
+      "difficulty": 2,
+      "stem": "The new safety regulations must ------- by all warehouse staff starting next month.",
+      "options": [
+        "follow",
+        "to follow",
+        "be following",
+        "be followed"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "Après un modal (« must »), on met « be » + participe passé pour un passif. Les règles sont suivies par le personnel (« by all warehouse staff ») : « be followed ».",
+          "distractors": {
+            "A": "« follow » est un actif : il exigerait un complément d'objet, et « by » annonce un passif.",
+            "B": "« to follow » ne s'emploie pas après un modal.",
+            "C": "« be following » est un actif continu : les règles ne « suivent » pas le personnel, et « by » annonce un passif."
+          },
+          "trap": "Modal + be + participe passé = passif ; modal + base verbale = actif."
+        },
+        "en": {
+          "rule": "After a modal (\"must\"), \"be\" + past participle forms a passive. The rules are followed by the staff (\"by all warehouse staff\"): \"be followed\".",
+          "distractors": {
+            "A": "\"follow\" is active: it would need an object, and \"by\" signals a passive.",
+            "B": "\"to follow\" is not used after a modal.",
+            "C": "\"be following\" is an active continuous: the rules do not \"follow\" the staff, and \"by\" signals a passive."
+          },
+          "trap": "Modal + be + past participle = passive; modal + base verb = active."
+        }
+      }
+    },
+    {
+      "id": "p5-0050",
+      "part": 5,
+      "tags": [
+        "passive-voice"
+      ],
+      "difficulty": 2,
+      "stem": "The conference room ------- for a client presentation at 2 p.m., so our team meeting will take place elsewhere.",
+      "options": [
+        "has been reserved",
+        "has reserved",
+        "is reserving",
+        "reserved"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "La salle ne réserve rien : elle est réservée par quelqu'un. Il n'y a pas de complément d'objet, donc un passif, « has been reserved ».",
+          "distractors": {
+            "B": "« has reserved » est un actif : il exigerait un complément d'objet.",
+            "C": "« is reserving » est un actif continu : une salle ne peut pas réserver, et il n'y a pas d'objet.",
+            "D": "« reserved » seul serait un actif sans complément d'objet, impossible ici."
+          },
+          "trap": "Sujet = chose + aucun complément d'objet après le trou → passif."
+        },
+        "en": {
+          "rule": "The room does not reserve anything: it is reserved by someone. There is no object, so a passive is needed: \"has been reserved\".",
+          "distractors": {
+            "B": "\"has reserved\" is active: it would need an object.",
+            "C": "\"is reserving\" is an active continuous: a room cannot reserve, and there is no object.",
+            "D": "\"reserved\" alone would be an active verb without an object, which is impossible here."
+          },
+          "trap": "Thing as subject + no object after the blank → passive."
+        }
+      }
+    },
+    {
+      "id": "p5-0051",
+      "part": 5,
+      "tags": [
+        "passive-voice"
+      ],
+      "difficulty": 2,
+      "stem": "Ms. Petrova's customer service department ------- all new orders within twenty-four hours of receipt.",
+      "options": [
+        "is processed",
+        "was processed",
+        "being processed",
+        "processes"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "Le trou est suivi d'un complément d'objet (« all new orders ») et le sujet « department » fait l'action : il faut un actif, « processes ».",
+          "distractors": {
+            "A": "« is processed » est un passif : il ne peut pas être suivi d'un complément d'objet direct.",
+            "B": "« was processed » est un passif au passé : même problème, et le sens est incohérent.",
+            "C": "« being processed » est un participe : il ne forme pas de verbe conjugué."
+          },
+          "trap": "Un complément d'objet direct juste après le trou → verbe actif."
+        },
+        "en": {
+          "rule": "The blank is followed by an object (\"all new orders\") and the subject \"department\" does the action: an active verb is needed, \"processes\".",
+          "distractors": {
+            "A": "\"is processed\" is a passive: it cannot be followed by a direct object.",
+            "B": "\"was processed\" is a past passive: same problem, and the meaning does not fit.",
+            "C": "\"being processed\" is a participle: it does not make a finite verb."
+          },
+          "trap": "A direct object right after the blank → active verb."
+        }
+      }
+    },
+    {
+      "id": "p5-0052",
+      "part": 5,
+      "tags": [
+        "passive-voice"
+      ],
+      "difficulty": 1,
+      "stem": "The updated price lists ------- to all retail partners by e-mail yesterday morning.",
+      "options": [
+        "sent",
+        "sending",
+        "were sent",
+        "have sent"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "Les listes de prix sont envoyées (par quelqu'un) : il n'y a pas d'objet après le trou, donc un passif. « Yesterday morning » demande le prétérit : « were sent ».",
+          "distractors": {
+            "A": "« sent » seul est un participe sans auxiliaire : il ne forme pas de verbe conjugué.",
+            "B": "« sending » est un participe présent : il ne peut pas être le verbe de la phrase.",
+            "D": "« have sent » est un actif : il exigerait un objet, et « yesterday » exclut le present perfect."
+          },
+          "trap": "Chose + « to / by » après le trou, sans objet → passif (be + participe passé)."
+        },
+        "en": {
+          "rule": "The price lists are sent by someone: there is no object after the blank, so a passive is needed. \"Yesterday morning\" calls for the simple past: \"were sent\".",
+          "distractors": {
+            "A": "\"sent\" alone is a participle without an auxiliary: it is not a finite verb.",
+            "B": "\"sending\" is a present participle: it cannot be the main verb.",
+            "D": "\"have sent\" is active: it would need an object, and \"yesterday\" excludes the present perfect."
+          },
+          "trap": "Thing as subject, no object after the blank → passive (be + past participle)."
+        }
+      }
+    },
+    {
+      "id": "p5-0053",
+      "part": 5,
+      "tags": [
+        "gerund-infinitive"
+      ],
+      "difficulty": 2,
+      "stem": "The board has agreed ------- the Brazilian distributor's proposal after reviewing the revised terms.",
+      "options": [
+        "accepting",
+        "to accept",
+        "accept",
+        "accepted"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "« Agree » est suivi de « to » + base verbale : « agreed to accept ».",
+          "distractors": {
+            "A": "« accepting » est un -ing : « agree » ne se construit pas avec un gérondif.",
+            "C": "« accept » est une base verbale nue : elle ne s'emploie pas directement après « agreed ».",
+            "D": "« accepted » est un prétérit : il ne peut pas suivre « has agreed » dans cette construction."
+          },
+          "trap": "agree, plan, decide, afford, intend, hope → « to » + verbe."
+        },
+        "en": {
+          "rule": "\"Agree\" is followed by \"to\" + base verb: \"agreed to accept\".",
+          "distractors": {
+            "A": "\"accepting\" is an -ing form: \"agree\" is not followed by a gerund.",
+            "C": "\"accept\" is a bare base verb: it cannot follow \"agreed\" directly.",
+            "D": "\"accepted\" is a past form: it cannot follow \"has agreed\" in this construction."
+          },
+          "trap": "agree, plan, decide, afford, intend, hope → \"to\" + verb."
+        }
+      }
+    },
+    {
+      "id": "p5-0054",
+      "part": 5,
+      "tags": [
+        "gerund-infinitive"
+      ],
+      "difficulty": 2,
+      "stem": "At yesterday's meeting, Ms. Hartley suggested ------- the product launch until the testing phase is complete.",
+      "options": [
+        "to postpone",
+        "postponing",
+        "postpone",
+        "postponed"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "« Suggest » est suivi d'un -ing : « suggested postponing ».",
+          "distractors": {
+            "A": "« to postpone » : « suggest » n'est jamais suivi de « to » + verbe.",
+            "C": "« postpone » seul n'est pas possible : il faudrait une proposition (« suggested that we postpone »).",
+            "D": "« postponed » est un participe passé : il ne s'emploie pas après « suggested » ici."
+          },
+          "trap": "suggest, recommend, consider, avoid, postpone, finish → verbe en -ing."
+        },
+        "en": {
+          "rule": "\"Suggest\" is followed by an -ing form: \"suggested postponing\".",
+          "distractors": {
+            "A": "\"to postpone\": \"suggest\" is never followed by \"to\" + verb.",
+            "C": "\"postpone\" alone is not possible here: a clause would be needed (\"suggested that we postpone\").",
+            "D": "\"postponed\" is a past participle: it does not follow \"suggested\" here."
+          },
+          "trap": "suggest, recommend, consider, avoid, postpone, finish → -ing form."
+        }
+      }
+    },
+    {
+      "id": "p5-0055",
+      "part": 5,
+      "tags": [
+        "gerund-infinitive"
+      ],
+      "difficulty": 2,
+      "stem": "We look forward to ------- you at the grand opening of our new Seattle showroom next month.",
+      "options": [
+        "see",
+        "seen",
+        "have seen",
+        "seeing"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "Dans « look forward to », « to » est une préposition : elle est suivie d'un -ing, « seeing ».",
+          "distractors": {
+            "A": "« see » est la base verbale : ce serait le « to » de l'infinitif, or ici « to » est une préposition.",
+            "B": "« seen » est un participe passé : il ne se construit pas après une préposition ici.",
+            "C": "« have seen » est un infinitif parfait : il ne s'emploie pas après « look forward to »."
+          },
+          "trap": "look forward to, be committed to, be used to, in addition to : « to » préposition + -ing."
+        },
+        "en": {
+          "rule": "In \"look forward to\", \"to\" is a preposition: it is followed by an -ing form, \"seeing\".",
+          "distractors": {
+            "A": "\"see\" is the base verb: that would be the infinitive \"to\", but here \"to\" is a preposition.",
+            "B": "\"seen\" is a past participle: it does not follow a preposition here.",
+            "C": "\"have seen\" is a perfect infinitive: it is not used after \"look forward to\"."
+          },
+          "trap": "look forward to, be committed to, be used to, in addition to: preposition \"to\" + -ing."
+        }
+      }
+    },
+    {
+      "id": "p5-0056",
+      "part": 5,
+      "tags": [
+        "gerund-infinitive"
+      ],
+      "difficulty": 1,
+      "stem": "Ms. Reyes decided ------- two additional drivers to meet the rising demand for home deliveries.",
+      "options": [
+        "hiring",
+        "hired",
+        "hire",
+        "to hire"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "« Decide » est suivi de « to » + base verbale : « decided to hire ».",
+          "distractors": {
+            "A": "« hiring » est un -ing : « decide » ne se construit pas avec un gérondif.",
+            "B": "« hired » est un prétérit : on ne peut pas enchaîner deux verbes conjugués.",
+            "C": "« hire » est une base nue : il manque « to » après « decided »."
+          },
+          "trap": "decide, plan, agree, afford, intend → « to » + verbe."
+        },
+        "en": {
+          "rule": "\"Decide\" is followed by \"to\" + base verb: \"decided to hire\".",
+          "distractors": {
+            "A": "\"hiring\" is an -ing form: \"decide\" is not followed by a gerund.",
+            "B": "\"hired\" is a simple past: two conjugated verbs cannot be chained like this.",
+            "C": "\"hire\" is a bare base verb: \"to\" is missing after \"decided\"."
+          },
+          "trap": "decide, plan, agree, afford, intend → \"to\" + verb."
+        }
+      }
+    },
+    {
+      "id": "p5-0057",
+      "part": 5,
+      "tags": [
+        "gerund-infinitive"
+      ],
+      "difficulty": 3,
+      "stem": "In addition to ------- the monthly sales reports, Ms. Nakamura trains new representatives on the company's database.",
+      "options": [
+        "preparing",
+        "prepare",
+        "to prepare",
+        "prepared"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "Dans « in addition to », « to » est une préposition : elle est suivie d'un -ing, « preparing ».",
+          "distractors": {
+            "B": "« prepare » est une base verbale : elle ne suit pas une préposition.",
+            "C": "« to prepare » ajoute un second « to » : « in addition to to prepare » est impossible.",
+            "D": "« prepared » est un participe passé : il ne peut pas suivre une préposition avec un objet actif."
+          },
+          "trap": "« in addition to », « apart from », « instead of » → -ing, jamais base verbale."
+        },
+        "en": {
+          "rule": "In \"in addition to\", \"to\" is a preposition: it is followed by an -ing form, \"preparing\".",
+          "distractors": {
+            "B": "\"prepare\" is a base verb: it does not follow a preposition.",
+            "C": "\"to prepare\" adds a second \"to\": \"in addition to to prepare\" is impossible.",
+            "D": "\"prepared\" is a past participle: it cannot follow a preposition with an active object."
+          },
+          "trap": "\"in addition to\", \"apart from\", \"instead of\" → -ing, never the base verb."
+        }
+      }
+    },
+    {
+      "id": "p5-0058",
+      "part": 5,
+      "tags": [
+        "gerund-infinitive"
+      ],
+      "difficulty": 1,
+      "stem": "The firm hired an outside consultant in order ------- its annual shipping costs.",
+      "options": [
+        "reducing",
+        "reduced",
+        "to reduce",
+        "reduce"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "« In order » introduit un but et se construit avec « to » + base verbale : « in order to reduce ».",
+          "distractors": {
+            "A": "« reducing » est un -ing : « in order » n'est pas suivi d'un gérondif.",
+            "B": "« reduced » est un participe passé : il ne peut pas exprimer le but après « in order ».",
+            "D": "« reduce » est une base nue : il manque « to » après « in order »."
+          },
+          "trap": "But = « in order to » / « to » + verbe ; jamais -ing."
+        },
+        "en": {
+          "rule": "\"In order\" introduces a purpose and takes \"to\" + base verb: \"in order to reduce\".",
+          "distractors": {
+            "A": "\"reducing\" is an -ing form: \"in order\" is not followed by a gerund.",
+            "B": "\"reduced\" is a past participle: it cannot express purpose after \"in order\".",
+            "D": "\"reduce\" is a bare base verb: \"to\" is missing after \"in order\"."
+          },
+          "trap": "Purpose = \"in order to\" / \"to\" + verb, never -ing."
+        }
+      }
+    },
+    {
+      "id": "p5-0059",
+      "part": 5,
+      "tags": [
+        "gerund-infinitive"
+      ],
+      "difficulty": 3,
+      "stem": "Our support department is committed to ------- all customer complaints within one business day.",
+      "options": [
+        "resolve",
+        "resolving",
+        "resolved",
+        "to resolve"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "Dans « be committed to », « to » est une préposition : elle est suivie d'un -ing, « resolving ».",
+          "distractors": {
+            "A": "« resolve » est une base verbale : elle ne suit pas la préposition « to » ici.",
+            "C": "« resolved » est un participe passé : il ne peut pas suivre la préposition « to » avec un objet actif.",
+            "D": "« to resolve » donnerait « committed to to resolve » : deux « to » de suite sont impossibles."
+          },
+          "trap": "be committed to, be dedicated to, be accustomed to : « to » préposition + -ing."
+        },
+        "en": {
+          "rule": "In \"be committed to\", \"to\" is a preposition: it is followed by an -ing form, \"resolving\".",
+          "distractors": {
+            "A": "\"resolve\" is a base verb: it does not follow the preposition \"to\" here.",
+            "C": "\"resolved\" is a past participle: it cannot follow the preposition \"to\" with an active object.",
+            "D": "\"to resolve\" would give \"committed to to resolve\": two \"to\" in a row are impossible."
+          },
+          "trap": "be committed to, be dedicated to, be accustomed to: preposition \"to\" + -ing."
+        }
+      }
+    },
+    {
+      "id": "p5-0060",
+      "part": 5,
+      "tags": [
+        "gerund-infinitive"
+      ],
+      "difficulty": 2,
+      "stem": "Mr. Brandt carefully avoided ------- the confidential figures with anyone outside the finance team.",
+      "options": [
+        "sharing",
+        "to share",
+        "share",
+        "shared"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "« Avoid » est suivi d'un -ing : « avoided sharing ».",
+          "distractors": {
+            "B": "« to share » : « avoid » ne se construit jamais avec « to » + verbe.",
+            "C": "« share » est une base nue : elle ne peut pas suivre « avoided ».",
+            "D": "« shared » est un prétérit ou participe : on ne peut pas enchaîner deux verbes conjugués."
+          },
+          "trap": "avoid, consider, suggest, postpone, finish, recommend → -ing."
+        },
+        "en": {
+          "rule": "\"Avoid\" is followed by an -ing form: \"avoided sharing\".",
+          "distractors": {
+            "B": "\"to share\": \"avoid\" is never followed by \"to\" + verb.",
+            "C": "\"share\" is a bare base verb: it cannot follow \"avoided\".",
+            "D": "\"shared\" is a past form: two conjugated verbs cannot be chained."
+          },
+          "trap": "avoid, consider, suggest, postpone, finish, recommend → -ing."
+        }
+      }
+    }
+  ]
+}

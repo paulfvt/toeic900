@@ -1,0 +1,21 @@
+{
+  "description": "Taxonomie des compétences (tags). Les identifiants sont stables : ils relient le contenu à la progression de l'utilisateur. Ne jamais renommer un id existant.",
+  "tags": [
+    {"id": "word-form-noun", "parts": [5, 6], "group": "grammar", "fr": "Forme du mot : nom", "en": "Word form: noun"},
+    {"id": "word-form-adjective", "parts": [5, 6], "group": "grammar", "fr": "Forme du mot : adjectif", "en": "Word form: adjective"},
+    {"id": "word-form-adverb", "parts": [5, 6], "group": "grammar", "fr": "Forme du mot : adverbe", "en": "Word form: adverb"},
+    {"id": "comparatives-superlatives", "parts": [5, 6], "group": "grammar", "fr": "Comparatifs et superlatifs", "en": "Comparatives and superlatives"},
+    {"id": "verb-tense", "parts": [5, 6], "group": "grammar", "fr": "Temps des verbes", "en": "Verb tenses"},
+    {"id": "subject-verb-agreement", "parts": [5, 6], "group": "grammar", "fr": "Accord sujet-verbe", "en": "Subject-verb agreement"},
+    {"id": "passive-voice", "parts": [5, 6], "group": "grammar", "fr": "Voix active ou passive", "en": "Active or passive voice"},
+    {"id": "gerund-infinitive", "parts": [5, 6], "group": "grammar", "fr": "Gérondif ou infinitif", "en": "Gerund or infinitive"},
+    {"id": "participle-adjectives", "parts": [5, 6], "group": "grammar", "fr": "Participes en -ing / -ed", "en": "-ing / -ed participles"},
+    {"id": "pronouns", "parts": [5, 6], "group": "grammar", "fr": "Pronoms et possessifs", "en": "Pronouns and possessives"},
+    {"id": "relative-clauses", "parts": [5, 6], "group": "grammar", "fr": "Propositions relatives", "en": "Relative clauses"},
+    {"id": "quantifiers-determiners", "parts": [5, 6], "group": "grammar", "fr": "Quantifieurs et déterminants", "en": "Quantifiers and determiners"},
+    {"id": "prepositions", "parts": [5, 6], "group": "grammar", "fr": "Prépositions", "en": "Prepositions"},
+    {"id": "conjunctions-connectors", "parts": [5, 6], "group": "grammar", "fr": "Conjonctions et connecteurs", "en": "Conjunctions and connectors"},
+    {"id": "vocabulary-in-context", "parts": [5, 6], "group": "vocabulary", "fr": "Vocabulaire en contexte", "en": "Vocabulary in context"},
+    {"id": "collocations", "parts": [5, 6], "group": "vocabulary", "fr": "Collocations", "en": "Collocations"}
+  ]
+}

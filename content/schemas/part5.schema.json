@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "toeic900/part5.schema.json",
+  "title": "Lot de questions Part 5 (phrases à compléter)",
+  "description": "Contrat des fichiers content/bank/part5/*.json. content/tools/validate.py applique ces règles, plus des contrôles qu'un schéma ne sait pas exprimer (tags connus, doublons, répartitions).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["part", "pool", "questions"],
+  "properties": {
+    "part": {"const": 5},
+    "pool": {
+      "description": "training = banque d'entraînement ; mock = tests blancs ; diagnostic = test de diagnostic. Une question n'appartient qu'à un seul pool.",
+      "enum": ["training", "mock", "diagnostic"]
+    },
+    "questions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/question"}
+    }
+  },
+  "$defs": {
+    "question": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "part", "tags", "difficulty", "stem", "options", "answer", "explanation"],
+      "properties": {
+        "id": {
+          "description": "Identifiant stable, jamais réutilisé ni renuméroté : il relie la question à la progression de l'utilisateur.",
+          "type": "string",
+          "pattern": "^p5-[0-9]{4}$"
+        },
+        "part": {"const": 5},
+        "tags": {
+          "description": "Compétences testées, la principale en premier. Identifiants de content/schemas/tags.json.",
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 3,
+          "uniqueItems": true,
+          "items": {"type": "string"}
+        },
+        "difficulty": {
+          "description": "1 = facile, 2 = moyen, 3 = difficile.",
+          "enum": [1, 2, 3]
+        },
+        "stem": {
+          "description": "Phrase en anglais avec exactement un trou noté ------- (7 tirets).",
+          "type": "string",
+          "minLength": 30,
+          "maxLength": 220,
+          "pattern": "^[^-]*(?:-(?!-)[^-]*)*-{7}[^-]*(?:-(?!-)[^-]*)*$"
+        },
+        "options": {
+          "description": "Les 4 propositions, dans l'ordre A, B, C, D.",
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1, "maxLength": 60}
+        },
+        "answer": {"enum": ["A", "B", "C", "D"]},
+        "explanation": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["fr", "en"],
+          "properties": {
+            "fr": {"$ref": "#/$defs/explanation"},
+            "en": {"$ref": "#/$defs/explanation"}
+          }
+        }
+      }
+    },
+    "explanation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rule", "distractors", "trap"],
+      "properties": {
+        "rule": {
+          "description": "La règle qui donne la bonne réponse, appliquée à cette phrase.",
+          "type": "string",
+          "minLength": 20
+        },
+        "distractors": {
+          "description": "Pour chacune des 3 mauvaises lettres (et seulement elles), pourquoi elle est fausse.",
+          "type": "object",
+          "minProperties": 3,
+          "maxProperties": 3,
+          "propertyNames": {"enum": ["A", "B", "C", "D"]},
+          "additionalProperties": {"type": "string", "minLength": 10}
+        },
+        "trap": {
+          "description": "Le piège à retenir, en une phrase courte.",
+          "type": "string",
+          "minLength": 10
+        }
+      }
+    }
+  }
+}

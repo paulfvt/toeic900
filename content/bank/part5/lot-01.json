@@ -1,0 +1,1086 @@
+{
+  "part": 5,
+  "pool": "training",
+  "questions": [
+    {
+      "id": "p5-0001",
+      "part": 5,
+      "tags": [
+        "word-form-noun"
+      ],
+      "difficulty": 2,
+      "stem": "The company's new safety ------- require every warehouse employee to wear a helmet on the loading dock.",
+      "options": [
+        "regulatory",
+        "regulate",
+        "regulations",
+        "regulated"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "Le trou suit « new safety » et précède le verbe « require » : il faut un nom pluriel sujet, « safety regulations » (nom composé).",
+          "distractors": {
+            "A": "« regulatory » est un adjectif : il ne peut pas être le sujet de « require ».",
+            "B": "« regulate » est un verbe : on attend un nom après « new safety ».",
+            "D": "« regulated » est un participe : il ne peut pas servir de sujet ici."
+          },
+          "trap": "Un verbe conjugué sans sujet nominal → cherche le nom pluriel avant lui."
+        },
+        "en": {
+          "rule": "The blank follows \"new safety\" and comes before the verb \"require\": you need a plural noun as subject, \"safety regulations\" (a compound noun).",
+          "distractors": {
+            "A": "\"regulatory\" is an adjective: it cannot be the subject of \"require\".",
+            "B": "\"regulate\" is a verb: a noun is needed after \"new safety\".",
+            "D": "\"regulated\" is a participle: it cannot be the subject here."
+          },
+          "trap": "A conjugated verb with no noun subject → look for the plural noun before it."
+        }
+      }
+    },
+    {
+      "id": "p5-0002",
+      "part": 5,
+      "tags": [
+        "word-form-noun"
+      ],
+      "difficulty": 2,
+      "stem": "After weeks of discussion, the board announced its ------- to relocate the distribution center to Rotterdam.",
+      "options": [
+        "decisive",
+        "decide",
+        "decision",
+        "decisively"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "Après le possessif « its », il faut un nom : « its decision to relocate ».",
+          "distractors": {
+            "A": "« decisive » est un adjectif : il ne peut pas suivre « its » sans nom derrière.",
+            "B": "« decide » est un verbe à la base verbale : impossible après un possessif.",
+            "D": "« decisively » est un adverbe : il ne peut pas être l'objet de « announced »."
+          },
+          "trap": "Après un possessif (its, his, our), cherche un nom."
+        },
+        "en": {
+          "rule": "After the possessive \"its\" you need a noun: \"its decision to relocate\".",
+          "distractors": {
+            "A": "\"decisive\" is an adjective: it cannot follow \"its\" without a noun after it.",
+            "B": "\"decide\" is the base verb form: impossible after a possessive.",
+            "D": "\"decisively\" is an adverb: it cannot be the object of \"announced\"."
+          },
+          "trap": "After a possessive (its, his, our), look for a noun."
+        }
+      }
+    },
+    {
+      "id": "p5-0003",
+      "part": 5,
+      "tags": [
+        "word-form-noun"
+      ],
+      "difficulty": 1,
+      "stem": "The hotel offers free ------- to the fitness center for all registered guests.",
+      "options": [
+        "access",
+        "accessible",
+        "accessibly",
+        "accessed"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "Après l'adjectif « free », il faut un nom, objet de « offers » : « free access to ».",
+          "distractors": {
+            "B": "« accessible » est un adjectif : il ne peut pas être l'objet de « offers ».",
+            "C": "« accessibly » est un adverbe : il ne peut pas être l'objet d'un verbe.",
+            "D": "« accessed » est un participe passé : il ne donne pas de nom après « free »."
+          },
+          "trap": "Un verbe transitif (offers) attend un nom comme objet."
+        },
+        "en": {
+          "rule": "After the adjective \"free\" you need a noun, the object of \"offers\": \"free access to\".",
+          "distractors": {
+            "B": "\"accessible\" is an adjective: it cannot be the object of \"offers\".",
+            "C": "\"accessibly\" is an adverb: it cannot be the object of a verb.",
+            "D": "\"accessed\" is a past participle: it does not give a noun after \"free\"."
+          },
+          "trap": "A transitive verb (offers) needs a noun as its object."
+        }
+      }
+    },
+    {
+      "id": "p5-0004",
+      "part": 5,
+      "tags": [
+        "word-form-noun"
+      ],
+      "difficulty": 3,
+      "stem": "All ------- for the sales manager position must submit a portfolio of previous work by March 15.",
+      "options": [
+        "application",
+        "applied",
+        "applicants",
+        "applications"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "« must submit » a besoin d'un sujet qui agit : une personne. « All applicants » est pluriel et désigne les candidats ; l'indice est loin du trou.",
+          "distractors": {
+            "A": "« application » est singulier : il ne s'accorde pas avec « All » et désigne une chose.",
+            "B": "« applied » est un participe passé : il ne donne pas de sujet nominal.",
+            "D": "« applications » est pluriel mais désigne des dossiers : un dossier ne peut pas « submit » un portfolio."
+          },
+          "trap": "Nom de personne (-ant, -ee, -or) ou de chose (-ation) : regarde qui fait l'action."
+        },
+        "en": {
+          "rule": "\"must submit\" needs a subject that acts: a person. \"All applicants\" is plural and means the candidates; the clue is far from the blank.",
+          "distractors": {
+            "A": "\"application\" is singular: it does not agree with \"All\" and names a thing.",
+            "B": "\"applied\" is a past participle: it gives no noun subject.",
+            "D": "\"applications\" is plural but names documents: a document cannot \"submit\" a portfolio."
+          },
+          "trap": "Person noun (-ant, -ee, -or) or thing noun (-ation): check who does the action."
+        }
+      }
+    },
+    {
+      "id": "p5-0005",
+      "part": 5,
+      "tags": [
+        "word-form-noun"
+      ],
+      "difficulty": 2,
+      "stem": "The conference organizers apologized for the ------- to the schedule caused by the keynote speaker's late flight.",
+      "options": [
+        "disruptive",
+        "disruption",
+        "disrupt",
+        "disrupted"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "Après l'article « the » et avant « to the schedule », il faut un nom : « the disruption to the schedule ».",
+          "distractors": {
+            "A": "« disruptive » est un adjectif : sans nom derrière, il ne convient pas après « the ».",
+            "C": "« disrupt » est un verbe à la base verbale : impossible après « the ».",
+            "D": "« disrupted » est un participe : « the disrupted to the schedule » n'a pas de sens."
+          },
+          "trap": "« the » + trou + préposition → un nom."
+        },
+        "en": {
+          "rule": "After the article \"the\" and before \"to the schedule\", you need a noun: \"the disruption to the schedule\".",
+          "distractors": {
+            "A": "\"disruptive\" is an adjective: with no noun after it, it does not fit after \"the\".",
+            "C": "\"disrupt\" is the base verb form: impossible after \"the\".",
+            "D": "\"disrupted\" is a participle: \"the disrupted to the schedule\" makes no sense."
+          },
+          "trap": "\"the\" + blank + preposition → a noun."
+        }
+      }
+    },
+    {
+      "id": "p5-0006",
+      "part": 5,
+      "tags": [
+        "word-form-noun"
+      ],
+      "difficulty": 3,
+      "stem": "Regular ------- at the monthly safety workshops is mandatory for all production staff, including temporary workers.",
+      "options": [
+        "attended",
+        "attendee",
+        "attendance",
+        "attend"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "« Regular » est un adjectif qui attend un nom, sujet de « is mandatory ». On parle de l'action d'assister, pas d'une personne : « attendance ».",
+          "distractors": {
+            "A": "« attended » est un participe passé : il ne peut pas être le sujet de « is ».",
+            "B": "« attendee » est un nom de personne : « an attendee is mandatory » n'a pas de sens.",
+            "D": "« attend » est un verbe à la base verbale : il ne peut pas suivre l'adjectif « regular »."
+          },
+          "trap": "Nom d'action (-ance, -ion) ou de personne (-ee, -er) : le sens décide."
+        },
+        "en": {
+          "rule": "\"Regular\" is an adjective that needs a noun, the subject of \"is mandatory\". The idea is the act of attending, not a person: \"attendance\".",
+          "distractors": {
+            "A": "\"attended\" is a past participle: it cannot be the subject of \"is\".",
+            "B": "\"attendee\" is a person noun: \"an attendee is mandatory\" makes no sense.",
+            "D": "\"attend\" is the base verb form: it cannot follow the adjective \"regular\"."
+          },
+          "trap": "Action noun (-ance, -ion) or person noun (-ee, -er): meaning decides."
+        }
+      }
+    },
+    {
+      "id": "p5-0007",
+      "part": 5,
+      "tags": [
+        "word-form-noun"
+      ],
+      "difficulty": 2,
+      "stem": "Mr. Chen's ------- as regional director was welcomed by the entire sales team in the Singapore office.",
+      "options": [
+        "appointed",
+        "appointment",
+        "appoint",
+        "appointive"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "Après le possessif « Mr. Chen's », il faut un nom, sujet de « was welcomed » : « appointment as ».",
+          "distractors": {
+            "A": "« appointed » est un participe passé : il ne donne pas de sujet nominal.",
+            "C": "« appoint » est un verbe à la base verbale : impossible après un possessif.",
+            "D": "« appointive » est un adjectif rare (poste pourvu par nomination) : il ne peut pas être le sujet."
+          },
+          "trap": "Possessif + trou + verbe conjugué → un nom sujet."
+        },
+        "en": {
+          "rule": "After the possessive \"Mr. Chen's\" you need a noun, the subject of \"was welcomed\": \"appointment as\".",
+          "distractors": {
+            "A": "\"appointed\" is a past participle: it gives no noun subject.",
+            "C": "\"appoint\" is the base verb form: impossible after a possessive.",
+            "D": "\"appointive\" is a rare adjective (a position filled by appointment): it cannot be the subject."
+          },
+          "trap": "Possessive + blank + conjugated verb → a noun subject."
+        }
+      }
+    },
+    {
+      "id": "p5-0008",
+      "part": 5,
+      "tags": [
+        "word-form-noun"
+      ],
+      "difficulty": 1,
+      "stem": "The ------- of the new inventory software has reduced the time needed to process incoming orders.",
+      "options": [
+        "implement",
+        "implemented",
+        "implementation",
+        "implementable"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "Après « The » et avant « of », il faut un nom, sujet de « has reduced » : « The implementation of ».",
+          "distractors": {
+            "A": "« implement » est un verbe (ou un outil) à la base : « The implement of » ne convient pas au sens ici.",
+            "B": "« implemented » est un participe passé : il ne peut pas être sujet.",
+            "D": "« implementable » est un adjectif : il ne peut pas suivre « The » sans nom."
+          },
+          "trap": "« The » + trou + « of » → un nom."
+        },
+        "en": {
+          "rule": "After \"The\" and before \"of\" you need a noun, the subject of \"has reduced\": \"The implementation of\".",
+          "distractors": {
+            "A": "\"implement\" is a base-form verb (or a tool): \"The implement of\" does not fit the meaning here.",
+            "B": "\"implemented\" is a past participle: it cannot be a subject.",
+            "D": "\"implementable\" is an adjective: it cannot follow \"The\" without a noun."
+          },
+          "trap": "\"The\" + blank + \"of\" → a noun."
+        }
+      }
+    },
+    {
+      "id": "p5-0009",
+      "part": 5,
+      "tags": [
+        "word-form-adjective"
+      ],
+      "difficulty": 2,
+      "stem": "Harbor Logistics is known as a ------- shipping partner that delivers packages on time, even during the holiday season.",
+      "options": [
+        "rely",
+        "reliance",
+        "reliably",
+        "reliable"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "Entre l'article « a » et le nom « partner », il faut un adjectif : « a reliable shipping partner ».",
+          "distractors": {
+            "A": "« rely » est un verbe à la base verbale : impossible devant un nom.",
+            "B": "« reliance » est un nom : il ne qualifie pas « partner » ici.",
+            "C": "« reliably » est un adverbe : il ne modifie pas un nom."
+          },
+          "trap": "Article + trou + nom → un adjectif."
+        },
+        "en": {
+          "rule": "Between the article \"a\" and the noun \"partner\" you need an adjective: \"a reliable shipping partner\".",
+          "distractors": {
+            "A": "\"rely\" is the base verb form: impossible before a noun.",
+            "B": "\"reliance\" is a noun: it does not describe \"partner\" here.",
+            "C": "\"reliably\" is an adverb: it does not modify a noun."
+          },
+          "trap": "Article + blank + noun → an adjective."
+        }
+      }
+    },
+    {
+      "id": "p5-0010",
+      "part": 5,
+      "tags": [
+        "word-form-adjective"
+      ],
+      "difficulty": 1,
+      "stem": "The rooms at the Seaside Inn are ------- and include a complimentary breakfast each morning.",
+      "options": [
+        "afford",
+        "affordable",
+        "affordability",
+        "affordably"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "Après « are », qui est un verbe d'état, il faut un adjectif : « are affordable ».",
+          "distractors": {
+            "A": "« afford » est un verbe à la base verbale : impossible après « are ».",
+            "C": "« affordability » est un nom : « the rooms are affordability » n'a pas de sens.",
+            "D": "« affordably » est un adverbe : il ne peut pas être attribut de « rooms »."
+          },
+          "trap": "Après be, seem, remain → un adjectif."
+        },
+        "en": {
+          "rule": "After \"are\", a linking verb, you need an adjective: \"are affordable\".",
+          "distractors": {
+            "A": "\"afford\" is the base verb form: impossible after \"are\".",
+            "C": "\"affordability\" is a noun: \"the rooms are affordability\" makes no sense.",
+            "D": "\"affordably\" is an adverb: it cannot describe \"rooms\" after \"are\"."
+          },
+          "trap": "After be, seem, remain → an adjective."
+        }
+      }
+    },
+    {
+      "id": "p5-0011",
+      "part": 5,
+      "tags": [
+        "word-form-adjective"
+      ],
+      "difficulty": 3,
+      "stem": "All employee records are strictly ------- and may be viewed only by authorized personnel in the human resources department.",
+      "options": [
+        "confident",
+        "confide",
+        "confidence",
+        "confidential"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "« strictly » modifie un adjectif attribut de « records ». Des dossiers sont « confidential » (secrets) ; « confident » décrit une personne sûre d'elle.",
+          "distractors": {
+            "A": "« confident » est un adjectif, mais il décrit une personne sûre d'elle : des dossiers ne peuvent pas l'être.",
+            "B": "« confide » est un verbe : impossible après « strictly » attribut de « are ».",
+            "C": "« confidence » est un nom : « records are confidence » n'a pas de sens."
+          },
+          "trap": "Paires piégeuses : confident (sûr de soi) / confidential (secret)."
+        },
+        "en": {
+          "rule": "\"strictly\" modifies an adjective that describes \"records\". Records are \"confidential\" (secret); \"confident\" describes a self-assured person.",
+          "distractors": {
+            "A": "\"confident\" is an adjective, but it describes a self-assured person: records cannot be that.",
+            "B": "\"confide\" is a verb: impossible after \"strictly\" as a complement of \"are\".",
+            "C": "\"confidence\" is a noun: \"records are confidence\" makes no sense."
+          },
+          "trap": "Tricky pairs: confident (self-assured) / confidential (secret)."
+        }
+      }
+    },
+    {
+      "id": "p5-0012",
+      "part": 5,
+      "tags": [
+        "word-form-adjective"
+      ],
+      "difficulty": 2,
+      "stem": "Many travelers find the airport's new signs ------- and easy to follow, even during the busiest holiday periods.",
+      "options": [
+        "help",
+        "helpfully",
+        "helpfulness",
+        "helpful"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "Après « find + objet », il faut un adjectif, coordonné à « easy » : « find the signs helpful and easy ».",
+          "distractors": {
+            "A": "« help » est un verbe ou un nom : il ne se coordonne pas avec l'adjectif « easy ».",
+            "B": "« helpfully » est un adverbe : il ne peut pas se coordonner avec « easy ».",
+            "C": "« helpfulness » est un nom : il ne se coordonne pas avec l'adjectif « easy »."
+          },
+          "trap": "find / make / keep + objet + adjectif ; « and » relie des mots de même nature."
+        },
+        "en": {
+          "rule": "After \"find + object\" you need an adjective, joined to \"easy\": \"find the signs helpful and easy\".",
+          "distractors": {
+            "A": "\"help\" is a verb or a noun: it cannot be joined to the adjective \"easy\".",
+            "B": "\"helpfully\" is an adverb: it cannot be joined to \"easy\".",
+            "C": "\"helpfulness\" is a noun: it cannot be joined to the adjective \"easy\"."
+          },
+          "trap": "find / make / keep + object + adjective; \"and\" links words of the same type."
+        }
+      }
+    },
+    {
+      "id": "p5-0013",
+      "part": 5,
+      "tags": [
+        "word-form-adjective"
+      ],
+      "difficulty": 2,
+      "stem": "The auditors completed an ------- review of the department's travel expenses before submitting their report.",
+      "options": [
+        "extensive",
+        "extend",
+        "extent",
+        "extensively"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "Entre « an » et le nom « review », il faut un adjectif commençant par une voyelle : « an extensive review ».",
+          "distractors": {
+            "B": "« extend » est un verbe : impossible devant un nom.",
+            "C": "« extent » est un nom : « an extent review » n'est pas une expression naturelle.",
+            "D": "« extensively » est un adverbe : il ne modifie pas un nom."
+          },
+          "trap": "Article + trou + nom → adjectif."
+        },
+        "en": {
+          "rule": "Between \"an\" and the noun \"review\" you need an adjective: \"an extensive review\".",
+          "distractors": {
+            "B": "\"extend\" is a verb: impossible before a noun.",
+            "C": "\"extent\" is a noun: \"an extent review\" is not a natural phrase.",
+            "D": "\"extensively\" is an adverb: it does not modify a noun."
+          },
+          "trap": "Article + blank + noun → adjective."
+        }
+      }
+    },
+    {
+      "id": "p5-0014",
+      "part": 5,
+      "tags": [
+        "word-form-adjective"
+      ],
+      "difficulty": 2,
+      "stem": "The customer service team is ------- to answer questions by phone or chat twenty-four hours a day.",
+      "options": [
+        "available",
+        "avail",
+        "availability",
+        "availing"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "Après « is », il faut un adjectif attribut : « is available to answer ».",
+          "distractors": {
+            "B": "« avail » est un verbe (ou un nom rare) : impossible après « is » ici.",
+            "C": "« availability » est un nom : « the team is availability » n'a pas de sens.",
+            "D": "« availing » est un participe présent : « is availing to answer » ne se dit pas."
+          },
+          "trap": "Après be → adjectif ; un nom ne décrit pas le sujet."
+        },
+        "en": {
+          "rule": "After \"is\" you need a complement adjective: \"is available to answer\".",
+          "distractors": {
+            "B": "\"avail\" is a verb (or a rare noun): impossible after \"is\" here.",
+            "C": "\"availability\" is a noun: \"the team is availability\" makes no sense.",
+            "D": "\"availing\" is a present participle: \"is availing to answer\" is not English."
+          },
+          "trap": "After be → adjective; a noun does not describe the subject."
+        }
+      }
+    },
+    {
+      "id": "p5-0015",
+      "part": 5,
+      "tags": [
+        "word-form-adjective"
+      ],
+      "difficulty": 3,
+      "stem": "The new tax incentives will bring ------- savings to small manufacturers over the next five years.",
+      "options": [
+        "considerably",
+        "considerable",
+        "considerate",
+        "consider"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "Devant le nom « savings », il faut un adjectif de quantité : « considerable » (important).",
+          "distractors": {
+            "A": "« considerably » est un adverbe : il ne modifie pas un nom.",
+            "C": "« considerate » est un adjectif, mais il signifie « attentionné » : des économies ne peuvent pas l'être.",
+            "D": "« consider » est un verbe à la base verbale : impossible devant un nom."
+          },
+          "trap": "Paires piégeuses : considerable (important) / considerate (attentionné)."
+        },
+        "en": {
+          "rule": "Before the noun \"savings\" you need an adjective of amount: \"considerable\" (large).",
+          "distractors": {
+            "A": "\"considerably\" is an adverb: it does not modify a noun.",
+            "C": "\"considerate\" is an adjective, but it means \"thoughtful\": savings cannot be that.",
+            "D": "\"consider\" is the base verb form: impossible before a noun."
+          },
+          "trap": "Tricky pairs: considerable (large) / considerate (thoughtful)."
+        }
+      }
+    },
+    {
+      "id": "p5-0016",
+      "part": 5,
+      "tags": [
+        "word-form-adjective"
+      ],
+      "difficulty": 1,
+      "stem": "Please bring all ------- documents to your visa interview, including your passport and proof of employment.",
+      "options": [
+        "necessarily",
+        "necessary",
+        "necessity",
+        "necessitate"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "Devant le nom « documents », il faut un adjectif : « necessary documents ».",
+          "distractors": {
+            "A": "« necessarily » est un adverbe : il ne modifie pas un nom.",
+            "C": "« necessity » est un nom : « necessity documents » n'est pas naturel ici.",
+            "D": "« necessitate » est un verbe : impossible devant un nom."
+          },
+          "trap": "Trou entre « all » et un nom → adjectif."
+        },
+        "en": {
+          "rule": "Before the noun \"documents\" you need an adjective: \"necessary documents\".",
+          "distractors": {
+            "A": "\"necessarily\" is an adverb: it does not modify a noun.",
+            "C": "\"necessity\" is a noun: \"necessity documents\" is not natural here.",
+            "D": "\"necessitate\" is a verb: impossible before a noun."
+          },
+          "trap": "Blank between \"all\" and a noun → adjective."
+        }
+      }
+    },
+    {
+      "id": "p5-0017",
+      "part": 5,
+      "tags": [
+        "word-form-adverb"
+      ],
+      "difficulty": 2,
+      "stem": "The technicians ------- inspect every machine on the assembly line before it is shipped to customers.",
+      "options": [
+        "care",
+        "carefulness",
+        "careful",
+        "carefully"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "Le trou précède le verbe « inspect » et le modifie : il faut un adverbe, « carefully ».",
+          "distractors": {
+            "A": "« care » est un verbe ou un nom : « care inspect » est impossible.",
+            "B": "« carefulness » est un nom : il ne peut pas modifier un verbe.",
+            "C": "« careful » est un adjectif : il ne modifie pas un verbe."
+          },
+          "trap": "Pour modifier un verbe → adverbe en -ly."
+        },
+        "en": {
+          "rule": "The blank comes before the verb \"inspect\" and modifies it: you need an adverb, \"carefully\".",
+          "distractors": {
+            "A": "\"care\" is a verb or a noun: \"care inspect\" is impossible.",
+            "B": "\"carefulness\" is a noun: it cannot modify a verb.",
+            "C": "\"careful\" is an adjective: it does not modify a verb."
+          },
+          "trap": "To modify a verb → an -ly adverb."
+        }
+      }
+    },
+    {
+      "id": "p5-0018",
+      "part": 5,
+      "tags": [
+        "word-form-adverb"
+      ],
+      "difficulty": 2,
+      "stem": "The merger proposal has been ------- reviewed by the legal department and two outside consultants.",
+      "options": [
+        "thorough",
+        "thoroughly",
+        "thoroughness",
+        "thoroughgoing"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "Entre l'auxiliaire « has been » et le participe « reviewed », on place un adverbe : « has been thoroughly reviewed ».",
+          "distractors": {
+            "A": "« thorough » est un adjectif : il ne modifie pas un participe verbal.",
+            "C": "« thoroughness » est un nom : impossible entre l'auxiliaire et le participe.",
+            "D": "« thoroughgoing » est un adjectif (très complet) : il ne modifie pas un verbe."
+          },
+          "trap": "Auxiliaire + trou + participe → adverbe."
+        },
+        "en": {
+          "rule": "Between the auxiliary \"has been\" and the participle \"reviewed\" you place an adverb: \"has been thoroughly reviewed\".",
+          "distractors": {
+            "A": "\"thorough\" is an adjective: it does not modify a verb participle.",
+            "C": "\"thoroughness\" is a noun: impossible between the auxiliary and the participle.",
+            "D": "\"thoroughgoing\" is an adjective (very complete): it does not modify a verb."
+          },
+          "trap": "Auxiliary + blank + participle → adverb."
+        }
+      }
+    },
+    {
+      "id": "p5-0019",
+      "part": 5,
+      "tags": [
+        "word-form-adverb"
+      ],
+      "difficulty": 1,
+      "stem": "Mr. Ito ------- updates the inventory list at the end of each shift so that managers can plan new orders.",
+      "options": [
+        "regularly",
+        "regular",
+        "regularity",
+        "regulate"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "Le trou précède le verbe « updates » : un adverbe le modifie, « regularly ».",
+          "distractors": {
+            "B": "« regular » est un adjectif : il ne modifie pas un verbe.",
+            "C": "« regularity » est un nom : il ne peut pas modifier un verbe.",
+            "D": "« regulate » est un verbe : on ne peut pas avoir deux verbes conjugués de suite ici."
+          },
+          "trap": "Sujet + adverbe + verbe : l'adverbe se place souvent avant le verbe."
+        },
+        "en": {
+          "rule": "The blank comes before the verb \"updates\", so an adverb modifies it: \"regularly\".",
+          "distractors": {
+            "B": "\"regular\" is an adjective: it does not modify a verb.",
+            "C": "\"regularity\" is a noun: it cannot modify a verb.",
+            "D": "\"regulate\" is a verb: two main verbs in a row do not work here."
+          },
+          "trap": "Subject + adverb + verb: adverbs often sit before the verb."
+        }
+      }
+    },
+    {
+      "id": "p5-0020",
+      "part": 5,
+      "tags": [
+        "word-form-adverb"
+      ],
+      "difficulty": 2,
+      "stem": "The restaurant's new menu was ------- popular with younger customers, according to the owner's latest sales figures.",
+      "options": [
+        "especially",
+        "especial",
+        "special",
+        "specialty"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "Le trou précède l'adjectif « popular » : un adverbe le modifie, « especially popular ».",
+          "distractors": {
+            "B": "« especial » est un adjectif rare : il ne modifie pas un autre adjectif.",
+            "C": "« special » est un adjectif : « special popular » est incorrect.",
+            "D": "« specialty » est un nom : il ne peut pas modifier un adjectif."
+          },
+          "trap": "Pour modifier un adjectif → adverbe."
+        },
+        "en": {
+          "rule": "The blank comes before the adjective \"popular\": an adverb modifies it, \"especially popular\".",
+          "distractors": {
+            "B": "\"especial\" is a rare adjective: it does not modify another adjective.",
+            "C": "\"special\" is an adjective: \"special popular\" is incorrect.",
+            "D": "\"specialty\" is a noun: it cannot modify an adjective."
+          },
+          "trap": "To modify an adjective → adverb."
+        }
+      }
+    },
+    {
+      "id": "p5-0021",
+      "part": 5,
+      "tags": [
+        "word-form-adverb"
+      ],
+      "difficulty": 1,
+      "stem": "Sales have increased ------- since the company launched its mobile app last spring.",
+      "options": [
+        "steady",
+        "steadily",
+        "steadiness",
+        "steadied"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "Après « have increased », on attend un adverbe de manière : « increased steadily ».",
+          "distractors": {
+            "A": "« steady » est un adjectif : il ne modifie pas un verbe.",
+            "C": "« steadiness » est un nom : il ne peut pas suivre « have increased » de cette façon.",
+            "D": "« steadied » est un verbe au passé : « have increased steadied » est impossible."
+          },
+          "trap": "Un verbe complet est modifié par un adverbe, pas par un adjectif."
+        },
+        "en": {
+          "rule": "After \"have increased\" you expect an adverb of manner: \"increased steadily\".",
+          "distractors": {
+            "A": "\"steady\" is an adjective: it does not modify a verb.",
+            "C": "\"steadiness\" is a noun: it cannot follow \"have increased\" this way.",
+            "D": "\"steadied\" is a past verb: \"have increased steadied\" is impossible."
+          },
+          "trap": "A verb is modified by an adverb, not an adjective."
+        }
+      }
+    },
+    {
+      "id": "p5-0022",
+      "part": 5,
+      "tags": [
+        "word-form-adverb"
+      ],
+      "difficulty": 3,
+      "stem": "Employees who work ------- during the peak season will receive an extra day of paid leave in January.",
+      "options": [
+        "hardness",
+        "hardly",
+        "hardy",
+        "hard"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "« hard » est un adverbe qui garde la même forme : « work hard » signifie travailler dur, ce qui explique la récompense.",
+          "distractors": {
+            "A": "« hardness » est un nom (dureté) : il ne modifie pas « work ».",
+            "B": "« hardly » veut dire « à peine » : « work hardly » contredit la prime accordée.",
+            "C": "« hardy » est un adjectif (robuste) : il ne modifie pas un verbe."
+          },
+          "trap": "hard = dur ; hardly = à peine. Ne pas ajouter -ly par réflexe."
+        },
+        "en": {
+          "rule": "\"hard\" is an adverb with the same form as the adjective: \"work hard\" means to work with effort, which explains the reward.",
+          "distractors": {
+            "A": "\"hardness\" is a noun (toughness): it does not modify \"work\".",
+            "B": "\"hardly\" means \"barely\": \"work hardly\" contradicts the reward.",
+            "C": "\"hardy\" is an adjective (robust): it does not modify a verb."
+          },
+          "trap": "hard = with effort; hardly = barely. Do not add -ly by reflex."
+        }
+      }
+    },
+    {
+      "id": "p5-0023",
+      "part": 5,
+      "tags": [
+        "word-form-adverb"
+      ],
+      "difficulty": 2,
+      "stem": "------- , the printer was repaired within an hour, so the presentation began right on schedule.",
+      "options": [
+        "Fortunately",
+        "Fortunate",
+        "Fortune",
+        "Fortunes"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "Au début d'une phrase complète, suivi d'une virgule, un adverbe de phrase commente toute l'idée : « Fortunately, ».",
+          "distractors": {
+            "B": "« Fortunate » est un adjectif : il ne peut pas ouvrir la phrase suivi d'une virgule.",
+            "C": "« Fortune » est un nom : « Fortune, the printer was repaired » est incorrect.",
+            "D": "« Fortunes » est un nom pluriel : il ne peut pas ouvrir la phrase ainsi."
+          },
+          "trap": "Mot + virgule en tête de phrase, sujet et verbe derrière → adverbe de phrase."
+        },
+        "en": {
+          "rule": "At the start of a full sentence, followed by a comma, a sentence adverb comments on the whole idea: \"Fortunately,\".",
+          "distractors": {
+            "B": "\"Fortunate\" is an adjective: it cannot open the sentence followed by a comma.",
+            "C": "\"Fortune\" is a noun: \"Fortune, the printer was repaired\" is incorrect.",
+            "D": "\"Fortunes\" is a plural noun: it cannot open the sentence this way."
+          },
+          "trap": "Word + comma at the start, then subject and verb → sentence adverb."
+        }
+      }
+    },
+    {
+      "id": "p5-0024",
+      "part": 5,
+      "tags": [
+        "word-form-adverb"
+      ],
+      "difficulty": 3,
+      "stem": "Dr. Mehta, the new research director, is ------- regarded by clients across the Asia-Pacific region for her accurate forecasts.",
+      "options": [
+        "high",
+        "height",
+        "highly",
+        "heighten"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "Entre « is » et le participe « regarded », il faut un adverbe : « highly regarded » (très estimée). « high » reste adjectif ou adverbe de hauteur.",
+          "distractors": {
+            "A": "« high » est un adverbe de hauteur (« fly high ») : il ne se dit pas devant « regarded ».",
+            "B": "« height » est un nom : impossible entre « is » et « regarded ».",
+            "D": "« heighten » est un verbe : impossible ici."
+          },
+          "trap": "high = en hauteur ; highly = très (devant un participe ou un adjectif)."
+        },
+        "en": {
+          "rule": "Between \"is\" and the participle \"regarded\" you need an adverb: \"highly regarded\". \"high\" is an adjective or an adverb of height.",
+          "distractors": {
+            "A": "\"high\" is an adverb of height (\"fly high\"): it is not used before \"regarded\".",
+            "B": "\"height\" is a noun: impossible between \"is\" and \"regarded\".",
+            "D": "\"heighten\" is a verb: impossible here."
+          },
+          "trap": "high = at a height; highly = very (before a participle or adjective)."
+        }
+      }
+    },
+    {
+      "id": "p5-0025",
+      "part": 5,
+      "tags": [
+        "comparatives-superlatives"
+      ],
+      "difficulty": 1,
+      "stem": "Shipping by rail is usually ------- than shipping by truck when a company needs to move bulk cargo.",
+      "options": [
+        "cheaper",
+        "cheapest",
+        "cheap",
+        "cheaply"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "« than » signale une comparaison de deux éléments : il faut le comparatif « cheaper ».",
+          "distractors": {
+            "B": "« cheapest » est un superlatif : il s'emploie avec « the » et sans « than ».",
+            "C": "« cheap » est la forme de base : elle ne se combine pas avec « than ».",
+            "D": "« cheaply » est un adverbe : « is cheaply than » est impossible."
+          },
+          "trap": "« than » → comparatif."
+        },
+        "en": {
+          "rule": "\"than\" signals a comparison of two things: you need the comparative \"cheaper\".",
+          "distractors": {
+            "B": "\"cheapest\" is a superlative: it is used with \"the\" and without \"than\".",
+            "C": "\"cheap\" is the base form: it is not combined with \"than\".",
+            "D": "\"cheaply\" is an adverb: \"is cheaply than\" is impossible."
+          },
+          "trap": "\"than\" → comparative."
+        }
+      }
+    },
+    {
+      "id": "p5-0026",
+      "part": 5,
+      "tags": [
+        "comparatives-superlatives"
+      ],
+      "difficulty": 2,
+      "stem": "Of the five suppliers we evaluated, Delta Parts consistently offers the ------- delivery times for urgent orders.",
+      "options": [
+        "faster",
+        "quickly",
+        "fastness",
+        "fastest"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "« Of the five suppliers » compare plus de deux éléments, après « the » : il faut le superlatif, « the fastest ».",
+          "distractors": {
+            "A": "« faster » est un comparatif : il compare deux éléments, pas cinq.",
+            "B": "« quickly » est un adverbe : il ne qualifie pas le nom « delivery times ».",
+            "C": "« fastness » est un nom (solidité) : il ne qualifie pas « delivery times »."
+          },
+          "trap": "« Of the + groupe de 3 ou plus » + the → superlatif."
+        },
+        "en": {
+          "rule": "\"Of the five suppliers\" compares more than two things, after \"the\": you need the superlative, \"the fastest\".",
+          "distractors": {
+            "A": "\"faster\" is a comparative: it compares two things, not five.",
+            "B": "\"quickly\" is an adverb: it does not describe the noun \"delivery times\".",
+            "C": "\"fastness\" is a noun (firmness): it does not describe \"delivery times\"."
+          },
+          "trap": "\"Of the + group of 3 or more\" + the → superlative."
+        }
+      }
+    },
+    {
+      "id": "p5-0027",
+      "part": 5,
+      "tags": [
+        "comparatives-superlatives"
+      ],
+      "difficulty": 2,
+      "stem": "Online enrollment is ------- more convenient than visiting the registration office in person.",
+      "options": [
+        "very",
+        "much",
+        "too",
+        "so"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "Pour renforcer un comparatif (« more convenient than »), on utilise « much » (ou « far », « even »).",
+          "distractors": {
+            "A": "« very » ne renforce pas un comparatif : « very more » est incorrect.",
+            "C": "« too » veut dire « trop » : « too more » est incorrect.",
+            "D": "« so » ne se combine pas avec « more … than » de cette façon."
+          },
+          "trap": "Pour renforcer un comparatif : much, far, even, still — jamais very."
+        },
+        "en": {
+          "rule": "To strengthen a comparative (\"more convenient than\"), use \"much\" (or \"far\", \"even\").",
+          "distractors": {
+            "A": "\"very\" does not strengthen a comparative: \"very more\" is incorrect.",
+            "C": "\"too\" means \"excessively\": \"too more\" is incorrect.",
+            "D": "\"so\" does not combine with \"more ... than\" this way."
+          },
+          "trap": "To strengthen a comparative: much, far, even, still — never very."
+        }
+      }
+    },
+    {
+      "id": "p5-0028",
+      "part": 5,
+      "tags": [
+        "comparatives-superlatives"
+      ],
+      "difficulty": 3,
+      "stem": "The ------- we invest in staff training, the more productive our teams become over the following quarters.",
+      "options": [
+        "more",
+        "most",
+        "much",
+        "many"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "La structure « the + comparatif …, the + comparatif … » : « The more we invest, the more productive … ». Le trou est un comparatif.",
+          "distractors": {
+            "B": "« most » est un superlatif : la structure parallèle demande deux comparatifs.",
+            "C": "« much » est la forme de base : elle ne forme pas la structure « the … the … ».",
+            "D": "« many » s'emploie avec un nom dénombrable pluriel, qui manque ici."
+          },
+          "trap": "the more …, the more … : deux comparatifs en parallèle."
+        },
+        "en": {
+          "rule": "The structure is \"the + comparative ..., the + comparative ...\": \"The more we invest, the more productive ...\". The blank is a comparative.",
+          "distractors": {
+            "B": "\"most\" is a superlative: the parallel structure needs two comparatives.",
+            "C": "\"much\" is the base form: it does not build the \"the ... the ...\" structure.",
+            "D": "\"many\" goes with a plural countable noun, which is missing here."
+          },
+          "trap": "the more ..., the more ...: two comparatives in parallel."
+        }
+      }
+    },
+    {
+      "id": "p5-0029",
+      "part": 5,
+      "tags": [
+        "comparatives-superlatives"
+      ],
+      "difficulty": 2,
+      "stem": "The new warehouse is twice as large ------- the old one, which allows the company to double its stock.",
+      "options": [
+        "than",
+        "then",
+        "as",
+        "so"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "La structure « as … as » : « twice as large as ». Le premier « as » est déjà là, le trou en demande un second.",
+          "distractors": {
+            "A": "« than » s'emploie après un comparatif en -er ou « more », pas après « as large ».",
+            "B": "« then » veut dire « ensuite » : il n'introduit pas de comparaison.",
+            "D": "« so » ne ferme pas la structure « as … as » dans cette phrase."
+          },
+          "trap": "as + adjectif + as : ne pas mélanger avec than."
+        },
+        "en": {
+          "rule": "The structure is \"as ... as\": \"twice as large as\". The first \"as\" is already there, so the blank needs the second.",
+          "distractors": {
+            "A": "\"than\" follows an -er comparative or \"more\", not \"as large\".",
+            "B": "\"then\" means \"after that\": it does not introduce a comparison.",
+            "D": "\"so\" does not close the \"as ... as\" structure in this sentence."
+          },
+          "trap": "as + adjective + as: do not mix it up with than."
+        }
+      }
+    },
+    {
+      "id": "p5-0030",
+      "part": 5,
+      "tags": [
+        "comparatives-superlatives"
+      ],
+      "difficulty": 1,
+      "stem": "Customer satisfaction scores were ------- in the second quarter than in the first, according to the survey.",
+      "options": [
+        "good",
+        "well",
+        "best",
+        "better"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "« than » demande un comparatif ; le comparatif irrégulier de « good » est « better ».",
+          "distractors": {
+            "A": "« good » est la forme de base : elle ne se combine pas avec « than ».",
+            "B": "« well » est un adverbe : il ne forme pas de comparaison avec « than ».",
+            "C": "« best » est un superlatif : il s'emploie avec « the » et sans « than »."
+          },
+          "trap": "good → better → best ; well → better → best (formes irrégulières)."
+        },
+        "en": {
+          "rule": "\"than\" needs a comparative; the irregular comparative of \"good\" is \"better\".",
+          "distractors": {
+            "A": "\"good\" is the base form: it is not combined with \"than\".",
+            "B": "\"well\" is an adverb: it does not build a comparison with \"than\".",
+            "C": "\"best\" is a superlative: it is used with \"the\" and without \"than\"."
+          },
+          "trap": "good → better → best; well → better → best (irregular forms)."
+        }
+      }
+    }
+  ]
+}
