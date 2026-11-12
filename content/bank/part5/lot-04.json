@@ -189,12 +189,12 @@
         "prepositions"
       ],
       "difficulty": 2,
-      "stem": "The shipping department is located ------- the hall from the main lobby, so visitors can easily find it.",
+      "stem": "The shipping department is located directly ------- the hall from the main lobby, so visitors can easily find it.",
       "options": [
         "across",
         "through",
         "beyond",
-        "along"
+        "among"
       ],
       "answer": "A",
       "explanation": {
@@ -203,7 +203,7 @@
           "distractors": {
             "B": "« through » indique un passage à l'intérieur de quelque chose, pas une position en face.",
             "C": "« beyond » signifie « au-delà de » et ne se construit pas avec « the hall from ».",
-            "D": "« along » suit la longueur de quelque chose ; « along the hall from » n'est pas une construction correcte."
+            "D": "« among » signifie « parmi », au milieu de plusieurs éléments : il ne s'emploie pas avec un seul couloir."
           },
           "trap": "« across (the hall) from » = en face de."
         },
@@ -212,7 +212,7 @@
           "distractors": {
             "B": "\"through\" shows movement inside something, not a position opposite.",
             "C": "\"beyond\" means \"farther than\" and is not used with \"the hall from\".",
-            "D": "\"along\" follows the length of something; \"along the hall from\" is not a correct structure."
+            "D": "\"among\" means \"in the middle of several things\": it cannot be used with a single hall."
           },
           "trap": "\"across (the hall) from\" = opposite."
         }
@@ -477,7 +477,7 @@
         "conjunctions-connectors"
       ],
       "difficulty": 3,
-      "stem": "The original schedule called for a spring launch; ------- supply problems have forced the team to postpone the release until autumn.",
+      "stem": "The original schedule called for a spring launch; -------, supply problems have forced the team to postpone the release until autumn.",
       "options": [
         "therefore",
         "however",
