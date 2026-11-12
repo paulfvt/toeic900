@@ -66,7 +66,7 @@ Si l'installation est refusée :
 **Mettre à jour sans perdre ta progression** : réinstalle toujours par-dessus (▶ ou `adb install -r`).
 Ne désinstalle pas l'app : cela effacerait ta progression, qui n'existe que sur le téléphone.
 
-> L'installation sur un vrai Galaxy S25+ n'a pas encore été testée : seul l'émulateur l'a été.
+> Testé le 12/11/2026 sur un Galaxy S25+ (SM-S936B, Android 17) : installation par câble, lancement et tests de base de données réussis.
 
 ## 4. Builder en ligne de commande (facultatif)
 

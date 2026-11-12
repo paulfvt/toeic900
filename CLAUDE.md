@@ -58,7 +58,8 @@ Le demi-test Reading est avancé en Phase 3 : sans lui, le score estimé n'aurai
 - **Rédaction des lots** : sous-agents Sonnet par lots de 30, avec tag, difficulté et lettre de la bonne réponse imposés par question ; relecture critique ensuite. Donner à chaque sous-agent son propre dossier de travail : en Phase 1, deux d'entre eux ont écrasé le script temporaire de l'autre dans le dossier partagé.
 - **Tests** : `gradlew testDebugUnitTest` (43), `python -m unittest discover -s content/tools/tests` (36), et 4 tests sur appareil lancés par `adb shell am instrument -w fr.toeic900.test/androidx.test.runner.AndroidJUnitRunner` après `gradlew installDebug installDebugAndroidTest`. `gradlew connectedDebugAndroidTest` réussit mais rapporte 0 test sur ce poste : ne pas s'y fier.
 - **Émulateur** : l'appareil virtuel s'appelle `Medium_Phone_API_37.0`. `local.properties` s'écrit avec des `/` (`sdk.dir=C:/Users/...`).
-- **Non vérifié** : installation sur le Galaxy S25+ réel ; relecture visuelle complète du mode sombre (seuls l'accueil, le choix de session, une question et le bilan ont été vus sur émulateur).
+- **Galaxy S25+ de l'auteur** (SM-S936B, Android 17, API 37) : installation par câble, lancement et 4 tests sur appareil réussis le 12/11/2026. Son écran fait 384 dp de large, contre 411 dp pour l'émulateur : vérifier à cette largeur les textes longs, qui passent sinon sur deux lignes.
+- **Non vérifié** : session menée jusqu'à l'expiration du chronomètre ; relecture visuelle complète du mode sombre (seuls l'accueil, le choix de session, une question et le bilan ont été vus).
 - **Limites connues** : session en cours non reprise après fermeture de l'app ; textes d'interface en français dans le code (pas de `strings.xml`) ; difficulté des questions estimée, non calibrée.
 
 ## Façon de travailler

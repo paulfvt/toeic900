@@ -68,16 +68,16 @@ fun HomeScreen(onQuickStart: () -> Unit, onChoose: () -> Unit, onSettings: () ->
             verticalArrangement = Arrangement.spacedBy(ElanDimens.gapSection),
         ) {
             ElanCard(style = CardStyle.Filled) {
-                LabelSmall("Session du jour", color = c.onPrimaryContainer)
+                LabelSmall("Session du jour · Part 5", color = c.onPrimaryContainer)
                 Spacer(Modifier.height(8.dp))
-                Text("Part 5 · Phrases à compléter", style = type.headline, color = c.onPrimaryContainer)
+                Text("Phrases à compléter", style = type.headline, color = c.onPrimaryContainer)
                 Spacer(Modifier.height(8.dp))
                 HomeLine(ElanIcons.Refresh, "Compétences à réviser", stats.dueSkills.toString())
                 HomeLine(ElanIcons.Target, "Compétences à découvrir", stats.newSkills.toString())
                 Spacer(Modifier.height(12.dp))
                 ElanButton("Commencer · 15 min", onQuickStart, Modifier.fillMaxWidth())
                 ElanButton(
-                    "Choisir la compétence et la durée",
+                    "Choisir la session",
                     onChoose,
                     Modifier.fillMaxWidth(),
                     style = ButtonStyle.Text,
