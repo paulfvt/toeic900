@@ -1,0 +1,101 @@
+{
+  "tag": "participle-adjectives",
+  "fr": {
+    "title": "Participes en -ing et en -ed",
+    "summary": "Un participe peut servir d'adjectif. La forme en **-ing** décrit ce qui fait l'action ou provoque un effet ; la forme en **-ed** décrit ce qui subit l'action ou ressent l'émotion. Au TOEIC, les deux formes figurent presque toujours parmi les options.",
+    "keyPoints": [
+      "**-ing** = actif : la chose ou la personne provoque l'émotion ou fait l'action (« a **confusing** report »).",
+      "**-ed** = passif : la personne ressent l'émotion, la chose a subi l'action (« a **confused** client », « the **attached** file »).",
+      "La question à te poser : le nom décrit fait-il l'action, ou la subit-il ?"
+    ],
+    "rules": [
+      {
+        "title": "Les adjectifs d'émotion",
+        "text": "Avec les verbes de sentiment (« interest », « surprise », « disappoint », « confuse », « satisfy »…), **-ing** qualifie la cause du sentiment et **-ed** la personne qui l'éprouve. Une chose ne ressent rien : elle est presque toujours en -ing.",
+        "examples": [
+          {"en": "The sales figures were **disappointing**.", "note": "Les chiffres provoquent la déception : -ing."},
+          {"en": "The manager was **disappointed** with the sales figures.", "note": "Le responsable ressent la déception : -ed."}
+        ]
+      },
+      {
+        "title": "Devant un nom : actif ou passif ?",
+        "text": "Devant un nom, **-ing** veut dire « qui fait l'action » et **-ed** (ou le participe passé irrégulier) « qui a subi l'action ». Pour vérifier, transforme en relative : « rising costs » = costs that are rising ; « the revised schedule » = the schedule that was revised.",
+        "examples": [
+          {"en": "Please review the **attached** document before the meeting.", "note": "Quelqu'un a joint le document : il subit l'action, donc -ed."},
+          {"en": "The company is hiring to meet **growing** demand.", "note": "La demande grandit d'elle-même : elle fait l'action, donc -ing."}
+        ]
+      },
+      {
+        "title": "Après un nom : la relative réduite",
+        "text": "Le participe peut aussi suivre le nom, comme une relative sans « who / which + be ». S'il est suivi d'un complément d'objet, c'est **-ing** (actif). S'il est suivi de « by » ou d'un complément de lieu ou de temps, c'est le plus souvent **-ed** (passif).",
+        "examples": [
+          {"en": "Employees **attending** the seminar must register by Friday.", "note": "= employees who attend the seminar. « the seminar » est le complément d'objet : -ing."},
+          {"en": "The proposal **submitted** by Ms. Chen was approved.", "note": "= the proposal that was submitted. « by » signale le passif : -ed."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "Une personne n'est pas toujours en -ed",
+        "text": "Une personne peut provoquer un sentiment : « an **inspiring** speaker » inspire son public, alors qu'« an **inspired** speaker » est lui-même inspiré. Ne choisis pas -ed seulement parce que le nom désigne quelqu'un."
+      },
+      {
+        "title": "Un verbe conjugué parmi les options",
+        "text": "Les options mélangent souvent participes et verbes conjugués (« attend », « attends », « attending », « attended »). Si la phrase a déjà son verbe principal (« must register »), le trou ne peut pas en être un second : il reste à choisir entre -ing et -ed."
+      },
+      {
+        "title": "Le passif sans « by »",
+        "text": "Le participe passé n'est pas toujours suivi de « by » : « the items **listed** below », « the **enclosed** brochure », « customers **affected** during the outage ». S'il n'y a pas de complément d'objet après le trou, pense au passif."
+      }
+    ]
+  },
+  "en": {
+    "title": "-ing and -ed participles",
+    "summary": "A participle can work as an adjective. The **-ing** form describes what does the action or causes an effect; the **-ed** form describes what receives the action or feels the emotion. On the TOEIC, both forms almost always appear among the options.",
+    "keyPoints": [
+      "**-ing** = active: the thing or person causes the feeling or does the action (\"a **confusing** report\").",
+      "**-ed** = passive: the person feels the emotion, the thing has received the action (\"a **confused** client\", \"the **attached** file\").",
+      "The question to ask yourself: does the noun do the action, or receive it?"
+    ],
+    "rules": [
+      {
+        "title": "Adjectives of feeling",
+        "text": "With verbs of feeling (\"interest\", \"surprise\", \"disappoint\", \"confuse\", \"satisfy\"…), **-ing** describes the cause of the feeling and **-ed** the person who has it. A thing feels nothing, so it almost always takes -ing.",
+        "examples": [
+          {"en": "The sales figures were **disappointing**.", "note": "The figures cause the disappointment: -ing."},
+          {"en": "The manager was **disappointed** with the sales figures.", "note": "The manager feels the disappointment: -ed."}
+        ]
+      },
+      {
+        "title": "Before a noun: active or passive?",
+        "text": "Before a noun, **-ing** means \"that does the action\" and **-ed** (or the irregular past participle) means \"that received the action\". To check, turn it into a relative clause: \"rising costs\" = costs that are rising; \"the revised schedule\" = the schedule that was revised.",
+        "examples": [
+          {"en": "Please review the **attached** document before the meeting.", "note": "Someone attached the document: it receives the action, so -ed."},
+          {"en": "The company is hiring to meet **growing** demand.", "note": "Demand grows by itself: it does the action, so -ing."}
+        ]
+      },
+      {
+        "title": "After a noun: the reduced relative clause",
+        "text": "A participle can also follow the noun, like a relative clause without \"who / which + be\". If an object follows it, use **-ing** (active). If \"by\" or a phrase of place or time follows it, it is usually **-ed** (passive).",
+        "examples": [
+          {"en": "Employees **attending** the seminar must register by Friday.", "note": "= employees who attend the seminar. \"the seminar\" is the object: -ing."},
+          {"en": "The proposal **submitted** by Ms. Chen was approved.", "note": "= the proposal that was submitted. \"by\" signals the passive: -ed."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "A person does not always take -ed",
+        "text": "A person can cause a feeling: \"an **inspiring** speaker\" inspires the audience, while \"an **inspired** speaker\" is inspired himself. Do not choose -ed just because the noun refers to someone."
+      },
+      {
+        "title": "A conjugated verb among the options",
+        "text": "Options often mix participles and conjugated verbs (\"attend\", \"attends\", \"attending\", \"attended\"). If the sentence already has its main verb (\"must register\"), the blank cannot be a second one: the choice is between -ing and -ed."
+      },
+      {
+        "title": "The passive without \"by\"",
+        "text": "A past participle is not always followed by \"by\": \"the items **listed** below\", \"the **enclosed** brochure\", \"customers **affected** during the outage\". If no object follows the blank, think passive."
+      }
+    ]
+  }
+}

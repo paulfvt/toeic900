@@ -1,8 +1,17 @@
-# Guide de rédaction des questions Part 5
+# Guide de rédaction du contenu
 
-Ce guide sert à écrire un lot de questions Part 5 (phrases à compléter) pour la banque
-`content/bank/part5/`. Chaque lot est ensuite contrôlé par `content/tools/validate.py`,
-puis relu de façon critique avant d'être embarqué dans l'app.
+Ce guide sert à écrire le contenu de TOEIC 900 : questions Part 5, textes Part 6, documents
+Part 7 et fiches de cours. Chaque lot est contrôlé par `content/tools/validate.py`, puis relu
+de façon critique avant d'être embarqué dans l'app.
+
+Deux règles valent partout. **Contenu 100 % original** : rien n'est repris ni adapté d'un test
+officiel ETS, d'un livre ou d'un site de préparation ; entreprises, personnes, adresses et
+produits sont inventés. **Une seule bonne réponse défendable** : remets chaque distracteur à sa
+place ; si un anglophone pouvait l'accepter, même en forçant, change le texte ou le distracteur.
+
+# Part 5 : phrases à compléter
+
+Les lots vont dans `content/bank/part5/`.
 
 ## Règles de fond
 
@@ -121,3 +130,113 @@ python content/tools/validate.py content/bank/part5/lot-01.json
 
 Le script doit finir par `0 erreur(s)`. Il ne remplace pas la relecture : il ne sait pas dire
 si un distracteur est défendable.
+
+# Part 6 : textes à trous
+
+Les lots vont dans `content/bank/part6/`. Modèle complet et valide : `content/examples/part6-exemple.json`.
+Schéma : `content/schemas/part6.schema.json`.
+
+## Le texte
+
+1. Un document professionnel court en anglais américain, de **80 à 140 mots** : e-mail, note de
+   service, avis, annonce, article, lettre, publicité, instructions… Champ `genre` : une valeur
+   de la liste du schéma. Varie les genres et les secteurs d'un texte à l'autre.
+2. Exactement **4 trous**, notés `[[1]]`, `[[2]]`, `[[3]]`, `[[4]]`, dans cet ordre, répartis dans
+   le texte (pas deux trous dans la même phrase). Paragraphes séparés par une ligne vide ;
+   en-têtes d'e-mail sur des lignes séparées.
+3. Guillemets et apostrophes **droits** (`"` et `'`), jamais courbes.
+
+## Les 4 questions
+
+Une question par trou, dans l'ordre ; identifiants `<id du texte>-1` à `-4`. Pas de champ `stem` :
+la question est le trou.
+
+- **Une seule insertion de phrase** par texte (premier tag `sentence-insertion`) : le trou
+  remplace une phrase entière, les 4 options sont des phrases complètes. La bonne phrase
+  s'accroche à ce qui précède ET à ce qui suit ; les distracteurs parlent du même sujet général
+  mais cassent la logique (hors sujet, contredit le texte, arrive trop tôt ou trop tard).
+- **Trois questions de grammaire ou de vocabulaire**, avec les tags de la Part 5. Au moins une
+  doit dépendre du **contexte** : temps imposé par une date donnée ailleurs dans le texte,
+  connecteur choisi d'après la phrase précédente, pronom dont le référent est dans une autre
+  phrase, mot de vocabulaire que seul le reste du texte départage.
+- Mêmes exigences que la Part 5 pour les options (4 formes d'une même racine, 4 mots de même
+  nature…), la difficulté et les explications (`rule`, `distractors`, `trap`, en `fr` et `en`).
+- `evidence` (facultatif, 0 à 3 citations) : les passages du texte qui justifient la réponse,
+  **recopiés mot pour mot**, sans trou. À fournir dès que la réponse dépend du contexte, et
+  toujours pour l'insertion de phrase. L'app les surligne dans le texte après la correction.
+
+# Part 7 : documents
+
+Les lots vont dans `content/bank/part7/`. Modèle complet et valide (un document seul, puis un
+jeu de deux documents) : `content/examples/part7-exemple.json`. Schéma : `content/schemas/part7.schema.json`.
+
+## Les documents
+
+1. Un jeu = **1 document** (60 à 300 mots) ou **2 à 3 documents liés** (350 à 600 mots au total),
+   par exemple une annonce et l'e-mail d'un client, ou un planning, un avis et une réponse.
+2. Genres variés (`genre` : liste du schéma) : e-mail, avis, article, publicité, page web,
+   échange de messages (`chat`), formulaire, planning, facture, offre d'emploi…
+3. **Texte simple**, lisible sur un téléphone : paragraphes séparés par une ligne vide, listes
+   sur des lignes séparées (« October 4 - Bookkeeping Basics - $60 »). **Pas de tableau** à
+   colonnes alignées. Pour un `chat` : une ligne par message, « Nom (10:02 A.M.): message ».
+4. `title` (facultatif) : l'en-tête du document, s'il en a un.
+5. Guillemets et apostrophes droits. Dates, prix et noms cohérents d'un document à l'autre.
+
+## Les questions
+
+- 1 document : **2 à 4 questions**. 2 ou 3 documents : **exactement 5 questions**.
+- Identifiants `<id du jeu>-1`, `-2`… Les questions suivent l'ordre du texte.
+- Chaque question a un `stem` en anglais et 4 options de même forme (4 groupes verbaux, 4 noms,
+  4 phrases…) et de longueur comparable.
+- Le premier tag dit ce que la question teste :
+
+| Tag | Forme typique de la question |
+|---|---|
+| `main-idea` | What is the purpose of the e-mail? / What is the article mainly about? / Why did Ms. Ito write to Mr. Bell? |
+| `detail` | According to the notice, what…? / When will…? / What is indicated about…? (réponse écrite dans le texte, reformulée dans l'option) |
+| `inference` | What is suggested / implied about…? / What will most likely happen…? / Who most likely is…? (réponse non écrite, déduite d'une phrase précise) |
+| `not-true` | What is NOT mentioned as…? / What is NOT true about…? (trois options sont dans le texte, une n'y est pas) |
+| `synonym-in-context` | The word "secure" in paragraph 2, line 1, is closest in meaning to (un mot à plusieurs sens ; les distracteurs sont ses autres sens) |
+| `writer-intention` | At 10:15 A.M., what does Mr. Diaz most likely mean when he writes, "Count me in"? (dans un `chat` : le sens d'une courte réplique d'après le contexte) |
+| `sentence-insertion` | In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? "…" (options : `[1]`, `[2]`, `[3]`, `[4]` ; les 4 repères sont dans un seul document) |
+| `cross-reference` | Toute question dont la réponse exige de combiner deux documents (jeux de 2 ou 3 documents seulement, au moins une par jeu) |
+
+- **La bonne réponse reformule le texte** ; les distracteurs reprennent ses mots dans un autre
+  sens, ou sont plausibles mais absents du texte. Jamais une réponse trouvable sans lire.
+- `evidence` (obligatoire, 1 à 3 citations) : les passages qui justifient la réponse, **recopiés
+  mot pour mot** depuis les documents. Une question `cross-reference` cite au moins deux
+  documents ; une question `not-true` cite les passages qui prouvent les trois options vraies.
+- Explications : `rule` cite le passage et explique le lien avec la bonne réponse (reformulation,
+  déduction) ; `distractors` dit pour chaque mauvaise option ce que le texte dit vraiment ou
+  pourquoi elle n'y figure pas ; `trap` donne une méthode réutilisable.
+
+# Fiches de cours
+
+Une fiche par compétence, dans `content/lessons/fiches/<tag>.json`. Modèle :
+`content/lessons/fiches/participle-adjectives.json`. Schéma : `content/schemas/lesson.schema.json`.
+
+- Deux versions de **même structure**, `fr` et `en` : mêmes points clés, mêmes règles, mêmes
+  exemples (la phrase d'exemple `en` est identique dans les deux versions ; seule la `note` est
+  traduite), mêmes pièges.
+- `summary` : l'idée en 2 ou 3 phrases. `keyPoints` : 2 à 4 points à retenir, c'est la
+  mini-fiche montrée avant les exercices d'une leçon.
+- `rules` : 2 à 5 règles, de la plus fréquente au TOEIC à la plus fine. Chacune a un titre, un
+  texte court et 1 à 4 exemples dans un contexte professionnel, avec une note qui dit ce que
+  l'exemple montre.
+- `traps` : 2 à 4 pièges classiques du TOEIC sur cette compétence : ce que les concepteurs du
+  test mettent dans les distracteurs, et comment ne pas tomber dedans.
+- Seul balisage : `**mot**` pour mettre en avant le mot clé d'un exemple ou d'une règle.
+- Français naturel, tutoiement, mots anglais entre guillemets « ». Anglais simple (lecteur B1-B2).
+  Viser l'utile pour un candidat autour de 750 qui vise 900 : la règle, l'indice à repérer dans la
+  phrase, l'exception qui tombe à l'examen. Pas de cours exhaustif.
+- Pour les compétences de lecture (Part 7), les « règles » sont des méthodes : comment reconnaître
+  le type de question, où chercher la réponse, comment éliminer.
+
+# Contrôle des Parts 6 et 7 et des fiches
+
+```
+python content/tools/validate.py chemin/vers/le-lot-ou-la-fiche.json
+```
+
+Même commande que pour la Part 5 : le script reconnaît seul un lot Part 5, 6 ou 7 et une fiche.
+Sans argument, il valide tout `content/`, y compris le chemin de leçons (`content/lessons/path.json`).

@@ -1,0 +1,299 @@
+{
+  "part": 7,
+  "pool": "training",
+  "sets": [
+    {
+      "id": "p7-9001",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "notice",
+          "title": "Riverside Office Tower",
+          "text": "NOTICE TO ALL TENANTS\n\nElevator maintenance: Monday, June 9, to Friday, June 13\n\nCarver Lift Services will carry out the yearly inspection of the building's four elevators next week. To limit disruption, only one elevator will be taken out of service at a time, between 9:00 A.M. and 4:00 P.M. The freight elevator at the rear of the building will not be inspected until July and will remain available for deliveries.\n\nTenants who are expecting large deliveries or visitors with reduced mobility are asked to inform the management office at least one day in advance so that an elevator can be reserved for them.\n\nWaiting times may be longer than usual, especially at lunchtime. We recommend that employees on the lower floors use the stairs when possible.\n\nThank you for your patience.\n\nBuilding Management Office, Suite 110"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-9001-1",
+          "tags": ["main-idea"],
+          "difficulty": 1,
+          "stem": "What is the purpose of the notice?",
+          "options": [
+            "To announce scheduled work on the elevators",
+            "To introduce a new delivery company",
+            "To report an elevator that has broken down",
+            "To ask tenants to move to another floor"
+          ],
+          "answer": "A",
+          "evidence": ["Carver Lift Services will carry out the yearly inspection of the building's four elevators next week."],
+          "explanation": {
+            "fr": {
+              "rule": "Le but d'un avis se lit dans le titre et la première phrase : « Elevator maintenance » puis « will carry out the yearly inspection ». C'est l'annonce de travaux programmés.",
+              "distractors": {
+                "B": "Carver Lift Services inspecte les ascenseurs : ce n'est pas une société de livraison, et les livraisons ne sont citées que comme un détail pratique.",
+                "C": "Rien n'est en panne : il s'agit d'une inspection annuelle (« yearly inspection »), prévue à l'avance.",
+                "D": "L'avis conseille de prendre l'escalier, pas de changer d'étage."
+              },
+              "trap": "Pour une question de but, lis le titre et la première phrase : les détails de la fin du texte servent de distracteurs."
+            },
+            "en": {
+              "rule": "The purpose of a notice is found in its heading and first sentence: \"Elevator maintenance\", then \"will carry out the yearly inspection\". It announces scheduled work.",
+              "distractors": {
+                "B": "Carver Lift Services inspects elevators: it is not a delivery company, and deliveries are only mentioned as a practical detail.",
+                "C": "Nothing has broken down: this is a yearly inspection, planned in advance.",
+                "D": "The notice suggests taking the stairs, not moving to another floor."
+              },
+              "trap": "For a purpose question, read the heading and the first sentence: details from the end of the text are used as distractors."
+            }
+          }
+        },
+        {
+          "id": "p7-9001-2",
+          "tags": ["detail"],
+          "difficulty": 2,
+          "stem": "According to the notice, what should some tenants do before the work begins?",
+          "options": [
+            "Reserve a parking space",
+            "Move their deliveries to July",
+            "Contact the management office",
+            "Use the freight elevator for visitors"
+          ],
+          "answer": "C",
+          "evidence": ["are asked to inform the management office at least one day in advance"],
+          "explanation": {
+            "fr": {
+              "rule": "Le texte dit : « Tenants who are expecting large deliveries or visitors with reduced mobility are asked to inform the management office ». « Contact » reformule « inform ».",
+              "distractors": {
+                "A": "Le parking n'est mentionné nulle part : c'est un ascenseur qui peut être réservé (« an elevator can be reserved »).",
+                "B": "« July » est la date d'inspection du monte-charge, pas une date conseillée pour les livraisons.",
+                "D": "Le monte-charge reste disponible « for deliveries » ; pour les visiteurs, c'est un ascenseur réservé qui est prévu."
+              },
+              "trap": "La bonne réponse reformule le texte (inform → contact) ; les distracteurs reprennent ses mots tels quels (July, freight elevator, reserved)."
+            },
+            "en": {
+              "rule": "The text says: \"Tenants who are expecting large deliveries or visitors with reduced mobility are asked to inform the management office\". \"Contact\" paraphrases \"inform\".",
+              "distractors": {
+                "A": "Parking is never mentioned: what can be reserved is an elevator (\"an elevator can be reserved\").",
+                "B": "\"July\" is when the freight elevator will be inspected, not a suggested date for deliveries.",
+                "D": "The freight elevator stays available \"for deliveries\"; for visitors, a reserved elevator is offered instead."
+              },
+              "trap": "The right answer paraphrases the text (inform → contact); distractors reuse its exact words (July, freight elevator, reserved)."
+            }
+          }
+        },
+        {
+          "id": "p7-9001-3",
+          "tags": ["inference"],
+          "difficulty": 2,
+          "stem": "What is suggested about lunchtime at Riverside Office Tower?",
+          "options": [
+            "The management office is closed.",
+            "Deliveries are not accepted.",
+            "The inspection is interrupted.",
+            "The elevators are in high demand."
+          ],
+          "answer": "D",
+          "evidence": ["Waiting times may be longer than usual, especially at lunchtime."],
+          "explanation": {
+            "fr": {
+              "rule": "Le texte ne dit pas que les ascenseurs sont très utilisés à midi, mais il prévoit des attentes plus longues « especially at lunchtime » : on en déduit que c'est le moment où ils sont le plus demandés.",
+              "distractors": {
+                "A": "Aucune information sur les horaires du bureau de gestion.",
+                "B": "Les livraisons restent possibles toute la semaine par le monte-charge.",
+                "C": "Les travaux ont lieu « between 9:00 A.M. and 4:00 P.M. », sans pause annoncée à midi."
+              },
+              "trap": "« What is suggested » : la réponse n'est pas écrite, mais elle se déduit d'UNE phrase précise. Si tu dois imaginer une information, ce n'est pas la bonne."
+            },
+            "en": {
+              "rule": "The text does not say that the elevators are heavily used at noon, but it expects longer waits \"especially at lunchtime\": you can infer that this is when demand is highest.",
+              "distractors": {
+                "A": "Nothing is said about the management office's hours.",
+                "B": "Deliveries remain possible all week using the freight elevator.",
+                "C": "The work takes place \"between 9:00 A.M. and 4:00 P.M.\", with no break announced at noon."
+              },
+              "trap": "\"What is suggested\": the answer is not written, but it follows from ONE precise sentence. If you have to imagine a fact, it is the wrong answer."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-9002",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "advertisement",
+          "title": "Brightwell Business Institute",
+          "text": "Autumn Workshops for Small Business Owners\n\nAll workshops take place on Saturdays from 9:30 A.M. to 12:30 P.M. at our Mill Road campus.\n\nOctober 4 - Bookkeeping Basics (Instructor: Paul Okoro) - $60\nOctober 11 - Writing a Marketing Plan (Instructor: Irene Castillo) - $75\nOctober 18 - Hiring Your First Employee (Instructor: Paul Okoro) - $60\nOctober 25 - Selling Online (Instructor: Mei Tanaka) - $90\n\nRegister for three or more workshops and receive 15 percent off the total. Fees cover course materials and refreshments. Parking is not included; the public lot on Mill Road charges $4 per day.\n\nTo secure a place, register at www.brightwell-institute.example at least five days before the workshop date."
+        },
+        {
+          "genre": "email",
+          "text": "To: registration@brightwell-institute.example\nFrom: Tomas Varga\nDate: September 29\nSubject: Workshop registration\n\nHello,\n\nI registered online yesterday for the October 11 and October 25 workshops, but I have not received a confirmation yet. Could you check that my payment went through?\n\nI would also like to add the workshop on hiring, since I plan to take on an assistant in the new year. If I understand your advertisement correctly, this addition should entitle me to a lower total price. Please let me know the amount I still owe.\n\nFinally, is there a bus stop near the campus? I would rather not drive.\n\nThank you,\nTomas Varga\nVarga Custom Framing"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-9002-1",
+          "tags": ["detail"],
+          "difficulty": 1,
+          "stem": "What is included in the workshop fees?",
+          "options": ["Parking", "A certificate", "Course materials", "An online course"],
+          "answer": "C",
+          "evidence": ["Fees cover course materials and refreshments."],
+          "explanation": {
+            "fr": {
+              "rule": "L'annonce le dit directement : « Fees cover course materials and refreshments ».",
+              "distractors": {
+                "A": "Le parking est explicitement exclu : « Parking is not included ».",
+                "B": "Aucun certificat n'est mentionné dans l'annonce.",
+                "D": "« Selling Online » est le titre d'un atelier en salle, pas un cours en ligne ; seule l'inscription se fait en ligne."
+              },
+              "trap": "Un mot du texte repris dans une option (« online », « parking ») ne prouve rien : vérifie ce que le texte en dit."
+            },
+            "en": {
+              "rule": "The advertisement states it directly: \"Fees cover course materials and refreshments\".",
+              "distractors": {
+                "A": "Parking is explicitly excluded: \"Parking is not included\".",
+                "B": "No certificate is mentioned in the advertisement.",
+                "D": "\"Selling Online\" is the title of a classroom workshop, not an online course; only registration is done online."
+              },
+              "trap": "A word from the text repeated in an option (\"online\", \"parking\") proves nothing: check what the text says about it."
+            }
+          }
+        },
+        {
+          "id": "p7-9002-2",
+          "tags": ["main-idea"],
+          "difficulty": 1,
+          "stem": "Why did Mr. Varga write the e-mail?",
+          "options": [
+            "To complain about an instructor",
+            "To request a refund",
+            "To apply for a teaching position",
+            "To follow up on a registration"
+          ],
+          "answer": "D",
+          "evidence": ["I have not received a confirmation yet"],
+          "explanation": {
+            "fr": {
+              "rule": "Dès le premier paragraphe, M. Varga explique qu'il s'est inscrit la veille et n'a pas reçu de confirmation : il relance son inscription, puis la complète.",
+              "distractors": {
+                "A": "Il ne critique aucun formateur.",
+                "B": "Il demande si son paiement est bien passé et combien il doit encore, pas un remboursement.",
+                "C": "Il veut suivre des ateliers, pas en animer ; « take on an assistant » parle de sa propre entreprise."
+              },
+              "trap": "Le but d'un e-mail est presque toujours dans les deux premières phrases."
+            },
+            "en": {
+              "rule": "In the first paragraph, Mr. Varga explains that he registered the day before and has not received a confirmation: he is following up on his registration, then adding to it.",
+              "distractors": {
+                "A": "He does not criticize any instructor.",
+                "B": "He asks whether his payment went through and how much he still owes, not for a refund.",
+                "C": "He wants to attend workshops, not teach them; \"take on an assistant\" refers to his own business."
+              },
+              "trap": "The purpose of an e-mail is almost always in its first two sentences."
+            }
+          }
+        },
+        {
+          "id": "p7-9002-3",
+          "tags": ["cross-reference"],
+          "difficulty": 2,
+          "stem": "Who will teach the workshop that Mr. Varga wants to add?",
+          "options": ["Irene Castillo", "Paul Okoro", "Mei Tanaka", "Tomas Varga"],
+          "answer": "B",
+          "evidence": [
+            "I would also like to add the workshop on hiring",
+            "October 18 - Hiring Your First Employee (Instructor: Paul Okoro) - $60"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Il faut croiser les deux documents : l'e-mail dit que M. Varga veut ajouter « the workshop on hiring » ; l'annonce indique que « Hiring Your First Employee » est animé par Paul Okoro.",
+              "distractors": {
+                "A": "Irene Castillo anime l'atelier du 11 octobre, auquel M. Varga est déjà inscrit.",
+                "C": "Mei Tanaka anime l'atelier du 25 octobre, auquel il est déjà inscrit lui aussi.",
+                "D": "Tomas Varga est l'auteur de l'e-mail : un participant, pas un formateur."
+              },
+              "trap": "Question sur deux documents : repère l'indice dans l'un (« on hiring »), puis cherche la réponse dans l'autre (la liste des ateliers)."
+            },
+            "en": {
+              "rule": "You have to combine both documents: the e-mail says Mr. Varga wants to add \"the workshop on hiring\"; the advertisement shows that \"Hiring Your First Employee\" is taught by Paul Okoro.",
+              "distractors": {
+                "A": "Irene Castillo teaches the October 11 workshop, for which Mr. Varga is already registered.",
+                "C": "Mei Tanaka teaches the October 25 workshop, for which he is also already registered.",
+                "D": "Tomas Varga wrote the e-mail: he is a participant, not an instructor."
+              },
+              "trap": "A two-document question: find the clue in one (\"on hiring\"), then look for the answer in the other (the list of workshops)."
+            }
+          }
+        },
+        {
+          "id": "p7-9002-4",
+          "tags": ["cross-reference", "inference"],
+          "difficulty": 3,
+          "stem": "What is suggested about Mr. Varga?",
+          "options": [
+            "He will receive a discount on his fees.",
+            "He has attended Brightwell workshops before.",
+            "He missed a registration deadline.",
+            "He owns a bookkeeping business."
+          ],
+          "answer": "A",
+          "evidence": [
+            "Register for three or more workshops and receive 15 percent off the total.",
+            "I would also like to add the workshop on hiring"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "M. Varga est inscrit à deux ateliers et en ajoute un troisième. Or l'annonce accorde 15 % de réduction à partir de trois ateliers : il aura donc une réduction, ce qu'il évoque lui-même (« a lower total price »).",
+              "distractors": {
+                "B": "Rien n'indique une participation antérieure : il ne mentionne que ses inscriptions de cette saison.",
+                "C": "Il écrit le 29 septembre : tous ses ateliers sont à plus de cinq jours, la date limite est respectée.",
+                "D": "Sa signature indique « Varga Custom Framing » (encadrement) ; « Bookkeeping Basics » est un atelier auquel il n'est même pas inscrit."
+              },
+              "trap": "Pour une déduction sur deux documents, applique la règle de l'un (3 ateliers = −15 %) à la situation décrite dans l'autre (2 + 1 ateliers)."
+            },
+            "en": {
+              "rule": "Mr. Varga is registered for two workshops and is adding a third. The advertisement gives 15 percent off for three or more workshops, so he will get a discount, as he himself expects (\"a lower total price\").",
+              "distractors": {
+                "B": "Nothing shows that he has attended before: he only mentions this season's registrations.",
+                "C": "He writes on September 29: all his workshops are more than five days away, so the deadline is met.",
+                "D": "His signature reads \"Varga Custom Framing\"; \"Bookkeeping Basics\" is a workshop he has not even registered for."
+              },
+              "trap": "For an inference across two documents, apply the rule from one (3 workshops = 15% off) to the situation described in the other (2 + 1 workshops)."
+            }
+          }
+        },
+        {
+          "id": "p7-9002-5",
+          "tags": ["synonym-in-context"],
+          "difficulty": 2,
+          "stem": "In the advertisement, the word \"secure\" in the last sentence is closest in meaning to",
+          "options": ["protect", "lock", "reserve", "repair"],
+          "answer": "C",
+          "evidence": ["To secure a place, register"],
+          "explanation": {
+            "fr": {
+              "rule": "« To secure a place » est suivi de « register… at least five days before » : il s'agit d'obtenir sa place en s'inscrivant, donc de la réserver (« reserve »).",
+              "distractors": {
+                "A": "« protect » est un sens courant de « secure », mais on ne protège pas une place dans un atelier.",
+                "B": "« lock » (verrouiller) est un autre sens de « secure », valable pour une porte, pas pour une place.",
+                "D": "« repair » n'est pas un sens de « secure »."
+              },
+              "trap": "Question de synonyme : remplace le mot par chaque option DANS la phrase du texte. Le sens le plus courant du mot est souvent le piège."
+            },
+            "en": {
+              "rule": "\"To secure a place\" is followed by \"register… at least five days before\": it means getting a place by registering, that is, reserving it.",
+              "distractors": {
+                "A": "\"protect\" is a common meaning of \"secure\", but you do not protect a place in a workshop.",
+                "B": "\"lock\" is another meaning of \"secure\", valid for a door, not for a place.",
+                "D": "\"repair\" is not a meaning of \"secure\"."
+              },
+              "trap": "Synonym question: put each option back INTO the sentence from the text. The most common meaning of the word is often the trap."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -16,6 +16,14 @@
     {"id": "prepositions", "parts": [5, 6], "group": "grammar", "fr": "Prépositions", "en": "Prepositions"},
     {"id": "conjunctions-connectors", "parts": [5, 6], "group": "grammar", "fr": "Conjonctions et connecteurs", "en": "Conjunctions and connectors"},
     {"id": "vocabulary-in-context", "parts": [5, 6], "group": "vocabulary", "fr": "Vocabulaire en contexte", "en": "Vocabulary in context"},
-    {"id": "collocations", "parts": [5, 6], "group": "vocabulary", "fr": "Collocations", "en": "Collocations"}
+    {"id": "collocations", "parts": [5, 6], "group": "vocabulary", "fr": "Collocations", "en": "Collocations"},
+    {"id": "sentence-insertion", "parts": [6, 7], "group": "reading", "fr": "Insertion de phrase", "en": "Sentence insertion"},
+    {"id": "main-idea", "parts": [7], "group": "reading", "fr": "Idée principale et but", "en": "Main idea and purpose"},
+    {"id": "detail", "parts": [7], "group": "reading", "fr": "Détail explicite", "en": "Stated detail"},
+    {"id": "inference", "parts": [7], "group": "reading", "fr": "Inférence", "en": "Inference"},
+    {"id": "not-true", "parts": [7], "group": "reading", "fr": "Questions NOT", "en": "NOT questions"},
+    {"id": "synonym-in-context", "parts": [7], "group": "reading", "fr": "Synonyme en contexte", "en": "Synonym in context"},
+    {"id": "writer-intention", "parts": [7], "group": "reading", "fr": "Intention de l'auteur", "en": "Writer's intention"},
+    {"id": "cross-reference", "parts": [7], "group": "reading", "fr": "Croisement de documents", "en": "Cross-referencing documents"}
   ]
 }

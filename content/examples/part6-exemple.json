@@ -1,0 +1,132 @@
+{
+  "part": 6,
+  "pool": "training",
+  "texts": [
+    {
+      "id": "p6-9001",
+      "part": 6,
+      "genre": "email",
+      "text": "To: All Lakeshore Fitness members\nFrom: Dana Whitfield, Membership Services\nSubject: Pool closure in March\n\nDear members,\n\nThe indoor pool will be closed from March 3 to March 14 while the filtration system is [[1]]. During this period, the sauna and the fitness studios will remain open at their usual hours.\n\nWe know that many of you swim every week. [[2]] Simply show your membership card at the front desk of the Harbor Street location.\n\n[[3]], the monthly fee for March will be reduced by 20 percent for all members with a swim plan. The discount will appear on your next statement, so no action is needed on your part.\n\nWe apologize for the inconvenience and look forward to [[4]] you back in the water soon.\n\nSincerely,\nDana Whitfield",
+      "questions": [
+        {
+          "id": "p6-9001-1",
+          "tags": ["passive-voice"],
+          "difficulty": 2,
+          "options": ["replacing", "replaces", "being replaced", "to replace"],
+          "answer": "C",
+          "explanation": {
+            "fr": {
+              "rule": "Le système de filtration ne remplace rien : on le remplace. Il faut donc un passif, et comme les travaux durent pendant la fermeture, le passif progressif : « is being replaced ».",
+              "distractors": {
+                "A": "« is replacing » est actif : le système remplacerait quelque chose, et il n'y a pas de complément d'objet après le trou.",
+                "B": "« replaces » est un verbe conjugué : impossible après « is ».",
+                "D": "« is to replace » est actif lui aussi (« doit remplacer ») et demanderait un complément d'objet."
+              },
+              "trap": "Pas de complément d'objet après le verbe et un sujet qui subit l'action : c'est un passif."
+            },
+            "en": {
+              "rule": "The filtration system does not replace anything: someone replaces it. You need a passive, and since the work is in progress during the closure, the progressive passive: \"is being replaced\".",
+              "distractors": {
+                "A": "\"is replacing\" is active: the system would be replacing something, yet no object follows the blank.",
+                "B": "\"replaces\" is a conjugated verb, which cannot follow \"is\".",
+                "D": "\"is to replace\" is also active (\"is supposed to replace\") and would need an object."
+              },
+              "trap": "No object after the verb and a subject that receives the action: it is a passive."
+            }
+          }
+        },
+        {
+          "id": "p6-9001-2",
+          "tags": ["sentence-insertion"],
+          "difficulty": 2,
+          "options": [
+            "The sauna was installed only two years ago.",
+            "You are therefore welcome to use the pool at our other branch free of charge.",
+            "Swimming lessons for children are fully booked this season.",
+            "Please note that membership cards must be renewed every year."
+          ],
+          "answer": "B",
+          "evidence": [
+            "We know that many of you swim every week.",
+            "Simply show your membership card at the front desk of the Harbor Street location."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase d'avant parle des membres qui nagent chaque semaine ; celle d'après dit de montrer sa carte à l'accueil de « Harbor Street ». Entre les deux, il faut la phrase qui propose une solution dans un autre établissement : l'accès gratuit à l'autre piscine.",
+              "distractors": {
+                "A": "L'âge du sauna n'a aucun lien avec les nageurs, et la phrase suivante (« Simply show… ») ne s'y rattacherait à rien.",
+                "C": "Les cours pour enfants sont un autre sujet : « Simply show your membership card » ne peut pas en être la suite.",
+                "D": "Le mot « membership cards » est repris, mais renouveler sa carte n'explique pas pourquoi il faudrait la montrer à Harbor Street."
+              },
+              "trap": "Une phrase à insérer doit s'accrocher des deux côtés : à ce qui précède ET à ce qui suit. Un mot répété ne suffit pas."
+            },
+            "en": {
+              "rule": "The sentence before mentions members who swim every week; the one after tells them to show their card at the Harbor Street front desk. In between, you need the sentence that offers a solution at another location: free access to the other pool.",
+              "distractors": {
+                "A": "The age of the sauna has nothing to do with swimmers, and the next sentence (\"Simply show…\") would not connect to it.",
+                "C": "Children's lessons are a different topic: \"Simply show your membership card\" cannot follow from it.",
+                "D": "It repeats \"membership cards\", but renewing a card does not explain why you should show it at Harbor Street."
+              },
+              "trap": "An inserted sentence must connect on both sides: to what comes before AND to what follows. A repeated word is not enough."
+            }
+          }
+        },
+        {
+          "id": "p6-9001-3",
+          "tags": ["conjunctions-connectors"],
+          "difficulty": 2,
+          "options": ["In addition", "However", "Otherwise", "For example"],
+          "answer": "A",
+          "evidence": ["the monthly fee for March will be reduced by 20 percent"],
+          "explanation": {
+            "fr": {
+              "rule": "Le paragraphe précédent offre une première compensation (l'autre piscine) ; celui-ci en ajoute une seconde (la réduction). Il faut un connecteur d'addition : « In addition ».",
+              "distractors": {
+                "B": "« However » annonce une opposition, or la réduction va dans le même sens que l'offre précédente.",
+                "C": "« Otherwise » signifie « sinon » : il introduirait la conséquence d'une condition non remplie.",
+                "D": "« For example » introduit une illustration : la réduction n'est pas un exemple de l'accès à l'autre piscine."
+              },
+              "trap": "En Part 6, le connecteur se choisit avec le paragraphe d'avant : même sens (addition), opposition, conséquence ou exemple ?"
+            },
+            "en": {
+              "rule": "The previous paragraph offers a first form of compensation (the other pool); this one adds a second (the discount). You need a connector of addition: \"In addition\".",
+              "distractors": {
+                "B": "\"However\" signals a contrast, but the discount goes in the same direction as the previous offer.",
+                "C": "\"Otherwise\" means \"if not\": it would introduce the result of an unmet condition.",
+                "D": "\"For example\" introduces an illustration: the discount is not an example of access to the other pool."
+              },
+              "trap": "In Part 6, choose the connector by looking at the previous paragraph: same direction (addition), contrast, result or example?"
+            }
+          }
+        },
+        {
+          "id": "p6-9001-4",
+          "tags": ["gerund-infinitive"],
+          "difficulty": 2,
+          "options": ["welcome", "welcomed", "welcoming", "be welcomed"],
+          "answer": "C",
+          "explanation": {
+            "fr": {
+              "rule": "Dans « look forward to », « to » est une préposition, pas la marque de l'infinitif : il est suivi d'un nom ou d'un verbe en -ing, « look forward to welcoming you ».",
+              "distractors": {
+                "A": "« welcome » serait un infinitif : c'est le piège, car « to » n'introduit pas ici un infinitif.",
+                "B": "« welcomed » est un participe passé : il ne peut pas suivre une préposition ni avoir « you » pour complément ici.",
+                "D": "« be welcomed » est un infinitif passif : même problème que l'infinitif, et « you » ne pourrait plus suivre."
+              },
+              "trap": "« look forward to », « be used to », « be committed to » : après ce « to », toujours -ing."
+            },
+            "en": {
+              "rule": "In \"look forward to\", \"to\" is a preposition, not the infinitive marker: it takes a noun or an -ing verb, \"look forward to welcoming you\".",
+              "distractors": {
+                "A": "\"welcome\" would be an infinitive: that is the trap, because this \"to\" does not introduce an infinitive.",
+                "B": "\"welcomed\" is a past participle: it cannot follow a preposition or take \"you\" as its object here.",
+                "D": "\"be welcomed\" is a passive infinitive: same problem as the infinitive, and \"you\" could no longer follow."
+              },
+              "trap": "\"look forward to\", \"be used to\", \"be committed to\": after this \"to\", always -ing."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

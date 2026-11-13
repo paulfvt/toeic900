@@ -287,8 +287,9 @@ class RepositoryContentTest(unittest.TestCase):
         if not build.OUTPUT_FILE.exists():
             self.skipTest("content.json pas encore généré")
         embedded = json.loads(build.OUTPUT_FILE.read_text(encoding="utf-8"))
-        self.assertEqual(build.build_bundle(self.questions, self.tags)["version"], embedded["version"],
-                         "relance : python content/tools/build.py")
+        content = validate.validate_content(known_tags=self.tags)
+        expected = build.build_bundle(content.questions, self.tags, content.lessons, content.path)
+        self.assertEqual(expected["version"], embedded["version"], "relance : python content/tools/build.py")
 
 
 if __name__ == "__main__":

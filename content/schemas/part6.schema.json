@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "toeic900/part6.schema.json",
+  "title": "Lot de textes Part 6 (textes à trous)",
+  "description": "Contrat des fichiers content/bank/part6/*.json. content/tools/validate.py applique ces règles, plus des contrôles qu'un schéma ne sait pas exprimer : tags connus, trous [[1]] à [[4]] dans l'ordre, une seule insertion de phrase par texte, citations (evidence) présentes mot pour mot dans le texte, doublons, répartitions.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["part", "pool", "texts"],
+  "properties": {
+    "part": {"const": 6},
+    "pool": {"enum": ["training", "mock", "diagnostic"]},
+    "texts": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/text"}}
+  },
+  "$defs": {
+    "text": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "part", "genre", "text", "questions"],
+      "properties": {
+        "id": {
+          "description": "Identifiant stable du texte, jamais réutilisé ni renuméroté. Ses questions s'appellent <id>-1 à <id>-4.",
+          "type": "string",
+          "pattern": "^p6-[0-9]{4}$"
+        },
+        "part": {"const": 6},
+        "genre": {"$ref": "#/$defs/genre"},
+        "title": {"description": "Titre affiché au-dessus du texte (facultatif).", "type": "string", "maxLength": 120},
+        "text": {
+          "description": "Le texte en anglais, de 60 à 180 mots, avec exactement 4 trous notés [[1]], [[2]], [[3]], [[4]] dans cet ordre. Paragraphes séparés par une ligne vide. Guillemets et apostrophes droits.",
+          "type": "string"
+        },
+        "questions": {
+          "description": "Une question par trou, dans l'ordre. Exactement une a pour premier tag sentence-insertion.",
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {"$ref": "#/$defs/question"}
+        }
+      }
+    },
+    "question": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "tags", "difficulty", "options", "answer", "explanation"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^p6-[0-9]{4}-[1-4]$"},
+        "tags": {"type": "array", "minItems": 1, "maxItems": 3, "uniqueItems": true, "items": {"type": "string"}},
+        "difficulty": {"enum": [1, 2, 3]},
+        "options": {
+          "description": "Les 4 propositions, dans l'ordre A, B, C, D : des mots (60 caractères au plus) ou, pour l'insertion de phrase, des phrases complètes (20 à 200 caractères).",
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1, "maxLength": 200}
+        },
+        "answer": {"enum": ["A", "B", "C", "D"]},
+        "evidence": {
+          "description": "Facultatif : 0 à 3 passages du texte, recopiés mot pour mot (sans trou), qui justifient la réponse. L'app les surligne dans le texte après la correction.",
+          "type": "array",
+          "maxItems": 3,
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 2}
+        },
+        "explanation": {"$ref": "part5.schema.json#/$defs/question/properties/explanation"}
+      }
+    },
+    "genre": {
+      "enum": [
+        "email", "letter", "memo", "notice", "announcement", "article", "advertisement", "press-release",
+        "newsletter", "webpage", "review", "form", "survey", "schedule", "itinerary", "invoice", "receipt",
+        "chat", "instructions", "job-posting", "brochure", "report"
+      ]
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "toeic900/lesson.schema.json",
+  "title": "Fiche de cours",
+  "description": "Contrat des fichiers content/lessons/fiches/<tag>.json : une fiche par compétence, en français et en anglais, de même structure. content/tools/validate.py vérifie en plus que les deux versions ont le même nombre de points clés, de règles, d'exemples et de pièges, et que les phrases d'exemple sont identiques dans les deux langues. Seul balisage permis : **mot** pour mettre en avant.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["tag", "fr", "en"],
+  "properties": {
+    "tag": {"description": "Identifiant du tag (content/schemas/tags.json). Le fichier s'appelle <tag>.json.", "type": "string"},
+    "fr": {"$ref": "#/$defs/content"},
+    "en": {"$ref": "#/$defs/content"}
+  },
+  "$defs": {
+    "content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "summary", "keyPoints", "rules", "traps"],
+      "properties": {
+        "title": {"type": "string", "minLength": 3, "maxLength": 60},
+        "summary": {"description": "L'idée de la fiche en 2 ou 3 phrases.", "type": "string", "minLength": 40, "maxLength": 400},
+        "keyPoints": {
+          "description": "La mini-fiche montrée au début d'une leçon : 2 à 4 points à retenir.",
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 4,
+          "items": {"type": "string", "minLength": 15, "maxLength": 220}
+        },
+        "rules": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 5,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["title", "text", "examples"],
+            "properties": {
+              "title": {"type": "string", "minLength": 3, "maxLength": 80},
+              "text": {"type": "string", "minLength": 30, "maxLength": 700},
+              "examples": {
+                "type": "array",
+                "minItems": 1,
+                "maxItems": 4,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["en", "note"],
+                  "properties": {
+                    "en": {"description": "La phrase d'exemple, en anglais, identique dans les deux versions.", "type": "string", "minLength": 5, "maxLength": 220},
+                    "note": {"description": "Ce que l'exemple montre, dans la langue de la fiche.", "type": "string", "minLength": 5, "maxLength": 260}
+                  }
+                }
+              }
+            }
+          }
+        },
+        "traps": {
+          "description": "Les pièges classiques du TOEIC sur cette compétence.",
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 4,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["title", "text"],
+            "properties": {
+              "title": {"type": "string", "minLength": 3, "maxLength": 80},
+              "text": {"type": "string", "minLength": 30, "maxLength": 500}
+            }
+          }
+        }
+      }
+    }
+  }
+}
