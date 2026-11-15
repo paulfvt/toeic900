@@ -45,7 +45,9 @@ data class UnitPick(val unitId: String, val tagId: String, val reason: PickReaso
  *
  * Ordre de priorité :
  *  1. une unité dont le retour de contrôle est dû (une question ratée il y a 7 jours ou plus) ;
- *  2. une compétence due (la plus en retard d'abord), servie par une unité jamais vue ;
+ *  2. une compétence due, servie par une unité jamais vue : la plus en retard d'abord, parmi
+ *     celles qui ont encore une unité neuve ; à défaut, la plus en retard, sur l'unité vue il y
+ *     a le plus longtemps ;
  *  3. une compétence jamais travaillée ;
  *  4. sinon, entraînement libre sur la compétence la moins travaillée de la session.
  *
@@ -95,7 +97,7 @@ class UnitPicker(private val random: Random = Random.Default) {
             return UnitPick(unit.id, focusTag ?: failed.primaryTag, PickReason.RETRY)
         }
 
-        val (tag, reason) = chooseTag(scope, remaining, focusTag, skillStates, asked, today, tagOrder)
+        val (tag, reason) = chooseTag(scope, remaining, focusTag, skillStates, questionStates, asked, today, tagOrder)
         // Avec une compétence choisie, « remaining » ne contient déjà que ses unités.
         val pool = if (focusTag != null) remaining else remaining.filter { tag in it.primaryTags }
         return UnitPick(chooseUnit(pool, questionStates).id, tag, reason)
@@ -112,6 +114,7 @@ class UnitPicker(private val random: Random = Random.Default) {
         remaining: List<UnitRef>,
         focusTag: String?,
         skillStates: Map<String, SkillState>,
+        questionStates: Map<String, QuestionState>,
         asked: Set<String>,
         today: Long,
         tagOrder: List<String>,
@@ -130,10 +133,16 @@ class UnitPicker(private val random: Random = Random.Default) {
         // Tri stable : sans ordre de taxonomie, on garde l'ordre des unités.
         val tags = remaining.flatMap { it.primaryTags }.distinct().sortedBy { rank[it] ?: Int.MAX_VALUE }
 
+        // Parmi les compétences dues, d'abord celles qu'une unité jamais vue peut servir : on ne
+        // repose une unité déjà vue que lorsqu'il n'y a plus rien de neuf à proposer.
+        val freshTags = remaining
+            .filter { unit -> unit.questions.none { it.id in questionStates } }
+            .flatMap { it.primaryTags }
+            .toSet()
         val due = tags
             .mapNotNull { skillStates[it] }
             .filter { Leitner.isDue(it, today) }
-            .minWithOrNull(compareBy<SkillState> { it.dueDay }.thenBy { it.box })
+            .minWithOrNull(compareBy<SkillState> { if (it.tagId in freshTags) 0 else 1 }.thenBy { it.dueDay }.thenBy { it.box })
         if (due != null) return due.tagId to PickReason.DUE_SKILL
 
         val unseenTag = tags.firstOrNull { it !in skillStates }

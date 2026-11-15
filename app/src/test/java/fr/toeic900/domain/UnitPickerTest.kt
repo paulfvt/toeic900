@@ -138,6 +138,18 @@ class UnitPickerTest {
     }
 
     @Test
+    fun `a due skill with a fresh text goes before a more overdue one without any`() {
+        // « inference » est la plus en retard, mais son seul texte a déjà été lu ; « detail » a un texte neuf.
+        val units = listOf(text("p7-0001", "inference"), text("p7-0002", "detail"))
+        val skills = mapOf(skill("inference", 1, -5), skill("detail", 1, -1))
+        val result = pick(units, skills = skills, questions = mapOf(seen("p7-0001-1", daysAgo = 5)))
+        assertEquals(UnitPick("p7-0002", "detail", PickReason.DUE_SKILL), result)
+        // Quand plus rien n'est neuf, la plus en retard reprend la main, sur son texte déjà lu.
+        val allRead = mapOf(seen("p7-0001-1", daysAgo = 5), seen("p7-0002-1", daysAgo = 1))
+        assertEquals(UnitPick("p7-0001", "inference", PickReason.DUE_SKILL), pick(units, skills = skills, questions = allRead))
+    }
+
+    @Test
     fun `practice turns to the skill least worked in the session`() {
         val units = listOf(text("p7-0001", "detail"), text("p7-0002", "detail"), text("p7-0003", "inference"))
         val skills = mapOf(skill("detail", 2, 3), skill("inference", 2, 3))

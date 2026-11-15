@@ -74,4 +74,6 @@ dependencies {
     androidTestImplementation(libs.androidx.test.core)
     androidTestImplementation(libs.androidx.test.runner)
     androidTestImplementation(libs.androidx.test.ext.junit)
+    // Recrée une base à une ancienne version depuis app/schemas, pour tester les migrations.
+    androidTestImplementation(libs.room.testing)
 }

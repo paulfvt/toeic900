@@ -202,16 +202,18 @@ abstract class UserDao {
  * on ajoute une table et trois colonnes. Les lignes existantes gardent toutes leurs valeurs ;
  * leurs nouvelles colonnes valent NULL (ou 0 pour exercisesCompleted).
  */
+val MIGRATION_1_2_SQL = listOf(
+    "CREATE TABLE IF NOT EXISTS `lesson_progress` (`stepId` TEXT NOT NULL, `attempts` INTEGER NOT NULL, " +
+        "`bestCorrect` INTEGER NOT NULL, `bestTotal` INTEGER NOT NULL, `lastAttemptDay` INTEGER NOT NULL, " +
+        "`completedDay` INTEGER, PRIMARY KEY(`stepId`))",
+    "ALTER TABLE `session` ADD COLUMN `stepId` TEXT",
+    "ALTER TABLE `session` ADD COLUMN `exercisesCompleted` INTEGER NOT NULL DEFAULT 0",
+    "ALTER TABLE `attempt` ADD COLUMN `stimulusId` TEXT",
+)
+
 val MIGRATION_1_2 = object : Migration(1, 2) {
     override fun migrate(db: SupportSQLiteDatabase) {
-        db.execSQL(
-            "CREATE TABLE IF NOT EXISTS `lesson_progress` (`stepId` TEXT NOT NULL, `attempts` INTEGER NOT NULL, " +
-                "`bestCorrect` INTEGER NOT NULL, `bestTotal` INTEGER NOT NULL, `lastAttemptDay` INTEGER NOT NULL, " +
-                "`completedDay` INTEGER, PRIMARY KEY(`stepId`))",
-        )
-        db.execSQL("ALTER TABLE `session` ADD COLUMN `stepId` TEXT")
-        db.execSQL("ALTER TABLE `session` ADD COLUMN `exercisesCompleted` INTEGER NOT NULL DEFAULT 0")
-        db.execSQL("ALTER TABLE `attempt` ADD COLUMN `stimulusId` TEXT")
+        MIGRATION_1_2_SQL.forEach(db::execSQL)
     }
 }
 
