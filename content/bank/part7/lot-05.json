@@ -14,7 +14,7 @@
         {
           "genre": "form",
           "title": "Wren & Castellano Architects - Client Intake Form",
-          "text": "Client: Joaquin Barros\nAddress: 52 Linden Court, Dayton Falls\nDate submitted: March 3\nProject: Replace the back porch with a sunroom (about 180 square feet)\nPackage requested: Design Package\nAdd-on: 3-D model\nPreferred consultation: Tuesday, March 10, 4:00 P.M.\nDesired start of construction: June\nConstruction budget: $45,000\nHow did you hear about us? From my neighbor, Tobias Weir, whose kitchen plans your studio drew last year."
+          "text": "Client: Joaquin Barros\nAddress: 52 Sorrel Court, Dayton Falls\nDate submitted: March 3\nProject: Replace the back porch with a sunroom (about 180 square feet)\nPackage requested: Design Package\nAdd-on: 3-D model\nPreferred consultation: Tuesday, March 10, 4:00 P.M.\nDesired start of construction: June\nConstruction budget: $45,000\nHow did you hear about us? From my neighbor, Lucan Weir, whose kitchen plans your studio drew last year."
         },
         {
           "genre": "email",
@@ -143,7 +143,7 @@
             "inference"
           ],
           "difficulty": 2,
-          "stem": "What is suggested about Tobias Weir?",
+          "stem": "What is suggested about Lucan Weir?",
           "options": [
             "He works for Wren & Castellano.",
             "He has hired the firm before.",

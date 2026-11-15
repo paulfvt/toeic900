@@ -9,7 +9,7 @@
         {
           "genre": "chat",
           "title": "Tax Team Chat - Ellery & Moss Accounting",
-          "text": "Dalia Mensah (9:41 A.M.): Quick question about the Whitfield Dental file. Did the owner ever send the missing bank statements for March?\nOwen Tanaka (9:43 A.M.): Not yet. I e-mailed him twice last week and got no answer.\nDalia Mensah (9:44 A.M.): His quarterly filing is due Friday, and I can't finish the report without them.\nOwen Tanaka (9:46 A.M.): I could call his office this morning if you like.\nDalia Mensah (9:47 A.M.): Be my guest. Ask for his assistant, Ms. Reyes. She usually handles his paperwork.\nOwen Tanaka (9:48 A.M.): Will do. And if the statements still don't show up by Thursday?\nDalia Mensah (9:50 A.M.): Then we'll have to request a short extension.\nOwen Tanaka (10:15 A.M.): Good news. Ms. Reyes is scanning the statements now, and they should reach us by noon.\nDalia Mensah (10:16 A.M.): You're a lifesaver! I'll start the report as soon as they arrive."
+          "text": "Dalia Mensah (9:41 A.M.): Quick question about the Whitfield Dental file. Did the owner ever send the missing bank statements for March?\nOwen Tanaka (9:43 A.M.): Not yet. I e-mailed him twice last week and got no answer.\nDalia Mensah (9:44 A.M.): His quarterly filing is due Friday, and I can't finish the report without them.\nOwen Tanaka (9:46 A.M.): I could call his office this morning if you like.\nDalia Mensah (9:47 A.M.): Be my guest. Ask for his assistant, Ms. Okoro. She usually handles his paperwork.\nOwen Tanaka (9:48 A.M.): Will do. And if the statements still don't show up by Thursday?\nDalia Mensah (9:50 A.M.): Then we'll have to request a short extension.\nOwen Tanaka (10:15 A.M.): Good news. Ms. Okoro is scanning the statements now, and they should reach us by noon.\nDalia Mensah (10:16 A.M.): You're a lifesaver! I'll start the report as soon as they arrive."
         }
       ],
       "questions": [
@@ -29,11 +29,11 @@
           "answer": "D",
           "evidence": [
             "I could call his office this morning if you like.",
-            "Ask for his assistant, Ms. Reyes."
+            "Ask for his assistant, Ms. Okoro."
           ],
           "explanation": {
             "fr": {
-              "rule": "« Be my guest » répond au message juste avant : M. Tanaka propose « I could call his office this morning if you like ». Mme Mensah accepte (« Be my guest », c'est « vas-y, je t'en prie ») et enchaîne avec des consignes pour l'appel : « Ask for his assistant, Ms. Reyes ».",
+              "rule": "« Be my guest » répond au message juste avant : M. Tanaka propose « I could call his office this morning if you like ». Mme Mensah accepte (« Be my guest », c'est « vas-y, je t'en prie ») et enchaîne avec des consignes pour l'appel : « Ask for his assistant, Ms. Okoro ».",
               "distractors": {
                 "A": "Sens littéral de « guest » (invité) : personne n'est invité, il s'agit d'un appel téléphonique.",
                 "B": "« Be my guest » peut évoquer « c'est moi qui invite », mais il n'est question d'aucun paiement ici.",
@@ -42,7 +42,7 @@
               "trap": "Une réplique idiomatique répond au message d'avant : demande-toi ce qui vient d'être proposé, puis traduis par « j'accepte » ou « je refuse », jamais mot à mot."
             },
             "en": {
-              "rule": "\"Be my guest\" answers the message just before: Mr. Tanaka offers \"I could call his office this morning if you like\". Ms. Mensah accepts (\"Be my guest\" means \"go ahead\") and then gives instructions for the call: \"Ask for his assistant, Ms. Reyes\".",
+              "rule": "\"Be my guest\" answers the message just before: Mr. Tanaka offers \"I could call his office this morning if you like\". Ms. Mensah accepts (\"Be my guest\" means \"go ahead\") and then gives instructions for the call: \"Ask for his assistant, Ms. Okoro\".",
               "distractors": {
                 "A": "The literal meaning of \"guest\": nobody is being invited anywhere, the offer is about a phone call.",
                 "B": "\"Be my guest\" may sound like \"it's on me\", but no payment is mentioned here.",
@@ -58,7 +58,7 @@
             "inference"
           ],
           "difficulty": 2,
-          "stem": "Who most likely is Ms. Reyes?",
+          "stem": "Who most likely is Ms. Okoro?",
           "options": [
             "A colleague at the accounting firm",
             "A staff member at Whitfield Dental",
@@ -67,25 +67,25 @@
           ],
           "answer": "B",
           "evidence": [
-            "Ask for his assistant, Ms. Reyes.",
-            "Ms. Reyes is scanning the statements now"
+            "Ask for his assistant, Ms. Okoro.",
+            "Ms. Okoro is scanning the statements now"
           ],
           "explanation": {
             "fr": {
-              "rule": "Mme Mensah parle du propriétaire de Whitfield Dental (« the owner », « his office ») et dit : « Ask for his assistant, Ms. Reyes ». Mme Reyes est donc l'assistante du client, et elle scanne ses relevés (« Ms. Reyes is scanning the statements now »).",
+              "rule": "Mme Mensah parle du propriétaire de Whitfield Dental (« the owner », « his office ») et dit : « Ask for his assistant, Ms. Okoro ». Mme Okoro est donc l'assistante du client, et elle scanne ses relevés (« Ms. Okoro is scanning the statements now »).",
               "distractors": {
-                "A": "Les collègues du cabinet sont Mme Mensah et M. Tanaka ; Mme Reyes est l'assistante de « his office », c'est-à-dire du client.",
-                "C": "L'administration fiscale n'est citée nulle part comme interlocuteur de Mme Reyes ; elle prépare des documents pour le cabinet.",
-                "D": "Les relevés viennent bien d'une banque, mais Mme Reyes les scanne depuis le bureau du propriétaire : elle n'y travaille pas."
+                "A": "Les collègues du cabinet sont Mme Mensah et M. Tanaka ; Mme Okoro est l'assistante de « his office », c'est-à-dire du client.",
+                "C": "L'administration fiscale n'est citée nulle part comme interlocuteur de Mme Okoro ; elle prépare des documents pour le cabinet.",
+                "D": "Les relevés viennent bien d'une banque, mais Mme Okoro les scanne depuis le bureau du propriétaire : elle n'y travaille pas."
               },
               "trap": "Pour « Who most likely is… ? », cherche à qui appartient le possessif (« his assistant ») : il te dit pour qui travaille la personne."
             },
             "en": {
-              "rule": "Ms. Mensah talks about the owner of Whitfield Dental (\"the owner\", \"his office\") and says \"Ask for his assistant, Ms. Reyes\". Ms. Reyes is therefore the client's assistant, and she is the one scanning his statements (\"Ms. Reyes is scanning the statements now\").",
+              "rule": "Ms. Mensah talks about the owner of Whitfield Dental (\"the owner\", \"his office\") and says \"Ask for his assistant, Ms. Okoro\". Ms. Okoro is therefore the client's assistant, and she is the one scanning his statements (\"Ms. Okoro is scanning the statements now\").",
               "distractors": {
-                "A": "The firm's colleagues are Ms. Mensah and Mr. Tanaka; Ms. Reyes is the assistant at \"his office\", meaning the client's.",
-                "C": "No tax agency is mentioned as Ms. Reyes's employer; she prepares documents for the firm.",
-                "D": "The statements do come from a bank, but Ms. Reyes scans them from the owner's office: she does not work at the bank."
+                "A": "The firm's colleagues are Ms. Mensah and Mr. Tanaka; Ms. Okoro is the assistant at \"his office\", meaning the client's.",
+                "C": "No tax agency is mentioned as Ms. Okoro's employer; she prepares documents for the firm.",
+                "D": "The statements do come from a bank, but Ms. Okoro scans them from the owner's office: she does not work at the bank."
               },
               "trap": "For \"Who most likely is...?\", look at who the possessive belongs to (\"his assistant\"): it tells you who the person works for."
             }
@@ -99,8 +99,8 @@
       "documents": [
         {
           "genre": "review",
-          "title": "Linden Trust Bank, Ashgrove Branch - Customer Review",
-          "text": "Rating: 4 out of 5 stars\nPosted by Gideon Alvarez on September 18\n\nI opened a small business account at Linden Trust Bank three months ago, and I wanted to share my experience with other owners. My bakery supplies company had been with a large national bank for years, but monthly fees kept rising, so I decided to look at local options.\n\nThe account manager, Ms. Abara, spent almost an hour explaining the fee structure, and she never pressured me to buy extra services. Setup took one afternoon, and the mobile app lets me deposit checks by photographing them. There is no monthly fee as long as I keep a balance of $2,000, which is easy for me. Wire transfers are cheaper than at my previous bank, though still not free.\n\nMy only complaint is the branch's hours. It closes at 4:00 P.M. on weekdays and is not open on Saturdays, so I must plan my visits carefully. The bank has told me it plans to extend hours next spring, which I would welcome.\n\nI would recommend Linden Trust to any small business owner tired of high fees."
+          "title": "Larchmont Trust Bank, Ashgrove Branch - Customer Review",
+          "text": "Rating: 4 out of 5 stars\nPosted by Gideon Alvarez on September 18\n\nI opened a small business account at Larchmont Trust Bank three months ago, and I wanted to share my experience with other owners. My bakery supplies company had been with a large national bank for years, but monthly fees kept rising, so I decided to look at local options.\n\nThe account manager, Ms. Abara, spent almost an hour explaining the fee structure, and she never pressured me to buy extra services. Setup took one afternoon, and the mobile app lets me deposit checks by photographing them. There is no monthly fee as long as I keep a balance of $2,000, which is easy for me. Wire transfers are cheaper than at my previous bank, though still not free.\n\nMy only complaint is the branch's hours. It closes at 4:00 P.M. on weekdays and is not open on Saturdays, so I must plan my visits carefully. The bank has told me it plans to extend hours next spring, which I would welcome.\n\nI would recommend Larchmont Trust to any small business owner tired of high fees."
         }
       ],
       "questions": [
@@ -120,11 +120,11 @@
           "answer": "C",
           "evidence": [
             "I wanted to share my experience with other owners.",
-            "I would recommend Linden Trust to any small business owner tired of high fees."
+            "I would recommend Larchmont Trust to any small business owner tired of high fees."
           ],
           "explanation": {
             "fr": {
-              "rule": "L'auteur dit vouloir partager son expérience avec d'autres propriétaires (« share my experience with other owners ») et termine par « I would recommend Linden Trust to any small business owner ». Le but est de recommander cette banque.",
+              "rule": "L'auteur dit vouloir partager son expérience avec d'autres propriétaires (« share my experience with other owners ») et termine par « I would recommend Larchmont Trust to any small business owner ». Le but est de recommander cette banque.",
               "distractors": {
                 "A": "Il a regardé plusieurs options (« look at local options »), mais il ne parle que d'une seule banque.",
                 "B": "Les nouveaux horaires ne sont qu'un détail du troisième paragraphe, et c'est la banque qui les annonce, pas lui.",
@@ -133,7 +133,7 @@
               "trap": "Pour un avis, le but se lit au début (pourquoi il écrit) et à la fin (la recommandation) ; un détail du milieu n'est qu'un distracteur."
             },
             "en": {
-              "rule": "The writer says he wants to share his experience with other owners (\"share my experience with other owners\") and ends with \"I would recommend Linden Trust to any small business owner\". The purpose is to recommend this bank.",
+              "rule": "The writer says he wants to share his experience with other owners (\"share my experience with other owners\") and ends with \"I would recommend Larchmont Trust to any small business owner\". The purpose is to recommend this bank.",
               "distractors": {
                 "A": "He looked at several options (\"look at local options\"), but he only reviews one bank.",
                 "B": "The new hours are only a detail in the third paragraph, and it is the bank that announced them, not him.",
@@ -187,7 +187,7 @@
             "not-true"
           ],
           "difficulty": 3,
-          "stem": "What is NOT true about Linden Trust Bank?",
+          "stem": "What is NOT true about Larchmont Trust Bank?",
           "options": [
             "Customers can deposit checks with a phone app.",
             "An account manager gave a detailed explanation of fees.",

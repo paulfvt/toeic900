@@ -9,7 +9,7 @@
         {
           "genre": "brochure",
           "title": "Willowmere Residences - Now Leasing",
-          "text": "Willowmere Residences, a new apartment community on Tanner Street, is now accepting applications for homes available from April 1.\n\nChoose from studio, one-bedroom, and two-bedroom apartments. Every home has a dishwasher, wood-style flooring, and large windows that face Calder River Park. Monthly rents start at $1,150 for a studio and $1,680 for a two-bedroom apartment.\n\nResidents also enjoy a shared rooftop terrace, a bicycle storage room, and a fitness studio open from 5:00 A.M. to 11:00 P.M. The building is a five-minute walk from Tanner Street station, where trains run to the city center every ten minutes. Parking spaces are limited and are rented separately for $90 per month.\n\nTours are offered Tuesday through Saturday. To book a visit, call Daniela Costa in the leasing office at 555-0148."
+          "text": "Willowmere Residences, a new apartment community on Tanner Street, is now accepting applications for homes available from April 1.\n\nChoose from studio, one-bedroom, and two-bedroom apartments. Every home has a dishwasher, wood-style flooring, and large windows that face Ashcombe River Park. Monthly rents start at $1,150 for a studio and $1,680 for a two-bedroom apartment.\n\nResidents also enjoy a shared rooftop terrace, a bicycle storage room, and a fitness studio open from 5:00 A.M. to 11:00 P.M. The building is a five-minute walk from Tanner Street station, where trains run to the city center every ten minutes. Parking spaces are limited and are rented separately for $90 per month.\n\nTours are offered Tuesday through Saturday. To book a visit, call Daniela Costa in the leasing office at 555-0148."
         }
       ],
       "questions": [
@@ -37,7 +37,7 @@
               "distractors": {
                 "A": "Les trains ne sont cités que comme un avantage de situation (la gare est à cinq minutes à pied) ; aucun changement de service n'est annoncé.",
                 "C": "Les logements sont loués (« rents », « applications »), pas vendus : il n'est jamais question d'acheter.",
-                "D": "Le parc Calder River apparaît seulement parce que les fenêtres donnent dessus ; aucun travaux n'est mentionné."
+                "D": "Le parc Ashcombe River apparaît seulement parce que les fenêtres donnent dessus ; aucun travaux n'est mentionné."
               },
               "trap": "Pour une question de but, relie la première phrase au vocabulaire du texte (rents, applications) : les détails annexes (gare, parc) servent de distracteurs."
             },
@@ -46,7 +46,7 @@
               "distractors": {
                 "A": "Trains are only mentioned as a location advantage (the station is a five-minute walk away); no change in service is announced.",
                 "C": "The homes are rented (\"rents\", \"applications\"), not sold: buying is never mentioned.",
-                "D": "Calder River Park appears only because the windows face it; no repair work is mentioned."
+                "D": "Ashcombe River Park appears only because the windows face it; no repair work is mentioned."
               },
               "trap": "For a purpose question, link the first sentence to the text's vocabulary (rents, applications): side details (station, park) are used as distractors."
             }
@@ -302,7 +302,7 @@
       "documents": [
         {
           "genre": "letter",
-          "text": "October 26\n\nMs. Ruth Kamara\nKamara Family Dental Clinic\n418 Orchard Lane, Dunmore\n\nDear Ms. Kamara,\n\nI am writing to update you on the renovation of your clinic's second floor. [1] The custom glass partitions for the treatment rooms will now arrive on December 4. [2] Because the painters cannot finish until the partitions are in place, the work will be completed on Friday, December 11, rather than on November 30, the date in our contract. [3]\n\nTo limit the delay, our crew will work on Saturdays, and we will cover the cost of the extra shifts ourselves. [4] I will call you on Monday to discuss how your patient schedule can be adjusted.\n\nSincerely,\nGustavo Almeida\nProject Manager, Stonebridge Construction"
+          "text": "October 26\n\nMs. Ruth Kamara\nKamara Family Dental Clinic\n418 Orchard Lane, Halston\n\nDear Ms. Kamara,\n\nI am writing to update you on the renovation of your clinic's second floor. [1] The custom glass partitions for the treatment rooms will now arrive on December 4. [2] Because the painters cannot finish until the partitions are in place, the work will be completed on Friday, December 11, rather than on November 30, the date in our contract. [3]\n\nTo limit the delay, our crew will work on Saturdays, and we will cover the cost of the extra shifts ourselves. [4] I will call you on Monday to discuss how your patient schedule can be adjusted.\n\nSincerely,\nGustavo Almeida\nProject Manager, Stonebridge Construction"
         }
       ],
       "questions": [
@@ -466,8 +466,8 @@
       "documents": [
         {
           "genre": "report",
-          "title": "Port Alder Tourism Board - Summer Season Report",
-          "text": "This report summarizes visitor numbers and survey results for the summer season, from June to August.\n\nPort Alder welcomed 184,000 overnight visitors this summer, 9 percent more than last year. Hotels reported an average occupancy of 78 percent in July, the highest figure in five years. The harbor boat tours remained the most popular activity, with 41,000 tickets sold.\n\nA survey of 1,200 visitors found that 86 percent rated their stay as good or excellent. [1] Visitors praised the boat tours and the new Friday night market. [2] The most common complaint was parking near the harbor, where the lots fill up before 10:00 A.M. on weekends. [3]\n\nTo ease congestion, the board plans to open a shuttle service from the Eastfield lot next June. The board will also ask hotels to give guests a printed map of the free parking areas. [4]"
+          "title": "Port Wexcombe Tourism Board - Summer Season Report",
+          "text": "This report summarizes visitor numbers and survey results for the summer season, from June to August.\n\nPort Wexcombe welcomed 184,000 overnight visitors this summer, 9 percent more than last year. Hotels reported an average occupancy of 78 percent in July, the highest figure in five years. The harbor boat tours remained the most popular activity, with 41,000 tickets sold.\n\nA survey of 1,200 visitors found that 86 percent rated their stay as good or excellent. [1] Visitors praised the boat tours and the new Friday night market. [2] The most common complaint was parking near the harbor, where the lots fill up before 10:00 A.M. on weekends. [3]\n\nTo ease congestion, the board plans to open a shuttle service from the Eastfield lot next June. The board will also ask hotels to give guests a printed map of the free parking areas. [4]"
         }
       ],
       "questions": [

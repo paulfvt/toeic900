@@ -97,7 +97,7 @@
       "documents": [
         {
           "genre": "email",
-          "text": "To: Ms. Helena Brandt\nFrom: Raj Menon, Halvorsen Commercial Properties\nDate: November 3\nSubject: Lease renewal for Suite 410\n\nDear Ms. Brandt,\n\nYour lease for Suite 410 at Alder Court expires on January 31. I am writing to ask whether Brandt Design Studio would like to stay for another two years.\n\nIf you renew, the monthly rent will rise from $2,850 to $2,990 starting February 1. This is the first increase in three years and helps cover the recent renovation of the lobby. A one-year renewal is also available at $3,050 per month.\n\nIf you return the signed renewal form by December 5, we will repaint your suite at no charge. Because several companies are on our waiting list for space in the building, I would be grateful for your answer by that date.\n\nPlease call me at 555-0148 with any questions.\n\nSincerely,\nRaj Menon\nProperty Manager"
+          "text": "To: Ms. Helena Brandt\nFrom: Raj Menon, Halvorsen Commercial Properties\nDate: November 3\nSubject: Lease renewal for Suite 410\n\nDear Ms. Brandt,\n\nYour lease for Suite 410 at Bexley Court expires on January 31. I am writing to ask whether Brandt Design Studio would like to stay for another two years.\n\nIf you renew, the monthly rent will rise from $2,850 to $2,990 starting February 1. This is the first increase in three years and helps cover the recent renovation of the lobby. A one-year renewal is also available at $3,050 per month.\n\nIf you return the signed renewal form by December 5, we will repaint your suite at no charge. Because several companies are on our waiting list for space in the building, I would be grateful for your answer by that date.\n\nPlease call me at 555-0148 with any questions.\n\nSincerely,\nRaj Menon\nProperty Manager"
         }
       ],
       "questions": [
@@ -183,7 +183,7 @@
             "inference"
           ],
           "difficulty": 2,
-          "stem": "What is suggested about Alder Court?",
+          "stem": "What is suggested about Bexley Court?",
           "options": [
             "Its rents have gone up every year.",
             "Its leases are available only for two years.",
@@ -907,7 +907,7 @@
       "documents": [
         {
           "genre": "form",
-          "title": "Alder Event Rentals",
+          "title": "Corbel Event Rentals",
           "text": "RENTAL ORDER FORM\n\nOrder number: 4471\nCustomer: Joaquin Duarte, Duarte & Partners\nEvent: Sales seminar, Pinewood Conference Center, Room 3\nEvent date: Friday, March 7\n\nItem: 2 projectors - $45 each per day\nItem: 1 wireless microphone set - $30 per day\nItem: 60 folding chairs - $1 each per day\n\nDelivery: Thursday, March 6, between 3:00 P.M. and 5:00 P.M.\nPickup: Saturday, March 8, at 9:00 A.M.\nPayment: Credit card on file\n\nCustomer note:\nWe expect about 52 participants plus two speakers. The conference center already provides a screen, so we do not need one from you. Our first speaker starts at 9:00 A.M. sharp, so please include fresh batteries for the microphone. Please call me at 555-0142 if your driver cannot find the loading entrance. Thank you."
         }
       ],
@@ -1673,7 +1673,7 @@
         },
         {
           "genre": "receipt",
-          "text": "Receipt - Order No. AM-58214\n\nOrder date: April 8\nCustomer: Beatriz Lamarque, Corvina Analytics\nShip to: 27 Vine Court, Fairview\n\nItem: Ashford Standing Desk AD-140, Oak (qty 2) - $578.00\nItem: Cable tray, 60 cm (qty 2) - $38.00\nSubtotal: $616.00\nDelivery: Express, 2 business days - $45.00\nTotal paid: $661.00\n\nPayment: Credit card ending 4417\nThank you for shopping with Aldermoor Office Furniture. Please keep this receipt for returns and warranty claims."
+          "text": "Receipt - Order No. AM-58214\n\nOrder date: April 8\nCustomer: Beatriz Lamarque, Corvina Analytics\nShip to: 27 Vine Court, Millhaven\n\nItem: Ashford Standing Desk AD-140, Oak (qty 2) - $578.00\nItem: Cable tray, 60 cm (qty 2) - $38.00\nSubtotal: $616.00\nDelivery: Express, 2 business days - $45.00\nTotal paid: $661.00\n\nPayment: Credit card ending 4417\nThank you for shopping with Aldermoor Office Furniture. Please keep this receipt for returns and warranty claims."
         },
         {
           "genre": "email",

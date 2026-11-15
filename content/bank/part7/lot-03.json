@@ -217,12 +217,12 @@
       "documents": [
         {
           "genre": "job-posting",
-          "title": "Tidewater Expo Group - Job Opening",
-          "text": "Position: Exhibitor Services Coordinator (full-time)\nLocation: Harbor Convention Center, Port Alden\n\nTidewater Expo Group organizes the Tidewater Building & Design Show, held every October in Port Alden and attended by more than 300 exhibiting companies. We are looking for a coordinator to support our exhibitors before and during the show. The Harbor Convention Center is a five-minute walk from the Port Alden train station, and our offices are on the same street.\n\nResponsibilities: answer exhibitors' questions by phone and e-mail; assign booth space to participating companies; prepare the exhibitor manual; and oversee the setup crews during the three days before the show opens.\n\nRequirements: at least two years of experience in event planning or customer service; excellent organizational skills; willingness to work some weekends. Knowledge of Spanish is a plus.\n\nCompensation: $46,000 to $52,000 per year. Benefits include health insurance, 15 days of paid vacation, and an annual training allowance.\n\nTo apply, send a cover letter and resume to Alma Voss, Human Resources Manager, by August 22. Interviews will take place on September 2 and 3, and the new coordinator will begin on September 15."
+          "title": "Brightharbor Expo Group - Job Opening",
+          "text": "Position: Exhibitor Services Coordinator (full-time)\nLocation: Harbor Convention Center, Port Alden\n\nBrightharbor Expo Group organizes the Brightharbor Building & Design Show, held every October in Port Alden and attended by more than 300 exhibiting companies. We are looking for a coordinator to support our exhibitors before and during the show. The Harbor Convention Center is a five-minute walk from the Port Alden train station, and our offices are on the same street.\n\nResponsibilities: answer exhibitors' questions by phone and e-mail; assign booth space to participating companies; prepare the exhibitor manual; and oversee the setup crews during the three days before the show opens.\n\nRequirements: at least two years of experience in event planning or customer service; excellent organizational skills; willingness to work some weekends. Knowledge of Spanish is a plus.\n\nCompensation: $46,000 to $52,000 per year. Benefits include health insurance, 15 days of paid vacation, and an annual training allowance.\n\nTo apply, send a cover letter and resume to Alma Voss, Human Resources Manager, by August 22. Interviews will take place on September 2 and 3, and the new coordinator will begin on September 15."
         },
         {
           "genre": "letter",
-          "text": "August 18\n\nAlma Voss\nHuman Resources Manager\nTidewater Expo Group\n210 Quay Street, Port Alden\n\nDear Ms. Voss,\n\nI am writing to apply for the Exhibitor Services Coordinator position advertised on your website. For the past three years I have worked as a project assistant at Kestrel Display Systems, the company that builds the exhibitor booths at your October show. During that time I answered questions from exhibitors, drew floor plans, and coordinated deliveries to the Harbor Convention Center. I also speak fluent Spanish, which I use daily with clients in Latin America.\n\nI have enclosed my resume and two references. My current contract ends on September 11, so I would be free to start on September 15 as planned. However, I will be out of the country until September 5 for a trade fair in Valencia. If you cannot reschedule my interview, I would be glad to take part by video call from Spain.\n\nThank you for considering my application. I have long admired the way your team runs the show, and I would be proud to contribute to its success. I look forward to hearing from you.\n\nSincerely,\nRohan Banerjee"
+          "text": "August 18\n\nAlma Voss\nHuman Resources Manager\nBrightharbor Expo Group\n210 Quay Street, Port Alden\n\nDear Ms. Voss,\n\nI am writing to apply for the Exhibitor Services Coordinator position advertised on your website. For the past three years I have worked as a project assistant at Kestrel Display Systems, the company that builds the exhibitor booths at your October show. During that time I answered questions from exhibitors, drew floor plans, and coordinated deliveries to the Harbor Convention Center. I also speak fluent Spanish, which I use daily with clients in Latin America.\n\nI have enclosed my resume and two references. My current contract ends on September 11, so I would be free to start on September 15 as planned. However, I will be out of the country until September 5 for a trade fair in Valencia. If you cannot reschedule my interview, I would be glad to take part by video call from Spain.\n\nThank you for considering my application. I have long admired the way your team runs the show, and I would be proud to contribute to its success. I look forward to hearing from you.\n\nSincerely,\nRohan Banerjee"
         }
       ],
       "questions": [
@@ -349,9 +349,9 @@
           "difficulty": 2,
           "stem": "What is suggested about Mr. Banerjee?",
           "options": [
-            "He is already familiar with the Tidewater show.",
+            "He is already familiar with the Brightharbor show.",
             "He has applied for the position before.",
-            "He currently works for Tidewater Expo Group.",
+            "He currently works for Brightharbor Expo Group.",
             "He has no experience with exhibitors."
           ],
           "answer": "A",
@@ -360,19 +360,19 @@
           ],
           "explanation": {
             "fr": {
-              "rule": "Son employeur actuel construit « the exhibitor booths at your October show » et il a répondu à des exposants et livré au centre de congrès : il connaît donc déjà le salon Tidewater.",
+              "rule": "Son employeur actuel construit « the exhibitor booths at your October show » et il a répondu à des exposants et livré au centre de congrès : il connaît donc déjà le salon Brightharbor.",
               "distractors": {
                 "B": "Rien n'indique une candidature antérieure.",
-                "C": "Il travaille pour Kestrel Display Systems, un fournisseur de Tidewater Expo Group, pas pour Tidewater lui-même.",
+                "C": "Il travaille pour Kestrel Display Systems, un fournisseur de Brightharbor Expo Group, pas pour Brightharbor lui-même.",
                 "D": "Il écrit au contraire : « I answered questions from exhibitors »."
               },
               "trap": "Une déduction s'appuie sur un détail précis (ici, l'employeur construit les stands du salon). Évite les options qui contredisent la lettre ou ajoutent un fait."
             },
             "en": {
-              "rule": "His current employer builds \"the exhibitor booths at your October show\" and he has dealt with exhibitors and deliveries at the convention center: he already knows the Tidewater show.",
+              "rule": "His current employer builds \"the exhibitor booths at your October show\" and he has dealt with exhibitors and deliveries at the convention center: he already knows the Brightharbor show.",
               "distractors": {
                 "B": "Nothing suggests an earlier application.",
-                "C": "He works for Kestrel Display Systems, a supplier to Tidewater Expo Group, not for Tidewater itself.",
+                "C": "He works for Kestrel Display Systems, a supplier to Brightharbor Expo Group, not for Brightharbor itself.",
                 "D": "He says the opposite: \"I answered questions from exhibitors\"."
               },
               "trap": "An inference rests on one precise detail (here, his employer builds the show's booths). Avoid options that contradict the letter or add a fact."
@@ -431,7 +431,7 @@
         },
         {
           "genre": "email",
-          "text": "To: Ainsley Park, Training Coordinator\nFrom: Tobias Wren\nDate: October 6\nSubject: Workshop on October 14\n\nDear Ms. Park,\n\nThank you for sending the program for next week's claims workshop, and thank you also for the clear directions to the conference center. I am a senior agent at our Dunmore office, and I have been looking forward to the event since I registered in September. Unfortunately, a long-standing client has asked to meet me at 3:00 P.M. on the same day, and the meeting cannot be moved. I would need to leave right after lunch.\n\nI am especially interested in the session on the new digital forms, because my office will start using them in November. I hope the workshop will cover the changes in detail, since several of my colleagues have already asked me how they work.\n\nWould it still be possible for me to receive a certificate if I miss the afternoon? If not, I would be glad to make up the missed session online at a later date.\n\nI apologize for any inconvenience and appreciate your help. I will also send the program to two colleagues from my office who may wish to register for a future workshop.\n\nSincerely,\nTobias Wren\nSenior Agent, Dunmore Office"
+          "text": "To: Ainsley Park, Training Coordinator\nFrom: Tobias Hartwell\nDate: October 6\nSubject: Workshop on October 14\n\nDear Ms. Park,\n\nThank you for sending the program for next week's claims workshop, and thank you also for the clear directions to the conference center. I am a senior agent at our Brackley office, and I have been looking forward to the event since I registered in September. Unfortunately, a long-standing client has asked to meet me at 3:00 P.M. on the same day, and the meeting cannot be moved. I would need to leave right after lunch.\n\nI am especially interested in the session on the new digital forms, because my office will start using them in November. I hope the workshop will cover the changes in detail, since several of my colleagues have already asked me how they work.\n\nWould it still be possible for me to receive a certificate if I miss the afternoon? If not, I would be glad to make up the missed session online at a later date.\n\nI apologize for any inconvenience and appreciate your help. I will also send the program to two colleagues from my office who may wish to register for a future workshop.\n\nSincerely,\nTobias Hartwell\nSenior Agent, Brackley Office"
         }
       ],
       "questions": [
@@ -441,7 +441,7 @@
             "main-idea"
           ],
           "difficulty": 2,
-          "stem": "Why did Mr. Wren write to Ms. Park?",
+          "stem": "Why did Mr. Hartwell write to Ms. Park?",
           "options": [
             "To cancel his registration for the workshop",
             "To request a change to the program",
@@ -454,7 +454,7 @@
           ],
           "explanation": {
             "fr": {
-              "rule": "M. Wren explique qu'il devra partir après le déjeuner, puis demande : « Would it still be possible for me to receive a certificate if I miss the afternoon? ». Il veut savoir comment obtenir son attestation malgré une absence partielle.",
+              "rule": "M. Hartwell explique qu'il devra partir après le déjeuner, puis demande : « Would it still be possible for me to receive a certificate if I miss the afternoon? ». Il veut savoir comment obtenir son attestation malgré une absence partielle.",
               "distractors": {
                 "A": "Il reste inscrit : il dit attendre l'événement avec impatience et propose de rattraper la session manquée.",
                 "B": "Il ne demande aucune modification du programme ; il le commente seulement.",
@@ -463,7 +463,7 @@
               "trap": "Le but d'un e-mail se lit dans la demande précise, souvent au dernier paragraphe, pas seulement dans l'ouverture : ici, la question sur l'attestation."
             },
             "en": {
-              "rule": "Mr. Wren explains that he will have to leave after lunch, then asks: \"Would it still be possible for me to receive a certificate if I miss the afternoon?\" He wants to know how to get credit despite missing part of the day.",
+              "rule": "Mr. Hartwell explains that he will have to leave after lunch, then asks: \"Would it still be possible for me to receive a certificate if I miss the afternoon?\" He wants to know how to get credit despite missing part of the day.",
               "distractors": {
                 "A": "He remains registered: he says he has been looking forward to the event and offers to make up the missed session.",
                 "B": "He does not ask for any change to the program; he only comments on it.",
@@ -479,7 +479,7 @@
             "cross-reference"
           ],
           "difficulty": 2,
-          "stem": "Which session will Mr. Wren miss?",
+          "stem": "Which session will Mr. Hartwell miss?",
           "options": [
             "Handling Storm-Damage Claims",
             "New Digital Claim Forms",
@@ -494,7 +494,7 @@
           ],
           "explanation": {
             "fr": {
-              "rule": "Dans l'e-mail, M. Wren doit partir « right after lunch ». Le programme place le déjeuner à 12 h 30, et la seule session qui suit est la quatrième, « Spotting Fraud Warning Signs », à 13 h 30.",
+              "rule": "Dans l'e-mail, M. Hartwell doit partir « right after lunch ». Le programme place le déjeuner à 12 h 30, et la seule session qui suit est la quatrième, « Spotting Fraud Warning Signs », à 13 h 30.",
               "distractors": {
                 "A": "La session 1 a lieu à 9 h 15, avant son départ.",
                 "B": "La session 2, à 10 h 30, a lieu avant le déjeuner ; c'est même celle qui l'intéresse le plus.",
@@ -503,7 +503,7 @@
               "trap": "Traduis l'indice de l'e-mail (« after lunch ») en heure grâce au programme, puis repère ce qui vient après."
             },
             "en": {
-              "rule": "In the e-mail, Mr. Wren must leave \"right after lunch\". The schedule puts lunch at 12:30 P.M., and the only session afterward is Session 4, \"Spotting Fraud Warning Signs\", at 1:30 P.M.",
+              "rule": "In the e-mail, Mr. Hartwell must leave \"right after lunch\". The schedule puts lunch at 12:30 P.M., and the only session afterward is Session 4, \"Spotting Fraud Warning Signs\", at 1:30 P.M.",
               "distractors": {
                 "A": "Session 1 takes place at 9:15 A.M., before he leaves.",
                 "B": "Session 2, at 10:30 A.M., is before lunch; it is even the one he cares about most.",
@@ -595,7 +595,7 @@
             "cross-reference"
           ],
           "difficulty": 1,
-          "stem": "Who will lead the session that Mr. Wren is most interested in?",
+          "stem": "Who will lead the session that Mr. Hartwell is most interested in?",
           "options": [
             "Yuki Hamasaki",
             "Gareth Mbeki",
@@ -609,7 +609,7 @@
           ],
           "explanation": {
             "fr": {
-              "rule": "L'e-mail dit que M. Wren s'intéresse surtout à « the session on the new digital forms ». Dans le programme, la session 2, « New Digital Claim Forms », est animée par Yuki Hamasaki.",
+              "rule": "L'e-mail dit que M. Hartwell s'intéresse surtout à « the session on the new digital forms ». Dans le programme, la session 2, « New Digital Claim Forms », est animée par Yuki Hamasaki.",
               "distractors": {
                 "B": "Gareth Mbeki anime les sessions 1 (tempêtes) et 4 (fraude).",
                 "C": "Delphine Arnaud anime la session 3, sur la relation avec les clients.",
@@ -618,7 +618,7 @@
               "trap": "L'e-mail donne le sujet, le programme donne le nom : retrouve le titre dans la liste, puis lis le nom à côté."
             },
             "en": {
-              "rule": "The e-mail says Mr. Wren is especially interested in \"the session on the new digital forms\". In the schedule, Session 2, \"New Digital Claim Forms\", is led by Yuki Hamasaki.",
+              "rule": "The e-mail says Mr. Hartwell is especially interested in \"the session on the new digital forms\". In the schedule, Session 2, \"New Digital Claim Forms\", is led by Yuki Hamasaki.",
               "distractors": {
                 "B": "Gareth Mbeki leads Sessions 1 (storms) and 4 (fraud).",
                 "C": "Delphine Arnaud leads Session 3, on talking with customers.",
