@@ -149,7 +149,8 @@ fun TrainingScreen(
 
 private fun continueLabel(state: TrainingUiState) = when {
     state.isLastOfSession -> "Voir le bilan"
-    !state.isLastQuestionOfUnit -> "Question suivante"
+    // « Question suivante » passait sur deux lignes à côté de « Voir la fiche » sur 384 dp.
+    !state.isLastQuestionOfUnit -> "Suivante"
     else -> "Continuer"
 }
 
