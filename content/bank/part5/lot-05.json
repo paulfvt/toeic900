@@ -1053,32 +1053,32 @@
         "collocations"
       ],
       "difficulty": 2,
-      "stem": "The new store is expected to ------- even by the end of its second year, according to the finance department's forecast.",
+      "stem": "The new store is expected to ------- a profit by the end of its second year, according to the finance department's forecast.",
       "options": [
-        "make",
-        "reach",
-        "get",
-        "break"
+        "do",
+        "take",
+        "hold",
+        "turn"
       ],
       "answer": "D",
       "explanation": {
         "fr": {
-          "rule": "« break even » est une expression figée : atteindre l'équilibre entre recettes et dépenses.",
+          "rule": "« turn a profit » est une collocation figée : devenir rentable, dégager un bénéfice (comme « make a profit »).",
           "distractors": {
-            "A": "« make even » n'existe pas dans ce sens.",
-            "B": "« reach even » n'est pas une expression anglaise.",
-            "C": "« get even » existe, mais veut dire « se venger » : cela ne convient pas à un magasin."
+            "A": "« do a profit » n'existe pas : « do » s'associe à une tâche (« do business »), pas à un bénéfice.",
+            "B": "« take a profit » ne s'emploie qu'en Bourse (encaisser un gain) : il ne décrit pas un magasin qui devient rentable.",
+            "C": "« hold » s'associe à une réunion ou un poste (« hold a meeting »), jamais à « a profit »."
           },
-          "trap": "Apprends les expressions entières : break even, reach a goal, meet a deadline."
+          "trap": "Bénéfice : « make » ou « turn a profit » ; « do » et « hold » ne vont jamais avec « profit »."
         },
         "en": {
-          "rule": "\"break even\" is a fixed phrase: to reach the point where income equals costs.",
+          "rule": "\"turn a profit\" is a fixed collocation: to become profitable (like \"make a profit\").",
           "distractors": {
-            "A": "\"make even\" does not exist in this sense.",
-            "B": "\"reach even\" is not an English phrase.",
-            "C": "\"get even\" exists, but means \"take revenge\": it does not suit a store."
+            "A": "\"do a profit\" does not exist: \"do\" goes with a task (\"do business\"), not with a profit.",
+            "B": "\"take a profit\" is only used in trading (to cash in a gain): it does not describe a store becoming profitable.",
+            "C": "\"hold\" goes with a meeting or a position (\"hold a meeting\"), never with \"a profit\"."
           },
-          "trap": "Learn whole phrases: break even, reach a goal, meet a deadline."
+          "trap": "Profit: \"make\" or \"turn a profit\"; \"do\" and \"hold\" never go with \"profit\"."
         }
       }
     }

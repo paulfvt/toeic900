@@ -804,7 +804,7 @@
       "stem": "The fire extinguishers in the Leeds warehouse are inspected ------- six months by an outside safety contractor.",
       "options": [
         "all",
-        "some",
+        "much",
         "across",
         "every"
       ],
@@ -813,8 +813,8 @@
         "fr": {
           "rule": "« every + nombre + pluriel » exprime une fréquence : « every six months » (tous les six mois).",
           "distractors": {
-            "A": "« all six months » n'exprime pas une fréquence : « all » demande « all the six months » et signifie « pendant toute la durée ».",
-            "B": "« some six months » veut dire « environ six mois » : il ne marque pas une fréquence d'inspection.",
+            "A": "« all six months » désigne la totalité d'une période (« pendant les six mois entiers »), pas un rythme qui se répète.",
+            "B": "« much » se construit avec un nom indénombrable au singulier (« much time ») : impossible devant « six months ».",
             "C": "« across six months » veut dire « pendant six mois » : ce n'est pas un rythme régulier."
           },
           "trap": "« every + nombre + nom pluriel » = fréquence (every three days, every six months)."
@@ -822,8 +822,8 @@
         "en": {
           "rule": "\"every + number + plural noun\" expresses frequency: \"every six months\".",
           "distractors": {
-            "A": "\"all six months\" does not express frequency: \"all\" would need \"all the six months\" and means \"throughout\".",
-            "B": "\"some six months\" means \"about six months\": it does not give an inspection rhythm.",
+            "A": "\"all six months\" refers to a whole period (\"during the entire six months\"), not a repeated rhythm.",
+            "B": "\"much\" goes with a singular uncountable noun (\"much time\"): it cannot come before \"six months\".",
             "C": "\"across six months\" means \"over a period of six months\": it is not a regular interval."
           },
           "trap": "\"every + number + plural noun\" = frequency (every three days, every six months)."
