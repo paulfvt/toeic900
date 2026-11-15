@@ -82,7 +82,18 @@ Après corrections : `python content/tools/build.py`, tests Python et Kotlin, un
 - Deux lots sont écrits et valides mais **non relus et hors banque** : `content/drafts/part5/lot-05.json` (p5-0121 à 0150) et `lot-06.json` (p5-0151 à 0180). Doutes des rédacteurs : `p5-0141`, `0147`, `0148`, `0150`, `0167`, `0173` (« some six months » est de l'anglais correct : probablement à refaire), `0179`.
 - Après relecture, les déplacer dans `content/bank/part5/`.
 - Restent les lots 07 à 10 (p5-0181 à 0300). Les plans imposés sont dans `content/drafts/part5/plan-lot-NN.md` (tag, difficulté, lettre). Leur liste « options déjà utilisées » ne connaît que les 120 premières questions : relancer `p5_plan.py` après avoir intégré les lots 05 et 06, ou donner ces deux lots à lire aux rédacteurs.
-- Volumes visés ensuite, si le quota le permet : 25 textes Part 6 (8 faits), 50 jeux Part 7 (12 faits).
+
+### F bis. Parts 6 et 7 : aller au bout des volumes
+
+**Décision de l'auteur (15/11/2026) : la phase va jusqu'au bout du contenu**, soit 300 questions Part 5, 25 textes Part 6 (8 faits, 17 à écrire) et 50 jeux Part 7 (12 faits, 38 à écrire). Elle ne s'arrête pas à « app vérifiée ».
+
+- L'ordre ne change pas : A à E d'abord (une app qui tourne et un premier lot relu), puis le contenu lot par lot. Chaque lot est validé, relu et commité seul ; si le quota tombe, la session suivante reprend au lot suivant.
+- Taille des lots : 4 à 5 textes Part 6, 5 à 6 jeux Part 7 (3 quand ce sont des documents multiples), 30 questions Part 5.
+- Avant chaque lot, écrire un plan imposé comme pour le premier : identifiant, genre, sujet suggéré, puis tag, difficulté et lettre de la bonne réponse par question. Viser 25 % par lettre, et environ 25 / 50 / 25 % pour les difficultés 1 / 2 / 3.
+- Tags à renforcer en Part 7, aujourd'hui trop rares pour varier les révisions : `writer-intention` (2 jeux, donc davantage de `chat`), `synonym-in-context` (3), `sentence-insertion` (1), `not-true` (5). En Part 6, répartir les tags de grammaire pour que chacun apparaisse dans au moins 3 textes.
+- Proportion visée en Part 7 : environ deux tiers de documents seuls, un tiers de jeux de 2 ou 3 documents.
+- Identifiants : continuer à `p6-0009` et `p7-0013`, sans jamais renuméroter. Varier genres, secteurs et noms : donner à chaque rédacteur la liste des sujets déjà traités.
+- Quand les volumes montent, augmenter le nombre d'exercices des étapes du chemin (`content/lessons/path.json`) si cela a du sens, sans changer les identifiants d'étape.
 
 ### G. Documentation et bilan
 
