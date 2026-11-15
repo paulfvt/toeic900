@@ -1,0 +1,1086 @@
+{
+  "part": 5,
+  "pool": "training",
+  "questions": [
+    {
+      "id": "p5-0271",
+      "part": 5,
+      "tags": [
+        "word-form-adjective"
+      ],
+      "difficulty": 2,
+      "stem": "After two dry summers, the Tarrant Valley cooperative adopted a genuinely ------- approach to water use across its orchards.",
+      "options": [
+        "sustainable",
+        "sustain",
+        "sustainability",
+        "sustainably"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "Le trou est entre l'article « a », l'adverbe « genuinely » et le nom « approach » : il faut un adjectif, « sustainable » (durable).",
+          "distractors": {
+            "B": "« sustain » est un verbe : il ne peut pas qualifier le nom « approach ».",
+            "C": "« sustainability » est un nom (la durabilité) : il ne peut pas suivre un adverbe comme « genuinely » pour qualifier « approach ».",
+            "D": "« sustainably » est un adverbe : il modifierait un verbe ou un adjectif, pas le nom « approach »."
+          },
+          "trap": "Article + adverbe + trou + nom : l'adverbe ne remplace pas l'adjectif, il le précède."
+        },
+        "en": {
+          "rule": "The blank sits between the article \"a\", the adverb \"genuinely\" and the noun \"approach\": you need an adjective, \"sustainable\".",
+          "distractors": {
+            "B": "\"sustain\" is a verb: it cannot describe the noun \"approach\".",
+            "C": "\"sustainability\" is a noun: it cannot follow an adverb such as \"genuinely\" to describe \"approach\".",
+            "D": "\"sustainably\" is an adverb: it would modify a verb or an adjective, not the noun \"approach\"."
+          },
+          "trap": "Article + adverb + blank + noun: the adverb does not replace the adjective, it comes before it."
+        }
+      }
+    },
+    {
+      "id": "p5-0272",
+      "part": 5,
+      "tags": [
+        "word-form-adjective"
+      ],
+      "difficulty": 1,
+      "stem": "Tilbury's new hiking jackets are lightweight, waterproof, and -------, so customers rarely need to replace them.",
+      "options": [
+        "durability",
+        "durably",
+        "durables",
+        "durable"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "Après « are » et deux adjectifs coordonnés (« lightweight, waterproof, and »), le trou est un adjectif de la même liste : « durable » (résistant).",
+          "distractors": {
+            "A": "« durability » est un nom (la résistance) : il ne peut pas suivre « are lightweight, waterproof, and ».",
+            "B": "« durably » est un adverbe : il ne peut pas décrire « jackets » ni s'ajouter à une liste d'adjectifs.",
+            "C": "« durables » est un nom pluriel (biens durables) : « jackets are durables » n'a pas de sens ici."
+          },
+          "trap": "Dans une liste d'adjectifs, le dernier élément est un adjectif aussi."
+        },
+        "en": {
+          "rule": "After \"are\" and two coordinated adjectives (\"lightweight, waterproof, and\"), the blank must be another adjective in the list: \"durable\".",
+          "distractors": {
+            "A": "\"durability\" is a noun: it cannot follow \"are lightweight, waterproof, and\".",
+            "B": "\"durably\" is an adverb: it cannot describe \"jackets\" or join a list of adjectives.",
+            "C": "\"durables\" is a plural noun (durable goods): \"jackets are durables\" makes no sense here."
+          },
+          "trap": "In a list of adjectives, the last item is an adjective too."
+        }
+      }
+    },
+    {
+      "id": "p5-0273",
+      "part": 5,
+      "tags": [
+        "word-form-adjective"
+      ],
+      "difficulty": 2,
+      "stem": "Mr. Adeyemi gave a remarkably ------- presentation that convinced the board to fund a second distribution depot.",
+      "options": [
+        "persuasive",
+        "persuasion",
+        "persuade",
+        "persuasively"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "Entre « a remarkably » et le nom « presentation », il faut un adjectif : « persuasive » (convaincant), renforcé par l'adverbe.",
+          "distractors": {
+            "B": "« persuasion » est un nom : « a remarkably persuasion presentation » est impossible, un adverbe ne modifie pas un nom.",
+            "C": "« persuade » est un verbe : il ne peut pas se placer avant le nom « presentation ».",
+            "D": "« persuasively » est un adverbe : deux adverbes de suite (« remarkably persuasively ») ne qualifient pas le nom « presentation »."
+          },
+          "trap": "Adverbe + trou + nom : cherche l'adjectif, l'adverbe sert seulement à le renforcer."
+        },
+        "en": {
+          "rule": "Between \"a remarkably\" and the noun \"presentation\" you need an adjective: \"persuasive\", strengthened by the adverb.",
+          "distractors": {
+            "B": "\"persuasion\" is a noun: \"a remarkably persuasion presentation\" is impossible, since an adverb cannot modify a noun.",
+            "C": "\"persuade\" is a verb: it cannot stand before the noun \"presentation\".",
+            "D": "\"persuasively\" is an adverb: two adverbs in a row (\"remarkably persuasively\") cannot describe the noun \"presentation\"."
+          },
+          "trap": "Adverb + blank + noun: look for the adjective; the adverb only strengthens it."
+        }
+      }
+    },
+    {
+      "id": "p5-0274",
+      "part": 5,
+      "tags": [
+        "word-form-adjective"
+      ],
+      "difficulty": 2,
+      "stem": "Candidates for the field technician role should be ------- to new tools, since the company upgrades its equipment every year.",
+      "options": [
+        "adapt",
+        "adaptable",
+        "adaptation",
+        "adaptably"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "Après « should be », il faut un adjectif attribut du sujet « candidates » : « adaptable to » (capable de s'adapter à).",
+          "distractors": {
+            "A": "« adapt » est un verbe : « should be adapt » est incorrect (il faudrait « adapted », ou « adapt » sans « be »).",
+            "C": "« adaptation » est un nom (l'adaptation) : des candidats ne peuvent pas « être une adaptation ».",
+            "D": "« adaptably » est un adverbe : il ne peut pas suivre « be » pour décrire les candidats."
+          },
+          "trap": "« be » + trou + « to » : un adjectif (adaptable, accustomed, sensitive…), pas un nom ni un adverbe."
+        },
+        "en": {
+          "rule": "After \"should be\" you need an adjective describing the subject \"candidates\": \"adaptable to\" (able to adjust to).",
+          "distractors": {
+            "A": "\"adapt\" is a verb: \"should be adapt\" is incorrect (you would need \"adapted\", or \"adapt\" without \"be\").",
+            "C": "\"adaptation\" is a noun: candidates cannot \"be an adaptation\".",
+            "D": "\"adaptably\" is an adverb: it cannot follow \"be\" to describe the candidates."
+          },
+          "trap": "\"be\" + blank + \"to\": an adjective (adaptable, accustomed, sensitive...), not a noun or an adverb."
+        }
+      }
+    },
+    {
+      "id": "p5-0275",
+      "part": 5,
+      "tags": [
+        "comparatives-superlatives"
+      ],
+      "difficulty": 1,
+      "stem": "The new Bremer depot is ------- to the port than the old warehouse was, so trucks spend less time idling in traffic.",
+      "options": [
+        "close",
+        "closely",
+        "closeness",
+        "closer"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "Le mot « than » après le trou annonce un comparatif : « closer to the port than » (plus proche du port que).",
+          "distractors": {
+            "A": "« close » est la forme de base : sans « more » ni -er, elle ne s'accorde pas avec « than ».",
+            "B": "« closely » est un adverbe (de près) : il ne se construit pas avec « is … to the port ».",
+            "C": "« closeness » est un nom (la proximité) : « is closeness to the port than » est impossible."
+          },
+          "trap": "« than » signale un comparatif : cherche la forme en -er ou « more »."
+        },
+        "en": {
+          "rule": "The word \"than\" after the blank signals a comparative: \"closer to the port than\".",
+          "distractors": {
+            "A": "\"close\" is the base form: without \"more\" or -er it cannot go with \"than\".",
+            "B": "\"closely\" is an adverb: it does not fit \"is ... to the port\".",
+            "C": "\"closeness\" is a noun: \"is closeness to the port than\" is impossible."
+          },
+          "trap": "\"than\" signals a comparative: look for the -er form or \"more\"."
+        }
+      }
+    },
+    {
+      "id": "p5-0276",
+      "part": 5,
+      "tags": [
+        "comparatives-superlatives"
+      ],
+      "difficulty": 3,
+      "stem": "Of all the applicants for the regional manager post, Ms. Dlamini, who spent a decade working in three countries, is the ------- qualified.",
+      "options": [
+        "more",
+        "much",
+        "very",
+        "most"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "« Of all the applicants » compare une personne à tout un groupe : il faut un superlatif, « the most qualified ». Une incise sépare l'indice du trou.",
+          "distractors": {
+            "A": "« more » donne un comparatif, qui oppose deux éléments avec « than » ; ici on compare à « all the applicants ».",
+            "B": "« much » ne se place pas devant un adjectif après « the » : « the much qualified » n'existe pas.",
+            "C": "« very » intensifie un adjectif mais « the very qualified » n'exprime pas un classement parmi un groupe."
+          },
+          "trap": "« of all … » ou « in the … » annonce un superlatif, même si une incise éloigne l'indice du trou."
+        },
+        "en": {
+          "rule": "\"Of all the applicants\" compares one person with a whole group, so you need a superlative: \"the most qualified\". A side phrase separates the clue from the blank.",
+          "distractors": {
+            "A": "\"more\" makes a comparative, which compares two things with \"than\"; here the comparison is with \"all the applicants\".",
+            "B": "\"much\" cannot stand before an adjective after \"the\": \"the much qualified\" does not exist.",
+            "C": "\"very\" intensifies an adjective, but \"the very qualified\" does not rank someone within a group."
+          },
+          "trap": "\"of all...\" or \"in the...\" signals a superlative, even when a side phrase separates the clue from the blank."
+        }
+      }
+    },
+    {
+      "id": "p5-0277",
+      "part": 5,
+      "tags": [
+        "comparatives-superlatives"
+      ],
+      "difficulty": 2,
+      "stem": "The renovated terminal handles baggage ------- efficiently than the old one did, according to the airport authority's latest report.",
+      "options": [
+        "so",
+        "as",
+        "more",
+        "most"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "L'adverbe « efficiently » est suivi de « than » : il faut « more » pour former le comparatif, « more efficiently than ».",
+          "distractors": {
+            "A": "« so efficiently than » est impossible : « so » s'utilise avec « that » (« so efficiently that »).",
+            "B": "« as efficiently » demande « as » après (« as efficiently as »), pas « than ».",
+            "D": "« most efficiently » est un superlatif : il ne se construit pas avec « than »."
+          },
+          "trap": "« than » après un adverbe ou un adjectif long → « more … than ». « as … as » ne se mélange pas avec « than »."
+        },
+        "en": {
+          "rule": "The adverb \"efficiently\" is followed by \"than\", so you need \"more\" to form the comparative: \"more efficiently than\".",
+          "distractors": {
+            "A": "\"so efficiently than\" is impossible: \"so\" goes with \"that\" (\"so efficiently that\").",
+            "B": "\"as efficiently\" needs \"as\" afterward (\"as efficiently as\"), not \"than\".",
+            "D": "\"most efficiently\" is a superlative: it is not used with \"than\"."
+          },
+          "trap": "\"than\" after a long adjective or an adverb means \"more ... than\"; \"as ... as\" never mixes with \"than\"."
+        }
+      }
+    },
+    {
+      "id": "p5-0278",
+      "part": 5,
+      "tags": [
+        "subject-verb-agreement"
+      ],
+      "difficulty": 2,
+      "stem": "The cost of repairing the three conveyor belts, including labor and replacement parts, ------- the maintenance budget for the entire year.",
+      "options": [
+        "exceeds",
+        "exceed",
+        "are exceeding",
+        "have exceeded"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "Le sujet est « The cost » (singulier). « of repairing… » et « including labor and replacement parts » ne changent pas le noyau : verbe au singulier, « exceeds ».",
+          "distractors": {
+            "B": "« exceed » est la forme du pluriel : elle s'accorderait avec « costs », pas avec « the cost ».",
+            "C": "« are exceeding » est au pluriel : « parts » est tout près du verbe, mais ce n'est pas le sujet.",
+            "D": "« have exceeded » est au pluriel : le sujet « the cost » appelle « has exceeded »."
+          },
+          "trap": "Cherche le nom noyau du sujet, pas le nom qui est juste avant le verbe."
+        },
+        "en": {
+          "rule": "The subject is \"The cost\" (singular). \"of repairing...\" and \"including labor and replacement parts\" do not change it, so the verb is singular: \"exceeds\".",
+          "distractors": {
+            "B": "\"exceed\" is the plural form: it would agree with \"costs\", not \"the cost\".",
+            "C": "\"are exceeding\" is plural: \"parts\" is close to the verb, but it is not the subject.",
+            "D": "\"have exceeded\" is plural: the subject \"the cost\" needs \"has exceeded\"."
+          },
+          "trap": "Find the head noun of the subject, not the noun just before the verb."
+        }
+      }
+    },
+    {
+      "id": "p5-0279",
+      "part": 5,
+      "tags": [
+        "subject-verb-agreement"
+      ],
+      "difficulty": 2,
+      "stem": "Applicants who ------- all three required documents by Friday will be interviewed before the other candidates.",
+      "options": [
+        "submits",
+        "is submitting",
+        "has submitted",
+        "submit"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "Le verbe de la proposition relative s'accorde avec « Applicants » (pluriel) : « who submit ».",
+          "distractors": {
+            "A": "« submits » est au singulier (3e personne) : il ne s'accorde pas avec « applicants ».",
+            "B": "« is submitting » est au singulier : « who » reprend « applicants », pluriel.",
+            "C": "« has submitted » est au singulier aussi : le pluriel demanderait « have submitted »."
+          },
+          "trap": "Le verbe d'une relative en « who » s'accorde avec le nom que « who » remplace."
+        },
+        "en": {
+          "rule": "The verb in the relative clause agrees with \"Applicants\" (plural): \"who submit\".",
+          "distractors": {
+            "A": "\"submits\" is singular (third person): it does not agree with \"applicants\".",
+            "B": "\"is submitting\" is singular: \"who\" refers back to \"applicants\", which is plural.",
+            "C": "\"has submitted\" is singular too: the plural would need \"have submitted\"."
+          },
+          "trap": "The verb after \"who\" agrees with the noun that \"who\" stands for."
+        }
+      }
+    },
+    {
+      "id": "p5-0280",
+      "part": 5,
+      "tags": [
+        "subject-verb-agreement"
+      ],
+      "difficulty": 3,
+      "stem": "The reliability of the sensors installed along the three assembly lines, which were replaced last year, ------- essential to the plant's safety record.",
+      "options": [
+        "remain",
+        "are remaining",
+        "remains",
+        "have remained"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "Le sujet est « The reliability » (singulier). Entre lui et le verbe se trouvent des pluriels qui piègent (« sensors », « assembly lines ») : « remains ».",
+          "distractors": {
+            "A": "« remain » est un pluriel : il s'accorderait avec « sensors », qui n'est pas le sujet.",
+            "B": "« are remaining » est un pluriel, et le sens (« rester essentiel ») demande une forme simple, pas le progressif.",
+            "D": "« have remained » est un pluriel : le sujet « reliability » appelle « has remained »."
+          },
+          "trap": "Les noms pluriels à l'intérieur d'une incise ou d'un complément ne changent pas l'accord du sujet."
+        },
+        "en": {
+          "rule": "The subject is \"The reliability\" (singular). Between it and the verb sit plural nouns (\"sensors\", \"assembly lines\") that act as traps: \"remains\".",
+          "distractors": {
+            "A": "\"remain\" is plural: it would agree with \"sensors\", which is not the subject.",
+            "B": "\"are remaining\" is plural, and the meaning (\"stay essential\") calls for a simple form, not the progressive.",
+            "D": "\"have remained\" is plural: the subject \"reliability\" needs \"has remained\"."
+          },
+          "trap": "Plural nouns inside a phrase after the subject do not change the agreement."
+        }
+      }
+    },
+    {
+      "id": "p5-0281",
+      "part": 5,
+      "tags": [
+        "subject-verb-agreement"
+      ],
+      "difficulty": 1,
+      "stem": "The new scheduling software ------- not support older tablet models, so some drivers must keep using paper logs.",
+      "options": [
+        "do",
+        "does",
+        "are",
+        "have"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "« software » est singulier (nom indénombrable) : la négation au présent prend « does not support ».",
+          "distractors": {
+            "A": "« do not support » s'utilise avec un sujet pluriel ou « I / you / we / they » ; « software » est singulier.",
+            "C": "« are not support » mélange « be » et un verbe à la base : forme impossible.",
+            "D": "« have not support » est incorrect : « have » demande un participe (« have not supported »)."
+          },
+          "trap": "Négation au présent : « does not » pour he / she / it et les indénombrables, « do not » pour les pluriels."
+        },
+        "en": {
+          "rule": "\"software\" is singular (an uncountable noun): the present negative takes \"does not support\".",
+          "distractors": {
+            "A": "\"do not support\" goes with a plural subject or I / you / we / they; \"software\" is singular.",
+            "C": "\"are not support\" mixes \"be\" with a base verb: an impossible form.",
+            "D": "\"have not support\" is incorrect: \"have\" needs a participle (\"have not supported\")."
+          },
+          "trap": "Present negative: \"does not\" for he / she / it and uncountable nouns, \"do not\" for plurals."
+        }
+      }
+    },
+    {
+      "id": "p5-0282",
+      "part": 5,
+      "tags": [
+        "gerund-infinitive"
+      ],
+      "difficulty": 2,
+      "stem": "To accommodate the holiday rush, Brightline Telecom is considering ------- its call center hours until 10 p.m. in December.",
+      "options": [
+        "extending",
+        "to extend",
+        "extend",
+        "extended"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "« consider » est suivi d'un gérondif : « is considering extending ».",
+          "distractors": {
+            "B": "« to extend » : « consider » ne se construit pas avec un infinitif.",
+            "C": "« extend » à la base verbale ne peut pas suivre « is considering ».",
+            "D": "« extended » est un participe passé : « considering extended its hours » n'est pas grammatical."
+          },
+          "trap": "consider, avoid, suggest, postpone, enjoy… + -ing (jamais « to »)."
+        },
+        "en": {
+          "rule": "\"consider\" is followed by a gerund: \"is considering extending\".",
+          "distractors": {
+            "B": "\"to extend\": \"consider\" is not followed by an infinitive.",
+            "C": "\"extend\" in the base form cannot follow \"is considering\".",
+            "D": "\"extended\" is a past participle: \"considering extended its hours\" is not grammatical."
+          },
+          "trap": "consider, avoid, suggest, postpone, enjoy... + -ing (never \"to\")."
+        }
+      }
+    },
+    {
+      "id": "p5-0283",
+      "part": 5,
+      "tags": [
+        "gerund-infinitive"
+      ],
+      "difficulty": 3,
+      "stem": "Mr. Ibarra, who spent six months negotiating the terms, is looking forward to finally ------- the contract at Friday's ceremony.",
+      "options": [
+        "sign",
+        "to sign",
+        "signing",
+        "signed"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "Dans « look forward to », « to » est une préposition : elle est suivie d'un -ing, « looking forward to signing ». L'adverbe « finally » éloigne le verbe de « to ».",
+          "distractors": {
+            "A": "« sign » à la base verbale ne suit pas la préposition « to » de « look forward to ».",
+            "B": "« to sign » ferait « to to sign » : ici « to » appartient déjà à l'expression.",
+            "D": "« signed » est un participe passé : « looking forward to finally signed » est impossible."
+          },
+          "trap": "look forward to, be used to, object to + -ing : ce « to » est une préposition."
+        },
+        "en": {
+          "rule": "In \"look forward to\", \"to\" is a preposition, so it is followed by an -ing form: \"looking forward to signing\". The adverb \"finally\" separates the verb from \"to\".",
+          "distractors": {
+            "A": "\"sign\" in the base form does not follow the preposition \"to\" in \"look forward to\".",
+            "B": "\"to sign\" would give \"to to sign\": the \"to\" already belongs to the expression.",
+            "D": "\"signed\" is a past participle: \"looking forward to finally signed\" is impossible."
+          },
+          "trap": "look forward to, be used to, object to + -ing: this \"to\" is a preposition."
+        }
+      }
+    },
+    {
+      "id": "p5-0284",
+      "part": 5,
+      "tags": [
+        "gerund-infinitive"
+      ],
+      "difficulty": 2,
+      "stem": "After comparing quotes from five printers, Oakhaven Press decided ------- the brochure contract to the lowest bidder.",
+      "options": [
+        "awarding",
+        "to award",
+        "award",
+        "awarded"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "« decide » est suivi d'un infinitif avec « to » : « decided to award ».",
+          "distractors": {
+            "A": "« awarding » : « decide » ne se construit pas avec un gérondif.",
+            "C": "« award » à la base verbale ne peut pas suivre « decided » sans « to ».",
+            "D": "« awarded » est un passé : « decided awarded » n'est pas grammatical."
+          },
+          "trap": "decide, plan, agree, refuse, hope + to + base verbale."
+        },
+        "en": {
+          "rule": "\"decide\" is followed by an infinitive with \"to\": \"decided to award\".",
+          "distractors": {
+            "A": "\"awarding\": \"decide\" is not followed by a gerund.",
+            "C": "\"award\" in the base form cannot follow \"decided\" without \"to\".",
+            "D": "\"awarded\" is a past form: \"decided awarded\" is not grammatical."
+          },
+          "trap": "decide, plan, agree, refuse, hope + to + base verb."
+        }
+      }
+    },
+    {
+      "id": "p5-0285",
+      "part": 5,
+      "tags": [
+        "gerund-infinitive"
+      ],
+      "difficulty": 2,
+      "stem": "Visitors to the laboratory are required ------- protective goggles at all times, even when they are only passing through.",
+      "options": [
+        "wear",
+        "wearing",
+        "to wear",
+        "worn"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "« be required » est suivi d'un infinitif avec « to » : « are required to wear ».",
+          "distractors": {
+            "A": "« wear » à la base verbale ne peut pas suivre « are required » sans « to ».",
+            "B": "« wearing » : « required » ne se construit pas avec un gérondif.",
+            "D": "« worn » est un participe passé : « are required worn » n'est pas grammatical."
+          },
+          "trap": "be required / be asked / be allowed / be expected + to + verbe."
+        },
+        "en": {
+          "rule": "\"be required\" is followed by an infinitive with \"to\": \"are required to wear\".",
+          "distractors": {
+            "A": "\"wear\" in the base form cannot follow \"are required\" without \"to\".",
+            "B": "\"wearing\": \"required\" is not followed by a gerund.",
+            "D": "\"worn\" is a past participle: \"are required worn\" is not grammatical."
+          },
+          "trap": "be required / be asked / be allowed / be expected + to + verb."
+        }
+      }
+    },
+    {
+      "id": "p5-0286",
+      "part": 5,
+      "tags": [
+        "pronouns"
+      ],
+      "difficulty": 2,
+      "stem": "The interns reorganized the archive ------- over two weekends, with no help from the permanent staff.",
+      "options": [
+        "theirs",
+        "themselves",
+        "their own",
+        "they"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "Le sujet « The interns » a fait l'action seul : on ajoute un pronom réfléchi d'insistance, « themselves » (eux-mêmes).",
+          "distractors": {
+            "A": "« theirs » est un pronom possessif (le leur) : il n'a pas de nom à remplacer ici.",
+            "C": "« their own » est un adjectif possessif renforcé : il doit être suivi d'un nom (« their own method »).",
+            "D": "« they » est un pronom sujet : le sujet « the interns » est déjà exprimé."
+          },
+          "trap": "Pronom réfléchi (-self / -selves) = « lui-même » : le même sujet fait l'action sans aide."
+        },
+        "en": {
+          "rule": "The subject \"The interns\" did the work alone, so you add an emphatic reflexive pronoun: \"themselves\".",
+          "distractors": {
+            "A": "\"theirs\" is a possessive pronoun (belonging to them): there is no noun for it to replace here.",
+            "C": "\"their own\" is an emphatic possessive: it must be followed by a noun (\"their own method\").",
+            "D": "\"they\" is a subject pronoun: the subject \"the interns\" is already there."
+          },
+          "trap": "A reflexive pronoun (-self / -selves) means \"by the subject alone\"."
+        }
+      }
+    },
+    {
+      "id": "p5-0287",
+      "part": 5,
+      "tags": [
+        "pronouns"
+      ],
+      "difficulty": 2,
+      "stem": "Both firms ordered the same crates; ours arrived on time, but ------- was delayed at the border for three days.",
+      "options": [
+        "they're",
+        "them",
+        "theirs",
+        "their"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "Le trou est le sujet de « was delayed » et reprend « their shipment » : il faut un pronom possessif, « theirs » (le leur), comme « ours » dans la première partie.",
+          "distractors": {
+            "A": "« they're » signifie « they are » : « they're was delayed » est impossible.",
+            "B": "« them » est un pronom complément : il ne peut pas être sujet.",
+            "D": "« their » est un adjectif possessif : il doit être suivi d'un nom, ce qui n'est pas le cas."
+          },
+          "trap": "Pronom possessif (mine, ours, theirs) = adjectif possessif + nom déjà cité, sans nom derrière."
+        },
+        "en": {
+          "rule": "The blank is the subject of \"was delayed\" and stands for \"their shipment\": you need a possessive pronoun, \"theirs\", like \"ours\" in the first clause.",
+          "distractors": {
+            "A": "\"they're\" means \"they are\": \"they're was delayed\" is impossible.",
+            "B": "\"them\" is an object pronoun: it cannot be a subject.",
+            "D": "\"their\" is a possessive adjective: it must be followed by a noun, and there is none."
+          },
+          "trap": "A possessive pronoun (mine, ours, theirs) replaces possessive adjective + noun already mentioned."
+        }
+      }
+    },
+    {
+      "id": "p5-0288",
+      "part": 5,
+      "tags": [
+        "pronouns"
+      ],
+      "difficulty": 2,
+      "stem": "The trainers will hand out certificates to ------- who complete all five modules by the end of the month.",
+      "options": [
+        "it",
+        "those",
+        "anyone",
+        "each"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "« those who » (ceux qui) introduit un groupe de personnes ; le verbe « complete » est au pluriel, comme « those ».",
+          "distractors": {
+            "A": "« it » désigne une chose ou un animal, et n'est pas suivi de « who » ici.",
+            "C": "« anyone » est singulier : il demanderait « anyone who completes ».",
+            "D": "« each » est singulier : il demanderait « each who completes », et ne s'emploie pas ainsi sans « of »."
+          },
+          "trap": "« those who » + verbe pluriel ; « anyone who » + verbe singulier."
+        },
+        "en": {
+          "rule": "\"those who\" introduces a group of people, and the verb \"complete\" is plural, like \"those\".",
+          "distractors": {
+            "A": "\"it\" refers to a thing or an animal and is not followed by \"who\" here.",
+            "C": "\"anyone\" is singular: it would need \"anyone who completes\".",
+            "D": "\"each\" is singular: it would need \"each who completes\", and it is not used this way without \"of\"."
+          },
+          "trap": "\"those who\" + plural verb; \"anyone who\" + singular verb."
+        }
+      }
+    },
+    {
+      "id": "p5-0289",
+      "part": 5,
+      "tags": [
+        "quantifiers-determiners"
+      ],
+      "difficulty": 1,
+      "stem": "There is very ------- time left to submit the grant application, so the team is working through the night.",
+      "options": [
+        "few",
+        "many",
+        "several",
+        "little"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "« time » est indénombrable, et « very » + quantifieur donne un sens négatif (presque pas de temps) : « very little time ».",
+          "distractors": {
+            "A": "« few » s'emploie avec un nom dénombrable pluriel (« few days »), pas avec « time ».",
+            "B": "« many » s'emploie avec un nom dénombrable pluriel ; le sens serait de plus contraire.",
+            "C": "« several » s'emploie avec un nom dénombrable pluriel (« several days »)."
+          },
+          "trap": "Indénombrable → little / much ; dénombrable pluriel → few / many / several."
+        },
+        "en": {
+          "rule": "\"time\" is uncountable, and \"very\" + a quantifier gives a negative meaning (almost no time): \"very little time\".",
+          "distractors": {
+            "A": "\"few\" goes with plural countable nouns (\"few days\"), not with \"time\".",
+            "B": "\"many\" goes with plural countable nouns, and the meaning would also be wrong.",
+            "C": "\"several\" goes with plural countable nouns (\"several days\")."
+          },
+          "trap": "Uncountable: little / much; plural countable: few / many / several."
+        }
+      }
+    },
+    {
+      "id": "p5-0290",
+      "part": 5,
+      "tags": [
+        "quantifiers-determiners"
+      ],
+      "difficulty": 1,
+      "stem": "The conference center has two auditoriums, and ------- one can seat more than 400 guests.",
+      "options": [
+        "each",
+        "both",
+        "all",
+        "many"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "Le trou précède « one », singulier : « each one » (chacun des deux) convient.",
+          "distractors": {
+            "B": "« both » s'utilise sans « one » : « both can seat », pas « both one ».",
+            "C": "« all » ne se combine pas avec « one » ainsi : « all one » n'a pas ce sens ici.",
+            "D": "« many » demande un pluriel : « many one » est impossible."
+          },
+          "trap": "each + one / nom singulier ; both + nom pluriel, ou seul comme pronom."
+        },
+        "en": {
+          "rule": "The blank comes before the singular \"one\": \"each one\" (every single one of the two) fits.",
+          "distractors": {
+            "B": "\"both\" is used without \"one\": \"both can seat\", not \"both one\".",
+            "C": "\"all\" does not combine with \"one\" this way: \"all one\" does not have this meaning.",
+            "D": "\"many\" needs a plural: \"many one\" is impossible."
+          },
+          "trap": "each + one / singular noun; both + plural noun, or alone as a pronoun."
+        }
+      }
+    },
+    {
+      "id": "p5-0291",
+      "part": 5,
+      "tags": [
+        "quantifiers-determiners"
+      ],
+      "difficulty": 1,
+      "stem": "Unfortunately, there are not ------- chairs for all attendees, so volunteers are bringing some from the cafeteria.",
+      "options": [
+        "much",
+        "less",
+        "a little",
+        "enough"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "« chairs » est un nom dénombrable pluriel ; « not enough » (pas assez de) convient et s'accorde avec « so volunteers are bringing some ».",
+          "distractors": {
+            "A": "« much » se combine avec un indénombrable (« not much time »), pas avec « chairs ».",
+            "B": "« less » se combine avec un indénombrable (« less time ») ; avec « chairs », il faudrait « fewer ».",
+            "C": "« a little » est réservé aux indénombrables (« a little time »)."
+          },
+          "trap": "« enough » va avec les deux types de noms ; much / less / a little seulement avec les indénombrables."
+        },
+        "en": {
+          "rule": "\"chairs\" is a plural countable noun; \"not enough\" fits and matches \"so volunteers are bringing some\".",
+          "distractors": {
+            "A": "\"much\" goes with uncountable nouns (\"not much time\"), not with \"chairs\".",
+            "B": "\"less\" goes with uncountable nouns (\"less time\"); with \"chairs\" you would need \"fewer\".",
+            "C": "\"a little\" is reserved for uncountable nouns (\"a little time\")."
+          },
+          "trap": "\"enough\" goes with both noun types; much / less / a little only with uncountable nouns."
+        }
+      }
+    },
+    {
+      "id": "p5-0292",
+      "part": 5,
+      "tags": [
+        "quantifiers-determiners"
+      ],
+      "difficulty": 3,
+      "stem": "------- of the information gathered by the survey team in rural districts over three months was too incomplete to use.",
+      "options": [
+        "Much",
+        "Many",
+        "Few",
+        "Both"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "« information » est indénombrable et le verbe « was » est au singulier ; seul « Much of » convient. Le verbe est loin du trou, après un long groupe nominal.",
+          "distractors": {
+            "B": "« Many » s'utilise avec un dénombrable pluriel : « many of the information » est impossible.",
+            "C": "« Few » demande aussi un dénombrable pluriel et un verbe pluriel, alors que le verbe est « was ».",
+            "D": "« Both » désigne deux éléments dénombrables et demande un verbe pluriel : « both of the information » est impossible."
+          },
+          "trap": "Indénombrable + verbe singulier → much ; dénombrable pluriel → many, few, several."
+        },
+        "en": {
+          "rule": "\"information\" is uncountable and the verb \"was\" is singular, so only \"Much of\" fits. The verb comes after a long noun phrase.",
+          "distractors": {
+            "B": "\"Many\" goes with plural countable nouns: \"many of the information\" is impossible.",
+            "C": "\"Few\" also needs a plural countable noun and a plural verb, but the verb is \"was\".",
+            "D": "\"Both\" refers to two countable items and takes a plural verb: \"both of the information\" is impossible."
+          },
+          "trap": "Uncountable + singular verb: much; plural countable: many, few, several."
+        }
+      }
+    },
+    {
+      "id": "p5-0293",
+      "part": 5,
+      "tags": [
+        "conjunctions-connectors"
+      ],
+      "difficulty": 3,
+      "stem": "The firm is willing to renew the lease, which expires in March, ------- the landlord repaints the offices before the move.",
+      "options": [
+        "unless",
+        "on condition that",
+        "whereas",
+        "even though"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "Le renouvellement dépend d'une condition que le propriétaire doit remplir : « on condition that » (à condition que). L'incise « which expires in March » éloigne le trou de l'idée de départ.",
+          "distractors": {
+            "A": "« unless » (sauf si) inverserait le sens : l'entreprise renouvellerait sauf si le propriétaire repeint, ce qui est absurde.",
+            "C": "« whereas » exprime une opposition entre deux faits (alors que), pas une condition.",
+            "D": "« even though » exprime une concession (bien que) : repeindre les bureaux ne serait pas un obstacle au renouvellement."
+          },
+          "trap": "Condition à remplir : on condition that / provided that ; condition de blocage : unless."
+        },
+        "en": {
+          "rule": "Renewing the lease depends on something the landlord must do: \"on condition that\". The side phrase \"which expires in March\" moves the blank away from the main idea.",
+          "distractors": {
+            "A": "\"unless\" would reverse the meaning: the firm would renew unless the landlord repaints, which makes no sense.",
+            "C": "\"whereas\" contrasts two facts; it does not set a condition.",
+            "D": "\"even though\" expresses concession: repainting would not be an obstacle to renewing."
+          },
+          "trap": "Condition to be met: on condition that / provided that; blocking condition: unless."
+        }
+      }
+    },
+    {
+      "id": "p5-0294",
+      "part": 5,
+      "tags": [
+        "conjunctions-connectors"
+      ],
+      "difficulty": 3,
+      "stem": "Sales of the compact model rose sharply in the second quarter, ------- those of the premium model remained flat.",
+      "options": [
+        "because",
+        "whereas",
+        "so that",
+        "unless"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "Les deux propositions opposent deux résultats (hausse / stagnation) : « whereas » (alors que). Le pronom « those » reprend « sales ».",
+          "distractors": {
+            "A": "« because » exprime la cause : la stagnation du modèle premium n'explique pas la hausse du modèle compact.",
+            "C": "« so that » exprime le but : les ventes ne montent pas dans le but que l'autre modèle stagne.",
+            "D": "« unless » exprime une condition négative (sauf si) : rien dans la phrase ne s'y prête."
+          },
+          "trap": "Deux faits opposés dans une seule phrase : whereas / while."
+        },
+        "en": {
+          "rule": "The two clauses contrast two results (a rise and no change): \"whereas\". The pronoun \"those\" stands for \"sales\".",
+          "distractors": {
+            "A": "\"because\" gives a cause: flat sales of the premium model do not explain the rise of the compact one.",
+            "C": "\"so that\" expresses purpose: sales do not rise in order that the other model stays flat.",
+            "D": "\"unless\" gives a negative condition: nothing in the sentence fits that."
+          },
+          "trap": "Two opposite facts in one sentence: whereas / while."
+        }
+      }
+    },
+    {
+      "id": "p5-0295",
+      "part": 5,
+      "tags": [
+        "conjunctions-connectors"
+      ],
+      "difficulty": 3,
+      "stem": "The steering committee, still waiting on the cost estimates, has not yet decided ------- to relocate the call center or to expand the current one.",
+      "options": [
+        "if",
+        "that",
+        "so",
+        "whether"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "« decide whether to … or to … » présente deux options : après « whether », on peut mettre un infinitif (« whether to relocate or to expand »).",
+          "distractors": {
+            "A": "« if » ne peut pas introduire un infinitif : « decided if to relocate » est impossible.",
+            "B": "« that » introduit une proposition complète avec sujet et verbe, pas un infinitif.",
+            "C": "« so » exprime la conséquence ou le but (« so that ») : il ne présente pas un choix entre deux options."
+          },
+          "trap": "whether + to + verbe pour un choix ; « if » ne se combine pas avec un infinitif."
+        },
+        "en": {
+          "rule": "\"decide whether to ... or to ...\" presents two options: \"whether\" can be followed by an infinitive.",
+          "distractors": {
+            "A": "\"if\" cannot introduce an infinitive: \"decided if to relocate\" is impossible.",
+            "B": "\"that\" introduces a full clause with a subject and a verb, not an infinitive.",
+            "C": "\"so\" expresses a result or purpose (\"so that\"): it does not introduce a choice between two options."
+          },
+          "trap": "whether + to + verb for a choice; \"if\" cannot be followed by an infinitive."
+        }
+      }
+    },
+    {
+      "id": "p5-0296",
+      "part": 5,
+      "tags": [
+        "vocabulary-in-context"
+      ],
+      "difficulty": 2,
+      "stem": "The consultant was asked to ------- the dispute between the two suppliers before it reached court.",
+      "options": [
+        "fabricate",
+        "reimburse",
+        "mediate",
+        "dispatch"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "Un conflit (« dispute ») entre deux parties se règle par un tiers qui « mediate » (sert de médiateur).",
+          "distractors": {
+            "A": "« fabricate » signifie fabriquer ou inventer : on ne fabrique pas un conflit pour l'éviter.",
+            "B": "« reimburse » signifie rembourser : il se construit avec une somme ou une personne, pas avec un conflit.",
+            "D": "« dispatch » signifie expédier ou envoyer : il se dit d'un colis ou d'un employé, pas d'un conflit."
+          },
+          "trap": "dispute / conflict / negotiation + mediate, settle, resolve."
+        },
+        "en": {
+          "rule": "A \"dispute\" between two parties is handled by a third person who \"mediates\" (acts as a go-between).",
+          "distractors": {
+            "A": "\"fabricate\" means to make or invent: nobody fabricates a dispute to prevent it.",
+            "B": "\"reimburse\" means to pay back: it goes with a sum or a person, not a dispute.",
+            "D": "\"dispatch\" means to send off: it applies to a parcel or an employee, not a dispute."
+          },
+          "trap": "dispute / conflict / negotiation + mediate, settle, resolve."
+        }
+      }
+    },
+    {
+      "id": "p5-0297",
+      "part": 5,
+      "tags": [
+        "collocations"
+      ],
+      "difficulty": 1,
+      "stem": "Unless proper ventilation is installed, the new chemical process ------- a serious risk to workers on the night shift.",
+      "options": [
+        "makes",
+        "does",
+        "gives",
+        "poses"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "La collocation est « pose a risk » (présenter un risque) ; elle s'emploie aussi avec « threat » et « challenge ».",
+          "distractors": {
+            "A": "« make » ne se combine pas avec « risk » dans ce sens : « make a risk » ne se dit pas.",
+            "B": "« do » ne se combine pas avec « risk » : « do a risk » n'existe pas.",
+            "C": "« give » ne se combine pas avec « a risk » dans ce sens ; il faudrait « give rise to »."
+          },
+          "trap": "pose a risk / a threat / a challenge ; run a risk ; take a risk."
+        },
+        "en": {
+          "rule": "The collocation is \"pose a risk\" (to present a danger); it also works with \"threat\" and \"challenge\".",
+          "distractors": {
+            "A": "\"make\" does not go with \"risk\" in this sense: \"make a risk\" is not said.",
+            "B": "\"do\" does not go with \"risk\": \"do a risk\" does not exist.",
+            "C": "\"give\" does not go with \"a risk\" in this sense; you would need \"give rise to\"."
+          },
+          "trap": "pose a risk / a threat / a challenge; run a risk; take a risk."
+        }
+      }
+    },
+    {
+      "id": "p5-0298",
+      "part": 5,
+      "tags": [
+        "collocations"
+      ],
+      "difficulty": 1,
+      "stem": "Customers who wish to ------- a complaint about a damaged item should call the help line within seven days.",
+      "options": [
+        "do",
+        "put",
+        "file",
+        "hold"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "La collocation est « file a complaint » (déposer une plainte, une réclamation).",
+          "distractors": {
+            "A": "« do a complaint » n'existe pas : « do » ne se combine pas avec « complaint ».",
+            "B": "« put a complaint » n'est pas la collocation : il faudrait « put in a complaint », qui change la structure.",
+            "D": "« hold a complaint » n'existe pas : « hold » se dit plutôt d'une réunion ou d'un événement."
+          },
+          "trap": "file a complaint / a claim / a report ; hold a meeting."
+        },
+        "en": {
+          "rule": "The collocation is \"file a complaint\" (to submit a formal complaint).",
+          "distractors": {
+            "A": "\"do a complaint\" does not exist: \"do\" does not go with \"complaint\".",
+            "B": "\"put a complaint\" is not the collocation: you would need \"put in a complaint\", which changes the structure.",
+            "D": "\"hold a complaint\" does not exist: \"hold\" goes with a meeting or an event."
+          },
+          "trap": "file a complaint / a claim / a report; hold a meeting."
+        }
+      }
+    },
+    {
+      "id": "p5-0299",
+      "part": 5,
+      "tags": [
+        "collocations"
+      ],
+      "difficulty": 3,
+      "stem": "The plant manager failed to ------- the repeated warnings from inspectors about the corroded pipes, and a leak followed in April.",
+      "options": [
+        "heed",
+        "spare",
+        "lend",
+        "yield"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "La collocation est « heed a warning » (tenir compte d'un avertissement). Le contexte (« failed to… and a leak followed ») confirme qu'on n'en a pas tenu compte.",
+          "distractors": {
+            "B": "« spare » signifie épargner : on épargne une personne, pas un avertissement.",
+            "C": "« lend » signifie prêter : « lend warnings » n'a pas de sens.",
+            "D": "« yield » signifie céder ou produire : « yield warnings » ne se dit pas."
+          },
+          "trap": "heed a warning / advice ; ignore a warning."
+        },
+        "en": {
+          "rule": "The collocation is \"heed a warning\" (to pay attention to it). The context (\"failed to ... and a leak followed\") confirms the warnings were ignored.",
+          "distractors": {
+            "B": "\"spare\" means to save someone from something: you spare a person, not a warning.",
+            "C": "\"lend\" means to give temporarily: \"lend warnings\" makes no sense.",
+            "D": "\"yield\" means to give way or produce: \"yield warnings\" is not said."
+          },
+          "trap": "heed a warning / advice; ignore a warning."
+        }
+      }
+    },
+    {
+      "id": "p5-0300",
+      "part": 5,
+      "tags": [
+        "collocations"
+      ],
+      "difficulty": 2,
+      "stem": "The tribunal's decision may ------- a precedent that other tenants can cite when disputing similar rent increases.",
+      "options": [
+        "do",
+        "set",
+        "hold",
+        "lend"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "La collocation est « set a precedent » (créer un précédent).",
+          "distractors": {
+            "A": "« do a precedent » n'existe pas : « do » ne se combine pas avec « precedent ».",
+            "C": "« hold a precedent » n'est pas la collocation : « hold » se dit plutôt d'une réunion ou d'un événement.",
+            "D": "« lend » signifie prêter : on ne prête pas un précédent."
+          },
+          "trap": "set a precedent / a standard / a record / an example."
+        },
+        "en": {
+          "rule": "The collocation is \"set a precedent\" (to create a model for later cases).",
+          "distractors": {
+            "A": "\"do a precedent\" does not exist: \"do\" does not go with \"precedent\".",
+            "C": "\"hold a precedent\" is not the collocation: \"hold\" goes with a meeting or an event.",
+            "D": "\"lend\" means to give temporarily: you do not lend a precedent."
+          },
+          "trap": "set a precedent / a standard / a record / an example."
+        }
+      }
+    }
+  ]
+}
