@@ -1,0 +1,642 @@
+{
+  "part": 7,
+  "pool": "training",
+  "sets": [
+    {
+      "id": "p7-0035",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "press-release",
+          "title": "Sunmere Airways Announces Direct Flights Between Port Calloway and Vantaro",
+          "text": "FOR IMMEDIATE RELEASE - February 10\nMedia contact: Ilona Marchetti, Sunmere Airways\n\nSunmere Airways will begin direct service between Port Calloway and Vantaro on Monday, April 7. Flights will operate four days a week, on Mondays, Wednesdays, Fridays, and Sundays, using a 76-seat aircraft. Until now, travelers between the two cities have had to change planes in Keldrow, a journey of about five hours.\n\nThe outbound flight leaves Port Calloway at 7:15 A.M. and lands in Vantaro at 8:50 A.M. The return flight leaves Vantaro at 6:10 P.M. the same day and arrives in Port Calloway at 7:45 P.M. Introductory round-trip fares start at $149 for tickets booked before March 1.\n\n\"Business travelers have asked for this route for years,\" said Chief Executive Officer Emil Tavares. \"A direct flight gives them back most of a working day.\"\n\nTickets can be purchased on the Sunmere Airways website or at the ticket counter in Port Calloway Airport. Passengers may check in online up to 24 hours before departure.\n\nSunmere Airways will also hire 40 new employees at Port Calloway Airport, including baggage handlers and customer service agents."
+        },
+        {
+          "genre": "article",
+          "title": "Direct Flight Gets Off to a Strong Start",
+          "text": "VANTARO (April 9) - Sunmere Airways welcomed its first passengers on the new Port Calloway route on Monday, and the airline says the response has exceeded its expectations. Seventy of the 76 seats were filled on the opening flight, and the next two weeks of flights are nearly fully booked.\n\nLena Ostrander, who owns a seafood export company in Port Calloway, was on board. She held meetings with clients in Vantaro all day and flew home the same evening, something she could not have done before. \"A trip that used to take two days now fits into one,\" she said. The airline's fare covers one checked bag, and passengers pay a small fee for each additional bag.\n\nSunmere spokesperson Ilona Marchetti said the company is studying whether to add a fifth weekly flight. If demand continues, the airline also plans to bring a second aircraft into service in the autumn.\n\nLocal officials welcomed the news. \"We have waited a long time for a connection like this,\" said Mayor Anders Wermuth of Vantaro. \"It will help our businesses reach new customers.\""
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0035-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 1,
+          "stem": "What is the purpose of the press release?",
+          "options": [
+            "To promote lower fares on every route",
+            "To report the opening of a new airport",
+            "To explain a change to an existing schedule",
+            "To announce a new direct route between two cities"
+          ],
+          "answer": "D",
+          "evidence": [
+            "Sunmere Airways will begin direct service between Port Calloway and Vantaro on Monday, April 7."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le but d'un communiqué se lit dans sa première phrase : « will begin direct service between Port Calloway and Vantaro ». C'est l'annonce d'une nouvelle liaison directe.",
+              "distractors": {
+                "A": "Seuls les tarifs d'introduction de cette liaison sont cités (« start at $149 »), pas une baisse sur toutes les lignes.",
+                "B": "L'aéroport de Port Calloway n'apparaît que comme lieu d'embauche de 40 employés ; aucun nouvel aéroport n'ouvre.",
+                "C": "Aucun horaire existant ne change : il s'agit d'un service nouveau, qui commence le 7 avril."
+              },
+              "trap": "Pour une question de but, la première phrase donne la réponse ; les détails (tarifs, embauches) sont des distracteurs."
+            },
+            "en": {
+              "rule": "The purpose of a press release is in its first sentence: \"will begin direct service between Port Calloway and Vantaro\". It announces a new direct route.",
+              "distractors": {
+                "A": "Only the introductory fares for this route are mentioned (\"start at $149\"), not lower fares on every route.",
+                "B": "Port Calloway Airport appears only as the place where 40 employees will be hired; no new airport opens.",
+                "C": "No existing schedule changes: this is a new service starting on April 7."
+              },
+              "trap": "For a purpose question the first sentence gives the answer; details (fares, hiring) are used as distractors."
+            }
+          }
+        },
+        {
+          "id": "p7-0035-2",
+          "tags": [
+            "not-true"
+          ],
+          "difficulty": 2,
+          "stem": "What is NOT mentioned about the new service in the press release?",
+          "options": [
+            "The number of days it will operate each week",
+            "The size of the aircraft it will use",
+            "A deadline for booking the lowest fares",
+            "The food that will be served on board"
+          ],
+          "answer": "D",
+          "evidence": [
+            "Flights will operate four days a week",
+            "using a 76-seat aircraft",
+            "Introductory round-trip fares start at $149 for tickets booked before March 1."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Trois options se retrouvent dans le texte : « four days a week », « a 76-seat aircraft » et « booked before March 1 ». Rien n'est dit des repas servis à bord.",
+              "distractors": {
+                "A": "Le texte dit « Flights will operate four days a week ».",
+                "B": "Le texte dit « using a 76-seat aircraft ».",
+                "C": "Les tarifs d'introduction concernent les billets « booked before March 1 » : c'est une date limite."
+              },
+              "trap": "Question NOT : coche chaque option dans le texte, une par une. Celle qui reste sans passage correspondant est la réponse."
+            },
+            "en": {
+              "rule": "Three options are found in the text: \"four days a week\", \"a 76-seat aircraft\" and \"booked before March 1\". Nothing is said about food served on board.",
+              "distractors": {
+                "A": "The text says \"Flights will operate four days a week\".",
+                "B": "The text says \"using a 76-seat aircraft\".",
+                "C": "The introductory fares apply to tickets \"booked before March 1\": that is a deadline."
+              },
+              "trap": "NOT question: find each option in the text, one by one. The one with no matching passage is the answer."
+            }
+          }
+        },
+        {
+          "id": "p7-0035-3",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 3,
+          "stem": "At what time did Ms. Ostrander most likely leave Vantaro on April 7?",
+          "options": [
+            "7:15 A.M.",
+            "8:50 A.M.",
+            "7:45 P.M.",
+            "6:10 P.M."
+          ],
+          "answer": "D",
+          "evidence": [
+            "She held meetings with clients in Vantaro all day and flew home the same evening",
+            "The return flight leaves Vantaro at 6:10 P.M. the same day"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "L'article dit que Mme Ostrander a pris le vol inaugural de lundi (le 7 avril), est restée « all day » à Vantaro et est rentrée « the same evening ». Le communiqué donne le seul vol retour : il quitte Vantaro à 18 h 10.",
+              "distractors": {
+                "A": "7:15 A.M. est l'heure de départ de Port Calloway, qu'elle a quittée le matin.",
+                "B": "8:50 A.M. est l'heure d'arrivée à Vantaro, pas de départ.",
+                "C": "7:45 P.M. est l'heure d'arrivée à Port Calloway, à la fin du vol retour."
+              },
+              "trap": "Quand un horaire est demandé, vérifie s'il s'agit d'un départ ou d'une arrivée, et de quelle ville : les distracteurs reprennent les autres horaires du texte."
+            },
+            "en": {
+              "rule": "The article says Ms. Ostrander took Monday's opening flight (April 7), stayed in Vantaro \"all day\" and flew home \"the same evening\". The press release gives the only return flight: it leaves Vantaro at 6:10 P.M.",
+              "distractors": {
+                "A": "7:15 A.M. is when the flight leaves Port Calloway, which she left in the morning.",
+                "B": "8:50 A.M. is the arrival time in Vantaro, not a departure.",
+                "C": "7:45 P.M. is the arrival time in Port Calloway, at the end of the return flight."
+              },
+              "trap": "When a time is asked, check whether it is a departure or an arrival, and for which city: distractors reuse the other times in the text."
+            }
+          }
+        },
+        {
+          "id": "p7-0035-4",
+          "tags": [
+            "synonym-in-context"
+          ],
+          "difficulty": 2,
+          "stem": "In the article, the word \"studying\" in paragraph 3 is closest in meaning to",
+          "options": [
+            "learning",
+            "memorizing",
+            "examining",
+            "attending"
+          ],
+          "answer": "C",
+          "evidence": [
+            "the company is studying whether to add a fifth weekly flight"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« the company is studying whether to add a fifth weekly flight » : la compagnie étudie la question, elle l'examine avant de décider, donc « studying » = « examining ».",
+              "distractors": {
+                "A": "« learning » est le sens scolaire de « study » (apprendre une matière) ; une compagnie n'apprend pas un vol.",
+                "B": "« memorizing » (apprendre par cœur) est un autre sens scolaire, sans rapport avec une décision à prendre.",
+                "D": "« attending » se dit d'un cours qu'on suit (« study at a school ») ; on ne suit pas « whether to add a flight »."
+              },
+              "trap": "Remplace le mot par chaque option dans la phrase. Devant « whether », « study » veut presque toujours dire « examiner une possibilité »."
+            },
+            "en": {
+              "rule": "\"the company is studying whether to add a fifth weekly flight\": the company is looking carefully at the question before deciding, so \"studying\" means \"examining\".",
+              "distractors": {
+                "A": "\"learning\" is the school meaning of \"study\"; a company does not learn a flight.",
+                "B": "\"memorizing\" is another school meaning, unrelated to making a decision.",
+                "D": "\"attending\" refers to following a course; you cannot attend \"whether to add a flight\"."
+              },
+              "trap": "Put each option back into the sentence. Before \"whether\", \"study\" almost always means \"examine a possibility\"."
+            }
+          }
+        },
+        {
+          "id": "p7-0035-5",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 1,
+          "stem": "What is suggested about the new route?",
+          "options": [
+            "It has attracted strong interest from travelers.",
+            "It requires passengers to change planes.",
+            "It is less expensive than the route through Keldrow.",
+            "It now operates every day of the week."
+          ],
+          "answer": "A",
+          "evidence": [
+            "the next two weeks of flights are nearly fully booked"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "L'article dit que la compagnie a presque rempli le vol inaugural et que les deux semaines suivantes sont « nearly fully booked » : on en déduit que la demande est forte.",
+              "distractors": {
+                "B": "C'est le contraire : la liaison est directe, alors que l'ancien trajet passait par Keldrow.",
+                "C": "Aucun prix du trajet par Keldrow n'est donné : la comparaison est absente du texte.",
+                "D": "La compagnie vole quatre jours par semaine et étudie seulement l'ajout d'un cinquième jour."
+              },
+              "trap": "Pour une déduction, appuie-toi sur une phrase précise (ici « nearly fully booked ») ; une comparaison de prix jamais citée est un distracteur."
+            },
+            "en": {
+              "rule": "The article says the opening flight was almost full and the next two weeks are \"nearly fully booked\": you can infer that demand is strong.",
+              "distractors": {
+                "B": "The opposite is true: the service is direct, whereas the old trip went through Keldrow.",
+                "C": "No price is given for the route through Keldrow: the comparison is not in the text.",
+                "D": "The airline flies four days a week and is only studying a fifth day."
+              },
+              "trap": "For an inference, rely on one precise sentence (here \"nearly fully booked\"); a price comparison never mentioned is a distractor."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0036",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "webpage",
+          "title": "Thistledown Bistro - Private Events",
+          "text": "Host your next gathering at Thistledown Bistro, 18 Quarry Lane, Aldenport.\n\nOur private room seats up to 24 guests. It is available Tuesday through Saturday evenings from 5:30 P.M., and on Sundays for lunch events from 11:00 A.M.\n\nMenus (price per guest)\nGarden Menu - $38: three vegetarian courses\nHarbor Menu - $50: three courses with fish and seafood\nChef's Menu - $70: five courses with wine pairing\n\nEvery menu includes coffee or tea. A room fee of $150 applies to groups of fewer than 12 guests; larger groups pay no room fee. A deposit of $200 is due within seven days of booking and will be deducted from the final bill. Cancellations made at least 14 days before the event receive a full refund of the deposit. Final guest numbers and dietary needs must be confirmed 5 days before the event.\n\nParking is available behind the restaurant, and the entrance has a ramp. Guests may bring a cake for a celebration, and our kitchen will serve it at no additional charge."
+        },
+        {
+          "genre": "form",
+          "title": "Thistledown Bistro - Private Event Request",
+          "text": "Name: Corin Duquesne\nOrganization: Duquesne & Pryce Surveyors\nDate submitted: September 22\nEvent date: Friday, October 17\nStart time: 6:30 P.M.\nNumber of guests: 16\nMenu: Harbor Menu\nDietary needs: Two guests do not eat shellfish.\nOccasion: Retirement dinner for a longtime colleague\nComments: Several guests will arrive from out of town, so we would like a quiet room where we can talk before the meal."
+        },
+        {
+          "genre": "email",
+          "text": "To: Corin Duquesne\nFrom: Ottilie Szabo, Events Manager\nDate: September 24\nSubject: Your private event request\n\nDear Mr. Duquesne,\n\nThank you for your request. Friday, October 17 is available, and our private room can seat your group comfortably. We will gladly prepare a different starter for the two guests who avoid shellfish, at no additional cost.\n\nTo confirm your booking, please send the deposit by October 1. If you would like to see the room first, you are welcome to visit any weekday between 2:00 P.M. and 4:00 P.M.; just call ahead so that we can show you around.\n\nI have attached a copy of our event agreement, which describes the cancellation terms. Please sign it and return it with your deposit.\n\nWe look forward to hosting your colleague's retirement dinner.\n\nBest regards,\nOttilie Szabo\nEvents Manager, Thistledown Bistro"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0036-1",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 3,
+          "stem": "What is indicated about the deposit?",
+          "options": [
+            "It is refunded for any cancellation.",
+            "It is required only from large groups.",
+            "It will be applied to the final bill.",
+            "It must be paid on the day of the event."
+          ],
+          "answer": "C",
+          "evidence": [
+            "A deposit of $200 is due within seven days of booking and will be deducted from the final bill."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La page web dit que l'acompte « will be deducted from the final bill » : « applied to » reformule « deducted from ».",
+              "distractors": {
+                "A": "Le remboursement complet exige une annulation « at least 14 days before the event » : pas pour n'importe quelle annulation.",
+                "B": "La taille du groupe ne concerne que les frais de salle (moins de 12 invités) ; l'acompte est demandé pour toute réservation.",
+                "D": "L'acompte est dû « within seven days of booking », bien avant l'événement."
+              },
+              "trap": "Les distracteurs reprennent des chiffres ou des conditions d'une autre phrase (14 jours, 12 invités) : vérifie à quoi chaque condition s'applique."
+            },
+            "en": {
+              "rule": "The webpage says the deposit \"will be deducted from the final bill\": \"applied to\" paraphrases \"deducted from\".",
+              "distractors": {
+                "A": "A full refund requires cancelling \"at least 14 days before the event\": not just any cancellation.",
+                "B": "Group size affects only the room fee (fewer than 12 guests); a deposit is due for any booking.",
+                "D": "The deposit is due \"within seven days of booking\", well before the event."
+              },
+              "trap": "Distractors reuse numbers or conditions from another sentence (14 days, 12 guests): check what each condition applies to."
+            }
+          }
+        },
+        {
+          "id": "p7-0036-2",
+          "tags": [
+            "not-true"
+          ],
+          "difficulty": 2,
+          "stem": "What is NOT true about the private room?",
+          "options": [
+            "It can accommodate 24 guests.",
+            "It can be used for lunch on Sundays.",
+            "Every group must pay a fee to use it.",
+            "It can be reserved on weekday evenings."
+          ],
+          "answer": "C",
+          "evidence": [
+            "Our private room seats up to 24 guests.",
+            "on Sundays for lunch events from 11:00 A.M.",
+            "It is available Tuesday through Saturday evenings from 5:30 P.M."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Trois options sont dans la page : « seats up to 24 guests », « on Sundays for lunch events » et « Tuesday through Saturday evenings ». Les frais de salle ne concernent que les groupes de moins de 12 : « larger groups pay no room fee ».",
+              "distractors": {
+                "A": "Vrai : « Our private room seats up to 24 guests ».",
+                "B": "Vrai : la salle est ouverte « on Sundays for lunch events ».",
+                "D": "Vrai : elle est disponible du mardi au samedi soir, donc en soirée en semaine."
+              },
+              "trap": "Dans une question NOT, une option trop générale (« every group », « always ») est souvent la fausse : cherche l'exception dans le texte."
+            },
+            "en": {
+              "rule": "Three options are in the page: \"seats up to 24 guests\", \"on Sundays for lunch events\" and \"Tuesday through Saturday evenings\". The room fee applies only to groups under 12: \"larger groups pay no room fee\".",
+              "distractors": {
+                "A": "True: \"Our private room seats up to 24 guests\".",
+                "B": "True: the room is open \"on Sundays for lunch events\".",
+                "D": "True: it is available Tuesday through Saturday evenings, so on weekday evenings."
+              },
+              "trap": "In a NOT question, an option that is too general (\"every group\", \"always\") is often the false one: look for the exception in the text."
+            }
+          }
+        },
+        {
+          "id": "p7-0036-3",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 1,
+          "stem": "How much will the menus cost for Mr. Duquesne's group?",
+          "options": [
+            "$608",
+            "$950",
+            "$800",
+            "$1,120"
+          ],
+          "answer": "C",
+          "evidence": [
+            "Harbor Menu - $50: three courses with fish and seafood",
+            "Number of guests: 16"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le formulaire indique le « Harbor Menu » pour 16 invités ; la page web donne 50 $ par personne : 16 x 50 = 800 $.",
+              "distractors": {
+                "A": "608 $ correspond à 16 x 38 $, le prix du Garden Menu, que M. Duquesne n'a pas choisi.",
+                "B": "950 $ ajoute 150 $ de frais de salle (800 + 150), mais ces frais ne concernent que les groupes de moins de 12 invités.",
+                "D": "1 120 $ correspond à 16 x 70 $, le prix du Chef's Menu."
+              },
+              "trap": "Pour un calcul sur deux documents, note le menu et le nombre d'invités dans l'un, le tarif dans l'autre, puis vérifie les frais qui ne s'appliquent pas."
+            },
+            "en": {
+              "rule": "The form shows the \"Harbor Menu\" for 16 guests; the webpage gives $50 per guest: 16 x 50 = $800.",
+              "distractors": {
+                "A": "$608 is 16 x $38, the price of the Garden Menu, which Mr. Duquesne did not choose.",
+                "B": "$950 adds the $150 room fee (800 + 150), but that fee applies only to groups of fewer than 12 guests.",
+                "D": "$1,120 is 16 x $70, the price of the Chef's Menu."
+              },
+              "trap": "For a calculation across two documents, take the menu and the number of guests from one, the price from the other, then check which fees do not apply."
+            }
+          }
+        },
+        {
+          "id": "p7-0036-4",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 2,
+          "stem": "By what date must Mr. Duquesne confirm his final guest count?",
+          "options": [
+            "October 12",
+            "October 1",
+            "October 3",
+            "October 10"
+          ],
+          "answer": "A",
+          "evidence": [
+            "Final guest numbers and dietary needs must be confirmed 5 days before the event.",
+            "Event date: Friday, October 17"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La page web demande de confirmer le nombre d'invités « 5 days before the event » ; le formulaire fixe l'événement au 17 octobre. Cinq jours avant, c'est le 12 octobre.",
+              "distractors": {
+                "B": "Le 1er octobre est la date limite d'envoi de l'acompte, indiquée dans l'e-mail.",
+                "C": "Le 3 octobre est le dernier jour pour annuler avec remboursement complet (14 jours avant le 17).",
+                "D": "Le 10 octobre serait 7 jours avant l'événement, un délai que le texte ne mentionne pas pour les invités."
+              },
+              "trap": "Plusieurs dates dans un jeu de documents : associe chaque délai à sa règle (acompte, annulation, nombre d'invités) avant de compter."
+            },
+            "en": {
+              "rule": "The webpage asks for guest numbers to be confirmed \"5 days before the event\"; the form sets the event on October 17. Five days earlier is October 12.",
+              "distractors": {
+                "B": "October 1 is the deadline for sending the deposit, given in the e-mail.",
+                "C": "October 3 is the last day to cancel with a full refund (14 days before the 17th).",
+                "D": "October 10 would be 7 days before the event, a delay the text does not mention for guest numbers."
+              },
+              "trap": "Several dates in one set: match each deadline to its rule (deposit, cancellation, guest numbers) before counting."
+            }
+          }
+        },
+        {
+          "id": "p7-0036-5",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 2,
+          "stem": "What is suggested about the Harbor Menu?",
+          "options": [
+            "It costs less than the Garden Menu.",
+            "It cannot be ordered for Friday events.",
+            "Its usual starter contains shellfish.",
+            "It is served only to groups of 12 or more."
+          ],
+          "answer": "C",
+          "evidence": [
+            "We will gladly prepare a different starter for the two guests who avoid shellfish, at no additional cost."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "L'e-mail propose « a different starter » aux deux invités qui évitent les fruits de mer. Le formulaire avait commandé le Harbor Menu : on en déduit que son entrée habituelle contient des fruits de mer.",
+              "distractors": {
+                "A": "Le Harbor Menu coûte 50 $ contre 38 $ pour le Garden Menu : il est plus cher.",
+                "B": "Le vendredi 17 octobre est disponible et le Harbor Menu a été demandé pour cette date.",
+                "D": "Les menus sont facturés par personne ; seuls les frais de salle dépendent de la taille du groupe (moins de 12 invités)."
+              },
+              "trap": "Une déduction part d'un détail : si le restaurant doit changer quelque chose pour certains invités, c'est que la version standard le contient."
+            },
+            "en": {
+              "rule": "The e-mail offers \"a different starter\" to the two guests who avoid shellfish. The form ordered the Harbor Menu, so its usual starter must contain shellfish.",
+              "distractors": {
+                "A": "The Harbor Menu costs $50 against $38 for the Garden Menu: it is more expensive.",
+                "B": "Friday, October 17 is available and the Harbor Menu was requested for that date.",
+                "D": "Menus are priced per guest; only the room fee depends on group size (fewer than 12 guests)."
+              },
+              "trap": "An inference starts from a detail: if the restaurant must change something for some guests, the standard version must contain it."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0037",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "advertisement",
+          "title": "Orrin Valley Preserves - Wholesale Partner Program",
+          "text": "Handmade jams, pickles, and relishes, made in small batches in our family kitchen and delivered to your door.\n\nAre you a cafe or grocery owner looking for local products that your customers will remember? Our new Wholesale Partner Program is open to businesses within 80 miles of Tarn Bridge.\n\nOrders of five or more cases ship free. Smaller orders pay a flat delivery fee of $15. We deliver every Thursday, and orders placed by noon on Monday are included in that week's delivery. New partners receive a free sample case of Strawberry Jam with a first order of at least three cases.\n\nPrices per case of 12 jars:\nStrawberry Jam - $48\nSpiced Pear Chutney - $60\nDill Pickles - $42\nTomato Relish - $54\n\nEvery jar is labeled with its harvest date and contains no artificial colors or preservatives. Each season we buy our fruit and vegetables from farms in the Orrin Valley, so our menu of flavors changes with the harvest. To apply, e-mail partners@orrinvalley.example.\n\nOur products are already sold in more than forty shops across the region. Partners also receive a countertop display and a set of recipe cards for their customers at no charge."
+        },
+        {
+          "genre": "email",
+          "text": "To: partners@orrinvalley.example\nFrom: Marlon Quist\nDate: Monday, October 6, 10:40 A.M.\nSubject: Wholesale partner application\n\nDear Orrin Valley team,\n\nI own Quist's Corner, a small cafe in Pellham Cove, about 35 miles from Tarn Bridge. Several of my customers have asked for local jam with their breakfast, and your advertisement caught my attention. I have run the cafe for six years, and most of my customers live in the neighborhood, so I believe your jams would sell well. I would like to apply to the Wholesale Partner Program.\n\nFor my first order, I would like four cases of Strawberry Jam. We have a small kitchen, so I cannot store more than that at the moment. I hope the order can reach us this week, as our current supply will be gone by Friday.\n\nPlease let me know if you need any information about my business, such as my tax registration number or my opening hours.\n\nSincerely,\nMarlon Quist\nOwner, Quist's Corner"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0037-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 2,
+          "stem": "What is the purpose of the advertisement?",
+          "options": [
+            "To announce the opening of a retail shop",
+            "To invite local businesses to buy at wholesale prices",
+            "To introduce a new line of fresh produce",
+            "To recruit farmers to supply fruit"
+          ],
+          "answer": "B",
+          "evidence": [
+            "Our new Wholesale Partner Program is open to businesses within 80 miles of Tarn Bridge."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "L'annonce s'adresse aux « cafe or grocery owner » et présente un « Wholesale Partner Program » avec des prix par caisse : elle invite des commerces locaux à acheter en gros.",
+              "distractors": {
+                "A": "Orrin Valley vend à des professionnels et livre ; aucune boutique n'ouvre.",
+                "C": "Les produits sont des confitures, cornichons et sauces, pas des produits frais.",
+                "D": "L'entreprise achète déjà ses fruits à des fermes de la vallée ; elle ne cherche pas de fournisseurs."
+              },
+              "trap": "Pour une question de but sur une publicité, repère à qui elle s'adresse (ici des commerces) et ce qu'elle leur propose."
+            },
+            "en": {
+              "rule": "The ad speaks to a \"cafe or grocery owner\" and presents a \"Wholesale Partner Program\" with case prices: it invites local businesses to buy at wholesale.",
+              "distractors": {
+                "A": "Orrin Valley sells to businesses and delivers; no shop is opening.",
+                "C": "The products are jams, pickles and relishes, not fresh produce.",
+                "D": "The company already buys its fruit from valley farms; it is not looking for suppliers."
+              },
+              "trap": "For a purpose question about an ad, find who it addresses (here businesses) and what it offers them."
+            }
+          }
+        },
+        {
+          "id": "p7-0037-2",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 3,
+          "stem": "What must a new partner do to receive a free sample case?",
+          "options": [
+            "Order five or more cases",
+            "Place the order by noon on Thursday",
+            "Pay the delivery fee in advance",
+            "Make a first order of at least three cases"
+          ],
+          "answer": "D",
+          "evidence": [
+            "New partners receive a free sample case of Strawberry Jam with a first order of at least three cases."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le texte dit : « New partners receive a free sample case of Strawberry Jam with a first order of at least three cases ».",
+              "distractors": {
+                "A": "Cinq caisses est le seuil de la livraison gratuite, pas de l'échantillon.",
+                "B": "La date limite des commandes est midi le lundi ; la livraison a lieu le jeudi.",
+                "C": "Aucun paiement anticipé de la livraison n'est mentionné."
+              },
+              "trap": "Les seuils se ressemblent (trois caisses, cinq caisses) : associe chaque chiffre à son avantage avant de répondre."
+            },
+            "en": {
+              "rule": "The text says: \"New partners receive a free sample case of Strawberry Jam with a first order of at least three cases\".",
+              "distractors": {
+                "A": "Five cases is the threshold for free shipping, not for the sample.",
+                "B": "The order deadline is noon on Monday; delivery is on Thursday.",
+                "C": "No advance payment of the delivery fee is mentioned."
+              },
+              "trap": "Thresholds look alike (three cases, five cases): match each number to its benefit before answering."
+            }
+          }
+        },
+        {
+          "id": "p7-0037-3",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 1,
+          "stem": "How much will Mr. Quist pay for delivery?",
+          "options": [
+            "$15",
+            "$0",
+            "$30",
+            "$48"
+          ],
+          "answer": "A",
+          "evidence": [
+            "I would like four cases of Strawberry Jam.",
+            "Smaller orders pay a flat delivery fee of $15."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "M. Quist commande quatre caisses (e-mail). L'annonce n'offre la livraison gratuite qu'à partir de cinq caisses ; en dessous, c'est « a flat delivery fee of $15 ».",
+              "distractors": {
+                "B": "La livraison n'est gratuite que pour cinq caisses ou plus ; il en commande quatre.",
+                "C": "Le tarif est unique (« flat ») : il ne double pas.",
+                "D": "48 $ est le prix d'une caisse de Strawberry Jam, pas un frais de livraison."
+              },
+              "trap": "Compare la quantité commandée (un document) au seuil de gratuité (l'autre) : être juste en dessous suffit pour payer."
+            },
+            "en": {
+              "rule": "Mr. Quist orders four cases (e-mail). The ad offers free delivery only from five cases; below that, there is \"a flat delivery fee of $15\".",
+              "distractors": {
+                "B": "Delivery is free only for five cases or more; he orders four.",
+                "C": "The fee is flat: it does not double.",
+                "D": "$48 is the price of one case of Strawberry Jam, not a delivery fee."
+              },
+              "trap": "Compare the quantity ordered (one document) with the free-shipping threshold (the other): being just under it is enough to pay."
+            }
+          }
+        },
+        {
+          "id": "p7-0037-4",
+          "tags": [
+            "synonym-in-context"
+          ],
+          "difficulty": 2,
+          "stem": "In the advertisement, the word \"flat\" in paragraph 3 is closest in meaning to",
+          "options": [
+            "smooth",
+            "shallow",
+            "dull",
+            "fixed"
+          ],
+          "answer": "D",
+          "evidence": [
+            "Smaller orders pay a flat delivery fee of $15."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« A flat delivery fee of $15 » est un montant unique, qui ne varie pas avec la commande : « flat » signifie ici « fixed ».",
+              "distractors": {
+                "A": "« smooth » (lisse, plat) décrit une surface, pas un tarif.",
+                "B": "« shallow » (peu profond) s'applique à un plat ou à un récipient plat.",
+                "C": "« dull » (terne, sans éclat) décrit une voix ou une couleur plate."
+              },
+              "trap": "Un adjectif courant a plusieurs sens : cherche celui qui va avec le nom qu'il décrit (ici « fee »)."
+            },
+            "en": {
+              "rule": "\"A flat delivery fee of $15\" is a single amount that does not change with the order: \"flat\" means \"fixed\" here.",
+              "distractors": {
+                "A": "\"smooth\" (level) describes a surface, not a fee.",
+                "B": "\"shallow\" fits a flat dish or container.",
+                "C": "\"dull\" (without sparkle) describes a flat voice or color."
+              },
+              "trap": "A common adjective has several meanings: find the one that fits the noun it describes (here \"fee\")."
+            }
+          }
+        },
+        {
+          "id": "p7-0037-5",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 2,
+          "stem": "When will Mr. Quist most likely receive his order?",
+          "options": [
+            "On Monday, October 6",
+            "On Thursday, October 9",
+            "On Thursday, October 16",
+            "On Friday, October 10"
+          ],
+          "answer": "B",
+          "evidence": [
+            "Date: Monday, October 6, 10:40 A.M.",
+            "We deliver every Thursday, and orders placed by noon on Monday are included in that week's delivery."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "L'e-mail est envoyé le lundi 6 octobre à 10 h 40, avant midi. L'annonce dit que les commandes passées avant midi le lundi sont livrées cette semaine-là, le jeudi : donc le jeudi 9 octobre.",
+              "distractors": {
+                "A": "Le 6 octobre est le jour de la commande : la livraison n'a lieu que le jeudi.",
+                "C": "Le 16 octobre serait la livraison suivante, pour une commande passée après midi le lundi.",
+                "D": "Les livraisons ont lieu le jeudi, pas le vendredi."
+              },
+              "trap": "Croise l'heure d'envoi (un document) avec la règle de délai (l'autre) : 10 h 40 est avant midi, donc la livraison de la semaine."
+            },
+            "en": {
+              "rule": "The e-mail is sent on Monday, October 6 at 10:40 A.M., before noon. The ad says orders placed by noon on Monday go out in that week's delivery, on Thursday: so Thursday, October 9.",
+              "distractors": {
+                "A": "October 6 is the order day: delivery happens only on Thursdays.",
+                "C": "October 16 would be the following delivery, for an order placed after noon on Monday.",
+                "D": "Deliveries are made on Thursdays, not Fridays."
+              },
+              "trap": "Combine the sending time (one document) with the deadline rule (the other): 10:40 is before noon, so the order makes this week's delivery."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
