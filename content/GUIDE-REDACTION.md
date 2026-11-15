@@ -196,7 +196,7 @@ jeu de deux documents) : `content/examples/part7-exemple.json`. Schéma : `conte
 | `detail` | According to the notice, what…? / When will…? / What is indicated about…? (réponse écrite dans le texte, reformulée dans l'option) |
 | `inference` | What is suggested / implied about…? / What will most likely happen…? / Who most likely is…? (réponse non écrite, déduite d'une phrase précise) |
 | `not-true` | What is NOT mentioned as…? / What is NOT true about…? (trois options sont dans le texte, une n'y est pas) |
-| `synonym-in-context` | The word "secure" in paragraph 2, line 1, is closest in meaning to (un mot à plusieurs sens ; les distracteurs sont ses autres sens) |
+| `synonym-in-context` | The word "secure" in paragraph 2 is closest in meaning to (un mot à plusieurs sens ; les distracteurs sont ses autres sens). **Jamais de numéro de ligne** : sur un téléphone, les lignes ne correspondent à rien. Si le mot apparaît deux fois dans le paragraphe, change le texte. |
 | `writer-intention` | At 10:15 A.M., what does Mr. Diaz most likely mean when he writes, "Count me in"? (dans un `chat` : le sens d'une courte réplique d'après le contexte) |
 | `sentence-insertion` | In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? "…" (options : `[1]`, `[2]`, `[3]`, `[4]` ; les 4 repères sont dans un seul document) |
 | `cross-reference` | Toute question dont la réponse exige de combiner deux documents (jeux de 2 ou 3 documents seulement, au moins une par jeu) |

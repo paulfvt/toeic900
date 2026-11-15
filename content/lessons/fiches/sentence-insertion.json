@@ -13,7 +13,7 @@
         "title": "Repère les pronoms et les articles définis",
         "text": "Un pronom (« it », « they », « this », « these ») ou un groupe en « the » (« the fee », « the change ») renvoie à quelque chose déjà mentionné. Avant de choisir une position, vérifie que ce référent se trouve dans la phrase précédente. S'il n'apparaît que plus loin, la phrase ne peut pas aller là.",
         "examples": [
-          {"en": "[1] The new parking fee starts in May. [2] **It** will be deducted from your pay. → Where does \"It will be deducted\" fit?", "note": "« It » = the fee : la phrase se place juste après la mention du tarif."},
+          {"en": "The new parking fee starts in May. [1] Spaces are assigned by floor. [2] → Where does \"**It** will be deducted from your pay\" fit?", "note": "« It » = the fee : position [1], juste après la mention du tarif. En [2], la phrase suivrait celle sur les places et « It » perdrait son référent."},
           {"en": "We moved the event to Hall B. **The change** was due to the size of the crowd.", "note": "« The change » reprend « moved the event » : l'article défini annonce que la chose a déjà été dite."}
         ]
       },
@@ -37,7 +37,7 @@
         "title": "Part 7 : teste chaque position [1] à [4]",
         "text": "Insère mentalement la phrase à chaque position et relis le passage. Élimine d'abord celles où le référent est absent ou où le sens se brise. Il en reste généralement une seule. Pour ce type de question, relire quatre fois vaut mieux que deviner d'après le sujet seul.",
         "examples": [
-          {"en": "[1] Ms. Ortiz joins us from Delta Bank. [2] She will lead the finance team. [3] A welcome lunch is planned. → Where does \"She has ten years of experience\" fit?", "note": "« She » = Ms. Ortiz : placée avant [1], elle n'aurait pas de référent. La position [2] colle."}
+          {"en": "[1] Ms. Ortiz will join us on May 2 as head of finance. [2] A welcome lunch is planned for her first day. [3] → Where does \"Before that, she spent ten years at Delta Bank\" fit?", "note": "« she » et « Before that » renvoient à son arrivée : position [2]. En [1], pas de référent ; en [3], « Before that » renverrait au déjeuner."}
         ]
       }
     ],
@@ -69,7 +69,7 @@
         "title": "Spot pronouns and definite articles",
         "text": "A pronoun (\"it\", \"they\", \"this\", \"these\") or a phrase with \"the\" (\"the fee\", \"the change\") points to something already mentioned. Before choosing a position, check that this referent is in the previous sentence. If it only appears later, the sentence cannot go there.",
         "examples": [
-          {"en": "[1] The new parking fee starts in May. [2] **It** will be deducted from your pay. → Where does \"It will be deducted\" fit?", "note": "\"It\" = the fee: the sentence goes right after the mention of the charge."},
+          {"en": "The new parking fee starts in May. [1] Spaces are assigned by floor. [2] → Where does \"**It** will be deducted from your pay\" fit?", "note": "\"It\" = the fee: position [1], right after the fee is mentioned. At [2], it would follow the sentence about spaces and \"It\" would lose its referent."},
           {"en": "We moved the event to Hall B. **The change** was due to the size of the crowd.", "note": "\"The change\" repeats \"moved the event\": the definite article shows the thing was already said."}
         ]
       },
@@ -93,7 +93,7 @@
         "title": "Part 7: test each position [1] to [4]",
         "text": "Mentally insert the sentence at each position and reread the passage. First remove the positions where the referent is missing or the meaning breaks. Usually only one is left. For this question type, rereading four times is better than guessing from the topic alone.",
         "examples": [
-          {"en": "[1] Ms. Ortiz joins us from Delta Bank. [2] She will lead the finance team. [3] A welcome lunch is planned. → Where does \"She has ten years of experience\" fit?", "note": "\"She\" = Ms. Ortiz: placed before [1], it would have no referent. Position [2] fits."}
+          {"en": "[1] Ms. Ortiz will join us on May 2 as head of finance. [2] A welcome lunch is planned for her first day. [3] → Where does \"Before that, she spent ten years at Delta Bank\" fit?", "note": "\"she\" and \"Before that\" point to her arrival: position [2]. At [1] there is no referent; at [3], \"Before that\" would point to the lunch."}
         ]
       }
     ],

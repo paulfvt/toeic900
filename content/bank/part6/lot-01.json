@@ -621,7 +621,7 @@
       "id": "p6-0005",
       "part": 6,
       "genre": "article",
-      "text": "Marguerite's Bakery has served the Alder Hill neighborhood for twelve years and will open a second shop on Fenwick Road next Monday. The new location, [[1]] was formerly a hardware store, has been completely renovated.\n\nOwner Marguerite Okafor says demand drove the decision. Customers often waited more than twenty minutes at the original shop on Saturday mornings. [[2]] the new shop will have three ovens instead of one, she expects lines to be much shorter.\n\nThe shop will open at 6:30 A.M. on Monday, and the first fifty customers will receive a free coffee. [[3]] On Wednesday, for instance, every loaf of the popular rye bread will be half price.\n\nMs. Okafor has hired six new employees, all of whom were [[4]] trained during the past month.",
+      "text": "Golden Crust Bakery has served the Alder Hill neighborhood for twelve years and will open a second shop on Fenwick Road next Monday. The new location, [[1]] was formerly a hardware store, has been completely renovated.\n\nOwner Ngozi Okafor says demand drove the decision. Customers often waited more than twenty minutes at the original shop on Saturday mornings. [[2]] the new shop will have three ovens instead of one, she expects lines to be much shorter.\n\nThe shop will open at 6:30 A.M. on Monday, and the first fifty customers will receive a free coffee. [[3]] On Wednesday, for instance, every loaf of the popular rye bread will be half price.\n\nMs. Okafor has hired six new employees, all of whom were [[4]] trained during the past month.",
       "questions": [
         {
           "id": "p6-0005-1",
@@ -772,7 +772,7 @@
       "id": "p6-0006",
       "part": 6,
       "genre": "letter",
-      "text": "December 2\n\nDear Ms. Lindqvist,\n\nThank you for your continued business. Over the past five years, Harlow Packaging has been proud to [[1]] your company's packaging needs.\n\nBecause of rising paper costs, we must adjust our prices. The new rates [[2]] effect on January 1, and all orders placed before that date will be billed at the current prices. A detailed price list is enclosed.\n\nMr. Petrov, our account manager, has worked with your team since 2021. [[3]] familiarity with your orders is why he will remain your main contact.\n\nWe value our partnership and want to make this change as smooth as possible. [[4]] It applies to any customer who orders more than 500 units a month. Please call Mr. Petrov at 555-0148 with any questions.\n\nSincerely,\nTomas Reyes\nSales Director, Harlow Packaging",
+      "text": "December 2\n\nDear Ms. Lindqvist,\n\nThank you for your continued business. Over the past five years, Tessaro Packaging has been proud to [[1]] your company's packaging needs.\n\nBecause of rising paper costs, we must adjust our prices. The new rates [[2]] effect on January 1, and all orders placed before that date will be billed at the current prices. A detailed price list is enclosed.\n\nMr. Petrov, our account manager, has worked with your team since 2021. [[3]] familiarity with your orders is why he will remain your main contact.\n\nWe value our partnership and want to make this change as smooth as possible. [[4]] It applies to any customer who orders more than 500 units a month. Please call Mr. Petrov at 555-0148 with any questions.\n\nSincerely,\nTomas Reyes\nSales Director, Tessaro Packaging",
       "questions": [
         {
           "id": "p6-0006-1",
@@ -1200,7 +1200,7 @@
           "options": [
             "approved",
             "released",
-            "replaced",
+            "recorded",
             "disabled"
           ],
           "answer": "D",
@@ -1213,7 +1213,7 @@
               "distractors": {
                 "A": "« approved » (approuvé) a un sens positif : il irait à l'inverse de « To restore access ».",
                 "B": "« released » (remis, libéré) ne dit rien d'une perte d'accès et n'explique pas la phrase suivante.",
-                "C": "« replaced » (remplacé) est tentant à cause du retour au bureau, mais personne ne remplace automatiquement un badge : la phrase suivante parle de restaurer l'accès, pas d'un nouveau badge."
+                "C": "« recorded » (enregistré) décrit une simple trace : un badge enregistré garde son accès, il n'y aurait rien à restaurer."
               },
               "trap": "En vocabulaire en contexte, la phrase d'après donne souvent la clé : ici « restore access » implique une perte d'accès."
             },
@@ -1222,7 +1222,7 @@
               "distractors": {
                 "A": "\"approved\" has a positive meaning: it would go against \"To restore access\".",
                 "B": "\"released\" (issued, set free) says nothing about losing access and does not explain the next sentence.",
-                "C": "\"replaced\" is tempting because of the return to the desk, but nobody automatically replaces a badge: the next sentence is about restoring access, not about a new badge."
+                "C": "\"recorded\" only means a record is kept: a recorded badge still works, so there would be no access to restore."
               },
               "trap": "In vocabulary questions, the next sentence often gives the key: here \"restore access\" means access was lost."
             }

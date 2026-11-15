@@ -6,7 +6,7 @@
     "keyPoints": [
       "« many », « few », « several », « a number of » vont avec un pluriel ; « much », « little », « an amount of » avec un indénombrable.",
       "« each » et « every » se placent devant un nom au **singulier** et appellent un verbe au singulier.",
-      "« most », « all », « some » : devant un nom seul (« most employees »), mais « of the » devant un nom précis (« most of the employees »)."
+      "« most », « some » : devant un nom seul (« most employees »), mais « of the » devant un nom précis (« most of the employees »). « all » accepte les deux : « all the employees » ou « all of the employees »."
     ],
     "rules": [
       {
@@ -19,7 +19,7 @@
       },
       {
         "title": "Les quantifieurs qui vont avec les deux",
-        "text": "« some », « any », « most », « all », « a lot of », « plenty of » acceptent un pluriel comme un indénombrable. « any » s'emploie surtout dans les questions et les négations. Devant un nom précis (« the », « these », « our »), il faut « of » : « most of the staff », « some of our clients ».",
+        "text": "« some », « any », « most », « all », « a lot of », « plenty of » acceptent un pluriel comme un indénombrable. « any » s'emploie surtout dans les questions et les négations. Devant un nom précis (« the », « these », « our »), il faut « of » : « most of the staff », « some of our clients ». Seuls « all » et « both » peuvent s'en passer : « all the staff », « both our offices ».",
         "examples": [
           {"en": "**Most** employees prefer to work from home on Fridays.", "note": "Sens général, nom seul : pas de « of »."},
           {"en": "**Most of the** employees in the Lyon office use the new software.", "note": "Nom précis (« the employees ») : « of the » obligatoire."},
@@ -66,7 +66,7 @@
     "keyPoints": [
       "\"many\", \"few\", \"several\", \"a number of\" go with a plural; \"much\", \"little\", \"an amount of\" go with an uncountable noun.",
       "\"each\" and \"every\" come before a **singular** noun and take a singular verb.",
-      "\"most\", \"all\", \"some\": before a bare noun (\"most employees\"), but \"of the\" before a specific noun (\"most of the employees\")."
+      "\"most\", \"some\": before a bare noun (\"most employees\"), but \"of the\" before a specific noun (\"most of the employees\"). \"all\" takes both: \"all the employees\" or \"all of the employees\"."
     ],
     "rules": [
       {
@@ -79,7 +79,7 @@
       },
       {
         "title": "Quantifiers that go with both",
-        "text": "\"some\", \"any\", \"most\", \"all\", \"a lot of\", \"plenty of\" work with a plural or an uncountable noun. \"any\" is mostly used in questions and negatives. Before a specific noun (\"the\", \"these\", \"our\"), you need \"of\": \"most of the staff\", \"some of our clients\".",
+        "text": "\"some\", \"any\", \"most\", \"all\", \"a lot of\", \"plenty of\" work with a plural or an uncountable noun. \"any\" is mostly used in questions and negatives. Before a specific noun (\"the\", \"these\", \"our\"), you need \"of\": \"most of the staff\", \"some of our clients\". Only \"all\" and \"both\" can do without it: \"all the staff\", \"both our offices\".",
         "examples": [
           {"en": "**Most** employees prefer to work from home on Fridays.", "note": "General meaning, bare noun: no \"of\"."},
           {"en": "**Most of the** employees in the Lyon office use the new software.", "note": "Specific noun (\"the employees\"): \"of the\" is required."},

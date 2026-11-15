@@ -27,7 +27,7 @@
       },
       {
         "title": "Cherche l'indice, pas l'invention",
-        "text": "Les indices sont dans le vocabulaire (« boarding pass » pour un aéroport), dans les formules (« as usual », « again », « as discussed ») et dans les chiffres. Tout le reste est à toi, pas du texte. Pour savoir qui est l'auteur ou où se trouve l'avis, relève les mots du métier et du lieu.",
+        "text": "Les indices sont dans le vocabulaire (« boarding pass » pour un aéroport), dans les formules (« as usual », « again », « as discussed ») et dans les chiffres. Le texte te donne ces indices, mais c'est à toi d'en tirer la conclusion : il ne l'écrit jamais. Pour savoir qui est l'auteur ou où se trouve l'avis, relève les mots du métier et du lieu.",
         "examples": [
           {"en": "Please fasten your seat belt and stow your bag under the seat in front of you. → Where is this announcement made?", "note": "Les mots « seat belt » et « stow » désignent un avion."},
           {"en": "Thank you for **another** great order. → What is suggested about the customer?", "note": "« another » prouve que le client a déjà commandé : il est habituel."}
@@ -83,7 +83,7 @@
       },
       {
         "title": "Look for the clue, not the invention",
-        "text": "Clues are in the vocabulary (\"boarding pass\" for an airport), in phrases (\"as usual\", \"again\", \"as discussed\") and in numbers. Everything else is yours, not the text's. To find who the writer is or where a notice appears, pick out the words of the job and of the place.",
+        "text": "Clues are in the vocabulary (\"boarding pass\" for an airport), in phrases (\"as usual\", \"again\", \"as discussed\") and in numbers. The text gives you these clues, but you draw the conclusion yourself: it is never written. To find who the writer is or where a notice appears, pick out the words of the job and of the place.",
         "examples": [
           {"en": "Please fasten your seat belt and stow your bag under the seat in front of you. → Where is this announcement made?", "note": "The words \"seat belt\" and \"stow\" point to a plane."},
           {"en": "Thank you for **another** great order. → What is suggested about the customer?", "note": "\"another\" proves the customer has ordered before: a regular."}

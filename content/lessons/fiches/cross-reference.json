@@ -14,7 +14,7 @@
         "text": "Elle ne nomme pas de document précis, ou elle pose une question dont le texte seul ne donne qu'une moitié de la réponse. Quand une question parle d'un fait (une date, un prix, un nom) qui n'a pas de détail dans le même document, c'est un croisement. Il y en a au moins une dans chaque jeu de plusieurs documents.",
         "examples": [
           {"en": "What is the price of the workshop that Ms. Park plans to attend?", "note": "Son e-mail donne le jour, la grille de prix donne le tarif : il faut les deux."},
-          {"en": "According to the e-mail, what is the purpose of the message? / Q1", "note": "Cette question nomme un seul document : pas de croisement, lis seulement l'e-mail."}
+          {"en": "According to the e-mail, why did Ms. Park contact the training center?", "note": "Cette question nomme un seul document : pas de croisement, lis seulement l'e-mail."}
         ]
       },
       {
@@ -71,7 +71,7 @@
         "text": "It does not name a specific document, or it asks something the text alone answers only halfway. When a question mentions a fact (a date, a price, a name) that has no detail in the same document, it is a cross-reference. There is at least one in each set of several documents.",
         "examples": [
           {"en": "What is the price of the workshop that Ms. Park plans to attend?", "note": "Her e-mail gives the day, the price list gives the rate: you need both."},
-          {"en": "According to the e-mail, what is the purpose of the message? / Q1", "note": "This question names one document: no cross-reference, read only the e-mail."}
+          {"en": "According to the e-mail, why did Ms. Park contact the training center?", "note": "This question names one document: no cross-reference, read only the e-mail."}
         ]
       },
       {

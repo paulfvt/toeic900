@@ -60,7 +60,7 @@
       },
       {
         "title": "Pas de futur après une conjonction de temps",
-        "text": "Après « once », « as soon as », « unless », « when », « before » ou « after », on met le présent pour parler du futur : « as soon as the order ships ». Une option avec « will » dans cette proposition est un distracteur. « unless » contient déjà une négation : pas de « not » derrière."
+        "text": "Après « once », « as soon as », « unless », « when », « before » ou « after », on met le présent pour parler du futur : « as soon as the order ships ». Une option avec « will » dans cette proposition est un distracteur. « unless » veut déjà dire « if not » : le plus souvent, pas de second « not » derrière."
       }
     ]
   },
@@ -124,7 +124,7 @@
       },
       {
         "title": "No future after a time conjunction",
-        "text": "After \"once\", \"as soon as\", \"unless\", \"when\", \"before\" or \"after\", use the present for the future: \"as soon as the order ships\". An option with \"will\" in that clause is a distractor. \"unless\" already contains a negative: no \"not\" after it."
+        "text": "After \"once\", \"as soon as\", \"unless\", \"when\", \"before\" or \"after\", use the present for the future: \"as soon as the order ships\". An option with \"will\" in that clause is a distractor. \"unless\" already means \"if not\": usually, no second \"not\" after it."
       }
     ]
   }

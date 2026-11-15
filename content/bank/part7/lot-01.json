@@ -664,7 +664,7 @@
             "It will arrive by 6:00 P.M. with Same Day service.",
             "It can arrive today only through Express service.",
             "It will be collected during the next regular pickup.",
-            "It has to be booked by telephone."
+            "It will be billed at the end of the month."
           ],
           "answer": "B",
           "evidence": [
@@ -677,7 +677,7 @@
               "distractors": {
                 "A": "« arrive by 6:00 P.M. » ne vaut que pour une commande avant 13 h.",
                 "C": "Les ramassages réguliers sont destinés aux entreprises qui envoient chaque jour, pas à un colis ponctuel.",
-                "D": "La réservation par téléphone concerne les colis de plus de 10 kg, or il s'agit d'un petit colis."
+                "D": "La facturation mensuelle est réservée aux clients du ramassage régulier (« billed once a month ») ; les autres paient chaque livraison (« paying for each delivery »)."
               },
               "trap": "Une déduction en deux temps : élimine d'abord l'option dont la condition n'est pas remplie (avant 13 h), puis vérifie que la solution restante est disponible (mardi, avant 18 h)."
             },
@@ -686,7 +686,7 @@
               "distractors": {
                 "A": "\"arrive by 6:00 P.M.\" only applies to an order placed before 1:00 P.M.",
                 "C": "Regular pickups are for companies sending items every day, not for a one-off parcel.",
-                "D": "Phone booking applies to items over 10 kilograms, and this is a small parcel."
+                "D": "Monthly billing is only for customers on the scheduled pickup plan (\"billed once a month\"); other customers pay for each delivery."
               },
               "trap": "A two-step deduction: first eliminate the option whose condition is not met (before 1:00 P.M.), then check that the remaining solution is available (Tuesday, before 6:00 P.M.)."
             }
@@ -739,7 +739,7 @@
         {
           "genre": "chat",
           "title": "Lumio Launch Team",
-          "text": "Amara Nwosu (10:02 A.M.): Morning, everyone. The Lumio desk lamp launch is three weeks away, and we still have no venue. Where are we?\nHenrik Larsen (10:05 A.M.): I called two places yesterday. Harbor Hall holds 200 guests, but it's already booked on our date. The Glasshouse Gallery holds 120 and is free.\nAmara Nwosu (10:08 A.M.): We invited 150 press contacts and retailers. That seems like too many for the Glasshouse.\nPriya Raman (10:10 A.M.): Not necessarily. At our last launch, only about 70 percent of invited guests actually showed up. That would be roughly 105 people.\nHenrik Larsen (10:12 A.M.): Then I'll hold the Glasshouse for now.\nAmara Nwosu (10:14 A.M.): Good. Priya, can you send Henrik the final guest list by Friday so he can confirm the numbers?\nPriya Raman (10:15 A.M.): Consider it done.\nHenrik Larsen (10:16 A.M.): Great. I'll also ask the gallery about catering and whether it has a projector for the product demo.\nAmara Nwosu (10:18 A.M.): Perfect. Let's meet again on Monday morning to go over the schedule for the evening."
+          "text": "Leonie Fischer (10:02 A.M.): Morning, everyone. The Lumio desk lamp launch is three weeks away, and we still have no venue. Where are we?\nHenrik Larsen (10:05 A.M.): I called two places yesterday. Harbor Hall holds 200 guests, but it's already booked on our date. The Glasshouse Gallery holds 120 and is free.\nLeonie Fischer (10:08 A.M.): We invited 150 press contacts and retailers. That seems like too many for the Glasshouse.\nPriya Raman (10:10 A.M.): Not necessarily. At our last launch, only about 70 percent of invited guests actually showed up. That would be roughly 105 people.\nHenrik Larsen (10:12 A.M.): Then I'll hold the Glasshouse for now.\nLeonie Fischer (10:14 A.M.): Good. Priya, can you send Henrik the final guest list by Friday so he can confirm the numbers?\nPriya Raman (10:15 A.M.): Consider it done.\nHenrik Larsen (10:16 A.M.): Great. I'll also ask the gallery about catering and whether it has a projector for the product demo.\nLeonie Fischer (10:18 A.M.): Perfect. Let's meet again on Monday morning to go over the schedule for the evening."
         }
       ],
       "questions": [
@@ -763,7 +763,7 @@
           ],
           "explanation": {
             "fr": {
-              "rule": "Dès le premier message, Mme Nwosu pose le problème : « we still have no venue ». Toute la discussion compare deux salles pour l'événement de lancement.",
+              "rule": "Dès le premier message, Mme Fischer pose le problème : « we still have no venue ». Toute la discussion compare deux salles pour l'événement de lancement.",
               "distractors": {
                 "B": "La lampe existe déjà : on parle de son lancement, pas de son design.",
                 "C": "Le traiteur n'apparaît qu'à la fin (« ask the gallery about catering »), comme un détail de suivi.",
@@ -772,7 +772,7 @@
               "trap": "Pour l'idée principale d'un chat, regarde la question posée par le premier message : les détails de la fin servent de distracteurs."
             },
             "en": {
-              "rule": "From the first message, Ms. Nwosu states the problem: \"we still have no venue\". The whole discussion compares two halls for the launch event.",
+              "rule": "From the first message, Ms. Fischer states the problem: \"we still have no venue\". The whole discussion compares two halls for the launch event.",
               "distractors": {
                 "B": "The lamp already exists: they discuss its launch, not its design.",
                 "C": "Catering only appears at the end (\"ask the gallery about catering\"), as a follow-up detail.",
@@ -802,7 +802,7 @@
           ],
           "explanation": {
             "fr": {
-              "rule": "Mme Nwosu vient de demander : « can you send Henrik the final guest list by Friday ». « Consider it done » répond à cette demande : Mme Raman s'engage à le faire à temps.",
+              "rule": "Mme Fischer vient de demander : « can you send Henrik the final guest list by Friday ». « Consider it done » répond à cette demande : Mme Raman s'engage à le faire à temps.",
               "distractors": {
                 "A": "Elle ne s'oppose à rien : « Consider it done » est une réponse positive.",
                 "B": "L'expression exprime la certitude, pas un besoin de temps supplémentaire.",
@@ -811,7 +811,7 @@
               "trap": "Pour une réplique courte, relis le message juste avant : le sens de l'expression dépend de la demande à laquelle elle répond."
             },
             "en": {
-              "rule": "Ms. Nwosu has just asked: \"can you send Henrik the final guest list by Friday\". \"Consider it done\" answers that request: Ms. Raman promises to do it on time.",
+              "rule": "Ms. Fischer has just asked: \"can you send Henrik the final guest list by Friday\". \"Consider it done\" answers that request: Ms. Raman promises to do it on time.",
               "distractors": {
                 "A": "She does not object to anything: \"Consider it done\" is a positive answer.",
                 "B": "The phrase expresses certainty, not a need for more time.",
@@ -827,36 +827,35 @@
             "detail"
           ],
           "difficulty": 2,
-          "stem": "Why does Mr. Larsen decide to hold the Glasshouse Gallery?",
+          "stem": "What is indicated about Harbor Hall?",
           "options": [
-            "It has room for more guests.",
-            "The other venue is already reserved.",
-            "Its rental fee is lower.",
-            "It is nearer to the office."
+            "It is smaller than the Glasshouse Gallery.",
+            "It is not available on the day of the launch.",
+            "It charges less than the gallery.",
+            "It is close to the company's office."
           ],
           "answer": "B",
           "evidence": [
-            "Harbor Hall holds 200 guests, but it's already booked on our date.",
-            "The Glasshouse Gallery holds 120 and is free."
+            "Harbor Hall holds 200 guests, but it's already booked on our date."
           ],
           "explanation": {
             "fr": {
-              "rule": "M. Larsen explique que « Harbor Hall » est « already booked on our date » alors que le Glasshouse est libre. « Reserved » reformule « booked ».",
+              "rule": "M. Larsen écrit que Harbor Hall est « already booked on our date » : la salle est déjà prise le jour du lancement. « Not available on the day » reformule « booked on our date ».",
               "distractors": {
                 "A": "C'est l'inverse : Harbor Hall accueille 200 personnes, le Glasshouse 120.",
-                "C": "Aucun prix de location n'est donné.",
+                "C": "Aucun prix de location n'est donné pour l'une ou l'autre salle.",
                 "D": "La distance par rapport au bureau n'est jamais mentionnée."
               },
-              "trap": "La bonne réponse reformule le texte (booked → reserved) ; un distracteur peut être plausible mais totalement absent du texte."
+              "trap": "La bonne réponse reformule le texte (booked → not available) ; un distracteur peut être plausible mais totalement absent du texte."
             },
             "en": {
-              "rule": "Mr. Larsen explains that \"Harbor Hall\" is \"already booked on our date\" while the Glasshouse is free. \"Reserved\" paraphrases \"booked\".",
+              "rule": "Mr. Larsen writes that Harbor Hall is \"already booked on our date\": it is taken on the day of the launch. \"Not available on the day\" paraphrases \"booked on our date\".",
               "distractors": {
                 "A": "It is the opposite: Harbor Hall holds 200 people, the Glasshouse 120.",
-                "C": "No rental price is given.",
+                "C": "No rental price is given for either venue.",
                 "D": "The distance from the office is never mentioned."
               },
-              "trap": "The right answer paraphrases the text (booked → reserved); a distractor can be plausible yet completely absent from the text."
+              "trap": "The right answer paraphrases the text (booked → not available); a distractor can be plausible yet completely absent from the text."
             }
           }
         },
@@ -1038,12 +1037,12 @@
       "documents": [
         {
           "genre": "advertisement",
-          "title": "Harlow Office Supply",
-          "text": "SPRING SAVINGS EVENT\nApril 7 to April 20\n\nGive your team a better workspace for less!\n\nErgonomic chairs - $120 (regular price $160)\nStanding desks - $280 (regular price $350)\nLED desk lamps - $25 each (regular price $35)\nPrinter paper, case of 10 reams - $38 (regular price $45)\n\nSale prices are available online at www.harlowoffice.example and at our Fairview store. No coupon or membership is required.\n\nDelivery is free on orders over $400 (before tax) within 20 miles of our Fairview store. Smaller orders are delivered for a flat fee of $15.\n\nSale prices end on April 20 and cannot be extended.\n\nHarlow Office Supply has served local businesses, schools, and home offices for more than 20 years. Our staff can help you choose furniture that fits your space, and every chair and desk comes with a five-year warranty. Orders placed on our website ship from our Fairview warehouse within two days."
+          "title": "Brookfield Office Supply",
+          "text": "SPRING SAVINGS EVENT\nApril 7 to April 20\n\nGive your team a better workspace for less!\n\nErgonomic chairs - $120 (regular price $160)\nStanding desks - $280 (regular price $350)\nLED desk lamps - $25 each (regular price $35)\nPrinter paper, case of 10 reams - $38 (regular price $45)\n\nSale prices are available online at www.brookfieldoffice.example and at our Fairview store. No coupon or membership is required.\n\nDelivery is free on orders over $400 (before tax) within 20 miles of our Fairview store. Smaller orders are delivered for a flat fee of $15.\n\nSale prices end on April 20 and cannot be extended.\n\nBrookfield Office Supply has served local businesses, schools, and home offices for more than 20 years. Our staff can help you choose furniture that fits your space, and every chair and desk comes with a five-year warranty. Orders placed on our website ship from our Fairview warehouse within two days."
         },
         {
           "genre": "email",
-          "text": "To: service@harlowoffice.example\nFrom: Renata Kowalczyk\nDate: April 9\nSubject: My online order\n\nDear Harlow team,\n\nOur tutoring center is welcoming four new tutors on April 14, so yesterday I ordered three ergonomic chairs and two LED desk lamps from your website. Our office on Birch Lane is only six miles from your Fairview store. I would also like two standing desks, but our budget for them will not be approved until April 22.\n\nWill the sale price cover the desks if I order them after April 22? Also, my confirmation does not mention delivery, so could you tell me what I will be charged for it?\n\nI was pleased with the quick service last year, when we furnished our front desk with your products, and I hope this order goes as smoothly. We have enough printer paper for now, so I am not adding any to this order.\n\nThank you,\nRenata Kowalczyk\nBrightpath Tutoring"
+          "text": "To: service@brookfieldoffice.example\nFrom: Renata Kowalczyk\nDate: April 9\nSubject: My online order\n\nDear Brookfield team,\n\nOur tutoring center is welcoming four new tutors on April 14, so yesterday I ordered three ergonomic chairs and two LED desk lamps from your website. Our office on Birch Lane is only six miles from your Fairview store. I would also like two standing desks, but our budget for them will not be approved until April 22.\n\nWill the sale price cover the desks if I order them after April 22? Also, my confirmation does not mention delivery, so could you tell me what I will be charged for it?\n\nI was pleased with the quick service last year, when we furnished our front desk with your products, and I hope this order goes as smoothly. We have enough printer paper for now, so I am not adding any to this order.\n\nThank you,\nRenata Kowalczyk\nBrightpath Tutoring"
         }
       ],
       "questions": [
@@ -1062,7 +1061,7 @@
           ],
           "answer": "D",
           "evidence": [
-            "Sale prices are available online at www.harlowoffice.example and at our Fairview store.",
+            "Sale prices are available online at www.brookfieldoffice.example and at our Fairview store.",
             "No coupon or membership is required."
           ],
           "explanation": {
@@ -1108,7 +1107,7 @@
               "rule": "Le centre « is welcoming four new tutors on April 14 » : on déduit qu'il agrandit son équipe, même si le texte ne le dit pas en ces termes.",
               "distractors": {
                 "A": "Rien n'indique un déménagement : la cliente parle de son bureau actuel, « on Birch Lane ».",
-                "B": "C'est Harlow qui vend des fournitures ; Brightpath est un client.",
+                "B": "C'est Brookfield qui vend des fournitures ; Brightpath est un client.",
                 "D": "Le centre a un bureau et accueille des tuteurs sur place ; rien n'indique des cours en ligne seulement."
               },
               "trap": "Une inférence part d'UNE phrase précise (ici l'arrivée de nouveaux tuteurs) ; la bonne réponse en est la conséquence logique."
@@ -1117,7 +1116,7 @@
               "rule": "The center \"is welcoming four new tutors on April 14\": you can infer it is growing its team, even though the text does not say so in those words.",
               "distractors": {
                 "A": "Nothing suggests a move: the customer talks about her current office, \"on Birch Lane\".",
-                "B": "Harlow sells supplies; Brightpath is a customer.",
+                "B": "Brookfield sells supplies; Brightpath is a customer.",
                 "D": "The center has an office and welcomes tutors on site; nothing indicates online lessons only."
               },
               "trap": "An inference starts from ONE precise sentence (here the arrival of new tutors); the right answer is its logical consequence."
@@ -1210,7 +1209,7 @@
             "synonym-in-context"
           ],
           "difficulty": 2,
-          "stem": "In the e-mail, the word \"cover\" in paragraph 2, line 1, is closest in meaning to",
+          "stem": "In the e-mail, the word \"cover\" in paragraph 2 is closest in meaning to",
           "options": [
             "hide",
             "protect",

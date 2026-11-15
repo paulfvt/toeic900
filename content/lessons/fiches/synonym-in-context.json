@@ -4,16 +4,16 @@
     "title": "Synonyme en contexte",
     "summary": "On te demande le sens d'un mot **dans sa phrase**, pas son sens habituel. Ces mots ont plusieurs sens, et les distracteurs sont les autres sens du mot. La méthode : relire la phrase entière et remplacer le mot par chaque option.",
     "keyPoints": [
-      "Forme : The word \"X\" in paragraph 2, line 3, is closest in meaning to… Ne réponds jamais sans relire la phrase.",
+      "Forme : The word \"X\" in paragraph 2 is closest in meaning to… Ne réponds jamais sans relire la phrase.",
       "Le mot a plusieurs sens (« cover », « address », « issue », « secure »…). Seul le sens **dans la phrase** compte.",
       "Remplace le mot par chaque option : garde celle qui ne change pas le sens de la phrase."
     ],
     "rules": [
       {
         "title": "Reconnaître la question",
-        "text": "Elle cite un mot entre guillemets avec sa place dans le texte (paragraphe, ligne). Les mots testés sont courants mais polysémiques : « cover », « address », « issue », « secure », « run », « raise », « term », « sound », « due », « outstanding », « critical ». Un mot rare ou technique est rarement visé.",
+        "text": "Elle cite un mot entre guillemets avec sa place dans le texte : le paragraphe, et à l'examen papier la ligne aussi (l'app ne la donne pas, les lignes changent selon l'écran). Les mots testés sont courants mais polysémiques : « cover », « address », « issue », « secure », « run », « raise », « term », « sound », « due », « outstanding », « critical ». Un mot rare ou technique est rarement visé.",
         "examples": [
-          {"en": "The word \"issue\" in paragraph 2, line 3, is closest in meaning to", "note": "Forme typique : le mot, sa position, puis quatre synonymes possibles."},
+          {"en": "The word \"issue\" in paragraph 2 is closest in meaning to", "note": "Forme typique : le mot, sa position, puis quatre synonymes possibles."},
           {"en": "The word \"outstanding\" in the first paragraph is closest in meaning to", "note": "« outstanding » : « excellent » ou « impayé » ? Seule la phrase le dit."}
         ]
       },
@@ -61,16 +61,16 @@
     "title": "Synonym in context",
     "summary": "You are asked the meaning of a word **in its sentence**, not its usual meaning. These words have several meanings, and the wrong options are the other meanings of the word. The method: reread the whole sentence and replace the word with each option.",
     "keyPoints": [
-      "Form: The word \"X\" in paragraph 2, line 3, is closest in meaning to… Never answer without rereading the sentence.",
+      "Form: The word \"X\" in paragraph 2 is closest in meaning to… Never answer without rereading the sentence.",
       "The word has several meanings (\"cover\", \"address\", \"issue\", \"secure\"…). Only the meaning **in the sentence** counts.",
       "Replace the word with each option: keep the one that does not change the meaning of the sentence."
     ],
     "rules": [
       {
         "title": "Recognizing the question",
-        "text": "It quotes a word with its place in the text (paragraph, line). The words tested are common but have several meanings: \"cover\", \"address\", \"issue\", \"secure\", \"run\", \"raise\", \"term\", \"sound\", \"due\", \"outstanding\", \"critical\". A rare or technical word is rarely tested.",
+        "text": "It quotes a word with its place in the text: the paragraph, and on the paper test the line too (the app does not give it, because lines change with the screen). The words tested are common but have several meanings: \"cover\", \"address\", \"issue\", \"secure\", \"run\", \"raise\", \"term\", \"sound\", \"due\", \"outstanding\", \"critical\". A rare or technical word is rarely tested.",
         "examples": [
-          {"en": "The word \"issue\" in paragraph 2, line 3, is closest in meaning to", "note": "Typical form: the word, its position, then four possible synonyms."},
+          {"en": "The word \"issue\" in paragraph 2 is closest in meaning to", "note": "Typical form: the word, its position, then four possible synonyms."},
           {"en": "The word \"outstanding\" in the first paragraph is closest in meaning to", "note": "\"outstanding\": \"excellent\" or \"unpaid\"? Only the sentence tells you."}
         ]
       },
