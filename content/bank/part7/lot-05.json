@@ -1,0 +1,648 @@
+{
+  "part": 7,
+  "pool": "training",
+  "sets": [
+    {
+      "id": "p7-0027",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "brochure",
+          "title": "Wren & Castellano Architects",
+          "text": "HOME RENOVATION PACKAGES\n\nPlanning to change your home? Our studio in Dayton Falls offers three packages for homeowners. Our architects are licensed in the state and have designed more than 300 homes.\n\nConcept Package - $1,200\nTwo site visits and three sketch options. Completed within two weeks.\n\nDesign Package - $3,500\nEverything in the Concept Package, plus detailed drawings and a materials list. Completed within six weeks.\n\nFull Service Package - $6,800\nEverything in the Design Package, plus permit applications and four inspections during construction.\n\nClients who choose the Design Package or the Full Service Package may add a 3-D model of the finished project for $400. Every Tuesday we offer a free 30-minute consultation with one of our architects; to reserve a time, send us the intake form.\n\nA deposit of 25 percent of the package price covers the first site visit and holds your start date."
+        },
+        {
+          "genre": "form",
+          "title": "Wren & Castellano Architects - Client Intake Form",
+          "text": "Client: Joaquin Barros\nAddress: 52 Linden Court, Dayton Falls\nDate submitted: March 3\nProject: Replace the back porch with a sunroom (about 180 square feet)\nPackage requested: Design Package\nAdd-on: 3-D model\nPreferred consultation: Tuesday, March 10, 4:00 P.M.\nDesired start of construction: June\nConstruction budget: $45,000\nHow did you hear about us? From my neighbor, Tobias Weir, whose kitchen plans your studio drew last year."
+        },
+        {
+          "genre": "email",
+          "text": "To: Joaquin Barros\nFrom: Nuala Peretz, Client Coordinator\nDate: March 4\nSubject: Your intake form\n\nDear Mr. Barros,\n\nThank you for sending your form. The 4:00 P.M. time on March 10 is no longer available, but Mr. Castellano can meet you at 3:00 P.M. that day. Please reply to confirm, and we will add the appointment to our calendar. If you can, bring photos of the porch and any drawings you already have.\n\nSince you plan to start building in June, you will need a building permit. Please note that the package you selected does not include permit applications. If you would like our help with them, you could upgrade to the package that does, and we would revise your agreement before the consultation.\n\nOur office is open Monday to Friday, 8:30 A.M. to 5:00 P.M.\n\nBest regards,\nNuala Peretz\nClient Coordinator"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0027-1",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 3,
+          "stem": "What is indicated about the 3-D model?",
+          "options": [
+            "It is included in the Design Package.",
+            "It is free for Full Service clients.",
+            "It is completed within two weeks.",
+            "It is not offered with the Concept Package."
+          ],
+          "answer": "D",
+          "evidence": [
+            "Clients who choose the Design Package or the Full Service Package may add a 3-D model of the finished project for $400."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La brochure réserve le modèle 3D aux clients qui choisissent « the Design Package or the Full Service Package ». Le Concept Package n'est pas cité : le modèle n'y est donc pas proposé.",
+              "distractors": {
+                "A": "Le modèle est une option payante (« may add… for $400 ») ; il n'est pas compris dans le Design Package.",
+                "B": "Le texte dit « for $400 » pour les deux formules : aucune gratuité pour le Full Service.",
+                "C": "« Within two weeks » est le délai du Concept Package ; la brochure ne donne aucun délai pour le modèle 3D."
+              },
+              "trap": "Quand une option est réservée à certaines formules, la bonne réponse se déduit de celles qui ne sont pas citées : relis la liste complète."
+            },
+            "en": {
+              "rule": "The brochure reserves the 3-D model for clients who choose \"the Design Package or the Full Service Package\". The Concept Package is not named, so the model is not offered with it.",
+              "distractors": {
+                "A": "The model is a paid option (\"may add... for $400\"); it is not included in the Design Package.",
+                "B": "The text says \"for $400\" for both packages: nothing is free for Full Service clients.",
+                "C": "\"Within two weeks\" is the Concept Package's time frame; the brochure gives no time frame for the 3-D model."
+              },
+              "trap": "When an option is limited to certain packages, the right answer comes from the ones that are not named: reread the whole list."
+            }
+          }
+        },
+        {
+          "id": "p7-0027-2",
+          "tags": [
+            "synonym-in-context"
+          ],
+          "difficulty": 1,
+          "stem": "In the brochure, the word \"holds\" in the last paragraph is closest in meaning to",
+          "options": [
+            "reserves",
+            "grips",
+            "contains",
+            "organizes"
+          ],
+          "answer": "A",
+          "evidence": [
+            "covers the first site visit and holds your start date"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« A deposit... holds your start date » : le dépôt bloque la date de début pour toi, donc il la réserve (« reserves »).",
+              "distractors": {
+                "B": "« grips » est le sens physique de « hold » (tenir dans la main) ; un dépôt ne tient rien dans la main.",
+                "C": "« contains » est le sens de « hold » pour un récipient (« the tank holds 50 liters ») ; une somme d'argent ne contient pas une date.",
+                "D": "« organizes » est le sens de « hold » pour un événement (« hold a meeting ») ; le dépôt n'organise pas la date, il la garde pour toi."
+              },
+              "trap": "Remplace le mot par chaque option dans la phrase : seule la version qui garde le sens du texte est la bonne, pas celle qui est valable dans une autre phrase."
+            },
+            "en": {
+              "rule": "\"A deposit... holds your start date\": the deposit keeps the start date for you, so it reserves it.",
+              "distractors": {
+                "B": "\"grips\" is the physical meaning of \"hold\" (in your hand); a deposit does not grip anything.",
+                "C": "\"contains\" is the meaning of \"hold\" for a container (\"the tank holds 50 liters\"); money does not contain a date.",
+                "D": "\"organizes\" is the meaning of \"hold\" for an event (\"hold a meeting\"); the deposit does not organize the date, it keeps it for you."
+              },
+              "trap": "Put each option back into the sentence: only the one that keeps the text's meaning is right, not the one that works in another sentence."
+            }
+          }
+        },
+        {
+          "id": "p7-0027-3",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 1,
+          "stem": "What is the price of the package that Mr. Barros requested?",
+          "options": [
+            "$3,500",
+            "$3,900",
+            "$1,200",
+            "$6,800"
+          ],
+          "answer": "A",
+          "evidence": [
+            "Package requested: Design Package",
+            "Design Package - $3,500"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le formulaire indique « Package requested: Design Package » ; la brochure fixe le prix de cette formule : « Design Package - $3,500 ».",
+              "distractors": {
+                "B": "$3,900 ajoute le modèle 3D (400 $), mais cette option est facturée à part : elle ne fait pas partie du prix de la formule.",
+                "C": "$1,200 est le prix du Concept Package, que M. Barros n'a pas demandé.",
+                "D": "$6,800 est le prix du Full Service Package, pas celui du Design Package."
+              },
+              "trap": "Le nom de la formule est dans un document, son prix dans un autre : note le nom, puis cherche-le dans l'autre."
+            },
+            "en": {
+              "rule": "The form says \"Package requested: Design Package\"; the brochure sets the price of that package: \"Design Package - $3,500\".",
+              "distractors": {
+                "B": "$3,900 adds the 3-D model ($400), but that option is billed separately: it is not part of the package price.",
+                "C": "$1,200 is the price of the Concept Package, which Mr. Barros did not request.",
+                "D": "$6,800 is the price of the Full Service Package, not the Design Package."
+              },
+              "trap": "The package name is in one document and its price in another: note the name, then look it up in the other."
+            }
+          }
+        },
+        {
+          "id": "p7-0027-4",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 2,
+          "stem": "What is suggested about Tobias Weir?",
+          "options": [
+            "He works for Wren & Castellano.",
+            "He has hired the firm before.",
+            "He will build Mr. Barros's sunroom.",
+            "He lives near the firm's studio."
+          ],
+          "answer": "B",
+          "evidence": [
+            "whose kitchen plans your studio drew last year"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Mr. Barros écrit que M. Weir est un voisin « whose kitchen plans your studio drew last year ». Si le cabinet a dessiné les plans de sa cuisine, c'est que M. Weir a été son client.",
+              "distractors": {
+                "A": "Rien ne dit qu'il travaille au cabinet : il est présenté comme un voisin de M. Barros.",
+                "C": "Le texte ne parle pas de la construction ; un cabinet d'architectes dessine, il ne construit pas forcément.",
+                "D": "C'est le voisin de M. Barros, pas du cabinet : rien n'indique où il habite par rapport à l'atelier."
+              },
+              "trap": "Une déduction s'appuie sur un détail précis (ici « kitchen plans... drew ») ; écarte les options qui demandent d'imaginer un fait nouveau."
+            },
+            "en": {
+              "rule": "Mr. Barros writes that Mr. Weir is a neighbor \"whose kitchen plans your studio drew last year\". If the firm drew his kitchen plans, Mr. Weir was its client.",
+              "distractors": {
+                "A": "Nothing says he works at the firm: he is described as Mr. Barros's neighbor.",
+                "C": "The text says nothing about construction; an architecture firm draws plans, it does not necessarily build.",
+                "D": "He is Mr. Barros's neighbor, not the firm's: nothing says where he lives in relation to the studio."
+              },
+              "trap": "An inference rests on one precise detail (here \"kitchen plans... drew\"); drop options that require you to imagine a new fact."
+            }
+          }
+        },
+        {
+          "id": "p7-0027-5",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 2,
+          "stem": "How much more would Mr. Barros pay for a package that includes help with permit applications than for the one he selected?",
+          "options": [
+            "$2,300",
+            "$2,900",
+            "$5,600",
+            "$3,300"
+          ],
+          "answer": "D",
+          "evidence": [
+            "the package you selected does not include permit applications",
+            "Full Service Package - $6,800",
+            "Design Package - $3,500"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "L'e-mail dit que le Design Package, choisi par M. Barros, n'inclut pas « permit applications ». La brochure montre que seul le Full Service Package les inclut : 6 800 $ - 3 500 $ = 3 300 $.",
+              "distractors": {
+                "A": "2 300 $ est l'écart entre le Design Package et le Concept Package, qui ne couvre pas les permis non plus.",
+                "B": "2 900 $ vient de 6 800 $ - 3 900 $ : on a ajouté le modèle 3D au Design Package, alors que ce supplément ne change pas la différence entre les deux formules.",
+                "C": "5 600 $ est l'écart entre le Full Service Package et le Concept Package, formule que M. Barros n'a pas choisie."
+              },
+              "trap": "Quand il faut calculer une différence, identifie d'abord les deux points de départ (formule choisie, formule visée), puis fais la soustraction une seule fois."
+            },
+            "en": {
+              "rule": "The e-mail says the Design Package, which Mr. Barros chose, does not include \"permit applications\". The brochure shows that only the Full Service Package includes them: $6,800 - $3,500 = $3,300.",
+              "distractors": {
+                "A": "$2,300 is the gap between the Design Package and the Concept Package, which does not cover permits either.",
+                "B": "$2,900 comes from $6,800 - $3,900: it adds the 3-D model to the Design Package, but that extra is the same either way and does not change the gap.",
+                "C": "$5,600 is the gap between the Full Service Package and the Concept Package, which Mr. Barros did not choose."
+              },
+              "trap": "For a difference question, first identify both starting points (the chosen package, the target package), then subtract once."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0028",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "invoice",
+          "title": "Corvane Air Freight",
+          "text": "Invoice No. 30418\nInvoice date: May 6\nCustomer: Halden Botanicals (Account HB-220)\nRoute: Portland to Frankfurt, shipped May 2\nContents: 24 cartons of potted herbs\nAir waybill: 774-5521\nPick-up: Portland warehouse, May 2, 7:30 A.M.\n\nChargeable weight: 240 kg\nRate: $4.50 per kg\nFreight charge: $1,080.00\nFuel surcharge (12 percent of freight charge): $129.60\nRefrigerated handling: $210.00\nCustoms documentation: $85.00\nTotal due: $1,504.60\n\nPayment terms: Net 30 days. A 2 percent discount applies if paid within 10 days of the invoice date. Send payment to Accounts Receivable, Corvane Air Freight, 1180 Harbor Way, Portland."
+        },
+        {
+          "genre": "email",
+          "text": "To: billing@corvane-airfreight.example\nFrom: Ines Valverde, Halden Botanicals\nDate: May 12\nSubject: Invoice No. 30418\n\nDear Corvane Billing Team,\n\nI am writing about invoice No. 30418. The cartons left our Portland warehouse on May 2 and reached Frankfurt on schedule and in perfect condition, and our customer, a restaurant supplier, received them the next day and is very pleased. However, two items on the invoice do not match our records.\n\nFirst, the quote we accepted on April 28 stated that refrigerated handling is included in the per-kilogram rate, yet it appears as a separate charge. Second, the invoice bills 240 kg, but our packing list shows 216 kg, and our own warehouse scale confirmed that figure before pickup. Each carton weighs nine kilograms, and the packing list was signed by your driver at 7:30 A.M. on May 2.\n\nIn case it helps, our account number is HB-220, and a copy of the accepted quote is available in your customer portal under our company name.\n\nPlease send a corrected invoice with the fuel surcharge recalculated. Please also keep the original invoice date on it, since we will pay on May 14 and expect the early-payment discount. I have attached a copy of the quote and of our packing list for your reference, and I would appreciate a reply by May 13 so that our accounting department can plan the payment.\n\nWe have shipped with Corvane every month since January and would like to continue, but we need invoices that match our quotes.\n\nSincerely,\nInes Valverde\nOperations Manager, Halden Botanicals"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0028-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 2,
+          "stem": "Why did Ms. Valverde write the e-mail?",
+          "options": [
+            "To report a delay in a delivery",
+            "To ask for a quote for a new shipment",
+            "To cancel a monthly arrangement",
+            "To question some charges on a bill"
+          ],
+          "answer": "D",
+          "evidence": [
+            "two items on the invoice do not match our records"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Dès le premier paragraphe, Mme Valverde annonce que « two items on the invoice do not match our records », puis détaille les deux postes contestés et demande une facture corrigée : elle remet en question des frais.",
+              "distractors": {
+                "A": "Le colis est arrivé « on schedule » : il n'y a aucun retard.",
+                "B": "Elle ne demande aucun devis ; le devis du 28 avril est cité seulement pour contester la facture.",
+                "C": "Elle dit vouloir continuer à expédier avec Corvane (« would like to continue »)."
+              },
+              "trap": "Pour une question de but, cherche le verbe de la demande (« do not match », « send a corrected invoice ») plutôt que les détails annexes."
+            },
+            "en": {
+              "rule": "In the first paragraph, Ms. Valverde states that \"two items on the invoice do not match our records\", then explains both disputed items and asks for a corrected invoice: she is questioning charges.",
+              "distractors": {
+                "A": "The shipment arrived \"on schedule\": there is no delay.",
+                "B": "She asks for no quote; the April 28 quote is mentioned only to challenge the invoice.",
+                "C": "She says she wants to keep shipping with Corvane (\"would like to continue\")."
+              },
+              "trap": "For a purpose question, look for the verb of the request (\"do not match\", \"send a corrected invoice\") rather than side details."
+            }
+          }
+        },
+        {
+          "id": "p7-0028-2",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 2,
+          "stem": "What does Ms. Valverde say about the weight on the invoice?",
+          "options": [
+            "It was checked by a Corvane employee.",
+            "It is lower than the amount in the quote.",
+            "It is higher than her records show.",
+            "It was changed after the shipment left."
+          ],
+          "answer": "C",
+          "evidence": [
+            "the invoice bills 240 kg, but our packing list shows 216 kg"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Elle écrit : « the invoice bills 240 kg, but our packing list shows 216 kg ». Le poids facturé est donc supérieur à celui de ses documents.",
+              "distractors": {
+                "A": "La seule vérification citée est celle de « our own warehouse scale », la balance de Halden, pas un employé de Corvane.",
+                "B": "Le devis n'est cité que pour la manutention réfrigérée ; aucun poids n'y est mentionné, et le poids facturé est plus élevé, pas plus bas.",
+                "D": "Rien n'indique que le poids ait été modifié après le départ : elle dit seulement qu'il ne correspond pas à son relevé."
+              },
+              "trap": "Les distracteurs reprennent un mot du texte (scale, quote, invoice) dans une situation qui n'existe pas : vérifie qui a fait quoi."
+            },
+            "en": {
+              "rule": "She writes: \"the invoice bills 240 kg, but our packing list shows 216 kg\". The billed weight is therefore higher than her records.",
+              "distractors": {
+                "A": "The only check mentioned is \"our own warehouse scale\", Halden's scale, not a Corvane employee.",
+                "B": "The quote is cited only about refrigerated handling; no weight is mentioned in it, and the billed weight is higher, not lower.",
+                "D": "Nothing says the weight was changed after departure: she only says it does not match her record."
+              },
+              "trap": "Distractors reuse a word from the text (scale, quote, invoice) in a situation that does not exist: check who did what."
+            }
+          }
+        },
+        {
+          "id": "p7-0028-3",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 3,
+          "stem": "If Corvane accepts both of Ms. Valverde's objections, what total should the corrected invoice show?",
+          "options": [
+            "$1,173.64",
+            "$1,294.60",
+            "$1,383.64",
+            "$1,186.60"
+          ],
+          "answer": "A",
+          "evidence": [
+            "Rate: $4.50 per kg",
+            "refrigerated handling is included in the per-kilogram rate",
+            "our packing list shows 216 kg"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Poids corrigé : 216 kg x 4,50 $ = 972,00 $. Surcharge carburant recalculée : 12 % de 972 $ = 116,64 $. Manutention réfrigérée supprimée (déjà incluse dans le tarif au kilo). Douane : 85,00 $. Total : 972,00 + 116,64 + 85,00 = 1 173,64 $.",
+              "distractors": {
+                "B": "1 294,60 $ = 1 504,60 $ - 210 $ : on a retiré la manutention mais gardé le poids de 240 kg.",
+                "C": "1 383,64 $ = 972 + 116,64 + 210 + 85 : on a corrigé le poids mais gardé la manutention réfrigérée.",
+                "D": "1 186,60 $ = 972 + 129,60 + 85 : on a corrigé le poids sans recalculer la surcharge, qui dépend du fret."
+              },
+              "trap": "Avec plusieurs corrections, refais le calcul poste par poste et n'oublie pas les frais calculés en pourcentage : ils changent avec la base."
+            },
+            "en": {
+              "rule": "Corrected weight: 216 kg x $4.50 = $972.00. Fuel surcharge recalculated: 12 percent of $972 = $116.64. Refrigerated handling removed (already in the per-kilogram rate). Customs: $85.00. Total: 972.00 + 116.64 + 85.00 = $1,173.64.",
+              "distractors": {
+                "B": "$1,294.60 = $1,504.60 - $210: the handling charge was removed but the 240 kg weight was kept.",
+                "C": "$1,383.64 = 972 + 116.64 + 210 + 85: the weight was corrected but the refrigerated handling was kept.",
+                "D": "$1,186.60 = 972 + 129.60 + 85: the weight was corrected without recalculating the surcharge, which depends on the freight charge."
+              },
+              "trap": "With several corrections, redo the calculation line by line and do not forget charges set as a percentage: they change with their base."
+            }
+          }
+        },
+        {
+          "id": "p7-0028-4",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 3,
+          "stem": "Why does Ms. Valverde ask Corvane to keep the original invoice date?",
+          "options": [
+            "Her accounting system cannot change dates.",
+            "She wants to receive a reduction for paying early.",
+            "Her customer needs the date for customs purposes.",
+            "The quote was accepted on that date."
+          ],
+          "answer": "B",
+          "evidence": [
+            "A 2 percent discount applies if paid within 10 days of the invoice date.",
+            "Please also keep the original invoice date on it, since we will pay on May 14 and expect the early-payment discount.",
+            "Invoice date: May 6"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La facture accorde 2 % de remise « if paid within 10 days of the invoice date ». Datée du 6 mai, elle permet de payer avec remise jusqu'au 16 mai ; Ms. Valverde paiera le 14 mai et dit attendre « the early-payment discount ». Une nouvelle date ne changerait rien pour elle, mais l'ancienne lui garantit la remise : il faut les deux documents pour le comprendre.",
+              "distractors": {
+                "A": "Le système comptable de Halden n'est jamais décrit ; l'e-mail parle seulement de planifier le paiement.",
+                "C": "Le client de Halden a déjà reçu la marchandise ; rien ne relie la date de facture aux formalités de douane.",
+                "D": "Le devis a été accepté le 28 avril, pas le 6 mai, qui est la date de la facture."
+              },
+              "trap": "Quand une personne demande quelque chose « since… », lis la raison qu'elle donne puis cherche dans l'autre document la règle qui la justifie (ici, les conditions de paiement)."
+            },
+            "en": {
+              "rule": "The invoice offers a 2 percent discount \"if paid within 10 days of the invoice date\". Dated May 6, it allows a discounted payment until May 16; Ms. Valverde will pay on May 14 and says she expects \"the early-payment discount\". You need both documents to see that the original date secures the discount.",
+              "distractors": {
+                "A": "Halden's accounting system is never described; the e-mail only mentions planning the payment.",
+                "C": "Halden's customer has already received the goods; nothing links the invoice date to customs.",
+                "D": "The quote was accepted on April 28, not on May 6, which is the invoice date."
+              },
+              "trap": "When someone asks for something \"since...\", read the reason given, then look in the other document for the rule behind it (here, the payment terms)."
+            }
+          }
+        },
+        {
+          "id": "p7-0028-5",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 3,
+          "stem": "What is suggested about Halden Botanicals?",
+          "options": [
+            "It recently changed to a new carrier.",
+            "It may stop shipping with Corvane if billing problems continue.",
+            "It is dissatisfied with how its goods were delivered.",
+            "It will accept the invoice without changes."
+          ],
+          "answer": "B",
+          "evidence": [
+            "We have shipped with Corvane every month since January and would like to continue, but we need invoices that match our quotes."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La dernière phrase pose une condition : Halden veut continuer (« would like to continue »), « but » elle a besoin de factures conformes aux devis. On en déduit que des erreurs répétées pourraient mettre fin à la relation.",
+              "distractors": {
+                "A": "Halden expédie avec Corvane « every month since January » : ce n'est pas un nouveau transporteur.",
+                "C": "Au contraire, la livraison s'est faite « on schedule and in perfect condition » et le client final est content.",
+                "D": "Elle conteste deux postes et demande une facture corrigée."
+              },
+              "trap": "« Would like to... but... » signale une condition : la déduction se trouve dans ce qui suit le « but »."
+            },
+            "en": {
+              "rule": "The last sentence sets a condition: Halden wants to continue (\"would like to continue\"), \"but\" it needs invoices that match its quotes. You can infer that repeated errors could end the relationship.",
+              "distractors": {
+                "A": "Halden has shipped with Corvane \"every month since January\": it is not a new carrier.",
+                "C": "On the contrary, delivery was \"on schedule and in perfect condition\" and the end customer is pleased.",
+                "D": "It disputes two items and asks for a corrected invoice."
+              },
+              "trap": "\"Would like to... but...\" signals a condition: the inference lies in what follows \"but\"."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0029",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "article",
+          "title": "Mentor Match Begins in January",
+          "text": "Sablewood Hardware will launch its Mentor Match program on January 12, pairing new employees with experienced colleagues for six months. Human Resources Director Sunil Bhandari said the goal is to help newcomers feel at home and to keep talented staff.\n\nAny employee hired within the past twelve months may ask for a mentor. Mentors are volunteers who have worked at Sablewood for at least three years, and each mentor will guide no more than two newcomers. Pairs will meet for one hour every two weeks during work hours. Mentors will receive a bonus of $150 for each newcomer they guide through the full six months.\n\nEveryone who takes part must attend a one-hour orientation session before the program begins. Employees can choose among several sessions, listed below. The program is open to all twelve Sablewood stores and to the central warehouse. Interested staff should sign up by December 18 using the form on the company intranet.\n\n\"We have already heard from 40 volunteers,\" Mr. Bhandari said, \"but we still need more mentors from the warehouse and the delivery teams.\""
+        },
+        {
+          "genre": "email",
+          "text": "To: Sunil Bhandari\nFrom: Joon-ho Baek\nDate: December 8\nSubject: Mentor Match\n\nDear Mr. Bhandari,\n\nI read about Mentor Match in the company newsletter and would like to volunteer as a mentor. I have worked at Sablewood for four years, most recently as a dispatcher on the delivery team, and I remember how confusing my first months were.\n\nThree of the newest dispatchers on my team joined this autumn, and I would be glad to mentor all three of them.\n\nI work Tuesday through Saturday, so Monday is the only weekday I am not at work. Could you tell me which orientation session I should attend? A Monday session would be easiest for me.\n\nThank you,\nJoon-ho Baek"
+        },
+        {
+          "genre": "schedule",
+          "title": "Mentor Match Orientation Sessions - Conference Room B",
+          "text": "Monday, December 21 - 9:00 A.M. - Mentors only\nTuesday, December 22 - 2:00 P.M. - Mentees only\nTuesday, January 5 - 10:00 A.M. - Mentors and mentees\nThursday, January 7 - 1:00 P.M. - Mentors only\nFriday, January 8 - 3:30 P.M. - Mentees only\n\nEach session lasts one hour. The program begins on Tuesday, January 12."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0029-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 2,
+          "stem": "What is the article mainly about?",
+          "options": [
+            "A plan to hire more warehouse workers",
+            "A bonus for employees with three years of service",
+            "A change to the company's meeting schedule",
+            "A program that links new staff with experienced colleagues"
+          ],
+          "answer": "D",
+          "evidence": [
+            "pairing new employees with experienced colleagues for six months"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La première phrase donne le sujet : le programme Mentor Match, qui consiste à « pairing new employees with experienced colleagues ». Tout le reste (conditions, bonus, inscription) détaille ce programme.",
+              "distractors": {
+                "A": "Le texte cherche des mentors dans l'entrepôt et la livraison, pas de nouveaux employés d'entrepôt.",
+                "B": "Trois ans d'ancienneté sont une condition pour être mentor, et le bonus est un détail : ce n'est pas le sujet.",
+                "C": "Les rencontres ont lieu pendant les heures de travail, mais aucun horaire de réunion de l'entreprise ne change."
+              },
+              "trap": "Pour le sujet d'un article, regarde la première phrase puis vérifie que les autres paragraphes la développent ; un chiffre ou un détail n'est pas le sujet."
+            },
+            "en": {
+              "rule": "The first sentence gives the topic: the Mentor Match program, \"pairing new employees with experienced colleagues\". Everything else (conditions, bonus, sign-up) details that program.",
+              "distractors": {
+                "A": "The text looks for mentors in the warehouse and delivery teams, not for new warehouse workers.",
+                "B": "Three years of service is a requirement for mentors and the bonus is a detail: neither is the topic.",
+                "C": "Meetings take place during work hours, but no company meeting schedule changes."
+              },
+              "trap": "For an article's main idea, read the first sentence and check that the other paragraphs develop it; a figure or a detail is not the topic."
+            }
+          }
+        },
+        {
+          "id": "p7-0029-2",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 1,
+          "stem": "What is suggested about Sablewood Hardware's program?",
+          "options": [
+            "It will hire 40 new employees.",
+            "Every new employee already has a mentor.",
+            "All employees are required to join it.",
+            "Some departments have too few mentors so far."
+          ],
+          "answer": "D",
+          "evidence": [
+            "but we still need more mentors from the warehouse and the delivery teams."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "M. Bhandari dit avoir 40 volontaires, « but we still need more mentors from the warehouse and the delivery teams ». On en déduit que ces équipes n'ont pas encore assez de mentors.",
+              "distractors": {
+                "A": "Les 40 sont des volontaires pour le programme, pas des embauches.",
+                "B": "Le programme ne commence que le 12 janvier et les inscriptions courent jusqu'au 18 décembre.",
+                "C": "La participation repose sur le volontariat : les employés « may ask for a mentor » et les mentors sont « volunteers »."
+              },
+              "trap": "Un chiffre cité (40) peut devenir un piège dans une option : vérifie ce qu'il désigne vraiment."
+            },
+            "en": {
+              "rule": "Mr. Bhandari says 40 people have volunteered, \"but we still need more mentors from the warehouse and the delivery teams\". You can infer that those teams do not yet have enough mentors.",
+              "distractors": {
+                "A": "The 40 are volunteers for the program, not new hires.",
+                "B": "The program only starts on January 12 and sign-up runs until December 18.",
+                "C": "Taking part is voluntary: employees \"may ask for a mentor\" and mentors are \"volunteers\"."
+              },
+              "trap": "A number from the text (40) can become a trap in an option: check what it actually refers to."
+            }
+          }
+        },
+        {
+          "id": "p7-0029-3",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 3,
+          "stem": "What is the most that Mr. Baek could receive in bonuses from the program?",
+          "options": [
+            "$150",
+            "$300",
+            "$450",
+            "$600"
+          ],
+          "answer": "B",
+          "evidence": [
+            "each mentor will guide no more than two newcomers",
+            "Mentors will receive a bonus of $150 for each newcomer they guide through the full six months.",
+            "I would be glad to mentor all three of them."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "M. Baek voudrait suivre trois nouveaux (« all three of them »), mais l'article limite chaque mentor à « no more than two newcomers ». Le bonus est de 150 $ par nouveau suivi : 2 x 150 $ = 300 $.",
+              "distractors": {
+                "A": "150 $ ne correspond qu'à un seul nouveau, alors qu'il peut en suivre deux.",
+                "C": "450 $ = 3 x 150 $ : c'est ce qu'il toucherait pour trois nouveaux, nombre que le programme interdit.",
+                "D": "600 $ ne correspond à aucun calcul : il faudrait quatre nouveaux."
+              },
+              "trap": "Cherche toujours la limite dans l'autre document : la demande de la personne (trois) n'est pas ce qu'elle obtiendra (deux maximum)."
+            },
+            "en": {
+              "rule": "Mr. Baek wants to mentor three newcomers (\"all three of them\"), but the article limits each mentor to \"no more than two newcomers\". The bonus is $150 per newcomer: 2 x $150 = $300.",
+              "distractors": {
+                "A": "$150 covers only one newcomer, but he can mentor two.",
+                "C": "$450 = 3 x $150: that is what he would earn for three newcomers, a number the program does not allow.",
+                "D": "$600 matches no calculation: it would require four newcomers."
+              },
+              "trap": "Always look for the limit in the other document: what a person asks for (three) is not what he will get (two at most)."
+            }
+          }
+        },
+        {
+          "id": "p7-0029-4",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 1,
+          "stem": "What is Mr. Baek's position at Sablewood?",
+          "options": [
+            "A warehouse supervisor",
+            "A human resources assistant",
+            "A delivery dispatcher",
+            "A store manager"
+          ],
+          "answer": "C",
+          "evidence": [
+            "most recently as a dispatcher on the delivery team"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Mr. Baek écrit qu'il travaille chez Sablewood « most recently as a dispatcher on the delivery team » : il est répartiteur dans l'équipe de livraison.",
+              "distractors": {
+                "A": "L'entrepôt est une équipe citée dans l'article, pas son poste.",
+                "B": "Il écrit au directeur des RH pour s'inscrire, mais il n'y travaille pas.",
+                "D": "Aucun poste de gestion de magasin n'est mentionné."
+              },
+              "trap": "Une information sur le poste d'une personne se trouve presque toujours dans la présentation d'elle-même, au début de son message."
+            },
+            "en": {
+              "rule": "Mr. Baek writes that he works at Sablewood \"most recently as a dispatcher on the delivery team\": he is a dispatcher on the delivery team.",
+              "distractors": {
+                "A": "The warehouse is a team named in the article, not his job.",
+                "B": "He writes to the human resources director to sign up, but he does not work in that department.",
+                "D": "No store management position is mentioned."
+              },
+              "trap": "Information about someone's job is almost always in the self-introduction at the start of their message."
+            }
+          }
+        },
+        {
+          "id": "p7-0029-5",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 2,
+          "stem": "Which orientation session should Mr. Baek most likely attend?",
+          "options": [
+            "Tuesday, December 22, at 2:00 P.M.",
+            "Tuesday, January 5, at 10:00 A.M.",
+            "Monday, December 21, at 9:00 A.M.",
+            "Thursday, January 7, at 1:00 P.M."
+          ],
+          "answer": "C",
+          "evidence": [
+            "would like to volunteer as a mentor",
+            "Monday is the only weekday I am not at work",
+            "Monday, December 21 - 9:00 A.M. - Mentors only"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "M. Baek veut être mentor et ne travaille pas le lundi (« Monday is the only weekday I am not at work »). Le seul créneau du lundi est « Monday, December 21 - 9:00 A.M. - Mentors only ».",
+              "distractors": {
+                "A": "La session du mardi 22 décembre est réservée aux « Mentees » (les nouveaux), et il travaille le mardi.",
+                "B": "Le mardi 5 janvier est ouvert aux mentors, mais M. Baek travaille du mardi au samedi.",
+                "D": "Le jeudi 7 janvier est une session pour mentors, mais il travaille le jeudi."
+              },
+              "trap": "Croise deux contraintes : qui tu es (mentor ou nouveau) et quand tu es libre ; élimine d'abord les sessions réservées à l'autre groupe, puis celles qui tombent un jour travaillé."
+            },
+            "en": {
+              "rule": "Mr. Baek wants to be a mentor and does not work on Mondays (\"Monday is the only weekday I am not at work\"). The only Monday slot is \"Monday, December 21 - 9:00 A.M. - Mentors only\".",
+              "distractors": {
+                "A": "The Tuesday, December 22 session is for \"Mentees\" (newcomers), and he works on Tuesdays.",
+                "B": "Tuesday, January 5 is open to mentors, but Mr. Baek works Tuesday through Saturday.",
+                "D": "Thursday, January 7 is a mentors' session, but he works on Thursdays."
+              },
+              "trap": "Combine two constraints: who you are (mentor or newcomer) and when you are free; first eliminate sessions for the other group, then those on a workday."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
