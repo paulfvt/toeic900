@@ -1,0 +1,1086 @@
+{
+  "part": 5,
+  "pool": "training",
+  "questions": [
+    {
+      "id": "p5-0181",
+      "part": 5,
+      "tags": [
+        "word-form-noun"
+      ],
+      "difficulty": 2,
+      "stem": "The Brightwater Hotel's new reservation system has led to a significant ------- in the number of booking errors.",
+      "options": [
+        "reduce",
+        "reduced",
+        "reduction",
+        "reducible"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "Après l'article « a » et l'adjectif « significant », il faut un nom : « a significant reduction in » (une baisse importante du nombre d'erreurs).",
+          "distractors": {
+            "A": "« reduce » est un verbe à la base verbale : il ne peut pas suivre un adjectif.",
+            "B": "« reduced » est un participe passé (adjectif) : après « significant », on attend un nom, pas un autre adjectif.",
+            "D": "« reducible » est un adjectif (« qui peut être réduit ») : il ne peut pas servir de nom dans « a significant ------- in the number »."
+          },
+          "trap": "Article + adjectif devant le trou → cherche le nom ; la terminaison -tion annonce souvent un nom."
+        },
+        "en": {
+          "rule": "After the article \"a\" and the adjective \"significant\" you need a noun: \"a significant reduction in\" the number of errors.",
+          "distractors": {
+            "A": "\"reduce\" is a base-form verb, which cannot follow an adjective.",
+            "B": "\"reduced\" is a past participle (adjective); after \"significant\" the sentence needs a noun, not another adjective.",
+            "D": "\"reducible\" is an adjective (\"able to be reduced\"), so it cannot be the noun that \"in the number\" depends on."
+          },
+          "trap": "Article + adjective before the blank means you need the noun; the ending -tion often signals a noun."
+        }
+      }
+    },
+    {
+      "id": "p5-0182",
+      "part": 5,
+      "tags": [
+        "word-form-noun"
+      ],
+      "difficulty": 3,
+      "stem": "The consultant's ------- of the warehouse layout, which took nearly three weeks to complete, convinced management to relocate the loading docks.",
+      "options": [
+        "assess",
+        "assessed",
+        "assessment",
+        "assessable"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "Après le possessif « The consultant's », il faut un nom, sujet du verbe « convinced » placé plus loin : « The consultant's assessment of the warehouse layout ». La proposition relative « which took… » ne change rien.",
+          "distractors": {
+            "A": "« assess » est un verbe : il ne peut pas être le sujet de « convinced » après un possessif.",
+            "B": "« assessed » est un participe passé : un possessif n'est pas suivi d'un participe pour former un sujet.",
+            "D": "« assessable » est un adjectif (« évaluable ») : il demande un nom derrière lui, alors qu'ici « of the warehouse layout » suit directement."
+          },
+          "trap": "Possessif + trou + « of » : c'est un nom, même quand le verbe principal est loin."
+        },
+        "en": {
+          "rule": "After the possessive \"The consultant's\" you need a noun, the subject of the distant verb \"convinced\": \"The consultant's assessment of the warehouse layout\". The clause \"which took…\" does not change that.",
+          "distractors": {
+            "A": "\"assess\" is a verb, so it cannot be the subject of \"convinced\" after a possessive.",
+            "B": "\"assessed\" is a past participle; a possessive is not followed by a participle to form a subject.",
+            "D": "\"assessable\" is an adjective (\"able to be assessed\"): it needs a noun after it, but \"of the warehouse layout\" follows directly."
+          },
+          "trap": "Possessive + blank + \"of\" means a noun, even when the main verb is far away."
+        }
+      }
+    },
+    {
+      "id": "p5-0183",
+      "part": 5,
+      "tags": [
+        "word-form-noun"
+      ],
+      "difficulty": 2,
+      "stem": "Ms. Adeyemi's ------- from regional manager to chief operating officer surprised no one at the company.",
+      "options": [
+        "promotion",
+        "promote",
+        "promoted",
+        "promotional"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "Après le possessif « Ms. Adeyemi's », il faut un nom, sujet de « surprised » : « Ms. Adeyemi's promotion from… to… ».",
+          "distractors": {
+            "B": "« promote » est un verbe à la base verbale : il ne peut pas être le sujet de la phrase.",
+            "C": "« promoted » est un participe passé : après un possessif, il ne peut pas jouer le rôle du nom sujet.",
+            "D": "« promotional » est un adjectif (« promotionnel », lié à la publicité) : il demande un nom après lui et n'a pas le sens de « avancement »."
+          },
+          "trap": "Un possessif (« 's », « her », « their ») est toujours suivi d'un nom, éventuellement précédé d'adjectifs."
+        },
+        "en": {
+          "rule": "After the possessive \"Ms. Adeyemi's\" you need a noun that serves as the subject of \"surprised\": \"Ms. Adeyemi's promotion from… to…\".",
+          "distractors": {
+            "B": "\"promote\" is a base-form verb and cannot be the subject of the sentence.",
+            "C": "\"promoted\" is a past participle; after a possessive it cannot act as the subject noun.",
+            "D": "\"promotional\" is an adjective (related to advertising): it needs a noun after it and does not mean a career advancement."
+          },
+          "trap": "A possessive (\"'s\", \"her\", \"their\") is always followed by a noun, possibly with adjectives before it."
+        }
+      }
+    },
+    {
+      "id": "p5-0184",
+      "part": 5,
+      "tags": [
+        "word-form-adverb"
+      ],
+      "difficulty": 2,
+      "stem": "Applicants are asked to submit their résumés ------- through the online portal rather than by mail.",
+      "options": [
+        "exclusive",
+        "exclusivity",
+        "exclusively",
+        "exclusives"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "Le groupe « submit their résumés … through the online portal » est déjà complet ; il manque un adverbe qui précise la manière : « exclusively » (uniquement) par le portail.",
+          "distractors": {
+            "A": "« exclusive » est un adjectif : il ne peut pas modifier un verbe.",
+            "B": "« exclusivity » est un nom (« l'exclusivité ») : un nom ne se place pas ici sans déterminant.",
+            "D": "« exclusives » est un nom au pluriel (« des exclusivités », en journalisme) : le sens ne convient pas et un nom ne modifie pas un verbe."
+          },
+          "trap": "Phrase déjà complète + trou entre le complément et une préposition → adverbe en -ly."
+        },
+        "en": {
+          "rule": "The phrase \"submit their résumés … through the online portal\" is already complete; you need an adverb of manner: \"exclusively\" (only) through the portal.",
+          "distractors": {
+            "A": "\"exclusive\" is an adjective, so it cannot modify a verb.",
+            "B": "\"exclusivity\" is a noun, which cannot be dropped in here without a determiner.",
+            "D": "\"exclusives\" is a plural noun (news stories only one outlet has): the meaning does not fit and a noun does not modify a verb."
+          },
+          "trap": "When the clause is already complete, an extra word before a preposition is usually an -ly adverb."
+        }
+      }
+    },
+    {
+      "id": "p5-0185",
+      "part": 5,
+      "tags": [
+        "word-form-adverb"
+      ],
+      "difficulty": 2,
+      "stem": "The new chief financial officer has ------- strengthened the company's cash reserves since she joined last spring.",
+      "options": [
+        "consider",
+        "considerable",
+        "considerably",
+        "consideration"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "Le trou se trouve entre l'auxiliaire « has » et le participe « strengthened » : c'est la place d'un adverbe, « considerably » (nettement).",
+          "distractors": {
+            "A": "« consider » est un verbe : « has consider strengthened » est impossible.",
+            "B": "« considerable » est un adjectif : il décrit un nom (« considerable reserves »), pas un verbe.",
+            "D": "« consideration » est un nom (« la réflexion », « l'égard ») : il ne s'insère pas entre « has » et un participe."
+          },
+          "trap": "Entre l'auxiliaire et le participe passé, la place est à l'adverbe."
+        },
+        "en": {
+          "rule": "The blank sits between the auxiliary \"has\" and the participle \"strengthened\", which is the position for an adverb: \"considerably\".",
+          "distractors": {
+            "A": "\"consider\" is a verb: \"has consider strengthened\" is impossible.",
+            "B": "\"considerable\" is an adjective: it describes a noun (\"considerable reserves\"), not a verb.",
+            "D": "\"consideration\" is a noun, and it cannot fit between \"has\" and a participle."
+          },
+          "trap": "Between an auxiliary and a past participle, the slot belongs to an adverb."
+        }
+      }
+    },
+    {
+      "id": "p5-0186",
+      "part": 5,
+      "tags": [
+        "word-form-adverb"
+      ],
+      "difficulty": 3,
+      "stem": "The plant's output for the third quarter, although ------- lower than the forecast prepared in January, remained above last year's level.",
+      "options": [
+        "slight",
+        "slighter",
+        "slightness",
+        "slightly"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "Le trou précède l'adjectif comparatif « lower » : pour modifier un adjectif, il faut un adverbe, « slightly lower » (légèrement inférieur). Les mots « for the third quarter » et le verbe « remained » sont loin, mais ne changent pas la règle.",
+          "distractors": {
+            "A": "« slight » est un adjectif : il ne peut pas modifier un autre adjectif (« slight lower » est incorrect).",
+            "B": "« slighter » est un adjectif comparatif : on ne peut pas empiler deux comparatifs devant « than ».",
+            "C": "« slightness » est un nom (« la faiblesse ») : il ne peut pas modifier un adjectif."
+          },
+          "trap": "Un mot qui précède un adjectif pour le nuancer est un adverbe ; ne te laisse pas distraire par la longueur de la phrase."
+        },
+        "en": {
+          "rule": "The blank comes before the comparative adjective \"lower\": to modify an adjective you need an adverb, \"slightly lower\". The words \"for the third quarter\" and the verb \"remained\" are far away but change nothing.",
+          "distractors": {
+            "A": "\"slight\" is an adjective, which cannot modify another adjective (\"slight lower\" is wrong).",
+            "B": "\"slighter\" is a comparative adjective; you cannot stack two comparatives before \"than\".",
+            "C": "\"slightness\" is a noun (smallness), and a noun cannot modify an adjective."
+          },
+          "trap": "A word placed before an adjective to adjust its meaning is an adverb; do not let a long sentence distract you."
+        }
+      }
+    },
+    {
+      "id": "p5-0187",
+      "part": 5,
+      "tags": [
+        "word-form-adverb"
+      ],
+      "difficulty": 1,
+      "stem": "------- every twenty minutes, a shuttle bus carries guests between the airport and the Lakeview Hotel.",
+      "options": [
+        "Approximately",
+        "Approximate",
+        "Approximation",
+        "Approximated"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "« every twenty minutes » est une expression de fréquence que l'on précise avec un adverbe : « Approximately every twenty minutes » (environ toutes les vingt minutes).",
+          "distractors": {
+            "B": "« Approximate » est un adjectif : il décrit un nom, pas une expression de fréquence.",
+            "C": "« Approximation » est un nom (« une estimation ») : il ne peut pas introduire cette expression de temps.",
+            "D": "« Approximated » est un participe passé : « approximated every twenty minutes » n'a pas de sens ici."
+          },
+          "trap": "Un adverbe en -ly peut précéder une expression de temps ou de fréquence (approximately, nearly, roughly)."
+        },
+        "en": {
+          "rule": "\"every twenty minutes\" is a frequency expression that an adverb can qualify: \"Approximately every twenty minutes\".",
+          "distractors": {
+            "B": "\"Approximate\" is an adjective: it describes a noun, not a frequency expression.",
+            "C": "\"Approximation\" is a noun (an estimate) and cannot introduce this time expression.",
+            "D": "\"Approximated\" is a past participle: \"approximated every twenty minutes\" makes no sense here."
+          },
+          "trap": "An -ly adverb can come before a time or frequency expression (approximately, nearly, roughly)."
+        }
+      }
+    },
+    {
+      "id": "p5-0188",
+      "part": 5,
+      "tags": [
+        "verb-tense"
+      ],
+      "difficulty": 3,
+      "stem": "If the warehouse supervisor had known about the supplier's strike, he ------- the order two weeks before the holiday rush began.",
+      "options": [
+        "will place",
+        "has placed",
+        "would place",
+        "would have placed"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "« If … had known » décrit une situation passée qui ne s'est pas produite : c'est la troisième conditionnelle, qui demande « would have + participe passé » dans la principale. « Began » confirme que tout se passe dans le passé.",
+          "distractors": {
+            "A": "« will place » est un futur : impossible avec une condition au plus-que-parfait.",
+            "B": "« has placed » est un présent perfect, qui ne s'associe pas à « had known » ni à « began ».",
+            "C": "« would place » est une conditionnelle présente ou future : elle ne convient pas à un événement qui devait avoir lieu avant « began »."
+          },
+          "trap": "If + past perfect (had known) → would have + participe passé dans l'autre moitié de la phrase."
+        },
+        "en": {
+          "rule": "\"If … had known\" describes a past situation that did not happen: it is the third conditional, which needs \"would have + past participle\" in the main clause. \"Began\" confirms that everything is in the past.",
+          "distractors": {
+            "A": "\"will place\" is a future form and cannot follow a past perfect condition.",
+            "B": "\"has placed\" is present perfect, which does not match \"had known\" or \"began\".",
+            "C": "\"would place\" is a present or future conditional; it does not fit an action that should have happened before \"began\"."
+          },
+          "trap": "If + past perfect (had known) → would have + past participle in the other half."
+        }
+      }
+    },
+    {
+      "id": "p5-0189",
+      "part": 5,
+      "tags": [
+        "verb-tense"
+      ],
+      "difficulty": 2,
+      "stem": "The research team ------- its findings at next week's industry symposium in Singapore.",
+      "options": [
+        "will present",
+        "presented",
+        "has presented",
+        "was presenting"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "L'expression « next week's » place l'action dans le futur : « will present ».",
+          "distractors": {
+            "B": "« presented » est un prétérit : il décrit un fait passé, incompatible avec « next week's ».",
+            "C": "« has presented » est un présent perfect : il relie le passé au présent, pas à la semaine prochaine.",
+            "D": "« was presenting » est un passé progressif : il ne peut pas situer un événement futur."
+          },
+          "trap": "Repère l'expression de temps (next week, last year, since…) avant de regarder les formes verbales."
+        },
+        "en": {
+          "rule": "The expression \"next week's\" places the action in the future: \"will present\".",
+          "distractors": {
+            "B": "\"presented\" is simple past, which describes something finished and clashes with \"next week's\".",
+            "C": "\"has presented\" is present perfect: it links the past to now, not to next week.",
+            "D": "\"was presenting\" is past progressive and cannot place an event in the future."
+          },
+          "trap": "Spot the time expression (next week, last year, since…) before you compare the verb forms."
+        }
+      }
+    },
+    {
+      "id": "p5-0190",
+      "part": 5,
+      "tags": [
+        "verb-tense"
+      ],
+      "difficulty": 2,
+      "stem": "The Delgado Brothers bakery ------- fresh bread to local restaurants since it opened in 1998.",
+      "options": [
+        "has supplied",
+        "supplied",
+        "will supply",
+        "is supplying"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "« since » + un point de départ passé (« it opened in 1998 ») appelle le présent perfect, « has supplied » : l'action a commencé dans le passé et continue.",
+          "distractors": {
+            "B": "« supplied » est un prétérit : il décrit une action terminée et ne s'emploie pas avec « since » pour une situation qui dure.",
+            "C": "« will supply » est un futur : il ne convient pas à un point de départ en 1998.",
+            "D": "« is supplying » est un présent progressif : il ne s'emploie pas avec « since » pour une durée qui court depuis 1998."
+          },
+          "trap": "« since » + date ou verbe au passé → present perfect dans l'autre partie de la phrase."
+        },
+        "en": {
+          "rule": "\"since\" + a past starting point (\"it opened in 1998\") calls for the present perfect, \"has supplied\": the action began in the past and continues.",
+          "distractors": {
+            "B": "\"supplied\" is simple past: it describes a finished action and is not used with \"since\" for an ongoing situation.",
+            "C": "\"will supply\" is a future form and does not fit a starting point in 1998.",
+            "D": "\"is supplying\" is present progressive and is not used with \"since\" for a period running from 1998."
+          },
+          "trap": "\"since\" + a date or past-tense clause → present perfect in the other part of the sentence."
+        }
+      }
+    },
+    {
+      "id": "p5-0191",
+      "part": 5,
+      "tags": [
+        "verb-tense"
+      ],
+      "difficulty": 2,
+      "stem": "Before the new payroll system was introduced, employees ------- their timesheets by hand every Friday afternoon.",
+      "options": [
+        "submit",
+        "are submitting",
+        "have submitted",
+        "submitted"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "« Before … was introduced » situe toute la phrase dans le passé, et « every Friday afternoon » indique une habitude : on utilise le prétérit, « submitted ».",
+          "distractors": {
+            "A": "« submit » est un présent : il parle d'une habitude actuelle, alors que le système a changé dans le passé.",
+            "B": "« are submitting » est un présent progressif : il décrit une action en cours maintenant.",
+            "C": "« have submitted » est un présent perfect : il ne s'emploie pas quand la période est terminée (« before the system was introduced »)."
+          },
+          "trap": "Un repère passé clairement terminé (« before … was introduced ») exclut le présent et le présent perfect."
+        },
+        "en": {
+          "rule": "\"Before … was introduced\" puts the whole sentence in the past, and \"every Friday afternoon\" shows a habit: use the simple past, \"submitted\".",
+          "distractors": {
+            "A": "\"submit\" is present tense: it describes a current habit, but the system changed in the past.",
+            "B": "\"are submitting\" is present progressive and describes an action happening now.",
+            "C": "\"have submitted\" is present perfect, which is not used when the period is over (\"before the system was introduced\")."
+          },
+          "trap": "A clearly finished past reference (\"before … was introduced\") rules out present and present perfect."
+        }
+      }
+    },
+    {
+      "id": "p5-0192",
+      "part": 5,
+      "tags": [
+        "passive-voice"
+      ],
+      "difficulty": 2,
+      "stem": "The annual sales awards ------- to the three employees who had exceeded their targets for five consecutive quarters.",
+      "options": [
+        "present",
+        "presented",
+        "were presented",
+        "presenting"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "Les prix (« awards ») ne se présentent pas eux-mêmes : ils sont présentés aux employés. Il faut un verbe passif conjugué, « were presented to ».",
+          "distractors": {
+            "A": "« present » est un verbe actif au présent : les prix ne peuvent pas « présenter » quelque chose à des employés.",
+            "B": "« presented » seul ne serait qu'un participe sans « were » : la phrase n'aurait pas de verbe principal.",
+            "D": "« presenting » est un participe présent : il ne forme pas non plus un verbe principal ici."
+          },
+          "trap": "Une chose reçue par quelqu'un (un prix, un colis) → passif ; sans « be » devant le participe, il manque le verbe."
+        },
+        "en": {
+          "rule": "The awards do not present anything themselves: they are presented to the employees. You need a conjugated passive verb, \"were presented to\".",
+          "distractors": {
+            "A": "\"present\" is an active verb: the awards cannot \"present\" something to employees.",
+            "B": "\"presented\" alone would be a participle without \"were\", so the sentence would have no main verb.",
+            "D": "\"presenting\" is a present participle and would not give the sentence a main verb either."
+          },
+          "trap": "If something is given to someone (an award, a parcel), use the passive; a participle without \"be\" leaves the sentence without a verb."
+        }
+      }
+    },
+    {
+      "id": "p5-0193",
+      "part": 5,
+      "tags": [
+        "passive-voice"
+      ],
+      "difficulty": 1,
+      "stem": "The damaged shipment ------- by a customs officer before it could be released to the buyer.",
+      "options": [
+        "inspect",
+        "inspecting",
+        "has inspected",
+        "was inspected"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "Le colis ne contrôle rien lui-même : il est contrôlé « by a customs officer ». « by » + l'agent annonce un passif, donc « was inspected ».",
+          "distractors": {
+            "A": "« inspect » est un verbe à la base verbale : il ne peut pas être le verbe d'un sujet singulier au passé.",
+            "B": "« inspecting » est un participe présent : il ne forme pas un verbe conjugué.",
+            "C": "« has inspected » est actif et demande un complément d'objet : le colis ne peut pas contrôler un officier."
+          },
+          "trap": "« by » + la personne qui agit signale un passif : be + participe passé."
+        },
+        "en": {
+          "rule": "The shipment does not inspect anything: it is inspected \"by a customs officer\". \"By\" + the agent signals a passive, so \"was inspected\".",
+          "distractors": {
+            "A": "\"inspect\" is a base-form verb and does not fit a singular subject in the past.",
+            "B": "\"inspecting\" is a present participle, not a conjugated verb.",
+            "C": "\"has inspected\" is active and needs an object: the shipment cannot inspect an officer."
+          },
+          "trap": "\"by\" + the person who acts signals a passive: be + past participle."
+        }
+      }
+    },
+    {
+      "id": "p5-0194",
+      "part": 5,
+      "tags": [
+        "passive-voice"
+      ],
+      "difficulty": 3,
+      "stem": "Customers whose accounts ------- by the security system last week should reset their passwords as soon as possible.",
+      "options": [
+        "flagged",
+        "being flagged",
+        "have flagged",
+        "were flagged"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "Dans la relative « whose accounts … by the security system last week », les comptes subissent l'action : il faut un passif conjugué au passé (« last week »), « were flagged ». Le verbe principal « should reset » est plus loin.",
+          "distractors": {
+            "A": "« flagged » seul n'est pas un verbe conjugué ici : il manque « were » pour former le passif.",
+            "B": "« being flagged » est un participe présent passif : il ne forme pas un verbe conjugué, et la relative n'en aurait plus.",
+            "C": "« have flagged » est actif et demande un objet : les comptes ne peuvent pas signaler quelque chose."
+          },
+          "trap": "Dans une relative, cherche le verbe de la relative et son sujet (ici « accounts ») avant de regarder la phrase principale."
+        },
+        "en": {
+          "rule": "In the clause \"whose accounts … by the security system last week\", the accounts receive the action, so you need a past passive verb: \"were flagged\". The main verb \"should reset\" comes later.",
+          "distractors": {
+            "A": "\"flagged\" alone is not a conjugated verb here: it needs \"were\" to make a passive.",
+            "B": "\"being flagged\" is a passive participle, not a conjugated verb, so the relative clause would have no verb.",
+            "C": "\"have flagged\" is active and needs an object: accounts cannot flag something."
+          },
+          "trap": "In a relative clause, find its own subject and verb (here \"accounts\") before looking at the main clause."
+        }
+      }
+    },
+    {
+      "id": "p5-0195",
+      "part": 5,
+      "tags": [
+        "passive-voice"
+      ],
+      "difficulty": 3,
+      "stem": "Any equipment faults that employees notice while operating the machinery, however minor, must ------- to the facilities office immediately.",
+      "options": [
+        "report",
+        "reporting",
+        "have reported",
+        "be reported"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "Le sujet de « must » est « faults » (des pannes) : elles ne signalent rien, elles sont signalées. Après un modal, le passif s'écrit « be + participe passé » : « must be reported ». Le sujet est séparé du verbe par une longue relative.",
+          "distractors": {
+            "A": "« report » est actif : « faults must report » n'a pas de sens, les pannes ne rapportent rien.",
+            "B": "« reporting » ne peut pas suivre directement un modal.",
+            "C": "« have reported » est un infinitif perfect actif : il aurait besoin d'un complément d'objet et d'un sujet capable de signaler."
+          },
+          "trap": "Un modal + le passif donne « modal + be + participe passé » ; identifie le vrai sujet malgré les mots intercalés."
+        },
+        "en": {
+          "rule": "The subject of \"must\" is \"faults\": they do not report anything, they are reported. After a modal, the passive is \"be + past participle\": \"must be reported\". A long clause separates the subject from the verb.",
+          "distractors": {
+            "A": "\"report\" is active: \"faults must report\" makes no sense because faults cannot report anything.",
+            "B": "\"reporting\" cannot follow a modal directly.",
+            "C": "\"have reported\" is an active perfect form that would need an object and a subject able to report."
+          },
+          "trap": "Modal + passive = modal + be + past participle; find the real subject despite the words in between."
+        }
+      }
+    },
+    {
+      "id": "p5-0196",
+      "part": 5,
+      "tags": [
+        "participle-adjectives"
+      ],
+      "difficulty": 2,
+      "stem": "The company's ------- sales figures for the fall season forced the board to reconsider its expansion plans.",
+      "options": [
+        "disappointing",
+        "disappointed",
+        "disappoint",
+        "disappointment"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "Les chiffres de vente provoquent la déception chez les autres, ils ne la ressentent pas : on emploie le participe présent, « disappointing sales figures » (des chiffres décevants).",
+          "distractors": {
+            "B": "« disappointed » décrit celui qui ressent la déception (une personne) ; des chiffres ne ressentent rien.",
+            "C": "« disappoint » est un verbe à la base verbale : il ne peut pas modifier un nom.",
+            "D": "« disappointment » est un nom (« la déception ») : « disappointment sales figures » n'est pas une expression naturelle."
+          },
+          "trap": "-ing = ce qui provoque l'émotion (choses, résultats) ; -ed = celui qui la ressent (personnes)."
+        },
+        "en": {
+          "rule": "The sales figures cause the disappointment in others; they do not feel it. Use the present participle: \"disappointing sales figures\".",
+          "distractors": {
+            "B": "\"disappointed\" describes the one who feels the disappointment (a person); figures feel nothing.",
+            "C": "\"disappoint\" is a base-form verb and cannot modify a noun.",
+            "D": "\"disappointment\" is a noun, and \"disappointment sales figures\" is not a natural phrase."
+          },
+          "trap": "-ing = what causes the feeling (things, results); -ed = who feels it (people)."
+        }
+      }
+    },
+    {
+      "id": "p5-0197",
+      "part": 5,
+      "tags": [
+        "participle-adjectives"
+      ],
+      "difficulty": 2,
+      "stem": "Several attendees were ------- by the sudden change to the keynote schedule and asked the organizers for clarification.",
+      "options": [
+        "confusing",
+        "confused",
+        "confuse",
+        "confusion"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "Les participants ressentent la confusion : après « were », on emploie le participe passé, « were confused by ». La suite (« asked for clarification ») le confirme.",
+          "distractors": {
+            "A": "« confusing » décrit ce qui provoque la confusion (« the schedule is confusing »), pas ceux qui la ressentent.",
+            "C": "« confuse » est un verbe à la base verbale : il ne peut pas suivre « were ».",
+            "D": "« confusion » est un nom : « were confusion » n'a pas de sens."
+          },
+          "trap": "Pour une personne qui subit un sentiment, c'est -ed ; l'agent introduit par « by » est la cause."
+        },
+        "en": {
+          "rule": "The attendees feel the confusion, so after \"were\" use the past participle: \"were confused by\". \"Asked for clarification\" confirms it.",
+          "distractors": {
+            "A": "\"confusing\" describes what causes confusion (\"the schedule is confusing\"), not the people who feel it.",
+            "C": "\"confuse\" is a base-form verb and cannot follow \"were\".",
+            "D": "\"confusion\" is a noun: \"were confusion\" makes no sense."
+          },
+          "trap": "A person who experiences a feeling takes -ed; the cause comes after \"by\"."
+        }
+      }
+    },
+    {
+      "id": "p5-0198",
+      "part": 5,
+      "tags": [
+        "participle-adjectives"
+      ],
+      "difficulty": 3,
+      "stem": "Employees in the Detroit and Columbus offices ------- by the reorganization plan should contact HR to discuss their options.",
+      "options": [
+        "affected",
+        "affecting",
+        "affects",
+        "affect"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "Le verbe principal est « should contact » ; le trou introduit une relative réduite après « Employees » : « employees (who are) affected by the plan ». Il faut le participe passé, « affected ».",
+          "distractors": {
+            "B": "« affecting » est actif (« qui touchent ») : les employés ne touchent pas le plan, c'est le plan qui les touche.",
+            "C": "« affects » est un verbe à la 3e personne du singulier : il ne s'accorde pas avec « employees » et la phrase aurait deux verbes conjugués.",
+            "D": "« affect » est un verbe conjugué : « should contact » est déjà le verbe principal, et « by » demande un passif."
+          },
+          "trap": "Quand le verbe principal est déjà là, un mot qui suit le nom est un participe (relative réduite), pas un verbe."
+        },
+        "en": {
+          "rule": "The main verb is \"should contact\"; the blank begins a reduced relative clause after \"Employees\": \"employees (who are) affected by the plan\". You need the past participle, \"affected\".",
+          "distractors": {
+            "B": "\"affecting\" is active (\"who affect\"): the employees do not affect the plan, the plan affects them.",
+            "C": "\"affects\" is a third-person singular verb: it does not agree with \"employees\", and the sentence would have two finite verbs.",
+            "D": "\"affect\" is a conjugated verb: \"should contact\" is already the main verb, and \"by\" calls for a passive."
+          },
+          "trap": "When the main verb is already there, a word after the noun is a participle (reduced relative), not another verb."
+        }
+      }
+    },
+    {
+      "id": "p5-0199",
+      "part": 5,
+      "tags": [
+        "participle-adjectives"
+      ],
+      "difficulty": 1,
+      "stem": "Please return the ------- contract to the legal department before Friday so that work can begin.",
+      "options": [
+        "signed",
+        "signing",
+        "sign",
+        "signature"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "Le contrat a déjà été signé : le participe passé « signed » sert d'adjectif devant « contract » (un contrat signé).",
+          "distractors": {
+            "B": "« signing » est un participe présent : « the signing contract » ne se dit pas pour un contrat déjà signé.",
+            "C": "« sign » est un verbe à la base verbale ou un nom (« un panneau ») : il ne convient pas devant « contract ».",
+            "D": "« signature » est un nom (« la signature ») : « the signature contract » n'est pas l'expression attendue."
+          },
+          "trap": "Une chose qui a subi l'action → participe passé en adjectif (signed contract, damaged goods)."
+        },
+        "en": {
+          "rule": "The contract has already been signed, so the past participle \"signed\" works as an adjective before \"contract\".",
+          "distractors": {
+            "B": "\"signing\" is a present participle: \"the signing contract\" is not how we describe a contract that has been signed.",
+            "C": "\"sign\" is a base-form verb or a noun (a sign on a wall) and does not fit before \"contract\".",
+            "D": "\"signature\" is a noun: \"the signature contract\" is not the expected phrase."
+          },
+          "trap": "Something that has undergone an action takes the past participle as an adjective (signed contract, damaged goods)."
+        }
+      }
+    },
+    {
+      "id": "p5-0200",
+      "part": 5,
+      "tags": [
+        "relative-clauses"
+      ],
+      "difficulty": 3,
+      "stem": "The freelance designer with ------- several members of our marketing team collaborated on the packaging has just opened her own studio in Lisbon.",
+      "options": [
+        "whom",
+        "who",
+        "that",
+        "which"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "Le trou suit la préposition « with » et renvoie à une personne (« the designer ») : après une préposition, on emploie « whom » : « with whom … collaborated ». Le verbe principal « has opened » est loin.",
+          "distractors": {
+            "B": "« who » est sujet de sa proposition ; il ne s'emploie pas directement après une préposition.",
+            "C": "« that » ne peut pas suivre une préposition dans une relative.",
+            "D": "« which » renvoie à une chose, pas à une personne."
+          },
+          "trap": "Préposition + pronom relatif : « whom » pour une personne, « which » pour une chose."
+        },
+        "en": {
+          "rule": "The blank follows the preposition \"with\" and refers to a person (\"the designer\"): after a preposition use \"whom\": \"with whom … collaborated\". The main verb \"has opened\" is far away.",
+          "distractors": {
+            "B": "\"who\" is a subject form and is not used directly after a preposition.",
+            "C": "\"that\" cannot follow a preposition in a relative clause.",
+            "D": "\"which\" refers to things, not to a person."
+          },
+          "trap": "Preposition + relative pronoun: \"whom\" for a person, \"which\" for a thing."
+        }
+      }
+    },
+    {
+      "id": "p5-0201",
+      "part": 5,
+      "tags": [
+        "relative-clauses"
+      ],
+      "difficulty": 1,
+      "stem": "The new scanner, ------- can read documents in under two seconds, has been installed on every floor.",
+      "options": [
+        "who",
+        "where",
+        "which",
+        "whose"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "Le trou suit « The new scanner », une chose, et précède le verbe « can read » : le pronom relatif sujet pour une chose est « which ».",
+          "distractors": {
+            "A": "« who » renvoie à une personne, pas à un appareil.",
+            "B": "« where » renvoie à un lieu et ne peut pas être le sujet de « can read ».",
+            "D": "« whose » exprime la possession et doit être suivi d'un nom, pas d'un verbe."
+          },
+          "trap": "Chose + verbe qui suit → which (ou that) ; personne → who."
+        },
+        "en": {
+          "rule": "The blank follows \"The new scanner\", a thing, and comes before the verb \"can read\": the subject relative pronoun for a thing is \"which\".",
+          "distractors": {
+            "A": "\"who\" refers to a person, not to a machine.",
+            "B": "\"where\" refers to a place and cannot be the subject of \"can read\".",
+            "D": "\"whose\" shows possession and must be followed by a noun, not a verb."
+          },
+          "trap": "Thing + verb right after → which (or that); person → who."
+        }
+      }
+    },
+    {
+      "id": "p5-0202",
+      "part": 5,
+      "tags": [
+        "relative-clauses"
+      ],
+      "difficulty": 1,
+      "stem": "The Denver branch is the only office ------- the company holds its regional training sessions.",
+      "options": [
+        "who",
+        "what",
+        "when",
+        "where"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "Le trou renvoie à un lieu (« office ») dans lequel se passe l'action : on emploie « where ».",
+          "distractors": {
+            "A": "« who » renvoie à une personne.",
+            "B": "« what » ne sert pas à relier une proposition à un nom qui précède.",
+            "C": "« when » renvoie à un moment (« the day when »), pas à un lieu."
+          },
+          "trap": "Lieu → where ; moment → when ; personne → who."
+        },
+        "en": {
+          "rule": "The blank refers to a place (\"office\") where something happens, so you need \"where\".",
+          "distractors": {
+            "A": "\"who\" refers to a person.",
+            "B": "\"what\" does not link a clause to a noun before it.",
+            "C": "\"when\" refers to a time (\"the day when\"), not a place."
+          },
+          "trap": "Place → where; time → when; person → who."
+        }
+      }
+    },
+    {
+      "id": "p5-0203",
+      "part": 5,
+      "tags": [
+        "relative-clauses"
+      ],
+      "difficulty": 1,
+      "stem": "Summer is the season ------- our resort receives the largest number of international guests.",
+      "options": [
+        "whose",
+        "which",
+        "when",
+        "whom"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "Le trou renvoie à une période (« the season ») : on emploie « when ».",
+          "distractors": {
+            "A": "« whose » exprime la possession et doit être suivi d'un nom (« the resort whose guests ») : « whose our resort » est impossible.",
+            "B": "« which » demanderait une préposition (« the season in which ») ; seul, il ne convient pas.",
+            "D": "« whom » renvoie à une personne."
+          },
+          "trap": "Nom de temps (season, day, year) + proposition complète → when."
+        },
+        "en": {
+          "rule": "The blank refers to a period of time (\"the season\"), so you need \"when\".",
+          "distractors": {
+            "A": "\"whose\" shows possession and must be followed by a noun (\"the resort whose guests\"): \"whose our resort\" is impossible.",
+            "B": "\"which\" would need a preposition (\"the season in which\"); on its own it does not fit.",
+            "D": "\"whom\" refers to a person."
+          },
+          "trap": "Time noun (season, day, year) + a complete clause → when."
+        }
+      }
+    },
+    {
+      "id": "p5-0204",
+      "part": 5,
+      "tags": [
+        "prepositions"
+      ],
+      "difficulty": 2,
+      "stem": "The workshop is open to everyone ------- those who have already completed the basic safety course.",
+      "options": [
+        "toward",
+        "during",
+        "except",
+        "since"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "Le sens est « tout le monde sauf ceux qui ont déjà fini le cours » : la préposition d'exclusion est « except ».",
+          "distractors": {
+            "A": "« toward » indique une direction ou une attitude : « everyone toward those » n'a pas de sens.",
+            "B": "« during » introduit une période de temps, pas un groupe de personnes.",
+            "D": "« since » indique le point de départ d'une durée ou une cause, pas une exclusion."
+          },
+          "trap": "« everyone / all / nothing + except » : except exclut une partie du groupe."
+        },
+        "en": {
+          "rule": "The meaning is \"everyone but those who have already finished the course\": the preposition of exclusion is \"except\".",
+          "distractors": {
+            "A": "\"toward\" shows direction or attitude: \"everyone toward those\" makes no sense.",
+            "B": "\"during\" introduces a period of time, not a group of people.",
+            "D": "\"since\" marks the start of a period or a cause, not an exclusion."
+          },
+          "trap": "\"everyone / all / nothing + except\": except removes part of the group."
+        }
+      }
+    },
+    {
+      "id": "p5-0205",
+      "part": 5,
+      "tags": [
+        "prepositions"
+      ],
+      "difficulty": 3,
+      "stem": "The report's conclusions, which were based on interviews with over two hundred customers, are consistent ------- the findings of last year's independent survey.",
+      "options": [
+        "to",
+        "with",
+        "for",
+        "on"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "L'adjectif « consistent » se construit avec « with » : « consistent with » (en accord avec). Le trou est séparé du sujet par une longue relative, ce qui peut faire hésiter.",
+          "distractors": {
+            "A": "« consistent to » n'existe pas en anglais.",
+            "C": "« consistent for » n'existe pas non plus ; « for » ne se combine pas avec cet adjectif.",
+            "D": "« consistent on » n'est pas une construction correcte ; « on » se rencontre après « based », pas après « consistent »."
+          },
+          "trap": "Apprends les adjectifs avec leur préposition : consistent with, responsible for, similar to, aware of."
+        },
+        "en": {
+          "rule": "The adjective \"consistent\" takes \"with\": \"consistent with\" (in agreement with). A long relative clause separates the blank from the subject, which can cause hesitation.",
+          "distractors": {
+            "A": "\"consistent to\" does not exist in English.",
+            "C": "\"consistent for\" does not exist either; \"for\" does not combine with this adjective.",
+            "D": "\"consistent on\" is not a correct pattern; \"on\" appears after \"based\", not after \"consistent\"."
+          },
+          "trap": "Learn adjectives with their preposition: consistent with, responsible for, similar to, aware of."
+        }
+      }
+    },
+    {
+      "id": "p5-0206",
+      "part": 5,
+      "tags": [
+        "prepositions"
+      ],
+      "difficulty": 2,
+      "stem": "Several candidates were shortlisted ------- the position of senior analyst, and interviews will begin on Monday.",
+      "options": [
+        "on",
+        "for",
+        "at",
+        "by"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "On est présélectionné « pour » un poste : « shortlisted for the position ».",
+          "distractors": {
+            "A": "« on » ne s'emploie pas après « shortlisted » pour indiquer le poste visé.",
+            "C": "« at » indique un lieu ou une heure précise : il ne convient pas pour un poste.",
+            "D": "« by » introduit l'agent d'un passif (« by the committee »), pas le poste visé."
+          },
+          "trap": "Un poste visé se construit avec « for » : apply for, be considered for, be shortlisted for."
+        },
+        "en": {
+          "rule": "You are shortlisted \"for\" a job: \"shortlisted for the position\".",
+          "distractors": {
+            "A": "\"on\" is not used after \"shortlisted\" to show the job concerned.",
+            "C": "\"at\" shows a place or an exact time, so it does not fit a position.",
+            "D": "\"by\" introduces the agent of a passive (\"by the committee\"), not the job concerned."
+          },
+          "trap": "A job you aim at takes \"for\": apply for, be considered for, be shortlisted for."
+        }
+      }
+    },
+    {
+      "id": "p5-0207",
+      "part": 5,
+      "tags": [
+        "vocabulary-in-context"
+      ],
+      "difficulty": 2,
+      "stem": "The extended warranty ------- damage caused by misuse, so customers must pay for repairs after accidents.",
+      "options": [
+        "covers",
+        "excludes",
+        "prevents",
+        "repairs"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "« so customers must pay for repairs » montre que la garantie ne prend pas en charge ces dégâts : elle les exclut, « excludes ».",
+          "distractors": {
+            "A": "« covers » dit l'inverse : si la garantie couvrait ces dégâts, le client n'aurait pas à payer.",
+            "C": "« prevents » signifie empêcher : une garantie n'empêche pas les dégâts, et cela n'explique pas le paiement.",
+            "D": "« repairs » est contradictoire avec « customers must pay for repairs » : la garantie ne répare pas ici."
+          },
+          "trap": "Le connecteur « so » annonce la conséquence : relis la phrase pour vérifier que le verbe la justifie."
+        },
+        "en": {
+          "rule": "\"so customers must pay for repairs\" shows that the warranty does not take these damages on: it \"excludes\" them.",
+          "distractors": {
+            "A": "\"covers\" says the opposite: if the warranty covered these damages, customers would not have to pay.",
+            "C": "\"prevents\" means to stop something from happening: a warranty does not stop damage, and it does not explain the payment.",
+            "D": "\"repairs\" contradicts \"customers must pay for repairs\": the warranty is not repairing here."
+          },
+          "trap": "\"so\" introduces a consequence: check that the verb you choose really leads to it."
+        }
+      }
+    },
+    {
+      "id": "p5-0208",
+      "part": 5,
+      "tags": [
+        "vocabulary-in-context"
+      ],
+      "difficulty": 2,
+      "stem": "Because patient records contain sensitive information, access to them is strictly ------- to authorized medical staff.",
+      "options": [
+        "accustomed",
+        "restricted",
+        "equivalent",
+        "indifferent"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "« Because … sensitive information » annonce une limitation : l'accès est strictement réservé, « restricted to » (limité à) le personnel autorisé.",
+          "distractors": {
+            "A": "« accustomed » se construit avec « to » et signifie « habitué à » : il décrit une personne, pas un accès.",
+            "C": "« equivalent » signifie « équivalent » (« equivalent to ») : il ne correspond pas au sens de la phrase.",
+            "D": "« indifferent » signifie « indifférent » : il ne se dit pas d'un accès et ne se construit pas avec « to » ainsi."
+          },
+          "trap": "Plusieurs mots sont suivis de « to » ; seul le sens de la phrase (cause, limite, but) permet de choisir."
+        },
+        "en": {
+          "rule": "\"Because … sensitive information\" announces a limit: access is strictly \"restricted to\" authorized staff.",
+          "distractors": {
+            "A": "\"accustomed\" takes \"to\" and means \"used to\": it describes a person, not access.",
+            "C": "\"equivalent\" means \"equal\" (\"equivalent to\"): it does not fit the sentence.",
+            "D": "\"indifferent\" means \"not interested\": it is not said about access and does not take \"to\" this way."
+          },
+          "trap": "Several words take \"to\"; only the meaning (cause, limit, goal) lets you choose."
+        }
+      }
+    },
+    {
+      "id": "p5-0209",
+      "part": 5,
+      "tags": [
+        "vocabulary-in-context"
+      ],
+      "difficulty": 1,
+      "stem": "Employees must ------- their manager before taking more than three consecutive vacation days.",
+      "options": [
+        "apologize",
+        "notify",
+        "respond",
+        "arrive"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "Il s'agit de prévenir le responsable avant les congés : « notify » se construit directement avec un complément (« notify their manager »).",
+          "distractors": {
+            "A": "« apologize » signifie s'excuser et se construit avec « to » : il ne convient ni au sens ni à la grammaire.",
+            "C": "« respond » demande « to » (« respond to their manager ») et signifie répondre.",
+            "D": "« arrive » est intransitif : il ne prend pas de complément d'objet."
+          },
+          "trap": "Vérifie si le verbe prend un complément direct : notify someone, mais respond to / apologize to someone."
+        },
+        "en": {
+          "rule": "The idea is to tell the manager in advance: \"notify\" takes a direct object (\"notify their manager\").",
+          "distractors": {
+            "A": "\"apologize\" means to say sorry and takes \"to\": it fits neither the meaning nor the grammar.",
+            "C": "\"respond\" needs \"to\" (\"respond to their manager\") and means to reply.",
+            "D": "\"arrive\" is intransitive: it cannot take a direct object."
+          },
+          "trap": "Check whether the verb takes a direct object: notify someone, but respond to / apologize to someone."
+        }
+      }
+    },
+    {
+      "id": "p5-0210",
+      "part": 5,
+      "tags": [
+        "vocabulary-in-context"
+      ],
+      "difficulty": 1,
+      "stem": "To secure a private dining room, the restaurant asks groups to leave a refundable -------.",
+      "options": [
+        "receipt",
+        "deposit",
+        "invoice",
+        "discount"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "Pour réserver une salle, on verse un acompte remboursable : « refundable deposit ».",
+          "distractors": {
+            "A": "« receipt » est un reçu : on le reçoit après un paiement, on ne le « laisse » pas pour réserver, et il n'est pas remboursable.",
+            "C": "« invoice » est une facture que le restaurant émet : le client ne la laisse pas.",
+            "D": "« discount » est une réduction de prix : elle n'est pas remboursable."
+          },
+          "trap": "« refundable » et « secure a room » → pense à de l'argent versé à l'avance : deposit."
+        },
+        "en": {
+          "rule": "To reserve a room you pay a refundable deposit: \"refundable deposit\".",
+          "distractors": {
+            "A": "\"receipt\" is a proof of payment: you get it after paying, you do not leave it to reserve, and it is not refundable.",
+            "C": "\"invoice\" is a bill the restaurant sends: the customer does not leave one.",
+            "D": "\"discount\" is a price reduction: it cannot be refunded."
+          },
+          "trap": "\"refundable\" and \"secure a room\" point to money paid in advance: deposit."
+        }
+      }
+    }
+  ]
+}
