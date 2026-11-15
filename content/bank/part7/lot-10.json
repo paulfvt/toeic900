@@ -1,0 +1,689 @@
+{
+  "part": 7,
+  "pool": "training",
+  "sets": [
+    {
+      "id": "p7-0046",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "chat",
+          "title": "Press Shop Chat - Penhallow Packaging",
+          "text": "Marisol Vance (7:45 A.M.): Team, Press 4 is down. A hydraulic hose split during the night shift, and the new hose won't reach us until tomorrow morning.\nRuben Lundmark (7:47 A.M.): Then we can't finish the Rennick Foods order on Press 4 today.\nMarisol Vance (7:49 A.M.): Right. Press 2 is free after 11:00, though. Can the molds be moved over by then?\nRuben Lundmark (7:52 A.M.): The mold change normally takes three people two hours, and the rest of my crew doesn't start until 9:30. That's a tall order.\nMarisol Vance (7:54 A.M.): Understood. I'll send Imre and Soo-jin from the loading dock at 8:30, and I'll tell Rennick the shipment will leave Thursday instead of Wednesday.\nRuben Lundmark (7:55 A.M.): Thanks. With three of us, we should make it."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0046-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 1,
+          "stem": "What are the writers mainly discussing?",
+          "options": [
+            "Which workers should join the night shift",
+            "How to order a part for several presses",
+            "How to continue an order after a machine breakdown",
+            "Why a customer canceled a shipment"
+          ],
+          "answer": "C",
+          "evidence": [
+            "Team, Press 4 is down.",
+            "Press 2 is free after 11:00, though."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La conversation commence par la panne (« Press 4 is down ») puis cherche une solution : passer la commande sur « Press 2 ». Le sujet est donc de continuer une commande malgré une machine en panne.",
+              "distractors": {
+                "A": "Il n'est jamais question d'équipe de nuit à recruter : la panne a seulement eu lieu pendant le « night shift ».",
+                "B": "Une seule pièce, le tuyau, est concernée, et elle est déjà commandée (elle arrive demain) : on ne discute pas de commander des pièces pour plusieurs presses.",
+                "D": "Aucune commande n'est annulée : le client est simplement prévenu d'une livraison décalée d'un jour."
+              },
+              "trap": "Pour une question « mainly discussing », cherche le problème posé au début et la solution qui occupe la suite ; les mots isolés (night shift, hose, shipment) sont des détails."
+            },
+            "en": {
+              "rule": "The chat opens with the breakdown (\"Press 4 is down\") and then looks for a fix: moving the job to \"Press 2\". The topic is how to continue an order despite a broken machine.",
+              "distractors": {
+                "A": "Hiring for the night shift is never discussed: the failure simply happened during the \"night shift\".",
+                "B": "Only one part, the hose, is involved and it is already on its way (it arrives tomorrow): nobody discusses ordering parts for several presses.",
+                "D": "No order is canceled: the customer is only told that the shipment will leave one day later."
+              },
+              "trap": "For a \"mainly discussing\" question, find the problem raised at the start and the solution that fills the rest; isolated words (night shift, hose, shipment) are only details."
+            }
+          }
+        },
+        {
+          "id": "p7-0046-2",
+          "tags": [
+            "writer-intention"
+          ],
+          "difficulty": 3,
+          "stem": "At 7:52 A.M., what does Mr. Lundmark most likely mean when he writes, \"That's a tall order\"?",
+          "options": [
+            "The new hose costs too much.",
+            "The Rennick Foods order is larger than he expected.",
+            "The molds cannot be moved in time with his current team.",
+            "He refuses to work on Press 2."
+          ],
+          "answer": "C",
+          "evidence": [
+            "The mold change normally takes three people two hours, and the rest of my crew doesn't start until 9:30.",
+            "That's a tall order."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Ms. Vance demande de déplacer les moules avant 11:00. M. Lundmark répond que le changement demande trois personnes pendant deux heures et que son équipe n'arrive qu'à 9:30 : « That's a tall order » veut dire que c'est très difficile à réussir avec les personnes dont il dispose.",
+              "distractors": {
+                "A": "Le prix du tuyau n'est jamais évoqué : la phrase répond à la demande de déplacer les moules, pas à la panne.",
+                "B": "Il ne parle pas de la taille de la commande (« tall order » au sens littéral de « grande commande ») : il parle du temps et du personnel nécessaires.",
+                "D": "Il ne refuse pas Press 2 : il dit que c'est difficile, et accepte ensuite l'aide proposée (« we should make it »)."
+              },
+              "trap": "Une réplique idiomatique se comprend par le message qui la précède : ici, une demande. Demande-toi si la personne accepte, refuse ou doute, et pourquoi ; n'interprète pas les mots au sens littéral."
+            },
+            "en": {
+              "rule": "Ms. Vance asks for the molds to be moved before 11:00. Mr. Lundmark answers that the change takes three people two hours and that his crew starts at 9:30: \"That's a tall order\" means it is very hard to achieve with the people he has.",
+              "distractors": {
+                "A": "The price of the hose is never mentioned: the line answers the request to move the molds, not the breakdown.",
+                "B": "He is not talking about the size of the order (the literal \"big order\" reading): he is talking about the time and staff needed.",
+                "D": "He does not refuse Press 2: he says it is difficult, then accepts the help offered (\"we should make it\")."
+              },
+              "trap": "An idiomatic reply is understood through the message before it: here, a request. Ask whether the person accepts, refuses or doubts, and why; do not read the words literally."
+            }
+          }
+        },
+        {
+          "id": "p7-0046-3",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 1,
+          "stem": "What is indicated about the Rennick Foods shipment?",
+          "options": [
+            "It will be sent in two parts.",
+            "It will be made at another plant.",
+            "It will leave a day later than planned.",
+            "It has been canceled."
+          ],
+          "answer": "C",
+          "evidence": [
+            "I'll tell Rennick the shipment will leave Thursday instead of Wednesday."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Ms. Vance écrit qu'elle va prévenir le client : « the shipment will leave Thursday instead of Wednesday ». Le départ est donc repoussé d'un jour.",
+              "distractors": {
+                "A": "Rien ne parle d'une livraison en deux fois : la commande sera produite sur une seule presse, « Press 2 ».",
+                "B": "La commande reste fabriquée dans cet atelier, sur une autre machine, pas dans une autre usine.",
+                "D": "Elle n'est pas annulée : elle partira jeudi."
+              },
+              "trap": "Quand une question porte sur une date ou un délai, relève les deux jours cités (ici jeudi et mercredi) et vérifie lequel est le nouveau."
+            },
+            "en": {
+              "rule": "Ms. Vance writes that she will tell the customer: \"the shipment will leave Thursday instead of Wednesday\". The departure is pushed back by one day.",
+              "distractors": {
+                "A": "Nothing mentions a split delivery: the order will be produced on a single press, \"Press 2\".",
+                "B": "The order is still made in this workshop, on another machine, not at another plant.",
+                "D": "It is not canceled: it will leave on Thursday."
+              },
+              "trap": "When a question is about a date or delay, note both days mentioned (here Thursday and Wednesday) and check which one is the new date."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0047",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "job-posting",
+          "title": "Tarrowgate Marine Services - Job Opening",
+          "text": "Position: Vessel Berth Planner (full-time)\nLocation: Eastport Harbor\nApplication deadline: March 14\n\nTarrowgate Marine Services arranges berths, pilots, and tugboats for container ships and bulk carriers calling at Eastport Harbor. When our second container terminal opens on May 12, we expect to handle about one-third more ship visits, and we are adding a planner to our small scheduling team.\n\nResponsibilities:\n- Assign each arriving ship to a berth and update the daily berth plan\n- Coordinate arrival times with pilots, tugboat crews, and terminal supervisors\n- Notify shipping agents promptly when a delay affects their vessel\n\nRequirements:\n- At least two years of experience in port or shipping operations\n- Strong spreadsheet skills\n- Willingness to work rotating shifts, including some weekends\n\nApplications are accepted online only at the Tarrowgate careers page. Paper applications will not be reviewed. Interviews will take place in the second half of March, and the new planner will begin on May 5."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0047-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 3,
+          "stem": "What is the main purpose of the posting?",
+          "options": [
+            "To announce the opening of a new container terminal",
+            "To describe how tugboat crews are trained",
+            "To ask shipping agents to report delays",
+            "To recruit someone to schedule ship arrivals"
+          ],
+          "answer": "D",
+          "evidence": [
+            "Position: Vessel Berth Planner (full-time)",
+            "we are adding a planner to our small scheduling team."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le texte est une offre d'emploi : « Position: Vessel Berth Planner » et « we are adding a planner to our small scheduling team ». Les responsabilités (affecter les navires à un quai, coordonner les arrivées) montrent que l'on recrute quelqu'un pour planifier les arrivées de navires.",
+              "distractors": {
+                "A": "Le nouveau terminal est cité comme la raison du recrutement, mais l'objet du texte est de trouver un planificateur, pas d'annoncer l'ouverture.",
+                "B": "Les équipages de remorqueurs sont des interlocuteurs du poste (« Coordinate arrival times with... »), pas des personnes que l'on forme.",
+                "C": "Les agents maritimes sont prévenus par le planificateur (« Notify shipping agents »), ils n'ont rien à signaler eux-mêmes."
+              },
+              "trap": "Pour le but d'une offre d'emploi, regarde l'intitulé du poste puis la phrase qui explique pourquoi on recrute ; un fait annexe (ouverture d'un terminal) est un distracteur fréquent."
+            },
+            "en": {
+              "rule": "The text is a job posting: \"Position: Vessel Berth Planner\" and \"we are adding a planner to our small scheduling team\". The responsibilities (assigning ships to berths, coordinating arrivals) show that someone is being recruited to schedule ship arrivals.",
+              "distractors": {
+                "A": "The new terminal is given as the reason for hiring, but the purpose of the text is to find a planner, not to announce the opening.",
+                "B": "Tugboat crews are people the planner works with (\"Coordinate arrival times with...\"), not people being trained.",
+                "C": "Shipping agents are notified by the planner (\"Notify shipping agents\"); they are not asked to report anything."
+              },
+              "trap": "For the purpose of a job posting, read the job title and the sentence explaining why the company is hiring; a side fact (a terminal opening) is a frequent distractor."
+            }
+          }
+        },
+        {
+          "id": "p7-0047-2",
+          "tags": [
+            "not-true"
+          ],
+          "difficulty": 3,
+          "stem": "What is NOT listed as a requirement for the position?",
+          "options": [
+            "Experience in port or shipping work",
+            "Skill with spreadsheets",
+            "Flexibility about working hours",
+            "A license to command a ship"
+          ],
+          "answer": "D",
+          "evidence": [
+            "At least two years of experience in port or shipping operations",
+            "Strong spreadsheet skills",
+            "Willingness to work rotating shifts, including some weekends"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La section « Requirements » contient trois points : « At least two years of experience in port or shipping operations », « Strong spreadsheet skills » et « Willingness to work rotating shifts ». Aucune licence de capitaine n'est demandée.",
+              "distractors": {
+                "A": "Cette exigence est écrite : deux ans d'expérience dans les opérations portuaires ou maritimes.",
+                "B": "Cette exigence est écrite : « Strong spreadsheet skills ».",
+                "C": "Cette exigence est écrite : accepter des horaires en rotation, y compris certains week-ends."
+              },
+              "trap": "Dans une question NOT, vérifie chaque option dans la bonne section (ici « Requirements ») et élimine les trois que tu retrouves ; la quatrième est la réponse."
+            },
+            "en": {
+              "rule": "The \"Requirements\" section has three items: \"At least two years of experience in port or shipping operations\", \"Strong spreadsheet skills\" and \"Willingness to work rotating shifts\". No ship command license is asked for.",
+              "distractors": {
+                "A": "This requirement is written: two years of experience in port or shipping operations.",
+                "B": "This requirement is written: \"Strong spreadsheet skills\".",
+                "C": "This requirement is written: accepting rotating shifts, including some weekends."
+              },
+              "trap": "In a NOT question, check each option in the right section (here \"Requirements\") and cross out the three you find; the fourth is the answer."
+            }
+          }
+        },
+        {
+          "id": "p7-0047-3",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 2,
+          "stem": "What is indicated about the application process?",
+          "options": [
+            "Candidates must first visit the harbor office.",
+            "Candidates must apply over the Internet.",
+            "Candidates must include a reference letter.",
+            "Candidates must take a test before interviews."
+          ],
+          "answer": "B",
+          "evidence": [
+            "Applications are accepted online only at the Tarrowgate careers page.",
+            "Paper applications will not be reviewed."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le texte précise : « Applications are accepted online only » et « Paper applications will not be reviewed ». Candidater « over the Internet » reformule « online only ».",
+              "distractors": {
+                "A": "Aucune visite au bureau du port n'est demandée ; le lieu cité (« Eastport Harbor ») est celui du poste.",
+                "C": "Aucune lettre de recommandation n'est mentionnée dans l'offre.",
+                "D": "L'offre ne parle que d'entretiens (« Interviews will take place... »), sans test préalable."
+              },
+              "trap": "La bonne réponse reformule le texte (« online only » devient « over the Internet ») ; les distracteurs ajoutent des étapes que l'offre ne mentionne pas."
+            },
+            "en": {
+              "rule": "The text says: \"Applications are accepted online only\" and \"Paper applications will not be reviewed\". Applying \"over the Internet\" paraphrases \"online only\".",
+              "distractors": {
+                "A": "No visit to the harbor office is required; the place named (\"Eastport Harbor\") is where the job is located.",
+                "C": "No reference letter is mentioned in the posting.",
+                "D": "The posting only mentions interviews (\"Interviews will take place...\"), with no earlier test."
+              },
+              "trap": "The correct answer paraphrases the text (\"online only\" becomes \"over the Internet\"); distractors add steps the posting never mentions."
+            }
+          }
+        },
+        {
+          "id": "p7-0047-4",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 1,
+          "stem": "What is suggested about the new planner?",
+          "options": [
+            "He or she will manage the scheduling team.",
+            "He or she will work only on weekdays.",
+            "He or she will start before the second terminal opens.",
+            "He or she will be trained by tugboat crews."
+          ],
+          "answer": "C",
+          "evidence": [
+            "When our second container terminal opens on May 12",
+            "the new planner will begin on May 5."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le nouveau planificateur commence le 5 mai, et le deuxième terminal ouvre le 12 mai : il arrive donc une semaine avant l'ouverture.",
+              "distractors": {
+                "A": "Il rejoint une équipe existante (« our small scheduling team ») ; rien n'indique qu'il la dirigera.",
+                "B": "Au contraire, le poste exige d'accepter des horaires en rotation « including some weekends ».",
+                "D": "Aucune formation n'est mentionnée, et les équipages de remorqueurs sont des partenaires de travail."
+              },
+              "trap": "Une déduction de dates : compare deux dates données à des endroits différents du texte (5 mai et 12 mai) avant de choisir."
+            },
+            "en": {
+              "rule": "The new planner starts on May 5 and the second terminal opens on May 12: he or she therefore arrives a week before the opening.",
+              "distractors": {
+                "A": "The planner joins an existing team (\"our small scheduling team\"); nothing says he or she will lead it.",
+                "B": "On the contrary, the job requires rotating shifts, \"including some weekends\".",
+                "D": "No training is mentioned, and tugboat crews are working partners."
+              },
+              "trap": "A date inference: compare two dates given in different places in the text (May 5 and May 12) before choosing."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0048",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "survey",
+          "title": "Verdane Pharmacy - Spring Customer Survey Results",
+          "text": "Thank you to the 212 customers who completed our spring survey. Here are the main results.\n\nWaiting time: 64 percent rated the wait at the counter as \"good\" or \"excellent,\" compared with 51 percent last year.\n\nStaff: 91 percent said our pharmacists answered their questions clearly.\n\nRefills: 38 percent said they had to call the pharmacy more than once to find out whether a refill was ready.\n\nProducts: Many customers asked us to carry more vitamins and baby products. We will add two shelves in July.\n\nHours: 47 percent asked for later evening hours. Starting June 2, we will stay open until 8:00 P.M. on Thursdays. Customers can also sign up at the counter to receive a text message when a prescription is ready."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0048-1",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 1,
+          "stem": "What did most customers say about the pharmacists?",
+          "options": [
+            "They worked too slowly.",
+            "They offered discounts.",
+            "They gave clear answers.",
+            "They stayed open late."
+          ],
+          "answer": "C",
+          "evidence": [
+            "91 percent said our pharmacists answered their questions clearly."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Dans la partie « Staff », 91 % des clients disent que les pharmaciens répondent clairement : c'est une très large majorité. « Gave clear answers » reformule « answered their questions clearly ».",
+              "distractors": {
+                "A": "La lenteur n'est pas évoquée pour les pharmaciens ; l'attente au comptoir est jugée bonne par 64 % des clients.",
+                "B": "Aucune remise n'est mentionnée dans l'enquête.",
+                "D": "Les horaires sont un sujet à part : des clients demandent des soirées plus tardives, ce qui ne concerne pas les pharmaciens."
+              },
+              "trap": "Pour « most customers », cherche le pourcentage majoritaire sur le bon sujet (ici « Staff »), pas un chiffre d'une autre rubrique."
+            },
+            "en": {
+              "rule": "In the \"Staff\" item, 91 percent say the pharmacists answer clearly: a large majority. \"Gave clear answers\" paraphrases \"answered their questions clearly\".",
+              "distractors": {
+                "A": "Slowness is not mentioned about the pharmacists; the wait at the counter is rated good by 64 percent of customers.",
+                "B": "No discount is mentioned in the survey.",
+                "D": "Opening hours are a separate topic: some customers want later evenings, which is not about the pharmacists."
+              },
+              "trap": "For \"most customers\", find the majority percentage on the right topic (here \"Staff\"), not a figure from another item."
+            }
+          }
+        },
+        {
+          "id": "p7-0048-2",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 3,
+          "stem": "Why is the pharmacy most likely offering text messages?",
+          "options": [
+            "Customers often could not tell when refills were ready.",
+            "Customers were unhappy about waiting at the counter.",
+            "Many customers want to order medication online.",
+            "Pharmacists have too little time to answer questions."
+          ],
+          "answer": "A",
+          "evidence": [
+            "38 percent said they had to call the pharmacy more than once to find out whether a refill was ready.",
+            "Customers can also sign up at the counter to receive a text message when a prescription is ready."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Il faut relier deux passages : 38 % des clients ont dû appeler plusieurs fois pour savoir si leur renouvellement était prêt, et la pharmacie propose maintenant un SMS « when a prescription is ready ». Le SMS répond donc à ce problème d'information.",
+              "distractors": {
+                "B": "Le texte dit l'inverse : l'attente au comptoir est jugée bonne par 64 % des clients, contre 51 % l'an dernier.",
+                "C": "Aucune commande en ligne n'est évoquée dans l'enquête.",
+                "D": "91 % des clients disent que les pharmaciens répondent clairement : rien n'indique un manque de temps."
+              },
+              "trap": "Une raison « most likely » n'est jamais écrite : rapproche un problème cité dans une rubrique (les appels répétés) de la mesure annoncée dans une autre (le SMS)."
+            },
+            "en": {
+              "rule": "You must link two passages: 38 percent had to call several times to learn whether a refill was ready, and the pharmacy now offers a text message \"when a prescription is ready\". The text message answers that information problem.",
+              "distractors": {
+                "B": "The text says the opposite: the wait at the counter is rated good by 64 percent, up from 51 percent last year.",
+                "C": "No online ordering is mentioned in the survey.",
+                "D": "91 percent say the pharmacists answer clearly: nothing suggests a lack of time."
+              },
+              "trap": "A \"most likely\" reason is never written out: connect a problem named in one item (the repeated calls) with the measure announced in another (the text message)."
+            }
+          }
+        },
+        {
+          "id": "p7-0048-3",
+          "tags": [
+            "synonym-in-context"
+          ],
+          "difficulty": 1,
+          "stem": "The word \"carry\" in paragraph 5 is closest in meaning to",
+          "options": [
+            "lift",
+            "transport",
+            "stock",
+            "support"
+          ],
+          "answer": "C",
+          "evidence": [
+            "asked us to carry more vitamins and baby products."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Des clients demandent à la pharmacie de « carry more vitamins and baby products » : dans un magasin, « carry » veut dire proposer des produits à la vente, donc « stock » (avoir en rayon).",
+              "distractors": {
+                "A": "« lift » (soulever) est un sens physique de « carry » : on ne soulève pas des produits dans cette phrase.",
+                "B": "« transport » est un sens de « carry » (porter d'un lieu à un autre), mais les clients ne demandent pas un déplacement de produits : ils veulent les trouver en magasin.",
+                "D": "« support » est un autre sens de « carry » (porter un poids), sans rapport avec des rayons de produits."
+              },
+              "trap": "Remplace le mot par chaque option dans la phrase ; le sens courant (porter) est souvent le piège, le contexte (un magasin) donne le sens commercial."
+            },
+            "en": {
+              "rule": "Customers ask the pharmacy to \"carry more vitamins and baby products\": in a store, \"carry\" means to offer products for sale, so \"stock\" (have on the shelves).",
+              "distractors": {
+                "A": "\"lift\" is a physical meaning of \"carry\": nobody lifts products in this sentence.",
+                "B": "\"transport\" is a meaning of \"carry\" (take from one place to another), but customers are not asking for products to be moved: they want to find them in the store.",
+                "D": "\"support\" is another meaning of \"carry\" (bear a weight), unrelated to store shelves."
+              },
+              "trap": "Put each option back into the sentence; the everyday meaning (to hold or move) is often the trap, and the context (a store) gives the commercial meaning."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0049",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "chat",
+          "title": "Release Team Chat - Quillbit Software",
+          "text": "Teodora Vukasin (9:12 A.M.): Morning, all. Is version 3.8 still on track for release on Thursday?\nBarnaby Osei (9:15 A.M.): Almost. During testing, I found that the calendar export shows events one day early for users in Sydney and Auckland. Someone needs to look at it today.\nSunniva Aldaine (9:16 A.M.): Leave it with me. I should have a fix ready by Tuesday evening.\nTeodora Vukasin (9:18 A.M.): Thanks, Sunniva. Barnaby, how soon can you retest it?\nBarnaby Osei (9:19 A.M.): Wednesday at 8:00 A.M.\nTeodora Vukasin (9:21 A.M.): Okay. Remember that the Pimlott Dental demo is Wednesday afternoon, and they haven't chosen between us and another vendor yet. I don't want them to run into this error.\nTeodora Vukasin (9:23 A.M.): So here is the plan. Sunniva fixes the export by Tuesday evening, Barnaby retests it Wednesday morning, and we move the release from Thursday to Friday. I'll also email our beta testers about the delay today."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0049-1",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 3,
+          "stem": "What problem did Mr. Osei find?",
+          "options": [
+            "The app closes when a calendar is opened.",
+            "Calendar exports fail for users in two cities.",
+            "Testing cannot be finished before Thursday.",
+            "Events in exported calendars show the wrong day for some users."
+          ],
+          "answer": "D",
+          "evidence": [
+            "the calendar export shows events one day early for users in Sydney and Auckland."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "M. Osei écrit que l'export du calendrier « shows events one day early » pour certains utilisateurs. « Show the wrong day » reformule ce décalage d'un jour.",
+              "distractors": {
+                "A": "Personne ne parle d'une fermeture de l'application ; le défaut touche seulement l'export.",
+                "B": "L'export ne plante pas : il fonctionne, mais affiche des événements un jour trop tôt. Les deux villes (Sydney et Auckland) sont citées, mais pas pour un échec de l'export.",
+                "C": "Le test n'est pas bloqué : M. Osei fera un nouveau test mercredi matin, avant la sortie."
+              },
+              "trap": "Un distracteur peut reprendre les mots exacts du texte (export, Sydney, Auckland) tout en changeant la nature du problème : vérifie le verbe (« shows... one day early », pas « fails »)."
+            },
+            "en": {
+              "rule": "Mr. Osei writes that the calendar export \"shows events one day early\" for some users. \"Show the wrong day\" paraphrases this one-day shift.",
+              "distractors": {
+                "A": "Nobody mentions the app closing; the flaw only affects the export.",
+                "B": "The export does not fail: it works but shows events one day too early. The two cities (Sydney and Auckland) are named, but not for a failed export.",
+                "C": "Testing is not blocked: Mr. Osei will retest on Wednesday morning, before the release."
+              },
+              "trap": "A distractor can reuse the text's exact words (export, Sydney, Auckland) while changing the nature of the problem: check the verb (\"shows... one day early\", not \"fails\")."
+            }
+          }
+        },
+        {
+          "id": "p7-0049-2",
+          "tags": [
+            "writer-intention"
+          ],
+          "difficulty": 1,
+          "stem": "At 9:16 A.M., what does Ms. Aldaine most likely mean when she writes, \"Leave it with me\"?",
+          "options": [
+            "She wants to be left alone.",
+            "She will start working on the problem.",
+            "She wants someone else to fix it.",
+            "She is checking the demo schedule."
+          ],
+          "answer": "B",
+          "evidence": [
+            "Someone needs to look at it today.",
+            "Leave it with me."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "M. Osei vient de dire que « someone needs to look at it today ». Mme Aldaine répond « Leave it with me » puis annonce un correctif pour mardi soir : elle se charge du problème.",
+              "distractors": {
+                "A": "Lecture trop littérale : « leave it with me » confie la tâche à celle qui parle, elle ne demande pas qu'on la laisse tranquille.",
+                "C": "C'est l'inverse : elle se propose pour le corriger elle-même.",
+                "D": "Le planning de la démonstration n'est cité que plus tard, par Mme Vukasin, à 9:21."
+              },
+              "trap": "« Leave it with me » veut dire « je m'en occupe » : c'est la réponse classique à une demande d'aide ou à un problème signalé juste avant."
+            },
+            "en": {
+              "rule": "Mr. Osei has just said that \"someone needs to look at it today\". Ms. Aldaine answers \"Leave it with me\" and then promises a fix by Tuesday evening: she is taking care of the problem.",
+              "distractors": {
+                "A": "Too literal a reading: \"leave it with me\" hands the task to the speaker; she is not asking to be left alone.",
+                "C": "It is the opposite: she volunteers to fix it herself.",
+                "D": "The demo schedule is only mentioned later, by Ms. Vukasin, at 9:21."
+              },
+              "trap": "\"Leave it with me\" means \"I'll take care of it\": it is the classic answer to a request for help or a problem reported just before."
+            }
+          }
+        },
+        {
+          "id": "p7-0049-3",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 2,
+          "stem": "What is suggested about Pimlott Dental?",
+          "options": [
+            "It reported the calendar error.",
+            "It is based in Sydney.",
+            "It has not yet chosen a software provider.",
+            "It has used the app for several years."
+          ],
+          "answer": "C",
+          "evidence": [
+            "they haven't chosen between us and another vendor yet."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Mme Vukasin dit que Pimlott Dental n'a pas encore choisi entre Quillbit (« us ») et un autre fournisseur : l'entreprise n'a donc pas encore décidé de son logiciel et la démonstration compte.",
+              "distractors": {
+                "A": "Le défaut a été trouvé pendant les tests internes, par M. Osei (« During testing, I found »).",
+                "B": "Le texte cite Sydney pour des utilisateurs touchés par le défaut, sans lien établi avec Pimlott Dental.",
+                "D": "Une entreprise qui hésite entre deux fournisseurs n'utilise pas encore l'application depuis des années."
+              },
+              "trap": "Pour savoir ce qu'on « suggère » d'une entreprise, relis la phrase qui parle d'elle (ici « haven't chosen ») ; ne lui prête pas des liens que le texte ne donne pas."
+            },
+            "en": {
+              "rule": "Ms. Vukasin says Pimlott Dental has not yet chosen between Quillbit (\"us\") and another vendor: it has not decided on its software yet, which is why the demo matters.",
+              "distractors": {
+                "A": "The flaw was found during internal testing, by Mr. Osei (\"During testing, I found\").",
+                "B": "The text names Sydney for users affected by the flaw, with no link to Pimlott Dental.",
+                "D": "A company still choosing between two vendors has not been using the app for years."
+              },
+              "trap": "To know what is \"suggested\" about a company, reread the sentence that mentions it (here \"haven't chosen\"); do not give it links the text never states."
+            }
+          }
+        },
+        {
+          "id": "p7-0049-4",
+          "tags": [
+            "not-true"
+          ],
+          "difficulty": 2,
+          "stem": "What is NOT part of the plan Ms. Vukasin describes?",
+          "options": [
+            "Moving the release to a later day",
+            "Testing the repaired feature again",
+            "Informing beta testers of the delay",
+            "Delaying the demonstration for Pimlott Dental"
+          ],
+          "answer": "D",
+          "evidence": [
+            "Sunniva fixes the export by Tuesday evening, Barnaby retests it Wednesday morning, and we move the release from Thursday to Friday.",
+            "I'll also email our beta testers about the delay today."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le plan de Mme Vukasin comprend : le correctif de Sunniva, un nouveau test mercredi matin (« retests »), le report de la sortie à vendredi et un e-mail aux testeurs. La démonstration reste fixée à mercredi après-midi.",
+              "distractors": {
+                "A": "Cette étape est dans le plan : « we move the release from Thursday to Friday ».",
+                "B": "Cette étape est dans le plan : « Barnaby retests it Wednesday morning ».",
+                "C": "Cette étape est dans le plan : « I'll also email our beta testers about the delay today »."
+              },
+              "trap": "Pour une question NOT, relis la liste d'actions et barre les trois que tu retrouves ; l'option restante peut être plausible dans l'histoire (la démo) sans être dans le plan."
+            },
+            "en": {
+              "rule": "Ms. Vukasin's plan includes: Sunniva's fix, a new test on Wednesday morning (\"retests\"), moving the release to Friday and an e-mail to beta testers. The demo stays on Wednesday afternoon.",
+              "distractors": {
+                "A": "This step is in the plan: \"we move the release from Thursday to Friday\".",
+                "B": "This step is in the plan: \"Barnaby retests it Wednesday morning\".",
+                "C": "This step is in the plan: \"I'll also email our beta testers about the delay today\"."
+              },
+              "trap": "For a NOT question, reread the list of actions and cross out the three you find; the remaining option may sound plausible in the story (the demo) without being in the plan."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0050",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "invoice",
+          "title": "Hollin Ridge Growers Cooperative - Invoice",
+          "text": "Invoice No.: 7315\nInvoice date: October 8\nPayment due: November 7\nBilled to: Winifred Aspenwall, Aspenwall Family Dairy, 44 Mill Lane, Tessing\n\nSeed oats - 40 bags at $22.50 - $900.00\nCattle feed supplement - 12 sacks at $31.00 - $372.00\nFence posts - 60 at $4.50 - $270.00\n\nSubtotal: $1,542.00\nMember discount (10 percent on seed and feed only): -$127.20\nDelivery: $30.00\nTotal due: $1,444.80\n\nPayment can be made at the cooperative office or by bank transfer. Orders are delivered within three business days of the invoice date. Thank you for your order."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0050-1",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 1,
+          "stem": "What does the member discount apply to?",
+          "options": [
+            "Seed and feed purchases",
+            "The entire order",
+            "The delivery charge",
+            "Fence posts and delivery"
+          ],
+          "answer": "A",
+          "evidence": [
+            "Member discount (10 percent on seed and feed only)"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La ligne de remise dit : « 10 percent on seed and feed only ». Elle s'applique aux semences (« Seed oats ») et à l'aliment du bétail (« Cattle feed supplement »), soit 1 272,00 $ x 10 % = 127,20 $.",
+              "distractors": {
+                "B": "La remise ne porte pas sur toute la commande : « only » la limite aux semences et à l'aliment, et les poteaux de clôture sont exclus.",
+                "C": "La livraison est facturée 30,00 $, sans remise.",
+                "D": "Ni les poteaux ni la livraison ne sont concernés : le mot « only » les exclut."
+              },
+              "trap": "Sur une facture, lis les précisions entre parenthèses : « only » restreint l'application d'une remise."
+            },
+            "en": {
+              "rule": "The discount line says: \"10 percent on seed and feed only\". It applies to the seed (\"Seed oats\") and the animal feed (\"Cattle feed supplement\"): $1,272.00 x 10 percent = $127.20.",
+              "distractors": {
+                "B": "The discount does not cover the whole order: \"only\" limits it to seed and feed, and the fence posts are excluded.",
+                "C": "Delivery is charged $30.00 with no discount.",
+                "D": "Neither the posts nor the delivery are covered: the word \"only\" excludes them."
+              },
+              "trap": "On an invoice, read the details in parentheses: \"only\" limits what a discount applies to."
+            }
+          }
+        },
+        {
+          "id": "p7-0050-2",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 1,
+          "stem": "What is suggested about Ms. Aspenwall?",
+          "options": [
+            "She paid the invoice in advance.",
+            "She collected her order herself.",
+            "She raises vegetables for sale.",
+            "She belongs to the cooperative."
+          ],
+          "answer": "D",
+          "evidence": [
+            "Member discount (10 percent on seed and feed only): -$127.20"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Mme Aspenwall reçoit une « Member discount » : cette remise est réservée aux membres, on en déduit qu'elle est membre de la coopérative.",
+              "distractors": {
+                "A": "La facture mentionne une échéance (« Payment due: November 7 ») : elle n'est pas encore payée.",
+                "B": "Une ligne « Delivery: $30.00 » est facturée et le texte dit que les commandes sont livrées : elle n'est pas allée les chercher.",
+                "C": "Son exploitation s'appelle « Aspenwall Family Dairy » et elle achète de l'aliment pour bétail : c'est une exploitation laitière, pas maraîchère."
+              },
+              "trap": "Sur une facture, une remise « member » prouve un statut de membre ; cherche dans les lignes de calcul, pas seulement dans les mots du texte."
+            },
+            "en": {
+              "rule": "Ms. Aspenwall receives a \"Member discount\": this discount is for members, so you can infer she belongs to the cooperative.",
+              "distractors": {
+                "A": "The invoice shows a due date (\"Payment due: November 7\"): it is not paid yet.",
+                "B": "A \"Delivery: $30.00\" line is charged and the text says orders are delivered: she did not collect it herself.",
+                "C": "Her farm is called \"Aspenwall Family Dairy\" and she buys cattle feed: it is a dairy farm, not a vegetable farm."
+              },
+              "trap": "On an invoice, a \"member\" discount proves membership; look in the calculation lines, not only in the sentences."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
