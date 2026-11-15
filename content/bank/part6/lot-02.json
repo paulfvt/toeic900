@@ -1,0 +1,771 @@
+{
+  "part": 6,
+  "pool": "training",
+  "texts": [
+    {
+      "id": "p6-0009",
+      "part": 6,
+      "genre": "memo",
+      "text": "MEMO\nTo: Dock and Warehouse Staff\nFrom: Teodor Valcea, Operations Manager\nDate: October 6\nSubject: New container scanning system\n\nBeginning October 20, the list of containers waiting at Pier 4 [[1]] updated each morning by the new scanning system. Each supervisor will [[2]] a handheld scanner to every crew member, who must return it at the end of the shift.\n\nPlease [[3]] special attention to refrigerated containers, which must be scanned within ten minutes of unloading. [[4]] This rule applies to every shift, including nights and weekends.\n\nTraining sessions will be held in the break room on October 14 and October 15. Please contact me if you cannot attend either session.",
+      "questions": [
+        {
+          "id": "p6-0009-1",
+          "tags": [
+            "subject-verb-agreement"
+          ],
+          "difficulty": 3,
+          "options": [
+            "is",
+            "are",
+            "were",
+            "have been"
+          ],
+          "answer": "A",
+          "evidence": [
+            "the list of containers waiting at Pier 4"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le sujet est « the list », au singulier. « containers » n'est que le complément de « list of », et « waiting at Pier 4 » ne change rien : le verbe est donc au singulier, « is updated ».",
+              "distractors": {
+                "B": "« are » s'accorderait avec « containers », le nom le plus proche du trou, mais ce n'est pas le sujet.",
+                "C": "« were » est un pluriel (ou un passé) : il ne s'accorde pas avec « list » et ne convient pas à une règle qui commence le 20 octobre.",
+                "D": "« have been » est un pluriel : il ne peut pas suivre le sujet singulier « the list »."
+              },
+              "trap": "Cherche le nom noyau du sujet (« list »), pas le nom juste avant le verbe (« containers », « Pier 4 »)."
+            },
+            "en": {
+              "rule": "The subject is \"the list\", which is singular. \"containers\" only completes \"list of\", and \"waiting at Pier 4\" changes nothing: the verb is singular, \"is updated\".",
+              "distractors": {
+                "B": "\"are\" would agree with \"containers\", the noun closest to the blank, but that is not the subject.",
+                "C": "\"were\" is plural (or past): it does not agree with \"list\" and does not suit a rule that starts on October 20.",
+                "D": "\"have been\" is plural: it cannot follow the singular subject \"the list\"."
+              },
+              "trap": "Find the head noun of the subject (\"list\"), not the noun right before the verb (\"containers\", \"Pier 4\")."
+            }
+          }
+        },
+        {
+          "id": "p6-0009-2",
+          "tags": [
+            "vocabulary-in-context"
+          ],
+          "difficulty": 1,
+          "options": [
+            "issue",
+            "attend",
+            "promote",
+            "argue"
+          ],
+          "answer": "A",
+          "evidence": [
+            "to every crew member, who must return it at the end of the shift"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le superviseur donne un scanner à chaque employé, qui doit le rendre en fin de service : on « issue » du matériel à quelqu'un.",
+              "distractors": {
+                "B": "« attend » signifie assister à (une réunion) : on n'« attend » pas un scanner à quelqu'un.",
+                "C": "« promote » signifie promouvoir ou faire la publicité de : impossible avec un objet qu'on remet.",
+                "D": "« argue » signifie soutenir une thèse ou se disputer : aucun lien avec la remise d'un appareil."
+              },
+              "trap": "Un verbe doit aller avec son complément : « issue » + équipement + « to » + personne."
+            },
+            "en": {
+              "rule": "The supervisor gives a scanner to each crew member, who must return it at the end of the shift: you \"issue\" equipment to someone.",
+              "distractors": {
+                "B": "\"attend\" means to be present at (a meeting): you do not \"attend\" a scanner to someone.",
+                "C": "\"promote\" means to advertise or to give a higher job: it does not fit an object that is handed out.",
+                "D": "\"argue\" means to state a case or to quarrel: it has nothing to do with handing out a device."
+              },
+              "trap": "A verb must fit its object: \"issue\" + equipment + \"to\" + person."
+            }
+          }
+        },
+        {
+          "id": "p6-0009-3",
+          "tags": [
+            "collocations"
+          ],
+          "difficulty": 3,
+          "options": [
+            "hold",
+            "pay",
+            "take",
+            "keep"
+          ],
+          "answer": "B",
+          "explanation": {
+            "fr": {
+              "rule": "L'expression figée est « pay attention to » : on « paie » son attention. Les trois autres verbes ne se combinent pas avec « attention » dans ce sens.",
+              "distractors": {
+                "A": "« hold attention » n'existe pas dans ce sens : on dit « hold someone's attention » (retenir l'attention de quelqu'un), ce qui est autre chose.",
+                "C": "« take attention » n'est pas naturel ; on dit « take care » ou « take notice », mais pas « take attention to ».",
+                "D": "« keep attention » n'est pas une collocation ; on dit plutôt « keep an eye on »."
+              },
+              "trap": "Apprends les collocations par blocs : « pay attention to », « take care of », « keep an eye on »."
+            },
+            "en": {
+              "rule": "The fixed phrase is \"pay attention to\": you \"pay\" attention. The other verbs do not combine with \"attention\" in this sense.",
+              "distractors": {
+                "A": "\"hold attention\" does not exist in this sense: you say \"hold someone's attention\", which means something different.",
+                "C": "\"take attention\" is not natural; you say \"take care\" or \"take notice\", but not \"take attention to\".",
+                "D": "\"keep attention\" is not a collocation; you would say \"keep an eye on\" instead."
+              },
+              "trap": "Learn collocations as blocks: \"pay attention to\", \"take care of\", \"keep an eye on\"."
+            }
+          }
+        },
+        {
+          "id": "p6-0009-4",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 2,
+          "options": [
+            "No container may leave the unloading area without a scan.",
+            "The scanners were purchased from a local supplier last spring.",
+            "Training sessions will take place in the break room next week.",
+            "Containers from the northern terminal usually arrive on Tuesdays."
+          ],
+          "answer": "A",
+          "evidence": [
+            "which must be scanned within ten minutes of unloading",
+            "This rule applies to every shift"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase d'avant impose un délai de scan pour les conteneurs réfrigérés ; celle d'après commence par « This rule ». Il faut donc une phrase qui énonce une règle : l'interdiction de sortir un conteneur sans scan.",
+              "distractors": {
+                "B": "L'achat des scanners ne pose aucune règle : « This rule » n'aurait pas de référent.",
+                "C": "Les formations sont annoncées dans le dernier paragraphe ; ici la phrase est redondante et « This rule » ne reprendrait rien.",
+                "D": "Les jours d'arrivée des conteneurs n'ont pas de lien avec le scan, et ne forment pas une règle."
+              },
+              "trap": "Un « This/These + nom » dans la phrase suivante te dit ce que la phrase manquante doit contenir."
+            },
+            "en": {
+              "rule": "The sentence before sets a scanning deadline for refrigerated containers; the one after starts with \"This rule\". You need a sentence that states a rule: no container may leave without a scan.",
+              "distractors": {
+                "B": "Buying the scanners sets no rule: \"This rule\" would have nothing to refer to.",
+                "C": "The training sessions are announced in the last paragraph; here the sentence is redundant and \"This rule\" would refer to nothing.",
+                "D": "The arrival days of containers have nothing to do with scanning and do not form a rule."
+              },
+              "trap": "A \"This/These + noun\" in the next sentence tells you what the missing sentence must contain."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p6-0010",
+      "part": 6,
+      "genre": "memo",
+      "text": "MEMO\nTo: All Ridgeway Athletic Club staff\nFrom: Anselm Dubois, General Manager\nDate: January 8\nSubject: New weekday hours\n\nStarting February 3, the club will extend its weekday hours to meet the [[1]] demand for early-morning and late-evening classes. The doors will open at 5:30 A.M. and close at 10:30 P.M., Monday through Friday.\n\nPlease send me your availability [[2]] Friday, January 17, so that the final schedule can be posted on January 24. Instructors who want to swap a class must find a replacement themselves, and [[3]] swap must be approved by the department head.\n\nThe schedule will have two shifts, opening and closing. Instructors who close the club will leave no later than 11:15 P.M. [[4]] Part-time instructors are included in this rule.",
+      "questions": [
+        {
+          "id": "p6-0010-1",
+          "tags": [
+            "word-form-adjective"
+          ],
+          "difficulty": 2,
+          "options": [
+            "consider",
+            "considerably",
+            "considerable",
+            "considerate"
+          ],
+          "answer": "C",
+          "explanation": {
+            "fr": {
+              "rule": "« demand » est un nom : il faut un adjectif devant lui. « considerable » (important) convient, et reprend l'idée d'une forte demande de cours.",
+              "distractors": {
+                "A": "« consider » est un verbe : impossible entre « the » et un nom.",
+                "B": "« considerably » est un adverbe : il modifie un verbe ou un adjectif, pas un nom.",
+                "D": "« considerate » est bien un adjectif, mais il signifie « prévenant » et ne se dit que d'une personne, pas d'une demande."
+              },
+              "trap": "Devant un nom, il faut un adjectif ; méfie-toi des adjectifs de même racine au sens différent (considerable / considerate)."
+            },
+            "en": {
+              "rule": "\"demand\" is a noun, so an adjective must come before it. \"considerable\" (large) fits and expresses strong demand for classes.",
+              "distractors": {
+                "A": "\"consider\" is a verb: it cannot stand between \"the\" and a noun.",
+                "B": "\"considerably\" is an adverb: it modifies a verb or an adjective, not a noun.",
+                "D": "\"considerate\" is an adjective, but it means \"thoughtful\" and only describes people, not demand."
+              },
+              "trap": "Before a noun you need an adjective; beware of adjectives from the same root with different meanings (considerable / considerate)."
+            }
+          }
+        },
+        {
+          "id": "p6-0010-2",
+          "tags": [
+            "prepositions"
+          ],
+          "difficulty": 3,
+          "options": [
+            "within",
+            "since",
+            "throughout",
+            "by"
+          ],
+          "answer": "D",
+          "evidence": [
+            "so that the final schedule can be posted on January 24"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La date du 17 janvier est une échéance : la direction a besoin des disponibilités avant de publier le planning le 24. « by » signifie « au plus tard le ».",
+              "distractors": {
+                "A": "« within » s'emploie avec une durée (« within ten days »), pas avec une date précise.",
+                "B": "« since » désigne un point de départ dans le passé ; le 17 janvier est futur par rapport au 8 janvier.",
+                "C": "« throughout » signifie « pendant toute la durée de » : il ne s'emploie pas avec un seul jour comme date limite."
+              },
+              "trap": "Date limite : « by » (au plus tard) ; « within » + durée ; « until » + fin d'un état qui continue."
+            },
+            "en": {
+              "rule": "January 17 is a deadline: the manager needs the availability before posting the schedule on the 24th. \"by\" means \"no later than\".",
+              "distractors": {
+                "A": "\"within\" is used with a period of time (\"within ten days\"), not with a specific date.",
+                "B": "\"since\" marks a starting point in the past; January 17 is in the future from January 8.",
+                "C": "\"throughout\" means \"during the whole of\": it is not used with a single day as a deadline."
+              },
+              "trap": "Deadline: \"by\" (no later than); \"within\" + a period; \"until\" + the end of a continuing state."
+            }
+          }
+        },
+        {
+          "id": "p6-0010-3",
+          "tags": [
+            "quantifiers-determiners"
+          ],
+          "difficulty": 1,
+          "options": [
+            "many",
+            "each",
+            "most",
+            "several"
+          ],
+          "answer": "B",
+          "explanation": {
+            "fr": {
+              "rule": "« swap » est un nom singulier dénombrable, et la phrase pose une règle pour chaque échange : « each » se place devant un nom singulier.",
+              "distractors": {
+                "A": "« many » se construit avec un nom pluriel (« many swaps »).",
+                "C": "« most » se construit avec un pluriel (« most swaps ») ou un indénombrable, pas avec « swap » au singulier.",
+                "D": "« several » demande un nom pluriel (« several swaps »)."
+              },
+              "trap": "« each » et « every » : toujours un nom singulier ; « many », « several » : un pluriel."
+            },
+            "en": {
+              "rule": "\"swap\" is a singular countable noun, and the sentence sets a rule for every exchange: \"each\" goes before a singular noun.",
+              "distractors": {
+                "A": "\"many\" takes a plural noun (\"many swaps\").",
+                "C": "\"most\" takes a plural (\"most swaps\") or an uncountable noun, not the singular \"swap\".",
+                "D": "\"several\" requires a plural noun (\"several swaps\")."
+              },
+              "trap": "\"each\" and \"every\": always a singular noun; \"many\", \"several\": a plural."
+            }
+          }
+        },
+        {
+          "id": "p6-0010-4",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 3,
+          "options": [
+            "Members who prefer the old schedule may keep using the pool until 9:00 P.M.",
+            "Anyone who closes the club will not be scheduled to open it the next morning.",
+            "The club will hire two new cleaners to work after closing.",
+            "Instructors have always been paid on the last Friday of the month."
+          ],
+          "answer": "B",
+          "evidence": [
+            "Instructors who close the club will leave no later than 11:15 P.M.",
+            "Part-time instructors are included in this rule."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase d'avant dit qui ferme le club et quand ; celle d'après parle d'une « rule » qui s'applique aussi aux temps partiels. La phrase manquante doit donc poser une règle sur ceux qui ferment : pas d'ouverture le lendemain matin.",
+              "distractors": {
+                "A": "Elle parle des membres et non du personnel, et ne pose aucune règle que « this rule » pourrait reprendre.",
+                "C": "Elle reprend l'idée de la fermeture, mais pour d'autres employés : ce n'est pas une règle pour les instructeurs.",
+                "D": "La date de paie est un autre sujet : « this rule » ne se rattacherait à rien."
+              },
+              "trap": "Un distracteur qui reprend un mot du texte (« closing ») peut quand même casser la phrase suivante : vérifie les deux côtés."
+            },
+            "en": {
+              "rule": "The sentence before says who closes the club and when; the one after mentions a \"rule\" that also covers part-timers. The missing sentence must set a rule about those who close: no opening shift the next morning.",
+              "distractors": {
+                "A": "It is about members, not staff, and sets no rule that \"this rule\" could refer to.",
+                "C": "It repeats the idea of closing, but about other employees: it is not a rule for instructors.",
+                "D": "Pay dates are a different topic: \"this rule\" would not connect to anything."
+              },
+              "trap": "A distractor that repeats a word from the text (\"closing\") can still break the next sentence: check both sides."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p6-0011",
+      "part": 6,
+      "genre": "press-release",
+      "text": "FOR IMMEDIATE RELEASE\nContact: Desmond Achterberg, Public Relations\nEastgate, May 20\n\nThe Eastgate Museum of Glass will open its new Furnace Gallery to the public on June 12. [[1]] the museum's permanent collection has outgrown its original building, the new space will almost double the area available for exhibitions. Museum director Hamid Rostami expects annual [[2]] to rise by 30 percent once the extra space is open.\n\nThe gallery features more than 200 pieces, from ancient Roman bowls to contemporary sculptures. [[3]] Visitors can watch glassblowers shape molten glass there every afternoon.\n\nAs the studio seats only 25 people at a time, visitors are encouraged [[4]] tickets online in advance. Details are available at the front desk.",
+      "questions": [
+        {
+          "id": "p6-0011-1",
+          "tags": [
+            "conjunctions-connectors"
+          ],
+          "difficulty": 2,
+          "options": [
+            "Although",
+            "Unless",
+            "Because",
+            "Despite"
+          ],
+          "answer": "C",
+          "evidence": [
+            "the new space will almost double the area available for exhibitions"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La collection est trop grande pour le bâtiment, ce qui explique le nouvel espace : le lien est une cause, et « because » introduit une proposition de cause (sujet + verbe).",
+              "distractors": {
+                "A": "« Although » exprime une opposition : or le manque de place et l'agrandissement vont dans le même sens.",
+                "B": "« Unless » signifie « à moins que » et pose une condition négative : il n'a pas de sens ici.",
+                "D": "« Despite » est une préposition : elle ne peut pas être suivie d'un sujet et d'un verbe (« the collection has outgrown »)."
+              },
+              "trap": "Avant de choisir un connecteur, demande-toi : cause, opposition ou condition ? Puis regarde ce qui suit : proposition ou groupe nominal ?"
+            },
+            "en": {
+              "rule": "The collection is too big for the building, which explains the new space: the link is a cause, and \"because\" introduces a clause of cause (subject + verb).",
+              "distractors": {
+                "A": "\"Although\" expresses contrast: but lack of space and the expansion point in the same direction.",
+                "B": "\"Unless\" means \"if not\" and sets a negative condition: it makes no sense here.",
+                "D": "\"Despite\" is a preposition: it cannot be followed by a subject and a verb (\"the collection has outgrown\")."
+              },
+              "trap": "Before choosing a connector, ask: cause, contrast or condition? Then look at what follows: a clause or a noun phrase?"
+            }
+          }
+        },
+        {
+          "id": "p6-0011-2",
+          "tags": [
+            "word-form-noun"
+          ],
+          "difficulty": 2,
+          "options": [
+            "attend",
+            "attendance",
+            "attendant",
+            "attending"
+          ],
+          "answer": "B",
+          "explanation": {
+            "fr": {
+              "rule": "Après l'adjectif « annual », il faut un nom, sujet de « to rise ». « attendance » est le nombre de visiteurs, ce qui peut augmenter de 30 %.",
+              "distractors": {
+                "A": "« attend » est un verbe : on ne peut pas le placer après un adjectif comme sujet.",
+                "C": "« attendant » est un nom, mais désigne une personne (un préposé) : il demanderait un article ou un pluriel, et le sens ne convient pas.",
+                "D": "« attending » est un participe ou un gérondif : il ne désigne pas une quantité qui augmente de façon naturelle ici."
+              },
+              "trap": "Adjectif + trou + verbe : cherche le nom abstrait (-ance, -ion, -ment) ; un nom en -ant ou -ee désigne souvent une personne."
+            },
+            "en": {
+              "rule": "After the adjective \"annual\" you need a noun, the subject of \"to rise\". \"attendance\" is the number of visitors, which can grow by 30 percent.",
+              "distractors": {
+                "A": "\"attend\" is a verb: it cannot follow an adjective as a subject.",
+                "C": "\"attendant\" is a noun, but it means a person (a helper): it would need an article or a plural, and the meaning does not fit.",
+                "D": "\"attending\" is a participle or gerund: it does not name an amount that rises in this way."
+              },
+              "trap": "Adjective + blank + verb: look for the abstract noun (-ance, -ion, -ment); a noun in -ant or -ee often names a person."
+            }
+          }
+        },
+        {
+          "id": "p6-0011-3",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 1,
+          "options": [
+            "The museum was founded in 1987 by a group of local collectors.",
+            "Admission is free for children under twelve.",
+            "Parking is available behind the main building.",
+            "At the center of the room stands a working studio where artists create new pieces."
+          ],
+          "answer": "D",
+          "evidence": [
+            "The gallery features more than 200 pieces, from ancient Roman bowls to contemporary sculptures.",
+            "Visitors can watch glassblowers shape molten glass there every afternoon."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase d'avant décrit le contenu de la galerie ; celle d'après dit qu'on peut regarder des souffleurs de verre travailler « there ». La phrase manquante doit présenter ce lieu : un atelier au centre de la salle.",
+              "distractors": {
+                "A": "L'histoire du musée ne prépare pas « there » : aucun lieu où l'on souffle le verre n'est mentionné.",
+                "B": "L'entrée gratuite est une information pratique : elle ne donne pas de lieu à « there ».",
+                "C": "Le parking est un lieu, mais personne n'y regarde des souffleurs de verre : le lien avec la phrase suivante est absurde."
+              },
+              "trap": "Un adverbe comme « there » ou « then » dans la phrase d'après doit avoir un référent dans la phrase insérée."
+            },
+            "en": {
+              "rule": "The sentence before describes what the gallery contains; the one after says visitors can watch glassblowers work \"there\". The missing sentence must introduce that place: a working studio in the middle of the room.",
+              "distractors": {
+                "A": "The museum's history does not prepare \"there\": no place where glass is blown is mentioned.",
+                "B": "Free admission is practical information: it gives \"there\" no place to refer to.",
+                "C": "The parking lot is a place, but nobody watches glassblowers there: the link with the next sentence is absurd."
+              },
+              "trap": "An adverb such as \"there\" or \"then\" in the next sentence must have a referent in the inserted sentence."
+            }
+          }
+        },
+        {
+          "id": "p6-0011-4",
+          "tags": [
+            "gerund-infinitive"
+          ],
+          "difficulty": 2,
+          "options": [
+            "booking",
+            "book",
+            "to book",
+            "booked"
+          ],
+          "answer": "C",
+          "explanation": {
+            "fr": {
+              "rule": "« encourage » se construit avec « to » : « be encouraged to + base verbale ». Même au passif (« visitors are encouraged »), l'infinitif complet reste.",
+              "distractors": {
+                "A": "« booking » est un gérondif : à l'actif on peut dire « we encourage booking », mais pas après le passif « are encouraged » avec ce sens.",
+                "B": "« book » sans « to » ne s'emploie qu'après un modal (« can book ») ou « let / make » ; pas après « encouraged ».",
+                "D": "« booked » est un participe passé : « are encouraged booked » ne forme pas une phrase correcte."
+              },
+              "trap": "Encourage, allow, invite, require, advise : « someone + to + verbe » ; au passif aussi (« are encouraged to »)."
+            },
+            "en": {
+              "rule": "\"encourage\" is followed by \"to\": \"be encouraged to + base verb\". Even in the passive (\"visitors are encouraged\"), the full infinitive stays.",
+              "distractors": {
+                "A": "\"booking\" is a gerund: in the active you can say \"we encourage booking\", but not after the passive \"are encouraged\" in this sense.",
+                "B": "\"book\" without \"to\" only follows a modal (\"can book\") or \"let / make\"; not \"encouraged\".",
+                "D": "\"booked\" is a past participle: \"are encouraged booked\" is not a correct sentence."
+              },
+              "trap": "Encourage, allow, invite, require, advise: \"someone + to + verb\"; the passive too (\"are encouraged to\")."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p6-0012",
+      "part": 6,
+      "genre": "letter",
+      "text": "Department of Public Works\nCity of Brindle Falls\nMarch 3\n\nDear Resident,\n\nStarting April 7, the city will collect recycling from every household on alternate Tuesdays. [[1]] These bins [[2]] to every address between March 17 and March 28 by city crews.\n\nCrews begin their routes at 7:30 A.M., so please place your bin at the curb [[3]] 7:00 A.M. on collection days. Residents [[4]] bins are damaged or missing may call us at 555-0143.\n\nThank you for helping keep Brindle Falls clean.\n\nSincerely,\nOdalys Maren\nDirector of Public Works",
+      "questions": [
+        {
+          "id": "p6-0012-1",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 3,
+          "options": [
+            "Residents with a larger household may exchange their bin at the depot after April 7.",
+            "Each household will receive a free blue bin for paper, glass, and plastic.",
+            "Garbage will continue to be collected every Thursday as usual.",
+            "Recycling is a simple way to reduce the amount of waste sent to the landfill."
+          ],
+          "answer": "B",
+          "evidence": [
+            "collect recycling from every household on alternate Tuesdays",
+            "to every address between March 17 and March 28 by city crews"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase d'avant annonce la collecte du recyclage ; celle d'après commence par « These bins » et parle de leur livraison à chaque adresse. La phrase manquante doit introduire les bacs fournis à chaque foyer.",
+              "distractors": {
+                "A": "Elle parle de bacs, mais d'un échange après le 7 avril : « These bins » ne pourrait pas être livré avant, et aucun premier bac n'est présenté.",
+                "C": "Elle parle des ordures, pas de bacs de recyclage : « These bins » n'aurait pas de référent.",
+                "D": "C'est un argument général sur le recyclage : il ne présente aucun bac, et la lettre passe tout de suite à la livraison."
+              },
+              "trap": "Même un distracteur qui parle de « bins » peut échouer sur la chronologie : relis la phrase suivante après l'avoir insérée."
+            },
+            "en": {
+              "rule": "The sentence before announces recycling collection; the one after begins \"These bins\" and covers delivery to every address. The missing sentence must introduce the bins each household receives.",
+              "distractors": {
+                "A": "It mentions bins, but an exchange after April 7: \"These bins\" could not be delivered before then, and no first bin has been introduced.",
+                "C": "It is about garbage, not recycling bins: \"These bins\" would have no referent.",
+                "D": "It is a general argument for recycling: it introduces no bin, and the letter moves straight to delivery."
+              },
+              "trap": "Even a distractor that mentions \"bins\" can fail on the timeline: reread the next sentence after inserting it."
+            }
+          }
+        },
+        {
+          "id": "p6-0012-2",
+          "tags": [
+            "passive-voice"
+          ],
+          "difficulty": 3,
+          "options": [
+            "are delivering",
+            "will deliver",
+            "have delivered",
+            "will be delivered"
+          ],
+          "answer": "D",
+          "evidence": [
+            "March 3",
+            "to every address between March 17 and March 28 by city crews"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Les bacs ne livrent rien : on les livre, et l'agent « by city crews » le confirme. Comme la lettre date du 3 mars et que la livraison a lieu du 17 au 28, il faut un futur passif : « will be delivered ».",
+              "distractors": {
+                "A": "« are delivering » est actif : les bacs livreraient quelque chose, et aucun complément d'objet ne suit.",
+                "B": "« will deliver » est actif lui aussi : « by city crews » est alors impossible, car les équipes sont celles qui livrent.",
+                "C": "« have delivered » est actif et au passé composé : la livraison est encore à venir à la date de la lettre."
+              },
+              "trap": "Un complément d'agent (« by + qui agit ») placé loin du verbe te signale un passif ; vérifie ensuite le temps avec les dates."
+            },
+            "en": {
+              "rule": "The bins do not deliver anything: they are delivered, and the agent \"by city crews\" confirms it. The letter is dated March 3 and the delivery takes place March 17-28, so you need a future passive: \"will be delivered\".",
+              "distractors": {
+                "A": "\"are delivering\" is active: the bins would deliver something, and no object follows.",
+                "B": "\"will deliver\" is active too: \"by city crews\" is then impossible, because the crews are the ones who deliver.",
+                "C": "\"have delivered\" is active and in the present perfect: the delivery is still to come on the date of the letter."
+              },
+              "trap": "An agent phrase (\"by + who acts\") far from the verb signals a passive; then check the tense against the dates."
+            }
+          }
+        },
+        {
+          "id": "p6-0012-3",
+          "tags": [
+            "prepositions"
+          ],
+          "difficulty": 2,
+          "options": [
+            "during",
+            "since",
+            "until",
+            "by"
+          ],
+          "answer": "D",
+          "evidence": [
+            "Crews begin their routes at 7:30 A.M."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Les équipes commencent à 7 h 30 : le bac doit être sorti avant, donc « by 7:00 A.M. » (au plus tard à 7 h).",
+              "distractors": {
+                "A": "« during » s'emploie avec une période (« during the morning »), pas avec une heure précise.",
+                "B": "« since » indique un point de départ dans le passé, ce qui est incompatible avec une consigne pour l'avenir.",
+                "C": "« until » signifie « jusqu'à » : le bac resterait au bord de la route jusqu'à 7 h, puis serait retiré, ce qui n'est pas la consigne."
+              },
+              "trap": "Heure limite pour faire quelque chose : « by » ; « until » : jusqu'à ce que l'état s'arrête."
+            },
+            "en": {
+              "rule": "Crews start at 7:30, so the bin must be out before then: \"by 7:00 A.M.\" (no later than 7:00).",
+              "distractors": {
+                "A": "\"during\" is used with a period (\"during the morning\"), not with a precise time.",
+                "B": "\"since\" marks a starting point in the past, which does not fit an instruction about the future.",
+                "C": "\"until\" means \"up to\": the bin would stay at the curb until 7:00 and then be taken away, which is not the instruction."
+              },
+              "trap": "A time limit for doing something: \"by\"; \"until\": up to the moment a state ends."
+            }
+          }
+        },
+        {
+          "id": "p6-0012-4",
+          "tags": [
+            "relative-clauses"
+          ],
+          "difficulty": 2,
+          "options": [
+            "who",
+            "whose",
+            "that",
+            "whom"
+          ],
+          "answer": "B",
+          "explanation": {
+            "fr": {
+              "rule": "Entre « Residents » et « bins », il faut un mot qui exprime la possession (les bacs des résidents) : « whose ».",
+              "distractors": {
+                "A": "« who » est sujet : il serait suivi d'un verbe (« residents who have bins »), pas du nom « bins ».",
+                "C": "« that » est sujet ou objet, mais n'exprime pas la possession : il ne peut pas se placer devant « bins are damaged ».",
+                "D": "« whom » est un pronom objet : il ne marque pas la possession et le nom « bins » ne peut pas le suivre ainsi."
+              },
+              "trap": "Pronom relatif suivi directement d'un nom sans article : c'est « whose »."
+            },
+            "en": {
+              "rule": "Between \"Residents\" and \"bins\" you need a word of possession (the residents' bins): \"whose\".",
+              "distractors": {
+                "A": "\"who\" is a subject: it would be followed by a verb (\"residents who have bins\"), not by the noun \"bins\".",
+                "C": "\"that\" is a subject or object, but it does not show possession: it cannot go before \"bins are damaged\".",
+                "D": "\"whom\" is an object pronoun: it does not show possession and the noun \"bins\" cannot follow it like this."
+              },
+              "trap": "A relative pronoun followed directly by a noun with no article: it is \"whose\"."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p6-0013",
+      "part": 6,
+      "genre": "advertisement",
+      "text": "Zeraline Wireless: One Plan. No Surprises.\n\nTired of surprise charges on your phone bill? Zeraline Wireless is offering a simple unlimited plan [[1]] only $35 a month. Every plan includes unlimited calls and texts, plus 20 gigabytes of high-speed data each month. [[2]] Those who do will keep browsing at a reduced speed, with no extra charge.\n\nTo [[3]] your new plan, just visit any Zeraline store before June 30 or sign up online. New customers can keep [[4]] current phone number, and our team will transfer it for free. Offer ends June 30.",
+      "questions": [
+        {
+          "id": "p6-0013-1",
+          "tags": [
+            "prepositions"
+          ],
+          "difficulty": 1,
+          "options": [
+            "by",
+            "in",
+            "of",
+            "for"
+          ],
+          "answer": "D",
+          "explanation": {
+            "fr": {
+              "rule": "Pour indiquer le prix d'un forfait, on utilise « for » : « a plan for only $35 a month ».",
+              "distractors": {
+                "A": "« by » indique un écart (« reduced by $5 ») ou un moyen : pas un prix.",
+                "B": "« in » ne s'emploie pas pour un prix ; on dirait « costs only $35 ».",
+                "C": "« of » ne se place pas entre un forfait et son prix."
+              },
+              "trap": "Un prix qui s'attache à un produit : « for » (« a plan for $35 »)."
+            },
+            "en": {
+              "rule": "To give the price of a plan, use \"for\": \"a plan for only $35 a month\".",
+              "distractors": {
+                "A": "\"by\" shows a difference (\"reduced by $5\") or a means: not a price.",
+                "B": "\"in\" is not used for a price; you would say \"costs only $35\".",
+                "C": "\"of\" does not link a plan to its price."
+              },
+              "trap": "A price attached to a product: \"for\" (\"a plan for $35\")."
+            }
+          }
+        },
+        {
+          "id": "p6-0013-2",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 3,
+          "options": [
+            "Customers who go over 20 gigabytes are charged $10 for each extra gigabyte.",
+            "Calls to numbers abroad are billed at a low per-minute rate.",
+            "Few customers ever use all of it.",
+            "A new data plan for tablets will be launched in the fall."
+          ],
+          "answer": "C",
+          "evidence": [
+            "plus 20 gigabytes of high-speed data each month.",
+            "Those who do will keep browsing at a reduced speed, with no extra charge."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase d'avant donne 20 gigaoctets ; la suivante commence par « Those who do » (ceux qui le font) et dit qu'ils continuent à vitesse réduite sans frais. « do » doit reprendre un verbe : « use all of it ».",
+              "distractors": {
+                "A": "Elle annonce des frais supplémentaires, ce qui contredit « with no extra charge » dans la phrase d'après.",
+                "B": "Les appels à l'étranger n'ont aucun rapport avec les données : « Those who do » ne reprendrait aucune action.",
+                "D": "Un futur forfait pour tablettes change de sujet : « Those who do » n'aurait pas de verbe à reprendre."
+              },
+              "trap": "« Those who do » ou « those who did » reprend un verbe de la phrase d'avant : le référent doit y être."
+            },
+            "en": {
+              "rule": "The sentence before gives 20 gigabytes; the next one starts \"Those who do\" and says they keep going at a reduced speed at no cost. \"do\" must replace a verb: \"use all of it\".",
+              "distractors": {
+                "A": "It announces extra charges, which contradicts \"with no extra charge\" in the next sentence.",
+                "B": "Calls abroad have nothing to do with data: \"Those who do\" would repeat no action.",
+                "D": "A future tablet plan changes the subject: \"Those who do\" would have no verb to replace."
+              },
+              "trap": "\"Those who do\" or \"those who did\" replaces a verb from the previous sentence: the referent must be there."
+            }
+          }
+        },
+        {
+          "id": "p6-0013-3",
+          "tags": [
+            "vocabulary-in-context"
+          ],
+          "difficulty": 1,
+          "options": [
+            "repeat",
+            "borrow",
+            "expire",
+            "activate"
+          ],
+          "answer": "D",
+          "evidence": [
+            "just visit any Zeraline store before June 30 or sign up online"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "On se rend en magasin ou on s'inscrit en ligne pour mettre en service le forfait : « To activate your new plan ».",
+              "distractors": {
+                "A": "« repeat » signifie répéter : on ne répète pas un forfait pour le souscrire.",
+                "B": "« borrow » signifie emprunter : un forfait se souscrit, il ne s'emprunte pas.",
+                "C": "« expire » signifie arriver à échéance : l'abonné ne fait pas expirer son forfait en s'inscrivant."
+              },
+              "trap": "Le reste de la phrase (« visit a store or sign up online ») indique l'action : commencer à utiliser, donc « activate »."
+            },
+            "en": {
+              "rule": "You go to a store or sign up online to start the plan: \"To activate your new plan\".",
+              "distractors": {
+                "A": "\"repeat\" means to do again: you do not repeat a plan to subscribe to it.",
+                "B": "\"borrow\" means to take temporarily: a plan is subscribed to, not borrowed.",
+                "C": "\"expire\" means to reach its end date: a customer does not make a plan expire by signing up."
+              },
+              "trap": "The rest of the sentence (\"visit a store or sign up online\") shows the action: start using, so \"activate\"."
+            }
+          }
+        },
+        {
+          "id": "p6-0013-4",
+          "tags": [
+            "pronouns"
+          ],
+          "difficulty": 2,
+          "options": [
+            "their",
+            "them",
+            "they",
+            "theirs"
+          ],
+          "answer": "A",
+          "evidence": [
+            "New customers can keep"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« customers » est le référent : il faut un adjectif possessif devant le nom « phone number », à la 3e personne du pluriel : « their ».",
+              "distractors": {
+                "B": "« them » est un pronom complément : il ne peut pas précéder un nom comme « current phone number ».",
+                "C": "« they » est un pronom sujet : « keep they current phone number » est impossible.",
+                "D": "« theirs » est un pronom possessif qui remplace un groupe nominal : il ne se place pas devant un nom."
+              },
+              "trap": "Devant un nom : adjectif possessif (my, your, their) ; seul, à la place du nom : pronom possessif (mine, yours, theirs)."
+            },
+            "en": {
+              "rule": "\"customers\" is the referent: you need a possessive adjective before the noun \"phone number\", third person plural: \"their\".",
+              "distractors": {
+                "B": "\"them\" is an object pronoun: it cannot come before a noun like \"current phone number\".",
+                "C": "\"they\" is a subject pronoun: \"keep they current phone number\" is impossible.",
+                "D": "\"theirs\" is a possessive pronoun that replaces a noun phrase: it does not go before a noun."
+              },
+              "trap": "Before a noun: possessive adjective (my, your, their); standing alone instead of the noun: possessive pronoun (mine, yours, theirs)."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
