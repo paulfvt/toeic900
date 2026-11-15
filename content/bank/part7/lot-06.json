@@ -1,0 +1,686 @@
+{
+  "part": 7,
+  "pool": "training",
+  "sets": [
+    {
+      "id": "p7-0030",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "article",
+          "title": "Tamarind Creek Clinic Adds Evening Hours",
+          "text": "CEDARHOLM - Tamarind Creek Family Clinic announced on Monday that it will stay open until 9:00 P.M. on Tuesdays and Thursdays beginning October 6. [1] Until now, the clinic has closed at 5:00 P.M. every day, which left many working patients with few choices besides the emergency room.\n\nClinic director Dr. Selim Arkun said the change came after a survey of 400 patients last spring. More than half said they had postponed an appointment because they could not leave work. \"We kept hearing the same thing,\" Dr. Arkun said. [2] \"People were not skipping care because they did not value it. They simply had no way to get here in time.\"\n\nTo staff the extra hours, the clinic has hired two nurses and a part-time receptionist. Evening visits will be limited to routine checkups, vaccinations, and minor illnesses, and patients can book them online or by calling the front desk. [3] Walk-in visits will not be offered after 5:00 P.M.\n\nDr. Arkun added that the clinic will review the program in January. If evening appointments fill at least 70 percent of the available slots, Saturday hours may follow. [4]"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0030-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 2,
+          "stem": "What is the article mainly about?",
+          "options": [
+            "A survey of patient satisfaction at a clinic",
+            "A clinic's plan to replace its emergency room",
+            "The hiring of new nurses at a hospital",
+            "A clinic's decision to extend its opening hours"
+          ],
+          "answer": "D",
+          "evidence": [
+            "Tamarind Creek Family Clinic announced on Monday that it will stay open until 9:00 P.M. on Tuesdays and Thursdays beginning October 6."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La première phrase donne le sujet : la clinique « will stay open until 9:00 P.M. » deux soirs par semaine. Tout le reste (enquête, embauches, bilan en janvier) explique ou accompagne cette décision d'allonger les horaires.",
+              "distractors": {
+                "A": "Une enquête auprès de 400 patients est citée, mais c'est la raison du changement, pas le sujet de l'article ; il n'est pas question de satisfaction.",
+                "B": "Les urgences sont mentionnées seulement comme le seul recours des patients jusqu'ici ; la clinique ne les remplace pas.",
+                "C": "Deux infirmières sont embauchées, mais c'est un détail du paragraphe 3 et il s'agit d'une clinique, pas d'un hôpital."
+              },
+              "trap": "Pour « mainly about », choisis l'option qui couvre tout le texte. Un détail vrai (embauches, enquête) n'est pas l'idée principale."
+            },
+            "en": {
+              "rule": "The first sentence gives the topic: the clinic \"will stay open until 9:00 P.M.\" two evenings a week. Everything else (the survey, the hires, the January review) explains or supports this decision to extend its hours.",
+              "distractors": {
+                "A": "A survey of 400 patients is mentioned, but it is the reason for the change, not the subject of the article; satisfaction is never discussed.",
+                "B": "The emergency room appears only as the patients' one alternative until now; the clinic is not replacing it.",
+                "C": "Two nurses are hired, but this is a detail in paragraph 3, and the place is a clinic, not a hospital."
+              },
+              "trap": "For \"mainly about\", choose the option that covers the whole text. A true detail (hires, survey) is not the main idea."
+            }
+          }
+        },
+        {
+          "id": "p7-0030-2",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 2,
+          "stem": "According to Dr. Arkun, why had some patients postponed appointments?",
+          "options": [
+            "They could not leave their jobs.",
+            "They could not afford the fees.",
+            "They lived too far from the clinic.",
+            "They did not think care was important."
+          ],
+          "answer": "A",
+          "evidence": [
+            "More than half said they had postponed an appointment because they could not leave work."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le texte dit : « they had postponed an appointment because they could not leave work ». « Could not leave their jobs » reformule « could not leave work ».",
+              "distractors": {
+                "B": "Le prix des consultations n'est jamais évoqué.",
+                "C": "La distance n'est pas mentionnée ; le médecin parle du temps (« in time »), pas du trajet.",
+                "D": "C'est le contraire : « People were not skipping care because they did not value it »."
+              },
+              "trap": "La bonne réponse reformule la raison donnée dans le texte (leave work → leave their jobs). Une option qui nie une phrase du texte (D) est toujours fausse."
+            },
+            "en": {
+              "rule": "The text says: \"they had postponed an appointment because they could not leave work\". \"Could not leave their jobs\" paraphrases \"could not leave work\".",
+              "distractors": {
+                "B": "The cost of visits is never mentioned.",
+                "C": "Distance is not mentioned; the doctor talks about time (\"in time\"), not travel.",
+                "D": "It is the opposite: \"People were not skipping care because they did not value it\"."
+              },
+              "trap": "The right answer paraphrases the reason given in the text (leave work → leave their jobs). An option that denies a sentence of the text (D) is always wrong."
+            }
+          }
+        },
+        {
+          "id": "p7-0030-3",
+          "tags": [
+            "synonym-in-context"
+          ],
+          "difficulty": 3,
+          "stem": "The word \"limited\" in paragraph 3 is closest in meaning to",
+          "options": [
+            "small",
+            "short",
+            "restricted",
+            "weak"
+          ],
+          "answer": "C",
+          "evidence": [
+            "Evening visits will be limited to routine checkups, vaccinations, and minor illnesses"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« Limited to routine checkups, vaccinations, and minor illnesses » signifie que seuls ces types de visites sont permis : « restricted ».",
+              "distractors": {
+                "A": "« Small » décrit une quantité (une offre limitée) ; ici, ce qui est limité, c'est le type de visites, pas leur nombre.",
+                "B": "« Short » parle de durée ou de longueur ; aucune durée de visite n'est donnée.",
+                "D": "« Weak » n'a aucun rapport : le texte ne dit rien sur la qualité des soins."
+              },
+              "trap": "Remplace le mot par chaque option dans la phrase. « Limited to + liste » veut dire « réservé à » : cherche le sens qui accepte « to »."
+            },
+            "en": {
+              "rule": "\"Limited to routine checkups, vaccinations, and minor illnesses\" means only these kinds of visits are allowed: \"restricted\".",
+              "distractors": {
+                "A": "\"Small\" describes an amount (a limited supply); here what is limited is the type of visit, not the number.",
+                "B": "\"Short\" is about time or length; no visit length is given.",
+                "D": "\"Weak\" has nothing to do with it: the text says nothing about the quality of care."
+              },
+              "trap": "Put each option in the sentence. \"Limited to + list\" means \"reserved for\": look for the sense that works with \"to\"."
+            }
+          }
+        },
+        {
+          "id": "p7-0030-4",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 1,
+          "stem": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"That would make the clinic available six days a week.\"",
+          "options": [
+            "[1]",
+            "[2]",
+            "[3]",
+            "[4]"
+          ],
+          "answer": "D",
+          "evidence": [
+            "If evening appointments fill at least 70 percent of the available slots, Saturday hours may follow."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« That » renvoie à une possibilité qui vient d'être évoquée : « Saturday hours may follow ». Ajouter le samedi à une clinique ouverte du lundi au vendredi donne six jours par semaine. La phrase va donc juste après, en [4].",
+              "distractors": {
+                "A": "En [1], on vient d'annoncer les soirées du mardi et du jeudi ; « That » ne renverrait pas à une ouverture le samedi, pas encore mentionnée.",
+                "B": "En [2], la phrase précède une citation du médecin sur les patients ; « six days a week » n'a aucun lien avec elle.",
+                "C": "En [3], on parle de la réservation en ligne ; le samedi n'est pas encore évoqué."
+              },
+              "trap": "Repère le pronom (« That ») et cherche juste avant l'idée qu'il reprend. Ici, l'idée n'apparaît qu'à la toute dernière phrase."
+            },
+            "en": {
+              "rule": "\"That\" points back to a possibility that has just been mentioned: \"Saturday hours may follow\". Adding Saturday to a clinic open Monday to Friday gives six days a week. The sentence belongs right after it, at [4].",
+              "distractors": {
+                "A": "At [1], the Tuesday and Thursday evenings have just been announced; \"That\" would not refer to Saturday opening, which is not mentioned yet.",
+                "B": "At [2], the sentence comes before a quotation from the doctor about patients; \"six days a week\" has no link to it.",
+                "C": "At [3], the text is about online booking; Saturday has not been mentioned yet."
+              },
+              "trap": "Spot the pronoun (\"That\") and look just before for the idea it takes up. Here, the idea only appears in the very last sentence."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0031",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "press-release",
+          "title": "Bellmark Technical Institute Introduces Evening Certificate in Supply Chain Analytics",
+          "text": "PORT ELDRIDGE, March 9 - Bellmark Technical Institute will welcome the first class of its Certificate in Supply Chain Analytics on September 8. [1] The 30-week program is designed for working professionals who want to use data to improve how goods move from suppliers to customers.\n\nClasses will meet on Monday and Wednesday evenings from 6:30 P.M. to 9:00 P.M. on the institute's Quay Street campus. Students will learn spreadsheet modeling, demand forecasting, and basic database queries. In the final ten weeks, each student will complete a paid placement of at least 80 hours with a local employer. Placement partners include Nordhaven Freight Systems and Tamsin & Vale Grocers.\n\n\"Many logistics companies collect more data than they can use,\" said program director Dr. Imogen Tsvetkov. \"Our graduates will know how to turn that data into decisions.\" [2]\n\nTuition is $3,200, and employers that sponsor an employee may qualify for a 15 percent discount. Applications are due by July 15. [3] Prospective students may attend an information session on April 22. [4]"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0031-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 3,
+          "stem": "What is the main purpose of the press release?",
+          "options": [
+            "To announce a new program that mixes evening study with job experience",
+            "To advertise a price reduction for employers",
+            "To describe a new campus on Quay Street",
+            "To invite local companies to hire graduates"
+          ],
+          "answer": "A",
+          "evidence": [
+            "Classes will meet on Monday and Wednesday evenings from 6:30 P.M. to 9:00 P.M.",
+            "each student will complete a paid placement of at least 80 hours with a local employer"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le texte présente un nouveau certificat : cours « on Monday and Wednesday evenings » puis « a paid placement of at least 80 hours with a local employer ». L'option A résume ces deux volets, d'où « mixes evening study with job experience ».",
+              "distractors": {
+                "B": "La remise de 15 % pour les employeurs n'apparaît que dans l'avant-dernier paragraphe : c'est un détail, pas le but du communiqué.",
+                "C": "Quay Street est seulement l'adresse où ont lieu les cours ; aucun nouveau campus n'est annoncé.",
+                "D": "Des employeurs accueillent des stagiaires, mais le texte ne demande à personne d'embaucher les diplômés."
+              },
+              "trap": "Un but se formule en une phrase qui englobe le texte. Écarte les options qui ne reprennent qu'un détail (remise, adresse) ou qui inventent une demande."
+            },
+            "en": {
+              "rule": "The text presents a new certificate: classes \"on Monday and Wednesday evenings\" and then \"a paid placement of at least 80 hours with a local employer\". Option A sums up both parts: \"mixes evening study with job experience\".",
+              "distractors": {
+                "B": "The 15 percent discount for employers only appears in the next-to-last paragraph: it is a detail, not the purpose of the release.",
+                "C": "Quay Street is only the address where classes are held; no new campus is announced.",
+                "D": "Employers host students, but the text never asks anyone to hire graduates."
+              },
+              "trap": "A purpose is one sentence that covers the whole text. Reject options that only reuse a detail (discount, address) or invent a request."
+            }
+          }
+        },
+        {
+          "id": "p7-0031-2",
+          "tags": [
+            "not-true"
+          ],
+          "difficulty": 1,
+          "stem": "What is NOT true about the Certificate in Supply Chain Analytics?",
+          "options": [
+            "It is taught in the evenings.",
+            "It includes work with an employer.",
+            "Applications are accepted until the first class begins.",
+            "Some employers may pay a reduced price."
+          ],
+          "answer": "C",
+          "evidence": [
+            "Classes will meet on Monday and Wednesday evenings",
+            "each student will complete a paid placement of at least 80 hours with a local employer",
+            "employers that sponsor an employee may qualify for a 15 percent discount"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Trois options sont écrites dans le texte : cours « on Monday and Wednesday evenings », « placement ... with a local employer », « may qualify for a 15 percent discount ». L'option C est fausse : les candidatures sont dues le 15 juillet, alors que la première classe commence le 8 septembre.",
+              "distractors": {
+                "A": "Vrai : les cours ont lieu les lundis et mercredis soir.",
+                "B": "Vrai : chaque étudiant fait un stage rémunéré d'au moins 80 heures chez un employeur local.",
+                "D": "Vrai : un employeur qui parraine un salarié peut obtenir 15 % de remise."
+              },
+              "trap": "Dans une question NOT, vérifie chaque option dans le texte et barre-la quand tu trouves la phrase. Celle que tu ne peux pas barrer, ou qui contredit une date, est la réponse."
+            },
+            "en": {
+              "rule": "Three options are written in the text: classes \"on Monday and Wednesday evenings\", \"placement ... with a local employer\", \"may qualify for a 15 percent discount\". Option C is false: applications are due July 15, while the first class starts September 8.",
+              "distractors": {
+                "A": "True: classes meet on Monday and Wednesday evenings.",
+                "B": "True: each student completes a paid placement of at least 80 hours with a local employer.",
+                "D": "True: an employer that sponsors an employee may get a 15 percent discount."
+              },
+              "trap": "In a NOT question, check each option against the text and cross it out when you find the sentence. The one you cannot cross out, or that contradicts a date, is the answer."
+            }
+          }
+        },
+        {
+          "id": "p7-0031-3",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 2,
+          "stem": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"It is the first certificate course the institute has taught in the evenings.\"",
+          "options": [
+            "[1]",
+            "[2]",
+            "[3]",
+            "[4]"
+          ],
+          "answer": "A",
+          "evidence": [
+            "Bellmark Technical Institute will welcome the first class of its Certificate in Supply Chain Analytics on September 8."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« It » doit renvoyer à un programme qui vient d'être présenté : c'est le « Certificate in Supply Chain Analytics » de la première phrase. La phrase s'insère donc en [1], avant la description de la durée et du public.",
+              "distractors": {
+                "B": "En [2], la phrase précédente est une citation sur les données des entreprises ; « It » ne renverrait pas clairement au certificat.",
+                "C": "En [3], « It » renverrait à la date limite de candidature (15 juillet), ce qui n'a pas de sens.",
+                "D": "En [4], on parle d'une séance d'information ; « It » désignerait cette séance, pas un cours."
+              },
+              "trap": "Pour un pronom sujet comme « It », la phrase d'avant doit contenir un seul référent possible. Teste chaque position en relisant la phrase précédente."
+            },
+            "en": {
+              "rule": "\"It\" must refer to a program that has just been introduced: the \"Certificate in Supply Chain Analytics\" of the first sentence. The sentence therefore goes at [1], before the description of the length and audience.",
+              "distractors": {
+                "B": "At [2], the previous sentence is a quotation about company data; \"It\" would not clearly refer to the certificate.",
+                "C": "At [3], \"It\" would refer to the application deadline (July 15), which makes no sense.",
+                "D": "At [4], the text is about an information session; \"It\" would mean the session, not a course."
+              },
+              "trap": "For a subject pronoun like \"It\", the sentence before must contain one clear referent. Test each position by rereading the sentence before it."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0032",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "itinerary",
+          "title": "Itinerary for the Halifax Book Fair",
+          "text": "Quillfeather Press - Travel Itinerary\nTraveler: Solveig Haugen, Acquisitions Editor\nTrip: Halifax Book Fair, May 13-15\n\nThursday, May 13\n7:10 A.M. - Depart Boston (Flight QA 418)\n9:45 A.M. - Arrive Halifax. Pick up rental car (reserved under Quillfeather Press)\n12:30 P.M. - Lunch with author Teodor Lindahl, Harbourside Cafe\n3:00 P.M. - Check in at the Marlowe Inn, 41 Pier Street\n\nFriday, May 14\n9:00 A.M. - Open the Quillfeather booth, Hall C, Halifax Convention Centre\n11:00 A.M. - Panel: \"Choosing Stories for Young Readers\" (speaker: Ms. Haugen)\n6:30 P.M. - Dinner hosted by the fair for exhibitors\n\nSaturday, May 15\n10:00 A.M. - Meeting with Ikaika Kealoha, Pelican Reach Distribution, Booth 22\n2:00 P.M. - Close the booth. Return rental car\n4:55 P.M. - Depart Halifax (Flight QA 421). Arrive Boston 5:40 P.M.\n\nNotes: Booth supplies were shipped on May 7 and will be waiting at the convention center. Please send all receipts to the accounting department within five days of your return."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0032-1",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 2,
+          "stem": "What is Ms. Haugen scheduled to do before checking in at her hotel?",
+          "options": [
+            "Set up the company booth",
+            "Have a meal with an author",
+            "Attend a panel discussion",
+            "Meet with a distributor"
+          ],
+          "answer": "B",
+          "evidence": [
+            "12:30 P.M. - Lunch with author Teodor Lindahl, Harbourside Cafe",
+            "3:00 P.M. - Check in at the Marlowe Inn, 41 Pier Street"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "L'enregistrement à l'hôtel est à 3:00 P.M. Avant, à 12:30 P.M., elle déjeune avec un auteur : « Lunch with author Teodor Lindahl ». « Have a meal » reformule « Lunch ».",
+              "distractors": {
+                "A": "Le stand ouvre le vendredi à 9:00 A.M., donc après l'enregistrement.",
+                "C": "Le débat a lieu le vendredi à 11:00 A.M.",
+                "D": "La rencontre avec le distributeur est prévue le samedi à 10:00 A.M."
+              },
+              "trap": "Dans un planning, note l'heure de repère de la question (ici l'arrivée à l'hôtel) et ne garde que les lignes qui la précèdent dans la même journée."
+            },
+            "en": {
+              "rule": "Hotel check-in is at 3:00 P.M. Before that, at 12:30 P.M., she has \"Lunch with author Teodor Lindahl\". \"Have a meal\" paraphrases \"Lunch\".",
+              "distractors": {
+                "A": "The booth opens on Friday at 9:00 A.M., after check-in.",
+                "C": "The panel is on Friday at 11:00 A.M.",
+                "D": "The meeting with the distributor is on Saturday at 10:00 A.M."
+              },
+              "trap": "In a schedule, note the time reference in the question (here hotel check-in) and keep only the lines that come before it on the same day."
+            }
+          }
+        },
+        {
+          "id": "p7-0032-2",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 1,
+          "stem": "What is suggested about Ms. Haugen?",
+          "options": [
+            "She has worked with Mr. Lindahl before.",
+            "She will stay in Halifax for four nights.",
+            "She will speak at the book fair.",
+            "She is traveling with a colleague."
+          ],
+          "answer": "C",
+          "evidence": [
+            "11:00 A.M. - Panel: \"Choosing Stories for Young Readers\" (speaker: Ms. Haugen)"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La ligne du vendredi à 11:00 A.M. indique « speaker: Ms. Haugen » : elle interviendra comme intervenante au salon. Le texte ne le dit pas avec ces mots, on le déduit.",
+              "distractors": {
+                "A": "Aucune phrase ne dit si elle connaît déjà M. Lindahl.",
+                "B": "Elle arrive le 13 et repart le 15 : cela fait deux nuits, pas quatre.",
+                "D": "Un seul voyageur est indiqué (« Traveler: Solveig Haugen ») ; aucun collègue n'est mentionné."
+              },
+              "trap": "Une réponse d'inférence s'appuie sur une ligne précise. Si tu dois inventer un fait (un collègue, une relation passée), l'option est fausse."
+            },
+            "en": {
+              "rule": "The Friday 11:00 A.M. line says \"speaker: Ms. Haugen\": she will present at the fair. The text does not use these exact words, so you infer it.",
+              "distractors": {
+                "A": "No sentence says whether she already knows Mr. Lindahl.",
+                "B": "She arrives on the 13th and leaves on the 15th: that is two nights, not four.",
+                "D": "Only one traveler is listed (\"Traveler: Solveig Haugen\"); no colleague is mentioned."
+              },
+              "trap": "An inference answer rests on one precise line. If you have to invent a fact (a colleague, a past relationship), the option is wrong."
+            }
+          }
+        },
+        {
+          "id": "p7-0032-3",
+          "tags": [
+            "not-true"
+          ],
+          "difficulty": 2,
+          "stem": "What is NOT mentioned as part of Ms. Haugen's trip?",
+          "options": [
+            "A rental car",
+            "Transportation from her home to the Boston airport",
+            "A dinner provided by the fair",
+            "Supplies sent ahead to the convention center"
+          ],
+          "answer": "B",
+          "evidence": [
+            "Pick up rental car (reserved under Quillfeather Press)",
+            "6:30 P.M. - Dinner hosted by the fair for exhibitors",
+            "Booth supplies were shipped on May 7 and will be waiting at the convention center."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Trois éléments sont écrits : « Pick up rental car », « Dinner hosted by the fair » et « Booth supplies were shipped on May 7 ». Le trajet vers l'aéroport de Boston n'est jamais mentionné : le planning commence au départ du vol.",
+              "distractors": {
+                "A": "Mentionnée : une voiture de location est réservée au nom de Quillfeather Press.",
+                "C": "Mentionné : le dîner du vendredi est offert par le salon aux exposants.",
+                "D": "Mentionné : le matériel du stand a été expédié le 7 mai et l'attend au centre de congrès."
+              },
+              "trap": "Pour « NOT mentioned », une option plausible dans la vie réelle (un transfert à l'aéroport) peut être absente du document : ne la valide pas de mémoire, cherche la ligne."
+            },
+            "en": {
+              "rule": "Three items are written: \"Pick up rental car\", \"Dinner hosted by the fair\" and \"Booth supplies were shipped on May 7\". Transportation to the Boston airport is never mentioned: the itinerary starts with the flight departure.",
+              "distractors": {
+                "A": "Mentioned: a rental car is reserved under Quillfeather Press.",
+                "C": "Mentioned: the Friday dinner is hosted by the fair for exhibitors.",
+                "D": "Mentioned: the booth supplies were shipped on May 7 and are waiting at the convention center."
+              },
+              "trap": "For \"NOT mentioned\", an option that is realistic in real life (an airport transfer) may be missing from the document: do not accept it from memory, look for the line."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0033",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "webpage",
+          "title": "Kelsey Bay Hospitality Supply Expo - Exhibitor Information",
+          "text": "Showcase your products to 6,000 buyers from the hotel and restaurant industries at the Kelsey Bay Hospitality Supply Expo, October 19-21, at Meridian Hall. Read the information below, then apply online.\n\nBooth options: A standard booth (10 ft by 10 ft) costs $1,450. A corner booth (10 ft by 20 ft) costs $2,600. Both include carpet, a company sign, one table, and two chairs. Electricity and wireless internet are available for an extra fee.\n\nRegistration and payment: Companies that register before July 31 receive a 10 percent discount on the booth price. After that date, regular prices apply. Half of the price is due as a deposit within seven days of registration, and the balance is due by September 15. Cancellations made before September 1 are refunded, except for the deposit.\n\nSetup and schedule: Exhibitors may set up on Monday, October 18, from 2:00 P.M. to 8:00 P.M. The exhibit floor is open to buyers from 10:00 A.M. to 5:00 P.M. each day. Booths must be dismantled by 9:00 P.M. on October 21.\n\nTo reserve a booth, complete the online application. Spaces near the main entrance are assigned first, so early applicants will have the best choice of location."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0033-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 3,
+          "stem": "What is the purpose of the Web page?",
+          "options": [
+            "To sell tickets to visitors",
+            "To help companies plan their participation in a trade show",
+            "To promote a new hotel near Meridian Hall",
+            "To report the results of last year's expo"
+          ],
+          "answer": "B",
+          "evidence": [
+            "Read the information below, then apply online."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La page s'adresse aux entreprises qui veulent exposer : tarifs des stands, dates de paiement, horaires de montage, puis « Read the information below, then apply online ». Elle les aide donc à préparer leur participation.",
+              "distractors": {
+                "A": "Les acheteurs sont cités comme public du salon, mais la page ne vend aucun billet : tous les prix concernent des stands.",
+                "C": "Aucun hôtel n'est mentionné ; « hotel and restaurant industries » désigne les secteurs des visiteurs.",
+                "D": "Il n'y a aucun résultat ni aucune édition précédente dans le texte : tout est au futur."
+              },
+              "trap": "Pour la finalité d'une page web, regarde à qui elle parle (« your products », « exhibitors ») et ce qu'elle demande de faire. Un mot du texte (hotel) sorti de son contexte est un piège."
+            },
+            "en": {
+              "rule": "The page speaks to companies that want to exhibit: booth prices, payment dates, setup times, then \"Read the information below, then apply online\". It helps them plan their participation.",
+              "distractors": {
+                "A": "Buyers are named as the expo's audience, but the page sells no tickets: every price is for a booth.",
+                "C": "No hotel is mentioned; \"hotel and restaurant industries\" describes the visitors' sectors.",
+                "D": "The text has no results and no previous edition: everything is in the future."
+              },
+              "trap": "For the purpose of a Web page, look at who it speaks to (\"your products\", \"exhibitors\") and what it asks them to do. A word from the text (hotel) taken out of context is a trap."
+            }
+          }
+        },
+        {
+          "id": "p7-0033-2",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 3,
+          "stem": "How much will a company pay for a corner booth, without extras, if it registers on July 20?",
+          "options": [
+            "$1,300",
+            "$2,600",
+            "$2,340",
+            "$1,450"
+          ],
+          "answer": "C",
+          "evidence": [
+            "A corner booth (10 ft by 20 ft) costs $2,600.",
+            "Companies that register before July 31 receive a 10 percent discount on the booth price."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le stand d'angle coûte 2 600 $. Le 20 juillet est avant le 31 juillet : 10 % de remise, soit 260 $. 2 600 - 260 = 2 340 $. Il faut croiser les deux phrases.",
+              "distractors": {
+                "A": "1 300 $ est la moitié du prix : c'est le montant de l'acompte (sans remise), pas le prix total.",
+                "B": "2 600 $ est le prix sans remise, valable seulement à partir du 31 juillet.",
+                "D": "1 450 $ est le prix du stand standard, pas du stand d'angle."
+              },
+              "trap": "Pour un calcul, repère toutes les conditions (type de stand, date, remise), puis refais l'opération deux fois. Les distracteurs sont les résultats d'étapes oubliées."
+            },
+            "en": {
+              "rule": "A corner booth costs $2,600. July 20 is before July 31: a 10 percent discount, or $260. $2,600 - $260 = $2,340. You must combine the two sentences.",
+              "distractors": {
+                "A": "$1,300 is half the price: it is the amount of the deposit (without the discount), not the total price.",
+                "B": "$2,600 is the price without the discount, which applies only from July 31.",
+                "D": "$1,450 is the price of a standard booth, not a corner booth."
+              },
+              "trap": "For a calculation, find every condition (booth type, date, discount), then do the operation twice. Distractors are the results of skipped steps."
+            }
+          }
+        },
+        {
+          "id": "p7-0033-3",
+          "tags": [
+            "synonym-in-context"
+          ],
+          "difficulty": 2,
+          "stem": "The word \"balance\" in paragraph 3 is closest in meaning to",
+          "options": [
+            "remainder",
+            "equality",
+            "stability",
+            "scale"
+          ],
+          "answer": "A",
+          "evidence": [
+            "Half of the price is due as a deposit within seven days of registration, and the balance is due by September 15."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La moitié du prix est versée en acompte ; « the balance » est l'autre moitié, ce qui reste à payer : « remainder ».",
+              "distractors": {
+                "B": "« Equality » désigne un partage égal ; le texte parle d'une somme restante, pas de comparaison.",
+                "C": "« Stability » est le sens de « balance » dans « keep your balance » ; aucun rapport avec un paiement.",
+                "D": "« Scale » est un autre mot lié à « balance » (une balance de pesée), sans lien avec une somme due."
+              },
+              "trap": "Quand un mot courant a plusieurs sens, regarde le mot voisin : « deposit » et « due » placent « balance » dans le vocabulaire du paiement."
+            },
+            "en": {
+              "rule": "Half of the price is paid as a deposit; \"the balance\" is the other half, what is left to pay: \"remainder\".",
+              "distractors": {
+                "B": "\"Equality\" means an equal share; the text is about a leftover sum, not a comparison.",
+                "C": "\"Stability\" is the sense of \"balance\" in \"keep your balance\"; it has nothing to do with a payment.",
+                "D": "\"Scale\" is another word linked to \"balance\" (a weighing scale) and has no link with an amount due."
+              },
+              "trap": "When a common word has several meanings, look at the neighboring words: \"deposit\" and \"due\" place \"balance\" in the vocabulary of payment."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0034",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "newsletter",
+          "title": "Tolliver Ridge Foods - Autumn Newsletter",
+          "text": "Welcome to the autumn edition of the Tolliver Ridge Foods newsletter, which keeps our employees and growers informed about life at the company. [1] This season brought a new filling line, a food safety certificate, and an invitation for growers.\n\nNew jar line begins in Plant 2. On October 4, the Plant 2 team ran the first jars of apricot spread on the new filling line. The machine fills 120 jars a minute, twice the speed of the older equipment, and uses a sensor that rejects any jar that is not sealed correctly. Plant manager Ilse Brenneman credited the maintenance crew, who finished installation two weeks ahead of schedule. [2]\n\nSafety certificate. After a three-day audit in September, the company received a food safety certificate that is valid for one year. Auditors praised the plant's cleaning records and its labeling system. Ms. Brenneman said the next audit will take place next September. [3]\n\nGrower meeting. All contract growers are invited to the annual grower meeting on Saturday, November 6, at 10:00 A.M. in the Plant 1 cafeteria. Lunch will be provided. Growers should confirm attendance with Takoda Whitehorse in Purchasing by October 29. [4]"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0034-1",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 2,
+          "stem": "What did the maintenance crew accomplish?",
+          "options": [
+            "It passed a food safety audit.",
+            "It finished an installation ahead of schedule.",
+            "It trained growers to use a new machine.",
+            "It designed a sensor for sealing jars."
+          ],
+          "answer": "B",
+          "evidence": [
+            "Plant manager Ilse Brenneman credited the maintenance crew, who finished installation two weeks ahead of schedule."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le texte dit que l'équipe de maintenance « finished installation two weeks ahead of schedule ». « Ahead of schedule » est repris tel quel dans la bonne réponse, avec « installation ».",
+              "distractors": {
+                "A": "L'audit de sécurité alimentaire concerne l'entreprise et ses auditeurs, pas l'équipe de maintenance.",
+                "C": "Les producteurs sont invités à une réunion, mais aucune formation sur la machine n'est citée.",
+                "D": "Le capteur fait partie de la machine ; le texte ne dit pas que l'équipe l'a conçu."
+              },
+              "trap": "Pour « What did X accomplish ? », cherche le nom X dans le texte et lis la proposition qui le suit : ici « who finished... »."
+            },
+            "en": {
+              "rule": "The text says the maintenance crew \"finished installation two weeks ahead of schedule\". The right answer keeps \"ahead of schedule\" and refers to the installation.",
+              "distractors": {
+                "A": "The food safety audit concerns the company and its auditors, not the maintenance crew.",
+                "C": "Growers are invited to a meeting, but no training on the machine is mentioned.",
+                "D": "The sensor is part of the machine; the text does not say the crew designed it."
+              },
+              "trap": "For \"What did X accomplish?\", find X in the text and read the clause after it: here \"who finished...\"."
+            }
+          }
+        },
+        {
+          "id": "p7-0034-2",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 2,
+          "stem": "What can be inferred about Plant 2?",
+          "options": [
+            "Jars used to be filled there more slowly.",
+            "It was closed during September.",
+            "It has no maintenance workers.",
+            "It failed an earlier safety audit."
+          ],
+          "answer": "A",
+          "evidence": [
+            "The machine fills 120 jars a minute, twice the speed of the older equipment"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La nouvelle machine remplit 120 pots par minute, « twice the speed of the older equipment » : l'ancien matériel était donc deux fois plus lent. Le texte ne le dit pas directement, on le déduit.",
+              "distractors": {
+                "B": "Rien n'indique une fermeture : l'audit de septembre a duré trois jours, sans lien avec une fermeture d'usine.",
+                "C": "Le texte parle au contraire de « the maintenance crew ».",
+                "D": "Le texte dit que l'entreprise a reçu un certificat ; aucun échec précédent n'est mentionné."
+              },
+              "trap": "Une inférence est une conséquence logique d'une phrase : ici « twice the speed » implique que l'ancien matériel était plus lent. Ne retiens pas une option qui exige un fait inventé."
+            },
+            "en": {
+              "rule": "The new machine fills 120 jars a minute, \"twice the speed of the older equipment\": the old equipment was therefore half as fast. The text does not say it directly, so you infer it.",
+              "distractors": {
+                "B": "Nothing suggests a closure: the September audit lasted three days, with no mention of a plant shutdown.",
+                "C": "On the contrary, the text mentions \"the maintenance crew\".",
+                "D": "The text says the company received a certificate; no earlier failure is mentioned."
+              },
+              "trap": "An inference is a logical consequence of a sentence: here \"twice the speed\" implies the old equipment was slower. Do not choose an option that needs an invented fact."
+            }
+          }
+        },
+        {
+          "id": "p7-0034-3",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 2,
+          "stem": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"It has been a busy three months at every site.\"",
+          "options": [
+            "[1]",
+            "[2]",
+            "[3]",
+            "[4]"
+          ],
+          "answer": "A",
+          "evidence": [
+            "Welcome to the autumn edition of the Tolliver Ridge Foods newsletter, which keeps our employees and growers informed about life at the company."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase est une remarque générale sur la saison écoulée, qui introduit « This season brought a new filling line... ». Elle se place en [1], entre l'accueil et le résumé de la saison.",
+              "distractors": {
+                "B": "En [2], on vient de parler de l'équipe de maintenance de l'usine 2 ; « at every site » ne se rattache pas à cette histoire locale.",
+                "C": "En [3], on parle du prochain audit ; une remarque sur les trois derniers mois n'y a pas de lien.",
+                "D": "En [4], le texte donne une consigne de confirmation pour la réunion ; la phrase ne conclut pas ce paragraphe."
+              },
+              "trap": "Les phrases d'introduction générale (« It has been... at every site ») vont au début du texte, avant les détails. Vérifie aussi que la phrase suivante enchaîne bien (« This season... »)."
+            },
+            "en": {
+              "rule": "The sentence is a general remark about the past season that leads into \"This season brought a new filling line...\". It belongs at [1], between the welcome and the summary of the season.",
+              "distractors": {
+                "B": "At [2], the text has just covered the Plant 2 maintenance crew; \"at every site\" does not connect to that local story.",
+                "C": "At [3], the text is about the next audit; a remark about the last three months has no link there.",
+                "D": "At [4], the text gives a confirmation instruction for the meeting; the sentence would not close that paragraph."
+              },
+              "trap": "General opening remarks (\"It has been... at every site\") go at the start of a text, before the details. Also check that the next sentence follows naturally (\"This season...\")."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
