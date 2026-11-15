@@ -43,7 +43,7 @@ Répondre en français.
 | Phase | Contenu | État |
 |---|---|---|
 | 1 | Squelette, base locale, entraînement Part 5 avec corrections, révision espacée, premier lot de 120 questions Part 5 | terminée le 12/11/2026 |
-| 2 | Parts 6 et 7, fiches de cours, chemin de leçons, Part 5 complétée à 300 questions | à faire |
+| 2 | Parts 6 et 7, fiches de cours, chemin de leçons, Part 5 complétée à 300 questions | en cours : lire `docs/reprise-phase-2.md` avant tout |
 | 3 | Stats, score estimé, XP, série, badges, objectifs, notifications, animations, demi-test Reading | à faire |
 | 4 | Pipeline audio et images, Parts 1 à 4 | à faire |
 | 5 | Diagnostic complet, tests blancs, session recommandée | à faire |
