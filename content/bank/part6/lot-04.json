@@ -1,0 +1,624 @@
+{
+  "part": 6,
+  "pool": "training",
+  "texts": [
+    {
+      "id": "p6-0018",
+      "part": 6,
+      "genre": "email",
+      "text": "To: All Saltmarsh Kitchen catering clients\nFrom: Imani Boateng, Catering Manager\nSubject: Our new spring menu\n\nDear clients,\n\nThank you for your continued [[1]] in Saltmarsh Kitchen. Beginning on April 1, our catering menu will feature spring dishes made with ingredients from local farms. [[2]] It is already posted on our website, and a printed copy is available on request.\n\nOur first seasonal menu launched in April of last year. The grilled vegetable platter [[3]] our most requested item ever since, so this year we have expanded it and added three vegetarian main courses.\n\nTo place an order, please send your event details at least two weeks before the date. We look forward to [[4]] you at your next event.\n\nSincerely,\nImani Boateng",
+      "questions": [
+        {
+          "id": "p6-0018-1",
+          "tags": [
+            "word-form-noun"
+          ],
+          "difficulty": 2,
+          "options": [
+            "interest",
+            "interested",
+            "interesting",
+            "interestingly"
+          ],
+          "answer": "A",
+          "explanation": {
+            "fr": {
+              "rule": "Après « your continued », il faut un nom : « your continued interest in » (votre intérêt constant pour). Le possessif et l'adjectif « continued » annoncent un groupe nominal, et « in » est la préposition qui suit ce nom.",
+              "distractors": {
+                "B": "« interested » est un adjectif : on peut l'employer avec « in » (« interested in »), mais pas après un possessif comme « your continued ».",
+                "C": "« interesting » est un adjectif aussi : il décrit une chose qui intéresse, il ne peut pas être le nom que « your » détermine.",
+                "D": "« interestingly » est un adverbe : il ne se place pas après un possessif et un adjectif."
+              },
+              "trap": "Possessif + adjectif devant le trou → il faut un nom, même si un adjectif en -ed ou -ing semble courant avec la préposition."
+            },
+            "en": {
+              "rule": "After \"your continued\" you need a noun: \"your continued interest in\". The possessive and the adjective \"continued\" announce a noun phrase, and \"in\" is the preposition that follows this noun.",
+              "distractors": {
+                "B": "\"interested\" is an adjective: it works with \"in\" (\"interested in\"), but not after a possessive like \"your continued\".",
+                "C": "\"interesting\" is also an adjective: it describes something that interests people and cannot be the noun that \"your\" determines.",
+                "D": "\"interestingly\" is an adverb: it cannot follow a possessive and an adjective."
+              },
+              "trap": "Possessive + adjective before the blank → you need a noun, even if an -ed or -ing adjective sounds familiar with the preposition."
+            }
+          }
+        },
+        {
+          "id": "p6-0018-2",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 1,
+          "options": [
+            "We have prepared a complete menu with descriptions and prices for you to review.",
+            "Our restaurant on Pier Street will close for renovations in March.",
+            "Please arrive at least thirty minutes before your event begins.",
+            "Several of our chefs have won awards at regional competitions."
+          ],
+          "answer": "A",
+          "evidence": [
+            "Beginning on April 1, our catering menu will feature spring dishes made with ingredients from local farms.",
+            "It is already posted on our website, and a printed copy is available on request."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase d'avant annonce le nouveau menu ; celle d'après dit que « It » est déjà en ligne et disponible sur papier. Il faut la phrase qui présente le menu (descriptions, prix), seul référent possible pour « It ».",
+              "distractors": {
+                "B": "La fermeture du restaurant est un autre sujet, et « It is already posted on our website » ne pourrait pas s'y rapporter.",
+                "C": "Arriver en avance à un événement n'a pas de lien avec le menu, et « It » n'aurait pas de référent.",
+                "D": "Les prix remportés par les chefs ne sont pas liés au menu de printemps, et « It » n'aurait pas de référent."
+              },
+              "trap": "Quand la phrase d'après commence par « It », « This » ou « They », cherche dans les options la phrase qui contient ce référent."
+            },
+            "en": {
+              "rule": "The sentence before announces the new menu; the one after says \"It\" is already online and available on paper. You need the sentence that introduces the menu (descriptions, prices), the only possible referent for \"It\".",
+              "distractors": {
+                "B": "The restaurant closing is another topic, and \"It is already posted on our website\" could not refer to it.",
+                "C": "Arriving early at an event has nothing to do with the menu, and \"It\" would have no referent.",
+                "D": "The chefs' awards are not linked to the spring menu, and \"It\" would have no referent."
+              },
+              "trap": "When the next sentence starts with \"It\", \"This\" or \"They\", look in the options for the sentence that contains that referent."
+            }
+          }
+        },
+        {
+          "id": "p6-0018-3",
+          "tags": [
+            "verb-tense"
+          ],
+          "difficulty": 3,
+          "options": [
+            "was",
+            "has been",
+            "had been",
+            "would be"
+          ],
+          "answer": "B",
+          "evidence": [
+            "Our first seasonal menu launched in April of last year.",
+            "ever since, so this year we have expanded it"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« ever since » indique une situation commencée dans le passé (le lancement de l'an dernier) et qui dure encore : présent perfect, « has been ». L'indice est après le trou, et la date est dans la phrase précédente.",
+              "distractors": {
+                "A": "« was » (prétérit) décrit une situation terminée ; il ne se combine pas avec « ever since », qui relie le passé au présent.",
+                "C": "« had been » (plus-que-parfait) demande un autre moment passé comme repère ; ici le repère est le présent (« this year we have expanded it »).",
+                "D": "« would be » est un conditionnel ou un futur dans le passé : il ne convient pas pour un fait déjà vérifié depuis un an."
+              },
+              "trap": "« since » et « ever since » appellent le présent perfect quand la situation continue jusqu'à maintenant."
+            },
+            "en": {
+              "rule": "\"ever since\" points to a situation that began in the past (last year's launch) and still continues: present perfect, \"has been\". The clue comes after the blank, and the date is in the previous sentence.",
+              "distractors": {
+                "A": "\"was\" (simple past) describes a finished situation; it does not combine with \"ever since\", which links the past to the present.",
+                "C": "\"had been\" (past perfect) needs another past moment as a reference; here the reference is the present (\"this year we have expanded it\").",
+                "D": "\"would be\" is a conditional or a future in the past: it does not fit a fact observed for a year."
+              },
+              "trap": "\"since\" and \"ever since\" call for the present perfect when the situation continues up to now."
+            }
+          }
+        },
+        {
+          "id": "p6-0018-4",
+          "tags": [
+            "gerund-infinitive"
+          ],
+          "difficulty": 3,
+          "options": [
+            "serve",
+            "serving",
+            "to serve",
+            "served"
+          ],
+          "answer": "B",
+          "explanation": {
+            "fr": {
+              "rule": "Dans « look forward to », « to » est une préposition : elle est suivie d'un nom ou d'un verbe en -ing, « look forward to serving you ». « you » est le complément de « serving ».",
+              "distractors": {
+                "A": "« serve » serait un infinitif sans « to » : c'est le piège, car ce « to » n'introduit pas un infinitif.",
+                "C": "« to serve » donnerait « look forward to to serve » : deux « to » de suite, impossible.",
+                "D": "« served » est un participe passé : il ne peut pas suivre une préposition et avoir « you » pour complément."
+              },
+              "trap": "« look forward to », « be committed to », « be used to » : après ce « to », toujours -ing."
+            },
+            "en": {
+              "rule": "In \"look forward to\", \"to\" is a preposition: it is followed by a noun or an -ing verb, \"look forward to serving you\". \"you\" is the object of \"serving\".",
+              "distractors": {
+                "A": "\"serve\" would be a bare infinitive: that is the trap, because this \"to\" does not introduce an infinitive.",
+                "C": "\"to serve\" would give \"look forward to to serve\": two \"to\" in a row, which is impossible.",
+                "D": "\"served\" is a past participle: it cannot follow a preposition and take \"you\" as its object."
+              },
+              "trap": "\"look forward to\", \"be committed to\", \"be used to\": after this \"to\", always -ing."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p6-0019",
+      "part": 6,
+      "genre": "announcement",
+      "text": "Pinecrest Electric Cooperative is pleased to announce its new Home Energy Check program, which begins on September 8. Customers can now [[1]] an appointment online for a free home visit by one of our certified technicians. During the visit, the technician will inspect windows, insulation, and heating equipment to find where heat is being lost.\n\nCustomers who took part in last winter's pilot program were [[2]] by how much they could save. [[3]] All participants will also receive a printed report listing the repairs that offer the greatest savings.\n\nHouseholds that complete at least two of the recommended upgrades will receive a credit of $75. The credit will appear on [[4]] next electricity bill. To schedule your visit, go to the Pinecrest website and select \"Home Energy Check.\"",
+      "questions": [
+        {
+          "id": "p6-0019-1",
+          "tags": [
+            "collocations"
+          ],
+          "difficulty": 1,
+          "options": [
+            "do",
+            "take",
+            "make",
+            "give"
+          ],
+          "answer": "C",
+          "explanation": {
+            "fr": {
+              "rule": "On dit « make an appointment » (prendre rendez-vous) : « make » est le verbe qui va avec « appointment ».",
+              "distractors": {
+                "A": "« do an appointment » n'existe pas : « do » s'emploie avec « work », « a favor », « research », etc.",
+                "B": "« take an appointment » n'existe pas dans ce sens ; on « takes » plutôt « a break » ou « a course ».",
+                "D": "« give an appointment » n'est pas une collocation ; on peut « give someone an appointment », mais pas avec ce sens ici."
+              },
+              "trap": "Apprends les verbes par collocation : make an appointment, make a reservation, make a decision."
+            },
+            "en": {
+              "rule": "The collocation is \"make an appointment\": \"make\" is the verb that goes with \"appointment\".",
+              "distractors": {
+                "A": "\"do an appointment\" does not exist: \"do\" goes with \"work\", \"a favor\", \"research\", and so on.",
+                "B": "\"take an appointment\" does not exist in this sense; you \"take\" a break or a course.",
+                "D": "\"give an appointment\" is not a collocation for booking a visit."
+              },
+              "trap": "Learn verbs in collocations: make an appointment, make a reservation, make a decision."
+            }
+          }
+        },
+        {
+          "id": "p6-0019-2",
+          "tags": [
+            "participle-adjectives"
+          ],
+          "difficulty": 2,
+          "options": [
+            "surprise",
+            "surprising",
+            "surprised",
+            "surprisingly"
+          ],
+          "answer": "C",
+          "evidence": [
+            "Customers who took part in last winter's pilot program"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le sujet est « Customers » : ce sont eux qui ressentent l'émotion, et « were » demande un participe. On emploie donc le participe passé en -ed, « were surprised by ».",
+              "distractors": {
+                "A": "« surprise » est le verbe à la base verbale (ou un nom) : impossible après « were ».",
+                "B": "« surprising » décrit ce qui provoque la surprise (« the savings were surprising »), pas ceux qui la ressentent.",
+                "D": "« surprisingly » est un adverbe : il ne peut pas suivre « were » pour introduire « by »."
+              },
+              "trap": "-ing = la cause de l'émotion ; -ed = celui qui la ressent. Qui est le sujet : la personne ou la chose ?"
+            },
+            "en": {
+              "rule": "The subject is \"Customers\": they feel the emotion, and \"were\" needs a participle. So use the -ed past participle: \"were surprised by\".",
+              "distractors": {
+                "A": "\"surprise\" is the base verb (or a noun): it cannot follow \"were\".",
+                "B": "\"surprising\" describes what causes the surprise (\"the savings were surprising\"), not those who feel it.",
+                "D": "\"surprisingly\" is an adverb: it cannot follow \"were\" and lead into \"by\"."
+              },
+              "trap": "-ing = the cause of the feeling; -ed = the one who feels it. Is the subject a person or a thing?"
+            }
+          }
+        },
+        {
+          "id": "p6-0019-3",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 1,
+          "options": [
+            "The cooperative was founded in 1952 by a group of local farmers.",
+            "Their heating bills dropped by an average of 14 percent.",
+            "Power outages are most common during summer thunderstorms.",
+            "Our customer service office is closed on Sundays."
+          ],
+          "answer": "B",
+          "evidence": [
+            "Customers who took part in last winter's pilot program",
+            "All participants will also receive a printed report"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase d'avant dit que les clients du programme pilote ont été surpris par leurs économies ; la phrase d'après parle des « participants » qui reçoivent aussi un rapport. La bonne phrase chiffre ces économies (« Their heating bills dropped… ») et « Their » reprend « Customers ».",
+              "distractors": {
+                "A": "L'histoire de la coopérative n'explique pas la surprise des clients et ne prépare pas « participants ».",
+                "C": "Les pannes d'été n'ont aucun lien avec les économies de chauffage ni avec le programme.",
+                "D": "Les horaires du bureau sont un autre sujet : on ne voit pas ce qui relierait cette phrase à « participants »."
+              },
+              "trap": "La bonne phrase répond à la précédente (ici : combien ont-ils économisé ?) et prépare la suivante (« also », « participants »)."
+            },
+            "en": {
+              "rule": "The sentence before says that pilot customers were surprised by their savings; the one after talks about \"participants\" who also receive a report. The right sentence gives the figure (\"Their heating bills dropped…\"), and \"Their\" refers back to \"Customers\".",
+              "distractors": {
+                "A": "The cooperative's history does not explain the customers' surprise and does not lead into \"participants\".",
+                "C": "Summer outages have nothing to do with heating savings or the program.",
+                "D": "Office hours are another topic: nothing connects this sentence to \"participants\"."
+              },
+              "trap": "The right sentence answers the previous one (here: how much did they save?) and prepares the next (\"also\", \"participants\")."
+            }
+          }
+        },
+        {
+          "id": "p6-0019-4",
+          "tags": [
+            "pronouns"
+          ],
+          "difficulty": 2,
+          "options": [
+            "they",
+            "their",
+            "theirs",
+            "them"
+          ],
+          "answer": "B",
+          "evidence": [
+            "Households that complete at least two of the recommended upgrades will receive a credit of $75."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le trou précède « next electricity bill » : il faut un déterminant possessif. Il reprend « Households » de la phrase précédente : « their next electricity bill ».",
+              "distractors": {
+                "A": "« they » est un pronom sujet : il ne peut pas se placer devant un nom pour le déterminer.",
+                "C": "« theirs » est un pronom possessif qui remplace un nom (« the bill is theirs ») : il ne se met pas devant « next electricity bill ».",
+                "D": "« them » est un pronom complément : on ne l'emploie pas comme déterminant devant un nom."
+              },
+              "trap": "Un pronom suivi d'un nom → possessif adjectif (my, your, their…). Le référent est souvent dans la phrase d'avant."
+            },
+            "en": {
+              "rule": "The blank comes before \"next electricity bill\": you need a possessive determiner. It refers to \"Households\" in the previous sentence: \"their next electricity bill\".",
+              "distractors": {
+                "A": "\"they\" is a subject pronoun: it cannot sit before a noun to determine it.",
+                "C": "\"theirs\" is a possessive pronoun that replaces a noun (\"the bill is theirs\"): it does not go before \"next electricity bill\".",
+                "D": "\"them\" is an object pronoun: it is not used as a determiner before a noun."
+              },
+              "trap": "A pronoun before a noun → possessive adjective (my, your, their…). The referent is often in the previous sentence."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p6-0020",
+      "part": 6,
+      "genre": "webpage",
+      "text": "Ashby Public Library: Teen Study Hub\n\nWelcome to the Teen Study Hub on the second floor of the Ashby Public Library. Students aged 13 to 18 can use the hub free of charge after school, Monday through Friday, from 3:00 P.M. to 7:00 P.M. Our [[1]] includes laptops, a color printer, and free wireless internet.\n\nThe hub is [[2]] on Tuesdays and Thursdays than on other weekdays, so we suggest arriving before 4:00 P.M. if you want a seat at a group table. Conversation at the group tables is allowed, so the area can get loud.\n\nTutoring is also available at the hub. [[3]] Students who want to attend should sign in at the front desk when they arrive. Students who find the noise too [[4]] may ask a staff member for a seat in the silent room.",
+      "questions": [
+        {
+          "id": "p6-0020-1",
+          "tags": [
+            "word-form-noun"
+          ],
+          "difficulty": 2,
+          "options": [
+            "equip",
+            "equipped",
+            "equipping",
+            "equipment"
+          ],
+          "answer": "D",
+          "explanation": {
+            "fr": {
+              "rule": "Après « Our », le trou est le sujet de « includes » : il faut un nom. « equipment » (matériel) convient, et il est non dénombrable : « Our equipment includes laptops… ».",
+              "distractors": {
+                "A": "« equip » est un verbe : il ne peut pas être le sujet de « includes ».",
+                "B": "« equipped » est un participe ou un adjectif : il ne peut pas suivre « Our » comme sujet seul.",
+                "C": "« equipping » est le -ing du verbe : il ferait « Our equipping includes », qui n'a pas de sens ici."
+              },
+              "trap": "Possessif devant le trou et verbe conjugué après → le trou est un nom (sujet)."
+            },
+            "en": {
+              "rule": "After \"Our\", the blank is the subject of \"includes\": you need a noun. \"equipment\" fits, and it is uncountable: \"Our equipment includes laptops…\".",
+              "distractors": {
+                "A": "\"equip\" is a verb: it cannot be the subject of \"includes\".",
+                "B": "\"equipped\" is a participle or an adjective: it cannot follow \"Our\" as a subject on its own.",
+                "C": "\"equipping\" is the -ing form of the verb: \"Our equipping includes\" makes no sense here."
+              },
+              "trap": "Possessive before the blank and a conjugated verb after it → the blank is a noun (the subject)."
+            }
+          }
+        },
+        {
+          "id": "p6-0020-2",
+          "tags": [
+            "comparatives-superlatives"
+          ],
+          "difficulty": 2,
+          "options": [
+            "busy",
+            "busiest",
+            "busier",
+            "as busy"
+          ],
+          "answer": "C",
+          "evidence": [
+            "than on other weekdays"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« than » après le trou annonce un comparatif. « busy » se termine par -y et a deux syllabes : comparatif en -ier, « busier than ».",
+              "distractors": {
+                "A": "« busy » est la forme de base : sans comparatif, « than » n'a pas de sens.",
+                "B": "« busiest » est un superlatif : il demande « the » et ne se construit pas avec « than ».",
+                "D": "« as busy » se construit avec « as… as », pas avec « than »."
+              },
+              "trap": "« than » → comparatif (-er ou more). « the … in/of » → superlatif. « as … as » → égalité."
+            },
+            "en": {
+              "rule": "\"than\" after the blank signals a comparative. \"busy\" ends in -y and has two syllables: the comparative is -ier, \"busier than\".",
+              "distractors": {
+                "A": "\"busy\" is the base form: without a comparative, \"than\" makes no sense.",
+                "B": "\"busiest\" is a superlative: it needs \"the\" and is not used with \"than\".",
+                "D": "\"as busy\" goes with \"as… as\", not with \"than\"."
+              },
+              "trap": "\"than\" → comparative (-er or more). \"the … in/of\" → superlative. \"as … as\" → equality."
+            }
+          }
+        },
+        {
+          "id": "p6-0020-3",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 1,
+          "options": [
+            "The library's main reading room was repainted last month.",
+            "Adults may borrow up to twenty books at a time with a valid card.",
+            "The hub will be closed on all national holidays.",
+            "Volunteer tutors from Ashby College help with math and science every Wednesday."
+          ],
+          "answer": "D",
+          "evidence": [
+            "Tutoring is also available at the hub.",
+            "Students who want to attend should sign in at the front desk when they arrive."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase d'avant annonce du tutorat ; celle d'après parle des élèves qui veulent y « attend » et doivent s'inscrire. La bonne phrase donne les détails du tutorat (qui, quoi, quand), ce à quoi on peut assister.",
+              "distractors": {
+                "A": "La peinture de la salle de lecture n'a aucun rapport avec le tutorat annoncé juste avant.",
+                "B": "L'emprunt de livres par les adultes est hors sujet : ce n'est pas le tutorat, et les adultes ne sont pas concernés par le hub.",
+                "C": "Les fermetures un jour férié ne détaillent pas le tutorat, et « attend » n'aurait pas de sens ensuite."
+              },
+              "trap": "Vérifie que la phrase répond à celle d'avant (de quoi parle-t-on ?) et que la suivante peut la prolonger (« attend » = assister à quoi ?)."
+            },
+            "en": {
+              "rule": "The sentence before announces tutoring; the one after talks about students who want to \"attend\" and must sign in. The right sentence gives the details of the tutoring (who, what, when), which is what students can attend.",
+              "distractors": {
+                "A": "The repainted reading room has nothing to do with the tutoring announced just before.",
+                "B": "Adult borrowing is off topic: it is not tutoring, and adults are not the hub's users.",
+                "C": "Holiday closures do not detail the tutoring, and \"attend\" would make no sense afterwards."
+              },
+              "trap": "Check that the sentence answers the previous one (what are we talking about?) and that the next one can continue it (\"attend\" what?)."
+            }
+          }
+        },
+        {
+          "id": "p6-0020-4",
+          "tags": [
+            "participle-adjectives"
+          ],
+          "difficulty": 2,
+          "options": [
+            "distracting",
+            "distracted",
+            "distract",
+            "distraction"
+          ],
+          "answer": "A",
+          "evidence": [
+            "Conversation at the group tables is allowed, so the area can get loud."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le mot décrit « the noise », la chose qui provoque la gêne : participe en -ing, « too distracting ». Le bruit du paragraphe précédent est la cause, pas celui qui ressent.",
+              "distractors": {
+                "B": "« distracted » décrit une personne dont l'attention est détournée : on dirait « students who feel distracted », pas « the noise is distracted ».",
+                "C": "« distract » est un verbe à la base verbale : il ne peut pas suivre « too » ni décrire « the noise ».",
+                "D": "« distraction » est un nom : « too distraction » est incorrect, il faudrait « too much of a distraction »."
+              },
+              "trap": "Le sujet est une chose qui agit sur les gens → -ing ; le sujet est la personne touchée → -ed."
+            },
+            "en": {
+              "rule": "The word describes \"the noise\", the thing that causes the annoyance: -ing participle, \"too distracting\". The noise from the previous sentence is the cause, not the one who feels it.",
+              "distractors": {
+                "B": "\"distracted\" describes a person whose attention is pulled away: you would say \"students who feel distracted\", not \"the noise is distracted\".",
+                "C": "\"distract\" is the base verb: it cannot follow \"too\" or describe \"the noise\".",
+                "D": "\"distraction\" is a noun: \"too distraction\" is incorrect; you would need \"too much of a distraction\"."
+              },
+              "trap": "The subject is a thing acting on people → -ing; the subject is the person affected → -ed."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p6-0021",
+      "part": 6,
+      "genre": "article",
+      "text": "Tallgrass Software, a startup based in Omaha, released its first product on June 3. [[1]] Cofounder Jun Takeda says its simple design means that staff can learn it in a single afternoon.\n\nAt $29 a month per clinic, the pricing makes digital scheduling [[2]] even for offices with only one doctor. Takeda and his cofounder, Elena Okonjo, met at a regional hospital, where [[3]] saw how much time front-desk staff lost to phone calls.\n\nThe software, which was tested last winter with a dozen clinics in Nebraska and Iowa, [[4]] by more than 60 offices since its launch. Takeda says a version for dental offices is planned for next spring.",
+      "questions": [
+        {
+          "id": "p6-0021-1",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 2,
+          "options": [
+            "Many software companies in the region were founded in the past decade.",
+            "ClinicClock is a scheduling tool built for small medical offices with fewer than ten employees.",
+            "Tallgrass plans to hire ten more engineers before the end of the year.",
+            "Customers can download the latest update from the company's website."
+          ],
+          "answer": "B",
+          "evidence": [
+            "released its first product on June 3.",
+            "Cofounder Jun Takeda says its simple design means that staff can learn it in a single afternoon."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La première phrase parle du « first product » sans le nommer ; la suivante dit que « its simple design » permet au personnel de l'apprendre. Il faut la phrase qui nomme et décrit ce produit (un outil de planification) : « its » le reprend.",
+              "distractors": {
+                "A": "Les entreprises de la région sont un sujet général : « its simple design » n'aurait pas de référent clair.",
+                "C": "Les embauches concernent l'entreprise, pas un produit : « its simple design » et « learn it » ne peuvent pas s'y rapporter.",
+                "D": "Parler d'une « update » contredit « first product » : le produit vient d'être lancé, et la phrase ne le décrit pas."
+              },
+              "trap": "« its », « it », « the product » dans la phrase suivante : l'option correcte doit contenir leur référent."
+            },
+            "en": {
+              "rule": "The first sentence mentions the \"first product\" without naming it; the next says \"its simple design\" lets staff learn it. You need the sentence that names and describes that product (a scheduling tool): \"its\" refers back to it.",
+              "distractors": {
+                "A": "Companies in the region are a general topic: \"its simple design\" would have no clear referent.",
+                "C": "Hiring concerns the company, not a product: \"its simple design\" and \"learn it\" cannot refer to it.",
+                "D": "Mentioning an \"update\" contradicts \"first product\": the product has just launched, and the sentence does not describe it."
+              },
+              "trap": "\"its\", \"it\", \"the product\" in the next sentence: the correct option must contain their referent."
+            }
+          }
+        },
+        {
+          "id": "p6-0021-2",
+          "tags": [
+            "word-form-adjective"
+          ],
+          "difficulty": 3,
+          "options": [
+            "afford",
+            "affordability",
+            "affordable",
+            "affordably"
+          ],
+          "answer": "C",
+          "evidence": [
+            "At $29 a month per clinic"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« makes digital scheduling ___ » : après « make » + complément d'objet, il faut un adjectif qui décrit cet objet. Le prix de 29 $ explique le sens : « affordable » (abordable).",
+              "distractors": {
+                "A": "« afford » est un verbe : il ne peut pas décrire « digital scheduling ».",
+                "B": "« affordability » est un nom : « makes scheduling affordability » n'a pas de sens.",
+                "D": "« affordably » est un adverbe : il modifierait un verbe, mais ici on attend l'état de l'objet. Le piège est que l'adverbe semble modifier « makes »."
+              },
+              "trap": "make / keep / find + objet + adjectif (pas adverbe) : « makes it easy », « keeps it simple »."
+            },
+            "en": {
+              "rule": "\"makes digital scheduling ___\": after \"make\" + object, you need an adjective describing that object. The $29 price explains the meaning: \"affordable\".",
+              "distractors": {
+                "A": "\"afford\" is a verb: it cannot describe \"digital scheduling\".",
+                "B": "\"affordability\" is a noun: \"makes scheduling affordability\" makes no sense.",
+                "D": "\"affordably\" is an adverb: it would modify a verb, but here we need the state of the object. The trap is that the adverb seems to modify \"makes\"."
+              },
+              "trap": "make / keep / find + object + adjective (not adverb): \"makes it easy\", \"keeps it simple\"."
+            }
+          }
+        },
+        {
+          "id": "p6-0021-3",
+          "tags": [
+            "pronouns"
+          ],
+          "difficulty": 1,
+          "options": [
+            "them",
+            "their",
+            "they",
+            "theirs"
+          ],
+          "answer": "C",
+          "evidence": [
+            "Takeda and his cofounder, Elena Okonjo, met at a regional hospital"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le trou est le sujet de « saw » : il faut un pronom sujet. Il reprend « Takeda and his cofounder, Elena Okonjo », donc un pluriel : « they ».",
+              "distractors": {
+                "A": "« them » est un pronom complément : il ne peut pas être le sujet de « saw ».",
+                "B": "« their » est un déterminant possessif : il demande un nom ensuite, or « saw » suit.",
+                "D": "« theirs » est un pronom possessif : il ne peut pas être sujet d'un verbe d'action comme « saw »."
+              },
+              "trap": "Devant un verbe conjugué, le pronom est un sujet (I, he, they…)."
+            },
+            "en": {
+              "rule": "The blank is the subject of \"saw\": you need a subject pronoun. It refers to \"Takeda and his cofounder, Elena Okonjo\", so it is plural: \"they\".",
+              "distractors": {
+                "A": "\"them\" is an object pronoun: it cannot be the subject of \"saw\".",
+                "B": "\"their\" is a possessive determiner: it needs a noun after it, but \"saw\" follows.",
+                "D": "\"theirs\" is a possessive pronoun: it cannot be the subject of an action verb like \"saw\"."
+              },
+              "trap": "Before a conjugated verb, the pronoun is a subject (I, he, they…)."
+            }
+          }
+        },
+        {
+          "id": "p6-0021-4",
+          "tags": [
+            "passive-voice"
+          ],
+          "difficulty": 3,
+          "options": [
+            "adopted",
+            "has adopted",
+            "is adopting",
+            "has been adopted"
+          ],
+          "answer": "D",
+          "evidence": [
+            "The software, which was tested last winter",
+            "since its launch"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le sujet est « The software » (le verbe est séparé par la relative « which was tested… »). Le logiciel est adopté par des cabinets : passif, avec « by » après le trou. « since its launch » impose le présent perfect : « has been adopted ».",
+              "distractors": {
+                "A": "« adopted » seul donnerait un prétérit actif, qui demande un complément d'objet, et il n'exprime pas « since ».",
+                "B": "« has adopted » est actif : le logiciel adopterait quelque chose, alors que « by more than 60 offices » montre que ce sont les cabinets qui agissent.",
+                "C": "« is adopting » est actif et au présent continu : même problème de sens, et il ne va pas avec « since »."
+              },
+              "trap": "Saute la relative entre le sujet et le verbe, puis demande-toi : le sujet fait l'action ou la subit ? « by + agent » signale un passif."
+            },
+            "en": {
+              "rule": "The subject is \"The software\" (the verb is separated from it by the clause \"which was tested…\"). The software is adopted by offices: passive, with \"by\" after the blank. \"since its launch\" requires the present perfect: \"has been adopted\".",
+              "distractors": {
+                "A": "\"adopted\" alone would be an active simple past, which needs an object, and it does not express \"since\".",
+                "B": "\"has adopted\" is active: the software would adopt something, but \"by more than 60 offices\" shows the offices are the ones acting.",
+                "C": "\"is adopting\" is active and present continuous: same problem of meaning, and it does not fit \"since\"."
+              },
+              "trap": "Skip the clause between subject and verb, then ask: does the subject do the action or receive it? \"by + agent\" signals a passive."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
