@@ -1,0 +1,614 @@
+{
+  "part": 6,
+  "pool": "training",
+  "texts": [
+    {
+      "id": "p6-0022",
+      "part": 6,
+      "genre": "job-posting",
+      "text": "Job Posting: Customer Service Agent\n\nRedwater Car Rentals is looking for a customer service agent to join our Tacoma airport branch. The successful candidate will be [[1]] to work evening and weekend shifts. [[2]] Responsibilities include greeting customers, preparing rental contracts, and inspecting vehicles when they are returned.\n\nNo experience in the car rental industry is required. Applicants must [[3]] the following requirements: a valid driver's license and at least one year of experience in a customer-facing role. Full training will be provided during the first two weeks, and every new agent is paired with a senior colleague.\n\nTo apply, send your resume and a short cover letter to the branch manager by October 24. Applications that arrive after that date will not be [[4]].",
+      "questions": [
+        {
+          "id": "p6-0022-1",
+          "tags": [
+            "passive-voice"
+          ],
+          "difficulty": 2,
+          "options": [
+            "ask",
+            "asking",
+            "asked",
+            "having asked"
+          ],
+          "answer": "C",
+          "explanation": {
+            "fr": {
+              "rule": "Le candidat ne demande rien : on lui demande de travailler le soir et le week-end. Il faut un passif, « will be asked », et l'infinitif « to work » qui suit confirme cette construction (« be asked to do »).",
+              "distractors": {
+                "A": "« ask » à la base verbale ne peut pas suivre « will be » : le passif demande un participe passé.",
+                "B": "« asking » donnerait un actif progressif (« will be asking »), avec un candidat qui poserait lui-même une question : ce n'est pas le sens.",
+                "D": "« having asked » est un participe parfait actif : il ne peut pas suivre « will be »."
+              },
+              "trap": "Sujet qui subit l'action + « to » + verbe ensuite : « be asked / required / expected to », donc participe passé."
+            },
+            "en": {
+              "rule": "The candidate does not ask anything: someone asks him or her to work evenings and weekends. You need a passive, \"will be asked\", and the infinitive \"to work\" that follows confirms the pattern (\"be asked to do\").",
+              "distractors": {
+                "A": "\"ask\" in its base form cannot follow \"will be\": the passive needs a past participle.",
+                "B": "\"asking\" would form an active progressive (\"will be asking\"), as if the candidate were putting a question: that is not the meaning.",
+                "D": "\"having asked\" is an active perfect participle: it cannot follow \"will be\"."
+              },
+              "trap": "A subject that receives the action + \"to\" + verb afterward: \"be asked / required / expected to\", so a past participle."
+            }
+          }
+        },
+        {
+          "id": "p6-0022-2",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 1,
+          "options": [
+            "This is a full-time position based at the airport rental counter.",
+            "The downtown office will be closed on public holidays.",
+            "Rental rates for compact cars have increased this year.",
+            "Candidates who applied last year must send a new application."
+          ],
+          "answer": "A",
+          "evidence": [
+            "to work evening and weekend shifts.",
+            "Responsibilities include greeting customers, preparing rental contracts, and inspecting vehicles when they are returned."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase précédente décrit les horaires du candidat retenu ; la suivante commence par « Responsibilities include… ». Il faut une phrase qui présente le poste lui-même, pour que « Responsibilities » ait un référent : « This is a full-time position… ».",
+              "distractors": {
+                "B": "Les jours fériés du bureau du centre-ville sont un autre sujet et ne préparent pas la liste des responsabilités.",
+                "C": "Les tarifs de location n'ont aucun lien avec les horaires du candidat, ni avec ses tâches.",
+                "D": "Parler des candidatures de l'an dernier est hors sujet à cet endroit : la candidature n'est évoquée qu'à la fin de l'annonce."
+              },
+              "trap": "« Responsibilities » doit avoir un référent : cherche la phrase qui présente le poste avant la liste des tâches."
+            },
+            "en": {
+              "rule": "The previous sentence describes the successful candidate's hours; the next one starts with \"Responsibilities include...\". You need a sentence that introduces the position itself, so \"Responsibilities\" has something to refer to: \"This is a full-time position...\".",
+              "distractors": {
+                "B": "The downtown office's holiday closures are a different topic and do not lead into the list of duties.",
+                "C": "Rental rates have no link with the candidate's hours or with the duties that follow.",
+                "D": "Mentioning last year's applications is off topic here: applying is only discussed at the end of the posting."
+              },
+              "trap": "\"Responsibilities\" needs a referent: look for the sentence that introduces the job before the list of duties."
+            }
+          }
+        },
+        {
+          "id": "p6-0022-3",
+          "tags": [
+            "collocations"
+          ],
+          "difficulty": 2,
+          "options": [
+            "reach",
+            "take",
+            "meet",
+            "hold"
+          ],
+          "answer": "C",
+          "explanation": {
+            "fr": {
+              "rule": "« Requirements » se construit avec le verbe « meet » : « meet the following requirements » signifie satisfaire les conditions demandées.",
+              "distractors": {
+                "A": "« reach » se dit d'un objectif ou d'un lieu (« reach a goal »), pas d'une condition à remplir.",
+                "B": "« take » ne s'associe pas à « requirements » : on « prend » des mesures (« take measures »), on ne « prend » pas des conditions.",
+                "D": "« hold » s'emploie avec une licence ou un diplôme (« hold a license »), mais pas avec « requirements » ; le permis de conduire est dans la liste qui suit."
+              },
+              "trap": "Apprends le verbe avec son complément : « meet requirements / a deadline / a standard »."
+            },
+            "en": {
+              "rule": "\"Requirements\" goes with the verb \"meet\": \"meet the following requirements\" means to satisfy the conditions that are asked.",
+              "distractors": {
+                "A": "\"reach\" is used for a goal or a place (\"reach a goal\"), not for a condition to be satisfied.",
+                "B": "\"take\" does not go with \"requirements\": you \"take measures\", but you do not \"take requirements\".",
+                "D": "\"hold\" goes with a license or a degree (\"hold a license\"), but not with \"requirements\"; the driver's license is in the list that follows."
+              },
+              "trap": "Learn the verb with its object: \"meet requirements / a deadline / a standard\"."
+            }
+          }
+        },
+        {
+          "id": "p6-0022-4",
+          "tags": [
+            "vocabulary-in-context"
+          ],
+          "difficulty": 3,
+          "options": [
+            "noticed",
+            "reserved",
+            "considered",
+            "consulted"
+          ],
+          "answer": "C",
+          "evidence": [
+            "by October 24"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La date limite « by October 24 » est donnée plus haut : une candidature qui arrive après cette date ne sera pas examinée. « Considered » a ici le sens d'« examiné, pris en compte ».",
+              "distractors": {
+                "A": "« noticed » veut dire « remarqué » : on ne dit pas qu'une candidature n'est pas remarquée à cause de sa date.",
+                "B": "« reserved » veut dire « mis de côté pour quelqu'un » (une chambre, une table) : ce n'est pas le sens pour une candidature.",
+                "D": "« consulted » se dit d'une personne ou d'un document que l'on consulte : on ne « consulte » pas une candidature."
+              },
+              "trap": "Plusieurs mots semblent plausibles : garde celui dont le sens colle au contexte (une date limite) et à ce que l'on fait d'une candidature."
+            },
+            "en": {
+              "rule": "The deadline \"by October 24\" is given earlier: an application that arrives after that date will not be examined. \"Considered\" means \"looked at and taken into account\" here.",
+              "distractors": {
+                "A": "\"noticed\" means \"seen\": we do not say an application is not noticed because of its date.",
+                "B": "\"reserved\" means \"kept for someone\" (a room, a table): that is not what happens to an application.",
+                "D": "\"consulted\" is used for a person or a document you ask for advice: you do not \"consult\" an application."
+              },
+              "trap": "Several words look plausible: keep the one whose meaning fits the context (a deadline) and what is done with an application."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p6-0023",
+      "part": 6,
+      "genre": "newsletter",
+      "text": "Inkwell Print Works: Autumn Newsletter\n\nWelcome to the autumn edition of our customer newsletter. [[1]] Our Lakeview shop has added a new large-format printer, which can produce banners up to three meters wide.\n\nThe new machine is already popular with local businesses. Each order [[2]] a free digital proof, so customers can check colors and spelling before printing begins. Because the printer works [[3]] faster than our old model, most banner orders are now ready within one business day.\n\nTo celebrate the launch, we are offering 15 percent off banner orders placed before November 30. [[4]] customer who mentions this newsletter will also receive a box of printed business cards at no charge.",
+      "questions": [
+        {
+          "id": "p6-0023-1",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 2,
+          "options": [
+            "Our office will be closed on Thursday for the holiday.",
+            "Our Lakeview shop will close permanently at the end of the year.",
+            "Please send us your holiday card designs by the end of October.",
+            "We have some exciting news about our equipment."
+          ],
+          "answer": "D",
+          "evidence": [
+            "Welcome to the autumn edition of our customer newsletter.",
+            "Our Lakeview shop has added a new large-format printer"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase d'avant est une simple formule de bienvenue ; celle d'après annonce une nouvelle imprimante au magasin de Lakeview. La phrase qui relie les deux annonce une nouvelle sur le matériel : « news about our equipment ».",
+              "distractors": {
+                "A": "Une fermeture pour jour férié n'a aucun lien avec l'imprimante dont parle la phrase suivante.",
+                "B": "La fermeture définitive de Lakeview contredit la suite : ce magasin vient justement d'acheter une machine.",
+                "C": "Demander des modèles de cartes de vœux est un autre sujet : « Our Lakeview shop has added… » n'en découle pas."
+              },
+              "trap": "Une bonne phrase d'introduction annonce le sujet de la phrase qui suit : ici, « news » puis la nouvelle."
+            },
+            "en": {
+              "rule": "The sentence before is a simple welcome; the one after announces a new printer at the Lakeview shop. The sentence that links them announces news about the equipment: \"news about our equipment\".",
+              "distractors": {
+                "A": "A holiday closure has no link with the printer mentioned in the next sentence.",
+                "B": "Closing Lakeview for good contradicts what follows: that shop has just bought a machine.",
+                "C": "Asking for holiday card designs is another topic: \"Our Lakeview shop has added...\" does not follow from it."
+              },
+              "trap": "A good lead-in announces the topic of the sentence that follows: here, \"news\" and then the news itself."
+            }
+          }
+        },
+        {
+          "id": "p6-0023-2",
+          "tags": [
+            "subject-verb-agreement"
+          ],
+          "difficulty": 1,
+          "options": [
+            "includes",
+            "include",
+            "are including",
+            "have included"
+          ],
+          "answer": "A",
+          "explanation": {
+            "fr": {
+              "rule": "Le sujet « Each order » est singulier : le verbe au présent prend un « -s », « includes ».",
+              "distractors": {
+                "B": "« include » est la forme du pluriel : il irait avec « orders », pas avec « each order ».",
+                "C": "« are including » est un pluriel : il ne s'accorde pas avec « each order ».",
+                "D": "« have included » est un pluriel, et le parfait ne convient pas à une règle générale."
+              },
+              "trap": "« Each » et « every » sont suivis d'un nom singulier et d'un verbe singulier."
+            },
+            "en": {
+              "rule": "The subject \"Each order\" is singular: the present-tense verb takes an \"-s\", \"includes\".",
+              "distractors": {
+                "B": "\"include\" is the plural form: it would go with \"orders\", not with \"each order\".",
+                "C": "\"are including\" is plural: it does not agree with \"each order\".",
+                "D": "\"have included\" is plural, and the perfect does not suit a general rule."
+              },
+              "trap": "\"Each\" and \"every\" take a singular noun and a singular verb."
+            }
+          }
+        },
+        {
+          "id": "p6-0023-3",
+          "tags": [
+            "word-form-adverb"
+          ],
+          "difficulty": 3,
+          "options": [
+            "remark",
+            "remarkable",
+            "remarked",
+            "remarkably"
+          ],
+          "answer": "D",
+          "evidence": [
+            "faster than our old model"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le trou est suivi du comparatif « faster » : pour renforcer un adjectif ou un adverbe, il faut un adverbe, « remarkably faster » (« nettement plus rapide »). Le verbe « works » est déjà là, et « than our old model » confirme la comparaison.",
+              "distractors": {
+                "A": "« remark » est un verbe ou un nom : il ne peut pas modifier « faster ».",
+                "B": "« remarkable » est un adjectif : il qualifierait un nom, pas le comparatif « faster » qui est ici un adverbe de manière.",
+                "C": "« remarked » est un participe passé (« a fait remarquer ») : il ne peut pas renforcer « faster »."
+              },
+              "trap": "Entre un verbe et son comparatif (ou un adjectif), le mot qui renforce est un adverbe en -ly."
+            },
+            "en": {
+              "rule": "The blank is followed by the comparative \"faster\": to strengthen an adjective or an adverb, you need an adverb, \"remarkably faster\" (\"much faster\"). The verb \"works\" is already there, and \"than our old model\" confirms the comparison.",
+              "distractors": {
+                "A": "\"remark\" is a verb or a noun: it cannot modify \"faster\".",
+                "B": "\"remarkable\" is an adjective: it would describe a noun, not \"faster\", which is an adverb of manner here.",
+                "C": "\"remarked\" is a past participle (\"commented\"): it cannot strengthen \"faster\"."
+              },
+              "trap": "Before a comparative or an adjective, the word that strengthens it is an -ly adverb."
+            }
+          }
+        },
+        {
+          "id": "p6-0023-4",
+          "tags": [
+            "quantifiers-determiners"
+          ],
+          "difficulty": 2,
+          "options": [
+            "Both",
+            "Every",
+            "Many",
+            "Several"
+          ],
+          "answer": "B",
+          "explanation": {
+            "fr": {
+              "rule": "Le nom qui suit, « customer », est singulier et dénombrable, et la phrase vise tous les clients sans exception : « Every customer who mentions… ». Le verbe « will receive » est lui aussi au singulier.",
+              "distractors": {
+                "A": "« Both » ne s'emploie qu'avec deux éléments et un nom pluriel (« both customers »).",
+                "C": "« Many » est suivi d'un nom pluriel : « many customers ».",
+                "D": "« Several » est suivi d'un nom pluriel : « several customers »."
+              },
+              "trap": "Un nom au singulier après le trou et aucun article : cherche « every », « each » ou « another », pas un quantifieur pluriel."
+            },
+            "en": {
+              "rule": "The next noun, \"customer\", is singular and countable, and the sentence covers all customers without exception: \"Every customer who mentions...\". The verb \"will receive\" is singular too.",
+              "distractors": {
+                "A": "\"Both\" is only used with two items and a plural noun (\"both customers\").",
+                "C": "\"Many\" is followed by a plural noun: \"many customers\".",
+                "D": "\"Several\" is followed by a plural noun: \"several customers\"."
+              },
+              "trap": "A singular noun after the blank and no article: look for \"every\", \"each\" or \"another\", not a plural quantifier."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p6-0024",
+      "part": 6,
+      "genre": "review",
+      "text": "Review: Northway Freight Services\nRating: 4 out of 5 stars\n\nOur chain of three cafés has used Northway Freight Services for about eight months, and the experience has been mostly positive. [[1]] Our flour and sugar shipments from the Denver warehouse now arrive within two days, compared with four or five days before.\n\nThe drivers are polite and always call ahead before a delivery. [[2]], the online tracking page occasionally shows the wrong delivery time, which has caused some confusion at our loading dock. When we reported the error, a support agent [[3]] the matter immediately and apologized.\n\nI would recommend Northway to any small business that ships only [[4]] pallets per week. Larger companies may want to ask about volume discounts.",
+      "questions": [
+        {
+          "id": "p6-0024-1",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 2,
+          "options": [
+            "The company was founded in Denver more than thirty years ago.",
+            "Unfortunately, our shipments have often arrived late.",
+            "The biggest improvement has been the speed of delivery.",
+            "We plan to open a fourth café in Denver next year."
+          ],
+          "answer": "C",
+          "evidence": [
+            "the experience has been mostly positive",
+            "now arrive within two days, compared with four or five days before"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase d'avant dit que l'expérience est « mostly positive » ; celle d'après donne un exemple chiffré : les livraisons arrivent en deux jours au lieu de quatre ou cinq. La phrase qui relie les deux annonce la plus grande amélioration : la rapidité.",
+              "distractors": {
+                "A": "L'ancienneté de l'entreprise n'est pas une raison d'une expérience positive et n'annonce pas les délais de la phrase suivante.",
+                "B": "« Often arrived late » contredit la phrase suivante, qui montre des livraisons désormais plus rapides.",
+                "D": "Ouvrir un quatrième café est un autre sujet : « Our flour and sugar shipments… now arrive » n'en découle pas."
+              },
+              "trap": "Cherche le lien logique des deux côtés : ici, une idée générale (positive) puis un exemple chiffré qui l'illustre."
+            },
+            "en": {
+              "rule": "The sentence before says the experience has been \"mostly positive\"; the one after gives a concrete example: shipments now arrive in two days instead of four or five. The sentence that links them names the biggest improvement: speed.",
+              "distractors": {
+                "A": "The company's age is not a reason for a positive experience and does not lead into the delivery times that follow.",
+                "B": "\"Often arrived late\" contradicts the next sentence, which shows deliveries are now faster.",
+                "D": "Opening a fourth café is another topic: \"Our flour and sugar shipments... now arrive\" does not follow from it."
+              },
+              "trap": "Check the logic on both sides: here, a general (positive) idea followed by a numbered example that illustrates it."
+            }
+          }
+        },
+        {
+          "id": "p6-0024-2",
+          "tags": [
+            "conjunctions-connectors"
+          ],
+          "difficulty": 3,
+          "options": [
+            "In addition",
+            "However",
+            "As a result",
+            "For instance"
+          ],
+          "answer": "B",
+          "evidence": [
+            "The drivers are polite and always call ahead before a delivery."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase d'avant fait un éloge (« polite »), alors que celle-ci signale un défaut (« wrong delivery time »). Il faut un connecteur d'opposition : « However ».",
+              "distractors": {
+                "A": "« In addition » ajoute une information du même sens : or un défaut ne s'ajoute pas à un éloge, il s'y oppose.",
+                "C": "« As a result » introduirait une conséquence : une erreur d'horaire n'est pas la conséquence de chauffeurs aimables.",
+                "D": "« For instance » introduit un exemple de ce qui précède : l'erreur de suivi n'illustre pas la politesse des chauffeurs."
+              },
+              "trap": "Compare le sens des deux phrases : éloge puis défaut = opposition, même quand le texte est plutôt positif."
+            },
+            "en": {
+              "rule": "The sentence before is praise (\"polite\"), while this one reports a flaw (\"wrong delivery time\"). You need a connector of contrast: \"However\".",
+              "distractors": {
+                "A": "\"In addition\" adds information in the same direction: a flaw does not add to praise, it contrasts with it.",
+                "C": "\"As a result\" would introduce a consequence: a wrong time is not the consequence of friendly drivers.",
+                "D": "\"For instance\" introduces an example of what precedes: the tracking error does not illustrate the drivers' politeness."
+              },
+              "trap": "Compare the meaning of the two sentences: praise then flaw = contrast, even in a mostly positive text."
+            }
+          }
+        },
+        {
+          "id": "p6-0024-3",
+          "tags": [
+            "collocations"
+          ],
+          "difficulty": 2,
+          "options": [
+            "handled",
+            "made",
+            "held",
+            "gave"
+          ],
+          "answer": "A",
+          "explanation": {
+            "fr": {
+              "rule": "« Handle a matter » (« s'occuper d'une affaire ») est une collocation courante : l'agent a réglé le problème signalé immédiatement.",
+              "distractors": {
+                "B": "« made the matter » ne forme pas une expression : « make » s'emploie avec « a decision », « a mistake », pas avec « matter ».",
+                "C": "« held the matter » veut dire « retenir » au sens physique ou « tenir » une réunion : pas le sens de traiter un problème.",
+                "D": "« gave the matter » demande un complément comme « attention » (« gave the matter attention ») : seul, il n'a pas de sens ici."
+              },
+              "trap": "Pour traiter un problème : « handle / resolve / address a matter », pas « make » ni « hold »."
+            },
+            "en": {
+              "rule": "\"Handle a matter\" is a common collocation: the agent dealt with the reported problem at once.",
+              "distractors": {
+                "B": "\"made the matter\" is not an expression: \"make\" goes with \"a decision\" or \"a mistake\", not with \"matter\".",
+                "C": "\"held the matter\" means \"keep\" in a physical sense or \"hold\" a meeting: not the meaning of dealing with a problem.",
+                "D": "\"gave the matter\" needs a complement such as \"attention\": alone it makes no sense here."
+              },
+              "trap": "To deal with a problem: \"handle / resolve / address a matter\", not \"make\" or \"hold\"."
+            }
+          }
+        },
+        {
+          "id": "p6-0024-4",
+          "tags": [
+            "quantifiers-determiners"
+          ],
+          "difficulty": 1,
+          "options": [
+            "much",
+            "a little",
+            "a few",
+            "each"
+          ],
+          "answer": "C",
+          "explanation": {
+            "fr": {
+              "rule": "« Pallets » est un nom pluriel dénombrable, et le texte parle d'une petite entreprise : « a few pallets » (« quelques palettes »).",
+              "distractors": {
+                "A": "« much » s'emploie avec un nom indénombrable : « much money », pas « much pallets ».",
+                "B": "« a little » s'emploie aussi avec un nom indénombrable : « a little time ».",
+                "D": "« each » est suivi d'un nom singulier : « each pallet »."
+              },
+              "trap": "Nom pluriel dénombrable : « a few / many / several » ; nom indénombrable : « a little / much »."
+            },
+            "en": {
+              "rule": "\"Pallets\" is a plural countable noun, and the text is about a small business: \"a few pallets\".",
+              "distractors": {
+                "A": "\"much\" goes with an uncountable noun: \"much money\", not \"much pallets\".",
+                "B": "\"a little\" also goes with an uncountable noun: \"a little time\".",
+                "D": "\"each\" is followed by a singular noun: \"each pallet\"."
+              },
+              "trap": "Plural countable noun: \"a few / many / several\"; uncountable noun: \"a little / much\"."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p6-0025",
+      "part": 6,
+      "genre": "report",
+      "text": "Quarterly Report: Editorial Department, Fernhill Books\nPrepared by Margot Seddon, Managing Editor\nDate: October 5\n\nThe selection of titles scheduled for release in the spring [[1]] now complete. Twelve new books have been approved, including four cookbooks and three travel guides. [[2]] Editors will use the next quarter to review the final manuscripts.\n\nProduction costs rose by 6 percent between July and September because the price of paper increased in August. We expect costs to stabilize next quarter. Our sales team [[3]] the new catalog to bookstores on September 12, and early orders have been encouraging. Preliminary results suggest that readers are especially [[4]] in the travel guides.",
+      "questions": [
+        {
+          "id": "p6-0025-1",
+          "tags": [
+            "subject-verb-agreement"
+          ],
+          "difficulty": 2,
+          "options": [
+            "is",
+            "are",
+            "were",
+            "being"
+          ],
+          "answer": "A",
+          "evidence": [
+            "The selection of titles scheduled for release in the spring"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le vrai sujet est « The selection » (singulier) ; « of titles scheduled for release in the spring » est un groupe intercalé. Le verbe est donc au singulier : « The selection… is now complete ».",
+              "distractors": {
+                "B": "« are » s'accorderait avec « titles », qui n'est que le complément du nom « selection ».",
+                "C": "« were » est un pluriel au passé : même erreur d'accord, et « now » demande un présent.",
+                "D": "« being » n'est pas un verbe conjugué : la phrase n'aurait plus de verbe principal."
+              },
+              "trap": "Ignore le groupe entre le sujet et le verbe : « the selection of titles » s'accorde avec « selection », pas avec « titles »."
+            },
+            "en": {
+              "rule": "The real subject is \"The selection\" (singular); \"of titles scheduled for release in the spring\" is an interrupting phrase. The verb is therefore singular: \"The selection... is now complete\".",
+              "distractors": {
+                "B": "\"are\" would agree with \"titles\", which is only the complement of the noun \"selection\".",
+                "C": "\"were\" is a plural in the past: same agreement mistake, and \"now\" calls for a present.",
+                "D": "\"being\" is not a conjugated verb: the sentence would have no main verb."
+              },
+              "trap": "Ignore the phrase between subject and verb: \"the selection of titles\" agrees with \"selection\", not with \"titles\"."
+            }
+          }
+        },
+        {
+          "id": "p6-0025-2",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 2,
+          "options": [
+            "Sales of last year's cookbooks were lower than expected.",
+            "Every author has now submitted a complete draft.",
+            "The new catalog was sent to bookstores last week.",
+            "Paper prices are expected to fall sharply in October."
+          ],
+          "answer": "B",
+          "evidence": [
+            "Twelve new books have been approved, including four cookbooks and three travel guides.",
+            "Editors will use the next quarter to review the final manuscripts."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase d'avant dit que douze livres sont approuvés ; celle d'après dit que les éditeurs vont relire les « final manuscripts ». Il faut la phrase qui explique que ces manuscrits existent : tous les auteurs ont remis un texte complet.",
+              "distractors": {
+                "A": "Les ventes de l'an dernier sont un autre sujet : elles n'amènent pas la relecture des manuscrits.",
+                "C": "Le catalogue envoyé la semaine dernière n'a pas de lien avec les manuscrits, et l'information n'a pas sa place dans ce paragraphe sur la liste de printemps.",
+                "D": "La baisse du prix du papier contredit la suite du texte, qui prévoit seulement que les coûts « stabilize »."
+              },
+              "trap": "Les « final manuscripts » doivent avoir été rendus avant d'être relus : cherche la phrase qui prépare ce mot."
+            },
+            "en": {
+              "rule": "The sentence before says twelve books are approved; the one after says editors will review the \"final manuscripts\". You need the sentence that explains why those manuscripts exist: every author has handed in a complete draft.",
+              "distractors": {
+                "A": "Last year's sales are another topic: they do not lead to reviewing manuscripts.",
+                "C": "The catalog sent last week has no link with the manuscripts, and that news does not belong in this paragraph about the spring list.",
+                "D": "A fall in paper prices contradicts the rest of the text, which only expects costs to \"stabilize\"."
+              },
+              "trap": "The \"final manuscripts\" must have been delivered before being reviewed: look for the sentence that prepares that word."
+            }
+          }
+        },
+        {
+          "id": "p6-0025-3",
+          "tags": [
+            "verb-tense"
+          ],
+          "difficulty": 1,
+          "options": [
+            "presents",
+            "will present",
+            "presented",
+            "has presented"
+          ],
+          "answer": "C",
+          "evidence": [
+            "Date: October 5",
+            "on September 12"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La date « on September 12 » est passée : le rapport est daté du « October 5 ». Il faut le prétérit : « presented ».",
+              "distractors": {
+                "A": "« presents » est un présent : il ne va pas avec une date passée.",
+                "B": "« will present » est un futur : la date du 12 septembre est antérieure au rapport.",
+                "D": "« has presented » est un parfait : il ne s'emploie pas avec une date précise du passé."
+              },
+              "trap": "Une date précise dans le passé impose le prétérit, jamais le « present perfect »."
+            },
+            "en": {
+              "rule": "The date \"on September 12\" is in the past: the report is dated \"October 5\". You need the simple past: \"presented\".",
+              "distractors": {
+                "A": "\"presents\" is a present tense: it does not go with a past date.",
+                "B": "\"will present\" is a future: September 12 comes before the date of the report.",
+                "D": "\"has presented\" is a present perfect: it is not used with a specific past date."
+              },
+              "trap": "A specific past date requires the simple past, never the present perfect."
+            }
+          }
+        },
+        {
+          "id": "p6-0025-4",
+          "tags": [
+            "participle-adjectives"
+          ],
+          "difficulty": 2,
+          "options": [
+            "interest",
+            "interesting",
+            "interested",
+            "interestingly"
+          ],
+          "answer": "C",
+          "explanation": {
+            "fr": {
+              "rule": "Les lecteurs ressentent l'intérêt (ils ne le provoquent pas) : il faut le participe passé « interested », suivi de la préposition « in » (« be interested in »).",
+              "distractors": {
+                "A": "« interest » est un nom ou un verbe à la base : impossible après « are especially ».",
+                "B": "« interesting » décrit ce qui provoque l'intérêt (« the guides are interesting »), pas ceux qui le ressentent, et il ne se construit pas avec « in ».",
+                "D": "« interestingly » est un adverbe : il ne peut pas suivre un autre adverbe pour compléter « are »."
+              },
+              "trap": "-ed pour celui qui ressent, -ing pour la cause ; « interested in » est une construction à retenir."
+            },
+            "en": {
+              "rule": "The readers feel the interest (they do not cause it): you need the past participle \"interested\", followed by the preposition \"in\" (\"be interested in\").",
+              "distractors": {
+                "A": "\"interest\" is a noun or a base-form verb: impossible after \"are especially\".",
+                "B": "\"interesting\" describes what causes interest (\"the guides are interesting\"), not those who feel it, and it is not followed by \"in\".",
+                "D": "\"interestingly\" is an adverb: it cannot follow another adverb to complete \"are\"."
+              },
+              "trap": "-ed for the one who feels, -ing for the cause; \"interested in\" is a pattern to remember."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
