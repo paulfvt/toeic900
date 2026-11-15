@@ -53,8 +53,8 @@
       "fr": "Textes à trous (Part 6)",
       "en": "Text completion (Part 6)",
       "steps": [
-        {"id": "l-sentence-insertion", "kind": "lesson", "tag": "sentence-insertion", "part": 6, "units": 2},
-        {"id": "r-u5-part6", "kind": "review", "part": 6, "units": 3}
+        {"id": "l-sentence-insertion", "kind": "lesson", "tag": "sentence-insertion", "part": 6, "units": 3},
+        {"id": "r-u5-part6", "kind": "review", "part": 6, "units": 4}
       ]
     },
     {
@@ -62,13 +62,13 @@
       "fr": "Lire un document (Part 7)",
       "en": "Reading one document (Part 7)",
       "steps": [
-        {"id": "l-main-idea", "kind": "lesson", "tag": "main-idea", "part": 7, "units": 2},
-        {"id": "l-detail", "kind": "lesson", "tag": "detail", "part": 7, "units": 2},
-        {"id": "l-inference", "kind": "lesson", "tag": "inference", "part": 7, "units": 2},
-        {"id": "l-not-true", "kind": "lesson", "tag": "not-true", "part": 7, "units": 2},
-        {"id": "l-synonym-in-context", "kind": "lesson", "tag": "synonym-in-context", "part": 7, "units": 2},
-        {"id": "l-writer-intention", "kind": "lesson", "tag": "writer-intention", "part": 7, "units": 2},
-        {"id": "r-u6-part7-single", "kind": "review", "part": 7, "units": 3}
+        {"id": "l-main-idea", "kind": "lesson", "tag": "main-idea", "part": 7, "units": 3},
+        {"id": "l-detail", "kind": "lesson", "tag": "detail", "part": 7, "units": 3},
+        {"id": "l-inference", "kind": "lesson", "tag": "inference", "part": 7, "units": 3},
+        {"id": "l-not-true", "kind": "lesson", "tag": "not-true", "part": 7, "units": 3},
+        {"id": "l-synonym-in-context", "kind": "lesson", "tag": "synonym-in-context", "part": 7, "units": 3},
+        {"id": "l-writer-intention", "kind": "lesson", "tag": "writer-intention", "part": 7, "units": 3},
+        {"id": "r-u6-part7-single", "kind": "review", "part": 7, "units": 4}
       ]
     },
     {
@@ -77,7 +77,7 @@
       "en": "Multiple documents (Part 7)",
       "steps": [
         {"id": "l-cross-reference", "kind": "lesson", "tag": "cross-reference", "part": 7, "units": 2},
-        {"id": "r-u7-part7-multiple", "kind": "review", "part": 7, "units": 2}
+        {"id": "r-u7-part7-multiple", "kind": "review", "part": 7, "units": 3}
       ]
     }
   ]
