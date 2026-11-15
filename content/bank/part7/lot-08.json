@@ -1,0 +1,723 @@
+{
+  "part": 7,
+  "pool": "training",
+  "sets": [
+    {
+      "id": "p7-0038",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "email",
+          "text": "To: Isaure Brennecke, Facilities Supervisor, Kessel & Ord Cold Storage\nFrom: Tavish Rudnicki, Customer Programs, Solvane Energy Cooperative\nDate: November 3\nSubject: Your rooftop solar connection\n\nDear Ms. Brennecke,\n\nThank you for joining the Solvane Rooftop Solar Program. [1] Your installer, Bluepeak Roofing, finished the work at your Quillon Road warehouse on October 28, so the next step is ours.\n\nBefore we can link your panels to the grid, one of our technicians must visit your warehouse and inspect the system. [2] During that time, the technician will need access to the roof and to the main electrical panel. [3] Until the inspection is approved, the switch on your inverter must stay in the off position. [4]\n\nWe can offer Thursday, November 13, between 8:00 A.M. and 11:00 A.M. Please reply by Friday, November 7, to confirm that time or to suggest another one.\n\nSincerely,\nTavish Rudnicki"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0038-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 2,
+          "stem": "What is the purpose of the e-mail?",
+          "options": [
+            "To report a billing error on an account",
+            "To arrange an inspection of a solar system",
+            "To announce a change in electricity rates",
+            "To recommend a company for roof repairs"
+          ],
+          "answer": "B",
+          "evidence": [
+            "one of our technicians must visit your warehouse and inspect the system.",
+            "Please reply by Friday, November 7, to confirm that time or to suggest another one."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le deuxième paragraphe donne l'objet du message : « one of our technicians must visit your warehouse and inspect the system ». Le dernier paragraphe propose un créneau et demande de le confirmer : l'e-mail sert à organiser une inspection.",
+              "distractors": {
+                "A": "Aucune facture ni erreur de facturation n'est évoquée.",
+                "C": "Aucun tarif n'est mentionné : il s'agit d'une inspection technique.",
+                "D": "Bluepeak Roofing est cité comme l'installateur qui a déjà terminé le travail, pas comme une société recommandée pour des réparations."
+              },
+              "trap": "Pour une question de but, relie le premier paragraphe d'information et la demande finale (« Please reply… ») : ensemble, ils disent ce que l'auteur veut obtenir."
+            },
+            "en": {
+              "rule": "The second paragraph gives the purpose: \"one of our technicians must visit your warehouse and inspect the system\". The last paragraph offers a time slot and asks for confirmation: the e-mail is arranging an inspection.",
+              "distractors": {
+                "A": "No bill or billing error is mentioned.",
+                "C": "No rate is mentioned: this is a technical inspection.",
+                "D": "Bluepeak Roofing is named as the installer that has already finished its work, not as a company being recommended for repairs."
+              },
+              "trap": "For a purpose question, combine the information given early on with the final request (\"Please reply...\"): together they tell you what the writer wants."
+            }
+          }
+        },
+        {
+          "id": "p7-0038-2",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 3,
+          "stem": "What is most likely true about the panels at the warehouse right now?",
+          "options": [
+            "They have been approved by a regulator.",
+            "They are sending extra power to the grid.",
+            "They were installed by Solvane technicians.",
+            "They are not supplying power to the building."
+          ],
+          "answer": "D",
+          "evidence": [
+            "Until the inspection is approved, the switch on your inverter must stay in the off position."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le texte dit que l'interrupteur de l'onduleur « must stay in the off position » tant que l'inspection n'est pas approuvée. Un onduleur éteint ne transforme pas le courant des panneaux : on en déduit qu'ils n'alimentent pas encore le bâtiment.",
+              "distractors": {
+                "A": "C'est l'inverse : l'inspection n'a pas encore eu lieu, donc rien n'est approuvé.",
+                "B": "Les panneaux ne sont pas encore reliés au réseau (« Before we can link your panels to the grid »), ils ne peuvent donc rien lui envoyer.",
+                "C": "L'installation a été faite par « Bluepeak Roofing », pas par des techniciens de Solvane, qui viennent seulement inspecter."
+              },
+              "trap": "Dans une question de déduction, pars d'UNE phrase précise (ici l'interrupteur éteint) et demande-toi ce qui en découle ; ne retiens pas une option qui contredit le texte."
+            },
+            "en": {
+              "rule": "The text says the inverter switch \"must stay in the off position\" until the inspection is approved. A switched-off inverter does not convert the panels' electricity, so you can infer that they are not yet supplying the building.",
+              "distractors": {
+                "A": "It is the opposite: the inspection has not taken place yet, so nothing has been approved.",
+                "B": "The panels are not yet linked to the grid (\"Before we can link your panels to the grid\"), so they cannot send anything to it.",
+                "C": "The work was done by \"Bluepeak Roofing\", not by Solvane technicians, who are only coming to inspect it."
+              },
+              "trap": "In an inference question, start from ONE precise sentence (here, the switched-off inverter) and ask what follows from it; reject any option that contradicts the text."
+            }
+          }
+        },
+        {
+          "id": "p7-0038-3",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 2,
+          "stem": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"The visit usually lasts about an hour.\"",
+          "options": [
+            "[1]",
+            "[2]",
+            "[3]",
+            "[4]"
+          ],
+          "answer": "B",
+          "evidence": [
+            "one of our technicians must visit your warehouse and inspect the system.",
+            "During that time, the technician will need access to the roof and to the main electrical panel."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« The visit » renvoie à la visite d'un technicien, annoncée dans « must visit your warehouse and inspect the system ». La phrase suivante commence par « During that time » : elle a besoin d'une durée juste avant elle. En [2], les deux phrases s'enchaînent.",
+              "distractors": {
+                "A": "En [1], il n'a pas encore été question d'une visite : seuls les remerciements et l'installation sont évoqués.",
+                "C": "En [3], « During that time » (phrase précédente) n'aurait plus de durée à laquelle se rattacher.",
+                "D": "En [4], la phrase serait coupée de la mention de la visite, et « During that time » resterait sans référent."
+              },
+              "trap": "Dans une insertion, vérifie les deux côtés : la phrase à placer a besoin d'un référent avant elle (« the visit »), et la phrase d'après peut en avoir besoin d'elle (« During that time »)."
+            },
+            "en": {
+              "rule": "\"The visit\" refers to the technician's visit announced in \"must visit your warehouse and inspect the system\". The next sentence starts with \"During that time\": it needs a length of time right before it. At [2], the two sentences connect.",
+              "distractors": {
+                "A": "At [1], no visit has been mentioned yet: the text only has thanks and the installation.",
+                "C": "At [3], \"During that time\" (the previous sentence) would have no length of time to refer to.",
+                "D": "At [4], the sentence would be cut off from the mention of the visit, and \"During that time\" would have no referent."
+              },
+              "trap": "For insertion, check both sides: the sentence to place needs a referent before it (\"the visit\"), and the following sentence may need it (\"During that time\")."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0039",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "notice",
+          "title": "Thornbury Community Library",
+          "text": "NOTICE TO LIBRARY MEMBERS\n\nNew Tool Lending Shelf at Thornbury Community Library\n\nBeginning Monday, February 3, members of the Thornbury Community Library can borrow household tools free of charge from the new Tool Lending Shelf on the second floor. The collection includes hammers, drills, ladders, and a wet-tile saw, many of them donated by area businesses.\n\nMost items may be kept for seven days and renewed once if no one is waiting. Power tools may be kept for three days and cannot be renewed.\n\nBefore borrowing a first tool, members must sign a safety form at the front desk. Borrowers must be at least 16 years old. Staff members will gladly demonstrate any tool on request.\n\nQuestions? Ask at the front desk or call 555-0143."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0039-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 2,
+          "stem": "What is the purpose of the notice?",
+          "options": [
+            "To ask members to donate old tools",
+            "To explain new rules for returning books",
+            "To announce a new service for members",
+            "To advertise a sale at a hardware store"
+          ],
+          "answer": "C",
+          "evidence": [
+            "members of the Thornbury Community Library can borrow household tools free of charge from the new Tool Lending Shelf on the second floor."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le titre (« New Tool Lending Shelf ») et la première phrase (« can borrow household tools free of charge from the new Tool Lending Shelf ») annoncent un nouveau service de prêt d'outils pour les adhérents.",
+              "distractors": {
+                "A": "Des dons d'entreprises sont mentionnés, mais l'avis ne demande rien aux adhérents : il leur propose d'emprunter.",
+                "B": "Les règles citées concernent le prêt d'outils (durées, formulaire), pas le retour des livres.",
+                "D": "Les « area businesses » ont donné des outils, mais aucune vente ni publicité n'est évoquée."
+              },
+              "trap": "Pour le but d'un avis, lis le titre et la première phrase : les détails (dons, règles) servent ensuite de distracteurs."
+            },
+            "en": {
+              "rule": "The heading (\"New Tool Lending Shelf\") and the first sentence (\"can borrow household tools free of charge from the new Tool Lending Shelf\") announce a new tool-lending service for members.",
+              "distractors": {
+                "A": "Donations from businesses are mentioned, but the notice asks nothing of members: it offers them something to borrow.",
+                "B": "The rules given concern borrowing tools (lengths of loan, a form), not returning books.",
+                "D": "\"Area businesses\" donated tools, but no sale or advertising is mentioned."
+              },
+              "trap": "For the purpose of a notice, read the heading and the first sentence: later details (donations, rules) are used as distractors."
+            }
+          }
+        },
+        {
+          "id": "p7-0039-2",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 2,
+          "stem": "How long can members keep a power tool?",
+          "options": [
+            "One day",
+            "Two days",
+            "Three days",
+            "Seven days"
+          ],
+          "answer": "C",
+          "evidence": [
+            "Power tools may be kept for three days and cannot be renewed."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le texte distingue deux cas. Pour les outils électriques : « Power tools may be kept for three days and cannot be renewed ».",
+              "distractors": {
+                "A": "Aucune durée d'un jour n'est mentionnée.",
+                "B": "Aucune durée de deux jours n'est mentionnée.",
+                "D": "Sept jours valent pour « most items », c'est-à-dire les autres objets, pas pour les outils électriques."
+              },
+              "trap": "Quand le texte donne deux durées, repère à quelle catégorie chacune s'applique (« Most items » ou « Power tools ») avant de répondre."
+            },
+            "en": {
+              "rule": "The text separates two cases. For power tools: \"Power tools may be kept for three days and cannot be renewed\".",
+              "distractors": {
+                "A": "No one-day period is mentioned.",
+                "B": "No two-day period is mentioned.",
+                "D": "Seven days applies to \"most items\", meaning the other objects, not to power tools."
+              },
+              "trap": "When a text gives two lengths of time, check which category each applies to (\"Most items\" or \"Power tools\") before answering."
+            }
+          }
+        },
+        {
+          "id": "p7-0039-3",
+          "tags": [
+            "not-true"
+          ],
+          "difficulty": 1,
+          "stem": "What is NOT true about the Tool Lending Shelf?",
+          "options": [
+            "It is on the second floor.",
+            "Some of its tools were donated.",
+            "Borrowers must sign a form.",
+            "Borrowers pay a fee for each tool."
+          ],
+          "answer": "D",
+          "evidence": [
+            "from the new Tool Lending Shelf on the second floor.",
+            "many of them donated by area businesses.",
+            "members must sign a safety form at the front desk."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le texte dit que les outils s'empruntent « free of charge » : aucun frais n'est demandé. Les trois autres options sont écrites : « on the second floor », « donated by area businesses », « must sign a safety form ».",
+              "distractors": {
+                "A": "Vrai : « on the second floor ».",
+                "B": "Vrai : « many of them donated by area businesses ».",
+                "C": "Vrai : « members must sign a safety form at the front desk »."
+              },
+              "trap": "Question NOT : vérifie chaque option dans le texte et barre les trois qui y sont ; celle qui reste est la réponse, même si elle contredit le texte."
+            },
+            "en": {
+              "rule": "The text says tools can be borrowed \"free of charge\": no fee is asked. The other three options are written in the text: \"on the second floor\", \"donated by area businesses\", \"must sign a safety form\".",
+              "distractors": {
+                "A": "True: \"on the second floor\".",
+                "B": "True: \"many of them donated by area businesses\".",
+                "C": "True: \"members must sign a safety form at the front desk\"."
+              },
+              "trap": "NOT question: check each option in the text and cross out the three that appear; the one left is the answer, even if it contradicts the text."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0040",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "article",
+          "title": "Aldous & Finch Shoes to Offer Repairs",
+          "text": "WESTMERE, February 11 - Aldous & Finch Shoes, a family-owned retailer with three stores in the region, will start repairing worn shoes next month, owner Benedikta Lazar announced on Tuesday. [1] The new repair counter at the company's Corbin Street store will accept shoes of any brand, and a cobbler will replace soles, heels, and zippers.\n\nMs. Lazar said the idea came from her own closet. \"I noticed I was throwing away shoes that only needed a new heel,\" she said. Repairs will start at $12, and customers who have a pair fixed will receive a $5 voucher toward any purchase. [2]\n\nMs. Lazar hopes the repair counter will draw shoppers who have never visited an Aldous & Finch store. \"Someone who comes in for a zipper may leave with a new pair of boots,\" she said. [3]\n\nThe counter opens on Monday, March 3, and will be run by cobbler Emeric Dasgupta, who has fifteen years of experience. If demand is strong, Ms. Lazar said, the service may be added to the other two stores in the fall. [4]"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0040-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 3,
+          "stem": "What is the article mainly about?",
+          "options": [
+            "A shoe retailer's plan to sell cheaper brands",
+            "A shoe retailer's decision to offer repair services",
+            "A cobbler's search for new employees",
+            "A town's effort to reduce household waste"
+          ],
+          "answer": "B",
+          "evidence": [
+            "will start repairing worn shoes next month, owner Benedikta Lazar announced on Tuesday.",
+            "The new repair counter at the company's Corbin Street store will accept shoes of any brand"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La première phrase annonce que l'entreprise « will start repairing worn shoes ». Tout le reste (tarifs, bon d'achat, ouverture du comptoir, extension possible) développe cette décision d'ajouter un service de réparation.",
+              "distractors": {
+                "A": "Aucune marque moins chère n'est évoquée : la boutique répare les chaussures de « any brand ».",
+                "C": "Un cordonnier, M. Dasgupta, est déjà désigné : il n'est pas recherché, et ce n'est qu'un détail du dernier paragraphe.",
+                "D": "Mme Lazar jetait des chaussures réparables, mais l'article ne parle pas d'une action de la ville ni de déchets ménagers."
+              },
+              "trap": "Pour « mainly about », choisis l'option qui couvre tout l'article ; un détail ou une anecdote (ici, les chaussures jetées) ne donne pas le sujet."
+            },
+            "en": {
+              "rule": "The first sentence announces that the company \"will start repairing worn shoes\". Everything else (prices, voucher, counter opening, possible expansion) develops this decision to add a repair service.",
+              "distractors": {
+                "A": "No cheaper brand is mentioned: the store repairs shoes of \"any brand\".",
+                "C": "A cobbler, Mr. Dasgupta, is already named: he is not being sought, and he is only a detail in the last paragraph.",
+                "D": "Ms. Lazar used to throw away repairable shoes, but the article says nothing about a town initiative or household waste."
+              },
+              "trap": "For \"mainly about\", choose the option that covers the whole article; a detail or an anecdote (here, the discarded shoes) does not give the topic."
+            }
+          }
+        },
+        {
+          "id": "p7-0040-2",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 2,
+          "stem": "According to the article, what will customers receive after having shoes repaired?",
+          "options": [
+            "A voucher for a future purchase",
+            "A discount on their next repair",
+            "A free pair of replacement laces",
+            "A membership in a rewards program"
+          ],
+          "answer": "A",
+          "evidence": [
+            "customers who have a pair fixed will receive a $5 voucher toward any purchase."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le deuxième paragraphe le dit : « customers who have a pair fixed will receive a $5 voucher toward any purchase ». « A voucher for a future purchase » reformule cette phrase.",
+              "distractors": {
+                "B": "Le bon vaut pour « any purchase » (un achat), pas pour une prochaine réparation.",
+                "C": "Les lacets ne sont jamais cités : seuls les semelles, talons et fermetures sont réparés.",
+                "D": "Aucun programme de fidélité n'est mentionné."
+              },
+              "trap": "La bonne réponse reformule le texte (toward any purchase → for a future purchase) ; les distracteurs ressemblent à des avantages commerciaux courants mais ne sont pas dans l'article."
+            },
+            "en": {
+              "rule": "The second paragraph says it: \"customers who have a pair fixed will receive a $5 voucher toward any purchase\". \"A voucher for a future purchase\" rephrases this sentence.",
+              "distractors": {
+                "B": "The voucher applies to \"any purchase\", not to a next repair.",
+                "C": "Laces are never mentioned: only soles, heels, and zippers are repaired.",
+                "D": "No rewards program is mentioned."
+              },
+              "trap": "The right answer paraphrases the text (toward any purchase → for a future purchase); distractors look like common store perks but are not in the article."
+            }
+          }
+        },
+        {
+          "id": "p7-0040-3",
+          "tags": [
+            "synonym-in-context"
+          ],
+          "difficulty": 1,
+          "stem": "The word \"draw\" in paragraph 3 is closest in meaning to",
+          "options": [
+            "sketch",
+            "withdraw",
+            "tie",
+            "attract"
+          ],
+          "answer": "D",
+          "evidence": [
+            "Ms. Lazar hopes the repair counter will draw shoppers who have never visited an Aldous & Finch store."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« Will draw shoppers who have never visited » signifie que le comptoir va faire venir de nouveaux clients : « draw » veut dire ici « attract ».",
+              "distractors": {
+                "A": "« sketch » (dessiner) est un autre sens de « draw », sans rapport avec des clients.",
+                "B": "« withdraw » (retirer) est le sens de « draw » pour de l'argent (« draw cash ») ; on ne retire pas des clients.",
+                "C": "« tie » correspond à « a draw » (un match nul), un nom, pas un verbe qui prend « shoppers » pour objet."
+              },
+              "trap": "Question de synonyme : remplace le mot par chaque option DANS la phrase. Le premier sens qui te vient (dessiner) est souvent le piège."
+            },
+            "en": {
+              "rule": "\"Will draw shoppers who have never visited\" means the counter will bring in new customers: \"draw\" means \"attract\" here.",
+              "distractors": {
+                "A": "\"sketch\" is another meaning of \"draw\", unrelated to customers.",
+                "B": "\"withdraw\" is the meaning of \"draw\" for money (\"draw cash\"); you cannot withdraw shoppers.",
+                "C": "\"tie\" matches \"a draw\" (an even score), a noun, not a verb that takes \"shoppers\" as its object."
+              },
+              "trap": "Synonym question: put each option back INTO the sentence. The first meaning that comes to mind (to sketch) is often the trap."
+            }
+          }
+        },
+        {
+          "id": "p7-0040-4",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 3,
+          "stem": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"Until then, shoes dropped off at those stores will be sent to Corbin Street for repair.\"",
+          "options": [
+            "[1]",
+            "[2]",
+            "[3]",
+            "[4]"
+          ],
+          "answer": "D",
+          "evidence": [
+            "If demand is strong, Ms. Lazar said, the service may be added to the other two stores in the fall."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« Those stores » reprend « the other two stores » et « Until then » renvoie à « in the fall », la date possible de l'extension. La phrase doit donc suivre immédiatement « the service may be added to the other two stores in the fall », c'est-à-dire en [4].",
+              "distractors": {
+                "A": "En [1], les deux autres magasins et l'automne n'ont pas encore été évoqués : « those stores » et « Until then » n'ont pas de référent.",
+                "B": "En [2], on parle des tarifs et du bon d'achat ; rien ne renvoie à une date ni à d'autres magasins.",
+                "C": "En [3], « Until then » ne se rapporterait à aucune date, et « those stores » à aucun magasin : l'extension aux deux autres magasins n'est évoquée que dans la phrase suivante."
+              },
+              "trap": "Dans une insertion, les mots « Until then » et « those » demandent une date et un groupe déjà cités : cherche la phrase qui les contient, et place l'insertion juste après."
+            },
+            "en": {
+              "rule": "\"Those stores\" refers back to \"the other two stores\", and \"Until then\" refers to \"in the fall\", the possible date of the expansion. The sentence must therefore directly follow \"the service may be added to the other two stores in the fall\", which is [4].",
+              "distractors": {
+                "A": "At [1], the other two stores and the fall have not been mentioned yet: \"those stores\" and \"Until then\" have no referent.",
+                "B": "At [2], the text is about prices and the voucher; nothing points to a date or to other stores.",
+                "C": "At [3], \"Until then\" would refer to no date, and \"those stores\" to no stores: the expansion to the other two stores is only mentioned in the next sentence."
+              },
+              "trap": "In an insertion, \"Until then\" and \"those\" need a date and a group already named: find the sentence that contains them and place the insertion right after it."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0041",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "memo",
+          "text": "MEMO\n\nTo: All Marketing Staff\nFrom: Elspeth Janowicz, Events Manager\nDate: April 14\nSubject: Staffing our booth at the Northgate Housewares Show\n\nRavenscar Cookware will exhibit at the Northgate Housewares Show from May 21 to May 23 at Pellam Convention Hall. [1] We will be in Booth 214, near the main entrance, and we need eight volunteers to demonstrate our new line of cast-iron pans. [2]\n\nEach volunteer will work one three-hour shift per day for the three days of the show. Lunch will be provided each day, and volunteers will receive one additional paid day of leave to use before the end of June. Please wear the navy Ravenscar shirt, which the events team will supply. [3]\n\nA short training session will take place on May 2 at headquarters. Please reply with your preferred shifts by April 25. [4]"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0041-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 2,
+          "stem": "What is the purpose of the memo?",
+          "options": [
+            "To announce the opening of a new store",
+            "To report the results of a trade show",
+            "To change the date of a training session",
+            "To ask employees to help at a trade show"
+          ],
+          "answer": "D",
+          "evidence": [
+            "we need eight volunteers to demonstrate our new line of cast-iron pans."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le mémo annonce la participation de l'entreprise à un salon, puis précise « we need eight volunteers to demonstrate our new line of cast-iron pans » : il demande de l'aide pour tenir le stand.",
+              "distractors": {
+                "A": "Il s'agit d'un stand dans un salon, pas de l'ouverture d'un magasin.",
+                "B": "Le salon n'a pas encore eu lieu (du 21 au 23 mai) : il ne peut pas y avoir de résultats.",
+                "C": "La séance de formation du 2 mai est annoncée comme un détail, sans changement de date."
+              },
+              "trap": "Pour le but d'un mémo, lis la phrase qui contient une demande (« we need… ») : c'est elle qui dit ce que l'auteur attend des lecteurs."
+            },
+            "en": {
+              "rule": "The memo announces the company's participation in a trade show, then states \"we need eight volunteers to demonstrate our new line of cast-iron pans\": it asks for help staffing the booth.",
+              "distractors": {
+                "A": "This is a booth at a trade show, not the opening of a store.",
+                "B": "The show has not happened yet (May 21 to 23): there can be no results.",
+                "C": "The May 2 training session is mentioned as a detail, with no change of date."
+              },
+              "trap": "For the purpose of a memo, find the sentence that contains a request (\"we need...\"): it tells you what the writer expects from the readers."
+            }
+          }
+        },
+        {
+          "id": "p7-0041-2",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 1,
+          "stem": "By what date should employees send their preferred shifts?",
+          "options": [
+            "April 14",
+            "May 2",
+            "May 21",
+            "April 25"
+          ],
+          "answer": "D",
+          "evidence": [
+            "Please reply with your preferred shifts by April 25."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La dernière phrase donne la date limite : « Please reply with your preferred shifts by April 25 ».",
+              "distractors": {
+                "A": "Le 14 avril est la date du mémo.",
+                "B": "Le 2 mai est la date de la séance de formation.",
+                "C": "Le 21 mai est le premier jour du salon."
+              },
+              "trap": "Quand plusieurs dates figurent dans un texte, associe chacune à son événement ; ici, une seule est liée à la réponse demandée."
+            },
+            "en": {
+              "rule": "The last sentence gives the deadline: \"Please reply with your preferred shifts by April 25\".",
+              "distractors": {
+                "A": "April 14 is the date of the memo.",
+                "B": "May 2 is the date of the training session.",
+                "C": "May 21 is the first day of the show."
+              },
+              "trap": "When a text contains several dates, match each one to its event; here, only one is tied to the reply being requested."
+            }
+          }
+        },
+        {
+          "id": "p7-0041-3",
+          "tags": [
+            "not-true"
+          ],
+          "difficulty": 3,
+          "stem": "What is NOT offered to volunteers?",
+          "options": [
+            "Food during the show",
+            "A cash bonus for each shift",
+            "Extra time off from work",
+            "Clothing with the company's name"
+          ],
+          "answer": "B",
+          "evidence": [
+            "Lunch will be provided each day",
+            "volunteers will receive one additional paid day of leave",
+            "Please wear the navy Ravenscar shirt, which the events team will supply."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Aucune prime n'est mentionnée. Les trois autres avantages sont écrits, reformulés : « Lunch will be provided » (food), « one additional paid day of leave » (extra time off), « the navy Ravenscar shirt, which the events team will supply » (clothing with the company's name).",
+              "distractors": {
+                "A": "Vrai : « Lunch will be provided each day ».",
+                "C": "Vrai : « one additional paid day of leave ».",
+                "D": "Vrai : le polo « Ravenscar » est fourni par l'équipe des événements."
+              },
+              "trap": "Question NOT avec reformulations : traduis chaque option en mots du texte (food → lunch, extra time off → paid day of leave) avant de barrer ; celle que tu ne retrouves pas est la réponse."
+            },
+            "en": {
+              "rule": "No bonus is mentioned. The other three benefits are written, in different words: \"Lunch will be provided\" (food), \"one additional paid day of leave\" (extra time off), \"the navy Ravenscar shirt, which the events team will supply\" (clothing with the company's name).",
+              "distractors": {
+                "A": "True: \"Lunch will be provided each day\".",
+                "C": "True: \"one additional paid day of leave\".",
+                "D": "True: the \"Ravenscar\" shirt is supplied by the events team."
+              },
+              "trap": "NOT question with paraphrases: translate each option back into the text's words (food → lunch, extra time off → paid day of leave) before crossing it out; the one you cannot find is the answer."
+            }
+          }
+        },
+        {
+          "id": "p7-0041-4",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 1,
+          "stem": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"Replies received after that date may not be considered.\"",
+          "options": [
+            "[1]",
+            "[2]",
+            "[3]",
+            "[4]"
+          ],
+          "answer": "D",
+          "evidence": [
+            "Please reply with your preferred shifts by April 25."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« Replies » et « after that date » supposent qu'on vient de demander une réponse avant une date précise : c'est la phrase « Please reply with your preferred shifts by April 25 ». La phrase insérée la suit directement, en [4].",
+              "distractors": {
+                "A": "En [1], le mémo présente à peine le salon : aucune réponse n'a été demandée.",
+                "B": "En [2], on vient de dire qu'il faut huit volontaires, mais personne n'a encore été invité à répondre.",
+                "C": "En [3], la phrase précédente parle de la chemise à porter : « replies » n'aurait pas de référent."
+              },
+              "trap": "Un mot comme « replies », « this » ou « they » exige que sa source soit juste avant ; ici, c'est la demande de réponse."
+            },
+            "en": {
+              "rule": "\"Replies\" and \"after that date\" assume that a reply has just been requested by a given date: that is the sentence \"Please reply with your preferred shifts by April 25\". The inserted sentence follows it directly, at [4].",
+              "distractors": {
+                "A": "At [1], the memo has barely introduced the show: no reply has been requested.",
+                "B": "At [2], the memo has just said eight volunteers are needed, but no one has been asked to reply yet.",
+                "C": "At [3], the previous sentence is about the shirt to wear: \"replies\" would have no referent."
+              },
+              "trap": "A word like \"replies\", \"this\" or \"they\" needs its source right before it; here, it is the request for a reply."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0042",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "instructions",
+          "text": "How to Submit a Cookbook Proposal to Pennywhistle Lane Press\n\nFollow these steps so that our editors can review your idea quickly.\n\n1. Prepare a proposal of no more than ten pages. Include a one-page summary of the book, a list of chapters, and five sample recipes.\n2. Describe your audience. Explain who will buy the book and how you plan to reach them, for example through a blog, cooking classes, or social media.\n3. Save everything as a single PDF file named with your last name, and upload it on the Authors page of our Web site. We do not accept proposals sent by e-mail or by post.\n4. Wait for our reply. Our editors read proposals on the first Monday of each month, and you will hear from us within six weeks. Please do not submit the same proposal twice."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0042-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 2,
+          "stem": "What is the purpose of the instructions?",
+          "options": [
+            "To advertise a new line of cookbooks",
+            "To describe how editors choose recipes",
+            "To explain how to submit a book idea",
+            "To invite authors to a cooking class"
+          ],
+          "answer": "C",
+          "evidence": [
+            "How to Submit a Cookbook Proposal to Pennywhistle Lane Press",
+            "Follow these steps so that our editors can review your idea quickly."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le titre (« How to Submit a Cookbook Proposal ») et la phrase d'introduction (« Follow these steps so that our editors can review your idea ») montrent que le texte explique la marche à suivre pour soumettre un projet de livre.",
+              "distractors": {
+                "A": "Aucun livre de la maison d'édition n'est présenté ni vendu.",
+                "B": "Les éditeurs ne décrivent pas leurs critères de choix de recettes ; ils disent ce que l'auteur doit leur envoyer.",
+                "D": "Les cours de cuisine sont cités seulement comme un exemple de moyen de toucher le public d'un auteur."
+              },
+              "trap": "Pour des instructions, le titre commençant par « How to… » donne souvent le but ; les mots d'un distracteur (« cooking classes », « recipes ») ne doivent pas t'en détourner."
+            },
+            "en": {
+              "rule": "The title (\"How to Submit a Cookbook Proposal\") and the introduction (\"Follow these steps so that our editors can review your idea\") show that the text explains the procedure for submitting a book idea.",
+              "distractors": {
+                "A": "No book from the publisher is presented or sold.",
+                "B": "The editors do not describe how they choose recipes; they tell the author what to send them.",
+                "D": "Cooking classes are mentioned only as one example of a way for an author to reach an audience."
+              },
+              "trap": "For instructions, a title starting with \"How to...\" often gives the purpose; words in a distractor (\"cooking classes\", \"recipes\") should not distract you from it."
+            }
+          }
+        },
+        {
+          "id": "p7-0042-2",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 2,
+          "stem": "How should authors send their proposals?",
+          "options": [
+            "By uploading a file to the press's Web site",
+            "By mailing a printed copy to an editor",
+            "By e-mailing a document to the press",
+            "By delivering a copy to the press's office"
+          ],
+          "answer": "A",
+          "evidence": [
+            "upload it on the Authors page of our Web site.",
+            "We do not accept proposals sent by e-mail or by post."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "L'étape 3 dit : « upload it on the Authors page of our Web site ». « By uploading a file to the press's Web site » reformule cette phrase.",
+              "distractors": {
+                "B": "Contredit : « We do not accept proposals sent by e-mail or by post ».",
+                "C": "Contredit par la même phrase : les envois par e-mail ne sont pas acceptés.",
+                "D": "Aucune remise en main propre n'est mentionnée ; l'envoi se fait en ligne."
+              },
+              "trap": "Quand le texte exclut des méthodes (« We do not accept… »), ce sont exactement celles que les distracteurs proposent."
+            },
+            "en": {
+              "rule": "Step 3 says: \"upload it on the Authors page of our Web site\". \"By uploading a file to the press's Web site\" rephrases this sentence.",
+              "distractors": {
+                "B": "Contradicted: \"We do not accept proposals sent by e-mail or by post\".",
+                "C": "Contradicted by the same sentence: e-mailed proposals are not accepted.",
+                "D": "No hand delivery is mentioned; proposals are sent online."
+              },
+              "trap": "When the text rules out certain methods (\"We do not accept...\"), those are exactly the ones the distractors offer."
+            }
+          }
+        },
+        {
+          "id": "p7-0042-3",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 2,
+          "stem": "What is suggested about Pennywhistle Lane Press?",
+          "options": [
+            "It publishes only authors who have a blog.",
+            "It prefers proposals shorter than five pages.",
+            "It answers every proposal within one week.",
+            "It expects authors to help find readers for their books."
+          ],
+          "answer": "D",
+          "evidence": [
+            "Explain who will buy the book and how you plan to reach them"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "L'étape 2 demande à l'auteur d'expliquer « who will buy the book and how you plan to reach them ». On en déduit que la maison d'édition attend de l'auteur qu'il aide à trouver des lecteurs.",
+              "distractors": {
+                "A": "Le blog n'est qu'un exemple (« for example through a blog, cooking classes, or social media ») ; il n'est pas obligatoire.",
+                "B": "Le texte fixe un maximum de dix pages (« no more than ten pages ») et ne dit rien d'une préférence pour des textes plus courts.",
+                "C": "La réponse arrive « within six weeks », pas en une semaine."
+              },
+              "trap": "Dans une déduction, une consigne (« Explain how you plan to reach… ») révèle une attente de l'émetteur ; ne retiens pas une option qui exagère un simple exemple."
+            },
+            "en": {
+              "rule": "Step 2 asks the author to explain \"who will buy the book and how you plan to reach them\". You can infer that the publisher expects authors to help find readers.",
+              "distractors": {
+                "A": "A blog is only one example (\"for example through a blog, cooking classes, or social media\"); it is not required.",
+                "B": "The text sets a maximum of ten pages (\"no more than ten pages\") and says nothing about preferring shorter ones.",
+                "C": "The reply comes \"within six weeks\", not within one week."
+              },
+              "trap": "In an inference question, an instruction (\"Explain how you plan to reach...\") reveals what the sender expects; do not choose an option that turns a mere example into a rule."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
