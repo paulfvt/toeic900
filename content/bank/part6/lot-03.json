@@ -1,0 +1,616 @@
+{
+  "part": 6,
+  "pool": "training",
+  "texts": [
+    {
+      "id": "p6-0014",
+      "part": 6,
+      "genre": "brochure",
+      "text": "Welcome to the Seabright Inn, a family-run hotel on the coast of Maine. All of our 42 rooms, from the standard singles to the harbor-view suites, [[1]] by hand each morning, and fresh towels are available at any time on request.\n\nOur [[2]] front-desk team is on duty around the clock. If you need help with luggage or restaurant reservations, they will [[3]] assist you.\n\nGetting here is simple. [[4]] Guests who still prefer to drive should reserve a parking space when they book, since the lot has only 20 spaces.\n\nTo make a reservation, visit www.seabrightinn.example or call 555-0142.",
+      "questions": [
+        {
+          "id": "p6-0014-1",
+          "tags": [
+            "passive-voice"
+          ],
+          "difficulty": 3,
+          "options": [
+            "clean",
+            "are cleaned",
+            "cleaning",
+            "have cleaned"
+          ],
+          "answer": "B",
+          "evidence": [
+            "All of our 42 rooms"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le sujet « All of our 42 rooms » ne nettoie rien : les chambres sont nettoyées, et l'action est faite « by hand ». Il faut un passif au pluriel, « are cleaned », malgré les mots intercalés entre le sujet et le verbe.",
+              "distractors": {
+                "A": "« clean » est une forme active : les chambres ne se nettoient pas elles-mêmes, et aucun complément d'objet ne suit.",
+                "C": "« cleaning » est un -ing seul, sans auxiliaire : il ne peut pas être le verbe de la phrase.",
+                "D": "« have cleaned » est un actif au present perfect : il demanderait un complément d'objet (« have cleaned the rooms »)."
+              },
+              "trap": "Sujet qui subit l'action + « by hand » + pas de complément d'objet : passif. Saute les mots intercalés pour retrouver le vrai sujet."
+            },
+            "en": {
+              "rule": "The subject \"All of our 42 rooms\" does not clean anything: the rooms are cleaned, and the action is done \"by hand\". You need a plural passive, \"are cleaned\", even with the words between the subject and the verb.",
+              "distractors": {
+                "A": "\"clean\" is an active form: rooms do not clean themselves, and no object follows.",
+                "C": "\"cleaning\" is an -ing form with no auxiliary: it cannot be the main verb of the sentence.",
+                "D": "\"have cleaned\" is an active present perfect: it would need an object (\"have cleaned the rooms\")."
+              },
+              "trap": "A subject that receives the action + \"by hand\" + no object: passive. Skip the words in between to find the real subject."
+            }
+          }
+        },
+        {
+          "id": "p6-0014-2",
+          "tags": [
+            "word-form-adjective"
+          ],
+          "difficulty": 1,
+          "options": [
+            "attentive",
+            "attentively",
+            "attention",
+            "attend"
+          ],
+          "answer": "A",
+          "explanation": {
+            "fr": {
+              "rule": "Entre « Our » et le nom « front-desk team », il faut un adjectif : « Our attentive front-desk team ».",
+              "distractors": {
+                "B": "« attentively » est un adverbe : il modifie un verbe ou un adjectif, pas un nom.",
+                "C": "« attention » est un nom : « our attention front-desk team » n'a pas de sens.",
+                "D": "« attend » est un verbe : il ne peut pas se placer devant un nom pour le décrire."
+              },
+              "trap": "Entre un possessif et un nom, c'est un adjectif (souvent en -ive, -ful, -al, -able)."
+            },
+            "en": {
+              "rule": "Between \"Our\" and the noun \"front-desk team\" you need an adjective: \"Our attentive front-desk team\".",
+              "distractors": {
+                "B": "\"attentively\" is an adverb: it modifies a verb or an adjective, not a noun.",
+                "C": "\"attention\" is a noun: \"our attention front-desk team\" makes no sense.",
+                "D": "\"attend\" is a verb: it cannot sit in front of a noun to describe it."
+              },
+              "trap": "Between a possessive and a noun, look for an adjective (often ending in -ive, -ful, -al, -able)."
+            }
+          }
+        },
+        {
+          "id": "p6-0014-3",
+          "tags": [
+            "word-form-adverb"
+          ],
+          "difficulty": 2,
+          "options": [
+            "prompt",
+            "promptly",
+            "promptness",
+            "prompted"
+          ],
+          "answer": "B",
+          "explanation": {
+            "fr": {
+              "rule": "Entre « will » et le verbe « assist », on peut placer un adverbe qui dit comment l'aide est donnée : « will promptly assist you ».",
+              "distractors": {
+                "A": "« prompt » est ici un adjectif (ou un autre verbe) : « will prompt assist » n'est pas une construction correcte.",
+                "C": "« promptness » est un nom : il ne peut pas s'intercaler entre « will » et « assist ».",
+                "D": "« prompted » est un participe passé : après « will », on attend la base verbale, et deux verbes ne peuvent pas se suivre ainsi."
+              },
+              "trap": "« will » + ADVERBE + verbe : l'adverbe se glisse entre l'auxiliaire et le verbe, et cette place est facultative en français mais courante en anglais."
+            },
+            "en": {
+              "rule": "Between \"will\" and the verb \"assist\" you can place an adverb that says how the help is given: \"will promptly assist you\".",
+              "distractors": {
+                "A": "\"prompt\" is an adjective (or another verb): \"will prompt assist\" is not a correct structure.",
+                "C": "\"promptness\" is a noun: it cannot go between \"will\" and \"assist\".",
+                "D": "\"prompted\" is a past participle: after \"will\" you expect the base verb, and two verbs cannot follow each other like this."
+              },
+              "trap": "\"will\" + ADVERB + verb: the adverb slips between the auxiliary and the verb, a very common position in English."
+            }
+          }
+        },
+        {
+          "id": "p6-0014-4",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 2,
+          "options": [
+            "Most guests arrive by ferry, and our free shuttle meets every boat at the terminal.",
+            "Check-in begins at 3:00 P.M., and check-out is at 11:00 A.M.",
+            "Our dining room serves breakfast every day from 7:00 A.M.",
+            "Rates are lower from November through March."
+          ],
+          "answer": "A",
+          "evidence": [
+            "Getting here is simple.",
+            "Guests who still prefer to drive should reserve a parking space when they book"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase d'avant annonce le thème (« Getting here is simple »). La phrase d'après parle de ceux qui « still prefer to drive » : « still » suppose qu'on vient d'évoquer une autre façon d'arriver, ici le ferry et la navette.",
+              "distractors": {
+                "B": "L'horaire d'arrivée et de départ ne dit rien sur la façon de venir, et « still prefer to drive » resterait sans point d'appui.",
+                "C": "Le petit-déjeuner est un autre sujet : il ne prépare pas la phrase sur le parking.",
+                "D": "Les tarifs d'hiver n'ont aucun lien avec l'accès à l'hôtel."
+              },
+              "trap": "Un mot comme « still », « instead » ou « also » dans la phrase suivante oblige à avoir déjà vu l'élément qu'il oppose ou qu'il prolonge."
+            },
+            "en": {
+              "rule": "The sentence before announces the topic (\"Getting here is simple\"). The sentence after is about guests who \"still prefer to drive\": \"still\" assumes another way of arriving has just been mentioned, here the ferry and the shuttle.",
+              "distractors": {
+                "B": "Check-in and check-out times say nothing about how to get there, and \"still prefer to drive\" would have nothing to refer back to.",
+                "C": "Breakfast is a different topic: it does not lead into the sentence about parking.",
+                "D": "Winter rates have no link with how to reach the hotel."
+              },
+              "trap": "A word such as \"still\", \"instead\" or \"also\" in the next sentence means the idea it contrasts with or continues must already have appeared."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p6-0015",
+      "part": 6,
+      "genre": "notice",
+      "text": "NOTICE TO ALL STUDENTS\n\nRegistration for the spring term at Danvers Community College opens on January 12. This year, our evening program will be [[1]] than ever before, with more than sixty courses scheduled after 5:30 P.M.\n\nTo enroll, please submit your [[2]] online by January 26 and attach a copy of your student ID. [[3]] Anyone who applies after a course has closed can join a waiting list at the Registrar's Office.\n\nClasses [[4]] on February 2 and run until May 18. Questions about the program may be sent to evening@danvers.example.",
+      "questions": [
+        {
+          "id": "p6-0015-1",
+          "tags": [
+            "comparatives-superlatives"
+          ],
+          "difficulty": 2,
+          "options": [
+            "as varied",
+            "most varied",
+            "very varied",
+            "more varied"
+          ],
+          "answer": "D",
+          "evidence": [
+            "than ever before"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le mot « than » après le trou annonce une comparaison : il faut un comparatif, « more varied than ever before ».",
+              "distractors": {
+                "A": "« as varied » se construit avec « as… as », pas avec « than ».",
+                "B": "« most varied » est un superlatif : il s'emploie avec « the » et sans « than ».",
+                "C": "« very varied » est un simple degré (« très »), qui ne peut pas être suivi de « than »."
+              },
+              "trap": "« than » = comparatif (more + adjectif long, ou adjectif court + -er). Jamais « as » ni « most » devant lui."
+            },
+            "en": {
+              "rule": "The word \"than\" after the blank signals a comparison, so you need a comparative: \"more varied than ever before\".",
+              "distractors": {
+                "A": "\"as varied\" goes with \"as… as\", not with \"than\".",
+                "B": "\"most varied\" is a superlative: it is used with \"the\" and never with \"than\".",
+                "C": "\"very varied\" is only a degree (\"very\"), which cannot be followed by \"than\"."
+              },
+              "trap": "\"than\" = comparative (more + long adjective, or short adjective + -er). Never \"as\" or \"most\" before it."
+            }
+          }
+        },
+        {
+          "id": "p6-0015-2",
+          "tags": [
+            "word-form-noun"
+          ],
+          "difficulty": 2,
+          "options": [
+            "apply",
+            "applicant",
+            "applicable",
+            "application"
+          ],
+          "answer": "D",
+          "evidence": [
+            "please submit your"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Après le possessif « your », il faut un nom, et ce qu'on envoie en ligne avec une copie de sa carte d'étudiant, c'est son dossier : « your application ».",
+              "distractors": {
+                "A": "« apply » est un verbe : il ne peut pas suivre « your ».",
+                "B": "« applicant » est un nom, mais il désigne la personne qui candidate : on ne soumet pas « your applicant ».",
+                "C": "« applicable » est un adjectif (« applicable ») : il ne peut pas être l'objet de « submit »."
+              },
+              "trap": "Deux noms de la même famille : -ant/-ent = la personne, -ion = l'action ou le document. Choisis selon le sens."
+            },
+            "en": {
+              "rule": "After the possessive \"your\" you need a noun, and what you submit online with a copy of your student ID is your form: \"your application\".",
+              "distractors": {
+                "A": "\"apply\" is a verb: it cannot follow \"your\".",
+                "B": "\"applicant\" is a noun, but it names the person who applies: you cannot submit \"your applicant\".",
+                "C": "\"applicable\" is an adjective: it cannot be the object of \"submit\"."
+              },
+              "trap": "Two nouns from the same family: -ant/-ent = the person, -ion = the action or document. Choose by meaning."
+            }
+          }
+        },
+        {
+          "id": "p6-0015-3",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 2,
+          "options": [
+            "The Registrar's Office is located on the second floor of Hale Hall.",
+            "Tuition for evening courses is $240 per credit.",
+            "Course catalogs are available at the library and on the college website.",
+            "Seats are limited: each course closes as soon as it has 25 students."
+          ],
+          "answer": "D",
+          "evidence": [
+            "Anyone who applies after a course has closed can join a waiting list"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase d'après parle de quelqu'un qui postule « after a course has closed ». Cette fermeture doit avoir été expliquée avant : les places sont limitées et un cours se ferme quand il est plein.",
+              "distractors": {
+                "A": "La localisation du bureau est reprise par « the Registrar's Office », mais rien n'explique ce que veut dire « a course has closed ».",
+                "B": "Le tarif est un autre sujet : il ne prépare pas l'idée de cours fermé ni de liste d'attente.",
+                "C": "Les catalogues sont un autre sujet : la phrase suivante sur les cours fermés n'en découle pas."
+              },
+              "trap": "Cherche dans la phrase suivante l'expression qui renvoie à quelque chose de non encore dit (ici « has closed ») : la phrase manquante doit le fournir."
+            },
+            "en": {
+              "rule": "The next sentence is about someone who applies \"after a course has closed\". That closing must have been explained earlier: seats are limited and a course closes when it is full.",
+              "distractors": {
+                "A": "The office location is echoed by \"the Registrar's Office\", but nothing explains what \"a course has closed\" means.",
+                "B": "Tuition is a different topic: it does not prepare the idea of a closed course or a waiting list.",
+                "C": "Catalogs are a different topic: the following sentence about closed courses does not follow from it."
+              },
+              "trap": "Look in the next sentence for an expression that points to something not yet said (here \"has closed\"): the missing sentence must supply it."
+            }
+          }
+        },
+        {
+          "id": "p6-0015-4",
+          "tags": [
+            "verb-tense"
+          ],
+          "difficulty": 1,
+          "options": [
+            "began",
+            "have begun",
+            "were beginning",
+            "will begin"
+          ],
+          "answer": "D",
+          "evidence": [
+            "Registration for the spring term at Danvers Community College opens on January 12."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "L'avis annonce l'inscription pour le trimestre de printemps (« opens on January 12 ») et les cours débutent le 2 février, donc dans le futur : « will begin ».",
+              "distractors": {
+                "A": "« began » est un passé : les cours ne sont pas déjà commencés, puisque l'inscription n'a même pas ouvert.",
+                "B": "« have begun » est un present perfect : il décrit des cours déjà commencés.",
+                "C": "« were beginning » est un passé progressif : il ne convient pas à une date à venir."
+              },
+              "trap": "Une date future dans le texte (ici le 2 février, après l'ouverture des inscriptions) impose un temps futur."
+            },
+            "en": {
+              "rule": "The notice announces registration for the spring term (\"opens on January 12\") and classes start on February 2, so it is in the future: \"will begin\".",
+              "distractors": {
+                "A": "\"began\" is a past tense: classes have not started, since registration has not even opened.",
+                "B": "\"have begun\" is a present perfect: it describes classes that have already started.",
+                "C": "\"were beginning\" is a past progressive: it does not fit a date that is still to come."
+              },
+              "trap": "A future date in the text (here February 2, after registration opens) requires a future tense."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p6-0016",
+      "part": 6,
+      "genre": "email",
+      "text": "To: Tomasz Brandvold\nFrom: Noor Haddad, Project Manager, Orchid Lane Design Studio\nSubject: Revised timeline for the Arden Dental website\n\nDear Mr. Brandvold,\n\nThank you for your feedback on the first draft of the homepage. We loved the color scheme you suggested, [[1]] the photo gallery needs more work before we can show it to your team.\n\nTo fix the gallery, we want to replace the stock photos with pictures of your actual clinic. [[2]] The reason is that our photographer, [[3]] schedule is full until April 8, can visit your clinic only on April 9.\n\nPlease do not hesitate [[4]] me if the new date causes any difficulty for your staff.\n\nBest regards,\nNoor Haddad",
+      "questions": [
+        {
+          "id": "p6-0016-1",
+          "tags": [
+            "conjunctions-connectors"
+          ],
+          "difficulty": 2,
+          "options": [
+            "so",
+            "because",
+            "unless",
+            "although"
+          ],
+          "answer": "D",
+          "evidence": [
+            "We loved the color scheme you suggested,"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La première partie est positive (« We loved the color scheme ») et la seconde réserve un point négatif (« the gallery needs more work »). Il faut une conjonction de concession : « although ».",
+              "distractors": {
+                "A": "« so » exprime la conséquence : le fait d'aimer les couleurs n'explique pas que la galerie soit à revoir.",
+                "B": "« because » exprime la cause : même problème, les couleurs ne causent pas le travail à refaire sur la galerie.",
+                "C": "« unless » signifie « à moins que » : il introduit une condition, pas une opposition."
+              },
+              "trap": "Deux idées de sens opposé dans une même phrase : cherche la concession (although, though), pas la cause ni la conséquence."
+            },
+            "en": {
+              "rule": "The first part is positive (\"We loved the color scheme\") and the second raises a problem (\"the gallery needs more work\"). You need a conjunction of concession: \"although\".",
+              "distractors": {
+                "A": "\"so\" expresses a result: liking the colors does not explain why the gallery needs work.",
+                "B": "\"because\" expresses a cause: same problem, the colors do not cause the gallery to need work.",
+                "C": "\"unless\" means \"if not\": it introduces a condition, not a contrast."
+              },
+              "trap": "Two ideas pointing in opposite directions in one sentence: look for a concession (although, though), not a cause or a result."
+            }
+          }
+        },
+        {
+          "id": "p6-0016-2",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 3,
+          "options": [
+            "The photographs will be taken by members of your own staff.",
+            "Your approval is needed before any page goes live.",
+            "The other pages of the website are ready for your team to review.",
+            "Unfortunately, this means the launch will move from April 15 to April 22."
+          ],
+          "answer": "D",
+          "evidence": [
+            "To fix the gallery, we want to replace the stock photos with pictures of your actual clinic.",
+            "The reason is that our photographer,"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase suivante commence par « The reason is that » : elle explique un fait qui vient d'être annoncé. Ce fait, c'est le retard du lancement, conséquence du remplacement des photos, et la photographe n'est libre que le 9 avril.",
+              "distractors": {
+                "A": "La phrase contredit la suivante : on y parle d'une photographe qui vient « visit your clinic », pas du personnel du client.",
+                "B": "L'approbation avant la mise en ligne est un autre sujet : « The reason is that our photographer… » n'en donne pas la raison.",
+                "C": "Les autres pages sont un autre sujet : la phrase suivante, sur la photographe, n'explique pas qu'elles soient prêtes."
+              },
+              "trap": "« The reason is that… » doit répondre à un fait précis déjà donné : cherche la phrase qui annonce ce fait (ici un retard)."
+            },
+            "en": {
+              "rule": "The next sentence begins \"The reason is that\": it explains a fact that has just been announced. That fact is the later launch, a consequence of replacing the photos, since the photographer is free only on April 9.",
+              "distractors": {
+                "A": "It contradicts the next sentence, which talks about a photographer who will \"visit your clinic\", not the client's own staff.",
+                "B": "Approval before launch is a different topic: \"The reason is that our photographer…\" does not give a reason for it.",
+                "C": "The other pages are a different topic: the next sentence about the photographer does not explain why they are ready."
+              },
+              "trap": "\"The reason is that…\" must answer a specific fact already given: look for the sentence that announces that fact (here a delay)."
+            }
+          }
+        },
+        {
+          "id": "p6-0016-3",
+          "tags": [
+            "relative-clauses"
+          ],
+          "difficulty": 3,
+          "options": [
+            "whose",
+            "who",
+            "which",
+            "whom"
+          ],
+          "answer": "A",
+          "evidence": [
+            "our photographer,"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le trou introduit une relative qui se rapporte à « our photographer », et elle est suivie du nom « schedule » : il faut le possessif relatif « whose » (« whose schedule » = son planning).",
+              "distractors": {
+                "B": "« who » est sujet : il serait suivi d'un verbe, or « schedule » est un nom.",
+                "C": "« which » ne s'emploie pas pour une personne, et ne se place pas devant un nom de cette façon.",
+                "D": "« whom » est un complément d'objet : il ne peut pas être suivi de « schedule is »."
+              },
+              "trap": "Relative + nom juste après (« ___ schedule ») : c'est « whose », qui marque la possession."
+            },
+            "en": {
+              "rule": "The blank opens a relative clause about \"our photographer\", and it is followed by the noun \"schedule\": you need the relative possessive \"whose\" (\"whose schedule\" = her/his schedule).",
+              "distractors": {
+                "B": "\"who\" is a subject: it would be followed by a verb, but \"schedule\" is a noun.",
+                "C": "\"which\" is not used for a person, and cannot go in front of a noun this way.",
+                "D": "\"whom\" is an object: it cannot be followed by \"schedule is\"."
+              },
+              "trap": "Relative word + a noun right after (\"___ schedule\"): use \"whose\", which marks possession."
+            }
+          }
+        },
+        {
+          "id": "p6-0016-4",
+          "tags": [
+            "gerund-infinitive"
+          ],
+          "difficulty": 2,
+          "options": [
+            "contact",
+            "to contact",
+            "contacting",
+            "contacted"
+          ],
+          "answer": "B",
+          "explanation": {
+            "fr": {
+              "rule": "Après « do not hesitate », le verbe qui suit se met à l'infinitif avec « to » : « do not hesitate to contact me ».",
+              "distractors": {
+                "A": "« contact » est la base verbale sans « to » : elle ne suit pas « hesitate », qui demande « to ».",
+                "C": "« contacting » est un -ing : « hesitate » se construit avec l'infinitif, pas avec le gérondif.",
+                "D": "« contacted » est un participe passé : il ne peut pas suivre « do not hesitate »."
+              },
+              "trap": "« hesitate », « decide », « plan », « hope », « agree » : suivis de « to » + verbe, pas de -ing."
+            },
+            "en": {
+              "rule": "After \"do not hesitate\", the next verb takes the \"to\" infinitive: \"do not hesitate to contact me\".",
+              "distractors": {
+                "A": "\"contact\" is the bare base form: it does not follow \"hesitate\", which needs \"to\".",
+                "C": "\"contacting\" is an -ing form: \"hesitate\" takes the infinitive, not the gerund.",
+                "D": "\"contacted\" is a past participle: it cannot follow \"do not hesitate\"."
+              },
+              "trap": "\"hesitate\", \"decide\", \"plan\", \"hope\", \"agree\": followed by \"to\" + verb, not -ing."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p6-0017",
+      "part": 6,
+      "genre": "instructions",
+      "title": "Cleaning the Mixing Station",
+      "text": "Before starting a new batch of fruit preserves, all production staff at Tidewater Foods must clean the mixing station [[1]]. Remove any leftover product with a plastic scraper, then wash the tank with hot water and a detergent [[2]] appears on the approved supplies chart.\n\nRinse all surfaces with clean water until no foam remains. [[3]] Damp equipment can allow bacteria to grow in just a few hours.\n\nFill the tank with the fruit mixture only after the tank has cooled to 25 degrees Celsius or [[4]]. Finally, sign the cleaning log and give it to your shift supervisor.",
+      "questions": [
+        {
+          "id": "p6-0017-1",
+          "tags": [
+            "word-form-adverb"
+          ],
+          "difficulty": 2,
+          "options": [
+            "thoroughly",
+            "thorough",
+            "thoroughness",
+            "more thorough"
+          ],
+          "answer": "A",
+          "explanation": {
+            "fr": {
+              "rule": "« clean the mixing station » est déjà complet (verbe + complément d'objet) : il manque un mot qui dise comment nettoyer, donc un adverbe, « thoroughly ».",
+              "distractors": {
+                "B": "« thorough » est un adjectif : il ne peut pas modifier le verbe « clean » à cette place.",
+                "C": "« thoroughness » est un nom : il ne peut pas compléter la phrase sans préposition.",
+                "D": "« more thorough » est un comparatif d'adjectif : rien ne sert de comparaison ici, et un adjectif ne modifie pas un verbe."
+              },
+              "trap": "Phrase déjà complète + question « comment ? » : adverbe en -ly. Un adjectif ne décrit que des noms."
+            },
+            "en": {
+              "rule": "\"clean the mixing station\" is already complete (verb + object): what is missing is a word that says how to clean, so an adverb: \"thoroughly\".",
+              "distractors": {
+                "B": "\"thorough\" is an adjective: it cannot modify the verb \"clean\" in this position.",
+                "C": "\"thoroughness\" is a noun: it cannot finish the sentence without a preposition.",
+                "D": "\"more thorough\" is a comparative adjective: nothing is being compared here, and an adjective does not modify a verb."
+              },
+              "trap": "Complete sentence + the question \"how?\": an -ly adverb. An adjective only describes nouns."
+            }
+          }
+        },
+        {
+          "id": "p6-0017-2",
+          "tags": [
+            "relative-clauses"
+          ],
+          "difficulty": 2,
+          "options": [
+            "that",
+            "what",
+            "where",
+            "whom"
+          ],
+          "answer": "A",
+          "explanation": {
+            "fr": {
+              "rule": "« a detergent » est une chose, et la relative qui suit est sujet de « appears » : « that » convient (« a detergent that appears on the chart »).",
+              "distractors": {
+                "B": "« what » ne s'emploie pas après un nom : il se suffit à lui-même (« what appears » = ce qui apparaît).",
+                "C": "« where » renvoie à un lieu : un détergent n'est pas un lieu.",
+                "D": "« whom » renvoie à une personne en complément d'objet : un détergent n'est pas une personne."
+              },
+              "trap": "Nom de chose + verbe juste après : « that » ou « which ». « what » ne suit jamais un nom."
+            },
+            "en": {
+              "rule": "\"a detergent\" is a thing, and the relative clause that follows is the subject of \"appears\": \"that\" fits (\"a detergent that appears on the chart\").",
+              "distractors": {
+                "B": "\"what\" is not used after a noun: it stands alone (\"what appears\" = the thing that appears).",
+                "C": "\"where\" refers to a place: a detergent is not a place.",
+                "D": "\"whom\" refers to a person as an object: a detergent is not a person."
+              },
+              "trap": "Noun for a thing + a verb right after: \"that\" or \"which\". \"what\" never follows a noun."
+            }
+          }
+        },
+        {
+          "id": "p6-0017-3",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 2,
+          "options": [
+            "Wear gloves and a hairnet at all times while you handle ingredients.",
+            "Wash your hands before you leave the production floor.",
+            "Next, dry every surface completely with a clean paper towel.",
+            "Detergent must be stored in the locked cabinet near the loading dock."
+          ],
+          "answer": "C",
+          "evidence": [
+            "Rinse all surfaces with clean water until no foam remains.",
+            "Damp equipment can allow bacteria to grow in just a few hours."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Après le rinçage jusqu'à ce qu'il n'y ait plus de mousse, l'étape suivante logique est le séchage. La phrase d'après, « Damp equipment… », donne la raison de sécher : l'humidité fait proliférer les bactéries.",
+              "distractors": {
+                "A": "Les gants et la charlotte sont une règle d'hygiène générale : elle n'a aucun lien avec « Damp equipment ».",
+                "B": "Se laver les mains en quittant la zone n'est pas une étape du nettoyage de la cuve et ne prépare pas la phrase sur l'humidité.",
+                "D": "Le rangement du détergent est un autre sujet : il ne suit pas le rinçage et n'explique pas pourquoi l'équipement humide pose problème."
+              },
+              "trap": "Dans des consignes, la phrase manquante est souvent l'étape suivante ; la phrase d'après en donne la raison."
+            },
+            "en": {
+              "rule": "After rinsing until no foam remains, the logical next step is drying. The following sentence, \"Damp equipment…\", gives the reason for drying: moisture lets bacteria grow.",
+              "distractors": {
+                "A": "Gloves and a hairnet are a general hygiene rule: they have no link with \"Damp equipment\".",
+                "B": "Washing your hands when you leave the floor is not a step in cleaning the tank and does not lead to the sentence about moisture.",
+                "D": "Storing the detergent is a different topic: it does not follow rinsing and does not explain why damp equipment is a problem."
+              },
+              "trap": "In instructions, the missing sentence is often the next step; the sentence after it gives the reason."
+            }
+          }
+        },
+        {
+          "id": "p6-0017-4",
+          "tags": [
+            "comparatives-superlatives"
+          ],
+          "difficulty": 1,
+          "options": [
+            "lower",
+            "low",
+            "lowest",
+            "lowly"
+          ],
+          "answer": "A",
+          "explanation": {
+            "fr": {
+              "rule": "L'expression « 25 degrees Celsius or lower » signifie « 25 degrés ou moins » : « or » + comparatif, ici « lower ».",
+              "distractors": {
+                "B": "« low » est l'adjectif simple : « or low » ne se dit pas pour exprimer un seuil.",
+                "C": "« lowest » est un superlatif : il demande « the » et un ensemble de comparaison.",
+                "D": "« lowly » veut dire « humble » : il n'a aucun rapport avec une température."
+              },
+              "trap": "Seuil chiffré + « or » : comparatif (or lower, or higher, or less, or more)."
+            },
+            "en": {
+              "rule": "\"25 degrees Celsius or lower\" means \"25 degrees or less\": \"or\" + comparative, here \"lower\".",
+              "distractors": {
+                "B": "\"low\" is the plain adjective: \"or low\" is not used to express a limit.",
+                "C": "\"lowest\" is a superlative: it needs \"the\" and a group to compare with.",
+                "D": "\"lowly\" means \"humble\": it has nothing to do with temperature."
+              },
+              "trap": "A number + \"or\": comparative (or lower, or higher, or less, or more)."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
