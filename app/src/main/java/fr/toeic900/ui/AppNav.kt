@@ -18,15 +18,26 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import androidx.navigation.NavDestination.Companion.hasRoute
+import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.toRoute
 import fr.toeic900.AppContainer
 import fr.toeic900.ContentStatus
 import fr.toeic900.Toeic900App
+import fr.toeic900.data.TrainingRepository
+import fr.toeic900.ui.components.BottomTab
+import fr.toeic900.ui.components.ElanBottomBar
 import fr.toeic900.ui.home.HomeScreen
+import fr.toeic900.ui.lessons.LessonListScreen
+import fr.toeic900.ui.lessons.LessonScreen
+import fr.toeic900.ui.lessons.StepIntroScreen
+import fr.toeic900.ui.path.PathScreen
 import fr.toeic900.ui.settings.SettingsScreen
+import fr.toeic900.ui.theme.ElanIcons
 import fr.toeic900.ui.theme.ElanTheme
 import fr.toeic900.ui.training.SessionSummaryScreen
 import fr.toeic900.ui.training.TrainingScreen
@@ -34,14 +45,39 @@ import fr.toeic900.ui.training.TrainingSetupScreen
 import kotlinx.serialization.Serializable
 
 // Les « routes » : une par écran. Leurs champs sont les paramètres passés à l'écran.
+
+// Les trois onglets de la barre du bas.
 @Serializable data object HomeRoute
-@Serializable data object SetupRoute
-@Serializable data class TrainingRoute(val focusTag: String? = null, val minutes: Int = 15)
+@Serializable data object PathRoute
+@Serializable data object ExercisesRoute
+
+/**
+ * Une session de questions. Entraînement libre : part (0 = toutes), compétence et durée.
+ * Étape du chemin : stepId, qui fixe le reste.
+ */
+@Serializable
+data class TrainingRoute(
+    val part: Int = TrainingRepository.ALL_PARTS,
+    val focusTag: String? = null,
+    val minutes: Int = 15,
+    val stepId: String? = null,
+)
+
 @Serializable data class SummaryRoute(val sessionId: Long)
 @Serializable data object SettingsRoute
+@Serializable data object LessonListRoute
 
-/** L'unique part disponible en Phase 1. */
-const val PART_5 = 5
+/** Une fiche de cours. canPractice = faux quand elle est ouverte depuis une session en cours. */
+@Serializable data class LessonRoute(val tagId: String, val canPractice: Boolean = true)
+
+/** Le début d'une étape du chemin : mini-fiche, puis exercices. */
+@Serializable data class StepIntroRoute(val stepId: String)
+
+private val TABS = listOf(
+    BottomTab("Accueil", ElanIcons.Home) to HomeRoute,
+    BottomTab("Chemin", ElanIcons.Map) to PathRoute,
+    BottomTab("Exercices", ElanIcons.Target) to ExercisesRoute,
+)
 
 @Composable
 fun appContainer(): AppContainer = (LocalContext.current.applicationContext as Toeic900App).container
@@ -78,44 +114,116 @@ private fun CenteredMessage(title: String, detail: String? = null) {
     }
 }
 
+/** Change d'onglet : on revient à la racine, et chaque onglet retrouve l'état où on l'avait laissé. */
+private fun NavHostController.goToTab(route: Any) = navigate(route) {
+    popUpTo<HomeRoute> { saveState = true }
+    launchSingleTop = true
+    restoreState = true
+}
+
+/** Retour à l'onglet Chemin, qu'il soit déjà dans la pile d'écrans ou non. */
+private fun NavHostController.backToPath() {
+    if (!popBackStack<PathRoute>(inclusive = false)) goToTab(PathRoute)
+}
+
 @Composable
 private fun AppNavHost() {
     val nav = rememberNavController()
-    NavHost(navController = nav, startDestination = HomeRoute) {
-        composable<HomeRoute> {
-            HomeScreen(
-                onQuickStart = { nav.navigate(TrainingRoute(focusTag = null, minutes = 15)) },
-                onChoose = { nav.navigate(SetupRoute) },
-                onSettings = { nav.navigate(SettingsRoute) },
-            )
+    val entry by nav.currentBackStackEntryAsState()
+    val destination = entry?.destination
+    // La barre du bas n'apparaît que sur les trois onglets, pas pendant une session ou une fiche.
+    val tabIndex = when {
+        destination == null -> -1
+        destination.hasRoute<HomeRoute>() -> 0
+        destination.hasRoute<PathRoute>() -> 1
+        destination.hasRoute<ExercisesRoute>() -> 2
+        else -> -1
+    }
+
+    Column(Modifier.fillMaxSize()) {
+        NavHost(navController = nav, startDestination = HomeRoute, modifier = Modifier.weight(1f)) {
+            composable<HomeRoute> {
+                HomeScreen(
+                    onQuickStart = { nav.navigate(TrainingRoute(part = TrainingRepository.ALL_PARTS, minutes = 15)) },
+                    onOpenStep = { stepId -> nav.navigate(StepIntroRoute(stepId)) },
+                    onPath = { nav.goToTab(PathRoute) },
+                    onLessons = { nav.navigate(LessonListRoute) },
+                    onSettings = { nav.navigate(SettingsRoute) },
+                )
+            }
+            composable<PathRoute> {
+                PathScreen(
+                    onOpenStep = { stepId -> nav.navigate(StepIntroRoute(stepId)) },
+                    onLessons = { nav.navigate(LessonListRoute) },
+                )
+            }
+            composable<ExercisesRoute> {
+                TrainingSetupScreen(onStart = { part, tag, minutes -> nav.navigate(TrainingRoute(part, tag, minutes)) })
+            }
+            composable<StepIntroRoute> { entry ->
+                val stepId = entry.toRoute<StepIntroRoute>().stepId
+                StepIntroScreen(
+                    stepId = stepId,
+                    onBack = { nav.popBackStack() },
+                    onStart = { nav.navigate(TrainingRoute(stepId = stepId)) },
+                    onOpenLesson = { tagId -> nav.navigate(LessonRoute(tagId, canPractice = false)) },
+                )
+            }
+            composable<TrainingRoute> { entry ->
+                val route = entry.toRoute<TrainingRoute>()
+                TrainingScreen(
+                    part = route.part,
+                    focusTag = route.focusTag,
+                    minutes = route.minutes,
+                    stepId = route.stepId,
+                    onFinished = { sessionId ->
+                        // Le bilan remplace l'écran de questions : « retour » ne rouvre pas la session.
+                        nav.navigate(SummaryRoute(sessionId)) { popUpTo<TrainingRoute> { inclusive = true } }
+                    },
+                    onAbandon = { nav.popBackStack() },
+                    onOpenLesson = { tagId -> nav.navigate(LessonRoute(tagId, canPractice = false)) },
+                )
+            }
+            composable<SummaryRoute> { entry ->
+                SessionSummaryScreen(
+                    sessionId = entry.toRoute<SummaryRoute>().sessionId,
+                    onNewSession = { nav.goToTab(ExercisesRoute) },
+                    onHome = { nav.popBackStack<HomeRoute>(inclusive = false) },
+                    onPath = { nav.backToPath() },
+                    onOpenStep = { stepId ->
+                        nav.backToPath()
+                        nav.navigate(StepIntroRoute(stepId))
+                    },
+                    onRetryStep = { stepId ->
+                        nav.navigate(TrainingRoute(stepId = stepId)) { popUpTo<SummaryRoute> { inclusive = true } }
+                    },
+                )
+            }
+            composable<LessonListRoute> {
+                LessonListScreen(onBack = { nav.popBackStack() }, onOpen = { tagId -> nav.navigate(LessonRoute(tagId)) })
+            }
+            composable<LessonRoute> { entry ->
+                val route = entry.toRoute<LessonRoute>()
+                LessonScreen(
+                    tagId = route.tagId,
+                    onBack = { nav.popBackStack() },
+                    onPractice = if (route.canPractice) {
+                        { nav.navigate(TrainingRoute(part = TrainingRepository.ALL_PARTS, focusTag = route.tagId, minutes = 0)) }
+                    } else {
+                        null
+                    },
+                )
+            }
+            composable<SettingsRoute> {
+                SettingsScreen(onBack = { nav.popBackStack() })
+            }
         }
-        composable<SetupRoute> {
-            TrainingSetupScreen(
-                onBack = { nav.popBackStack() },
-                onStart = { tag, minutes -> nav.navigate(TrainingRoute(tag, minutes)) },
+        if (tabIndex >= 0) {
+            ElanBottomBar(
+                tabs = TABS.map { it.first },
+                selectedIndex = tabIndex,
+                onSelect = { index -> if (index != tabIndex) nav.goToTab(TABS[index].second) },
             )
-        }
-        composable<TrainingRoute> { entry ->
-            val route = entry.toRoute<TrainingRoute>()
-            TrainingScreen(
-                focusTag = route.focusTag,
-                minutes = route.minutes,
-                onFinished = { sessionId ->
-                    // Le bilan remplace l'écran de questions : « retour » ne rouvre pas la session.
-                    nav.navigate(SummaryRoute(sessionId)) { popUpTo<TrainingRoute> { inclusive = true } }
-                },
-                onAbandon = { nav.popBackStack() },
-            )
-        }
-        composable<SummaryRoute> { entry ->
-            SessionSummaryScreen(
-                sessionId = entry.toRoute<SummaryRoute>().sessionId,
-                onNewSession = { nav.navigate(SetupRoute) { popUpTo<HomeRoute>() } },
-                onHome = { nav.popBackStack<HomeRoute>(inclusive = false) },
-            )
-        }
-        composable<SettingsRoute> {
-            SettingsScreen(onBack = { nav.popBackStack() })
         }
     }
 }

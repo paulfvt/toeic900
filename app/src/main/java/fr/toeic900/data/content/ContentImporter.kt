@@ -32,15 +32,40 @@ class ContentImporter(
 /** Les lignes de base de données correspondant à un contenu embarqué. */
 data class ContentRows(
     val tags: List<TagEntity>,
+    val stimuli: List<StimulusEntity>,
     val questions: List<QuestionEntity>,
     val links: List<QuestionTagEntity>,
+    val lessons: List<LessonEntity>,
+    val pathUnits: List<PathUnitEntity>,
+    val pathSteps: List<PathStepEntity>,
 )
 
-fun ContentBundle.toRows(): ContentRows = ContentRows(
-    tags = tags.map { TagEntity(id = it.id, groupName = it.group, labelFr = it.fr, labelEn = it.en, sortOrder = it.order) },
-    questions = questions.map { it.toEntity() },
-    links = questions.flatMap { q -> q.tags.mapIndexed { position, tag -> QuestionTagEntity(q.id, tag, position) } },
-)
+fun ContentBundle.toRows(): ContentRows {
+    // Le rang d'une étape court sur tout le chemin : c'est l'ordre de déblocage.
+    var stepOrder = 0
+    val steps = path.units.flatMap { unit ->
+        unit.steps.map { step ->
+            PathStepEntity(
+                id = step.id,
+                unitId = unit.id,
+                sortOrder = stepOrder++,
+                kind = step.kind,
+                tags = step.tags,
+                part = step.part,
+                exerciseCount = step.units,
+            )
+        }
+    }
+    return ContentRows(
+        tags = tags.map { TagEntity(id = it.id, groupName = it.group, labelFr = it.fr, labelEn = it.en, sortOrder = it.order) },
+        stimuli = stimuli.map { StimulusEntity(id = it.id, part = it.part, pool = it.pool, documents = it.documents) },
+        questions = questions.map { it.toEntity() },
+        links = questions.flatMap { q -> q.tags.mapIndexed { position, tag -> QuestionTagEntity(q.id, tag, position) } },
+        lessons = lessons.map { LessonEntity(tagId = it.tag, content = it) },
+        pathUnits = path.units.mapIndexed { index, unit -> PathUnitEntity(unit.id, index, unit.fr, unit.en) },
+        pathSteps = steps,
+    )
+}
 
 private fun QuestionDto.toEntity(): QuestionEntity {
     val fr = explanation.getValue("fr")
@@ -60,6 +85,9 @@ private fun QuestionDto.toEntity(): QuestionEntity {
         distractorNotesEn = notes(en),
         trapFr = fr.trap,
         trapEn = en.trap,
+        stimulusId = stimulusId,
+        position = position,
+        evidence = evidence,
     )
 }
 
@@ -67,8 +95,7 @@ class RoomContentStore(private val dao: ContentDao) : ContentStore {
     override suspend fun currentVersion(): String? = dao.meta(KEY_VERSION)
 
     override suspend fun replaceAll(bundle: ContentBundle) {
-        val rows = bundle.toRows()
-        dao.replaceAll(rows.tags, rows.questions, rows.links, listOf(ContentMetaEntity(KEY_VERSION, bundle.version)))
+        dao.replaceAll(bundle.toRows(), listOf(ContentMetaEntity(KEY_VERSION, bundle.version)))
     }
 
     private companion object {

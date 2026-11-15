@@ -17,6 +17,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
@@ -24,14 +25,16 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.compose.viewModel
 import fr.toeic900.data.HomeStats
+import fr.toeic900.data.PathOverview
 import fr.toeic900.data.TrainingRepository
-import fr.toeic900.ui.PART_5
+import fr.toeic900.domain.StepKind
 import fr.toeic900.ui.appContainer
 import fr.toeic900.ui.components.ButtonStyle
 import fr.toeic900.ui.components.CardStyle
 import fr.toeic900.ui.components.ElanButton
 import fr.toeic900.ui.components.ElanCard
 import fr.toeic900.ui.components.ElanIconButton
+import fr.toeic900.ui.components.ElanProgress
 import fr.toeic900.ui.components.ElanTopBar
 import fr.toeic900.ui.components.LabelSmall
 import fr.toeic900.ui.theme.ElanDimens
@@ -43,15 +46,26 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.stateIn
 
 class HomeViewModel(repository: TrainingRepository) : ViewModel() {
-    val stats: StateFlow<HomeStats> = repository.observeHome(PART_5)
+    val stats: StateFlow<HomeStats> = repository.observeHome()
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), HomeStats())
+
+    /** null tant que le chemin n'est pas chargé. */
+    val path: StateFlow<PathOverview?> = repository.observePath()
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
 }
 
 @Composable
-fun HomeScreen(onQuickStart: () -> Unit, onChoose: () -> Unit, onSettings: () -> Unit) {
+fun HomeScreen(
+    onQuickStart: () -> Unit,
+    onOpenStep: (stepId: String) -> Unit,
+    onPath: () -> Unit,
+    onLessons: () -> Unit,
+    onSettings: () -> Unit,
+) {
     val container = appContainer()
     val viewModel = viewModel { HomeViewModel(container.repository) }
     val stats by viewModel.stats.collectAsStateWithLifecycle()
+    val path by viewModel.path.collectAsStateWithLifecycle()
     val c = ElanTheme.colors
     val type = ElanTheme.type
 
@@ -67,21 +81,15 @@ fun HomeScreen(onQuickStart: () -> Unit, onChoose: () -> Unit, onSettings: () ->
                 .padding(bottom = ElanDimens.gapMajor),
             verticalArrangement = Arrangement.spacedBy(ElanDimens.gapSection),
         ) {
-            ElanCard(style = CardStyle.Filled) {
-                LabelSmall("Session du jour · Part 5", color = c.onPrimaryContainer)
+            path?.let { PathCard(it, onOpenStep, onPath) }
+
+            ElanCard {
+                LabelSmall("Révision du jour")
+                Spacer(Modifier.height(4.dp))
+                HomeLine(ElanIcons.Refresh, "Compétences à réviser", stats.dueSkills.toString(), c.onSurface)
+                HomeLine(ElanIcons.Target, "Compétences à découvrir", stats.newSkills.toString(), c.onSurface)
                 Spacer(Modifier.height(8.dp))
-                Text("Phrases à compléter", style = type.headline, color = c.onPrimaryContainer)
-                Spacer(Modifier.height(8.dp))
-                HomeLine(ElanIcons.Refresh, "Compétences à réviser", stats.dueSkills.toString())
-                HomeLine(ElanIcons.Target, "Compétences à découvrir", stats.newSkills.toString())
-                Spacer(Modifier.height(12.dp))
-                ElanButton("Commencer · 15 min", onQuickStart, Modifier.fillMaxWidth())
-                ElanButton(
-                    "Choisir la session",
-                    onChoose,
-                    Modifier.fillMaxWidth(),
-                    style = ButtonStyle.Text,
-                )
+                ElanButton("Réviser · 15 min", onQuickStart, Modifier.fillMaxWidth(), style = ButtonStyle.Outlined)
             }
 
             Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
@@ -104,20 +112,55 @@ fun HomeScreen(onQuickStart: () -> Unit, onChoose: () -> Unit, onSettings: () ->
                 }
             }
 
-            Text(
-                "Chaque compétence avance dans cinq boîtes : une bonne réponse le jour de la révision " +
-                    "l'envoie dans la boîte suivante (revue 2, 4, 8 puis 16 jours plus tard), une erreur " +
-                    "la ramène à la première.",
-                style = type.bodyM,
-                color = c.muted,
-            )
+            ElanCard(onClick = onLessons) {
+                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                    Icon(ElanIcons.FileText, contentDescription = null, tint = c.primaryInk, modifier = Modifier.size(24.dp))
+                    Column(Modifier.weight(1f)) {
+                        Text("Fiches de cours", style = type.titleM, color = c.onSurface)
+                        Text("Règles, exemples et pièges du TOEIC", style = type.bodyM, color = c.muted)
+                    }
+                    Icon(ElanIcons.ChevronRight, contentDescription = null, tint = c.muted, modifier = Modifier.size(20.dp))
+                }
+            }
+        }
+    }
+}
+
+/** La prochaine étape du chemin de leçons, avec l'avancement global. */
+@Composable
+private fun PathCard(path: PathOverview, onOpenStep: (String) -> Unit, onPath: () -> Unit) {
+    val c = ElanTheme.colors
+    val type = ElanTheme.type
+    if (path.totalCount == 0) return
+    val next = path.next
+    ElanCard(style = CardStyle.Filled) {
+        val unit = next?.let { path.unitOf(it.step.id) }
+        LabelSmall(if (unit != null) "Chemin · ${unit.titleFr}" else "Chemin de leçons", color = c.onPrimaryContainer)
+        Spacer(Modifier.height(8.dp))
+        Text(
+            when {
+                next == null -> "Chemin terminé"
+                next.step.kind == StepKind.REVIEW -> next.titleFr
+                else -> next.titleFr
+            },
+            style = type.headline,
+            color = c.onPrimaryContainer,
+        )
+        Spacer(Modifier.height(12.dp))
+        ElanProgress(path.doneCount.toFloat() / path.totalCount, Modifier.fillMaxWidth(), description = "Avancement du chemin")
+        Spacer(Modifier.height(8.dp))
+        Text("${path.doneCount} ${plural(path.doneCount, "étape terminée", "étapes terminées")} sur ${path.totalCount}", style = type.bodyM, color = c.onPrimaryContainer)
+        Spacer(Modifier.height(12.dp))
+        if (next != null) {
+            ElanButton(if (path.doneCount == 0) "Commencer le chemin" else "Continuer le chemin", { onOpenStep(next.step.id) }, Modifier.fillMaxWidth())
+        } else {
+            ElanButton("Revoir le chemin", onPath, Modifier.fillMaxWidth())
         }
     }
 }
 
 @Composable
-private fun HomeLine(icon: ImageVector, label: String, value: String) {
-    val ink = ElanTheme.colors.onPrimaryContainer
+private fun HomeLine(icon: ImageVector, label: String, value: String, ink: Color) {
     Row(
         modifier = Modifier.fillMaxWidth().height(40.dp),
         verticalAlignment = Alignment.CenterVertically,

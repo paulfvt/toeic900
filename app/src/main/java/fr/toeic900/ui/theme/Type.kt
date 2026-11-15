@@ -49,6 +49,10 @@ data class ElanTypography(
     val chip: TextStyle = TextStyle(fontFamily = Nunito, fontWeight = FontWeight.W800, fontSize = 13.sp, lineHeight = 16.sp),
     val reading: TextStyle = TextStyle(fontFamily = NunitoSans, fontWeight = FontWeight.W400, fontSize = 18.sp, lineHeight = 27.sp),
     val option: TextStyle = TextStyle(fontFamily = NunitoSans, fontWeight = FontWeight.W400, fontSize = 18.sp, lineHeight = 23.sp),
+    /** Documents longs des Parts 6 et 7 : un peu plus petit que [reading], pour voir plus de texte à la fois. */
+    val document: TextStyle = TextStyle(fontFamily = NunitoSans, fontWeight = FontWeight.W400, fontSize = 16.sp, lineHeight = 25.sp),
+    /** Options de réponse sous un document : plus compactes que [option]. */
+    val optionCompact: TextStyle = TextStyle(fontFamily = NunitoSans, fontWeight = FontWeight.W400, fontSize = 16.sp, lineHeight = 21.sp),
 )
 
 val LocalElanTypography = staticCompositionLocalOf { ElanTypography() }

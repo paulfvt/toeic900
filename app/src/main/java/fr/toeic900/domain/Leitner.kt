@@ -60,6 +60,8 @@ object Leitner {
  * Une question ratée revient UNE fois, au plus tôt [QuestionReview.RETRY_DELAY_DAYS] jours
  * plus tard, pour contrôle. Entre-temps, la révision passe par d'autres questions de la même
  * compétence : on apprend la règle, pas la réponse.
+ *
+ * Pour les textes des Parts 6 et 7, c'est le texte entier qui revient une fois : voir [UnitPicker].
  */
 data class QuestionState(
     val questionId: String,
@@ -79,7 +81,19 @@ object QuestionReview {
     fun isRetryDue(state: QuestionState, today: Long): Boolean =
         state.retryDueDay != null && state.retryDueDay <= today
 
-    fun afterAnswer(previous: QuestionState?, questionId: String, correct: Boolean, today: Long): QuestionState {
+    /**
+     * @param controlReturn vrai si cette réponse est donnée pendant le retour de contrôle. Pour
+     *   une question seule (Part 5), c'est le cas quand son propre retour est dû. Pour une
+     *   question d'un texte (Parts 6 et 7), c'est le cas dès que le TEXTE revient pour contrôle,
+     *   même si cette question-là avait été réussie : le texte entier a alors fait son tour.
+     */
+    fun afterAnswer(
+        previous: QuestionState?,
+        questionId: String,
+        correct: Boolean,
+        today: Long,
+        controlReturn: Boolean = previous != null && isRetryDue(previous, today),
+    ): QuestionState {
         val seen = QuestionState(
             questionId = questionId,
             timesSeen = (previous?.timesSeen ?: 0) + 1,
@@ -91,7 +105,7 @@ object QuestionReview {
         )
         return when {
             // C'était le retour de contrôle : quel que soit le résultat, la question a fait son tour.
-            previous != null && isRetryDue(previous, today) -> seen.copy(retryDueDay = null, retryDone = true)
+            controlReturn -> seen.copy(retryDueDay = null, retryDone = true)
             // Retour déjà programmé mais pas encore dû (question revue par hasard) : on n'y touche pas.
             seen.retryDueDay != null -> seen
             // Première erreur : la question reviendra une fois.

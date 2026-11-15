@@ -14,7 +14,13 @@ data class ContentBundle(
     /** Empreinte du contenu : si elle change, la base de contenu est reconstruite. */
     val version: String,
     val tags: List<TagDto>,
+    /** Textes de la Part 6 et jeux de documents de la Part 7. */
+    val stimuli: List<StimulusDto> = emptyList(),
     val questions: List<QuestionDto>,
+    /** Fiches de cours : une par compétence. */
+    val lessons: List<LessonDto> = emptyList(),
+    /** Chemin de leçons. */
+    val path: PathDto = PathDto(),
 )
 
 @Serializable
@@ -28,18 +34,43 @@ data class TagDto(
 )
 
 @Serializable
+data class StimulusDto(
+    /** Identifiant stable (ex. p6-0012, p7-0031). */
+    val id: String,
+    val part: Int,
+    val pool: String,
+    /** Un seul document en Part 6 ; un à trois en Part 7. */
+    val documents: List<DocumentDto>,
+)
+
+@Serializable
+data class DocumentDto(
+    val genre: String,
+    val title: String? = null,
+    /** Part 6 : les trous sont notés [[1]] à [[4]]. */
+    val text: String,
+)
+
+@Serializable
 data class QuestionDto(
     val id: String,
     val part: Int,
     val pool: String,
     val tags: List<String>,
     val difficulty: Int,
+    /** Vide en Part 6 : la question est le trou du texte. */
     val stem: String,
     val options: List<String>,
     /** Lettre de la bonne réponse : A, B, C ou D. */
     val answer: String,
     /** Clés : "fr" et "en". */
     val explanation: Map<String, ExplanationDto>,
+    /** Parts 6 et 7 : le texte ou le jeu de documents de la question. */
+    val stimulusId: String? = null,
+    /** Rang de la question dans son texte (0 pour la première). */
+    val position: Int = 0,
+    /** Passages des documents qui justifient la réponse, mot pour mot. */
+    val evidence: List<String> = emptyList(),
 ) {
     val answerIndex: Int get() = ContentParser.LETTERS.indexOf(answer)
 }
@@ -52,12 +83,57 @@ data class ExplanationDto(
     val trap: String,
 )
 
+/** Une fiche de cours, dans ses deux langues. */
+@Serializable
+data class LessonDto(
+    val tag: String,
+    val fr: LessonContentDto,
+    val en: LessonContentDto,
+)
+
+@Serializable
+data class LessonContentDto(
+    val title: String,
+    val summary: String,
+    /** La mini-fiche montrée avant les exercices d'une leçon. */
+    val keyPoints: List<String>,
+    val rules: List<LessonRuleDto>,
+    val traps: List<LessonTrapDto>,
+)
+
+@Serializable
+data class LessonRuleDto(val title: String, val text: String, val examples: List<LessonExampleDto>)
+
+@Serializable
+data class LessonExampleDto(val en: String, val note: String)
+
+@Serializable
+data class LessonTrapDto(val title: String, val text: String)
+
+@Serializable
+data class PathDto(val units: List<PathUnitDto> = emptyList())
+
+@Serializable
+data class PathUnitDto(val id: String, val fr: String, val en: String, val steps: List<PathStepDto>)
+
+@Serializable
+data class PathStepDto(
+    val id: String,
+    /** "lesson" ou "review". */
+    val kind: String,
+    val tags: List<String>,
+    val part: Int,
+    /** Nombre d'exercices de l'étape. */
+    val units: Int,
+)
+
 class ContentFormatException(message: String, cause: Throwable? = null) : Exception(message, cause)
 
 object ContentParser {
-    const val SUPPORTED_FORMAT = 1
+    const val SUPPORTED_FORMAT = 2
     const val LETTERS = "ABCD"
     val LANGUAGES = setOf("fr", "en")
+    val STEP_KINDS = setOf("lesson", "review")
 
     private val json = Json { ignoreUnknownKeys = false }
 
@@ -87,8 +163,10 @@ object ContentParser {
         val tagIds = bundle.tags.map { it.id }
         firstDuplicate(tagIds)?.let { throw ContentFormatException("tag en double : $it") }
         firstDuplicate(bundle.questions.map { it.id })?.let { throw ContentFormatException("question en double : $it") }
+        firstDuplicate(bundle.stimuli.map { it.id })?.let { throw ContentFormatException("texte en double : $it") }
 
         val knownTags = tagIds.toSet()
+        val stimuli = bundle.stimuli.associateBy { it.id }
         for (q in bundle.questions) {
             fun fail(reason: String): Nothing = throw ContentFormatException("question ${q.id} : $reason")
             if (q.options.size != LETTERS.length) fail("${q.options.size} options au lieu de 4")
@@ -100,6 +178,36 @@ object ContentParser {
             for ((lang, explanation) in q.explanation) {
                 if (explanation.distractors.keys != wrongLetters) fail("explication $lang : il faut une note par distracteur")
             }
+            if (q.stimulusId == null) {
+                if (q.stem.isBlank()) fail("énoncé vide")
+            } else {
+                val stimulus = stimuli[q.stimulusId] ?: fail("texte inconnu « ${q.stimulusId} »")
+                if (stimulus.part != q.part) fail("part différente de celle de son texte")
+            }
+        }
+
+        val used = bundle.questions.mapNotNull { it.stimulusId }.toSet()
+        for (s in bundle.stimuli) {
+            if (s.documents.isEmpty() || s.documents.any { it.text.isBlank() }) {
+                throw ContentFormatException("texte ${s.id} : document vide")
+            }
+            if (s.id !in used) throw ContentFormatException("texte ${s.id} : aucune question")
+        }
+
+        firstDuplicate(bundle.lessons.map { it.tag })?.let { throw ContentFormatException("fiche en double : $it") }
+        bundle.lessons.firstOrNull { it.tag !in knownTags }?.let { throw ContentFormatException("fiche : tag inconnu « ${it.tag} »") }
+
+        val lessonTags = bundle.lessons.map { it.tag }.toSet()
+        val steps = bundle.path.units.flatMap { it.steps }
+        firstDuplicate(bundle.path.units.map { it.id } + steps.map { it.id })
+            ?.let { throw ContentFormatException("chemin : identifiant en double « $it »") }
+        for (step in steps) {
+            fun fail(reason: String): Nothing = throw ContentFormatException("étape ${step.id} : $reason")
+            if (step.kind !in STEP_KINDS) fail("type inconnu « ${step.kind} »")
+            if (step.tags.isEmpty()) fail("aucun tag")
+            step.tags.firstOrNull { it !in knownTags }?.let { fail("tag inconnu « $it »") }
+            if (step.units < 1) fail("aucun exercice")
+            if (step.kind == "lesson" && step.tags.first() !in lessonTags) fail("pas de fiche pour « ${step.tags.first()} »")
         }
     }
 

@@ -49,4 +49,14 @@ object ElanIcons {
     val Target by lazy { strokeIcon("target", circle(10), circle(6), circle(2)) }
     val Bolt by lazy { strokeIcon("bolt", "M13 2L3 14h9l-1 8 10-12h-9l1-8z") }
     val ChevronRight by lazy { strokeIcon("chevron-right", "M9 6l6 6-6 6") }
+    val ChevronUp by lazy { strokeIcon("chevron-up", "M6 15l6-6 6 6") }
+    val ChevronDown by lazy { strokeIcon("chevron-down", "M6 9l6 6 6-6") }
+    val Home by lazy { strokeIcon("home", "M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z", "M9 22V12h6v10") }
+    val Map by lazy { strokeIcon("map", "M1 6v16l7-4 8 4 7-4V2l-7 4-8-4-7 4z", "M8 2v16M16 6v16") }
+    val FileText by lazy {
+        strokeIcon("file-text", "M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z", "M14 2v6h6M16 13H8M16 17H8M10 9H8")
+    }
+    val Lock by lazy { strokeIcon("lock", "M5 11h14a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2z", "M7 11V7a5 5 0 0 1 10 0v4") }
+    val Play by lazy { strokeIcon("play", "M6 4l13 8-13 8z") }
+    val Award by lazy { strokeIcon("award", "M5 8a7 7 0 1 0 14 0a7 7 0 1 0 -14 0z", "M8.21 13.89L7 23l5-3 5 3-1.21-9.12") }
 }

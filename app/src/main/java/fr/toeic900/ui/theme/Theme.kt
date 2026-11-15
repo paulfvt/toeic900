@@ -36,6 +36,7 @@ object ElanDimens {
     val gapMajor = 32.dp
     val progressHeight = 14.dp
     val appBarHeight = 64.dp
+    val navBarHeight = 72.dp
 }
 
 /** Accès au thème depuis n'importe quel composable : ElanTheme.colors, ElanTheme.type. */

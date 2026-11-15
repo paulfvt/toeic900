@@ -39,8 +39,15 @@ import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.selected
 import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.text.AnnotatedString
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
@@ -154,6 +161,7 @@ fun OptionRow(
     text: String,
     state: OptionState,
     modifier: Modifier = Modifier,
+    compact: Boolean = false,
     onClick: (() -> Unit)? = null,
 ) {
     val c = ElanTheme.colors
@@ -175,7 +183,8 @@ fun OptionRow(
         shape = ElanShapes.option,
         edgeColor = edge,
         borderColor = line,
-        contentPadding = PaddingValues(horizontal = 12.dp, vertical = 10.dp),
+        minHeight = if (compact) 44.dp else ElanDimens.controlHeight,
+        contentPadding = PaddingValues(horizontal = 12.dp, vertical = if (compact) 8.dp else 10.dp),
         contentAlignment = Alignment.CenterStart,
     ) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
@@ -187,7 +196,7 @@ fun OptionRow(
             ) {
                 Text(letter, style = ElanTheme.type.chip, color = if (plain) c.muted else ink)
             }
-            Text(text, style = ElanTheme.type.option, color = ink, modifier = Modifier.weight(1f))
+            Text(text, style = if (compact) ElanTheme.type.optionCompact else ElanTheme.type.option, color = ink, modifier = Modifier.weight(1f))
             when (state) {
                 OptionState.Correct -> Icon(ElanIcons.Check, contentDescription = null, tint = ink, modifier = Modifier.size(18.dp))
                 OptionState.Wrong -> Icon(ElanIcons.Close, contentDescription = null, tint = ink, modifier = Modifier.size(18.dp))
@@ -336,5 +345,66 @@ fun ElanTopBar(
         }
         Text(title, style = ElanTheme.type.titleL, color = ElanTheme.colors.onSurface, modifier = Modifier.weight(1f))
         actions()
+    }
+}
+
+/**
+ * Texte avec le seul balisage des fiches de cours : **mot** met le mot en avant.
+ * Un ** non refermé est affiché tel quel.
+ */
+fun markupText(text: String, emphasis: SpanStyle): AnnotatedString = buildAnnotatedString {
+    val parts = text.split("**")
+    if (parts.size % 2 == 0) {
+        append(text)
+        return@buildAnnotatedString
+    }
+    parts.forEachIndexed { index, part ->
+        if (index % 2 == 1) withStyle(emphasis) { append(part) } else append(part)
+    }
+}
+
+@Composable
+fun MarkupText(text: String, style: TextStyle, color: Color, modifier: Modifier = Modifier, emphasisColor: Color = ElanTheme.colors.primaryInk) {
+    Text(
+        text = markupText(text, SpanStyle(color = emphasisColor, fontWeight = FontWeight.W800)),
+        style = style,
+        color = color,
+        modifier = modifier,
+    )
+}
+
+/** Un onglet de la barre du bas. */
+data class BottomTab(val label: String, val icon: ImageVector)
+
+/** Barre de navigation du bas (classe .navbar) : un indicateur en pastille sous l'onglet actif. */
+@Composable
+fun ElanBottomBar(tabs: List<BottomTab>, selectedIndex: Int, onSelect: (Int) -> Unit, modifier: Modifier = Modifier) {
+    val c = ElanTheme.colors
+    Column(modifier.fillMaxWidth().background(c.surface)) {
+        Box(Modifier.fillMaxWidth().height(ElanDimens.border).background(c.outlineVariant))
+        Row(Modifier.fillMaxWidth().height(ElanDimens.navBarHeight)) {
+            tabs.forEachIndexed { index, tab ->
+                val selected = index == selectedIndex
+                Column(
+                    modifier = Modifier
+                        .weight(1f)
+                        .fillMaxHeight()
+                        .clickable(role = Role.Tab, onClick = { onSelect(index) })
+                        .semantics { this.selected = selected },
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    verticalArrangement = Arrangement.spacedBy(4.dp, Alignment.CenterVertically),
+                ) {
+                    Box(
+                        modifier = Modifier
+                            .size(width = 56.dp, height = 32.dp)
+                            .background(if (selected) c.primaryContainer else Color.Transparent, ElanShapes.full),
+                        contentAlignment = Alignment.Center,
+                    ) {
+                        Icon(tab.icon, contentDescription = null, tint = if (selected) c.onPrimaryContainer else c.muted, modifier = Modifier.size(24.dp))
+                    }
+                    Text(tab.label, style = ElanTheme.type.labelS, color = if (selected) c.onSurface else c.muted)
+                }
+            }
+        }
     }
 }
