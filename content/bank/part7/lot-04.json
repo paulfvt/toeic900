@@ -1,0 +1,757 @@
+{
+  "part": 7,
+  "pool": "training",
+  "sets": [
+    {
+      "id": "p7-0022",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "brochure",
+          "title": "Willowmere Residences - Now Leasing",
+          "text": "Willowmere Residences, a new apartment community on Tanner Street, is now accepting applications for homes available from April 1.\n\nChoose from studio, one-bedroom, and two-bedroom apartments. Every home has a dishwasher, wood-style flooring, and large windows that face Calder River Park. Monthly rents start at $1,150 for a studio and $1,680 for a two-bedroom apartment.\n\nResidents also enjoy a shared rooftop terrace, a bicycle storage room, and a fitness studio open from 5:00 A.M. to 11:00 P.M. The building is a five-minute walk from Tanner Street station, where trains run to the city center every ten minutes. Parking spaces are limited and are rented separately for $90 per month.\n\nTours are offered Tuesday through Saturday. To book a visit, call Daniela Costa in the leasing office at 555-0148."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0022-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 1,
+          "stem": "What is the purpose of the brochure?",
+          "options": [
+            "To announce a change in train service",
+            "To advertise apartments that are available to rent",
+            "To invite buyers to purchase new homes",
+            "To describe repairs to a city park"
+          ],
+          "answer": "B",
+          "evidence": [
+            "is now accepting applications for homes available from April 1",
+            "Monthly rents start at $1,150 for a studio"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Dès la première phrase, la brochure annonce que l'immeuble « is now accepting applications for homes available from April 1 », et le deuxième paragraphe donne des loyers (« Monthly rents »). Elle sert donc à proposer des appartements à la location.",
+              "distractors": {
+                "A": "Les trains ne sont cités que comme un avantage de situation (la gare est à cinq minutes à pied) ; aucun changement de service n'est annoncé.",
+                "C": "Les logements sont loués (« rents », « applications »), pas vendus : il n'est jamais question d'acheter.",
+                "D": "Le parc Calder River apparaît seulement parce que les fenêtres donnent dessus ; aucun travaux n'est mentionné."
+              },
+              "trap": "Pour une question de but, relie la première phrase au vocabulaire du texte (rents, applications) : les détails annexes (gare, parc) servent de distracteurs."
+            },
+            "en": {
+              "rule": "In its first sentence the brochure says the building \"is now accepting applications for homes available from April 1\", and the second paragraph gives \"Monthly rents\". Its purpose is to offer apartments for rent.",
+              "distractors": {
+                "A": "Trains are only mentioned as a location advantage (the station is a five-minute walk away); no change in service is announced.",
+                "C": "The homes are rented (\"rents\", \"applications\"), not sold: buying is never mentioned.",
+                "D": "Calder River Park appears only because the windows face it; no repair work is mentioned."
+              },
+              "trap": "For a purpose question, link the first sentence to the text's vocabulary (rents, applications): side details (station, park) are used as distractors."
+            }
+          }
+        },
+        {
+          "id": "p7-0022-2",
+          "tags": [
+            "not-true"
+          ],
+          "difficulty": 2,
+          "stem": "What is NOT mentioned as a feature of Willowmere Residences?",
+          "options": [
+            "A swimming pool",
+            "A rooftop terrace",
+            "A bicycle storage room",
+            "A fitness studio"
+          ],
+          "answer": "A",
+          "evidence": [
+            "Residents also enjoy a shared rooftop terrace, a bicycle storage room, and a fitness studio open from 5:00 A.M. to 11:00 P.M."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Une seule phrase prouve les trois options vraies : « a shared rooftop terrace, a bicycle storage room, and a fitness studio ». Aucune piscine n'apparaît dans la brochure.",
+              "distractors": {
+                "B": "Mentionnée : « a shared rooftop terrace ».",
+                "C": "Mentionnée : « a bicycle storage room ».",
+                "D": "Mentionnée : « a fitness studio open from 5:00 A.M. to 11:00 P.M. »."
+              },
+              "trap": "Dans une question NOT, barre chaque option que tu retrouves dans le texte ; celle qui reste est la réponse. Ici, une seule liste contient les trois."
+            },
+            "en": {
+              "rule": "One sentence proves the three true options: \"a shared rooftop terrace, a bicycle storage room, and a fitness studio\". No swimming pool appears anywhere in the brochure.",
+              "distractors": {
+                "B": "Mentioned: \"a shared rooftop terrace\".",
+                "C": "Mentioned: \"a bicycle storage room\".",
+                "D": "Mentioned: \"a fitness studio open from 5:00 A.M. to 11:00 P.M.\"."
+              },
+              "trap": "In a NOT question, cross out each option you find in the text; the one left is the answer. Here a single list contains all three."
+            }
+          }
+        },
+        {
+          "id": "p7-0022-3",
+          "tags": [
+            "synonym-in-context"
+          ],
+          "difficulty": 2,
+          "stem": "The word \"run\" in paragraph 3 is closest in meaning to",
+          "options": [
+            "jog",
+            "manage",
+            "flow",
+            "operate"
+          ],
+          "answer": "D",
+          "evidence": [
+            "where trains run to the city center every ten minutes"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« trains run to the city center every ten minutes » : les trains circulent, ils sont en service à cette fréquence. « Operate » est le sens qui convient pour un transport régulier.",
+              "distractors": {
+                "A": "« jog » (courir à petit trot) est le sens physique de « run » ; un train ne fait pas de jogging.",
+                "B": "« manage » (diriger) existe pour « run a business », mais ici le sujet est « trains », pas une personne.",
+                "C": "« flow » convient pour un liquide qui « runs » ; on ne dit pas qu'un train coule."
+              },
+              "trap": "Remplace le mot par chaque option dans la phrase, en regardant son sujet : un mot très courant comme « run » a une dizaine de sens."
+            },
+            "en": {
+              "rule": "\"trains run to the city center every ten minutes\": the trains travel, they are in service at that frequency. \"Operate\" fits a regular transport service.",
+              "distractors": {
+                "A": "\"jog\" is the physical meaning of \"run\"; a train does not jog.",
+                "B": "\"manage\" fits \"run a business\", but here the subject is \"trains\", not a person.",
+                "C": "\"flow\" suits a liquid that \"runs\"; you would not say a train flows."
+              },
+              "trap": "Put each option back into the sentence and look at the subject: a very common word like \"run\" has many meanings."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0023",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "email",
+          "text": "To: All Store Associates\nFrom: Yusuf Demirci, Store Manager\nDate: November 12\nSubject: Holiday returns\n\nDear team,\n\nStarting Monday, November 23, all returns will be handled at a new desk near the north entrance instead of at the main registers. The desk will be open from 10:00 A.M. to 8:00 P.M. every day and will be staffed by two associates. A supervisor will always be nearby to approve returns that have no receipt.\n\nMs. Rojas from the customer service office will train the associates who are assigned to the desk on Thursday, November 19, at 8:00 A.M. in the break room. Gift receipts will be accepted there for store credit only.\n\nWe are making this change because of what happened last December, when the returns line stretched past the shoe department and several customers left without finishing their purchases. Please tell shoppers about the new desk and direct them to the north entrance.\n\nThank you,\nYusuf"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0023-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 3,
+          "stem": "What is the purpose of the e-mail?",
+          "options": [
+            "To report a drop in holiday sales",
+            "To invite staff to a training session",
+            "To inform staff of a new way to handle returns",
+            "To ask staff to work extra shifts"
+          ],
+          "answer": "C",
+          "evidence": [
+            "all returns will be handled at a new desk near the north entrance instead of at the main registers"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Tout le message tourne autour d'un changement : « all returns will be handled at a new desk… instead of at the main registers ». Les horaires, la formation et le rappel de décembre dernier servent cette explication.",
+              "distractors": {
+                "A": "Le texte parle de clients partis l'an dernier, mais ne donne aucun chiffre de ventes et n'annonce aucune baisse.",
+                "B": "La formation du 19 novembre est un détail du dispositif, pas le but du message : personne n'est invité à s'y inscrire.",
+                "D": "Les deux associés du comptoir sont « assigned », mais aucun travail supplémentaire n'est demandé à l'équipe."
+              },
+              "trap": "Quand plusieurs options reprennent un détail du texte, choisis celle qui résume l'ensemble du message, pas celle qui en cite une partie."
+            },
+            "en": {
+              "rule": "The whole message is about one change: \"all returns will be handled at a new desk… instead of at the main registers\". The hours, the training and the reminder about last December all support this explanation.",
+              "distractors": {
+                "A": "Customers who left last year are mentioned, but no sales figures or drop are given.",
+                "B": "The November 19 training is one detail of the plan, not the purpose of the message: nobody is invited to sign up for it.",
+                "D": "Two associates are \"assigned\" to the desk, but no extra work is requested from the team."
+              },
+              "trap": "When several options repeat a detail from the text, pick the one that sums up the whole message, not one that quotes a part of it."
+            }
+          }
+        },
+        {
+          "id": "p7-0023-2",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 2,
+          "stem": "At what time will the returns desk close each day?",
+          "options": [
+            "At 10:00 A.M.",
+            "At 6:00 P.M.",
+            "At noon",
+            "At 8:00 P.M."
+          ],
+          "answer": "D",
+          "evidence": [
+            "The desk will be open from 10:00 A.M. to 8:00 P.M. every day"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le texte donne l'amplitude : « open from 10:00 A.M. to 8:00 P.M. every day ». La fermeture est donc à 20 h.",
+              "distractors": {
+                "A": "10 h est l'heure d'ouverture, pas de fermeture.",
+                "B": "6 h du soir n'apparaît pas dans le message.",
+                "C": "Midi n'est cité nulle part ; l'ouverture est à 10 h."
+              },
+              "trap": "Dans « from X to Y », lis bien quelle borne la question demande : le piège est souvent l'autre borne."
+            },
+            "en": {
+              "rule": "The text gives the range: \"open from 10:00 A.M. to 8:00 P.M. every day\". The desk therefore closes at 8:00 P.M.",
+              "distractors": {
+                "A": "10:00 A.M. is the opening time, not the closing time.",
+                "B": "6:00 P.M. does not appear in the message.",
+                "C": "Noon is not mentioned anywhere; the desk opens at 10:00 A.M."
+              },
+              "trap": "In \"from X to Y\", check which end the question asks about: the trap is often the other end."
+            }
+          }
+        },
+        {
+          "id": "p7-0023-3",
+          "tags": [
+            "not-true"
+          ],
+          "difficulty": 3,
+          "stem": "What is NOT true about the new returns desk?",
+          "options": [
+            "Returns without a receipt do not need approval.",
+            "It is located near the north entrance.",
+            "Its staff will be trained before it opens.",
+            "Gift receipts are accepted there for store credit."
+          ],
+          "answer": "A",
+          "evidence": [
+            "a new desk near the north entrance",
+            "will train the associates who are assigned to the desk on Thursday, November 19",
+            "Gift receipts will be accepted there for store credit only."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le message dit : « A supervisor will always be nearby to approve returns that have no receipt ». Un retour sans reçu a donc besoin d'une approbation : l'option A est fausse. Les trois autres sont prouvées par les passages cités.",
+              "distractors": {
+                "B": "Vrai : « a new desk near the north entrance ».",
+                "C": "Vrai : la formation a lieu le jeudi 19 novembre, et le comptoir ouvre le lundi 23 (« Starting Monday, November 23 »).",
+                "D": "Vrai : « Gift receipts will be accepted there for store credit only »."
+              },
+              "trap": "Dans une question NOT TRUE, une option peut être contredite par une phrase éloignée des autres : vérifie chaque option, y compris celle qui te semble « logique »."
+            },
+            "en": {
+              "rule": "The message says: \"A supervisor will always be nearby to approve returns that have no receipt\". A return without a receipt therefore needs approval, so option A is false. The other three are proved by the quoted passages.",
+              "distractors": {
+                "B": "True: \"a new desk near the north entrance\".",
+                "C": "True: the training is on Thursday, November 19, and the desk opens on Monday, November 23 (\"Starting Monday, November 23\").",
+                "D": "True: \"Gift receipts will be accepted there for store credit only\"."
+              },
+              "trap": "In a NOT TRUE question, an option may be contradicted by a sentence far from the others: check every option, even the one that seems \"logical\"."
+            }
+          }
+        },
+        {
+          "id": "p7-0023-4",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 2,
+          "stem": "What is suggested about last December?",
+          "options": [
+            "The store closed early on some days.",
+            "A returns desk was already in use.",
+            "The store lost some sales because of long lines.",
+            "The shoe department was moved."
+          ],
+          "answer": "C",
+          "evidence": [
+            "the returns line stretched past the shoe department and several customers left without finishing their purchases"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le texte dit que la file de retours « stretched past the shoe department » et que « several customers left without finishing their purchases ». On en déduit que l'attente a fait perdre des ventes au magasin.",
+              "distractors": {
+                "A": "Aucune fermeture anticipée n'est mentionnée.",
+                "B": "Le comptoir est « new » et remplace les caisses principales : il n'existait pas l'an dernier.",
+                "D": "Le rayon chaussures sert seulement de repère pour la longueur de la file ; il n'est pas question de le déplacer."
+              },
+              "trap": "Une inférence s'appuie sur une phrase précise : ici, des clients partis sans finir leurs achats = des ventes perdues."
+            },
+            "en": {
+              "rule": "The text says the returns line \"stretched past the shoe department\" and \"several customers left without finishing their purchases\". You can infer that the wait cost the store some sales.",
+              "distractors": {
+                "A": "No early closing is mentioned.",
+                "B": "The desk is \"new\" and replaces the main registers: it did not exist last year.",
+                "D": "The shoe department is only a landmark for the length of the line; moving it is never mentioned."
+              },
+              "trap": "An inference rests on one precise sentence: here, customers leaving without finishing their purchases = lost sales."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0024",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "letter",
+          "text": "October 26\n\nMs. Ruth Kamara\nKamara Family Dental Clinic\n418 Orchard Lane, Dunmore\n\nDear Ms. Kamara,\n\nI am writing to update you on the renovation of your clinic's second floor. [1] The custom glass partitions for the treatment rooms will now arrive on December 4. [2] Because the painters cannot finish until the partitions are in place, the work will be completed on Friday, December 11, rather than on November 30, the date in our contract. [3]\n\nTo limit the delay, our crew will work on Saturdays, and we will cover the cost of the extra shifts ourselves. [4] I will call you on Monday to discuss how your patient schedule can be adjusted.\n\nSincerely,\nGustavo Almeida\nProject Manager, Stonebridge Construction"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0024-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 2,
+          "stem": "What is the purpose of the letter?",
+          "options": [
+            "To request payment for finished work",
+            "To inform a client of a new completion date",
+            "To propose adding a room to the project",
+            "To thank a client for choosing the company"
+          ],
+          "answer": "B",
+          "evidence": [
+            "the work will be completed on Friday, December 11, rather than on November 30, the date in our contract"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "M. Almeida écrit « to update you on the renovation » puis explique que les travaux seront finis le 11 décembre « rather than on November 30, the date in our contract ». Le but est d'annoncer une nouvelle date de fin.",
+              "distractors": {
+                "A": "Aucune facture ni demande de paiement : les travaux ne sont pas terminés.",
+                "C": "Aucune nouvelle pièce n'est proposée ; il s'agit des salles de soins déjà prévues.",
+                "D": "Il n'y a aucun remerciement dans la lettre."
+              },
+              "trap": "Le but d'une lettre se trouve dans sa première phrase (« update you on… ») et se précise dans le premier paragraphe ; vérifie-le avec la date ou le chiffre qui change."
+            },
+            "en": {
+              "rule": "Mr. Almeida writes \"to update you on the renovation\" and then explains that the work will be completed on December 11, \"rather than on November 30, the date in our contract\". The purpose is to announce a new completion date.",
+              "distractors": {
+                "A": "There is no invoice or request for payment: the work is not finished.",
+                "C": "No new room is proposed; the letter is about the treatment rooms already planned.",
+                "D": "There is no thanks anywhere in the letter."
+              },
+              "trap": "The purpose of a letter is in its first sentence (\"update you on…\") and becomes clear in the first paragraph; check it against the date or figure that changes."
+            }
+          }
+        },
+        {
+          "id": "p7-0024-2",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 3,
+          "stem": "By how many days will the work finish later than the date in the contract?",
+          "options": [
+            "Eleven days",
+            "Seven days",
+            "Fourteen days",
+            "Four days"
+          ],
+          "answer": "A",
+          "evidence": [
+            "the work will be completed on Friday, December 11, rather than on November 30, the date in our contract"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le contrat prévoyait le 30 novembre et la nouvelle date est le 11 décembre : 1 jour jusqu'au 1er décembre + 10 jours = 11 jours.",
+              "distractors": {
+                "B": "Sept jours séparent l'arrivée des cloisons (4 décembre) de la fin des travaux (11 décembre), pas la date du contrat de la nouvelle date.",
+                "C": "Quatorze jours n'apparaissent pas dans le texte ; ce n'est pas l'écart entre les deux dates.",
+                "D": "Quatre jours séparent le 30 novembre du 4 décembre, date d'arrivée des cloisons : ce n'est pas le retard des travaux."
+              },
+              "trap": "Pour un calcul de dates, repère les deux dates que la question compare (ici contrat et nouvelle fin) ; les autres dates du texte sont des pièges."
+            },
+            "en": {
+              "rule": "The contract date was November 30 and the new date is December 11: 1 day to reach December 1, plus 10 days, makes 11 days.",
+              "distractors": {
+                "B": "Seven days is the gap between the partitions' arrival (December 4) and the end of the work (December 11), not between the contract date and the new date.",
+                "C": "Fourteen days does not appear in the text; it is not the gap between the two dates.",
+                "D": "Four days is the gap between November 30 and December 4, when the partitions arrive: it is not the delay of the work."
+              },
+              "trap": "For a date calculation, find the two dates the question compares (here contract and new finish); the other dates in the text are traps."
+            }
+          }
+        },
+        {
+          "id": "p7-0024-3",
+          "tags": [
+            "synonym-in-context"
+          ],
+          "difficulty": 1,
+          "stem": "The word \"cover\" in paragraph 2 is closest in meaning to",
+          "options": [
+            "pay for",
+            "hide",
+            "protect",
+            "travel"
+          ],
+          "answer": "A",
+          "evidence": [
+            "we will cover the cost of the extra shifts ourselves"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« we will cover the cost of the extra shifts ourselves » : l'entreprise paiera ces heures, sans les facturer. « Pay for » est le sens qui va avec « the cost ».",
+              "distractors": {
+                "B": "« hide » (cacher) est un sens de « cover », mais on ne cache pas un coût.",
+                "C": "« protect » (couvrir pour protéger) ne va pas avec « the cost » : rien n'est mis à l'abri.",
+                "D": "« travel » existe pour « cover 10 miles », mais n'a aucun rapport avec un coût."
+              },
+              "trap": "Un mot à plusieurs sens se tranche avec son complément : « cover » + « the cost » = payer."
+            },
+            "en": {
+              "rule": "\"we will cover the cost of the extra shifts ourselves\": the company will pay for these hours without billing them. \"Pay for\" is the meaning that goes with \"the cost\".",
+              "distractors": {
+                "B": "\"hide\" is a meaning of \"cover\", but you do not hide a cost.",
+                "C": "\"protect\" (cover to keep safe) does not go with \"the cost\": nothing is being sheltered.",
+                "D": "\"travel\" exists in \"cover 10 miles\", but has nothing to do with a cost."
+              },
+              "trap": "A word with several meanings is settled by its object: \"cover\" + \"the cost\" = pay."
+            }
+          }
+        },
+        {
+          "id": "p7-0024-4",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 2,
+          "stem": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"That is two weeks later than the supplier first promised.\"",
+          "options": [
+            "[1]",
+            "[2]",
+            "[3]",
+            "[4]"
+          ],
+          "answer": "B",
+          "evidence": [
+            "The custom glass partitions for the treatment rooms will now arrive on December 4."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« That » renvoie à une date de livraison : seule la phrase « The custom glass partitions… will now arrive on December 4 » la donne, et « That is two weeks later than the supplier first promised » la commente juste après.",
+              "distractors": {
+                "A": "En [1], aucune date de livraison n'a encore été donnée : « That » n'aurait pas de référent.",
+                "C": "En [3], la phrase précédente parle de la fin des travaux (11 décembre) ; le fournisseur n'a rien promis pour la fin des travaux, et l'écart avec le 30 novembre est de 11 jours, pas de deux semaines.",
+                "D": "En [4], la phrase précédente porte sur les équipes du samedi et les coûts ; rien ne renvoie à une promesse du fournisseur."
+              },
+              "trap": "Pour une insertion, repère le mot de liaison (« That », « this ») et cherche juste avant la phrase à laquelle il renvoie, puis vérifie que la suite se raccorde encore."
+            },
+            "en": {
+              "rule": "\"That\" refers to a delivery date: only the sentence \"The custom glass partitions… will now arrive on December 4\" gives one, and \"That is two weeks later than the supplier first promised\" comments on it right after.",
+              "distractors": {
+                "A": "At [1], no delivery date has been given yet: \"That\" would have no referent.",
+                "C": "At [3], the previous sentence is about the end of the work (December 11); the supplier promised nothing about that, and the gap from November 30 is 11 days, not two weeks.",
+                "D": "At [4], the previous sentence is about Saturday shifts and costs; nothing refers to a supplier's promise."
+              },
+              "trap": "For sentence insertion, spot the link word (\"That\", \"this\") and look just before for the sentence it points to, then check that what follows still connects."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0025",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "report",
+          "title": "Port Alder Tourism Board - Summer Season Report",
+          "text": "This report summarizes visitor numbers and survey results for the summer season, from June to August.\n\nPort Alder welcomed 184,000 overnight visitors this summer, 9 percent more than last year. Hotels reported an average occupancy of 78 percent in July, the highest figure in five years. The harbor boat tours remained the most popular activity, with 41,000 tickets sold.\n\nA survey of 1,200 visitors found that 86 percent rated their stay as good or excellent. [1] Visitors praised the boat tours and the new Friday night market. [2] The most common complaint was parking near the harbor, where the lots fill up before 10:00 A.M. on weekends. [3]\n\nTo ease congestion, the board plans to open a shuttle service from the Eastfield lot next June. The board will also ask hotels to give guests a printed map of the free parking areas. [4]"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0025-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 1,
+          "stem": "What is the main purpose of the report?",
+          "options": [
+            "To summarize the results of the summer tourist season",
+            "To announce the opening of new boat tours",
+            "To compare hotel prices in the region",
+            "To ask for money to build a parking lot"
+          ],
+          "answer": "A",
+          "evidence": [
+            "This report summarizes visitor numbers and survey results for the summer season, from June to August."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La première phrase le dit : « This report summarizes visitor numbers and survey results for the summer season ». Les chiffres et l'enquête qui suivent détaillent ce bilan.",
+              "distractors": {
+                "B": "Les excursions en bateau existent déjà : elles « remained the most popular activity ».",
+                "C": "Les hôtels ne sont cités que pour leur taux d'occupation ; aucun prix n'est comparé.",
+                "D": "Le conseil prévoit une navette et des cartes, pas un nouveau parking, et ne demande aucun financement."
+              },
+              "trap": "Dans un rapport, la phrase d'ouverture annonce l'objet ; les mesures proposées à la fin sont des conséquences, pas le but."
+            },
+            "en": {
+              "rule": "The first sentence says it: \"This report summarizes visitor numbers and survey results for the summer season\". The figures and the survey that follow detail this review.",
+              "distractors": {
+                "B": "The boat tours already exist: they \"remained the most popular activity\".",
+                "C": "Hotels are only mentioned for their occupancy rate; no prices are compared.",
+                "D": "The board plans a shuttle and maps, not a new parking lot, and asks for no funding."
+              },
+              "trap": "In a report, the opening sentence states its subject; measures proposed at the end are consequences, not the purpose."
+            }
+          }
+        },
+        {
+          "id": "p7-0025-2",
+          "tags": [
+            "synonym-in-context"
+          ],
+          "difficulty": 3,
+          "stem": "The word \"ease\" in paragraph 4 is closest in meaning to",
+          "options": [
+            "comfort",
+            "loosen",
+            "simplify",
+            "reduce"
+          ],
+          "answer": "D",
+          "evidence": [
+            "To ease congestion, the board plans to open a shuttle service from the Eastfield lot next June."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« To ease congestion » : la navette doit diminuer l'encombrement du port, donc le « réduire ». On soulage un problème en le rendant moins fort.",
+              "distractors": {
+                "A": "« comfort » (réconforter) vient du sens « ease someone's pain » ; on ne réconforte pas un embouteillage.",
+                "B": "« loosen » (desserrer) s'applique à une corde ou une règle ; on ne desserre pas un encombrement, on le diminue.",
+                "C": "« simplify » rappelle « make easier » ; mais la navette ne rend pas l'encombrement plus simple, elle le diminue."
+              },
+              "trap": "Avec un mot abstrait, teste chaque synonyme avec le complément exact (« congestion ») : seul celui qui reste naturel est correct."
+            },
+            "en": {
+              "rule": "\"To ease congestion\": the shuttle should lessen the crowding at the harbor, that is, \"reduce\" it. You ease a problem by making it less strong.",
+              "distractors": {
+                "A": "\"comfort\" comes from \"ease someone's pain\"; you do not comfort traffic congestion.",
+                "B": "\"loosen\" suits a rope or a rule; you do not loosen congestion, you lessen it.",
+                "C": "\"simplify\" echoes \"make easier\", but the shuttle does not make congestion simpler, it makes it smaller."
+              },
+              "trap": "With an abstract word, test each synonym with the exact object (\"congestion\"): only the one that stays natural is correct."
+            }
+          }
+        },
+        {
+          "id": "p7-0025-3",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 2,
+          "stem": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"Some visitors said they gave up and left for the neighboring town instead.\"",
+          "options": [
+            "[1]",
+            "[2]",
+            "[3]",
+            "[4]"
+          ],
+          "answer": "C",
+          "evidence": [
+            "The most common complaint was parking near the harbor, where the lots fill up before 10:00 A.M. on weekends."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« gave up » suppose un problème rencontré juste avant : le stationnement saturé (« the lots fill up before 10:00 A.M. »). La phrase prépare ensuite la réponse du conseil, « To ease congestion, the board plans… ».",
+              "distractors": {
+                "A": "En [1], on vient de lire que 86 % des visiteurs sont satisfaits : personne n'a de raison de « give up ».",
+                "B": "En [2], on loue les excursions et le marché nocturne ; abandonner n'a aucun lien avec ces éloges.",
+                "D": "En [4], la phrase précédente propose des cartes de parkings gratuits ; la phrase insérée viendrait après la solution, et non après le problème."
+              },
+              "trap": "Repère dans la phrase à insérer l'événement qu'elle suppose (ici un problème) et place-la juste après sa mention, avant la solution."
+            },
+            "en": {
+              "rule": "\"gave up\" assumes a problem met just before: the full parking (\"the lots fill up before 10:00 A.M.\"). The sentence then leads into the board's response, \"To ease congestion, the board plans…\".",
+              "distractors": {
+                "A": "At [1], we have just read that 86 percent of visitors are satisfied: nobody has a reason to \"give up\".",
+                "B": "At [2], the boat tours and the night market are praised; giving up has no link with this praise.",
+                "D": "At [4], the previous sentence offers maps of free parking; the inserted sentence would come after the solution, not after the problem."
+              },
+              "trap": "Find the event the sentence to insert assumes (here a problem) and place it right after that event, before the solution."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0026",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "chat",
+          "title": "IT Help Desk Chat - Wexford Housing Group",
+          "text": "Farid Nasser (2:05 P.M.): Sunita, I'm looking at your ticket about the slow laptop. Does it happen all day or only when you open the budget spreadsheet?\nSunita Rao (2:07 P.M.): Only with the budget file. It takes about five minutes to open, and then the program often freezes.\nFarid Nasser (2:08 P.M.): That file is 480 MB, which is huge. I can compress it, but I'd need to keep your laptop for about an hour.\nSunita Rao (2:10 P.M.): An hour is fine, but I have a client call at 4:00 P.M. and I need the file for it. Can you finish before then?\nFarid Nasser (2:11 P.M.): Easily. Bring it to the help desk on the second floor and I'll start right away.\nSunita Rao (2:12 P.M.): Sounds like a plan. I'll be there in ten minutes.\nOwen Pritchard (2:14 P.M.): Farid, while you have it, can you also update the antivirus software on that laptop? The patch is due this week.\nFarid Nasser (2:15 P.M.): Will do. I'll also clear out her old temporary files, which should speed things up.\nSunita Rao (2:16 P.M.): Thanks, both of you!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0026-1",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 1,
+          "stem": "What problem does Ms. Rao report?",
+          "options": [
+            "Her laptop will not start.",
+            "She forgot a password.",
+            "A client call was canceled.",
+            "A file takes a long time to open."
+          ],
+          "answer": "D",
+          "evidence": [
+            "It takes about five minutes to open, and then the program often freezes."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Mme Rao répond que le problème vient du fichier de budget : « It takes about five minutes to open ». Un fichier long à ouvrir, c'est ce que dit l'option D.",
+              "distractors": {
+                "A": "L'ordinateur fonctionne : il est seulement lent avec un fichier.",
+                "B": "Aucun mot de passe n'est évoqué.",
+                "C": "L'appel client de 16 h est maintenu : elle en a besoin pour le fichier."
+              },
+              "trap": "Pour une question de détail dans un chat, retrouve la réplique de la personne et reformule-la : « takes five minutes to open » = « takes a long time to open »."
+            },
+            "en": {
+              "rule": "Ms. Rao answers that the problem is with the budget file: \"It takes about five minutes to open\". A file that takes a long time to open is option D.",
+              "distractors": {
+                "A": "The laptop works: it is only slow with one file.",
+                "B": "No password is mentioned.",
+                "C": "The 4:00 P.M. client call is still on: she needs the file for it."
+              },
+              "trap": "For a detail question in a chat, find the person's line and paraphrase it: \"takes five minutes to open\" = \"takes a long time to open\"."
+            }
+          }
+        },
+        {
+          "id": "p7-0026-2",
+          "tags": [
+            "writer-intention"
+          ],
+          "difficulty": 1,
+          "stem": "At 2:12 P.M., what does Ms. Rao most likely mean when she writes, \"Sounds like a plan\"?",
+          "options": [
+            "She thinks the repair will be complicated.",
+            "She agrees to bring her laptop to the help desk.",
+            "She has made a schedule for the client call.",
+            "She wants a different technician."
+          ],
+          "answer": "B",
+          "evidence": [
+            "Bring it to the help desk on the second floor and I'll start right away."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "M. Nasser vient de proposer : « Bring it to the help desk on the second floor and I'll start right away ». « Sounds like a plan » veut dire « d'accord, ça me convient » ; elle ajoute d'ailleurs « I'll be there in ten minutes ».",
+              "distractors": {
+                "A": "Elle ne parle pas de difficulté : l'expression est une approbation.",
+                "C": "« plan » désigne ici la proposition de M. Nasser, pas un programme préparé pour l'appel.",
+                "D": "Elle accepte M. Nasser et va le retrouver : elle ne demande personne d'autre."
+              },
+              "trap": "Une expression idiomatique se lit d'après le message précédent : cherche la proposition ou la question à laquelle elle répond."
+            },
+            "en": {
+              "rule": "Mr. Nasser has just suggested: \"Bring it to the help desk on the second floor and I'll start right away\". \"Sounds like a plan\" means \"that works for me\"; she adds \"I'll be there in ten minutes\".",
+              "distractors": {
+                "A": "She does not mention any difficulty: the expression is an approval.",
+                "C": "\"plan\" refers to Mr. Nasser's suggestion, not to a schedule prepared for the call.",
+                "D": "She accepts Mr. Nasser and is going to meet him: she does not ask for anyone else."
+              },
+              "trap": "An idiom is read from the previous message: look for the suggestion or question it answers."
+            }
+          }
+        },
+        {
+          "id": "p7-0026-3",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 2,
+          "stem": "What is suggested about Ms. Rao's laptop?",
+          "options": [
+            "It will be replaced next week.",
+            "It is too old to run the budget program.",
+            "Its security software is not up to date.",
+            "It was lent to her by the help desk."
+          ],
+          "answer": "C",
+          "evidence": [
+            "can you also update the antivirus software on that laptop? The patch is due this week."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "M. Pritchard demande de mettre à jour l'antivirus et précise « The patch is due this week » : la mise à jour n'est donc pas encore faite, le logiciel de sécurité n'est pas à jour.",
+              "distractors": {
+                "A": "Aucun remplacement n'est évoqué : on compresse un fichier et on nettoie l'ordinateur.",
+                "B": "Le programme s'ouvre, très lentement : le problème est la taille du fichier (480 MB), pas l'âge de la machine.",
+                "D": "C'est « your laptop » : rien n'indique qu'il appartient au service informatique."
+              },
+              "trap": "Une inférence se tire d'une réplique précise, ici la demande de mise à jour : si elle est demandée, c'est qu'elle n'est pas faite."
+            },
+            "en": {
+              "rule": "Mr. Pritchard asks for the antivirus software to be updated and adds \"The patch is due this week\": the update has not been done yet, so the security software is not up to date.",
+              "distractors": {
+                "A": "No replacement is mentioned: a file is compressed and the computer is cleaned up.",
+                "B": "The program opens, very slowly: the problem is the file size (480 MB), not the age of the machine.",
+                "D": "It is \"your laptop\": nothing suggests it belongs to the help desk."
+              },
+              "trap": "An inference comes from one precise line, here the update request: if it is requested, it has not been done."
+            }
+          }
+        },
+        {
+          "id": "p7-0026-4",
+          "tags": [
+            "not-true"
+          ],
+          "difficulty": 3,
+          "stem": "What is NOT stated about the work Mr. Nasser will do on the laptop?",
+          "options": [
+            "He will replace the hard drive.",
+            "He will need about an hour.",
+            "He will compress a large file.",
+            "He will remove old temporary files."
+          ],
+          "answer": "A",
+          "evidence": [
+            "I can compress it, but I'd need to keep your laptop for about an hour.",
+            "I'll also clear out her old temporary files"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "M. Nasser propose de compresser le fichier et de garder l'ordinateur « about an hour », puis de nettoyer les fichiers temporaires. Il ne parle jamais de changer le disque dur.",
+              "distractors": {
+                "B": "Dit : « I'd need to keep your laptop for about an hour ».",
+                "C": "Dit : « I can compress it », à propos du fichier de 480 MB.",
+                "D": "Dit : « I'll also clear out her old temporary files »."
+              },
+              "trap": "Dans un chat, les trois options vraies sont éparpillées sur plusieurs répliques : retrouve-les une à une et garde celle qui n'a aucune trace."
+            },
+            "en": {
+              "rule": "Mr. Nasser offers to compress the file and keep the laptop for \"about an hour\", then to clear temporary files. He never mentions changing the hard drive.",
+              "distractors": {
+                "B": "Stated: \"I'd need to keep your laptop for about an hour\".",
+                "C": "Stated: \"I can compress it\", about the 480 MB file.",
+                "D": "Stated: \"I'll also clear out her old temporary files\"."
+              },
+              "trap": "In a chat, the three true options are spread over several lines: find them one by one and keep the one with no trace."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
