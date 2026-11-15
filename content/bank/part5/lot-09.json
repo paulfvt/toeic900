@@ -1,0 +1,1086 @@
+{
+  "part": 5,
+  "pool": "training",
+  "questions": [
+    {
+      "id": "p5-0241",
+      "part": 5,
+      "tags": [
+        "word-form-noun"
+      ],
+      "difficulty": 1,
+      "stem": "The union's ------- with factory management ended peacefully after two long days of talks.",
+      "options": [
+        "negotiate",
+        "negotiated",
+        "negotiation",
+        "negotiable"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "Après « The union's » (possessif), il faut un nom : « negotiation » est le sujet de « ended ».",
+          "distractors": {
+            "A": "« negotiate » est un verbe à la base verbale : il ne peut pas suivre un possessif.",
+            "B": "« negotiated » est un verbe au passé ou un participe : « the union's negotiated with » n'a pas de sens ici.",
+            "D": "« negotiable » est un adjectif (« négociable ») : on ne peut pas le placer sujet après un possessif."
+          },
+          "trap": "Un possessif (« 's », « his », « the company's ») est toujours suivi d'un nom, éventuellement précédé d'un adjectif."
+        },
+        "en": {
+          "rule": "After the possessive \"The union's\" you need a noun: \"negotiation\" is the subject of \"ended\".",
+          "distractors": {
+            "A": "\"negotiate\" is the base form of a verb, which cannot follow a possessive.",
+            "B": "\"negotiated\" is a past verb or participle: \"the union's negotiated with\" makes no sense here.",
+            "D": "\"negotiable\" is an adjective (\"open to discussion\"): it cannot be the subject after a possessive."
+          },
+          "trap": "A possessive (\"'s\", \"his\", \"the company's\") is always followed by a noun, possibly with an adjective in front."
+        }
+      }
+    },
+    {
+      "id": "p5-0242",
+      "part": 5,
+      "tags": [
+        "word-form-noun"
+      ],
+      "difficulty": 2,
+      "stem": "Ms. Alvarez's detailed ------- of the supply chain helped the board spot several weak links.",
+      "options": [
+        "evaluate",
+        "evaluated",
+        "evaluative",
+        "evaluation"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "Le trou suit un possessif et un adjectif (« detailed ») et précède « of » : il faut un nom, « evaluation », sujet de « helped ».",
+          "distractors": {
+            "A": "« evaluate » est un verbe : il ne peut pas être le sujet de « helped ».",
+            "B": "« evaluated » est un verbe au passé ou un participe : il ne peut pas être suivi de « of the supply chain » comme sujet.",
+            "C": "« evaluative » est un adjectif rare : deux adjectifs de suite ne laissent aucun nom pour être le sujet de « helped »."
+          },
+          "trap": "Possessif + adjectif + trou + « of » : cherche le nom, pas un deuxième adjectif."
+        },
+        "en": {
+          "rule": "The blank follows a possessive and an adjective (\"detailed\") and comes before \"of\": you need a noun, \"evaluation\", as the subject of \"helped\".",
+          "distractors": {
+            "A": "\"evaluate\" is a verb: it cannot be the subject of \"helped\".",
+            "B": "\"evaluated\" is a past verb or participle: it cannot be the subject here, followed by \"of the supply chain\".",
+            "C": "\"evaluative\" is a rare adjective: two adjectives in a row leave no noun to be the subject of \"helped\"."
+          },
+          "trap": "Possessive + adjective + blank + \"of\": look for the noun, not a second adjective."
+        }
+      }
+    },
+    {
+      "id": "p5-0243",
+      "part": 5,
+      "tags": [
+        "word-form-noun"
+      ],
+      "difficulty": 2,
+      "stem": "Before signing the lease, Mr. Dube asked the landlord for a written ------- of the monthly fees.",
+      "options": [
+        "explain",
+        "explanation",
+        "explained",
+        "explanatory"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "Après l'article « a » et l'adjectif « written », il faut un nom suivi de « of » : « explanation ».",
+          "distractors": {
+            "A": "« explain » est un verbe : il ne se place pas après « a written ».",
+            "C": "« explained » est un participe ou un passé : on ne peut pas dire « a written explained of ».",
+            "D": "« explanatory » est un adjectif (« explicatif ») : il lui manque le nom qu'il devrait décrire, et il ne se construit pas avec « of »."
+          },
+          "trap": "Article + adjectif + trou : le trou est un nom, surtout s'il est suivi de « of »."
+        },
+        "en": {
+          "rule": "After the article \"a\" and the adjective \"written\", you need a noun followed by \"of\": \"explanation\".",
+          "distractors": {
+            "A": "\"explain\" is a verb: it does not fit after \"a written\".",
+            "C": "\"explained\" is a past form or participle: you cannot say \"a written explained of\".",
+            "D": "\"explanatory\" is an adjective (\"meant to explain\"): it leaves no noun to describe, and it is not followed by \"of\"."
+          },
+          "trap": "Article + adjective + blank: the blank is a noun, especially when \"of\" follows."
+        }
+      }
+    },
+    {
+      "id": "p5-0244",
+      "part": 5,
+      "tags": [
+        "word-form-noun"
+      ],
+      "difficulty": 2,
+      "stem": "The ------- of the three regional offices into one site will save the company about two million dollars a year.",
+      "options": [
+        "consolidate",
+        "consolidates",
+        "consolidation",
+        "consolidated"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "Après l'article « The », il faut un nom, sujet de « will save » : « consolidation ». Le groupe « of the three regional offices into one site » le complète.",
+          "distractors": {
+            "A": "« consolidate » est un verbe à la base verbale : il ne peut pas suivre « The » comme sujet.",
+            "B": "« consolidates » est un verbe à la 3e personne : on ne peut pas le placer directement après un article.",
+            "D": "« consolidated » est un participe : « The consolidated of » n'a pas de sens, il faudrait un nom derrière."
+          },
+          "trap": "Article + trou + « of » : un nom est attendu, même si la phrase est longue."
+        },
+        "en": {
+          "rule": "After the article \"The\" you need a noun, the subject of \"will save\": \"consolidation\". The phrase \"of the three regional offices into one site\" completes it.",
+          "distractors": {
+            "A": "\"consolidate\" is the base form of a verb: it cannot follow \"The\" as a subject.",
+            "B": "\"consolidates\" is a third-person verb: it cannot come straight after an article.",
+            "D": "\"consolidated\" is a participle: \"The consolidated of\" makes no sense, a noun should follow."
+          },
+          "trap": "Article + blank + \"of\": a noun is expected, even in a long sentence."
+        }
+      }
+    },
+    {
+      "id": "p5-0245",
+      "part": 5,
+      "tags": [
+        "word-form-adverb"
+      ],
+      "difficulty": 2,
+      "stem": "The new intern handled the angry customer's complaint ------- and professionally.",
+      "options": [
+        "calm",
+        "calmer",
+        "calmly",
+        "calmness"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "« and professionally » est un adverbe qui décrit « handled » : le mot relié par « and » doit être de même nature, donc l'adverbe « calmly ».",
+          "distractors": {
+            "A": "« calm » est un adjectif : il ne peut pas décrire le verbe « handled ».",
+            "B": "« calmer » est un comparatif d'adjectif : même problème, et rien dans la phrase n'est comparé.",
+            "D": "« calmness » est un nom : il ne peut pas être relié à l'adverbe « professionally » par « and »."
+          },
+          "trap": "Deux éléments reliés par « and » ont la même nature : adverbe avec adverbe."
+        },
+        "en": {
+          "rule": "\"and professionally\" is an adverb describing \"handled\": the word joined by \"and\" must be the same kind, so the adverb \"calmly\".",
+          "distractors": {
+            "A": "\"calm\" is an adjective: it cannot describe the verb \"handled\".",
+            "B": "\"calmer\" is a comparative adjective: same problem, and nothing is being compared.",
+            "D": "\"calmness\" is a noun: it cannot be joined to the adverb \"professionally\" with \"and\"."
+          },
+          "trap": "Two items joined by \"and\" are the same kind of word: adverb with adverb."
+        }
+      }
+    },
+    {
+      "id": "p5-0246",
+      "part": 5,
+      "tags": [
+        "word-form-adverb"
+      ],
+      "difficulty": 1,
+      "stem": "Sales of electric scooters have risen ------- since the city opened its new network of bike lanes.",
+      "options": [
+        "sharp",
+        "sharpen",
+        "sharpness",
+        "sharply"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "Le verbe « have risen » est déjà complet : pour dire comment les ventes ont augmenté, il faut un adverbe, « sharply ».",
+          "distractors": {
+            "A": "« sharp » est un adjectif : il ne peut pas décrire un verbe.",
+            "B": "« sharpen » est un verbe (« aiguiser ») : « have risen sharpen » est impossible.",
+            "C": "« sharpness » est un nom : il n'a pas sa place derrière « have risen »."
+          },
+          "trap": "Un verbe complet qu'on veut préciser (comment ? à quel rythme ?) appelle un adverbe en -ly."
+        },
+        "en": {
+          "rule": "The verb \"have risen\" is already complete: to say how sales increased you need an adverb, \"sharply\".",
+          "distractors": {
+            "A": "\"sharp\" is an adjective: it cannot describe a verb.",
+            "B": "\"sharpen\" is a verb (\"to make sharper\"): \"have risen sharpen\" is impossible.",
+            "C": "\"sharpness\" is a noun: it has no place after \"have risen\"."
+          },
+          "trap": "A complete verb you want to describe (how? how fast?) takes an -ly adverb."
+        }
+      }
+    },
+    {
+      "id": "p5-0247",
+      "part": 5,
+      "tags": [
+        "word-form-adverb"
+      ],
+      "difficulty": 2,
+      "stem": "Ms. Bianchi was ------- aware that the contract deadline would not be extended under any circumstances.",
+      "options": [
+        "acute",
+        "acuity",
+        "acuteness",
+        "acutely"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "« aware » est un adjectif : pour le renforcer, il faut un adverbe placé devant, « acutely » (« acutely aware » = tout à fait conscient).",
+          "distractors": {
+            "A": "« acute » est un adjectif : deux adjectifs de suite ne s'enchaînent pas ainsi, et le sens ne convient pas.",
+            "B": "« acuity » est un nom (« acuité ») : il ne peut pas modifier « aware ».",
+            "C": "« acuteness » est un nom : même problème, un nom ne précise pas un adjectif."
+          },
+          "trap": "Adverbe + adjectif : l'adverbe en -ly renforce un adjectif (« acutely aware », « highly skilled »)."
+        },
+        "en": {
+          "rule": "\"aware\" is an adjective: to strengthen it you need an adverb in front, \"acutely\" (\"acutely aware\" = fully conscious of).",
+          "distractors": {
+            "A": "\"acute\" is an adjective: two adjectives do not combine this way, and the meaning does not fit.",
+            "B": "\"acuity\" is a noun (sharpness of mind or sight): it cannot modify \"aware\".",
+            "C": "\"acuteness\" is a noun: same problem, a noun does not modify an adjective."
+          },
+          "trap": "Adverb + adjective: an -ly adverb strengthens an adjective (\"acutely aware\", \"highly skilled\")."
+        }
+      }
+    },
+    {
+      "id": "p5-0248",
+      "part": 5,
+      "tags": [
+        "verb-tense"
+      ],
+      "difficulty": 2,
+      "stem": "By the time the auditors arrived on Monday morning, the accounting team ------- every invoice from the previous year.",
+      "options": [
+        "organizes",
+        "had organized",
+        "will have organized",
+        "is organizing"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "« By the time » + passé simple (« arrived ») : l'action du trou s'est terminée avant l'arrivée des auditeurs, donc le plus-que-parfait « had organized ».",
+          "distractors": {
+            "A": "« organizes » est un présent : il ne va pas avec un événement passé (« arrived »).",
+            "C": "« will have organized » est un futur antérieur : il parle d'une action à venir, or les auditeurs sont déjà arrivés.",
+            "D": "« is organizing » est un présent continu : il décrit une action en cours maintenant, pas antérieure à un moment passé."
+          },
+          "trap": "« By the time » + passé simple dans la subordonnée : la principale se met souvent au plus-que-parfait."
+        },
+        "en": {
+          "rule": "\"By the time\" + simple past (\"arrived\"): the action in the blank was finished before the auditors came, so use the past perfect \"had organized\".",
+          "distractors": {
+            "A": "\"organizes\" is present tense: it does not fit a past event (\"arrived\").",
+            "C": "\"will have organized\" is a future perfect: it talks about something still to come, but the auditors have already arrived.",
+            "D": "\"is organizing\" is a present continuous: it describes an action happening now, not before a past moment."
+          },
+          "trap": "\"By the time\" + simple past in the clause: the main clause is often in the past perfect."
+        }
+      }
+    },
+    {
+      "id": "p5-0249",
+      "part": 5,
+      "tags": [
+        "verb-tense"
+      ],
+      "difficulty": 2,
+      "stem": "Next quarter, the logistics firm ------- its aging fleet with forty electric vans, according to the director.",
+      "options": [
+        "replaced",
+        "has replaced",
+        "will replace",
+        "was replacing"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "« Next quarter » place l'action dans le futur : il faut « will replace ».",
+          "distractors": {
+            "A": "« replaced » est un passé simple : il est incompatible avec « next quarter ».",
+            "B": "« has replaced » est un présent parfait : il parle d'une action déjà faite ou liée au présent, pas d'un trimestre à venir.",
+            "D": "« was replacing » est un passé continu : il décrit une action passée en cours, pas un projet futur."
+          },
+          "trap": "Un repère de temps futur (« next quarter », « next year ») exclut les temps du passé."
+        },
+        "en": {
+          "rule": "\"Next quarter\" puts the action in the future: you need \"will replace\".",
+          "distractors": {
+            "A": "\"replaced\" is a simple past: it clashes with \"next quarter\".",
+            "B": "\"has replaced\" is a present perfect: it talks about something already done, not about a coming quarter.",
+            "D": "\"was replacing\" is a past continuous: it describes an action in progress in the past, not a future plan."
+          },
+          "trap": "A future time marker (\"next quarter\", \"next year\") rules out past tenses."
+        }
+      }
+    },
+    {
+      "id": "p5-0250",
+      "part": 5,
+      "tags": [
+        "verb-tense"
+      ],
+      "difficulty": 3,
+      "stem": "The bakery that Mr. Lund founded as a food truck in 2009 ------- to thirty locations since the start of last year.",
+      "options": [
+        "expanded",
+        "expands",
+        "has expanded",
+        "was expanding"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "L'indice est « since the start of last year » : une action commencée dans le passé et qui dure jusqu'à maintenant demande le présent parfait, « has expanded ». « in 2009 » concerne seulement la fondation, pas le verbe du trou.",
+          "distractors": {
+            "A": "« expanded » est un passé simple : il ne s'emploie pas avec « since » (début d'une période qui continue).",
+            "B": "« expands » est un présent simple : il ne marque pas le lien entre le passé et maintenant que « since » exige.",
+            "D": "« was expanding » est un passé continu : il décrit une action en cours à un moment passé précis, pas depuis une date jusqu'à aujourd'hui."
+          },
+          "trap": "« since » + point de départ dans le passé : présent parfait. Ne te laisse pas attirer par la date « 2009 » qui appartient à une autre proposition."
+        },
+        "en": {
+          "rule": "The clue is \"since the start of last year\": an action that began in the past and continues up to now takes the present perfect, \"has expanded\". \"in 2009\" only refers to the founding, not to the verb in the blank.",
+          "distractors": {
+            "A": "\"expanded\" is a simple past: it is not used with \"since\" (the start of a period that continues).",
+            "B": "\"expands\" is a simple present: it does not show the link between past and now that \"since\" requires.",
+            "D": "\"was expanding\" is a past continuous: it describes an action in progress at one past moment, not from a date until today."
+          },
+          "trap": "\"since\" + starting point in the past: present perfect. Do not be lured by the date \"2009\", which belongs to another clause."
+        }
+      }
+    },
+    {
+      "id": "p5-0251",
+      "part": 5,
+      "tags": [
+        "verb-tense"
+      ],
+      "difficulty": 3,
+      "stem": "If the client, who has been reviewing the plans for weeks, ------- the revised budget before Friday, the design team will start work on Monday.",
+      "options": [
+        "approves",
+        "will approve",
+        "would approve",
+        "will have approved"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "Dans une condition réelle (« If ... , ... will start »), la proposition en « if » se met au présent, même pour un événement futur : « approves ». Le sujet est « the client », et la relative « who has been reviewing » ne change pas le temps du verbe principal de la condition.",
+          "distractors": {
+            "B": "« will approve » est un futur : on n'emploie jamais « will » dans la proposition en « if » d'une condition réelle.",
+            "C": "« would approve » est un conditionnel : il va avec une condition irréelle (« if ... did »), alors que la principale est au futur (« will start »).",
+            "D": "« will have approved » est un futur antérieur : il ne s'emploie pas après « if » dans ce type de condition."
+          },
+          "trap": "« If » + présent, « will » dans l'autre partie : pas de « will » juste après « if »."
+        },
+        "en": {
+          "rule": "In a real condition (\"If ... , ... will start\"), the \"if\" clause takes the present tense even for a future event: \"approves\". The subject is \"the client\"; the relative clause \"who has been reviewing\" does not change the verb of the condition.",
+          "distractors": {
+            "B": "\"will approve\" is a future: \"will\" is not used in the \"if\" clause of a real condition.",
+            "C": "\"would approve\" is a conditional: it goes with an unreal condition (\"if ... did\"), but the main clause is future (\"will start\").",
+            "D": "\"will have approved\" is a future perfect: it is not used after \"if\" in this kind of condition."
+          },
+          "trap": "\"If\" + present, \"will\" in the other half: no \"will\" right after \"if\"."
+        }
+      }
+    },
+    {
+      "id": "p5-0252",
+      "part": 5,
+      "tags": [
+        "passive-voice"
+      ],
+      "difficulty": 2,
+      "stem": "The factory's new conveyor belts ------- by a team of engineers from Osaka last month.",
+      "options": [
+        "install",
+        "installing",
+        "were installed",
+        "have installed"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "Les convoyeurs ne s'installent pas eux-mêmes, et « by a team of engineers » donne l'agent : il faut le passif. « last month » demande le passé : « were installed ».",
+          "distractors": {
+            "A": "« install » est une base verbale : elle ne forme pas un passif et ne convient pas à un événement du mois dernier.",
+            "B": "« installing » ne peut pas être le verbe principal sans auxiliaire.",
+            "D": "« have installed » est actif et demande un complément d'objet : les convoyeurs sont le sujet, pas ce qui installe. Il ne va pas non plus avec « last month »."
+          },
+          "trap": "« by + agent » derrière le trou, et un sujet qui subit l'action : passif (be + participe passé)."
+        },
+        "en": {
+          "rule": "Conveyor belts cannot install themselves, and \"by a team of engineers\" names the agent: you need a passive. \"last month\" calls for the past: \"were installed\".",
+          "distractors": {
+            "A": "\"install\" is a base form: it is not a passive and does not fit an event from last month.",
+            "B": "\"installing\" cannot be the main verb without an auxiliary.",
+            "D": "\"have installed\" is active and needs an object: the belts are the subject, not the ones installing. It also clashes with \"last month\"."
+          },
+          "trap": "\"by + agent\" after the blank and a subject that receives the action: passive (be + past participle)."
+        }
+      }
+    },
+    {
+      "id": "p5-0253",
+      "part": 5,
+      "tags": [
+        "passive-voice"
+      ],
+      "difficulty": 2,
+      "stem": "Ms. Okafor's proposal ------- with great enthusiasm by the board at yesterday's meeting.",
+      "options": [
+        "received",
+        "was received",
+        "has received",
+        "receiving"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "La phrase n'a pas encore de verbe principal et la proposition « est reçue » par le conseil (« by the board ») : il faut le passif au passé, « was received » (« yesterday's meeting »).",
+          "distractors": {
+            "A": "« received » seul est un participe sans auxiliaire : la phrase resterait sans verbe principal, et la proposition ne peut pas « recevoir » le conseil.",
+            "C": "« has received » est actif : la proposition ne peut pas « recevoir » le conseil, et le temps ne convient pas à « yesterday's meeting ».",
+            "D": "« receiving » est un participe présent : il ne peut pas être le verbe principal de la phrase."
+          },
+          "trap": "Sujet = la chose qui subit l'action + « by + agent » : be + participe passé."
+        },
+        "en": {
+          "rule": "The sentence has no main verb yet and the proposal is \"received\" by the board (\"by the board\"): you need the past passive, \"was received\" (\"yesterday's meeting\").",
+          "distractors": {
+            "A": "\"received\" alone is a participle with no auxiliary: the sentence would have no main verb, and the proposal cannot \"receive\" the board.",
+            "C": "\"has received\" is active: the proposal cannot \"receive\" the board, and the tense does not fit \"yesterday's meeting\".",
+            "D": "\"receiving\" is a present participle: it cannot be the main verb of the sentence."
+          },
+          "trap": "Subject = the thing that receives the action + \"by + agent\": be + past participle."
+        }
+      }
+    },
+    {
+      "id": "p5-0254",
+      "part": 5,
+      "tags": [
+        "passive-voice"
+      ],
+      "difficulty": 3,
+      "stem": "The three engineers whose designs ------- by the panel last week will be invited to present at the spring conference.",
+      "options": [
+        "were selected",
+        "selected",
+        "have selected",
+        "selecting"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "Dans la relative « whose designs ... », les plans sont choisis par le jury (« by the panel ») : il faut un passif au passé, « were selected ». Le verbe principal de la phrase est « will be invited ».",
+          "distractors": {
+            "B": "« selected » seul serait un passé actif : « designs » ne peut pas choisir quelqu'un, et « by the panel » montre que le sujet subit l'action.",
+            "C": "« have selected » est actif et demande un objet ; il ne va pas non plus avec « last week ».",
+            "D": "« selecting » est un participe présent : il ne peut pas être le verbe de la relative."
+          },
+          "trap": "Dans une relative, cherche le sujet réel du trou (ici « designs ») et vois s'il agit ou subit."
+        },
+        "en": {
+          "rule": "In the relative clause \"whose designs ...\", the designs are chosen by the panel (\"by the panel\"): you need a past passive, \"were selected\". The main verb of the sentence is \"will be invited\".",
+          "distractors": {
+            "B": "\"selected\" alone would be an active past: designs cannot choose anyone, and \"by the panel\" shows the subject receives the action.",
+            "C": "\"have selected\" is active and needs an object; it also does not fit \"last week\".",
+            "D": "\"selecting\" is a present participle: it cannot be the verb of the relative clause."
+          },
+          "trap": "In a relative clause, find the real subject of the blank (here \"designs\") and check whether it acts or receives."
+        }
+      }
+    },
+    {
+      "id": "p5-0255",
+      "part": 5,
+      "tags": [
+        "passive-voice"
+      ],
+      "difficulty": 3,
+      "stem": "Passengers whose luggage ------- during the connecting flight should report it before leaving the airport.",
+      "options": [
+        "lose",
+        "loses",
+        "has lost",
+        "was lost"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "Dans « whose luggage ------- », les bagages sont perdus (ils ne perdent rien) : il faut le passif, « was lost ». Le verbe principal est « should report ».",
+          "distractors": {
+            "A": "« lose » est actif et à la base verbale : les bagages ne peuvent pas « perdre » quelque chose, et le verbe ne s'accorde pas avec « luggage ».",
+            "B": "« loses » est actif et attendrait un objet : « luggage loses » n'a pas de sens ici.",
+            "C": "« has lost » est actif et sans objet : il faudrait « has been lost » pour être un passif correct."
+          },
+          "trap": "Un objet (bagages, colis, dossier) « est perdu » : passif. Ne l'attribue pas à l'action de perdre."
+        },
+        "en": {
+          "rule": "In \"whose luggage -------\", the luggage is lost (it does not lose anything): you need a passive, \"was lost\". The main verb is \"should report\".",
+          "distractors": {
+            "A": "\"lose\" is active and a base form: luggage cannot \"lose\" something, and the verb does not agree with \"luggage\".",
+            "B": "\"loses\" is active and would need an object: \"luggage loses\" makes no sense here.",
+            "C": "\"has lost\" is active with no object: it would need to be \"has been lost\" to be a correct passive."
+          },
+          "trap": "An object (luggage, parcel, file) \"is lost\": passive. Do not make it the one doing the losing."
+        }
+      }
+    },
+    {
+      "id": "p5-0256",
+      "part": 5,
+      "tags": [
+        "participle-adjectives"
+      ],
+      "difficulty": 3,
+      "stem": "Several technicians on the night shift, ------- by the constant changes to the weekly schedule, asked to meet with the director.",
+      "options": [
+        "overwhelm",
+        "overwhelmed",
+        "overwhelming",
+        "overwhelmingly"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "Les techniciens ressentent l'émotion et « by the constant changes » donne la cause : il faut le participe passé en -ed, « overwhelmed ». Le verbe principal est « asked ».",
+          "distractors": {
+            "A": "« overwhelm » est une base verbale : elle ne peut pas introduire une apposition entre virgules.",
+            "C": "« overwhelming » décrit ce qui provoque l'effet (« changes that overwhelm »), pas ceux qui le subissent.",
+            "D": "« overwhelmingly » est un adverbe : il ne peut pas former une apposition avec « by the changes »."
+          },
+          "trap": "-ed = celui qui ressent ; -ing = la cause. « by + cause » derrière le trou confirme le -ed."
+        },
+        "en": {
+          "rule": "The technicians feel the emotion and \"by the constant changes\" gives the cause: you need the -ed participle, \"overwhelmed\". The main verb is \"asked\".",
+          "distractors": {
+            "A": "\"overwhelm\" is a base form: it cannot introduce a phrase set off by commas.",
+            "C": "\"overwhelming\" describes what causes the effect (\"changes that overwhelm\"), not the people who feel it.",
+            "D": "\"overwhelmingly\" is an adverb: it cannot form a phrase with \"by the changes\"."
+          },
+          "trap": "-ed = the one who feels it; -ing = the cause. \"by + cause\" after the blank confirms -ed."
+        }
+      }
+    },
+    {
+      "id": "p5-0257",
+      "part": 5,
+      "tags": [
+        "participle-adjectives"
+      ],
+      "difficulty": 1,
+      "stem": "Mr. Kim gave a ------- presentation that held the audience's attention until the very last slide.",
+      "options": [
+        "fascinating",
+        "fascinated",
+        "fascinate",
+        "fascination"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "Le trou est un adjectif devant « presentation ». La présentation provoque l'intérêt, donc le participe présent : « fascinating ».",
+          "distractors": {
+            "B": "« fascinated » décrit celui qui ressent l'intérêt (« the audience was fascinated »), pas la présentation.",
+            "C": "« fascinate » est une base verbale : elle ne peut pas décrire un nom devant lui.",
+            "D": "« fascination » est un nom : « a fascination presentation » n'a pas de sens."
+          },
+          "trap": "Ce qui provoque l'émotion (présentation, nouvelle, film) prend -ing."
+        },
+        "en": {
+          "rule": "The blank is an adjective before \"presentation\". The presentation causes the interest, so use the present participle: \"fascinating\".",
+          "distractors": {
+            "B": "\"fascinated\" describes the one who feels the interest (\"the audience was fascinated\"), not the presentation.",
+            "C": "\"fascinate\" is a base verb form: it cannot describe a noun placed after it.",
+            "D": "\"fascination\" is a noun: \"a fascination presentation\" makes no sense."
+          },
+          "trap": "What causes the feeling (presentation, news, film) takes -ing."
+        }
+      }
+    },
+    {
+      "id": "p5-0258",
+      "part": 5,
+      "tags": [
+        "participle-adjectives"
+      ],
+      "difficulty": 1,
+      "stem": "The report contained ------- figures that forced the team to recheck every source before the meeting.",
+      "options": [
+        "surprising",
+        "surprised",
+        "surprisingly",
+        "surprises"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "Le trou précède le nom « figures » : il faut un adjectif. Les chiffres provoquent la surprise, donc « surprising ».",
+          "distractors": {
+            "B": "« surprised » décrit celui qui est surpris (« the team was surprised »), pas ce qui surprend.",
+            "C": "« surprisingly » est un adverbe : il ne peut pas décrire directement un nom.",
+            "D": "« surprises » est un nom pluriel ou un verbe : « surprises figures » n'a pas de sens."
+          },
+          "trap": "Adjectif devant un nom : -ing si le nom provoque, -ed si le nom ressent."
+        },
+        "en": {
+          "rule": "The blank comes before the noun \"figures\": you need an adjective. The figures cause the surprise, so \"surprising\".",
+          "distractors": {
+            "B": "\"surprised\" describes the one who is surprised (\"the team was surprised\"), not what surprises.",
+            "C": "\"surprisingly\" is an adverb: it cannot describe a noun directly.",
+            "D": "\"surprises\" is a plural noun or a verb: \"surprises figures\" makes no sense."
+          },
+          "trap": "Adjective before a noun: -ing if the noun causes the feeling, -ed if it feels it."
+        }
+      }
+    },
+    {
+      "id": "p5-0259",
+      "part": 5,
+      "tags": [
+        "relative-clauses"
+      ],
+      "difficulty": 1,
+      "stem": "The conference room ------- the staff meeting will be held has been fitted with a new projector.",
+      "options": [
+        "whom",
+        "which",
+        "when",
+        "where"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "« the conference room » est un lieu et la proposition suivante est complète (« the staff meeting will be held ») : il faut « where ».",
+          "distractors": {
+            "A": "« whom » remplace une personne : une salle n'en est pas une.",
+            "B": "« which » remplace une chose objet du verbe ; ici la proposition est complète et il faudrait « in which ». Sans préposition, la phrase est fautive.",
+            "C": "« when » renvoie à un moment (« the day when »), pas à un lieu."
+          },
+          "trap": "Antécédent = lieu + proposition complète derrière : « where »."
+        },
+        "en": {
+          "rule": "\"the conference room\" is a place and the clause that follows is complete (\"the staff meeting will be held\"): you need \"where\".",
+          "distractors": {
+            "A": "\"whom\" stands for a person: a room is not one.",
+            "B": "\"which\" stands for a thing as the object of a verb; here the clause is complete and it would need \"in which\". Without the preposition the sentence is wrong.",
+            "C": "\"when\" refers to a time (\"the day when\"), not a place."
+          },
+          "trap": "Antecedent = place + complete clause after it: \"where\"."
+        }
+      }
+    },
+    {
+      "id": "p5-0260",
+      "part": 5,
+      "tags": [
+        "relative-clauses"
+      ],
+      "difficulty": 1,
+      "stem": "Ms. Reyes, ------- joined the firm in March, has already simplified the entire filing system.",
+      "options": [
+        "whom",
+        "who",
+        "whose",
+        "what"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "« Ms. Reyes » est une personne et le trou est le sujet de « joined » : il faut « who ».",
+          "distractors": {
+            "A": "« whom » est la forme complément ; ici le pronom est sujet de « joined », donc « who » est requis.",
+            "C": "« whose » marque la possession et serait suivi d'un nom (« whose team joined »).",
+            "D": "« what » ne peut pas introduire une relative après un nom précis comme « Ms. Reyes »."
+          },
+          "trap": "Personne + verbe directement derrière le trou : « who »."
+        },
+        "en": {
+          "rule": "\"Ms. Reyes\" is a person and the blank is the subject of \"joined\": you need \"who\".",
+          "distractors": {
+            "A": "\"whom\" is the object form; here the pronoun is the subject of \"joined\", so \"who\" is required.",
+            "C": "\"whose\" shows possession and would be followed by a noun (\"whose team joined\").",
+            "D": "\"what\" cannot introduce a relative clause after a specific noun like \"Ms. Reyes\"."
+          },
+          "trap": "Person + verb right after the blank: \"who\"."
+        }
+      }
+    },
+    {
+      "id": "p5-0261",
+      "part": 5,
+      "tags": [
+        "relative-clauses"
+      ],
+      "difficulty": 3,
+      "stem": "The old warehouse, ------- the company had leased for nearly ten years despite frequent leaks, was finally sold in May.",
+      "options": [
+        "whom",
+        "which",
+        "whose",
+        "where"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "« The old warehouse » est une chose, objet de « had leased », dans une relative entre virgules : il faut « which ». Le sujet de la phrase est « warehouse », le verbe « was sold ».",
+          "distractors": {
+            "A": "« whom » ne s'emploie que pour des personnes.",
+            "C": "« whose » marque la possession et serait suivi d'un nom : « whose the company » est impossible.",
+            "D": "« where » renvoie à un lieu et demande une proposition complète ; ici « had leased » n'a pas d'objet, il faudrait « which »."
+          },
+          "trap": "Entre virgules, la relative sur une chose prend « which ». Le verbe principal est parfois très loin du sujet."
+        },
+        "en": {
+          "rule": "\"The old warehouse\" is a thing, the object of \"had leased\", in a relative clause set off by commas: you need \"which\". The subject of the sentence is \"warehouse\" and the verb is \"was sold\".",
+          "distractors": {
+            "A": "\"whom\" is only used for people.",
+            "C": "\"whose\" shows possession and would be followed by a noun: \"whose the company\" is impossible.",
+            "D": "\"where\" refers to a place and needs a complete clause; here \"had leased\" has no object, so \"which\" is required."
+          },
+          "trap": "Between commas, a relative clause about a thing takes \"which\". The main verb is sometimes far from the subject."
+        }
+      }
+    },
+    {
+      "id": "p5-0262",
+      "part": 5,
+      "tags": [
+        "relative-clauses"
+      ],
+      "difficulty": 2,
+      "stem": "The training manual ------- new employees receive on their first day is now available in three languages.",
+      "options": [
+        "who",
+        "whose",
+        "what",
+        "that"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "« manual » est une chose, objet de « receive » : la relative est introduite par « that » (ou « which »).",
+          "distractors": {
+            "A": "« who » ne s'emploie que pour des personnes.",
+            "B": "« whose » marque la possession et serait suivi d'un nom : « whose new employees » changerait tout le sens.",
+            "C": "« what » n'a pas d'antécédent : on ne le met pas derrière un nom comme « manual »."
+          },
+          "trap": "« what » ne remplace jamais un nom déjà cité ; après un nom de chose, c'est « that » ou « which »."
+        },
+        "en": {
+          "rule": "\"manual\" is a thing, the object of \"receive\": the relative clause is introduced by \"that\" (or \"which\").",
+          "distractors": {
+            "A": "\"who\" is only used for people.",
+            "B": "\"whose\" shows possession and would be followed by a noun: \"whose new employees\" would change the whole meaning.",
+            "C": "\"what\" has no antecedent: it is not placed after a noun like \"manual\"."
+          },
+          "trap": "\"what\" never replaces a noun already mentioned; after a noun for a thing, use \"that\" or \"which\"."
+        }
+      }
+    },
+    {
+      "id": "p5-0263",
+      "part": 5,
+      "tags": [
+        "prepositions"
+      ],
+      "difficulty": 3,
+      "stem": "The attendees at the afternoon seminar, most of whom were first-time visitors, were divided ------- four groups, each led by a senior analyst.",
+      "options": [
+        "by",
+        "on",
+        "into",
+        "of"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "« divided into » + nombre de groupes : « into » exprime la division en parties. Le sujet est « The attendees », éloigné du trou par la relative « most of whom ... ».",
+          "distractors": {
+            "A": "« by » s'emploie pour l'agent ou pour une division mathématique : « divided by four groups » n'a pas de sens ici.",
+            "B": "« on » n'a pas de valeur de division : « divided on four groups » est incorrect.",
+            "D": "« of » ne se construit pas avec « divided » pour indiquer les parties obtenues."
+          },
+          "trap": "« divide + into » : on divise EN parties ; « by » = division mathématique ou agent."
+        },
+        "en": {
+          "rule": "\"divided into\" + number of groups: \"into\" expresses division into parts. The subject is \"The attendees\", separated from the blank by the clause \"most of whom ...\".",
+          "distractors": {
+            "A": "\"by\" is used for an agent or for mathematical division: \"divided by four groups\" makes no sense here.",
+            "B": "\"on\" has no meaning of division: \"divided on four groups\" is incorrect.",
+            "D": "\"of\" is not used with \"divided\" to show the resulting parts."
+          },
+          "trap": "\"divide + into\": you divide INTO parts; \"by\" = mathematical division or agent."
+        }
+      }
+    },
+    {
+      "id": "p5-0264",
+      "part": 5,
+      "tags": [
+        "prepositions"
+      ],
+      "difficulty": 3,
+      "stem": "Most of the money that the nonprofit received from donors last winter was spent ------- advertising and travel, leaving little for staff training.",
+      "options": [
+        "on",
+        "by",
+        "through",
+        "with"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "« spend (money) on + nom » : « was spent on advertising and travel ». Le sujet « Most of the money » est loin du trou à cause de la relative.",
+          "distractors": {
+            "B": "« by » introduit un agent (« spent by the nonprofit ») : il ne peut pas suivre un type de dépense.",
+            "C": "« through » exprime un moyen ou un trajet : « spent through advertising » ne dit pas à quoi l'argent a servi.",
+            "D": "« with » ne s'emploie pas après « spent » pour indiquer l'objet de la dépense."
+          },
+          "trap": "On dépense de l'argent « on » quelque chose ; l'agent est introduit par « by »."
+        },
+        "en": {
+          "rule": "\"spend (money) on + noun\": \"was spent on advertising and travel\". The subject \"Most of the money\" is far from the blank because of the relative clause.",
+          "distractors": {
+            "B": "\"by\" introduces an agent (\"spent by the nonprofit\"): it cannot follow a type of expense.",
+            "C": "\"through\" expresses a means or a route: \"spent through advertising\" does not say what the money was used for.",
+            "D": "\"with\" is not used after \"spent\" to show what the money went to."
+          },
+          "trap": "You spend money \"on\" something; the agent is introduced by \"by\"."
+        }
+      }
+    },
+    {
+      "id": "p5-0265",
+      "part": 5,
+      "tags": [
+        "prepositions"
+      ],
+      "difficulty": 1,
+      "stem": "The delivery truck will arrive ------- Thursday morning, so please keep the loading area clear.",
+      "options": [
+        "on",
+        "at",
+        "in",
+        "of"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "Devant un jour de la semaine (« Thursday morning »), on emploie « on ».",
+          "distractors": {
+            "B": "« at » s'emploie avec une heure précise (« at 9 a.m. »), pas avec un jour.",
+            "C": "« in » s'emploie avec un mois, une année ou « the morning » seul, pas avec un nom de jour.",
+            "D": "« of » ne marque pas le temps ici."
+          },
+          "trap": "« on » + jour ; « at » + heure ; « in » + mois, année, saison."
+        },
+        "en": {
+          "rule": "Before a day of the week (\"Thursday morning\"), use \"on\".",
+          "distractors": {
+            "B": "\"at\" is used with a precise time (\"at 9 a.m.\"), not with a day.",
+            "C": "\"in\" is used with a month, a year or \"the morning\" alone, not with a day name.",
+            "D": "\"of\" does not express time here."
+          },
+          "trap": "\"on\" + day; \"at\" + clock time; \"in\" + month, year, season."
+        }
+      }
+    },
+    {
+      "id": "p5-0266",
+      "part": 5,
+      "tags": [
+        "conjunctions-connectors"
+      ],
+      "difficulty": 2,
+      "stem": "------- the new scanners are installed, employees will no longer need to count the inventory by hand.",
+      "options": [
+        "Once",
+        "Unless",
+        "Whereas",
+        "Despite"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "Le trou introduit une proposition complète (« the new scanners are installed ») qui donne le moment à partir duquel l'effet commence : « Once » (« une fois que »).",
+          "distractors": {
+            "B": "« Unless » (« à moins que ») rendrait la phrase absurde : les employés ne comptent plus sauf si les scanners ne sont pas installés ?",
+            "C": "« Whereas » exprime une opposition entre deux faits, pas une condition de temps.",
+            "D": "« Despite » est une préposition : elle ne peut pas introduire un sujet et un verbe."
+          },
+          "trap": "« once » + proposition = « dès que, une fois que » ; vérifie que le sens reste logique avec « unless » et « whereas »."
+        },
+        "en": {
+          "rule": "The blank introduces a full clause (\"the new scanners are installed\") that gives the moment from which the result starts: \"Once\".",
+          "distractors": {
+            "B": "\"Unless\" (\"if not\") would make the sentence absurd: employees stop counting unless the scanners are not installed?",
+            "C": "\"Whereas\" expresses a contrast between two facts, not a time condition.",
+            "D": "\"Despite\" is a preposition: it cannot introduce a subject and a verb."
+          },
+          "trap": "\"once\" + clause = \"as soon as, after\"; check that the meaning still makes sense with \"unless\" and \"whereas\"."
+        }
+      }
+    },
+    {
+      "id": "p5-0267",
+      "part": 5,
+      "tags": [
+        "vocabulary-in-context"
+      ],
+      "difficulty": 2,
+      "stem": "The new conference hall can ------- up to four hundred guests, with extra seating in the gallery.",
+      "options": [
+        "accommodate",
+        "appoint",
+        "accomplish",
+        "accumulate"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "Pour une salle et un nombre de personnes (« up to four hundred guests »), le verbe qui convient est « accommodate » (« pouvoir accueillir »).",
+          "distractors": {
+            "B": "« appoint » signifie nommer quelqu'un à un poste : on ne l'emploie pas pour une capacité.",
+            "C": "« accomplish » signifie réaliser un objectif : une salle ne « réalise » pas des invités.",
+            "D": "« accumulate » signifie amasser peu à peu : il ne s'applique pas à une capacité d'accueil."
+          },
+          "trap": "« accommodate » = loger, accueillir ; à ne pas confondre avec « accomplish », de forme proche."
+        },
+        "en": {
+          "rule": "For a hall and a number of people (\"up to four hundred guests\"), the right verb is \"accommodate\" (\"to have room for\").",
+          "distractors": {
+            "B": "\"appoint\" means to name someone to a position: it is not used for a capacity.",
+            "C": "\"accomplish\" means to achieve a goal: a hall does not \"achieve\" guests.",
+            "D": "\"accumulate\" means to gather bit by bit: it does not apply to a seating capacity."
+          },
+          "trap": "\"accommodate\" = to have room for; do not confuse it with the similar-looking \"accomplish\"."
+        }
+      }
+    },
+    {
+      "id": "p5-0268",
+      "part": 5,
+      "tags": [
+        "vocabulary-in-context"
+      ],
+      "difficulty": 2,
+      "stem": "The airline's new schedule is meant to ------- delays by leaving more time between connecting flights.",
+      "options": [
+        "deserve",
+        "minimize",
+        "occupy",
+        "resemble"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "Laisser plus de temps entre les vols sert à réduire les retards : le verbe attendu est « minimize ».",
+          "distractors": {
+            "A": "« deserve » signifie mériter : un horaire ne « mérite » pas des retards dans ce sens.",
+            "C": "« occupy » signifie occuper (un lieu, du temps) : on ne l'emploie pas pour agir sur des retards.",
+            "D": "« resemble » signifie ressembler à : le sens ne convient pas."
+          },
+          "trap": "Teste chaque verbe dans la phrase avec son sens exact, pas seulement sa forme ou sa fréquence."
+        },
+        "en": {
+          "rule": "Leaving more time between flights is meant to reduce delays: the expected verb is \"minimize\".",
+          "distractors": {
+            "A": "\"deserve\" means to earn: a schedule does not \"deserve\" delays in this sense.",
+            "C": "\"occupy\" means to take up (a place, time): it is not used to act on delays.",
+            "D": "\"resemble\" means to look like: the meaning does not fit."
+          },
+          "trap": "Test each verb in the sentence with its exact meaning, not just its form or how common it is."
+        }
+      }
+    },
+    {
+      "id": "p5-0269",
+      "part": 5,
+      "tags": [
+        "vocabulary-in-context"
+      ],
+      "difficulty": 2,
+      "stem": "The workshop will ------- participants with practical techniques for managing remote teams.",
+      "options": [
+        "inherit",
+        "arrange",
+        "equip",
+        "accuse"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "« equip someone with something » = fournir à quelqu'un les outils ou les compétences : « equip participants with practical techniques ».",
+          "distractors": {
+            "A": "« inherit » signifie hériter : on n'hérite pas de personnes avec des techniques.",
+            "B": "« arrange » signifie organiser ou disposer : il ne se construit pas avec « participants with techniques ».",
+            "D": "« accuse » se construit avec « of » et signifie accuser : le sens ne convient pas."
+          },
+          "trap": "Retiens la construction : « equip + personne + with + outil »."
+        },
+        "en": {
+          "rule": "\"equip someone with something\" = to give someone the tools or skills: \"equip participants with practical techniques\".",
+          "distractors": {
+            "A": "\"inherit\" means to receive from a person who has died: you do not inherit participants with techniques.",
+            "B": "\"arrange\" means to organize or set out: it is not used with \"participants with techniques\".",
+            "D": "\"accuse\" is followed by \"of\" and means to blame: the meaning does not fit."
+          },
+          "trap": "Remember the pattern: \"equip + person + with + tool\"."
+        }
+      }
+    },
+    {
+      "id": "p5-0270",
+      "part": 5,
+      "tags": [
+        "vocabulary-in-context"
+      ],
+      "difficulty": 1,
+      "stem": "Please ------- your receipt for at least thirty days in case you need to return the item.",
+      "options": [
+        "reject",
+        "approve",
+        "waste",
+        "retain"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "Pour pouvoir retourner l'article plus tard, il faut garder le reçu : « retain » (« conserver »).",
+          "distractors": {
+            "A": "« reject » signifie refuser : on ne refuse pas son propre reçu pour pouvoir retourner l'article.",
+            "B": "« approve » signifie approuver : il ne s'emploie pas pour un reçu que l'on garde.",
+            "C": "« waste » signifie gaspiller : le sens va à l'opposé de « in case you need to return »."
+          },
+          "trap": "L'indice « in case you need to return » dit pourquoi on garde le reçu."
+        },
+        "en": {
+          "rule": "To be able to return the item later, you must keep the receipt: \"retain\" (\"to keep\").",
+          "distractors": {
+            "A": "\"reject\" means to refuse: you do not refuse your own receipt in order to return the item.",
+            "B": "\"approve\" means to agree to something: it is not used for a receipt you keep.",
+            "C": "\"waste\" means to use badly or throw away: the meaning is the opposite of \"in case you need to return\"."
+          },
+          "trap": "The clue \"in case you need to return\" tells you why the receipt is kept."
+        }
+      }
+    }
+  ]
+}
