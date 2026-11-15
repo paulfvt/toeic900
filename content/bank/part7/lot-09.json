@@ -1,0 +1,649 @@
+{
+  "part": 7,
+  "pool": "training",
+  "sets": [
+    {
+      "id": "p7-0043",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "report",
+          "title": "Tessaly Bay Visitor Center - Summer Survey Findings",
+          "text": "To: Tessaly Bay Tourism Committee\nFrom: Sabine Wendeborn, Visitor Services Analyst\nDate: September 12\nSubject: Summer survey findings\n\nBetween July 1 and August 31, we asked 212 visitors to complete the attached survey. This report summarizes the results and recommends two changes for the coming season.\n\nFirst, the harbor boat tour is the activity visitors enjoy most. It is run by Marrowgate Harbor Tours, which currently leaves the pier twice a day, at 10:00 A.M. and at 1:30 P.M. Several visitors told our staff that they could not find a departure that suited their plans. I recommend adding a weekend departure at 4:30 P.M.\n\nSecond, visitors asked us to improve one thing more than any other. A weekend shuttle between the Cooper Street lot and the pier, operated by city transit, would help drivers who cannot find a space near the pier. The city has offered to run the shuttle at no cost during its first month.\n\nI would be glad to present the full results at the committee's September 18 meeting."
+        },
+        {
+          "genre": "survey",
+          "title": "Tessaly Bay Visitor Center - Summer Visitor Survey",
+          "text": "Responses collected: July 1 - August 31 (212 visitors)\n\nWhich activity did you enjoy most?\nHarbor boat tour - 46%\nCoastal walking trail - 29%\nFish market - 15%\nMaritime museum - 10%\n\nWhat should we improve first? (one answer only)\nParking near the pier - 38%\nSigns in other languages - 27%\nEvening activities - 22%\nPublic restrooms - 13%\n\nAverage length of stay: 2.4 days"
+        },
+        {
+          "genre": "email",
+          "text": "To: Gwen Pellerin, Marrowgate Harbor Tours\nFrom: Oswin Tamsett, Director, Tessaly Bay Visitor Center\nDate: September 19\nSubject: Weekend departure approved\n\nDear Ms. Pellerin,\n\nAt yesterday's meeting, the tourism committee approved the new weekend departure proposed in Ms. Wendeborn's report, with one change. Because the sun sets earlier in October, the tour should leave one hour earlier than she suggested. The extra tour will start on Saturday, October 4.\n\nPlease confirm by September 26 that your crew can operate it, and send us a short description of the tour, no longer than 40 words, for the guide. We will list the new departure in the fall visitor guide, which goes to print on October 1.\n\nThank you for your continued partnership.\n\nOswin Tamsett"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0043-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 2,
+          "stem": "What is the purpose of the report?",
+          "options": [
+            "To suggest changes based on visitor feedback",
+            "To announce a rise in tour prices",
+            "To ask the committee to hire more guides",
+            "To compare the bay with other destinations"
+          ],
+          "answer": "A",
+          "evidence": [
+            "This report summarizes the results and recommends two changes for the coming season."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le rapport le dit dès le premier paragraphe : il « summarizes the results » du sondage et « recommends two changes ». Il propose donc des changements à partir de l'avis des visiteurs.",
+              "distractors": {
+                "B": "Aucun prix n'est cité dans le rapport : les changements portent sur un horaire et une navette.",
+                "C": "Il n'est jamais question d'embaucher des guides.",
+                "D": "Le rapport ne parle que de Tessaly Bay ; aucune autre destination n'est comparée."
+              },
+              "trap": "Pour une question de but sur un rapport, lis la phrase qui présente le document (« This report… ») : elle donne souvent la réponse mot pour mot."
+            },
+            "en": {
+              "rule": "The report says so in its first paragraph: it \"summarizes the results\" of the survey and \"recommends two changes\". It suggests changes based on visitor feedback.",
+              "distractors": {
+                "B": "No price is mentioned in the report: the changes concern a departure time and a shuttle.",
+                "C": "Hiring guides is never discussed.",
+                "D": "The report deals only with Tessaly Bay; no other destination is compared."
+              },
+              "trap": "For a purpose question about a report, read the sentence that introduces the document (\"This report...\"): it often gives the answer almost word for word."
+            }
+          }
+        },
+        {
+          "id": "p7-0043-2",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 2,
+          "stem": "According to the survey, what did the largest share of visitors enjoy most?",
+          "options": [
+            "A walk along the coast",
+            "A boat trip around the harbor",
+            "A visit to the fish market",
+            "A visit to the maritime museum"
+          ],
+          "answer": "B",
+          "evidence": [
+            "Harbor boat tour - 46%"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Dans la première question du sondage, « Harbor boat tour - 46% » est le score le plus élevé. « A boat trip around the harbor » reformule « Harbor boat tour ».",
+              "distractors": {
+                "A": "« Coastal walking trail » arrive deuxième avec 29 %, loin derrière la visite en bateau.",
+                "C": "« Fish market » ne réunit que 15 % des réponses.",
+                "D": "« Maritime museum » est le dernier choix, avec 10 %."
+              },
+              "trap": "Dans un sondage, la bonne réponse est le plus gros pourcentage de la bonne question : ne confonds pas avec la deuxième question (ce qu'il faut améliorer)."
+            },
+            "en": {
+              "rule": "In the survey's first question, \"Harbor boat tour - 46%\" is the highest score. \"A boat trip around the harbor\" paraphrases \"Harbor boat tour\".",
+              "distractors": {
+                "A": "\"Coastal walking trail\" comes second with 29%, far behind the boat tour.",
+                "C": "\"Fish market\" gets only 15% of the answers.",
+                "D": "\"Maritime museum\" is the last choice, with 10%."
+              },
+              "trap": "In a survey, the answer is the highest percentage of the right question: do not mix it up with the second question (what to improve)."
+            }
+          }
+        },
+        {
+          "id": "p7-0043-3",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 3,
+          "stem": "What share of respondents chose the problem that the proposed shuttle would address?",
+          "options": [
+            "38%",
+            "27%",
+            "22%",
+            "13%"
+          ],
+          "answer": "A",
+          "evidence": [
+            "A weekend shuttle between the Cooper Street lot and the pier, operated by city transit, would help drivers who cannot find a space near the pier.",
+            "Parking near the pier - 38%"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le rapport explique que la navette aiderait « drivers who cannot find a space near the pier ». Dans le sondage, ce problème correspond à « Parking near the pier - 38% ».",
+              "distractors": {
+                "B": "27 % ont choisi « Signs in other languages », sans lien avec la navette.",
+                "C": "22 % ont choisi « Evening activities » : la navette ne change rien aux soirées.",
+                "D": "13 % ont choisi « Public restrooms » : la navette ne les concerne pas."
+              },
+              "trap": "Une question qui relie deux documents ne nomme pas le lien : retrouve dans le premier le problème décrit (une place pour se garer), puis cherche son chiffre dans le second."
+            },
+            "en": {
+              "rule": "The report explains that the shuttle would help \"drivers who cannot find a space near the pier\". In the survey, that problem is \"Parking near the pier - 38%\".",
+              "distractors": {
+                "B": "27% chose \"Signs in other languages\", unrelated to a shuttle.",
+                "C": "22% chose \"Evening activities\": a shuttle does not change evenings.",
+                "D": "13% chose \"Public restrooms\": the shuttle has nothing to do with them."
+              },
+              "trap": "A question linking two documents does not name the link: find the problem described in one (a place to park), then look for its figure in the other."
+            }
+          }
+        },
+        {
+          "id": "p7-0043-4",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 2,
+          "stem": "At what time will the extra tour leave on October 4?",
+          "options": [
+            "2:30 P.M.",
+            "3:30 P.M.",
+            "4:30 P.M.",
+            "5:30 P.M."
+          ],
+          "answer": "B",
+          "evidence": [
+            "I recommend adding a weekend departure at 4:30 P.M.",
+            "the tour should leave one hour earlier than she suggested"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le rapport propose un départ à 4:30 P.M. ; l'e-mail dit que le comité l'a approuvé avec un changement : il partira « one hour earlier than she suggested ». 4:30 moins une heure donne 3:30 P.M.",
+              "distractors": {
+                "A": "2:30 P.M. serait deux heures plus tôt que la proposition ; l'e-mail ne parle que d'une heure.",
+                "C": "4:30 P.M. est l'heure proposée dans le rapport, avant la modification demandée par le comité.",
+                "D": "5:30 P.M. serait une heure plus tard, ce qui est l'inverse de « earlier »."
+              },
+              "trap": "Quand un deuxième document modifie un chiffre du premier, la réponse n'est ni l'ancienne valeur ni l'inverse : applique le changement (« earlier » = moins)."
+            },
+            "en": {
+              "rule": "The report proposes a 4:30 P.M. departure; the e-mail says the committee approved it with one change: it will leave \"one hour earlier than she suggested\". 4:30 minus one hour is 3:30 P.M.",
+              "distractors": {
+                "A": "2:30 P.M. would be two hours earlier than the proposal; the e-mail mentions only one hour.",
+                "C": "4:30 P.M. is the time proposed in the report, before the change requested by the committee.",
+                "D": "5:30 P.M. would be one hour later, the opposite of \"earlier\"."
+              },
+              "trap": "When a second document changes a figure from the first, the answer is neither the old value nor the opposite: apply the change (\"earlier\" = less)."
+            }
+          }
+        },
+        {
+          "id": "p7-0043-5",
+          "tags": [
+            "inference",
+            "cross-reference"
+          ],
+          "difficulty": 3,
+          "stem": "What is suggested about Marrowgate Harbor Tours?",
+          "options": [
+            "It will operate the shuttle to the pier.",
+            "It already offers a departure after 4:00 P.M.",
+            "It asked the committee to approve an extra departure.",
+            "Its tour is visitors' favorite activity."
+          ],
+          "answer": "D",
+          "evidence": [
+            "It is run by Marrowgate Harbor Tours",
+            "Harbor boat tour - 46%"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le rapport indique que le « harbor boat tour » est « run by Marrowgate Harbor Tours », et le sondage place cette visite en tête (46 %). On en déduit que l'activité préférée des visiteurs est celle de Marrowgate Harbor Tours.",
+              "distractors": {
+                "A": "La navette est « operated by city transit », pas par Marrowgate Harbor Tours.",
+                "B": "Marrowgate part seulement à 10:00 A.M. et 1:30 P.M. : le départ de l'après-midi tardif est justement un ajout proposé.",
+                "C": "C'est l'analyste, Mme Wendeborn, qui propose le départ dans son rapport ; l'e-mail demande à Mme Pellerin de confirmer qu'elle peut l'assurer."
+              },
+              "trap": "Une déduction sur deux documents associe un nom d'un côté (Marrowgate Harbor Tours) à un chiffre de l'autre (46 %) : le texte ne les relie jamais dans une seule phrase."
+            },
+            "en": {
+              "rule": "The report says the \"harbor boat tour\" is \"run by Marrowgate Harbor Tours\", and the survey ranks that tour first (46%). You can infer that the visitors' favorite activity is the one run by Marrowgate Harbor Tours.",
+              "distractors": {
+                "A": "The shuttle is \"operated by city transit\", not by Marrowgate Harbor Tours.",
+                "B": "Marrowgate leaves only at 10:00 A.M. and 1:30 P.M.: the late-afternoon departure is precisely the new proposal.",
+                "C": "The analyst, Ms. Wendeborn, proposes the departure in her report; the e-mail asks Ms. Pellerin to confirm she can operate it."
+              },
+              "trap": "An inference across two documents links a name in one (Marrowgate Harbor Tours) to a figure in the other (46%): no single sentence ever connects them."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0044",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "notice",
+          "title": "Thornwick Mobile - Service Notice",
+          "text": "NOTICE TO CUSTOMERS OF THORNWICK MOBILE\n\nNetwork upgrade in the Dunmarrow area\n\nOn Saturday, March 15, from 1:00 A.M. to 5:00 A.M., Thornwick Mobile will upgrade its towers in the Dunmarrow area to the new 5G standard. During this time, mobile calls and data may be interrupted for up to 30 minutes at a time. Home internet service will not be affected, and emergency calls will continue to work normally.\n\nAfter the upgrade, customers with phones made before 2019 may need to restart their devices to reconnect. Customers who still cannot connect after restarting should visit a Thornwick Mobile store. To find out whether a phone works with the new network, use the free checker on our website or ask a member of our staff.\n\nTo help with questions, the Dunmarrow store at 22 Bellows Street will open at 8:00 A.M. that day instead of 10:00 A.M. As thanks for your patience, every customer in the area will receive a credit of $5 on the April bill.\n\nUpdates will be posted on our website and social media pages during the upgrade. We apologize for any inconvenience."
+        },
+        {
+          "genre": "chat",
+          "title": "Thornwick Mobile - Dunmarrow Store Team Chat",
+          "text": "Hollis Rademaker (9:02 A.M.): The upgrade notice went out to customers this morning, so expect questions all week.\nWynne Odell (9:04 A.M.): I already had one. A man asked whether his home Wi-Fi will go down on the 15th.\nHollis Rademaker (9:05 A.M.): Good to know. Please remind everyone that only mobile service is affected.\nWynne Odell (9:06 A.M.): Will do. I will also update the sign by the door and the poster in the front window.\nHollis Rademaker (9:07 A.M.): Thanks. The district manager is visiting next Tuesday, so please keep the shelves tidy.\nHollis Rademaker (9:08 A.M.): Also, we are almost out of the printed fact sheets about the new network. Can someone print 50 more before Friday?\nWynne Odell (9:09 A.M.): I'm on it.\nWynne Odell (9:11 A.M.): By the way, I'm scheduled for the opening shift that Saturday. When should I arrive?\nHollis Rademaker (9:12 A.M.): Thirty minutes before we open, so we can set up the help desk. Thanks, Wynne."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0044-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 2,
+          "stem": "What is the purpose of the notice?",
+          "options": [
+            "To introduce a new mobile phone plan",
+            "To announce the opening of a new store",
+            "To warn customers of a temporary service interruption",
+            "To explain how to cancel a contract"
+          ],
+          "answer": "C",
+          "evidence": [
+            "Thornwick Mobile will upgrade its towers in the Dunmarrow area to the new 5G standard. During this time, mobile calls and data may be interrupted for up to 30 minutes at a time."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "L'avis annonce une mise à niveau des antennes et précise que pendant ce temps les appels et les données « may be interrupted ». Il prévient donc les clients d'une coupure temporaire.",
+              "distractors": {
+                "A": "Aucune offre ni aucun forfait n'est présenté : le texte parle d'infrastructure.",
+                "B": "Le magasin de Dunmarrow existe déjà (« the Dunmarrow store ») ; il ouvre seulement plus tôt ce jour-là.",
+                "D": "Il n'est question d'aucune résiliation de contrat."
+              },
+              "trap": "Pour le but d'un avis, regarde le titre et la première phrase : ici « Network upgrade » puis la date et la coupure. Les détails du bas (magasin, crédit) sont des distracteurs."
+            },
+            "en": {
+              "rule": "The notice announces an upgrade of the towers and says that during this time calls and data \"may be interrupted\". It warns customers of a temporary service interruption.",
+              "distractors": {
+                "A": "No offer or plan is presented: the text is about infrastructure.",
+                "B": "The Dunmarrow store already exists (\"the Dunmarrow store\"); it only opens earlier that day.",
+                "D": "No contract cancellation is mentioned."
+              },
+              "trap": "For the purpose of a notice, read the heading and the first sentence: here \"Network upgrade\", then the date and the interruption. Details at the bottom (store, credit) are distractors."
+            }
+          }
+        },
+        {
+          "id": "p7-0044-2",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 3,
+          "stem": "What does the notice say about phones made before 2019?",
+          "options": [
+            "They cannot use the new network.",
+            "They may have to be restarted after the upgrade.",
+            "They will be replaced free of charge.",
+            "They must be taken to a store on March 15."
+          ],
+          "answer": "B",
+          "evidence": [
+            "customers with phones made before 2019 may need to restart their devices to reconnect"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le texte dit que les clients avec un téléphone d'avant 2019 « may need to restart their devices to reconnect ». « May have to be restarted » reformule cette phrase.",
+              "distractors": {
+                "A": "Le texte ne dit pas que ces téléphones sont incompatibles : il propose un outil pour vérifier la compatibilité.",
+                "C": "Aucun remplacement gratuit n'est mentionné ; le seul geste commercial est un crédit de 5 $.",
+                "D": "On ne va en magasin qu'après un redémarrage qui n'a pas suffi (« still cannot connect after restarting »)."
+              },
+              "trap": "Une option qui va plus loin que le texte (« cannot use », « must ») est un piège : la bonne réponse garde le même degré (« may need »)."
+            },
+            "en": {
+              "rule": "The text says customers with phones made before 2019 \"may need to restart their devices to reconnect\". \"May have to be restarted\" paraphrases that sentence.",
+              "distractors": {
+                "A": "The text does not say these phones are incompatible: it offers a tool to check compatibility.",
+                "C": "No free replacement is mentioned; the only gesture is a $5 credit.",
+                "D": "A store visit is for customers who still cannot connect after restarting."
+              },
+              "trap": "An option that goes further than the text (\"cannot use\", \"must\") is a trap: the right answer keeps the same degree (\"may need\")."
+            }
+          }
+        },
+        {
+          "id": "p7-0044-3",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 2,
+          "stem": "When will Ms. Odell most likely arrive at the store on March 15?",
+          "options": [
+            "9:30 A.M.",
+            "8:00 A.M.",
+            "7:30 A.M.",
+            "1:00 A.M."
+          ],
+          "answer": "C",
+          "evidence": [
+            "the Dunmarrow store at 22 Bellows Street will open at 8:00 A.M. that day instead of 10:00 A.M.",
+            "Thirty minutes before we open"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "L'avis indique que le magasin ouvrira à 8:00 A.M. le 15 mars. Dans le chat, M. Rademaker demande à Mme Odell d'arriver « thirty minutes before we open » : 7:30 A.M.",
+              "distractors": {
+                "A": "9:30 A.M. serait 30 minutes avant l'ouverture habituelle de 10:00 A.M., mais le magasin ouvre plus tôt ce jour-là.",
+                "B": "8:00 A.M. est l'heure d'ouverture, pas l'heure d'arrivée demandée.",
+                "D": "1:00 A.M. est le début de la mise à niveau, pas un horaire du personnel."
+              },
+              "trap": "Un horaire en deux documents : prends l'heure de référence dans l'un (8:00), le décalage dans l'autre (30 minutes avant), et vérifie que ce n'est pas l'horaire habituel."
+            },
+            "en": {
+              "rule": "The notice says the store will open at 8:00 A.M. on March 15. In the chat, Mr. Rademaker asks Ms. Odell to arrive \"Thirty minutes before we open\": 7:30 A.M.",
+              "distractors": {
+                "A": "9:30 A.M. would be 30 minutes before the usual opening time of 10:00 A.M., but the store opens earlier that day.",
+                "B": "8:00 A.M. is the opening time, not the arrival time requested.",
+                "D": "1:00 A.M. is when the upgrade starts, not a staff schedule."
+              },
+              "trap": "A time from two documents: take the reference time from one (8:00), the offset from the other (30 minutes before), and check that it is not the usual schedule."
+            }
+          }
+        },
+        {
+          "id": "p7-0044-4",
+          "tags": [
+            "writer-intention"
+          ],
+          "difficulty": 2,
+          "stem": "At 9:09 A.M., what does Ms. Odell most likely mean when she writes, \"I'm on it\"?",
+          "options": [
+            "She needs more information first.",
+            "She will deal with the task right away.",
+            "She has already finished the task.",
+            "She disagrees with the request."
+          ],
+          "answer": "B",
+          "evidence": [
+            "Can someone print 50 more before Friday?",
+            "I'm on it."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "M. Rademaker vient de demander : « Can someone print 50 more before Friday? ». Répondre « I'm on it », c'est dire qu'on s'en occupe tout de suite.",
+              "distractors": {
+                "A": "Elle n'a posé aucune question : elle accepte la tâche telle quelle.",
+                "C": "« I'm on it » parle d'une action en cours ou à venir, pas d'une tâche terminée (ce serait « I've done it »).",
+                "D": "C'est une réponse positive : elle prend la demande en charge."
+              },
+              "trap": "Pour une réplique idiomatique, lis le message juste avant : « I'm on it » répond à une demande d'aide, et le sens littéral (« je suis dessus ») est le piège."
+            },
+            "en": {
+              "rule": "Mr. Rademaker has just asked: \"Can someone print 50 more before Friday?\". Answering \"I'm on it\" means she is taking care of it right now.",
+              "distractors": {
+                "A": "She asks no question: she accepts the task as it is.",
+                "C": "\"I'm on it\" refers to something being done or about to be done, not a finished task (that would be \"I've done it\").",
+                "D": "It is a positive answer: she takes the request on."
+              },
+              "trap": "For an idiomatic line, read the message just before it: \"I'm on it\" answers a request for help, and the literal meaning is the trap."
+            }
+          }
+        },
+        {
+          "id": "p7-0044-5",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 2,
+          "stem": "What is suggested about the customer who asked about home Wi-Fi?",
+          "options": [
+            "He did not read the notice closely.",
+            "He plans to cancel his contract.",
+            "He lives outside the Dunmarrow area.",
+            "He owns a phone made before 2019."
+          ],
+          "answer": "A",
+          "evidence": [
+            "A man asked whether his home Wi-Fi will go down on the 15th.",
+            "Home internet service will not be affected"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le client demande si son Wi-Fi à la maison sera coupé, alors que l'avis dit déjà « Home internet service will not be affected ». On en déduit qu'il n'a pas lu l'avis attentivement.",
+              "distractors": {
+                "B": "Rien n'indique qu'il veuille résilier : il pose une simple question.",
+                "C": "Il parle de « the 15th », donc de la mise à niveau de Dunmarrow ; rien ne dit qu'il habite ailleurs.",
+                "D": "L'âge de son téléphone n'est pas mentionné dans le chat."
+              },
+              "trap": "Une déduction part du décalage entre deux textes : ici une question dont la réponse figure déjà dans l'avis. Si tu dois inventer un fait (âge du téléphone, résiliation), ce n'est pas la bonne option."
+            },
+            "en": {
+              "rule": "The customer asks whether his home Wi-Fi will go down, although the notice already says \"Home internet service will not be affected\". You can infer that he did not read the notice closely.",
+              "distractors": {
+                "B": "Nothing suggests he wants to cancel: he simply asks a question.",
+                "C": "He mentions \"the 15th\", so the Dunmarrow upgrade; nothing says he lives elsewhere.",
+                "D": "The age of his phone is not mentioned in the chat."
+              },
+              "trap": "An inference starts from a gap between two texts: here a question whose answer is already in the notice. If you have to invent a fact (phone age, cancelling), it is the wrong option."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0045",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "memo",
+          "title": "Cobaltine Systems - IT Department",
+          "text": "MEMO\nTo: All Cobaltine Systems Employees\nFrom: Leopold Teague, IT Director\nDate: April 28\nSubject: New help-desk system\n\nOn Monday, May 12, Cobaltine Systems will replace its current help-desk software with a new system called TicketPath. From that day, all support requests must be submitted through the TicketPath portal. E-mails sent to the old help-desk address will no longer be answered.\n\nTo help everyone prepare, trainer Mirela Dobrescu will visit each of our three offices during the week of May 5. Every session lasts 90 minutes and covers how to submit a request, follow its progress, and rate the service. Her itinerary is attached. Please bring a laptop or tablet to your session so that you can try the portal during the demonstration.\n\nAttendance is expected from every employee who uses the help desk. Anyone who cannot attend may watch a recorded session on the intranet after May 9.\n\nPlease direct any questions to me at extension 4410."
+        },
+        {
+          "genre": "itinerary",
+          "title": "TicketPath Training Visits, May 5-9",
+          "text": "Trainer: Mirela Dobrescu\n\nMonday, May 5 - Garrowby Head Office\n8:00 A.M. Arrive and set up in Training Room 2\n9:30 A.M. Session for Finance and Sales\n1:30 P.M. Session for Engineering\n\nWednesday, May 7 - Tilbrook Office\n7:10 A.M. Train departs Garrowby Central Station\n8:25 A.M. Arrive in Tilbrook\n10:00 A.M. Session for all staff\n2:00 P.M. Meeting with the office manager\n\nFriday, May 9 - Ravensford Office\n9:00 A.M. Session for all staff\n12:00 P.M. Lunch with the branch team\n1:30 P.M. Return to Garrowby by car"
+        },
+        {
+          "genre": "email",
+          "text": "To: Leopold Teague\nFrom: Inge Hartigan\nDate: May 1\nSubject: TicketPath training\n\nDear Mr. Teague,\n\nI work in customer support at the Ravensford office. Thank you for your memo about the new help-desk system. I am looking forward to tracking my requests more easily.\n\nI do have a question. I will be at a client's site on the morning of the training session, so I may arrive late. Would it be possible to join the session for part of it, or should I watch the recording instead? I can also send you the list of the issues my team reports most often, if that would help.\n\nThank you for your help.\n\nInge Hartigan\nCustomer Support, Ravensford Office"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0045-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 2,
+          "stem": "What is the purpose of the memo?",
+          "options": [
+            "To introduce a new member of the IT team",
+            "To report a problem with the old software",
+            "To inform employees of a new support system",
+            "To schedule a meeting for all staff"
+          ],
+          "answer": "C",
+          "evidence": [
+            "Cobaltine Systems will replace its current help-desk software with a new system called TicketPath."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La première phrase du mémo annonce que l'entreprise va « replace its current help-desk software with a new system called TicketPath ». Il informe les employés d'un nouveau système de support.",
+              "distractors": {
+                "A": "Mme Dobrescu est présentée comme formatrice en visite, pas comme nouvelle membre de l'équipe.",
+                "B": "L'ancien logiciel n'est pas décrit comme défaillant : il est simplement remplacé.",
+                "D": "Les sessions sont des formations de 90 minutes dans chaque bureau, pas une réunion générale."
+              },
+              "trap": "Pour le but d'un mémo, la première phrase et l'objet (« New help-desk system ») suffisent : la suite détaille la mise en œuvre."
+            },
+            "en": {
+              "rule": "The memo's first sentence announces that the company will \"replace its current help-desk software with a new system called TicketPath\". It informs employees of a new support system.",
+              "distractors": {
+                "A": "Ms. Dobrescu is presented as a visiting trainer, not a new team member.",
+                "B": "The old software is not described as faulty: it is simply being replaced.",
+                "D": "The sessions are 90-minute training sessions in each office, not a general meeting."
+              },
+              "trap": "For the purpose of a memo, the first sentence and the subject line (\"New help-desk system\") are enough: the rest gives the details."
+            }
+          }
+        },
+        {
+          "id": "p7-0045-2",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 2,
+          "stem": "According to the memo, what will happen on May 12?",
+          "options": [
+            "The trainer will visit the Ravensford office.",
+            "Support requests will have to go through a new portal.",
+            "Employees will receive new laptops.",
+            "The IT department will move to a new office."
+          ],
+          "answer": "B",
+          "evidence": [
+            "From that day, all support requests must be submitted through the TicketPath portal."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le mémo dit : « On Monday, May 12 », puis « From that day, all support requests must be submitted through the TicketPath portal ». « Have to go through » reformule « must be submitted through ».",
+              "distractors": {
+                "A": "La visite à Ravensford a lieu le vendredi 9 mai (itinéraire), avant le 12.",
+                "C": "Aucun ordinateur portable n'est mentionné.",
+                "D": "Aucun déménagement n'est annoncé."
+              },
+              "trap": "Repère la date de la question (May 12) dans le texte, puis lis la phrase qui suit : les distracteurs viennent d'autres dates (semaine du 5 mai, 9 mai)."
+            },
+            "en": {
+              "rule": "The memo says: \"On Monday, May 12\", then \"From that day, all support requests must be submitted through the TicketPath portal\". \"Have to go through\" paraphrases \"must be submitted through\".",
+              "distractors": {
+                "A": "The Ravensford visit is on Friday, May 9 (itinerary), before the 12th.",
+                "C": "No laptops are mentioned.",
+                "D": "No move is announced."
+              },
+              "trap": "Find the question's date (May 12) in the text, then read the sentence that follows: distractors come from other dates (week of May 5, May 9)."
+            }
+          }
+        },
+        {
+          "id": "p7-0045-3",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 3,
+          "stem": "At what time will the session in Tilbrook end?",
+          "options": [
+            "11:30 A.M.",
+            "11:00 A.M.",
+            "12:00 P.M.",
+            "3:30 P.M."
+          ],
+          "answer": "A",
+          "evidence": [
+            "Every session lasts 90 minutes",
+            "10:00 A.M. Session for all staff"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "L'itinéraire place la session de Tilbrook à « 10:00 A.M. Session for all staff » et le mémo précise que « Every session lasts 90 minutes ». 10:00 plus 1 h 30 donne 11:30 A.M.",
+              "distractors": {
+                "B": "11:00 A.M. correspond à une session d'une heure, pas de 90 minutes.",
+                "C": "12:00 P.M. correspond à deux heures, une durée que le mémo ne mentionne pas.",
+                "D": "3:30 P.M. serait 90 minutes après la réunion de 2:00 P.M., qui n'est pas une session de formation."
+              },
+              "trap": "La durée est dans un document, l'heure de début dans l'autre : additionne, et vérifie que tu pars de la bonne ligne (la session, pas la réunion avec le responsable)."
+            },
+            "en": {
+              "rule": "The itinerary puts the Tilbrook session at \"10:00 A.M. Session for all staff\" and the memo specifies that \"Every session lasts 90 minutes\". 10:00 plus one and a half hours is 11:30 A.M.",
+              "distractors": {
+                "B": "11:00 A.M. would be a one-hour session, not 90 minutes.",
+                "C": "12:00 P.M. would be two hours, a length the memo does not mention.",
+                "D": "3:30 P.M. would be 90 minutes after the 2:00 P.M. meeting, which is not a training session."
+              },
+              "trap": "The length is in one document, the start time in the other: add them, and check you start from the right line (the session, not the meeting with the manager)."
+            }
+          }
+        },
+        {
+          "id": "p7-0045-4",
+          "tags": [
+            "not-true"
+          ],
+          "difficulty": 3,
+          "stem": "What is NOT indicated about the TicketPath sessions?",
+          "options": [
+            "They last the same amount of time.",
+            "Participants will take a test at the end.",
+            "Sessions will be held at all three offices.",
+            "A recording will be available for absent employees."
+          ],
+          "answer": "B",
+          "evidence": [
+            "Every session lasts 90 minutes",
+            "will visit each of our three offices",
+            "Anyone who cannot attend may watch a recorded session on the intranet after May 9."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Trois options sont dans le mémo : « Every session lasts 90 minutes », « will visit each of our three offices » et « may watch a recorded session ». Aucun test final n'est mentionné.",
+              "distractors": {
+                "A": "Vrai : « Every session lasts 90 minutes », donc toutes ont la même durée.",
+                "C": "Vrai : la formatrice visite « each of our three offices ».",
+                "D": "Vrai : les absents peuvent regarder une session enregistrée sur l'intranet."
+              },
+              "trap": "Question NOT : retrouve chaque option dans le texte, une par une ; celle qui n'a aucun passage correspondant (ici le test) est la réponse."
+            },
+            "en": {
+              "rule": "Three options are in the memo: \"Every session lasts 90 minutes\", \"will visit each of our three offices\" and \"may watch a recorded session\". No final test is mentioned.",
+              "distractors": {
+                "A": "True: \"Every session lasts 90 minutes\", so they all have the same length.",
+                "C": "True: the trainer visits \"each of our three offices\".",
+                "D": "True: absent employees may watch a recorded session on the intranet."
+              },
+              "trap": "NOT question: find each option in the text, one by one; the one with no matching passage (here the test) is the answer."
+            }
+          }
+        },
+        {
+          "id": "p7-0045-5",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 1,
+          "stem": "On what date will the training take place at Ms. Hartigan's office?",
+          "options": [
+            "May 9",
+            "May 5",
+            "May 7",
+            "May 12"
+          ],
+          "answer": "A",
+          "evidence": [
+            "I work in customer support at the Ravensford office.",
+            "Friday, May 9 - Ravensford Office"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Mme Hartigan écrit : « I work in customer support at the Ravensford office ». L'itinéraire place Ravensford le « Friday, May 9 ».",
+              "distractors": {
+                "B": "Le 5 mai est la visite du siège de Garrowby.",
+                "C": "Le 7 mai est la visite du bureau de Tilbrook.",
+                "D": "Le 12 mai est la date de lancement de TicketPath, pas de la formation."
+              },
+              "trap": "Trouve d'abord un indice dans l'e-mail (le nom du bureau), puis cherche ce nom dans l'itinéraire : les autres dates sont des pièges classiques."
+            },
+            "en": {
+              "rule": "Ms. Hartigan writes: \"I work in customer support at the Ravensford office\". The itinerary places Ravensford on \"Friday, May 9\".",
+              "distractors": {
+                "B": "May 5 is the visit to the Garrowby head office.",
+                "C": "May 7 is the visit to the Tilbrook office.",
+                "D": "May 12 is the launch date of TicketPath, not the training."
+              },
+              "trap": "First find a clue in the e-mail (the office name), then look for that name in the itinerary: the other dates are classic traps."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
