@@ -1,0 +1,117 @@
+{
+  "tag": "word-form-adverb",
+  "fr": {
+    "title": "Forme du mot : l'adverbe",
+    "summary": "L'adverbe modifie un verbe, un adjectif, un autre adverbe ou toute la phrase. Quand une phrase est déjà complète, c'est souvent lui qui manque. Au TOEIC, méfie-toi des adverbes sans **-ly** et des paires comme « hard » et « hardly ».",
+    "keyPoints": [
+      "L'adverbe se place entre l'auxiliaire et le participe, devant un adjectif ou un adverbe, en début ou en fin de phrase.",
+      "Après un verbe d'état (« be », « seem », « become »), on veut un **adjectif**, pas un adverbe.",
+      "« hard / hardly », « late / lately », « near / nearly », « high / highly » ont des sens différents."
+    ],
+    "rules": [
+      {
+        "title": "L'adverbe qui modifie un verbe",
+        "text": "Il se place entre l'auxiliaire et le participe (« has **recently** been promoted »), devant le verbe conjugué, ou à la fin de la proposition. En général, on ne l'insère pas entre le verbe et son complément d'objet : on dit « reviewed the contract carefully ». En début de phrase, suivi d'une virgule, il commente toute la phrase (« Unfortunately, »).",
+        "examples": [
+          {"en": "The new policy has **significantly** reduced delays.", "note": "Entre l'auxiliaire « has » et le participe « reduced »."},
+          {"en": "All reports must be submitted **promptly**.", "note": "En fin de phrase, après le verbe au passif."}
+        ]
+      },
+      {
+        "title": "L'adverbe devant un adjectif ou un adverbe",
+        "text": "Un adverbe peut renforcer ou nuancer un adjectif, un participe employé comme adjectif ou un autre adverbe (« **highly** qualified », « **extremely** quickly »). Si le mot suivant est un adjectif et que le trou est entre un déterminant et lui, c'est un adverbe qu'il faut, par exemple « a highly competitive market ».",
+        "examples": [
+          {"en": "It is a **highly** competitive market.", "note": "« highly » modifie l'adjectif « competitive »."},
+          {"en": "The shipment arrived **unusually** early.", "note": "« unusually » modifie l'adverbe « early »."}
+        ]
+      },
+      {
+        "title": "Les adverbes sans -ly et les faux amis",
+        "text": "Certains adverbes ont la même forme que l'adjectif : « hard » (dur), « late » (tard), « fast », « early », « high » (haut). D'autres ont une forme en -ly de sens différent : « hardly » (à peine), « lately » (récemment), « nearly » (presque), « highly » (très). « hard » et « hardly » ne sont donc pas interchangeables.",
+        "examples": [
+          {"en": "The staff worked **hard** to meet the deadline.", "note": "« hard » = durement ; « hardly worked » voudrait dire à peine."},
+          {"en": "**Nearly** two hundred people attended the conference.", "note": "« nearly » = presque ; « near » est une préposition ou un adjectif."}
+        ]
+      },
+      {
+        "title": "Après un verbe d'état : adjectif ou adverbe ?",
+        "text": "Après « be », « seem », « become », « remain » ou « sound », on décrit le sujet : il faut un **adjectif**. Après un verbe d'action (« work », « respond », « speak »), on décrit la manière de faire : il faut un **adverbe**.",
+        "examples": [
+          {"en": "The new process seems **efficient**.", "note": "« seems » est un verbe d'état : adjectif."},
+          {"en": "The team worked **efficiently** all week.", "note": "« worked » est un verbe d'action : adverbe."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "L'adjectif à la place de l'adverbe",
+        "text": "Dans « was (careful / carefully) reviewed », l'adjectif et l'adverbe sont tous deux dans les options. Entre l'auxiliaire et le participe, aucun nom ne suit : prends l'adverbe."
+      },
+      {
+        "title": "« hard » contre « hardly », « late » contre « lately »",
+        "text": "Les deux formes existent mais ne disent pas la même chose. « hardly » et « lately » ont des sens précis (à peine, récemment). Traduis la phrase avant de choisir, ne te fie pas à la terminaison."
+      },
+      {
+        "title": "L'adverbe devant un comparatif",
+        "text": "« a (considerable / considerably) larger budget » : le mot suivant est lui-même modifié par un mot de degré. Si le trou précède un comparatif ou un adjectif sans nom entre les deux, prends l'adverbe."
+      }
+    ]
+  },
+  "en": {
+    "title": "Word form: the adverb",
+    "summary": "The adverb modifies a verb, an adjective, another adverb or a whole sentence. When a sentence is already complete, it is often the adverb that is missing. On the TOEIC, watch out for adverbs without **-ly** and for pairs like \"hard\" and \"hardly\".",
+    "keyPoints": [
+      "The adverb goes between the auxiliary and the participle, before an adjective or an adverb, or at the start or end of the sentence.",
+      "After a linking verb (\"be\", \"seem\", \"become\"), you need an **adjective**, not an adverb.",
+      "\"hard / hardly\", \"late / lately\", \"near / nearly\", \"high / highly\" have different meanings."
+    ],
+    "rules": [
+      {
+        "title": "The adverb that modifies a verb",
+        "text": "It goes between the auxiliary and the participle (\"has **recently** been promoted\"), before the conjugated verb, or at the end of the clause. It is generally not inserted between the verb and its object: we say \"reviewed the contract carefully\". At the start of a sentence, followed by a comma, it comments on the whole sentence (\"Unfortunately,\").",
+        "examples": [
+          {"en": "The new policy has **significantly** reduced delays.", "note": "Between the auxiliary \"has\" and the participle \"reduced\"."},
+          {"en": "All reports must be submitted **promptly**.", "note": "At the end of the sentence, after the passive verb."}
+        ]
+      },
+      {
+        "title": "The adverb before an adjective or an adverb",
+        "text": "An adverb can strengthen or soften an adjective, a participle used as an adjective or another adverb (\"**highly** qualified\", \"**extremely** quickly\"). If the next word is an adjective and the blank sits between a determiner and it, you need an adverb, as in \"a highly competitive market\".",
+        "examples": [
+          {"en": "It is a **highly** competitive market.", "note": "\"highly\" modifies the adjective \"competitive\"."},
+          {"en": "The shipment arrived **unusually** early.", "note": "\"unusually\" modifies the adverb \"early\"."}
+        ]
+      },
+      {
+        "title": "Adverbs without -ly and false friends",
+        "text": "Some adverbs have the same form as the adjective: \"hard\", \"late\", \"fast\", \"early\", \"high\". Others have an -ly form with a different meaning: \"hardly\" (barely), \"lately\" (recently), \"nearly\" (almost), \"highly\" (very). So \"hard\" and \"hardly\" are not interchangeable.",
+        "examples": [
+          {"en": "The staff worked **hard** to meet the deadline.", "note": "\"hard\" = with effort; \"hardly worked\" would mean barely."},
+          {"en": "**Nearly** two hundred people attended the conference.", "note": "\"nearly\" = almost; \"near\" is a preposition or an adjective."}
+        ]
+      },
+      {
+        "title": "After a linking verb: adjective or adverb?",
+        "text": "After \"be\", \"seem\", \"become\", \"remain\" or \"sound\", you describe the subject: you need an **adjective**. After an action verb (\"work\", \"respond\", \"speak\"), you describe the way of doing it: you need an **adverb**.",
+        "examples": [
+          {"en": "The new process seems **efficient**.", "note": "\"seems\" is a linking verb: adjective."},
+          {"en": "The team worked **efficiently** all week.", "note": "\"worked\" is an action verb: adverb."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "The adjective in place of the adverb",
+        "text": "In \"was (careful / carefully) reviewed\", both the adjective and the adverb are among the options. Between the auxiliary and the participle, no noun follows: take the adverb."
+      },
+      {
+        "title": "\"hard\" versus \"hardly\", \"late\" versus \"lately\"",
+        "text": "Both forms exist but they do not say the same thing. \"hardly\" and \"lately\" have precise meanings (barely, recently). Translate the sentence before choosing, and do not rely on the ending."
+      },
+      {
+        "title": "The adverb before a comparative",
+        "text": "\"a (considerable / considerably) larger budget\": the next word is itself modified by a word of degree. If the blank comes before a comparative or an adjective with no noun in between, take the adverb."
+      }
+    ]
+  }
+}

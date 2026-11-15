@@ -1,0 +1,117 @@
+{
+  "tag": "cross-reference",
+  "fr": {
+    "title": "Croisement de documents",
+    "summary": "Dans un jeu de deux ou trois documents, certaines questions n'ont de réponse complète dans aucun des deux : il faut combiner un indice d'un document avec une information de l'autre. La méthode : lire les questions d'abord, repérer les liens, résoudre en deux temps.",
+    "keyPoints": [
+      "Une question de croisement exige **deux documents** : la réponse n'est complète dans aucun des deux.",
+      "Lis d'abord les questions : celles qui nomment un seul document se traitent seules, les autres sont des croisements.",
+      "Résous en **deux temps** : l'indice dans le premier document, puis la réponse dans l'autre."
+    ],
+    "rules": [
+      {
+        "title": "Reconnaître la question",
+        "text": "Elle ne nomme pas de document précis, ou elle pose une question dont le texte seul ne donne qu'une moitié de la réponse. Quand une question parle d'un fait (une date, un prix, un nom) qui n'a pas de détail dans le même document, c'est un croisement. Il y en a au moins une dans chaque jeu de plusieurs documents.",
+        "examples": [
+          {"en": "What is the price of the workshop that Ms. Park plans to attend?", "note": "Son e-mail donne le jour, la grille de prix donne le tarif : il faut les deux."},
+          {"en": "According to the e-mail, what is the purpose of the message? / Q1", "note": "Cette question nomme un seul document : pas de croisement, lis seulement l'e-mail."}
+        ]
+      },
+      {
+        "title": "Lire d'abord les questions",
+        "text": "Avant de lire les documents, parcours les cinq questions. Note lesquelles nomment un seul document (« According to the notice »), et lesquelles semblent mélanger deux sources. Tu sauras ainsi quoi chercher dès la première lecture et dans quel document.",
+        "examples": [
+          {"en": "Q1: According to the e-mail... / Q4: Which session will Mr. Ito attend?", "note": "Q1 se règle dans l'e-mail. Q4 demande probablement un indice dans l'e-mail et une liste ailleurs."},
+          {"en": "Q3: What is the total cost of Ms. Wu's order?", "note": "Une commande dans un document, des prix ou une remise dans l'autre : à combiner."}
+        ]
+      },
+      {
+        "title": "Repérer les liens entre documents",
+        "text": "Les documents se rejoignent par un élément commun : une date, un nom, un numéro de commande, un montant. Schémas fréquents : un indice dans l'e-mail (« the Tuesday session ») + une liste ailleurs (programme, tarifs, catalogue) ; une règle dans l'un (remise à partir de 3 articles) + une situation dans l'autre (commande de 4 articles) ; un nom dans l'un + sa fonction dans l'autre.",
+        "examples": [
+          {"en": "E-mail: \"I will join the **Tuesday** session.\" / Schedule: \"Tuesday: Budgeting, 2:00 P.M.\"", "note": "Le mardi relie l'e-mail au programme : on en tire le sujet et l'heure."},
+          {"en": "Policy: \"**3 or more** items: 10% off.\" / Order: \"4 items, $200.\"", "note": "La règle (3 articles ou plus) s'applique à la commande de 4 articles : 180 $."}
+        ]
+      },
+      {
+        "title": "Résoudre en deux temps",
+        "text": "Premier temps : trouve l'indice dans le document qui nomme le fait de la question. Second temps : va dans l'autre document chercher ce qui complète l'indice. Ne réponds qu'avec les deux éléments réunis. Un nom dans l'e-mail, puis la liste du personnel, te donne son poste.",
+        "examples": [
+          {"en": "E-mail from \"Ms. Alvarez\" / Staff list: \"Ms. Alvarez, Head of Accounting\" / Q: What is Ms. Alvarez's job?", "note": "L'e-mail donne le nom ; seule la liste donne la fonction."},
+          {"en": "Invoice: \"Order #3317\" / Reply: \"Order #3317 will ship Monday.\"", "note": "Le numéro de commande relie la facture à la réponse : on en tire le jour d'expédition."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "La réponse d'un seul document",
+        "text": "Le distracteur le plus fréquent est la valeur qu'on obtient en ne lisant qu'un document : le prix de base sans la remise, la première session au lieu de celle du mardi. Il est vrai dans un document, mais faux pour la question."
+      },
+      {
+        "title": "Mélanger deux personnes ou deux dates",
+        "text": "Avec plusieurs documents, plusieurs noms, plusieurs dates : l'option correspond à la bonne personne mais à la mauvaise date, ou l'inverse. Vérifie que chaque élément de l'option vient du bon document."
+      },
+      {
+        "title": "S'arrêter après le premier indice",
+        "text": "Quand l'indice du premier document a l'air d'une réponse, on s'arrête trop vite. Si la question mentionne un prix, un horaire, un nom absent du premier document, il te manque le second temps : cherche-le avant de répondre."
+      }
+    ]
+  },
+  "en": {
+    "title": "Cross-referencing documents",
+    "summary": "In a set of two or three documents, some questions have no complete answer in either one: you must combine a clue from one document with information from the other. The method: read the questions first, spot the links, solve in two steps.",
+    "keyPoints": [
+      "A cross-reference question needs **two documents**: the answer is not complete in either one.",
+      "Read the questions first: those that name one document can be solved alone, the others are cross-references.",
+      "Solve in **two steps**: the clue in the first document, then the answer in the other."
+    ],
+    "rules": [
+      {
+        "title": "Recognizing the question",
+        "text": "It does not name a specific document, or it asks something the text alone answers only halfway. When a question mentions a fact (a date, a price, a name) that has no detail in the same document, it is a cross-reference. There is at least one in each set of several documents.",
+        "examples": [
+          {"en": "What is the price of the workshop that Ms. Park plans to attend?", "note": "Her e-mail gives the day, the price list gives the rate: you need both."},
+          {"en": "According to the e-mail, what is the purpose of the message? / Q1", "note": "This question names one document: no cross-reference, read only the e-mail."}
+        ]
+      },
+      {
+        "title": "Read the questions first",
+        "text": "Before reading the documents, scan the five questions. Note which ones name a single document (\"According to the notice\") and which seem to mix two sources. This way you know what to look for, and in which document, from the first reading.",
+        "examples": [
+          {"en": "Q1: According to the e-mail... / Q4: Which session will Mr. Ito attend?", "note": "Q1 is settled in the e-mail. Q4 probably needs a clue in the e-mail and a list elsewhere."},
+          {"en": "Q3: What is the total cost of Ms. Wu's order?", "note": "An order in one document, prices or a discount in the other: to be combined."}
+        ]
+      },
+      {
+        "title": "Spot the links between documents",
+        "text": "The documents meet through a shared element: a date, a name, an order number, an amount. Frequent patterns: a clue in the e-mail (\"the Tuesday session\") + a list elsewhere (schedule, prices, catalog); a rule in one (discount from 3 items) + a situation in the other (an order of 4 items); a name in one + its job in the other.",
+        "examples": [
+          {"en": "E-mail: \"I will join the **Tuesday** session.\" / Schedule: \"Tuesday: Budgeting, 2:00 P.M.\"", "note": "Tuesday links the e-mail to the schedule: you get the subject and the time."},
+          {"en": "Policy: \"**3 or more** items: 10% off.\" / Order: \"4 items, $200.\"", "note": "The rule (3 or more items) applies to the order of 4 items: $180."}
+        ]
+      },
+      {
+        "title": "Solve in two steps",
+        "text": "First step: find the clue in the document that names the fact in the question. Second step: go to the other document for what completes the clue. Answer only with both elements together. A name in the e-mail, then the staff list, gives you the job.",
+        "examples": [
+          {"en": "E-mail from \"Ms. Alvarez\" / Staff list: \"Ms. Alvarez, Head of Accounting\" / Q: What is Ms. Alvarez's job?", "note": "The e-mail gives the name; only the list gives the job."},
+          {"en": "Invoice: \"Order #3317\" / Reply: \"Order #3317 will ship Monday.\"", "note": "The order number links the invoice to the reply: you get the shipping day."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "The answer from one document only",
+        "text": "The most frequent wrong option is the value you get by reading only one document: the base price without the discount, the first session instead of the Tuesday one. It is true in one document, but wrong for the question."
+      },
+      {
+        "title": "Mixing two people or two dates",
+        "text": "With several documents, there are several names and dates: the option matches the right person but the wrong date, or the reverse. Check that each element of the option comes from the right document."
+      },
+      {
+        "title": "Stopping after the first clue",
+        "text": "When the clue in the first document looks like an answer, you stop too early. If the question mentions a price, a time or a name missing from the first document, you lack the second step: find it before you answer."
+      }
+    ]
+  }
+}

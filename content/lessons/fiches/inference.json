@@ -1,0 +1,115 @@
+{
+  "tag": "inference",
+  "fr": {
+    "title": "Inférence",
+    "summary": "La réponse n'est pas écrite, mais elle se prouve avec une phrase précise du texte, en une seule étape logique. Il ne s'agit pas d'imaginer ce qui est probable dans la vraie vie : tout ce qui n'est pas appuyé par le texte est à écarter.",
+    "keyPoints": [
+      "Reconnais la question : « What is suggested / implied about… ? », « What can be inferred… ? », « Who most likely is… ? »",
+      "Une bonne réponse se **prouve** avec une phrase du texte, par un seul raisonnement court. Trouve cette phrase avant de choisir.",
+      "N'imagine rien au-delà du texte : une option plausible dans la vraie vie mais sans appui est un piège."
+    ],
+    "rules": [
+      {
+        "title": "Reconnais la question d'inférence",
+        "text": "Formulations fréquentes : « What is suggested about… ? », « What is implied… ? », « What can be inferred… ? », « Who most likely is… ? », « What will probably happen next? », « Where would the notice most likely appear? ». Le mot « likely » ou « probably » signale qu'on te demande une déduction.",
+        "examples": [
+          {"en": "What is **implied** about Ms. Duval?", "note": "Question d'inférence : l'information n'est pas dite telle quelle, il faut la déduire."},
+          {"en": "Where would the notice **most likely** appear?", "note": "« most likely » : cherche des indices (mots, lieux, public visé) qui désignent un endroit."}
+        ]
+      },
+      {
+        "title": "Prouve la réponse avec une phrase",
+        "text": "Pour chaque option, demande-toi : quelle phrase du texte l'appuie ? Si tu peux la citer, l'option est bonne. Sinon, écarte-la. La déduction doit tenir en une seule étape : un indice, une conclusion. Si tu dois enchaîner plusieurs hypothèses, tu vas trop loin.",
+        "examples": [
+          {"en": "Returning customers get 10% off. / As usual, I applied my discount at checkout. → Who is the writer?", "note": "Une étape : « as usual » + remise des clients fidèles = un client habituel."},
+          {"en": "The store will close at 5 P.M. today for inventory. → What is suggested?", "note": "Déduction directe : les clients ne pourront pas acheter après 17 h aujourd'hui."}
+        ]
+      },
+      {
+        "title": "Cherche l'indice, pas l'invention",
+        "text": "Les indices sont dans le vocabulaire (« boarding pass » pour un aéroport), dans les formules (« as usual », « again », « as discussed ») et dans les chiffres. Tout le reste est à toi, pas du texte. Pour savoir qui est l'auteur ou où se trouve l'avis, relève les mots du métier et du lieu.",
+        "examples": [
+          {"en": "Please fasten your seat belt and stow your bag under the seat in front of you. → Where is this announcement made?", "note": "Les mots « seat belt » et « stow » désignent un avion."},
+          {"en": "Thank you for **another** great order. → What is suggested about the customer?", "note": "« another » prouve que le client a déjà commandé : il est habituel."}
+        ]
+      },
+      {
+        "title": "Rejette les options qui vont trop loin",
+        "text": "Une option qui ajoute une raison, un sentiment, un chiffre ou un résultat absent du texte va trop loin. Les mots absolus (« always », « never », « all », « only ») sont de mauvais signes, sauf si le texte les dit aussi. Garde l'option la plus modeste qui reste vraie d'après le texte.",
+        "examples": [
+          {"en": "The seminar is full, so a second session has been added. → What is suggested?", "note": "Vrai : beaucoup de gens se sont inscrits. Faux : « the seminar was a success », rien ne le dit."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "Plausible dans la vraie vie, absent du texte",
+        "text": "Une option peut te sembler très logique d'après ton expérience, sans que rien dans le texte ne l'appuie. Au TOEIC, ce qui n'est pas prouvé par une phrase précise est faux. Ne choisis pas ce que tu penses, choisis ce que le texte permet."
+      },
+      {
+        "title": "Aller trop loin dans la déduction",
+        "text": "Le texte dit qu'un vol est retardé : on peut en déduire que les passagers attendent, pas qu'ils seront remboursés. Une seule étape logique est permise. Si l'option demande une chaîne de suppositions, elle est fausse."
+      },
+      {
+        "title": "Confondre inférence et détail",
+        "text": "Si l'information est écrite telle quelle, c'est une question de détail. Pour l'inférence, la réponse reformule un fait et en tire une conclusion. Une option qui recopie le texte sans déduction cache souvent un autre sens : lis-la attentivement."
+      }
+    ]
+  },
+  "en": {
+    "title": "Inference",
+    "summary": "The answer is not written, but it is proved by one precise sentence in the text, in a single logical step. You are not asked to imagine what is likely in real life: anything the text does not support must be rejected.",
+    "keyPoints": [
+      "Recognize the question: \"What is suggested / implied about... ?\", \"What can be inferred... ?\", \"Who most likely is... ?\"",
+      "A good answer can be **proved** with one sentence from the text, through one short reasoning step. Find that sentence before choosing.",
+      "Imagine nothing beyond the text: an option that is plausible in real life but has no support is a trap."
+    ],
+    "rules": [
+      {
+        "title": "Recognize the inference question",
+        "text": "Frequent forms: \"What is suggested about... ?\", \"What is implied... ?\", \"What can be inferred... ?\", \"Who most likely is... ?\", \"What will probably happen next?\", \"Where would the notice most likely appear?\". The words \"likely\" or \"probably\" show you are asked for a deduction.",
+        "examples": [
+          {"en": "What is **implied** about Ms. Duval?", "note": "Inference question: the information is not stated as such, you must deduce it."},
+          {"en": "Where would the notice **most likely** appear?", "note": "\"most likely\": look for clues (words, places, target audience) that point to a place."}
+        ]
+      },
+      {
+        "title": "Prove the answer with one sentence",
+        "text": "For each option, ask yourself: which sentence in the text supports it? If you can quote it, the option is right. If not, reject it. The deduction must take one step only: one clue, one conclusion. If you must chain several guesses, you are going too far.",
+        "examples": [
+          {"en": "Returning customers get 10% off. / As usual, I applied my discount at checkout. → Who is the writer?", "note": "One step: \"as usual\" + discount for loyal customers = a regular customer."},
+          {"en": "The store will close at 5 P.M. today for inventory. → What is suggested?", "note": "Direct deduction: customers will not be able to buy after 5 P.M. today."}
+        ]
+      },
+      {
+        "title": "Look for the clue, not the invention",
+        "text": "Clues are in the vocabulary (\"boarding pass\" for an airport), in phrases (\"as usual\", \"again\", \"as discussed\") and in numbers. Everything else is yours, not the text's. To find who the writer is or where a notice appears, pick out the words of the job and of the place.",
+        "examples": [
+          {"en": "Please fasten your seat belt and stow your bag under the seat in front of you. → Where is this announcement made?", "note": "The words \"seat belt\" and \"stow\" point to a plane."},
+          {"en": "Thank you for **another** great order. → What is suggested about the customer?", "note": "\"another\" proves the customer has ordered before: a regular."}
+        ]
+      },
+      {
+        "title": "Reject options that go too far",
+        "text": "An option that adds a reason, a feeling, a number or a result missing from the text goes too far. Absolute words (\"always\", \"never\", \"all\", \"only\") are bad signs, unless the text says them too. Keep the most modest option that is still true according to the text.",
+        "examples": [
+          {"en": "The seminar is full, so a second session has been added. → What is suggested?", "note": "True: many people signed up. False: \"the seminar was a success\", nothing says that."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "Plausible in real life, absent from the text",
+        "text": "An option may seem very logical from your experience, with nothing in the text to support it. On the TOEIC, what is not proved by a precise sentence is wrong. Do not choose what you think, choose what the text allows."
+      },
+      {
+        "title": "Going too far in the deduction",
+        "text": "The text says a flight is delayed: you can infer that passengers are waiting, not that they will be refunded. Only one logical step is allowed. If the option needs a chain of guesses, it is wrong."
+      },
+      {
+        "title": "Confusing inference and detail",
+        "text": "If the information is written as is, it is a detail question. For inference, the answer rewords a fact and draws a conclusion. An option that copies the text without any deduction often hides another meaning: read it carefully."
+      }
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "tag": "detail",
+  "fr": {
+    "title": "Détail explicite",
+    "summary": "La réponse est écrite dans le texte, mais avec d'autres mots que dans la question. Le travail consiste à trouver le bon endroit, puis à reconnaître la reformulation. Les pièges utilisent des mots recopiés rattachés à une autre information.",
+    "keyPoints": [
+      "Repère le **mot clé** de la question, puis cherche-le dans le texte : noms propres, dates, chiffres se voient vite.",
+      "Lis la phrase entière autour du mot clé, et celle d'avant : la réponse y est souvent, pas toujours juste à côté.",
+      "La bonne réponse **reformule** (synonyme, catégorie plus générale). Une option recopiée mot pour mot est suspecte."
+    ],
+    "rules": [
+      {
+        "title": "Reconnais la question de détail",
+        "text": "Formulations fréquentes : « According to the e-mail, … », « What is indicated / stated / mentioned about… ? », « When / Where / Who / How much… ». « What is NOT mentioned » est un cas à part : trois options sont dans le texte, une seule n'y est pas.",
+        "examples": [
+          {"en": "According to the notice, when will the **parking lot** reopen?", "note": "Mot clé : « parking lot ». Cherche-le, puis lis la phrase pour trouver la date."},
+          {"en": "What is **indicated** about the workshop?", "note": "Question de détail : une information précise sur le workshop est écrite quelque part."}
+        ]
+      },
+      {
+        "title": "Localise le mot clé par balayage",
+        "text": "Ne relis pas tout. Choisis dans la question le mot le plus précis, nom propre, date, chiffre ou nom rare, et balaie le texte pour le retrouver. Si la question n'a pas de tel mot, prends le sujet (la réunion, le contrat). Les questions suivent souvent l'ordre du texte, ce qui limite la recherche.",
+        "examples": [
+          {"en": "How much will members pay for the **annual pass**? / Members: $120 per year. Guests: $15 per day.", "note": "Le mot clé mène à la ligne des membres. Le « $15 » est un chiffre voisin pour un autre public."}
+        ]
+      },
+      {
+        "title": "Lis la phrase entière et celle d'avant",
+        "text": "Le mot clé n'est qu'un repère. Lis toute la phrase, y compris la fin, qui contient souvent une condition ou une exception (« unless », « only if »). Remonte aussi à la phrase précédente : un pronom (« it », « they ») peut renvoyer à un autre sujet que celui qui t'intéresse.",
+        "examples": [
+          {"en": "Refunds are available within 14 days. **Items on sale**, however, can only be exchanged.", "note": "Si la question porte sur un article soldé, la phrase entière change la réponse : échange seulement."}
+        ]
+      },
+      {
+        "title": "Reconnais la reformulation",
+        "text": "Le TOEIC remplace les mots du texte : synonyme (« buy » devient « purchase »), ou catégorie plus générale (« a sofa » devient « furniture », « 9 a.m. » devient « in the morning »). Une option vraie mais écrite avec d'autres mots est souvent la bonne. Une option qui copie le texte est à vérifier.",
+        "examples": [
+          {"en": "The store sells sofas, tables and lamps. → What does the store sell? **Furniture and lighting**", "note": "Bonne réponse : catégories plus générales qui regroupent les objets cités."},
+          {"en": "Staff must **hand in** their badge on the last day. → What must employees return?", "note": "« hand in » devient « return » : synonyme, même idée."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "Des mots recopiés mais attachés ailleurs",
+        "text": "Une option peut reprendre des mots du texte et rester fausse parce qu'ils décrivent une autre personne ou une autre chose. Vérifie à qui ou à quoi l'information est rattachée dans le texte, pas seulement qu'elle y figure."
+      },
+      {
+        "title": "Un chiffre ou une date voisins",
+        "text": "Un texte contient souvent plusieurs prix, heures ou dates proches. Les options reprennent ces valeurs, mais une seule correspond à la bonne personne ou à la bonne situation. Relis la phrase pour savoir à qui le chiffre s'applique."
+      },
+      {
+        "title": "Répondre de mémoire ou avec le bon sens",
+        "text": "Une option peut te sembler vraie dans la vie réelle sans être écrite dans le texte. Pour une question de détail, tout se prouve avec le texte. Si tu ne peux pas montrer la phrase qui l'appuie, cherche une autre option."
+      }
+    ]
+  },
+  "en": {
+    "title": "Explicit detail",
+    "summary": "The answer is written in the text, but with different words from the question. The job is to find the right place, then recognize the rewording. The traps use copied words attached to other information.",
+    "keyPoints": [
+      "Spot the **key word** in the question, then look for it in the text: proper names, dates and numbers stand out fast.",
+      "Read the whole sentence around the key word, and the one before: the answer is often there, not always right next to it.",
+      "The right answer **rewords** (synonym, more general category). An option copied word for word is suspect."
+    ],
+    "rules": [
+      {
+        "title": "Recognize the detail question",
+        "text": "Frequent forms: \"According to the e-mail, ...\", \"What is indicated / stated / mentioned about... ?\", \"When / Where / Who / How much...\". \"What is NOT mentioned\" is a special case: three options are in the text, only one is not.",
+        "examples": [
+          {"en": "According to the notice, when will the **parking lot** reopen?", "note": "Key word: \"parking lot\". Find it, then read the sentence to get the date."},
+          {"en": "What is **indicated** about the workshop?", "note": "Detail question: a precise piece of information about the workshop is written somewhere."}
+        ]
+      },
+      {
+        "title": "Find the key word by scanning",
+        "text": "Do not reread everything. Pick the most precise word in the question, a proper name, date, number or rare noun, and scan the text to find it again. If the question has no such word, take the subject (the meeting, the contract). Questions often follow the order of the text, which narrows the search.",
+        "examples": [
+          {"en": "How much will members pay for the **annual pass**? / Members: $120 per year. Guests: $15 per day.", "note": "The key word leads to the members line. The \"$15\" is a nearby number for another group."}
+        ]
+      },
+      {
+        "title": "Read the whole sentence and the one before",
+        "text": "The key word is only a marker. Read the whole sentence, including the end, which often holds a condition or an exception (\"unless\", \"only if\"). Also go back to the previous sentence: a pronoun (\"it\", \"they\") may refer to a different subject from the one you care about.",
+        "examples": [
+          {"en": "Refunds are available within 14 days. **Items on sale**, however, can only be exchanged.", "note": "If the question is about a sale item, the whole sentence changes the answer: exchange only."}
+        ]
+      },
+      {
+        "title": "Recognize the rewording",
+        "text": "The TOEIC replaces the words of the text: a synonym (\"buy\" becomes \"purchase\"), or a more general category (\"a sofa\" becomes \"furniture\", \"9 a.m.\" becomes \"in the morning\"). A true option written with other words is often the right one. An option that copies the text needs checking.",
+        "examples": [
+          {"en": "The store sells sofas, tables and lamps. → What does the store sell? **Furniture and lighting**", "note": "Right answer: more general categories that group the objects named."},
+          {"en": "Staff must **hand in** their badge on the last day. → What must employees return?", "note": "\"hand in\" becomes \"return\": a synonym, same idea."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "Copied words attached elsewhere",
+        "text": "An option can reuse words from the text and still be wrong because they describe another person or another thing. Check who or what the information is attached to in the text, not just that it appears there."
+      },
+      {
+        "title": "A nearby number or date",
+        "text": "A text often has several prices, times or dates close together. The options reuse these values, but only one fits the right person or situation. Reread the sentence to see who the number applies to."
+      },
+      {
+        "title": "Answering from memory or common sense",
+        "text": "An option may seem true in real life without being written in the text. For a detail question, everything is proved by the text. If you cannot point to the sentence that supports it, look at another option."
+      }
+    ]
+  }
+}

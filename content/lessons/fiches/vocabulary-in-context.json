@@ -1,0 +1,125 @@
+{
+  "tag": "vocabulary-in-context",
+  "fr": {
+    "title": "Vocabulaire en contexte",
+    "summary": "Dans une question de vocabulaire, les quatre options ont la même nature grammaticale : seul le sens, ou la construction, tranche. Lis la phrase entière, repère les mots qui imposent le sens, puis teste chaque option.",
+    "keyPoints": [
+      "Quatre options de même nature : la grammaire ne t'aide pas, c'est le sens et la construction qui décident.",
+      "Cherche les mots qui imposent le sens : le complément, le sujet, la préposition qui suit.",
+      "Méfie-toi des faux amis (« actually », « eventually », « attend ») et des mots proches (« affect » et « effect », « rise » et « raise »)."
+    ],
+    "rules": [
+      {
+        "title": "La méthode en trois temps",
+        "text": "1. Vérifie la nature grammaticale des options : si elles sont toutes identiques, c'est du vocabulaire. 2. Repère les mots qui imposent le sens : sujet, complément, préposition. 3. Lis la phrase avec chaque option et garde celle qui est naturelle en anglais, pas celle qui se traduit bien en français.",
+        "examples": [
+          {"en": "Employees must **submit** their expense reports by the 5th.", "note": "Le complément « expense reports » et « by the 5th » imposent « remettre »."},
+          {"en": "The sales team is **responsible** for contacting new clients.", "note": "La préposition « for » après « is » désigne « responsible »."}
+        ]
+      },
+      {
+        "title": "Les faux amis français-anglais",
+        "text": "« attend » = assister à (pas attendre, qui se dit « wait for »). « eventually » = finalement (pas éventuellement). « currently » = actuellement, alors qu'« actually » = en fait. « sensitive » = sensible, délicat ; « sensible » = raisonnable. « assist » = aider. « resume » = reprendre (résumer = « summarize »). « deception » = tromperie (déception = « disappointment »).",
+        "examples": [
+          {"en": "Ms. Okada must **attend** the safety briefing at nine.", "note": "« attend » = assister à."},
+          {"en": "The shipment was delayed, but it **eventually** arrived on Monday.", "note": "« eventually » = finalement."},
+          {"en": "Prices are **currently** under review.", "note": "« currently » = actuellement."},
+          {"en": "The report contains **sensitive** data, so please do not share it.", "note": "« sensitive » : délicat, confidentiel."}
+        ]
+      },
+      {
+        "title": "Les mots proches qu'on confond",
+        "text": "« affect » est un verbe (influencer), « effect » un nom (effet). « rise » est intransitif (monter : rose, risen), « raise » est transitif (augmenter, lever : raised). « lend » = prêter, « borrow » = emprunter. « remind » exige une personne (« remind me to »), « remember » non. « tell » + personne, « say » + paroles.",
+        "examples": [
+          {"en": "The strike will **affect** all departures after noon.", "note": "Verbe avec complément : « affect »."},
+          {"en": "Prices **rose** by three percent last quarter.", "note": "Pas de complément : « rise », au passé « rose »."},
+          {"en": "Could you **lend** me your laptop charger?", "note": "Tu me le donnes pour un temps : « lend »."},
+          {"en": "The assistant **told** the clients that the meeting was canceled.", "note": "« tell » + personne (« the clients »)."}
+        ]
+      },
+      {
+        "title": "Éliminer par la construction",
+        "text": "Quand le sens hésite, regarde la construction. Certains verbes n'ont pas de préposition devant leur complément : « discuss the plan », pas « discuss about ». D'autres exigent « to » pour la personne : « explain the policy to the interns ». Une option dont la construction ne colle pas avec la suite de la phrase est à éliminer.",
+        "examples": [
+          {"en": "The committee will **discuss** the proposal on Monday.", "note": "« discuss » est transitif : pas de « about »."},
+          {"en": "Ms. Diaz **explained** the new procedure to the interns.", "note": "« explain something to someone »."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "Un mot qui existe, mais pas ici",
+        "text": "Chaque option est un vrai mot, souvent courant. La bonne n'est pas la plus fréquente, mais celle qui s'accorde avec le complément ou la préposition de la phrase. Lis jusqu'au bout avant de choisir."
+      },
+      {
+        "title": "Traduire depuis le français",
+        "text": "Les concepteurs placent le faux ami parmi les distracteurs : « assist » pour « assister à », « actually » pour « actuellement ». Si une option te paraît évidente parce qu'elle ressemble au français, vérifie son vrai sens en anglais."
+      },
+      {
+        "title": "Les familles de mots piégeuses",
+        "text": "Deux adjectifs proches n'ont pas le même sens : « considerable » (important) et « considerate » (prévenant) ; « economic » (relatif à l'économie) et « economical » (économe). Le TOEIC les place ensemble : appuie-toi sur le nom qui suit."
+      }
+    ]
+  },
+  "en": {
+    "title": "Vocabulary in context",
+    "summary": "In a vocabulary question, the four options are the same part of speech: only meaning, or the construction, decides. Read the whole sentence, find the words that fix the meaning, then test each option.",
+    "keyPoints": [
+      "Four options of the same type: grammar does not help, so meaning and construction decide.",
+      "Look for the words that fix the meaning: the object, the subject, the preposition that follows.",
+      "Beware of false friends (\"actually\", \"eventually\", \"attend\") and look-alike words (\"affect\" and \"effect\", \"rise\" and \"raise\")."
+    ],
+    "rules": [
+      {
+        "title": "The three-step method",
+        "text": "1. Check the grammar of the options: if they are all the same, it is a vocabulary question. 2. Find the words that fix the meaning: subject, object, preposition. 3. Read the sentence with each option and keep the one that sounds natural in English, not the one that translates well from French.",
+        "examples": [
+          {"en": "Employees must **submit** their expense reports by the 5th.", "note": "The object \"expense reports\" and \"by the 5th\" call for \"hand in\"."},
+          {"en": "The sales team is **responsible** for contacting new clients.", "note": "The preposition \"for\" after \"is\" points to \"responsible\"."}
+        ]
+      },
+      {
+        "title": "French-English false friends",
+        "text": "\"attend\" = to be present at (not \"wait for\"). \"eventually\" = in the end (not \"possibly\"). \"currently\" = right now, while \"actually\" = in fact. \"sensitive\" = easily affected or delicate; \"sensible\" = reasonable. \"assist\" = to help. \"resume\" = to start again (\"summarize\" is the word for a summary). \"deception\" = trickery (\"disappointment\" is the word for a letdown).",
+        "examples": [
+          {"en": "Ms. Okada must **attend** the safety briefing at nine.", "note": "\"attend\" = be present at."},
+          {"en": "The shipment was delayed, but it **eventually** arrived on Monday.", "note": "\"eventually\" = in the end."},
+          {"en": "Prices are **currently** under review.", "note": "\"currently\" = right now."},
+          {"en": "The report contains **sensitive** data, so please do not share it.", "note": "\"sensitive\": delicate, confidential."}
+        ]
+      },
+      {
+        "title": "Look-alike words people mix up",
+        "text": "\"affect\" is a verb (to influence), \"effect\" is a noun (a result). \"rise\" takes no object (rose, risen), \"raise\" takes an object (raised). \"lend\" = give for a time, \"borrow\" = take for a time. \"remind\" needs a person (\"remind me to\"), \"remember\" does not. \"tell\" + person, \"say\" + words.",
+        "examples": [
+          {"en": "The strike will **affect** all departures after noon.", "note": "A verb with an object: \"affect\"."},
+          {"en": "Prices **rose** by three percent last quarter.", "note": "No object: \"rise\", past tense \"rose\"."},
+          {"en": "Could you **lend** me your laptop charger?", "note": "You give it to me for a while: \"lend\"."},
+          {"en": "The assistant **told** the clients that the meeting was canceled.", "note": "\"tell\" + person (\"the clients\")."}
+        ]
+      },
+      {
+        "title": "Eliminating by construction",
+        "text": "When the meaning is unclear, look at the construction. Some verbs take no preposition before their object: \"discuss the plan\", not \"discuss about\". Others need \"to\" for the person: \"explain the policy to the interns\". An option whose construction does not fit the rest of the sentence can be eliminated.",
+        "examples": [
+          {"en": "The committee will **discuss** the proposal on Monday.", "note": "\"discuss\" is transitive: no \"about\"."},
+          {"en": "Ms. Diaz **explained** the new procedure to the interns.", "note": "\"explain something to someone\"."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "A real word, but not here",
+        "text": "Every option is a real word, often a common one. The right one is not the most frequent, but the one that fits the object or the preposition in the sentence. Read to the end before you choose."
+      },
+      {
+        "title": "Translating from French",
+        "text": "Test writers put the false friend among the distractors: \"assist\" for \"assister à\", \"actually\" for \"actuellement\". If an option looks obvious because it resembles French, check its real English meaning."
+      },
+      {
+        "title": "Tricky word families",
+        "text": "Two close adjectives do not mean the same: \"considerable\" (large) and \"considerate\" (thoughtful); \"economic\" (relating to the economy) and \"economical\" (cheap to use). The TOEIC puts them together: rely on the noun that follows."
+      }
+    ]
+  }
+}

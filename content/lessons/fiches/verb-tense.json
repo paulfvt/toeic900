@@ -1,0 +1,121 @@
+{
+  "tag": "verb-tense",
+  "fr": {
+    "title": "Temps des verbes et marqueurs",
+    "summary": "Au TOEIC, le temps du verbe se devine presque toujours grâce à un marqueur de temps dans la phrase : « ago », « since », « by the time », « currently », « next ». Repère-le d'abord, puis choisis la forme.",
+    "keyPoints": [
+      "**yesterday / last / ago** = prétérit ; **since / for / so far / over the past** = present perfect.",
+      "**by the time** + passé = past perfect ; **by next …** = future perfect.",
+      "Après **when, if, as soon as, before, until**, on met le **présent** pour parler du futur, jamais « will »."
+    ],
+    "rules": [
+      {
+        "title": "Prétérit ou present perfect",
+        "text": "Un moment du passé fini (**yesterday, last week, in 2023, two days ago**) demande le prétérit. Une période qui continue jusqu'à maintenant (**since** + point de départ, **for** + durée, **so far, over the past three years, recently, already, yet**) demande le present perfect.",
+        "examples": [
+          {"en": "We **signed** the contract two weeks ago.", "note": "« ago » : le moment est fini, donc prétérit."},
+          {"en": "The company **has hired** twelve engineers since January.", "note": "« since January » : la période court jusqu'à maintenant."},
+          {"en": "Sales **have risen** steadily over the past three years.", "note": "« over the past three years » : present perfect."}
+        ]
+      },
+      {
+        "title": "Past perfect et future perfect",
+        "text": "**By the time** + prétérit introduit une action déjà terminée avant : on met le past perfect dans l'autre proposition (« had started »). Pour un futur, **by next June / by the end of the year** appellent le future perfect (« will have + participe »).",
+        "examples": [
+          {"en": "By the time the manager arrived, the meeting **had** already **started**.", "note": "Le début de la réunion précède l'arrivée : past perfect."},
+          {"en": "By next June, we **will have opened** five new branches.", "note": "« by next June » : future perfect."}
+        ]
+      },
+      {
+        "title": "Présent simple, présent continu, futur",
+        "text": "**usually, every day, always, each month** : présent simple, pour une habitude. **currently, now, at the moment, this week** : présent continu, pour une action en cours. **next, soon, tomorrow, in two weeks** : futur avec « will » ou « be going to ».",
+        "examples": [
+          {"en": "The warehouse **ships** orders every weekday.", "note": "« every weekday » : habitude, présent simple."},
+          {"en": "Our team is currently **updating** the customer database.", "note": "« currently » : action en cours, présent continu."},
+          {"en": "The new manager **will join** us next Monday.", "note": "« next Monday » : futur avec « will »."}
+        ]
+      },
+      {
+        "title": "Le présent après when, if, as soon as",
+        "text": "Dans une proposition de temps (**when, as soon as, before, after, until**) ou de condition (**if, unless**), on utilise le présent pour un événement futur. Le verbe de l'autre proposition, lui, est au futur ou à l'impératif.",
+        "examples": [
+          {"en": "I will call you as soon as the shipment **arrives**.", "note": "Après « as soon as » : présent, pas « will arrive »."},
+          {"en": "If the flight **is** delayed, we will rebook the hotel.", "note": "Condition : présent dans la proposition en « if »."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "Le mauvais temps avec since, for, ago",
+        "text": "Les options contiennent souvent prétérit et present perfect. « since 2019 », « for ten years » ou « so far » excluent le prétérit simple seul, et « ago » exclut le present perfect (« has left two hours ago » est faux)."
+      },
+      {
+        "title": "« will » dans la subordonnée",
+        "text": "« when she will arrive » et « if the supplier will deliver » sont faux. Exception : « if » au sens de « whether » après « know », « ask » ou « wonder » accepte « will » (« I don't know if she will come »)."
+      },
+      {
+        "title": "Un marqueur loin du trou",
+        "text": "Le marqueur de temps est parfois en début de phrase (« Last year, … ») ou dans la phrase d'à côté. Lis toute la phrase, voire la précédente, avant de choisir parmi les formes conjuguées."
+      }
+    ]
+  },
+  "en": {
+    "title": "Verb tenses and time markers",
+    "summary": "On the TOEIC, the verb tense can almost always be guessed from a time marker in the sentence: \"ago\", \"since\", \"by the time\", \"currently\", \"next\". Spot it first, then choose the form.",
+    "keyPoints": [
+      "**yesterday / last / ago** = simple past; **since / for / so far / over the past** = present perfect.",
+      "**by the time** + past = past perfect; **by next …** = future perfect.",
+      "After **when, if, as soon as, before, until**, use the **present** to talk about the future, never \"will\"."
+    ],
+    "rules": [
+      {
+        "title": "Simple past or present perfect",
+        "text": "A finished moment in the past (**yesterday, last week, in 2023, two days ago**) calls for the simple past. A period that continues up to now (**since** + starting point, **for** + duration, **so far, over the past three years, recently, already, yet**) calls for the present perfect.",
+        "examples": [
+          {"en": "We **signed** the contract two weeks ago.", "note": "\"ago\": the moment is finished, so simple past."},
+          {"en": "The company **has hired** twelve engineers since January.", "note": "\"since January\": the period runs up to now."},
+          {"en": "Sales **have risen** steadily over the past three years.", "note": "\"over the past three years\": present perfect."}
+        ]
+      },
+      {
+        "title": "Past perfect and future perfect",
+        "text": "**By the time** + simple past introduces an action already finished before: put the past perfect in the other clause (\"had started\"). For the future, **by next June / by the end of the year** call for the future perfect (\"will have + participle\").",
+        "examples": [
+          {"en": "By the time the manager arrived, the meeting **had** already **started**.", "note": "The meeting started before the arrival: past perfect."},
+          {"en": "By next June, we **will have opened** five new branches.", "note": "\"by next June\": future perfect."}
+        ]
+      },
+      {
+        "title": "Present simple, present continuous, future",
+        "text": "**usually, every day, always, each month**: present simple, for a habit. **currently, now, at the moment, this week**: present continuous, for an action in progress. **next, soon, tomorrow, in two weeks**: future with \"will\" or \"be going to\".",
+        "examples": [
+          {"en": "The warehouse **ships** orders every weekday.", "note": "\"every weekday\": a habit, present simple."},
+          {"en": "Our team is currently **updating** the customer database.", "note": "\"currently\": an action in progress, present continuous."},
+          {"en": "The new manager **will join** us next Monday.", "note": "\"next Monday\": future with \"will\"."}
+        ]
+      },
+      {
+        "title": "The present after when, if, as soon as",
+        "text": "In a time clause (**when, as soon as, before, after, until**) or a condition clause (**if, unless**), use the present for a future event. The verb in the other clause is in the future or the imperative.",
+        "examples": [
+          {"en": "I will call you as soon as the shipment **arrives**.", "note": "After \"as soon as\": present, not \"will arrive\"."},
+          {"en": "If the flight **is** delayed, we will rebook the hotel.", "note": "Condition: present in the \"if\" clause."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "The wrong tense with since, for, ago",
+        "text": "The options often contain the simple past and the present perfect. \"since 2019\", \"for ten years\" or \"so far\" rule out a lone simple past, and \"ago\" rules out the present perfect (\"has left two hours ago\" is wrong)."
+      },
+      {
+        "title": "\"will\" in the subordinate clause",
+        "text": "\"when she will arrive\" and \"if the supplier will deliver\" are wrong. Exception: \"if\" meaning \"whether\" after \"know\", \"ask\" or \"wonder\" accepts \"will\" (\"I don't know if she will come\")."
+      },
+      {
+        "title": "A marker far from the blank",
+        "text": "The time marker is sometimes at the start of the sentence (\"Last year, …\") or in a neighboring sentence. Read the whole sentence, even the previous one, before choosing among the conjugated forms."
+      }
+    ]
+  }
+}

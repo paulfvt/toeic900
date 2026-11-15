@@ -1,0 +1,1883 @@
+{
+  "part": 7,
+  "pool": "training",
+  "sets": [
+    {
+      "id": "p7-0001",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "chat",
+          "text": "Marta Kowalski (10:02 A.M.): The display panels for our Lisbon booth still haven't arrived. The courier's website just says \"in transit.\"\nDev Anand (10:04 A.M.): I called them. A truck broke down near Madrid, so the shipment is two days behind.\nMarta Kowalski (10:06 A.M.): The show opens Thursday; we must set up by Wednesday evening.\nDev Anand (10:08 A.M.): They can switch to air freight and deliver by Wednesday at noon, but it costs about $400 extra.\nMarta Kowalski (10:10 A.M.): Let's pull the trigger.\nDev Anand (10:12 A.M.): Done. I'll send the new tracking number to Ms. Silva so she can meet the delivery at the exhibition hall."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0001-1",
+          "tags": [
+            "writer-intention"
+          ],
+          "difficulty": 2,
+          "stem": "At 10:10 A.M., what does Ms. Kowalski most likely mean when she writes, \"Let's pull the trigger\"?",
+          "options": [
+            "She wants to end the contract with the courier.",
+            "She agrees to the more expensive delivery option.",
+            "She is ready to start setting up the booth.",
+            "She would prefer to wait before deciding."
+          ],
+          "answer": "B",
+          "evidence": [
+            "They can switch to air freight and deliver by Wednesday at noon, but it costs about $400 extra.",
+            "Let's pull the trigger."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Juste avant, M. Anand propose le fret aérien « but it costs about $400 extra ». « Let's pull the trigger » veut dire « décidons-nous, lançons-nous » : elle accepte cette option plus chère.",
+              "distractors": {
+                "A": "Rien ne parle de rompre avec le transporteur : elle veut au contraire que le colis arrive par ce même transporteur, plus vite.",
+                "C": "L'installation du stand n'est pas encore possible : les panneaux ne sont pas arrivés.",
+                "D": "Elle ne veut pas attendre : elle répond tout de suite à la proposition, sans demander de délai."
+              },
+              "trap": "Pour une réplique idiomatique, ne traduis pas mot à mot : relis le message précédent, la réplique est presque toujours une réponse à celui-ci."
+            },
+            "en": {
+              "rule": "Just before, Mr. Anand offers air freight, \"but it costs about $400 extra\". \"Let's pull the trigger\" means \"let's decide and go ahead\": she accepts the more expensive option.",
+              "distractors": {
+                "A": "Nothing suggests ending the courier contract: she wants the same courier to deliver faster.",
+                "C": "Setting up the booth is not possible yet: the panels have not arrived.",
+                "D": "She does not want to wait: she answers the offer immediately, without asking for more time."
+              },
+              "trap": "For an idiomatic line, do not translate word for word: reread the previous message, because the line is almost always a reply to it."
+            }
+          }
+        },
+        {
+          "id": "p7-0001-2",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 1,
+          "stem": "What does Mr. Anand say he will do next?",
+          "options": [
+            "Travel to the exhibition hall",
+            "Order a second set of panels",
+            "Call the show organizers",
+            "Send tracking details to a coworker"
+          ],
+          "answer": "D",
+          "evidence": [
+            "I'll send the new tracking number to Ms. Silva so she can meet the delivery at the exhibition hall."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "M. Anand écrit « I'll send the new tracking number to Ms. Silva » : il transmet les informations de suivi à une collègue (« coworker »).",
+              "distractors": {
+                "A": "C'est Mme Silva qui ira réceptionner la livraison au salon, pas lui.",
+                "B": "Les panneaux d'origine sont simplement réexpédiés par avion : aucun second jeu n'est commandé.",
+                "C": "Les organisateurs du salon ne sont jamais mentionnés."
+              },
+              "trap": "Distingue qui fait quoi : ici le lieu (« exhibition hall ») est mentionné, mais l'action de M. Anand est l'envoi du numéro de suivi."
+            },
+            "en": {
+              "rule": "Mr. Anand writes \"I'll send the new tracking number to Ms. Silva\": he passes the tracking information to a colleague (\"coworker\").",
+              "distractors": {
+                "A": "Ms. Silva will meet the delivery at the show, not him.",
+                "B": "The original panels are simply sent by air: no second set is ordered.",
+                "C": "The show organizers are never mentioned."
+              },
+              "trap": "Keep track of who does what: the place (\"exhibition hall\") is mentioned, but Mr. Anand's own action is sending the tracking number."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0002",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "email",
+          "text": "To: Ms. Helena Brandt\nFrom: Raj Menon, Halvorsen Commercial Properties\nDate: November 3\nSubject: Lease renewal for Suite 410\n\nDear Ms. Brandt,\n\nYour lease for Suite 410 at Alder Court expires on January 31. I am writing to ask whether Brandt Design Studio would like to stay for another two years.\n\nIf you renew, the monthly rent will rise from $2,850 to $2,990 starting February 1. This is the first increase in three years and helps cover the recent renovation of the lobby. A one-year renewal is also available at $3,050 per month.\n\nIf you return the signed renewal form by December 5, we will repaint your suite at no charge. Because several companies are on our waiting list for space in the building, I would be grateful for your answer by that date.\n\nPlease call me at 555-0148 with any questions.\n\nSincerely,\nRaj Menon\nProperty Manager"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0002-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 1,
+          "stem": "What is the purpose of the e-mail?",
+          "options": [
+            "To announce a renovation of the building",
+            "To request a late rent payment",
+            "To ask a tenant about continuing to rent",
+            "To offer a tenant a larger office"
+          ],
+          "answer": "C",
+          "evidence": [
+            "I am writing to ask whether Brandt Design Studio would like to stay for another two years."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Dès le premier paragraphe : « I am writing to ask whether Brandt Design Studio would like to stay for another two years ». Le but est de demander si la locataire veut prolonger son bail.",
+              "distractors": {
+                "A": "La rénovation du hall n'est citée que pour justifier la hausse de loyer ; ce n'est pas le sujet du message.",
+                "B": "Aucun impayé n'est évoqué.",
+                "D": "Il s'agit de la même suite 410, pas d'un bureau plus grand."
+              },
+              "trap": "Le but d'un e-mail est dans la première phrase ; un détail cité pour justifier autre chose (la rénovation) est un piège classique."
+            },
+            "en": {
+              "rule": "In the first paragraph: \"I am writing to ask whether Brandt Design Studio would like to stay for another two years\". The purpose is to ask whether the tenant wants to extend the lease.",
+              "distractors": {
+                "A": "The lobby renovation is only mentioned to explain the rent increase; it is not the subject of the message.",
+                "B": "No overdue payment is mentioned.",
+                "D": "The offer concerns the same Suite 410, not a larger office."
+              },
+              "trap": "The purpose of an e-mail is in its first sentence; a detail cited to justify something else (the renovation) is a classic trap."
+            }
+          }
+        },
+        {
+          "id": "p7-0002-2",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 2,
+          "stem": "According to the e-mail, what will happen if Ms. Brandt returns the form by December 5?",
+          "options": [
+            "Her office will be repainted for free.",
+            "Her rent will stay at the current level.",
+            "She will be put on a waiting list.",
+            "Her lease will be extended to three years."
+          ],
+          "answer": "A",
+          "evidence": [
+            "If you return the signed renewal form by December 5, we will repaint your suite at no charge."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« we will repaint your suite at no charge » : « repaint your suite » devient « her office will be repainted » et « at no charge » devient « for free ».",
+              "distractors": {
+                "B": "Le loyer passe de 2 850 $ à 2 990 $ ; la date du 5 décembre ne change rien au montant.",
+                "C": "La liste d'attente concerne d'autres entreprises (« several companies »), pas Mme Brandt.",
+                "D": "Le bail proposé dure deux ans (ou un an) ; trois ans n'est jamais évoqué."
+              },
+              "trap": "Repère la condition (« by December 5 ») puis lis uniquement la conséquence qui lui est attachée ; les autres chiffres du texte sont des leurres."
+            },
+            "en": {
+              "rule": "\"we will repaint your suite at no charge\": \"repaint your suite\" becomes \"her office will be repainted\" and \"at no charge\" becomes \"for free\".",
+              "distractors": {
+                "B": "The rent goes from $2,850 to $2,990; the December 5 date does not change the amount.",
+                "C": "The waiting list concerns other companies (\"several companies\"), not Ms. Brandt.",
+                "D": "The proposed lease lasts two years (or one year); three years is never mentioned."
+              },
+              "trap": "Find the condition (\"by December 5\") and read only the consequence attached to it; the other figures in the text are decoys."
+            }
+          }
+        },
+        {
+          "id": "p7-0002-3",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 2,
+          "stem": "What is suggested about Alder Court?",
+          "options": [
+            "Its rents have gone up every year.",
+            "Its leases are available only for two years.",
+            "Its lobby is currently closed for repairs.",
+            "Its offices are attractive to many companies."
+          ],
+          "answer": "D",
+          "evidence": [
+            "Because several companies are on our waiting list for space in the building"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Plusieurs entreprises sont sur une liste d'attente (« waiting list ») : on en déduit que les bureaux sont recherchés. Le texte ne le dit pas en ces termes.",
+              "distractors": {
+                "A": "Il s'agit de « the first increase in three years » : le loyer n'augmente pas chaque année.",
+                "B": "Une prolongation d'un an est aussi proposée (« A one-year renewal is also available »).",
+                "C": "La rénovation du hall est récente (« recent renovation »), pas en cours."
+              },
+              "trap": "Une inférence s'appuie sur UNE phrase précise ; vérifie qu'aucun autre passage ne contredit l'option (ici « first increase in three years »)."
+            },
+            "en": {
+              "rule": "Several companies are on a waiting list: you can infer that the offices are in demand. The text does not say so in these words.",
+              "distractors": {
+                "A": "It is \"the first increase in three years\": rent does not rise every year.",
+                "B": "A one-year renewal is also offered (\"A one-year renewal is also available\").",
+                "C": "The lobby renovation is recent (\"recent renovation\"), not ongoing."
+              },
+              "trap": "An inference rests on ONE precise sentence; check that no other passage contradicts the option (here \"first increase in three years\")."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0003",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "notice",
+          "title": "Fairmont Public Library",
+          "text": "NOTICE: RENOVATION AND NEW HOURS\n\nThe Fairmont Public Library will renovate its ground floor from March 3 to April 25. During this time, the children's section and the computer lab will be closed. The reading room on the second floor will stay open, and books can still be borrowed and returned at the front desk.\n\nNew hours will begin on March 3:\n\nMonday to Friday: 10:00 A.M. to 7:00 P.M.\nSaturday: 9:00 A.M. to 3:00 P.M.\nSunday: closed\n\nStory Hour will move to the Linden Street Community Center for the length of the project. Books may also be returned at any time in the drop box beside the parking lot.\n\nWe apologize for the inconvenience and thank you for your patience."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0003-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 1,
+          "stem": "What is the purpose of the notice?",
+          "options": [
+            "To invite residents to a library event",
+            "To tell visitors about construction work and changed hours",
+            "To announce that the library will close for two months",
+            "To ask residents for money for new books"
+          ],
+          "answer": "B",
+          "evidence": [
+            "The Fairmont Public Library will renovate its ground floor from March 3 to April 25.",
+            "New hours will begin on March 3:"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le titre « Renovation and new hours » et les deux premiers paragraphes annoncent des travaux (« renovate its ground floor ») et de nouveaux horaires (« New hours »).",
+              "distractors": {
+                "A": "« Story Hour » est déplacé, mais ce n'est qu'un détail : l'avis n'invite à aucun événement.",
+                "C": "La bibliothèque ne ferme pas : la salle de lecture reste ouverte et le prêt continue.",
+                "D": "Aucune demande de dons n'apparaît."
+              },
+              "trap": "Pour une question de but, lis le titre : il résume souvent les deux idées du texte ; un détail isolé (Story Hour) ne donne pas le but."
+            },
+            "en": {
+              "rule": "The heading \"Renovation and new hours\" and the first paragraphs announce work (\"renovate its ground floor\") and new hours (\"New hours\").",
+              "distractors": {
+                "A": "\"Story Hour\" is moved, but that is only a detail: the notice does not invite anyone to an event.",
+                "C": "The library does not close: the reading room stays open and lending continues.",
+                "D": "No request for donations appears."
+              },
+              "trap": "For a purpose question, read the heading: it often sums up the two ideas of the text; one isolated detail (Story Hour) does not give the purpose."
+            }
+          }
+        },
+        {
+          "id": "p7-0003-2",
+          "tags": [
+            "not-true"
+          ],
+          "difficulty": 2,
+          "stem": "What is NOT indicated about the library during the renovation?",
+          "options": [
+            "Some areas will be off limits to the public.",
+            "A regular activity will be held somewhere else.",
+            "Visitors will be unable to borrow books.",
+            "Books can be dropped off when the building is closed."
+          ],
+          "answer": "C",
+          "evidence": [
+            "the children's section and the computer lab will be closed",
+            "Story Hour will move to the Linden Street Community Center for the length of the project.",
+            "Books may also be returned at any time in the drop box beside the parking lot."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le texte dit l'inverse : « books can still be borrowed and returned at the front desk ». Les trois autres options sont écrites, reformulées.",
+              "distractors": {
+                "A": "Vrai : « the children's section and the computer lab will be closed ».",
+                "B": "Vrai : « Story Hour will move to the Linden Street Community Center ».",
+                "D": "Vrai : « returned at any time in the drop box »."
+              },
+              "trap": "Question NOT : vérifie chaque option dans le texte et barre les trois qui y sont ; celle qui reste est la réponse, même si elle contredit le texte."
+            },
+            "en": {
+              "rule": "The text says the opposite: \"books can still be borrowed and returned at the front desk\". The other three options are written, in different words.",
+              "distractors": {
+                "A": "True: \"the children's section and the computer lab will be closed\".",
+                "B": "True: \"Story Hour will move to the Linden Street Community Center\".",
+                "D": "True: \"returned at any time in the drop box\"."
+              },
+              "trap": "NOT question: check each option in the text and cross out the three that appear; the one left is the answer, even if it contradicts the text."
+            }
+          }
+        },
+        {
+          "id": "p7-0003-3",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 1,
+          "stem": "When will the library close on weekdays after March 3?",
+          "options": [
+            "At 7:00 P.M.",
+            "At 3:00 P.M.",
+            "At 5:00 P.M.",
+            "At 10:00 P.M."
+          ],
+          "answer": "A",
+          "evidence": [
+            "Monday to Friday: 10:00 A.M. to 7:00 P.M."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La ligne « Monday to Friday: 10:00 A.M. to 7:00 P.M. » donne la fermeture en semaine : 19 h.",
+              "distractors": {
+                "B": "15 h est l'heure de fermeture du samedi.",
+                "C": "17 h n'apparaît nulle part dans l'avis.",
+                "D": "22 h n'apparaît nulle part ; 10 h est l'heure d'ouverture en semaine."
+              },
+              "trap": "Dans un horaire, vérifie le jour de la semaine avant de choisir l'heure : le samedi est le distracteur habituel."
+            },
+            "en": {
+              "rule": "The line \"Monday to Friday: 10:00 A.M. to 7:00 P.M.\" gives the weekday closing time: 7:00 P.M.",
+              "distractors": {
+                "B": "3:00 P.M. is the Saturday closing time.",
+                "C": "5:00 P.M. appears nowhere in the notice.",
+                "D": "10:00 P.M. appears nowhere; 10:00 A.M. is the weekday opening time."
+              },
+              "trap": "In a schedule, check the day of the week before choosing the time: Saturday is the usual distractor."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0004",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "article",
+          "title": "Harlow Creamery Brings Same-Day Delivery to Local Restaurants",
+          "text": "MARLOW BAY - Harlow Creamery, a family-owned dairy producer, announced on Tuesday that it will begin same-day delivery of fresh dairy products to restaurants and cafés across the region. [1] The new service, called Harlow Express, starts on March 10 and will cover 14 towns within 60 kilometers of the creamery.\n\nUntil now, local restaurants had to place orders two days in advance. Chief executive Amara Nwosu said that this delay forced many chefs to buy from large suppliers outside the region. \"A café owner who runs out of cream on Friday morning cannot wait until Sunday,\" she said. [2] Orders placed before 8:00 A.M. will arrive by 2:00 P.M. the same day, and customers can follow each delivery on the company's website.\n\nTo make the service possible, the creamery bought five refrigerated vans and hired eight drivers. The investment, about $900,000, was partly financed by a regional development fund. [3] Ms. Nwosu expects the service to raise sales by 20 percent in its first year. Several restaurants have already signed up, including the Lantern Room in Marlow Bay and Pavel's Kitchen in Oakfield. [4]\n\nHarlow Creamery was founded in 1962 and employs about 70 people, most of whom live in the Marlow Bay area."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0004-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 2,
+          "stem": "What is the article mainly about?",
+          "options": [
+            "The opening of a second creamery location",
+            "A price increase for dairy products",
+            "A loan program for restaurant owners",
+            "A faster way for restaurants to get supplies"
+          ],
+          "answer": "D",
+          "evidence": [
+            "announced on Tuesday that it will begin same-day delivery of fresh dairy products to restaurants and cafés across the region."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La première phrase annonce une livraison le jour même (« same-day delivery ») de produits laitiers aux restaurants : c'est un moyen plus rapide de les approvisionner. Tout le reste du texte détaille ce service.",
+              "distractors": {
+                "A": "Il s'agit d'un nouveau service de livraison, pas d'un second site de production.",
+                "B": "Aucun prix n'est évoqué.",
+                "C": "Le fonds régional a financé la laiterie, pas les restaurateurs : ce n'est qu'un détail."
+              },
+              "trap": "Idée principale : relie la première phrase et le titre ; un détail du troisième paragraphe (le fonds) ne peut pas être le sujet de tout l'article."
+            },
+            "en": {
+              "rule": "The first sentence announces same-day delivery of dairy products to restaurants: a faster way to supply them. The rest of the text details this service.",
+              "distractors": {
+                "A": "It is a new delivery service, not a second production site.",
+                "B": "No price is mentioned.",
+                "C": "The regional fund helped finance the creamery, not restaurant owners: it is only a detail."
+              },
+              "trap": "Main idea: link the first sentence and the title; a detail from the third paragraph (the fund) cannot be the subject of the whole article."
+            }
+          }
+        },
+        {
+          "id": "p7-0004-2",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 2,
+          "stem": "According to Ms. Nwosu, why did some chefs buy from distant suppliers?",
+          "options": [
+            "The prices at Harlow Creamery were higher.",
+            "Waiting for Harlow's deliveries took too long.",
+            "Harlow Creamery refused small orders.",
+            "The outside suppliers offered better quality."
+          ],
+          "answer": "B",
+          "evidence": [
+            "Until now, local restaurants had to place orders two days in advance.",
+            "this delay forced many chefs to buy from large suppliers outside the region."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Les commandes devaient être passées deux jours à l'avance ; Mme Nwosu dit que « this delay forced many chefs to buy from large suppliers outside the region ». Le délai d'attente est la cause.",
+              "distractors": {
+                "A": "Aucune comparaison de prix n'est faite.",
+                "C": "Aucun refus de petites commandes n'est mentionné.",
+                "D": "La qualité des fournisseurs extérieurs n'est pas évoquée ; c'est le délai qui est en cause."
+              },
+              "trap": "Pour une question « pourquoi », cherche le mot de cause (« forced », « because ») et remonte la phrase pour voir à quoi se rapporte « this delay »."
+            },
+            "en": {
+              "rule": "Orders had to be placed two days ahead; Ms. Nwosu says \"this delay forced many chefs to buy from large suppliers outside the region\". The waiting time is the cause.",
+              "distractors": {
+                "A": "No price comparison is made.",
+                "C": "No refusal of small orders is mentioned.",
+                "D": "The quality of outside suppliers is not discussed; the delay is the cause."
+              },
+              "trap": "For a \"why\" question, look for the cause word (\"forced\", \"because\") and go back a sentence to see what \"this delay\" refers to."
+            }
+          }
+        },
+        {
+          "id": "p7-0004-3",
+          "tags": [
+            "synonym-in-context"
+          ],
+          "difficulty": 2,
+          "stem": "The word \"raise\" in paragraph 3 is closest in meaning to",
+          "options": [
+            "increase",
+            "collect",
+            "mention",
+            "breed"
+          ],
+          "answer": "A",
+          "evidence": [
+            "Ms. Nwosu expects the service to raise sales by 20 percent in its first year."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« raise sales by 20 percent » : les ventes vont augmenter de 20 %. Le sens est « increase ».",
+              "distractors": {
+                "B": "« collect » est un sens de « raise » (« raise money »), mais on ne collecte pas des ventes.",
+                "C": "« mention » correspond à « raise a question », sens impossible ici.",
+                "D": "« breed » correspond à « raise animals », sens sans rapport avec des ventes."
+              },
+              "trap": "Synonyme : remplace le mot par chaque option dans la phrase ; élimine les sens du mot qui ne vont pas avec son complément (« sales »)."
+            },
+            "en": {
+              "rule": "\"raise sales by 20 percent\": sales will go up by 20 percent. The meaning is \"increase\".",
+              "distractors": {
+                "B": "\"collect\" is a meaning of \"raise\" (\"raise money\"), but you do not collect sales.",
+                "C": "\"mention\" matches \"raise a question\", which is impossible here.",
+                "D": "\"breed\" matches \"raise animals\", which has nothing to do with sales."
+              },
+              "trap": "Synonym: put each option back into the sentence; eliminate the senses of the word that do not fit its object (\"sales\")."
+            }
+          }
+        },
+        {
+          "id": "p7-0004-4",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 3,
+          "stem": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"The rest came from the company's own savings.\"",
+          "options": [
+            "[1]",
+            "[2]",
+            "[3]",
+            "[4]"
+          ],
+          "answer": "C",
+          "evidence": [
+            "The investment, about $900,000, was partly financed by a regional development fund."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« The rest » suppose qu'une partie d'un montant vient d'être donnée. Seule la phrase « was partly financed by a regional development fund » le permet : la suite (« the rest ») vient juste après.",
+              "distractors": {
+                "A": "En [1], aucun montant ni financement n'a encore été mentionné : « The rest » n'aurait pas de référent.",
+                "B": "En [2], on parle des délais de commande et de livraison, pas de financement.",
+                "D": "En [4], la phrase précédente parle des restaurants clients ; « The rest » ne se rapporterait à rien."
+              },
+              "trap": "Dans une insertion, repère le mot de liaison (« The rest », « this », « also ») et cherche juste avant la phrase à laquelle il renvoie."
+            },
+            "en": {
+              "rule": "\"The rest\" assumes that part of an amount has just been given. Only the sentence \"was partly financed by a regional development fund\" allows this; the remainder follows right after.",
+              "distractors": {
+                "A": "At [1], no amount or financing has been mentioned yet: \"The rest\" would have no referent.",
+                "B": "At [2], the text is about order and delivery times, not funding.",
+                "D": "At [4], the previous sentence is about customer restaurants; \"The rest\" would refer to nothing."
+              },
+              "trap": "For sentence insertion, spot the link word (\"The rest\", \"this\", \"also\") and look just before for the sentence it points to."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0005",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "advertisement",
+          "title": "Copperleaf Catering",
+          "text": "Planning a meeting, a training day, or a client lunch? Copperleaf Catering delivers fresh, made-to-order meals to offices throughout the Denver area.\n\nOur menu:\n\nBreakfast boxes - pastries, fruit, and coffee - from $9 per person\nSandwich lunches - three options, including vegetarian - from $13 per person\nHot buffets - for groups of 20 or more - from $22 per person\n\nDelivery is free on orders over $250. Our chefs use locally grown ingredients, and we can accommodate dietary needs if you tell us when you order. Please place your order at least 48 hours in advance by calling 555-0190 or visiting our website. First-time customers receive a 10 percent discount."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0005-1",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 1,
+          "stem": "How can customers request meals for special diets?",
+          "options": [
+            "By informing the caterer when placing the order",
+            "By choosing the hot buffet",
+            "By ordering from a separate menu",
+            "By paying an additional fee"
+          ],
+          "answer": "A",
+          "evidence": [
+            "we can accommodate dietary needs if you tell us when you order"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« we can accommodate dietary needs if you tell us when you order » : il suffit de prévenir au moment de la commande (« informing the caterer when placing the order »).",
+              "distractors": {
+                "B": "Le buffet chaud est simplement une formule pour 20 personnes ou plus, sans lien avec les régimes.",
+                "C": "Aucun menu séparé n'est mentionné ; seule une option végétarienne figure dans les sandwichs.",
+                "D": "Aucun supplément n'est cité."
+              },
+              "trap": "La bonne option reformule (tell us when you order → inform the caterer when placing the order) ; les distracteurs ajoutent une condition que le texte ne mentionne pas."
+            },
+            "en": {
+              "rule": "\"we can accommodate dietary needs if you tell us when you order\": customers just need to say so when ordering (\"informing the caterer when placing the order\").",
+              "distractors": {
+                "B": "The hot buffet is just an option for groups of 20 or more, unrelated to diets.",
+                "C": "No separate menu is mentioned; only a vegetarian option appears among the sandwiches.",
+                "D": "No extra fee is mentioned."
+              },
+              "trap": "The right option paraphrases (tell us when you order → inform the caterer when placing the order); distractors add a condition the text never mentions."
+            }
+          }
+        },
+        {
+          "id": "p7-0005-2",
+          "tags": [
+            "not-true"
+          ],
+          "difficulty": 2,
+          "stem": "What is NOT mentioned about Copperleaf Catering?",
+          "options": [
+            "It uses ingredients grown in the area.",
+            "It does not charge for larger deliveries.",
+            "It offers a lower price to new clients.",
+            "It provides waiters for events."
+          ],
+          "answer": "D",
+          "evidence": [
+            "Delivery is free on orders over $250.",
+            "Our chefs use locally grown ingredients",
+            "First-time customers receive a 10 percent discount."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Rien dans l'annonce ne parle de serveurs : elle ne cite que la livraison de repas, pas leur service sur place.",
+              "distractors": {
+                "A": "Vrai : « Our chefs use locally grown ingredients ».",
+                "B": "Vrai : « Delivery is free on orders over $250 ».",
+                "C": "Vrai : « First-time customers receive a 10 percent discount »."
+              },
+              "trap": "Question NOT : trouve dans le texte la preuve de chacune des trois options vraies ; l'option sans preuve est la réponse."
+            },
+            "en": {
+              "rule": "Nothing in the advertisement mentions waiters: it only describes delivering meals, not serving them on site.",
+              "distractors": {
+                "A": "True: \"Our chefs use locally grown ingredients\".",
+                "B": "True: \"Delivery is free on orders over $250\".",
+                "C": "True: \"First-time customers receive a 10 percent discount\"."
+              },
+              "trap": "NOT question: find proof in the text for each of the three true options; the option with no proof is the answer."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0006",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "webpage",
+          "title": "Swiftline Couriers - Our Services",
+          "text": "Swiftline Couriers has delivered documents and small parcels across the greater Perth area since 2009. Choose the service that fits your deadline and your budget.\n\nExpress (delivery within 2 hours)\nOur fastest option. A rider collects your package within 30 minutes of your call and takes it directly to the recipient. Available weekdays from 7:00 A.M. to 6:00 P.M. Prices start at $28.\n\nSame Day\nOrder before 1:00 P.M. and your item will arrive by 6:00 P.M. Prices start at $15.\n\nScheduled Pickups\nCompanies that send items every day can arrange a regular pickup at a fixed time. Customers on this plan are billed once a month instead of paying for each delivery, and they receive a 12 percent discount.\n\nAll services include online tracking, insurance up to $500, and a signature on delivery. Items heavier than 10 kilograms must be booked by phone. We do not handle hazardous materials."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0006-1",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 1,
+          "stem": "How soon after a call will a rider arrive for an Express delivery?",
+          "options": [
+            "Within two hours",
+            "Within one hour",
+            "Within half an hour",
+            "Within the same morning"
+          ],
+          "answer": "C",
+          "evidence": [
+            "A rider collects your package within 30 minutes of your call"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« within 30 minutes of your call » correspond à « within half an hour ».",
+              "distractors": {
+                "A": "« within 2 hours » est le délai de livraison, pas celui de l'arrivée du coursier.",
+                "B": "Une heure n'est jamais mentionnée.",
+                "D": "Rien n'est dit sur la matinée : le service court de 7 h à 18 h."
+              },
+              "trap": "Deux délais figurent dans le texte (30 minutes, 2 heures) : vérifie lequel répond à la question posée (ramassage ou livraison)."
+            },
+            "en": {
+              "rule": "\"within 30 minutes of your call\" matches \"within half an hour\".",
+              "distractors": {
+                "A": "\"within 2 hours\" is the delivery time, not the time for the rider to arrive.",
+                "B": "One hour is never mentioned.",
+                "D": "Nothing is said about the morning: the service runs from 7:00 A.M. to 6:00 P.M."
+              },
+              "trap": "Two time limits appear in the text (30 minutes, 2 hours): check which one answers the question (pickup or delivery)."
+            }
+          }
+        },
+        {
+          "id": "p7-0006-2",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 3,
+          "stem": "What is most likely true of a small parcel that a customer wants delivered today and requests at 2:00 P.M. on a Tuesday?",
+          "options": [
+            "It will arrive by 6:00 P.M. with Same Day service.",
+            "It can arrive today only through Express service.",
+            "It will be collected during the next regular pickup.",
+            "It has to be booked by telephone."
+          ],
+          "answer": "B",
+          "evidence": [
+            "Order before 1:00 P.M. and your item will arrive by 6:00 P.M.",
+            "Available weekdays from 7:00 A.M. to 6:00 P.M."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Deux étapes. À 14 h, c'est trop tard pour « Same Day » (commande avant 13 h). Express est disponible en semaine jusqu'à 18 h et livre en 2 heures : c'est la seule solution pour arriver le jour même.",
+              "distractors": {
+                "A": "« arrive by 6:00 P.M. » ne vaut que pour une commande avant 13 h.",
+                "C": "Les ramassages réguliers sont destinés aux entreprises qui envoient chaque jour, pas à un colis ponctuel.",
+                "D": "La réservation par téléphone concerne les colis de plus de 10 kg, or il s'agit d'un petit colis."
+              },
+              "trap": "Une déduction en deux temps : élimine d'abord l'option dont la condition n'est pas remplie (avant 13 h), puis vérifie que la solution restante est disponible (mardi, avant 18 h)."
+            },
+            "en": {
+              "rule": "Two steps. At 2:00 P.M. it is too late for \"Same Day\" (orders before 1:00 P.M.). Express is available on weekdays until 6:00 P.M. and delivers within 2 hours: it is the only way to arrive the same day.",
+              "distractors": {
+                "A": "\"arrive by 6:00 P.M.\" only applies to an order placed before 1:00 P.M.",
+                "C": "Regular pickups are for companies sending items every day, not for a one-off parcel.",
+                "D": "Phone booking applies to items over 10 kilograms, and this is a small parcel."
+              },
+              "trap": "A two-step deduction: first eliminate the option whose condition is not met (before 1:00 P.M.), then check that the remaining solution is available (Tuesday, before 6:00 P.M.)."
+            }
+          }
+        },
+        {
+          "id": "p7-0006-3",
+          "tags": [
+            "synonym-in-context"
+          ],
+          "difficulty": 2,
+          "stem": "The word \"fixed\" in the Scheduled Pickups section is closest in meaning to",
+          "options": [
+            "repaired",
+            "attached",
+            "limited",
+            "specific"
+          ],
+          "answer": "D",
+          "evidence": [
+            "arrange a regular pickup at a fixed time"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« a fixed time » est une heure décidée à l'avance, précise : « specific ».",
+              "distractors": {
+                "A": "« repaired » est un sens de « fixed » (une machine réparée), impossible pour une heure.",
+                "B": "« attached » est un autre sens de « fixed » (une pièce fixée), sans rapport avec un horaire.",
+                "C": "« limited » parle d'une durée restreinte ; le texte parle d'une heure précise et régulière."
+              },
+              "trap": "Synonyme : relis le groupe de mots entier (« regular pickup at a fixed time ») ; le contexte (« regular ») indique le sens."
+            },
+            "en": {
+              "rule": "\"a fixed time\" is a time decided in advance, a precise one: \"specific\".",
+              "distractors": {
+                "A": "\"repaired\" is a meaning of \"fixed\" (a machine that is fixed), impossible for a time.",
+                "B": "\"attached\" is another meaning of \"fixed\" (a part that is fixed in place), unrelated to a schedule.",
+                "C": "\"limited\" means restricted in length; the text means a precise, regular time."
+              },
+              "trap": "Synonym: reread the whole phrase (\"regular pickup at a fixed time\"); the context (\"regular\") shows the meaning."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0007",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "chat",
+          "title": "Lumio Launch Team",
+          "text": "Amara Nwosu (10:02 A.M.): Morning, everyone. The Lumio desk lamp launch is three weeks away, and we still have no venue. Where are we?\nHenrik Larsen (10:05 A.M.): I called two places yesterday. Harbor Hall holds 200 guests, but it's already booked on our date. The Glasshouse Gallery holds 120 and is free.\nAmara Nwosu (10:08 A.M.): We invited 150 press contacts and retailers. That seems like too many for the Glasshouse.\nPriya Raman (10:10 A.M.): Not necessarily. At our last launch, only about 70 percent of invited guests actually showed up. That would be roughly 105 people.\nHenrik Larsen (10:12 A.M.): Then I'll hold the Glasshouse for now.\nAmara Nwosu (10:14 A.M.): Good. Priya, can you send Henrik the final guest list by Friday so he can confirm the numbers?\nPriya Raman (10:15 A.M.): Consider it done.\nHenrik Larsen (10:16 A.M.): Great. I'll also ask the gallery about catering and whether it has a projector for the product demo.\nAmara Nwosu (10:18 A.M.): Perfect. Let's meet again on Monday morning to go over the schedule for the evening."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0007-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 1,
+          "stem": "What are the writers mainly discussing?",
+          "options": [
+            "Finding a place for a product event",
+            "Changing the design of a new product",
+            "Hiring a company to cater a party",
+            "Reducing the cost of a marketing campaign"
+          ],
+          "answer": "A",
+          "evidence": [
+            "we still have no venue",
+            "Then I'll hold the Glasshouse for now."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Dès le premier message, Mme Nwosu pose le problème : « we still have no venue ». Toute la discussion compare deux salles pour l'événement de lancement.",
+              "distractors": {
+                "B": "La lampe existe déjà : on parle de son lancement, pas de son design.",
+                "C": "Le traiteur n'apparaît qu'à la fin (« ask the gallery about catering »), comme un détail de suivi.",
+                "D": "Aucun budget ni coût n'est discuté."
+              },
+              "trap": "Pour l'idée principale d'un chat, regarde la question posée par le premier message : les détails de la fin servent de distracteurs."
+            },
+            "en": {
+              "rule": "From the first message, Ms. Nwosu states the problem: \"we still have no venue\". The whole discussion compares two halls for the launch event.",
+              "distractors": {
+                "B": "The lamp already exists: they discuss its launch, not its design.",
+                "C": "Catering only appears at the end (\"ask the gallery about catering\"), as a follow-up detail.",
+                "D": "No budget or cost is discussed."
+              },
+              "trap": "For the main idea of a chat, look at the question raised in the first message: details at the end are used as distractors."
+            }
+          }
+        },
+        {
+          "id": "p7-0007-2",
+          "tags": [
+            "writer-intention"
+          ],
+          "difficulty": 2,
+          "stem": "At 10:15 A.M., what does Ms. Raman most likely mean when she writes, \"Consider it done\"?",
+          "options": [
+            "She disagrees with the plan.",
+            "She needs more time to decide.",
+            "She agrees to provide the list on time.",
+            "She will ask the gallery for a quote."
+          ],
+          "answer": "C",
+          "evidence": [
+            "can you send Henrik the final guest list by Friday",
+            "Consider it done."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Mme Nwosu vient de demander : « can you send Henrik the final guest list by Friday ». « Consider it done » répond à cette demande : Mme Raman s'engage à le faire à temps.",
+              "distractors": {
+                "A": "Elle ne s'oppose à rien : « Consider it done » est une réponse positive.",
+                "B": "L'expression exprime la certitude, pas un besoin de temps supplémentaire.",
+                "D": "C'est M. Larsen qui s'occupe de la galerie, et la demande adressée à Mme Raman concerne la liste d'invités."
+              },
+              "trap": "Pour une réplique courte, relis le message juste avant : le sens de l'expression dépend de la demande à laquelle elle répond."
+            },
+            "en": {
+              "rule": "Ms. Nwosu has just asked: \"can you send Henrik the final guest list by Friday\". \"Consider it done\" answers that request: Ms. Raman promises to do it on time.",
+              "distractors": {
+                "A": "She does not object to anything: \"Consider it done\" is a positive answer.",
+                "B": "The phrase expresses certainty, not a need for more time.",
+                "D": "Mr. Larsen is the one dealing with the gallery, and the request to Ms. Raman is about the guest list."
+              },
+              "trap": "For a short line, reread the message just before it: the meaning of the phrase depends on the request it answers."
+            }
+          }
+        },
+        {
+          "id": "p7-0007-3",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 2,
+          "stem": "Why does Mr. Larsen decide to hold the Glasshouse Gallery?",
+          "options": [
+            "It has room for more guests.",
+            "The other venue is already reserved.",
+            "Its rental fee is lower.",
+            "It is nearer to the office."
+          ],
+          "answer": "B",
+          "evidence": [
+            "Harbor Hall holds 200 guests, but it's already booked on our date.",
+            "The Glasshouse Gallery holds 120 and is free."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "M. Larsen explique que « Harbor Hall » est « already booked on our date » alors que le Glasshouse est libre. « Reserved » reformule « booked ».",
+              "distractors": {
+                "A": "C'est l'inverse : Harbor Hall accueille 200 personnes, le Glasshouse 120.",
+                "C": "Aucun prix de location n'est donné.",
+                "D": "La distance par rapport au bureau n'est jamais mentionnée."
+              },
+              "trap": "La bonne réponse reformule le texte (booked → reserved) ; un distracteur peut être plausible mais totalement absent du texte."
+            },
+            "en": {
+              "rule": "Mr. Larsen explains that \"Harbor Hall\" is \"already booked on our date\" while the Glasshouse is free. \"Reserved\" paraphrases \"booked\".",
+              "distractors": {
+                "A": "It is the opposite: Harbor Hall holds 200 people, the Glasshouse 120.",
+                "C": "No rental price is given.",
+                "D": "The distance from the office is never mentioned."
+              },
+              "trap": "The right answer paraphrases the text (booked → reserved); a distractor can be plausible yet completely absent from the text."
+            }
+          }
+        },
+        {
+          "id": "p7-0007-4",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 3,
+          "stem": "What is implied about the number of guests at the launch?",
+          "options": [
+            "It will equal the number of invitations sent.",
+            "It will depend on the catering budget.",
+            "It will be larger than at the last launch.",
+            "It will probably stay under the venue's capacity."
+          ],
+          "answer": "D",
+          "evidence": [
+            "We invited 150 press contacts and retailers.",
+            "only about 70 percent of invited guests actually showed up",
+            "The Glasshouse Gallery holds 120"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "150 invités × 70 % ≈ 105 personnes, soit moins que les 120 places du Glasshouse : on déduit que la salle devrait suffire. La déduction demande de croiser trois informations.",
+              "distractors": {
+                "A": "Le texte dit l'inverse : seule une partie des invités vient (« only about 70 percent »).",
+                "B": "Aucun budget de traiteur n'est évoqué.",
+                "C": "Rien ne compare l'affluence attendue à celle du dernier lancement ; il donne seulement un taux de présence."
+              },
+              "trap": "Piège : 150 invités > 120 places semble poser problème. Calcule le nombre de personnes attendues avant de conclure."
+            },
+            "en": {
+              "rule": "150 guests × 70 percent ≈ 105 people, fewer than the Glasshouse's 120 places: you can infer the hall should be big enough. The inference combines three pieces of information.",
+              "distractors": {
+                "A": "The text says the opposite: only some invited guests come (\"only about 70 percent\").",
+                "B": "No catering budget is mentioned.",
+                "C": "Nothing compares the expected turnout with the last launch's; it only gives an attendance rate."
+              },
+              "trap": "Trap: 150 invitations > 120 places looks like a problem. Work out the expected attendance before you conclude."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0008",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "form",
+          "title": "Alder Event Rentals",
+          "text": "RENTAL ORDER FORM\n\nOrder number: 4471\nCustomer: Joaquin Duarte, Duarte & Partners\nEvent: Sales seminar, Pinewood Conference Center, Room 3\nEvent date: Friday, March 7\n\nItem: 2 projectors - $45 each per day\nItem: 1 wireless microphone set - $30 per day\nItem: 60 folding chairs - $1 each per day\n\nDelivery: Thursday, March 6, between 3:00 P.M. and 5:00 P.M.\nPickup: Saturday, March 8, at 9:00 A.M.\nPayment: Credit card on file\n\nCustomer note:\nWe expect about 52 participants plus two speakers. The conference center already provides a screen, so we do not need one from you. Our first speaker starts at 9:00 A.M. sharp, so please include fresh batteries for the microphone. Please call me at 555-0142 if your driver cannot find the loading entrance. Thank you."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0008-1",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 1,
+          "stem": "When will the equipment be delivered?",
+          "options": [
+            "On Wednesday morning",
+            "On Thursday afternoon",
+            "On Friday morning",
+            "On Saturday morning"
+          ],
+          "answer": "B",
+          "evidence": [
+            "Delivery: Thursday, March 6, between 3:00 P.M. and 5:00 P.M."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La ligne « Delivery » indique « Thursday, March 6, between 3:00 P.M. and 5:00 P.M. », donc jeudi après-midi.",
+              "distractors": {
+                "A": "Aucune livraison n'est prévue le mercredi.",
+                "C": "Le vendredi est le jour du séminaire (« Event date »), pas celui de la livraison.",
+                "D": "Le samedi matin est l'heure de la reprise du matériel (« Pickup »)."
+              },
+              "trap": "Dans un formulaire, lis le libellé de chaque ligne (Delivery, Pickup, Event date) : les dates voisines servent de distracteurs."
+            },
+            "en": {
+              "rule": "The \"Delivery\" line says \"Thursday, March 6, between 3:00 P.M. and 5:00 P.M.\", so Thursday afternoon.",
+              "distractors": {
+                "A": "No delivery is planned on Wednesday.",
+                "C": "Friday is the seminar day (\"Event date\"), not the delivery day.",
+                "D": "Saturday morning is when the equipment is collected (\"Pickup\")."
+              },
+              "trap": "In a form, read the label of each line (Delivery, Pickup, Event date): neighboring dates are used as distractors."
+            }
+          }
+        },
+        {
+          "id": "p7-0008-2",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 2,
+          "stem": "What can be inferred about the seminar?",
+          "options": [
+            "There will be enough seats for every participant.",
+            "Some participants will bring their own equipment.",
+            "It will take place in two different rooms.",
+            "Attendees will be asked to pay a rental fee."
+          ],
+          "answer": "A",
+          "evidence": [
+            "Item: 60 folding chairs - $1 each per day",
+            "We expect about 52 participants plus two speakers."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le client attend 52 participants et deux intervenants, soit 54 personnes, et il loue 60 chaises : il y aura donc assez de sièges pour tout le monde.",
+              "distractors": {
+                "B": "Le texte ne parle d'aucun matériel apporté par les participants.",
+                "C": "L'événement a lieu dans une seule salle, « Room 3 ».",
+                "D": "C'est M. Duarte qui paie la location (carte de crédit enregistrée), pas les participants."
+              },
+              "trap": "Une inférence se construit en rapprochant deux chiffres du document (ici chaises et participants) : fais le calcul."
+            },
+            "en": {
+              "rule": "The customer expects 52 participants plus two speakers, 54 people, and rents 60 chairs: there will be enough seats for everyone.",
+              "distractors": {
+                "B": "The text mentions no equipment brought by participants.",
+                "C": "The event takes place in a single room, \"Room 3\".",
+                "D": "Mr. Duarte pays for the rental (credit card on file), not the participants."
+              },
+              "trap": "An inference is built by putting two figures from the document side by side (here chairs and participants): do the math."
+            }
+          }
+        },
+        {
+          "id": "p7-0008-3",
+          "tags": [
+            "not-true"
+          ],
+          "difficulty": 3,
+          "stem": "What is NOT included in the rental order?",
+          "options": [
+            "Two projectors",
+            "A wireless microphone set",
+            "A projection screen",
+            "Sixty folding chairs"
+          ],
+          "answer": "C",
+          "evidence": [
+            "Item: 2 projectors - $45 each per day",
+            "Item: 1 wireless microphone set - $30 per day",
+            "Item: 60 folding chairs - $1 each per day"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Les trois lignes « Item » listent projecteurs, micro et chaises. L'écran est cité dans la note, mais pour dire que le centre en fournit déjà un : il ne fait pas partie de la commande.",
+              "distractors": {
+                "A": "Les deux projecteurs figurent sur la première ligne « Item ».",
+                "B": "Le micro sans fil figure sur la deuxième ligne « Item ».",
+                "D": "Les 60 chaises figurent sur la troisième ligne « Item »."
+              },
+              "trap": "Question NOT : un mot présent dans le texte (screen) peut être justement la réponse. Vérifie à quoi il se rapporte."
+            },
+            "en": {
+              "rule": "The three \"Item\" lines list projectors, microphone and chairs. The screen is mentioned in the note, but to say the center already provides one: it is not part of the order.",
+              "distractors": {
+                "A": "The two projectors are on the first \"Item\" line.",
+                "B": "The wireless microphone set is on the second \"Item\" line.",
+                "D": "The 60 chairs are on the third \"Item\" line."
+              },
+              "trap": "NOT question: a word that appears in the text (screen) can be exactly the answer. Check what it refers to."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0009",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "advertisement",
+          "title": "Harlow Office Supply",
+          "text": "SPRING SAVINGS EVENT\nApril 7 to April 20\n\nGive your team a better workspace for less!\n\nErgonomic chairs - $120 (regular price $160)\nStanding desks - $280 (regular price $350)\nLED desk lamps - $25 each (regular price $35)\nPrinter paper, case of 10 reams - $38 (regular price $45)\n\nSale prices are available online at www.harlowoffice.example and at our Fairview store. No coupon or membership is required.\n\nDelivery is free on orders over $400 (before tax) within 20 miles of our Fairview store. Smaller orders are delivered for a flat fee of $15.\n\nSale prices end on April 20 and cannot be extended.\n\nHarlow Office Supply has served local businesses, schools, and home offices for more than 20 years. Our staff can help you choose furniture that fits your space, and every chair and desk comes with a five-year warranty. Orders placed on our website ship from our Fairview warehouse within two days."
+        },
+        {
+          "genre": "email",
+          "text": "To: service@harlowoffice.example\nFrom: Renata Kowalczyk\nDate: April 9\nSubject: My online order\n\nDear Harlow team,\n\nOur tutoring center is welcoming four new tutors on April 14, so yesterday I ordered three ergonomic chairs and two LED desk lamps from your website. Our office on Birch Lane is only six miles from your Fairview store. I would also like two standing desks, but our budget for them will not be approved until April 22.\n\nWill the sale price cover the desks if I order them after April 22? Also, my confirmation does not mention delivery, so could you tell me what I will be charged for it?\n\nI was pleased with the quick service last year, when we furnished our front desk with your products, and I hope this order goes as smoothly. We have enough printer paper for now, so I am not adding any to this order.\n\nThank you,\nRenata Kowalczyk\nBrightpath Tutoring"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0009-1",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 1,
+          "stem": "How can customers take advantage of the sale prices?",
+          "options": [
+            "By signing up for a membership",
+            "By using a printed coupon",
+            "By calling the sales department",
+            "By ordering online or going to the store"
+          ],
+          "answer": "D",
+          "evidence": [
+            "Sale prices are available online at www.harlowoffice.example and at our Fairview store.",
+            "No coupon or membership is required."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "L'annonce dit : « Sale prices are available online ... and at our Fairview store ». Commander en ligne ou se rendre au magasin reformule ces deux possibilités.",
+              "distractors": {
+                "A": "L'annonce précise qu'aucune adhésion n'est nécessaire (« No ... membership is required »).",
+                "B": "Elle précise aussi qu'aucun coupon n'est nécessaire.",
+                "C": "Aucune commande par téléphone n'est mentionnée."
+              },
+              "trap": "Une phrase négative (« No coupon ... is required ») élimine directement des options : lis-la comme les autres."
+            },
+            "en": {
+              "rule": "The advertisement says: \"Sale prices are available online ... and at our Fairview store\". Ordering online or going to the store paraphrases these two options.",
+              "distractors": {
+                "A": "The advertisement states that no membership is needed (\"No ... membership is required\").",
+                "B": "It also states that no coupon is needed.",
+                "C": "No ordering by phone is mentioned."
+              },
+              "trap": "A negative sentence (\"No coupon ... is required\") directly eliminates options: read it like the others."
+            }
+          }
+        },
+        {
+          "id": "p7-0009-2",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 2,
+          "stem": "What is suggested about Brightpath Tutoring?",
+          "options": [
+            "It plans to relocate soon.",
+            "It sells office supplies.",
+            "It is adding to its staff.",
+            "It offers online lessons only."
+          ],
+          "answer": "C",
+          "evidence": [
+            "Our tutoring center is welcoming four new tutors on April 14"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le centre « is welcoming four new tutors on April 14 » : on déduit qu'il agrandit son équipe, même si le texte ne le dit pas en ces termes.",
+              "distractors": {
+                "A": "Rien n'indique un déménagement : la cliente parle de son bureau actuel, « on Birch Lane ».",
+                "B": "C'est Harlow qui vend des fournitures ; Brightpath est un client.",
+                "D": "Le centre a un bureau et accueille des tuteurs sur place ; rien n'indique des cours en ligne seulement."
+              },
+              "trap": "Une inférence part d'UNE phrase précise (ici l'arrivée de nouveaux tuteurs) ; la bonne réponse en est la conséquence logique."
+            },
+            "en": {
+              "rule": "The center \"is welcoming four new tutors on April 14\": you can infer it is growing its team, even though the text does not say so in those words.",
+              "distractors": {
+                "A": "Nothing suggests a move: the customer talks about her current office, \"on Birch Lane\".",
+                "B": "Harlow sells supplies; Brightpath is a customer.",
+                "D": "The center has an office and welcomes tutors on site; nothing indicates online lessons only."
+              },
+              "trap": "An inference starts from ONE precise sentence (here the arrival of new tutors); the right answer is its logical consequence."
+            }
+          }
+        },
+        {
+          "id": "p7-0009-3",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 2,
+          "stem": "How much will Ms. Kowalczyk probably be charged for delivery?",
+          "options": [
+            "Nothing",
+            "$15",
+            "$25",
+            "$38"
+          ],
+          "answer": "A",
+          "evidence": [
+            "I ordered three ergonomic chairs and two LED desk lamps",
+            "only six miles from your Fairview store",
+            "Delivery is free on orders over $400 (before tax) within 20 miles of our Fairview store."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Dans l'e-mail, elle commande 3 chaises et 2 lampes ; l'annonce donne les prix : 3 × 120 + 2 × 25 = 410 $, soit plus de 400 $. Son bureau est à six miles, donc dans le rayon de 20 miles : la livraison est gratuite.",
+              "distractors": {
+                "B": "Les 15 $ ne concernent que les commandes de 400 $ ou moins : la sienne fait 410 $.",
+                "C": "25 $ est le prix d'une lampe, pas un frais de livraison.",
+                "D": "38 $ est le prix de la caisse de papier, que la cliente ne commande pas."
+              },
+              "trap": "Quantités dans un document, tarifs et conditions dans l'autre : calcule le total avant de comparer au seuil."
+            },
+            "en": {
+              "rule": "In the e-mail she orders 3 chairs and 2 lamps; the advertisement gives the prices: 3 × 120 + 2 × 25 = $410, which is over $400. Her office is six miles away, within the 20-mile area: delivery is free.",
+              "distractors": {
+                "B": "The $15 fee only applies to orders of $400 or less: hers is $410.",
+                "C": "$25 is the price of one lamp, not a delivery fee.",
+                "D": "$38 is the price of the case of paper, which the customer does not order."
+              },
+              "trap": "Quantities in one document, prices and conditions in the other: compute the total before comparing it to the threshold."
+            }
+          }
+        },
+        {
+          "id": "p7-0009-4",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 3,
+          "stem": "What will Ms. Kowalczyk most likely pay for each standing desk?",
+          "options": [
+            "$280",
+            "$350",
+            "$160",
+            "$120"
+          ],
+          "answer": "B",
+          "evidence": [
+            "I would also like two standing desks, but our budget for them will not be approved until April 22.",
+            "Standing desks - $280 (regular price $350)",
+            "Sale prices end on April 20 and cannot be extended."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Son budget pour les bureaux ne sera approuvé que le 22 avril, or les prix promotionnels s'arrêtent le 20 avril et ne sont pas prolongés : elle paiera le prix normal, 350 $.",
+              "distractors": {
+                "A": "280 $ est le prix promotionnel, qui n'existera plus le 22 avril.",
+                "C": "160 $ est le prix normal d'une chaise, pas d'un bureau.",
+                "D": "120 $ est le prix promotionnel d'une chaise."
+              },
+              "trap": "Compare la date de l'e-mail (ou de l'achat prévu) à la période de validité de l'offre : le prix affiché le plus bas n'est pas toujours celui qui s'applique."
+            },
+            "en": {
+              "rule": "Her budget for the desks will not be approved until April 22, but sale prices end on April 20 and cannot be extended: she will pay the regular price, $350.",
+              "distractors": {
+                "A": "$280 is the sale price, which will no longer exist on April 22.",
+                "C": "$160 is the regular price of a chair, not of a desk.",
+                "D": "$120 is the sale price of a chair."
+              },
+              "trap": "Compare the date of the planned purchase with the offer's validity period: the lowest advertised price is not always the one that applies."
+            }
+          }
+        },
+        {
+          "id": "p7-0009-5",
+          "tags": [
+            "synonym-in-context"
+          ],
+          "difficulty": 2,
+          "stem": "In the e-mail, the word \"cover\" in paragraph 2, line 1, is closest in meaning to",
+          "options": [
+            "hide",
+            "protect",
+            "include",
+            "report"
+          ],
+          "answer": "C",
+          "evidence": [
+            "Will the sale price cover the desks"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« Will the sale price cover the desks » demande si le prix promotionnel s'applique aussi aux bureaux, c'est-à-dire s'il les inclut (« include »).",
+              "distractors": {
+                "A": "« hide » (cacher) est un autre sens de « cover », comme dans « cover a mistake ».",
+                "B": "« protect » est un autre sens de « cover » (une assurance « covers » un risque), mais un prix ne protège pas des bureaux.",
+                "D": "« report » correspond à « cover a story » (couvrir un événement) : sens sans rapport avec un prix."
+              },
+              "trap": "Remplace le mot par chaque option DANS la phrase. Les autres sens du mot servent de distracteurs."
+            },
+            "en": {
+              "rule": "\"Will the sale price cover the desks\" asks whether the sale price also applies to the desks, that is, includes them.",
+              "distractors": {
+                "A": "\"hide\" is another meaning of \"cover\", as in \"cover a mistake\".",
+                "B": "\"protect\" is another meaning of \"cover\" (insurance \"covers\" a risk), but a price does not protect desks.",
+                "D": "\"report\" matches \"cover a story\": a meaning unrelated to a price."
+              },
+              "trap": "Put each option back INTO the sentence. The word's other meanings are used as distractors."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0010",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "schedule",
+          "title": "Lakeshore Data & Logistics Forum",
+          "text": "Thursday, March 12 - Program\n\n8:30 A.M. - Registration and coffee (Lobby)\n9:15 A.M. - Opening remarks by Camila Ortega, Forum Director (Hall A)\n10:00 A.M. - Keynote: \"Smarter Warehouses\" by Henrik Dahl (Hall A)\n11:15 A.M. - Workshop: Forecasting with Limited Data, led by Priya Nair (Room 204)\n12:30 P.M. - Networking lunch (Terrace)\n1:45 P.M. - Panel: Hiring and Keeping Skilled Drivers (Hall A)\n3:00 P.M. - Presentation: Cutting Fuel Costs in Regional Delivery, by Jun Watanabe (Room 204)\n4:15 P.M. - Closing session and prize drawing (Hall A)\n\nGood to know: Hall A seats 300 people. Room 204 seats 40, so places in the workshop are limited; please sign up at the registration desk. Session handouts will be e-mailed to all participants within one week after the forum. Speakers are asked to check in at the speaker desk in the lobby 30 minutes before their session."
+        },
+        {
+          "genre": "email",
+          "text": "To: Camila Ortega\nFrom: Jun Watanabe\nDate: March 5\nSubject: My session on March 12\n\nDear Ms. Ortega,\n\nThank you for inviting me to speak at the forum. I am writing with two requests about my presentation on fuel costs.\n\nFirst, my return flight leaves at 4:45 P.M., and the airport is 45 minutes from the venue. Could my session be moved to earlier in the day? I am happy to take any slot before lunch.\n\nSecond, last year's version of this talk attracted about 60 listeners, and I expect a similar turnout this time. I am afraid the room I was assigned would be too small for that many people.\n\nIf a change is possible, I could arrive on March 11 and test my slides the evening before. Please let me know what works for your team.\n\nBest regards,\nJun Watanabe\nFleetline Transport"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0010-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 1,
+          "stem": "What is the purpose of the e-mail?",
+          "options": [
+            "To confirm a flight reservation",
+            "To request a new time and room for a talk",
+            "To withdraw from the forum program",
+            "To suggest a topic for a workshop"
+          ],
+          "answer": "B",
+          "evidence": [
+            "I am writing with two requests about my presentation on fuel costs."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Dès la première phrase utile, M. Watanabe annonce « two requests about my presentation » : un autre horaire (« moved to earlier in the day ») et une salle plus grande (« the room I was assigned would be too small »). Il demande donc un nouveau créneau et une nouvelle salle.",
+              "distractors": {
+                "A": "Il mentionne son vol de retour comme raison de sa demande, mais il ne cherche pas à le confirmer.",
+                "C": "Il remercie les organisateurs et propose des solutions pour intervenir : il ne se retire pas.",
+                "D": "Son sujet (« fuel costs ») est déjà au programme ; il n'en propose pas un autre."
+              },
+              "trap": "Pour une question de but, cherche le verbe qui annonce la demande (« I am writing with… requests ») ; les détails comme le vol ne sont que des raisons."
+            },
+            "en": {
+              "rule": "In the first useful sentence, Mr. Watanabe announces \"two requests about my presentation\": another time (\"moved to earlier in the day\") and a larger room (\"the room I was assigned would be too small\"). He is asking for a new time and room.",
+              "distractors": {
+                "A": "He mentions his return flight as a reason for his request, but he is not trying to confirm it.",
+                "C": "He thanks the organizers and suggests ways to speak: he is not withdrawing.",
+                "D": "His subject (\"fuel costs\") is already on the program; he does not suggest another one."
+              },
+              "trap": "For a purpose question, look for the verb that announces the request (\"I am writing with… requests\"); details like the flight are only reasons."
+            }
+          }
+        },
+        {
+          "id": "p7-0010-2",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 2,
+          "stem": "According to the schedule, what should people do to attend the workshop?",
+          "options": [
+            "Download the handouts before the forum",
+            "Pay an additional fee in advance",
+            "Meet at the speaker desk in the lobby",
+            "Reserve a place when they check in"
+          ],
+          "answer": "D",
+          "evidence": [
+            "places in the workshop are limited; please sign up at the registration desk"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La section « Good to know » dit que les places de l'atelier sont limitées et qu'il faut « sign up at the registration desk ». S'inscrire à l'accueil du forum se reformule en réserver une place au moment de l'enregistrement.",
+              "distractors": {
+                "A": "Les supports (« handouts ») sont envoyés par e-mail après le forum ; il n'y a rien à télécharger avant.",
+                "B": "Aucun frais supplémentaire n'est mentionné dans le programme.",
+                "C": "Le « speaker desk » est réservé aux intervenants, qui doivent s'y présenter 30 minutes avant leur session."
+              },
+              "trap": "Plusieurs « desks » dans un même texte : vérifie à qui s'adresse chacun (participants ou intervenants) avant de choisir."
+            },
+            "en": {
+              "rule": "The \"Good to know\" section says workshop places are limited and that people should \"sign up at the registration desk\". Signing up at the event's front desk is rephrased as reserving a place when checking in.",
+              "distractors": {
+                "A": "Handouts are e-mailed after the forum; nothing needs to be downloaded beforehand.",
+                "B": "No additional fee is mentioned in the schedule.",
+                "C": "The \"speaker desk\" is for speakers, who must check in there 30 minutes before their session."
+              },
+              "trap": "When a text has several \"desks\", check who each one is for (attendees or speakers) before choosing."
+            }
+          }
+        },
+        {
+          "id": "p7-0010-3",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 2,
+          "stem": "How many more people than the assigned room can seat does Mr. Watanabe expect at his presentation?",
+          "options": [
+            "About 10",
+            "About 15",
+            "About 20",
+            "About 25"
+          ],
+          "answer": "C",
+          "evidence": [
+            "3:00 P.M. - Presentation: Cutting Fuel Costs in Regional Delivery, by Jun Watanabe (Room 204)",
+            "Room 204 seats 40",
+            "last year's version of this talk attracted about 60 listeners"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le programme place la présentation de M. Watanabe en « Room 204 », qui « seats 40 ». Son e-mail annonce environ 60 auditeurs (« about 60 listeners »). 60 - 40 = 20 personnes de trop.",
+              "distractors": {
+                "A": "Ce serait le cas avec 50 auditeurs ; l'e-mail en annonce environ 60.",
+                "B": "Ce serait le cas avec 55 auditeurs, ou une salle de 45 places : ni l'un ni l'autre n'est écrit.",
+                "D": "Ce serait le cas avec 65 auditeurs ou une salle de 35 places : les chiffres du texte ne le donnent pas."
+              },
+              "trap": "Pour un calcul sur deux documents, relève chaque chiffre avec son sujet (ici la salle ET le public attendu), puis fais l'opération."
+            },
+            "en": {
+              "rule": "The schedule puts Mr. Watanabe's presentation in \"Room 204\", which \"seats 40\". His e-mail expects about 60 listeners (\"about 60 listeners\"). 60 - 40 = 20 people too many.",
+              "distractors": {
+                "A": "That would be true with 50 listeners; the e-mail says about 60.",
+                "B": "That would be true with 55 listeners or a 45-seat room: neither is written in the texts.",
+                "D": "That would be true with 65 listeners or a 35-seat room: the figures in the texts do not give this."
+              },
+              "trap": "For a calculation across two documents, note each figure with its subject (here the room AND the expected audience), then do the operation."
+            }
+          }
+        },
+        {
+          "id": "p7-0010-4",
+          "tags": [
+            "not-true"
+          ],
+          "difficulty": 3,
+          "stem": "What is NOT indicated about Mr. Watanabe's presentation?",
+          "options": [
+            "It is scheduled to take place in Hall A.",
+            "It is an updated version of an earlier talk.",
+            "It is set for the afternoon.",
+            "It deals with lowering transportation costs."
+          ],
+          "answer": "A",
+          "evidence": [
+            "last year's version of this talk",
+            "3:00 P.M. - Presentation: Cutting Fuel Costs in Regional Delivery",
+            "my presentation on fuel costs"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le programme situe la présentation en « Room 204 », pas en Hall A ; M. Watanabe demande d'ailleurs une salle plus grande sans en nommer une. Les trois autres options sont dans les textes : « last year's version of this talk », « 3:00 P.M. », « Cutting Fuel Costs ».",
+              "distractors": {
+                "B": "C'est écrit : l'e-mail parle de « last year's version of this talk ».",
+                "C": "C'est écrit : la présentation est à « 3:00 P.M. ».",
+                "D": "C'est écrit : le titre est « Cutting Fuel Costs in Regional Delivery », et l'e-mail parle de « fuel costs »."
+              },
+              "trap": "Question NOT : vérifie chaque option dans le texte une par une ; l'intrus est souvent un mot-clé du texte (« Hall A ») placé au mauvais endroit."
+            },
+            "en": {
+              "rule": "The schedule places the presentation in \"Room 204\", not Hall A; Mr. Watanabe also asks for a larger room without naming one. The other three options are in the texts: \"last year's version of this talk\", \"3:00 P.M.\", \"Cutting Fuel Costs\".",
+              "distractors": {
+                "B": "It is written: the e-mail refers to \"last year's version of this talk\".",
+                "C": "It is written: the presentation is at \"3:00 P.M.\".",
+                "D": "It is written: the title is \"Cutting Fuel Costs in Regional Delivery\" and the e-mail mentions \"fuel costs\"."
+              },
+              "trap": "NOT question: check each option against the text one by one; the odd one out is often a keyword from the text (\"Hall A\") attached to the wrong item."
+            }
+          }
+        },
+        {
+          "id": "p7-0010-5",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 2,
+          "stem": "What is suggested about Mr. Watanabe?",
+          "options": [
+            "He is employed by the forum's organizer.",
+            "He will travel to the forum from another city.",
+            "He has already tested his slides in the room.",
+            "He leads the workshop on forecasting."
+          ],
+          "answer": "B",
+          "evidence": [
+            "my return flight leaves at 4:45 P.M., and the airport is 45 minutes from the venue"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Il parle de son « return flight » et de l'aéroport à 45 minutes du lieu, et propose d'arriver la veille (« arrive on March 11 ») : il vient donc d'une autre ville. Cela n'est pas écrit tel quel, mais se déduit de ces phrases.",
+              "distractors": {
+                "A": "Il signe « Fleetline Transport » et remercie les organisateurs de l'avoir invité : il ne travaille pas pour eux.",
+                "C": "Il propose de tester ses diapositives la veille : il ne l'a pas encore fait.",
+                "D": "L'atelier est animé par Priya Nair ; lui présente un exposé sur le carburant."
+              },
+              "trap": "Pour une inférence, repère la phrase qui contient l'indice (ici « return flight ») et déduis ce qu'elle implique, sans inventer de détail."
+            },
+            "en": {
+              "rule": "He mentions his \"return flight\" and an airport 45 minutes from the venue, and offers to arrive the day before (\"arrive on March 11\"): he is coming from another city. This is not written outright but follows from these sentences.",
+              "distractors": {
+                "A": "He signs \"Fleetline Transport\" and thanks the organizers for inviting him: he does not work for them.",
+                "C": "He offers to test his slides the evening before: he has not done so yet.",
+                "D": "The workshop is led by Priya Nair; he gives a presentation on fuel costs."
+              },
+              "trap": "For an inference, find the sentence holding the clue (here \"return flight\") and deduce what it implies, without inventing details."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0011",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "article",
+          "title": "From Bakery to Bistro on Canal Street",
+          "text": "By Hiro Tanabe, Staff Writer | June 18\n\nCanal Street has a new reason to stay up late. Last Friday, chef Marguerite Beaulieu welcomed her first guests to Marguerite's, a 48-seat bistro in the former Dunmore Bakery building.\n\nMs. Beaulieu spent eleven years cooking in Montreal and Lyon before coming back to her hometown. She kept the bakery's brick ovens on purpose and now uses them to bake every loaf served at her tables. The menu changes monthly and relies on vegetables, fish, and cheese from farms within 80 kilometers of the city. Main dishes cost between $18 and $29.\n\nThe bistro is open Tuesday through Saturday, from 5:00 P.M. to 10:00 P.M. A weekend brunch is planned for September, once the kitchen has hired two more cooks. Because the building has no parking lot, Ms. Beaulieu has asked the city for permission to use the empty lot behind the old post office, a five-minute walk away.\n\nNeighbors have welcomed the project. \"I bought my morning rolls here for thirty years,\" said Walter Nkemelu, who lives in the apartment upstairs. \"I'm glad the ovens are still working.\" The restaurant employs fourteen people, including six former bakery workers."
+        },
+        {
+          "genre": "letter",
+          "text": "To the Editor:\n\nThank you for your June 18 article about Marguerite's. My husband and I live a few doors from the restaurant, and we had been looking forward to its opening ever since the Dunmore Bakery closed last winter.\n\nWe were disappointed, however, on Monday evening. We walked over with our daughter to celebrate her birthday and found the doors locked, with no sign explaining why. Your article was clear about the hours, and I should have checked it before going, but a short note on the door would help other neighbors.\n\nWe then drove to a downtown restaurant, where finding a parking space took almost twenty minutes. If the city lets Ms. Beaulieu use the empty lot she mentioned, I believe many diners will be grateful. I also hope the bistro will add a few vegetarian main dishes to its menu, because our daughter does not eat fish.\n\nSincerely,\n\nGrace Adeyemi\nCanal Street"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0011-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 2,
+          "stem": "What is the article mainly about?",
+          "options": [
+            "A change in the city's parking rules",
+            "A chef's return to her hometown",
+            "The launch of a restaurant in a converted bakery",
+            "The closing of a long-established bakery"
+          ],
+          "answer": "C",
+          "evidence": [
+            "Last Friday, chef Marguerite Beaulieu welcomed her first guests to Marguerite's, a 48-seat bistro in the former Dunmore Bakery building."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La première phrase donne le sujet : la ccheffe vient d'accueillir ses premiers clients dans un bistro installé dans « the former Dunmore Bakery building ». Tout l'article décrit ce nouveau restaurant (menu, horaires, personnel).",
+              "distractors": {
+                "A": "Le parking n'est qu'un détail du troisième paragraphe (une demande à la ville).",
+                "B": "Le retour de Mme Beaulieu dans sa ville natale est une information de présentation, pas le sujet de l'article.",
+                "D": "La boulangerie est déjà fermée (« former ») : l'article parle de ce qui la remplace, pas de sa fermeture."
+              },
+              "trap": "Idée principale = ce que couvrent tous les paragraphes. Un détail vrai mais isolé (parking, parcours du chef) est un piège classique."
+            },
+            "en": {
+              "rule": "The first sentence gives the subject: the chef has just welcomed her first guests to a bistro in \"the former Dunmore Bakery building\". The whole article describes this new restaurant (menu, hours, staff).",
+              "distractors": {
+                "A": "Parking is only a detail in the third paragraph (a request to the city).",
+                "B": "Ms. Beaulieu's return to her hometown is background information, not the subject of the article.",
+                "D": "The bakery is already closed (\"former\"): the article is about what replaces it, not its closing."
+              },
+              "trap": "Main idea = what all the paragraphs cover. A true but isolated detail (parking, the chef's career) is a classic trap."
+            }
+          }
+        },
+        {
+          "id": "p7-0011-2",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 1,
+          "stem": "According to the article, what will the restaurant begin offering in September?",
+          "options": [
+            "A late-morning meal on weekends",
+            "A menu that changes every month",
+            "Home delivery of fresh bread",
+            "Parking for its guests"
+          ],
+          "answer": "A",
+          "evidence": [
+            "A weekend brunch is planned for September"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "L'article dit : « A weekend brunch is planned for September ». Un brunch de week-end est un repas de fin de matinée le samedi et le dimanche.",
+              "distractors": {
+                "B": "Le menu change déjà chaque mois (« The menu changes monthly ») : ce n'est pas une nouveauté de septembre.",
+                "C": "La livraison n'est jamais mentionnée ; le pain est servi à table.",
+                "D": "Le restaurant n'a pas de parking : Mme Beaulieu demande seulement à la ville d'utiliser un terrain voisin."
+              },
+              "trap": "Quand la question porte sur une date ou un mois, cherche ce mois dans le texte : une option vraie mais sans rapport avec cette date est un distracteur."
+            },
+            "en": {
+              "rule": "The article says: \"A weekend brunch is planned for September\". A weekend brunch is a late-morning meal on Saturday and Sunday.",
+              "distractors": {
+                "B": "The menu already changes monthly (\"The menu changes monthly\"): this is not new in September.",
+                "C": "Delivery is never mentioned; bread is served at the table.",
+                "D": "The restaurant has no parking lot: Ms. Beaulieu is only asking the city to use a nearby lot."
+              },
+              "trap": "When a question is about a date or month, find that month in the text: an option that is true but unrelated to that date is a distractor."
+            }
+          }
+        },
+        {
+          "id": "p7-0011-3",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 3,
+          "stem": "What is suggested about the Dunmore Bakery?",
+          "options": [
+            "It was owned by Ms. Beaulieu's relatives.",
+            "It moved to another street.",
+            "It still provides bread to the restaurant.",
+            "It served customers for a long time."
+          ],
+          "answer": "D",
+          "evidence": [
+            "I bought my morning rolls here for thirty years"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "M. Nkemelu, voisin du bâtiment, dit : « I bought my morning rolls here for thirty years ». On en déduit que la boulangerie a fonctionné pendant au moins trente ans.",
+              "distractors": {
+                "A": "Rien ne relie Mme Beaulieu à la boulangerie : elle a seulement repris le bâtiment et gardé ses fours.",
+                "B": "Le texte dit que le bâtiment est l'ancienne boulangerie (« former »), et la lettre précise qu'elle a fermé (« closed last winter »), sans parler de déménagement.",
+                "C": "Le restaurant cuit lui-même ses pains dans les fours : la boulangerie a fermé et ne livre rien."
+              },
+              "trap": "Un chiffre dans une citation (« thirty years ») cache souvent une déduction : demande-toi ce qu'il dit de la personne ou du lieu concerné."
+            },
+            "en": {
+              "rule": "Mr. Nkemelu, a neighbor, says: \"I bought my morning rolls here for thirty years\". You can infer that the bakery operated for at least thirty years.",
+              "distractors": {
+                "A": "Nothing connects Ms. Beaulieu to the bakery: she only took over the building and kept its ovens.",
+                "B": "The text calls the building the former bakery, and the letter says it closed (\"closed last winter\"), with no mention of a move.",
+                "C": "The restaurant bakes its own loaves in the ovens: the bakery has closed and supplies nothing."
+              },
+              "trap": "A number in a quotation (\"thirty years\") often hides an inference: ask what it tells you about the person or place involved."
+            }
+          }
+        },
+        {
+          "id": "p7-0011-4",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 2,
+          "stem": "Why were Ms. Adeyemi and her family unable to eat at Marguerite's on Monday?",
+          "options": [
+            "All of the tables had been booked.",
+            "The restaurant is closed on Mondays.",
+            "The restaurant had not opened yet.",
+            "The kitchen was shut for repairs."
+          ],
+          "answer": "B",
+          "evidence": [
+            "We were disappointed, however, on Monday evening.",
+            "The bistro is open Tuesday through Saturday"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La lettre dit que la famille a trouvé « the doors locked » le lundi soir. L'article précise que le bistro est ouvert « Tuesday through Saturday » : le lundi, il est fermé. Il faut relier les deux documents.",
+              "distractors": {
+                "A": "Les portes étaient fermées à clé, sans aucune mention de réservations ni de salle pleine.",
+                "C": "Le restaurant a ouvert « last Friday » selon l'article, avant la visite de la famille.",
+                "D": "Aucun document ne parle de travaux : le panneau manquait justement pour expliquer la fermeture."
+              },
+              "trap": "Une lettre qui décrit un problème sans en donner la cause : la cause est souvent dans l'autre document (ici les horaires de l'article)."
+            },
+            "en": {
+              "rule": "The letter says the family found \"the doors locked\" on Monday evening. The article states that the bistro is open \"Tuesday through Saturday\": on Mondays, it is closed. You have to link the two documents.",
+              "distractors": {
+                "A": "The doors were locked, with no mention of bookings or a full house.",
+                "C": "According to the article the restaurant opened \"last Friday\", before the family's visit.",
+                "D": "Neither document mentions repairs: the missing sign is exactly why the closure was unexplained."
+              },
+              "trap": "A letter that describes a problem without giving the cause: the cause is often in the other document (here the article's opening hours)."
+            }
+          }
+        },
+        {
+          "id": "p7-0011-5",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 2,
+          "stem": "According to the letter, what does Ms. Adeyemi hope will be added to the restaurant's menu?",
+          "options": [
+            "Main courses without meat or fish",
+            "A weekend brunch",
+            "Special desserts for birthdays",
+            "Additional seafood dishes"
+          ],
+          "answer": "A",
+          "evidence": [
+            "I also hope the bistro will add a few vegetarian main dishes to its menu"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Mme Adeyemi écrit : « I also hope the bistro will add a few vegetarian main dishes to its menu ». Des plats végétariens sont des plats principaux sans viande ni poisson.",
+              "distractors": {
+                "B": "Le brunch est annoncé dans l'article, pas demandé dans la lettre.",
+                "C": "Elle a fêté l'anniversaire de sa fille, mais ne demande aucun dessert particulier.",
+                "D": "Sa fille ne mange pas de poisson (« does not eat fish ») : elle ne demande certainement pas plus de plats de la mer."
+              },
+              "trap": "Vérifie que l'option répond à ce que l'auteur DEMANDE : un mot du texte (« birthday », « fish ») peut apparaître dans un distracteur qui dit le contraire."
+            },
+            "en": {
+              "rule": "Ms. Adeyemi writes: \"I also hope the bistro will add a few vegetarian main dishes to its menu\". Vegetarian dishes are main courses without meat or fish.",
+              "distractors": {
+                "B": "The brunch is announced in the article, not requested in the letter.",
+                "C": "She celebrated her daughter's birthday but asks for no particular dessert.",
+                "D": "Her daughter does not eat fish (\"does not eat fish\"): she certainly is not asking for more seafood."
+              },
+              "trap": "Check that the option matches what the writer ASKS for: a word from the text (\"birthday\", \"fish\") can appear in a distractor that says the opposite."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0012",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "webpage",
+          "title": "Aldermoor Office Furniture",
+          "text": "Ashford Standing Desk, Model AD-140\n\nPrice: $289.00\nSize: 140 cm wide by 70 cm deep\nHeight range: 72 cm to 118 cm (electric motor)\nWeight capacity: 80 kg\nColors: Oak, White, Graphite\nAssembly: Required. Allow about 40 minutes. Tools are included.\n\nDelivery\nStandard delivery (5 to 7 business days): $24.00 per order. Free on orders of $350.00 or more.\nExpress delivery (2 business days): $45.00 per order.\n\nReturns\nItems may be returned within 30 days of delivery in their original packaging. The customer pays return shipping unless the item arrived damaged.\n\nWarranty\nTwo years on the frame and the motor.\n\nQuestions? Our customer service team answers e-mails within one business day."
+        },
+        {
+          "genre": "receipt",
+          "text": "Receipt - Order No. AM-58214\n\nOrder date: April 8\nCustomer: Beatriz Lamarque, Corvina Analytics\nShip to: 27 Vine Court, Fairview\n\nItem: Ashford Standing Desk AD-140, Oak (qty 2) - $578.00\nItem: Cable tray, 60 cm (qty 2) - $38.00\nSubtotal: $616.00\nDelivery: Express, 2 business days - $45.00\nTotal paid: $661.00\n\nPayment: Credit card ending 4417\nThank you for shopping with Aldermoor Office Furniture. Please keep this receipt for returns and warranty claims."
+        },
+        {
+          "genre": "email",
+          "text": "To: customerservice@aldermoor.example\nFrom: Beatriz Lamarque\nDate: April 16\nSubject: Order AM-58214 - damaged desk and late delivery\n\nDear Aldermoor team,\n\nI chose express delivery for order AM-58214 so that both desks would be here before our two new analysts join the team on April 21. The boxes did not arrive until April 15, a full week after I placed the order, and when we unpacked them, the top of one desk was cracked across the corner.\n\nI would like to keep the undamaged desk and both cable trays. Please arrange to collect the damaged desk and refund its price. Because the express service did not deliver what it promised, I also ask you to refund the $45.00 delivery fee.\n\nI have attached photos of the damage. Please confirm by e-mail when the pickup will take place, and let me know whether the refund will go back to the same credit card.\n\nSincerely,\nBeatriz Lamarque\nOperations Manager, Corvina Analytics"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0012-1",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 1,
+          "stem": "According to the web page, what comes with the desk?",
+          "options": [
+            "A cable tray",
+            "Free standard delivery",
+            "The tools needed to assemble it",
+            "A five-year warranty"
+          ],
+          "answer": "C",
+          "evidence": [
+            "Assembly: Required. Allow about 40 minutes. Tools are included."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La page dit : « Assembly: Required. Allow about 40 minutes. Tools are included. ». Les outils fournis se reformulent en « the tools needed to assemble it ».",
+              "distractors": {
+                "A": "Le reçu montre que le passe-câbles (« Cable tray ») est un article vendu à part, avec son propre prix ; la page ne le mentionne pas.",
+                "B": "La livraison standard n'est gratuite qu'à partir de 350,00 $ de commande, pas avec chaque bureau.",
+                "D": "La garantie est de deux ans (« Two years on the frame and the motor »), pas de cinq."
+              },
+              "trap": "Un mot de la page (« delivery », « warranty ») dans une option ne suffit pas : vérifie la condition ou le chiffre exact."
+            },
+            "en": {
+              "rule": "The page says: \"Assembly: Required. Allow about 40 minutes. Tools are included.\" The included tools are rephrased as \"the tools needed to assemble it\".",
+              "distractors": {
+                "A": "The receipt shows that the cable tray is a separate item with its own price; the page does not mention it.",
+                "B": "Standard delivery is free only on orders of $350.00 or more, not with every desk.",
+                "D": "The warranty is two years (\"Two years on the frame and the motor\"), not five."
+              },
+              "trap": "A word from the page (\"delivery\", \"warranty\") in an option is not enough: check the exact condition or figure."
+            }
+          }
+        },
+        {
+          "id": "p7-0012-2",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 2,
+          "stem": "How much would Ms. Lamarque have paid for delivery if she had chosen standard delivery?",
+          "options": [
+            "$24.00",
+            "$45.00",
+            "$69.00",
+            "Nothing"
+          ],
+          "answer": "D",
+          "evidence": [
+            "Standard delivery (5 to 7 business days): $24.00 per order. Free on orders of $350.00 or more.",
+            "Subtotal: $616.00"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La page indique que la livraison standard coûte 24,00 $ mais est « Free on orders of $350.00 or more ». Le reçu montre un sous-total de 616,00 $ : la commande dépasse 350 $, donc la livraison standard aurait été gratuite.",
+              "distractors": {
+                "A": "C'est le tarif de base de la livraison standard, mais il ne s'applique pas aux commandes de 350 $ ou plus.",
+                "B": "C'est ce qu'elle a payé pour la livraison express, pas pour la standard.",
+                "C": "C'est la somme des deux tarifs (24 + 45) : aucun document ne la demande."
+              },
+              "trap": "Un tarif avec condition (« Free on orders of… ») : compare la condition avec le montant de l'autre document avant de lire le prix."
+            },
+            "en": {
+              "rule": "The page says standard delivery costs $24.00 but is \"Free on orders of $350.00 or more\". The receipt shows a subtotal of $616.00: the order is above $350, so standard delivery would have been free.",
+              "distractors": {
+                "A": "This is the base rate for standard delivery, but it does not apply to orders of $350 or more.",
+                "B": "This is what she paid for express delivery, not standard.",
+                "C": "This is the sum of both rates (24 + 45): no document asks for it."
+              },
+              "trap": "A price with a condition (\"Free on orders of…\"): compare the condition with the amount in the other document before reading the price."
+            }
+          }
+        },
+        {
+          "id": "p7-0012-3",
+          "tags": [
+            "not-true"
+          ],
+          "difficulty": 2,
+          "stem": "What is NOT mentioned about Ms. Lamarque's order?",
+          "options": [
+            "It contains two desks of the same model.",
+            "It was paid for in monthly installments.",
+            "It was sent by express delivery.",
+            "It includes an accessory for the desks."
+          ],
+          "answer": "B",
+          "evidence": [
+            "Ashford Standing Desk AD-140, Oak (qty 2)",
+            "Cable tray, 60 cm (qty 2)",
+            "Delivery: Express, 2 business days"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le reçu indique « Ashford Standing Desk AD-140, Oak (qty 2) », « Cable tray, 60 cm (qty 2) » et « Delivery: Express ». Seul le paiement échelonné n'apparaît nulle part : le reçu mentionne une carte de crédit et un « Total paid ».",
+              "distractors": {
+                "A": "C'est écrit : deux bureaux Ashford AD-140 en chêne.",
+                "C": "C'est écrit : « Delivery: Express, 2 business days ».",
+                "D": "C'est écrit : deux passe-câbles (« Cable tray ») accompagnent les bureaux."
+              },
+              "trap": "Question NOT : barre d'abord les trois options que tu retrouves dans le texte ; la dernière est la réponse, même si elle est plausible."
+            },
+            "en": {
+              "rule": "The receipt lists \"Ashford Standing Desk AD-140, Oak (qty 2)\", \"Cable tray, 60 cm (qty 2)\" and \"Delivery: Express\". Only installment payment appears nowhere: the receipt mentions a credit card and a \"Total paid\".",
+              "distractors": {
+                "A": "It is written: two Ashford AD-140 desks in oak.",
+                "C": "It is written: \"Delivery: Express, 2 business days\".",
+                "D": "It is written: two cable trays come with the desks."
+              },
+              "trap": "NOT question: first cross out the three options you can find in the text; the last one is the answer, even if it sounds plausible."
+            }
+          }
+        },
+        {
+          "id": "p7-0012-4",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 3,
+          "stem": "How much will Ms. Lamarque have paid in total if the company grants everything she requests?",
+          "options": [
+            "$327.00",
+            "$372.00",
+            "$616.00",
+            "$661.00"
+          ],
+          "answer": "A",
+          "evidence": [
+            "Total paid: $661.00",
+            "Item: Ashford Standing Desk AD-140, Oak (qty 2) - $578.00",
+            "refund the $45.00 delivery fee"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le reçu donne un total de 661,00 $, avec deux bureaux à 578,00 $ (donc 289,00 $ chacun). Mme Lamarque demande le remboursement du bureau abîmé et des 45,00 $ de livraison : 661 - 289 - 45 = 327,00 $.",
+              "distractors": {
+                "B": "661 - 289 : c'est le total si seul le bureau abîmé était remboursé, sans les frais de livraison.",
+                "C": "661 - 45 : c'est le total si seuls les frais express étaient remboursés, sans le bureau.",
+                "D": "C'est le montant initial, avant tout remboursement."
+              },
+              "trap": "Question de calcul à trois documents : liste chaque demande, trouve son montant dans le bon document (prix unitaire = 578 / 2), puis soustrais."
+            },
+            "en": {
+              "rule": "The receipt shows a total of $661.00, with two desks at $578.00 (so $289.00 each). Ms. Lamarque asks for a refund of the damaged desk and of the $45.00 delivery fee: 661 - 289 - 45 = $327.00.",
+              "distractors": {
+                "B": "661 - 289: this is the total if only the damaged desk were refunded, without the delivery fee.",
+                "C": "661 - 45: this is the total if only the express fee were refunded, not the desk.",
+                "D": "This is the original amount, before any refund."
+              },
+              "trap": "A calculation across documents: list each request, find its amount in the right document (unit price = 578 / 2), then subtract."
+            }
+          }
+        },
+        {
+          "id": "p7-0012-5",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 3,
+          "stem": "What is suggested about Ms. Lamarque?",
+          "options": [
+            "She has previously bought furniture from Aldermoor.",
+            "She plans to order a replacement desk.",
+            "She assembled the desks with her own tools.",
+            "She bought the desks for members of her team."
+          ],
+          "answer": "D",
+          "evidence": [
+            "so that both desks would be here before our two new analysts join the team on April 21"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Elle a choisi la livraison express « so that both desks would be here before our two new analysts join the team on April 21 » : les deux bureaux sont destinés aux nouveaux analystes de son équipe.",
+              "distractors": {
+                "A": "Aucun document ne parle d'un achat précédent.",
+                "B": "Elle demande le remboursement du bureau abîmé et garde l'autre : elle ne parle pas de le remplacer.",
+                "C": "Elle dit seulement avoir déballé les cartons (« unpacked »). La page précise que les outils sont fournis, et rien n'indique qu'elle ait utilisé les siens."
+              },
+              "trap": "Pour une inférence sur une personne, cherche la raison qu'elle donne de son action : elle révèle souvent la situation (ici, équiper de nouveaux collègues)."
+            },
+            "en": {
+              "rule": "She chose express delivery \"so that both desks would be here before our two new analysts join the team on April 21\": the two desks are meant for the new analysts on her team.",
+              "distractors": {
+                "A": "No document mentions an earlier purchase.",
+                "B": "She asks for a refund for the damaged desk and keeps the other: she does not mention replacing it.",
+                "C": "She only says she unpacked the boxes (\"unpacked\"). The page says tools are included, and nothing shows she used her own."
+              },
+              "trap": "For an inference about a person, look for the reason she gives for her action: it often reveals the situation (here, equipping new colleagues)."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

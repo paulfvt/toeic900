@@ -1,0 +1,131 @@
+{
+  "tag": "prepositions",
+  "fr": {
+    "title": "Prépositions de temps, de lieu et locutions",
+    "summary": "Les prépositions sont courtes mais précises : le TOEIC teste surtout les couples proches (« by » et « until », « during » et « for ») et les locutions suivies d'un nom. L'indice se trouve toujours dans les mots autour de la lacune.",
+    "keyPoints": [
+      "« at » + heure ou point précis, « on » + jour, date ou surface, « in » + mois, année ou durée à venir.",
+      "« by » = au plus tard ; « until » = jusqu'à (l'état dure) ; « for » + durée ; « during » + période nommée ; « while » + sujet et verbe.",
+      "« because of », « due to », « despite », « instead of » sont suivis d'un nom ou d'un -ing, jamais d'un sujet et d'un verbe."
+    ],
+    "rules": [
+      {
+        "title": "« at », « on », « in » : temps et lieu",
+        "text": "« at » pour un point précis (heure, adresse, comptoir), « on » pour un jour, une date ou une surface (un étage, une rue), « in » pour un espace ou une période plus large (mois, année, ville, salle). « in » + durée veut dire « dans » : « in three days » = d'ici trois jours.",
+        "examples": [
+          {"en": "The training session starts **at** 9:30 a.m.", "note": "« at » + heure."},
+          {"en": "Our new store opens **on** May 12.", "note": "« on » + date."},
+          {"en": "The shipment will arrive **in** three days.", "note": "« in » + durée : dans trois jours."},
+          {"en": "Our accounting office is **on** the fifth floor.", "note": "« on » + étage."}
+        ]
+      },
+      {
+        "title": "« by », « until » et « within »",
+        "text": "« by » fixe une échéance : l'action doit être faite au plus tard à cette date. « until » indique jusqu'à quand une situation dure. « within » + durée = dans un délai de, pas plus tard que cette durée après le départ.",
+        "examples": [
+          {"en": "Please submit your expense report **by** Friday.", "note": "Échéance : au plus tard vendredi."},
+          {"en": "The office will be closed **until** Monday.", "note": "La fermeture dure jusqu'à lundi."},
+          {"en": "Refunds are issued **within** ten business days.", "note": "Dans un délai de dix jours ouvrés."}
+        ]
+      },
+      {
+        "title": "« for », « during », « while », « since »",
+        "text": "« for » + durée chiffrée (two hours). « during » + nom d'une période ou d'un événement (the storm, the conference). « while » + sujet et verbe (ou participe). « since » + point de départ, avec un temps du perfect.",
+        "examples": [
+          {"en": "The system was down **for** two hours.", "note": "« for » + durée chiffrée."},
+          {"en": "Several flights were cancelled **during** the storm.", "note": "« during » + événement nommé."},
+          {"en": "Please turn off your phone **while** the presentation is in progress.", "note": "« while » + sujet et verbe."},
+          {"en": "Ms. Lopez has managed the Lyon office **since** 2019.", "note": "« since » + point de départ, « has managed »."}
+        ]
+      },
+      {
+        "title": "Mouvement et locutions fréquentes",
+        "text": "« through » traverse un espace, « across » va d'un côté à l'autre ou couvre une zone, « along » longe. Locutions suivies d'un nom : « according to », « as of » (à partir de), « regarding », « throughout » (pendant toute la durée), « prior to » (avant), « instead of ».",
+        "examples": [
+          {"en": "Delivery trucks enter the site **through** the north gate.", "note": "« through » : passage par une porte."},
+          {"en": "**According to** the schedule, the audit begins next week.", "note": "« according to » + nom : d'après."},
+          {"en": "**As of** June 1, all invoices must be sent by e-mail.", "note": "« as of » + date : à partir du."},
+          {"en": "Visitors must register **prior to** entering the building.", "note": "« prior to » + -ing : avant de."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "« by » ou « until » : regarde le verbe",
+        "text": "Un verbe ponctuel (submit, send, finish, complete) appelle « by » : il y a une échéance. Un verbe d'état ou de durée (stay, remain, wait, be open, be closed) appelle « until ». Le TOEIC place les deux dans les options : choisis d'après le verbe."
+      },
+      {
+        "title": "« during », « for » ou « while »",
+        "text": "Regarde ce qui suit la lacune. Un nom de période : « during ». Un nombre et une unité : « for ». Un sujet et un verbe : « while ». « during » suivi d'un verbe conjugué est toujours faux."
+      },
+      {
+        "title": "Préposition ou conjonction",
+        "text": "« because of », « due to », « despite », « in spite of » veulent un nom ou un -ing ; « because », « although », « while » veulent un sujet et un verbe. Si la lacune est suivie de « the delay » ou de « the weather », élimine les conjonctions ; si elle est suivie de « the weather was bad », élimine les prépositions."
+      }
+    ]
+  },
+  "en": {
+    "title": "Prepositions of time, place and set phrases",
+    "summary": "Prepositions are short but precise: the TOEIC mostly tests close pairs (\"by\" and \"until\", \"during\" and \"for\") and phrases followed by a noun. The clue is always in the words around the blank.",
+    "keyPoints": [
+      "\"at\" + time or exact point, \"on\" + day, date or surface, \"in\" + month, year or a period from now.",
+      "\"by\" = no later than; \"until\" = up to (the state continues); \"for\" + duration; \"during\" + named period; \"while\" + subject and verb.",
+      "\"because of\", \"due to\", \"despite\", \"instead of\" are followed by a noun or an -ing form, never by a subject and a verb."
+    ],
+    "rules": [
+      {
+        "title": "\"at\", \"on\", \"in\": time and place",
+        "text": "\"at\" for an exact point (a time, an address, a desk), \"on\" for a day, a date or a surface (a floor, a street), \"in\" for a wider space or period (month, year, city, room). \"in\" + duration means \"from now\": \"in three days\" = three days from now.",
+        "examples": [
+          {"en": "The training session starts **at** 9:30 a.m.", "note": "\"at\" + time."},
+          {"en": "Our new store opens **on** May 12.", "note": "\"on\" + date."},
+          {"en": "The shipment will arrive **in** three days.", "note": "\"in\" + duration: three days from now."},
+          {"en": "Our accounting office is **on** the fifth floor.", "note": "\"on\" + floor."}
+        ]
+      },
+      {
+        "title": "\"by\", \"until\" and \"within\"",
+        "text": "\"by\" sets a deadline: the action must be done no later than that date. \"until\" says how long a situation continues. \"within\" + duration means in a period of, no longer than that duration from the starting point.",
+        "examples": [
+          {"en": "Please submit your expense report **by** Friday.", "note": "Deadline: no later than Friday."},
+          {"en": "The office will be closed **until** Monday.", "note": "The closure lasts up to Monday."},
+          {"en": "Refunds are issued **within** ten business days.", "note": "In a period of ten business days."}
+        ]
+      },
+      {
+        "title": "\"for\", \"during\", \"while\", \"since\"",
+        "text": "\"for\" + a measured duration (two hours). \"during\" + the name of a period or event (the storm, the conference). \"while\" + subject and verb (or a participle). \"since\" + a starting point, with a perfect tense.",
+        "examples": [
+          {"en": "The system was down **for** two hours.", "note": "\"for\" + measured duration."},
+          {"en": "Several flights were cancelled **during** the storm.", "note": "\"during\" + named event."},
+          {"en": "Please turn off your phone **while** the presentation is in progress.", "note": "\"while\" + subject and verb."},
+          {"en": "Ms. Lopez has managed the Lyon office **since** 2019.", "note": "\"since\" + starting point, \"has managed\"."}
+        ]
+      },
+      {
+        "title": "Movement and frequent set phrases",
+        "text": "\"through\" passes inside a space, \"across\" goes from one side to the other or covers an area, \"along\" follows a line. Phrases followed by a noun: \"according to\", \"as of\" (starting from), \"regarding\", \"throughout\" (for the whole period), \"prior to\" (before), \"instead of\".",
+        "examples": [
+          {"en": "Delivery trucks enter the site **through** the north gate.", "note": "\"through\": passing through a gate."},
+          {"en": "**According to** the schedule, the audit begins next week.", "note": "\"according to\" + noun: as stated by."},
+          {"en": "**As of** June 1, all invoices must be sent by e-mail.", "note": "\"as of\" + date: starting from."},
+          {"en": "Visitors must register **prior to** entering the building.", "note": "\"prior to\" + -ing: before."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "\"by\" or \"until\": look at the verb",
+        "text": "A one-time verb (submit, send, finish, complete) calls for \"by\": there is a deadline. A verb of state or duration (stay, remain, wait, be open, be closed) calls for \"until\". The TOEIC puts both among the options: decide from the verb."
+      },
+      {
+        "title": "\"during\", \"for\" or \"while\"",
+        "text": "Look at what follows the blank. The name of a period: \"during\". A number and a unit: \"for\". A subject and a verb: \"while\". \"during\" followed by a conjugated verb is always wrong."
+      },
+      {
+        "title": "Preposition or conjunction",
+        "text": "\"because of\", \"due to\", \"despite\", \"in spite of\" need a noun or an -ing form; \"because\", \"although\", \"while\" need a subject and a verb. If the blank is followed by \"the delay\" or \"the weather\", eliminate the conjunctions; if it is followed by \"the weather was bad\", eliminate the prepositions."
+      }
+    ]
+  }
+}

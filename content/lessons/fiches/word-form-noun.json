@@ -1,0 +1,117 @@
+{
+  "tag": "word-form-noun",
+  "fr": {
+    "title": "Forme du mot : le nom",
+    "summary": "Quand les options sont des mots de la même famille (« decide », « decision », « decisive »…), la place du trou te dit la nature du mot. Après un article, un possessif, un adjectif ou une préposition, c'est un **nom** qu'il faut.",
+    "keyPoints": [
+      "Après « the », « a », « his », « this », « some », « many » ou un adjectif, le mot attendu est un **nom**.",
+      "Les suffixes **-tion, -ment, -ness, -ity, -ance, -ence, -al** forment des noms de chose ; **-er, -or, -ant** forment souvent des noms de personne.",
+      "Personne ou chose ? « applicant » est la personne, « application » est le dossier."
+    ],
+    "rules": [
+      {
+        "title": "Où se cache le nom",
+        "text": "Un nom est le sujet ou le complément du verbe, ou il suit une préposition. Le signal le plus sûr : un déterminant (« the », « a », « our », « this », « several ») ou un adjectif juste avant le trou. Un adjectif ne se suffit pas à lui-même : il est suivi d'un nom.",
+        "examples": [
+          {"en": "The **approval** of the budget took two weeks.", "note": "Après « The » et avant « of » : un nom."},
+          {"en": "Ms. Alvarez sent a detailed **proposal** to the board.", "note": "Après « a detailed » : l'adjectif annonce un nom."}
+        ]
+      },
+      {
+        "title": "Les suffixes de noms",
+        "text": "Les terminaisons **-tion / -sion**, **-ment**, **-ness**, **-ity**, **-ance / -ence** donnent des noms de chose (« promotion », « replacement », « availability », « maintenance »). **-al** en donne aussi quelques-uns (« approval », « proposal », « arrival »). Attention : « -al » forme surtout des adjectifs (« national »), donc retiens ces noms par cœur.",
+        "examples": [
+          {"en": "The **replacement** of the old printers is scheduled for May.", "note": "-ment : nom, sujet de la phrase."},
+          {"en": "We are waiting for the **arrival** of the shipment.", "note": "« arrival » est un nom malgré -al, après « the »."}
+        ]
+      },
+      {
+        "title": "Nom de personne ou nom de chose",
+        "text": "Beaucoup de familles ont deux noms. **-ant / -ent / -er / -or / -ee / -ist** désignent souvent une personne (« applicant », « employer », « consultant »), alors que **-ation / -ment / -ance** désignent la chose (« application », « employment », « assistance »). Demande-toi : la phrase parle-t-elle de quelqu'un ou de quelque chose ?",
+        "examples": [
+          {"en": "Every **applicant** must attach a résumé.", "note": "On attend une personne : « applicant », pas « application »."},
+          {"en": "The **application** must be submitted online.", "note": "On attend un document : « application »."}
+        ]
+      },
+      {
+        "title": "Dénombrable, indénombrable et noms composés",
+        "text": "Un nom dénombrable au singulier a besoin d'un déterminant (« a », « the »). Les noms indénombrables (« information », « advice », « equipment », « feedback ») n'ont ni « a » ni pluriel. Dans un nom composé, le premier nom reste en général au singulier (« a staff meeting », « the expense report »), avec quelques exceptions comme « sales ».",
+        "examples": [
+          {"en": "The team needs more **information** before the meeting.", "note": "« information » est indénombrable : pas de « s », pas de « an »."},
+          {"en": "The **expense** report is due on Friday.", "note": "Nom composé : « expense » reste au singulier."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "Un adjectif ou un verbe à la place du nom",
+        "text": "Les options mélangent verbe, adjectif, adverbe et nom (« decide », « decisive », « decisively », « decision »). Si le trou suit « the », « a » ou un adjectif et que la phrase continue sans lui, prends le nom."
+      },
+      {
+        "title": "La personne contre la chose",
+        "text": "« applicant » et « application », « consultant » et « consultation », « employer » et « employment » sont tous les deux corrects en grammaire. Seul le sens tranche : lis la phrase en entier et repère si c'est quelqu'un qui agit ou quelque chose qui est traité."
+      },
+      {
+        "title": "Un singulier sans déterminant",
+        "text": "Un nom dénombrable singulier a besoin d'un déterminant (« a », « the »). Une option au singulier sans déterminant devant elle est suspecte : cherche plutôt le pluriel ou un nom indénombrable."
+      }
+    ]
+  },
+  "en": {
+    "title": "Word form: the noun",
+    "summary": "When the options are words from the same family (\"decide\", \"decision\", \"decisive\"…), the position of the blank tells you the kind of word. After an article, a possessive, an adjective or a preposition, you need a **noun**.",
+    "keyPoints": [
+      "After \"the\", \"a\", \"his\", \"this\", \"some\", \"many\" or an adjective, the word you need is a **noun**.",
+      "The suffixes **-tion, -ment, -ness, -ity, -ance, -ence, -al** form nouns for things; **-er, -or, -ant** often form nouns for people.",
+      "Person or thing? \"applicant\" is the person, \"application\" is the form."
+    ],
+    "rules": [
+      {
+        "title": "Where to find the noun",
+        "text": "A noun is the subject or object of a verb, or it follows a preposition. The most reliable signal: a determiner (\"the\", \"a\", \"our\", \"this\", \"several\") or an adjective right before the blank. An adjective cannot stand alone: a noun follows it.",
+        "examples": [
+          {"en": "The **approval** of the budget took two weeks.", "note": "After \"The\" and before \"of\": a noun."},
+          {"en": "Ms. Alvarez sent a detailed **proposal** to the board.", "note": "After \"a detailed\": the adjective announces a noun."}
+        ]
+      },
+      {
+        "title": "Noun suffixes",
+        "text": "The endings **-tion / -sion**, **-ment**, **-ness**, **-ity**, **-ance / -ence** give nouns for things (\"promotion\", \"replacement\", \"availability\", \"maintenance\"). **-al** gives a few nouns too (\"approval\", \"proposal\", \"arrival\"). Be careful: \"-al\" mostly forms adjectives (\"national\"), so learn these nouns by heart.",
+        "examples": [
+          {"en": "The **replacement** of the old printers is scheduled for May.", "note": "-ment: a noun, the subject of the sentence."},
+          {"en": "We are waiting for the **arrival** of the shipment.", "note": "\"arrival\" is a noun despite -al, after \"the\"."}
+        ]
+      },
+      {
+        "title": "Noun for a person or noun for a thing",
+        "text": "Many word families have two nouns. **-ant / -ent / -er / -or / -ee / -ist** often name a person (\"applicant\", \"employer\", \"consultant\"), while **-ation / -ment / -ance** name the thing (\"application\", \"employment\", \"assistance\"). Ask yourself: is the sentence about someone or about something?",
+        "examples": [
+          {"en": "Every **applicant** must attach a résumé.", "note": "A person is needed: \"applicant\", not \"application\"."},
+          {"en": "The **application** must be submitted online.", "note": "A document is needed: \"application\"."}
+        ]
+      },
+      {
+        "title": "Countable, uncountable and compound nouns",
+        "text": "A singular countable noun needs a determiner (\"a\", \"the\"). Uncountable nouns (\"information\", \"advice\", \"equipment\", \"feedback\") take no \"a\" and no plural. In a compound noun, the first noun usually stays singular (\"a staff meeting\", \"the expense report\"), with a few exceptions such as \"sales\".",
+        "examples": [
+          {"en": "The team needs more **information** before the meeting.", "note": "\"information\" is uncountable: no \"s\", no \"an\"."},
+          {"en": "The **expense** report is due on Friday.", "note": "Compound noun: \"expense\" stays singular."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "An adjective or a verb in place of the noun",
+        "text": "The options mix verb, adjective, adverb and noun (\"decide\", \"decisive\", \"decisively\", \"decision\"). If the blank follows \"the\", \"a\" or an adjective and the sentence goes on without it, take the noun."
+      },
+      {
+        "title": "Person versus thing",
+        "text": "\"applicant\" and \"application\", \"consultant\" and \"consultation\", \"employer\" and \"employment\" are all correct grammatically. Only the meaning decides: read the whole sentence and see whether someone is acting or something is being handled."
+      },
+      {
+        "title": "A singular with no determiner",
+        "text": "A singular countable noun needs a determiner (\"a\", \"the\"). An option in the singular with no determiner in front of it is suspect: look for the plural or an uncountable noun instead."
+      }
+    ]
+  }
+}

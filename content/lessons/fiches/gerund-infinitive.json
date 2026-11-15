@@ -1,0 +1,117 @@
+{
+  "tag": "gerund-infinitive",
+  "fr": {
+    "title": "Gérondif ou infinitif",
+    "summary": "Après un verbe, c'est le verbe lui-même qui impose la forme qui suit : -ing, ou « to » + base. Après une préposition, on met toujours -ing. Le TOEIC teste surtout les verbes courants du monde professionnel et les pièges autour de « to ».",
+    "keyPoints": [
+      "Certains verbes veulent **-ing** (« consider », « avoid », « suggest »), d'autres **to + base** (« decide », « plan », « agree »). Il faut les connaître.",
+      "Après une **préposition**, toujours -ing : « before **signing** », « interested in **applying** », « look forward to **meeting** ».",
+      "Verbe + objet + **to + base** : « allow », « ask », « encourage », « remind » quelqu'un de faire."
+    ],
+    "rules": [
+      {
+        "title": "Verbes suivis de -ing",
+        "text": "« Enjoy », « consider », « avoid », « suggest », « recommend », « finish », « postpone », « delay » et « include » sont suivis d'un verbe en **-ing**. Après eux, « to » + base est faux.",
+        "examples": [
+          {"en": "The team has postponed **launching** the new product until March.", "note": "« postpone » + -ing."},
+          {"en": "We recommend **booking** your flights early.", "note": "« recommend » + -ing."}
+        ]
+      },
+      {
+        "title": "Verbes suivis de to + base",
+        "text": "« Want », « decide », « plan », « agree », « hope », « expect », « fail », « afford » et « manage » sont suivis de **to** + base. Après eux, -ing est faux.",
+        "examples": [
+          {"en": "The company decided **to open** a second warehouse.", "note": "« decide » + to + base."},
+          {"en": "We cannot afford **to lose** this client.", "note": "« afford » + to + base."}
+        ]
+      },
+      {
+        "title": "Préposition + -ing",
+        "text": "Après toute préposition (« before », « after », « without », « instead of », « by »), le verbe est en **-ing**. Attention : dans « look forward to », « be committed to » ou « be used to », « to » est une préposition, pas la marque de l'infinitif. Test : remplace par un nom, « look forward to the meeting », et le gérondif s'impose.",
+        "examples": [
+          {"en": "Please read the terms carefully before **signing** the agreement.", "note": "« before » est une préposition : -ing."},
+          {"en": "We look forward to **working** with your team.", "note": "Ici « to » est une préposition : -ing."}
+        ]
+      },
+      {
+        "title": "Verbe + objet + to, et le « to » de but",
+        "text": "« Allow », « ask », « encourage », « remind », « require » et « enable » se construisent avec un objet puis **to** + base. Le « to » (ou « in order to ») peut aussi exprimer le but, « pour faire ».",
+        "examples": [
+          {"en": "The manager asked her assistant **to book** the venue.", "note": "Verbe + objet (« her assistant ») + to + base."},
+          {"en": "She stayed late in order **to finish** the report.", "note": "« in order to » = but : toujours + base."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "Le bon verbe, la mauvaise forme",
+        "text": "Les distracteurs reprennent le même verbe en -ing, en « to » + base et à l'indicatif. Les verbes à connaître par cœur sont ceux-là : « consider to buy » ou « decide buying » sont faux. Apprends chaque verbe avec sa construction."
+      },
+      {
+        "title": "« To » préposition ou marque de l'infinitif",
+        "text": "Après « look forward to », « be committed to », « be dedicated to » ou « in addition to », « to » est une préposition : -ing, jamais la base verbale. « We look forward to meet you » est faux."
+      },
+      {
+        "title": "L'objet qui change la construction",
+        "text": "Quand un nom ou un pronom suit « allow », « encourage » ou « ask », la forme attendue est « to » + base, pas -ing : « allow employees **to work** » mais « allow working ». Regarde s'il y a un objet avant le trou."
+      }
+    ]
+  },
+  "en": {
+    "title": "Gerund or infinitive",
+    "summary": "After a verb, the verb itself decides the form that follows: -ing, or \"to\" + base. After a preposition, you always use -ing. The TOEIC mostly tests common workplace verbs and the traps around \"to\".",
+    "keyPoints": [
+      "Some verbs take **-ing** (\"consider\", \"avoid\", \"suggest\"), others **to + base** (\"decide\", \"plan\", \"agree\"). You have to know them.",
+      "After a **preposition**, always -ing: \"before **signing**\", \"interested in **applying**\", \"look forward to **meeting**\".",
+      "Verb + object + **to + base**: \"allow\", \"ask\", \"encourage\", \"remind\" someone to do something."
+    ],
+    "rules": [
+      {
+        "title": "Verbs followed by -ing",
+        "text": "\"Enjoy\", \"consider\", \"avoid\", \"suggest\", \"recommend\", \"finish\", \"postpone\", \"delay\" and \"include\" are followed by a verb in **-ing**. After them, \"to\" + base is wrong.",
+        "examples": [
+          {"en": "The team has postponed **launching** the new product until March.", "note": "\"postpone\" + -ing."},
+          {"en": "We recommend **booking** your flights early.", "note": "\"recommend\" + -ing."}
+        ]
+      },
+      {
+        "title": "Verbs followed by to + base",
+        "text": "\"Want\", \"decide\", \"plan\", \"agree\", \"hope\", \"expect\", \"fail\", \"afford\" and \"manage\" are followed by **to** + base. After them, -ing is wrong.",
+        "examples": [
+          {"en": "The company decided **to open** a second warehouse.", "note": "\"decide\" + to + base."},
+          {"en": "We cannot afford **to lose** this client.", "note": "\"afford\" + to + base."}
+        ]
+      },
+      {
+        "title": "Preposition + -ing",
+        "text": "After any preposition (\"before\", \"after\", \"without\", \"instead of\", \"by\"), the verb is in **-ing**. Careful: in \"look forward to\", \"be committed to\" or \"be used to\", \"to\" is a preposition, not the infinitive marker. Test: replace it with a noun, \"look forward to the meeting\", and the gerund is required.",
+        "examples": [
+          {"en": "Please read the terms carefully before **signing** the agreement.", "note": "\"before\" is a preposition: -ing."},
+          {"en": "We look forward to **working** with your team.", "note": "Here \"to\" is a preposition: -ing."}
+        ]
+      },
+      {
+        "title": "Verb + object + to, and the \"to\" of purpose",
+        "text": "\"Allow\", \"ask\", \"encourage\", \"remind\", \"require\" and \"enable\" are built with an object and then **to** + base. \"To\" (or \"in order to\") can also express purpose, \"so as to do\".",
+        "examples": [
+          {"en": "The manager asked her assistant **to book** the venue.", "note": "Verb + object (\"her assistant\") + to + base."},
+          {"en": "She stayed late in order **to finish** the report.", "note": "\"in order to\" = purpose: always + base."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "The right verb, the wrong form",
+        "text": "The distractors repeat the same verb in -ing, in \"to\" + base and in a conjugated form. These are the verbs to learn by heart: \"consider to buy\" or \"decide buying\" are wrong. Learn each verb with its pattern."
+      },
+      {
+        "title": "\"To\" as a preposition or as the infinitive marker",
+        "text": "After \"look forward to\", \"be committed to\", \"be dedicated to\" or \"in addition to\", \"to\" is a preposition: -ing, never the base form. \"We look forward to meet you\" is wrong."
+      },
+      {
+        "title": "The object that changes the pattern",
+        "text": "When a noun or pronoun follows \"allow\", \"encourage\" or \"ask\", the expected form is \"to\" + base, not -ing: \"allow employees **to work**\" but \"allow working\". Check whether there is an object before the blank."
+      }
+    ]
+  }
+}

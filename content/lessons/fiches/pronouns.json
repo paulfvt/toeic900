@@ -1,0 +1,121 @@
+{
+  "tag": "pronouns",
+  "fr": {
+    "title": "Pronoms et possessifs",
+    "summary": "Chaque pronom a une forme selon sa fonction : sujet, complément, adjectif possessif, pronom possessif ou réfléchi. Au TOEIC, les cinq formes d'une même personne sont souvent proposées ensemble : c'est la place dans la phrase qui décide.",
+    "keyPoints": [
+      "Les cinq formes : « they » (sujet), « them » (complément), « **their** » + nom, « **theirs** » (seul), « themselves » (réfléchi).",
+      "Le réfléchi s'emploie quand le **sujet et l'objet sont la même personne**, ou pour insister (« the manager **herself** »).",
+      "Le pronom s'accorde avec son antécédent : « the company… **its** », pas « their »."
+    ],
+    "rules": [
+      {
+        "title": "Sujet, complément ou possessif : la place décide",
+        "text": "Avant le verbe, il faut un pronom sujet (« he »). Après un verbe ou une préposition, un pronom complément (« him »). Devant un nom, un adjectif possessif (« his office »). Des formes comme « my / his / her / their » ne s'emploient jamais sans nom derrière.",
+        "examples": [
+          {"en": "Please send **them** the updated schedule.", "note": "Après le verbe : pronom complément."},
+          {"en": "**Their** office is on the third floor.", "note": "Devant un nom : adjectif possessif."}
+        ]
+      },
+      {
+        "title": "« Their » + nom contre « theirs » seul",
+        "text": "L'adjectif possessif (« my, your, his, her, our, their ») précède toujours un nom. Le pronom possessif (« mine, yours, his, hers, ours, theirs ») remplace « adjectif + nom » et se suffit à lui-même.",
+        "examples": [
+          {"en": "Our budget is larger than **theirs**.", "note": "« theirs » = « their budget » : pas de nom derrière."},
+          {"en": "Please leave **your** badge at the reception desk.", "note": "« your » est suivi du nom « badge »."}
+        ]
+      },
+      {
+        "title": "Le pronom réfléchi",
+        "text": "Le réfléchi (« himself », « themselves »…) s'emploie quand le sujet et l'objet sont la même personne, ou pour insister sur le sujet. « By + réfléchi » signifie « tout seul ».",
+        "examples": [
+          {"en": "Mr. Park taught **himself** to use the new software.", "note": "Sujet et objet sont la même personne."},
+          {"en": "The manager **herself** will lead the workshop.", "note": "Emphase : « en personne »."},
+          {"en": "She completed the audit by **herself**.", "note": "« by herself » = sans aide."}
+        ]
+      },
+      {
+        "title": "Antécédent et pronoms utiles",
+        "text": "Le pronom reprend le nom précédent et s'accorde avec lui. Au TOEIC, un nom d'entreprise, d'équipe ou de service au singulier est repris par « it / its ». Retiens aussi « those who » (les personnes qui), « one / ones » (un nom déjà cité) et « each other » (l'un l'autre).",
+        "examples": [
+          {"en": "The company announced **its** annual results on Monday.", "note": "« the company » est singulier : « its », pas « their »."},
+          {"en": "**Those** who register early will receive a discount.", "note": "« those who » = les personnes qui."},
+          {"en": "The two departments share information with **each other**.", "note": "Action réciproque entre deux groupes."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "Cinq formes, une seule possible",
+        "text": "Les options proposent « he, him, his, himself » pour un même trou. Ne traduis pas : regarde la place. Avant un verbe : sujet. Entre un verbe et un nom : adjectif possessif. Seul à la fin d'un groupe : pronom possessif ou complément."
+      },
+      {
+        "title": "Le réfléchi par réflexe",
+        "text": "« Himself » n'est correct que si sujet et objet sont la même personne ou si l'emphase est voulue. Dans « The director asked me to call ___ », la réponse est « him », car le sujet et l'objet sont deux personnes différentes."
+      },
+      {
+        "title": "« Its », « it's » et « their »",
+        "text": "« Its » est le possessif de « it » ; « it's » veut dire « it is » ou « it has ». Avec « the company » au singulier, le distracteur « their » est faux au TOEIC. Cherche quel nom le pronom reprend et s'il est singulier."
+      }
+    ]
+  },
+  "en": {
+    "title": "Pronouns and possessives",
+    "summary": "Each pronoun has a form depending on its function: subject, object, possessive adjective, possessive pronoun or reflexive. On the TOEIC, the five forms of the same person are often offered together: the position in the sentence decides.",
+    "keyPoints": [
+      "The five forms: \"they\" (subject), \"them\" (object), \"**their**\" + noun, \"**theirs**\" (alone), \"themselves\" (reflexive).",
+      "Use the reflexive when the **subject and the object are the same person**, or for emphasis (\"the manager **herself**\").",
+      "The pronoun agrees with its antecedent: \"the company… **its**\", not \"their\"."
+    ],
+    "rules": [
+      {
+        "title": "Subject, object or possessive: position decides",
+        "text": "Before the verb, you need a subject pronoun (\"he\"). After a verb or a preposition, an object pronoun (\"him\"). Before a noun, a possessive adjective (\"his office\"). Forms such as \"my / his / her / their\" are never used without a noun after them.",
+        "examples": [
+          {"en": "Please send **them** the updated schedule.", "note": "After the verb: object pronoun."},
+          {"en": "**Their** office is on the third floor.", "note": "Before a noun: possessive adjective."}
+        ]
+      },
+      {
+        "title": "\"Their\" + noun versus \"theirs\" alone",
+        "text": "The possessive adjective (\"my, your, his, her, our, their\") always comes before a noun. The possessive pronoun (\"mine, yours, his, hers, ours, theirs\") replaces \"adjective + noun\" and stands on its own.",
+        "examples": [
+          {"en": "Our budget is larger than **theirs**.", "note": "\"theirs\" = \"their budget\": no noun after it."},
+          {"en": "Please leave **your** badge at the reception desk.", "note": "\"your\" is followed by the noun \"badge\"."}
+        ]
+      },
+      {
+        "title": "The reflexive pronoun",
+        "text": "The reflexive (\"himself\", \"themselves\"…) is used when the subject and the object are the same person, or to stress the subject. \"By + reflexive\" means \"alone\".",
+        "examples": [
+          {"en": "Mr. Park taught **himself** to use the new software.", "note": "Subject and object are the same person."},
+          {"en": "The manager **herself** will lead the workshop.", "note": "Emphasis: \"in person\"."},
+          {"en": "She completed the audit by **herself**.", "note": "\"by herself\" = without help."}
+        ]
+      },
+      {
+        "title": "Antecedent and useful pronouns",
+        "text": "A pronoun refers back to the noun before it and agrees with it. On the TOEIC, a singular company, team or department name is picked up by \"it / its\". Also remember \"those who\" (the people who), \"one / ones\" (a noun already mentioned) and \"each other\".",
+        "examples": [
+          {"en": "The company announced **its** annual results on Monday.", "note": "\"the company\" is singular: \"its\", not \"their\"."},
+          {"en": "**Those** who register early will receive a discount.", "note": "\"those who\" = the people who."},
+          {"en": "The two departments share information with **each other**.", "note": "Reciprocal action between two groups."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "Five forms, only one possible",
+        "text": "The options offer \"he, him, his, himself\" for the same blank. Do not translate: look at the position. Before a verb: subject. Between a verb and a noun: possessive adjective. Alone at the end of a group: possessive pronoun or object."
+      },
+      {
+        "title": "The reflexive by reflex",
+        "text": "\"Himself\" is correct only if the subject and the object are the same person or if emphasis is meant. In \"The director asked me to call ___\", the answer is \"him\", because the subject and the object are two different people."
+      },
+      {
+        "title": "\"Its\", \"it's\" and \"their\"",
+        "text": "\"Its\" is the possessive of \"it\"; \"it's\" means \"it is\" or \"it has\". With a singular \"the company\", the distractor \"their\" is wrong on the TOEIC. Find which noun the pronoun refers to and whether it is singular."
+      }
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "tag": "passive-voice",
+  "fr": {
+    "title": "Voix active ou passive",
+    "summary": "À la voix active, le sujet fait l'action ; à la voix passive, il la subit. Au TOEIC, on te demande de choisir entre les deux formes du même verbe : l'indice le plus fiable est ce qui se trouve juste après le trou.",
+    "keyPoints": [
+      "Le sujet **fait** l'action : actif (« The manager **approved** the budget »). Il la **subit** : passif (« The budget **was approved** »).",
+      "Le passif = **be + participe passé**, à tous les temps : « is reviewed », « has been sent », « will be held », « must be signed ».",
+      "**Pas de complément d'objet** après le trou : pense au passif. Un objet après le trou : actif."
+    ],
+    "rules": [
+      {
+        "title": "Qui fait l'action ?",
+        "text": "Pose-toi la question avec le sujet de la phrase. S'il fait l'action, le verbe est actif ; s'il la reçoit, il est passif. L'agent (celui qui agit) peut être ajouté avec « by », mais il est souvent omis quand il est évident ou sans importance.",
+        "examples": [
+          {"en": "The finance team **approved** the new budget.", "note": "L'équipe agit : actif, et « the new budget » est le complément d'objet."},
+          {"en": "The new budget **was approved** by the finance team.", "note": "Le budget subit l'action : passif, avec « by » + agent."}
+        ]
+      },
+      {
+        "title": "Be + participe passé à tous les temps",
+        "text": "Seul « be » change de temps : « is / are » (présent), « was / were » (prétérit), « has / have been » (present perfect), « will be » (futur), « must be » (modal). Pour une action en cours, « is / are being » + participe. Le participe passé, lui, ne change pas.",
+        "examples": [
+          {"en": "The invoices **are being processed** this week.", "note": "Action en cours : « are being » + participe passé."},
+          {"en": "The annual meeting **will be held** in Osaka.", "note": "Futur : « will be » + participe passé."},
+          {"en": "The contract **must be signed** before Friday.", "note": "Modal : « must be » + participe passé."}
+        ]
+      },
+      {
+        "title": "L'indice du complément d'objet",
+        "text": "Un verbe transitif actif est suivi d'un complément d'objet. Si, après le trou, tu trouves un nom ou un pronom qui reçoit l'action, choisis l'actif. Si tu trouves seulement « by », un lieu, un moment ou rien, choisis le passif.",
+        "examples": [
+          {"en": "The HR department **announced** a new vacation policy.", "note": "« a new vacation policy » est l'objet : actif."},
+          {"en": "A new vacation policy **was announced** on Monday.", "note": "Aucun objet après le verbe, seulement un moment : passif."}
+        ]
+      },
+      {
+        "title": "Les verbes sans passif",
+        "text": "Les verbes intransitifs, qui n'ont pas de complément d'objet, n'ont pas de passif : « happen », « occur », « arrive », « remain », « consist of ». On ne dit jamais « be happened » ni « be arrived ».",
+        "examples": [
+          {"en": "The delay **occurred** because of a storm.", "note": "« occur » est intransitif : jamais « was occurred »."},
+          {"en": "The shipment **arrived** at the warehouse this morning.", "note": "« arrive » est intransitif : actif uniquement."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "Le participe seul ou le mauvais « be »",
+        "text": "Les options mêlent « approves », « approving », « approved » et « was approved ». Quand le sujet est une chose et qu'aucun objet ne suit, il faut un vrai verbe passif complet : « be » + participe. Un participe seul ne fait pas un verbe principal."
+      },
+      {
+        "title": "Un passif qui laisse un objet orphelin",
+        "text": "Si un complément d'objet suit directement le trou (« ___ ten new analysts »), le passif est faux, même s'il est correct à l'oreille. Seul l'actif « has hired » convient. Vérifie ce qui suit avant de choisir."
+      },
+      {
+        "title": "Le passif d'un verbe intransitif",
+        "text": "Une option comme « will be occurred » ou « was arrived » est un distracteur : ces verbes n'ont pas de passif. Si le verbe de la phrase est « happen », « occur », « arrive » ou « remain », choisis l'actif."
+      }
+    ]
+  },
+  "en": {
+    "title": "Active or passive voice",
+    "summary": "In the active voice the subject does the action; in the passive voice it receives it. On the TOEIC, you must choose between the two forms of the same verb: the most reliable clue is what comes right after the blank.",
+    "keyPoints": [
+      "The subject **does** the action: active (\"The manager **approved** the budget\"). It **receives** it: passive (\"The budget **was approved**\").",
+      "The passive = **be + past participle**, in every tense: \"is reviewed\", \"has been sent\", \"will be held\", \"must be signed\".",
+      "**No object** after the blank: think passive. An object after the blank: active."
+    ],
+    "rules": [
+      {
+        "title": "Who does the action?",
+        "text": "Ask the question about the subject of the sentence. If it does the action, the verb is active; if it receives the action, it is passive. The agent (the person acting) can be added with \"by\", but it is often left out when it is obvious or unimportant.",
+        "examples": [
+          {"en": "The finance team **approved** the new budget.", "note": "The team acts: active, and \"the new budget\" is the object."},
+          {"en": "The new budget **was approved** by the finance team.", "note": "The budget receives the action: passive, with \"by\" + agent."}
+        ]
+      },
+      {
+        "title": "Be + past participle in every tense",
+        "text": "Only \"be\" changes tense: \"is / are\" (present), \"was / were\" (past), \"has / have been\" (present perfect), \"will be\" (future), \"must be\" (modal). For an action in progress, use \"is / are being\" + participle. The past participle itself never changes.",
+        "examples": [
+          {"en": "The invoices **are being processed** this week.", "note": "Action in progress: \"are being\" + past participle."},
+          {"en": "The annual meeting **will be held** in Osaka.", "note": "Future: \"will be\" + past participle."},
+          {"en": "The contract **must be signed** before Friday.", "note": "Modal: \"must be\" + past participle."}
+        ]
+      },
+      {
+        "title": "The object clue",
+        "text": "An active transitive verb is followed by an object. If you find a noun or pronoun after the blank that receives the action, choose the active. If you find only \"by\", a place, a time or nothing, choose the passive.",
+        "examples": [
+          {"en": "The HR department **announced** a new vacation policy.", "note": "\"a new vacation policy\" is the object: active."},
+          {"en": "A new vacation policy **was announced** on Monday.", "note": "No object after the verb, only a time: passive."}
+        ]
+      },
+      {
+        "title": "Verbs with no passive",
+        "text": "Intransitive verbs, which take no object, have no passive: \"happen\", \"occur\", \"arrive\", \"remain\", \"consist of\". You never say \"be happened\" or \"be arrived\".",
+        "examples": [
+          {"en": "The delay **occurred** because of a storm.", "note": "\"occur\" is intransitive: never \"was occurred\"."},
+          {"en": "The shipment **arrived** at the warehouse this morning.", "note": "\"arrive\" is intransitive: active only."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "The bare participle or the wrong \"be\"",
+        "text": "The options mix \"approves\", \"approving\", \"approved\" and \"was approved\". When the subject is a thing and no object follows, you need a complete passive verb: \"be\" + participle. A participle alone is not a main verb."
+      },
+      {
+        "title": "A passive that leaves an orphan object",
+        "text": "If an object directly follows the blank (\"___ ten new analysts\"), the passive is wrong, even if it sounds right. Only the active \"has hired\" fits. Check what follows before choosing."
+      },
+      {
+        "title": "The passive of an intransitive verb",
+        "text": "An option such as \"will be occurred\" or \"was arrived\" is a distractor: these verbs have no passive. If the verb in the sentence is \"happen\", \"occur\", \"arrive\" or \"remain\", choose the active."
+      }
+    ]
+  }
+}

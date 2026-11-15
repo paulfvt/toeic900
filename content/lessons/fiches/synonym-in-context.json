@@ -1,0 +1,117 @@
+{
+  "tag": "synonym-in-context",
+  "fr": {
+    "title": "Synonyme en contexte",
+    "summary": "On te demande le sens d'un mot **dans sa phrase**, pas son sens habituel. Ces mots ont plusieurs sens, et les distracteurs sont les autres sens du mot. La méthode : relire la phrase entière et remplacer le mot par chaque option.",
+    "keyPoints": [
+      "Forme : The word \"X\" in paragraph 2, line 3, is closest in meaning to… Ne réponds jamais sans relire la phrase.",
+      "Le mot a plusieurs sens (« cover », « address », « issue », « secure »…). Seul le sens **dans la phrase** compte.",
+      "Remplace le mot par chaque option : garde celle qui ne change pas le sens de la phrase."
+    ],
+    "rules": [
+      {
+        "title": "Reconnaître la question",
+        "text": "Elle cite un mot entre guillemets avec sa place dans le texte (paragraphe, ligne). Les mots testés sont courants mais polysémiques : « cover », « address », « issue », « secure », « run », « raise », « term », « sound », « due », « outstanding », « critical ». Un mot rare ou technique est rarement visé.",
+        "examples": [
+          {"en": "The word \"issue\" in paragraph 2, line 3, is closest in meaning to", "note": "Forme typique : le mot, sa position, puis quatre synonymes possibles."},
+          {"en": "The word \"outstanding\" in the first paragraph is closest in meaning to", "note": "« outstanding » : « excellent » ou « impayé » ? Seule la phrase le dit."}
+        ]
+      },
+      {
+        "title": "Relire la phrase entière",
+        "text": "Va au mot, mais lis toute la phrase, et parfois celle d'avant. Demande-toi : que fait ce mot ici ? Trouve d'abord le sens toi-même, avec tes propres mots, avant de regarder les options. Tu évites ainsi d'être attiré par un distracteur.",
+        "examples": [
+          {"en": "The firm plans to **address** the delays by hiring two more drivers.", "note": "Ici « address » = « deal with », pas « speak to » ni « a street address »."},
+          {"en": "Payments **due** next week will be processed on Monday.", "note": "Ici « due » = « expected to be paid », pas « because of »."}
+        ]
+      },
+      {
+        "title": "Tester chaque option par remplacement",
+        "text": "Remplace le mot par chacune des quatre options et relis la phrase. Si elle garde le même sens et reste naturelle, c'est la bonne. Si elle devient bizarre ou change de sens, barre l'option, même si elle est un synonyme correct du mot dans une autre phrase.",
+        "examples": [
+          {"en": "Our policy **covers** damage caused by storms. → \"includes\" / \"hides\" / \"travels\" / \"reports\"", "note": "« includes » garde le sens de la phrase ; les trois autres sont d'autres sens de « cover »."},
+          {"en": "The agency will **run** a new advertisement in May. → \"operate\" / \"publish\" / \"jog\" / \"manage\"", "note": "Dans cette phrase, « run » = « publish » : une annonce paraît."}
+        ]
+      },
+      {
+        "title": "Se méfier du sens le plus courant",
+        "text": "Le premier sens qui te vient à l'esprit est presque toujours dans les options, c'est le piège. Si l'option qui correspond au sens habituel te saute aux yeux, méfie-toi et teste-la avec la phrase. Le sens utilisé dans le texte est souvent moins courant, parfois plus formel.",
+        "examples": [
+          {"en": "The company will **secure** a loan to expand. → \"obtain\" / \"lock\" / \"protect\" / \"fasten\"", "note": "Le sens courant « protect » est un piège ; ici « secure » = « obtain »."},
+          {"en": "Staff should **raise** concerns with their supervisor. → \"lift\" / \"mention\" / \"increase\" / \"grow\"", "note": "Dans cette phrase, « raise » = « mention », pas « lift »."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "Le synonyme du sens courant",
+        "text": "Les concepteurs placent parmi les options le synonyme du sens que tout le monde connaît. Il est correct pour le mot hors contexte, mais faux dans la phrase. Une option vraie « en général » n'est pas forcément vraie ici."
+      },
+      {
+        "title": "Répondre sans relire la phrase",
+        "text": "Si tu choisis d'après le mot seul, tu perds des points : le mot est choisi parce que son sens change selon la phrase. Cinq secondes pour relire la phrase évitent la plupart des erreurs."
+      },
+      {
+        "title": "Une option qui a l'air plus savante",
+        "text": "Un mot plus rare ou plus formel n'est pas forcément la bonne réponse. Choisis l'option qui s'intègre à la phrase, même si elle te paraît simple. Le test par remplacement tranche mieux que l'impression."
+      }
+    ]
+  },
+  "en": {
+    "title": "Synonym in context",
+    "summary": "You are asked the meaning of a word **in its sentence**, not its usual meaning. These words have several meanings, and the wrong options are the other meanings of the word. The method: reread the whole sentence and replace the word with each option.",
+    "keyPoints": [
+      "Form: The word \"X\" in paragraph 2, line 3, is closest in meaning to… Never answer without rereading the sentence.",
+      "The word has several meanings (\"cover\", \"address\", \"issue\", \"secure\"…). Only the meaning **in the sentence** counts.",
+      "Replace the word with each option: keep the one that does not change the meaning of the sentence."
+    ],
+    "rules": [
+      {
+        "title": "Recognizing the question",
+        "text": "It quotes a word with its place in the text (paragraph, line). The words tested are common but have several meanings: \"cover\", \"address\", \"issue\", \"secure\", \"run\", \"raise\", \"term\", \"sound\", \"due\", \"outstanding\", \"critical\". A rare or technical word is rarely tested.",
+        "examples": [
+          {"en": "The word \"issue\" in paragraph 2, line 3, is closest in meaning to", "note": "Typical form: the word, its position, then four possible synonyms."},
+          {"en": "The word \"outstanding\" in the first paragraph is closest in meaning to", "note": "\"outstanding\": \"excellent\" or \"unpaid\"? Only the sentence tells you."}
+        ]
+      },
+      {
+        "title": "Reread the whole sentence",
+        "text": "Go to the word, but read the whole sentence, and sometimes the one before. Ask yourself: what does this word do here? First find the meaning yourself, in your own words, before you look at the options. This way you are not pulled toward a wrong option.",
+        "examples": [
+          {"en": "The firm plans to **address** the delays by hiring two more drivers.", "note": "Here \"address\" = \"deal with\", not \"speak to\" or \"a street address\"."},
+          {"en": "Payments **due** next week will be processed on Monday.", "note": "Here \"due\" = \"expected to be paid\", not \"because of\"."}
+        ]
+      },
+      {
+        "title": "Test each option by replacing the word",
+        "text": "Replace the word with each of the four options and reread the sentence. If it keeps the same meaning and sounds natural, it is the right one. If it sounds odd or changes the meaning, cross out the option, even if it is a correct synonym of the word in another sentence.",
+        "examples": [
+          {"en": "Our policy **covers** damage caused by storms. → \"includes\" / \"hides\" / \"travels\" / \"reports\"", "note": "\"includes\" keeps the meaning of the sentence; the other three are other meanings of \"cover\"."},
+          {"en": "The agency will **run** a new advertisement in May. → \"operate\" / \"publish\" / \"jog\" / \"manage\"", "note": "In this sentence, \"run\" = \"publish\": an ad appears."}
+        ]
+      },
+      {
+        "title": "Beware of the most common meaning",
+        "text": "The first meaning that comes to your mind is almost always among the options: it is the trap. If the option matching the usual meaning jumps out at you, be careful and test it in the sentence. The meaning used in the text is often less common, sometimes more formal.",
+        "examples": [
+          {"en": "The company will **secure** a loan to expand. → \"obtain\" / \"lock\" / \"protect\" / \"fasten\"", "note": "The common meaning \"protect\" is a trap; here \"secure\" = \"obtain\"."},
+          {"en": "Staff should **raise** concerns with their supervisor. → \"lift\" / \"mention\" / \"increase\" / \"grow\"", "note": "In this sentence, \"raise\" = \"mention\", not \"lift\"."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "The synonym of the common meaning",
+        "text": "The test writers put among the options the synonym of the meaning everybody knows. It is correct for the word alone, but wrong in the sentence. An option that is true \"in general\" is not necessarily true here."
+      },
+      {
+        "title": "Answering without rereading the sentence",
+        "text": "If you choose from the word alone, you lose points: the word is chosen because its meaning changes with the sentence. Five seconds to reread the sentence avoid most mistakes."
+      },
+      {
+        "title": "An option that looks more advanced",
+        "text": "A rarer or more formal word is not necessarily the right answer. Choose the option that fits the sentence, even if it looks simple. The replacement test decides better than your impression."
+      }
+    ]
+  }
+}

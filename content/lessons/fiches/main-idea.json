@@ -1,0 +1,115 @@
+{
+  "tag": "main-idea",
+  "fr": {
+    "title": "Idée principale et but",
+    "summary": "Ces questions demandent pourquoi le document existe, pas ce qu'il contient en détail. La réponse se trouve presque toujours dans le titre, l'objet et les deux premières phrases. Elle est générale et reformulée.",
+    "keyPoints": [
+      "Reconnais la question : « What is the purpose of… ? », « Why did X write… ? », « What is the article mainly about? »",
+      "Cherche d'abord le titre, l'objet de l'e-mail et les deux premières phrases, avant de lire le reste en détail.",
+      "La bonne réponse est un verbe d'intention général (« announce », « request », « confirm »…), pas un détail du texte."
+    ],
+    "rules": [
+      {
+        "title": "Reconnais la question de but",
+        "text": "Les formulations typiques : « What is the purpose of this e-mail? », « Why was the notice issued? », « Why did Mr. Lee write to Ms. Park? », « What is the article mainly about? ». Dans tous les cas, on te demande l'intention globale. Pas besoin de comprendre chaque phrase pour y répondre.",
+        "examples": [
+          {"en": "What is the **purpose** of the e-mail?", "note": "Question de but : cherche ce que l'auteur veut obtenir ou faire savoir."},
+          {"en": "Why was the notice **issued**?", "note": "Même type : la raison d'être de l'avis, pas un détail précis."}
+        ]
+      },
+      {
+        "title": "Va chercher aux bons endroits",
+        "text": "Regarde d'abord le titre, l'objet (« Subject: ») et les deux premières phrases. Les verbes d'annonce disent souvent le but en toutes lettres : « I am writing to… », « We are pleased to announce… », « This is a reminder that… ». Une fois repéré, tu as presque la réponse.",
+        "examples": [
+          {"en": "Subject: Schedule change / **I am writing to inform** you that Friday's training has moved to Monday.", "note": "Le verbe d'annonce donne le but : informer d'un changement de date."},
+          {"en": "**This is a reminder that** all expense reports are due on the 30th.", "note": "But : rappeler une échéance. Les détails qui suivent ne changent pas ce but."}
+        ]
+      },
+      {
+        "title": "La bonne réponse est générale et reformulée",
+        "text": "Les options utilisent des verbes d'intention : « announce », « request », « confirm », « remind », « apologize », « invite ». Associe le verbe d'annonce du texte à l'un d'eux. « We are pleased to announce… » devient « to announce a new service ». La réponse paraphrase, elle ne recopie pas.",
+        "examples": [
+          {"en": "We regret that your order was delayed. **We apologize** for the inconvenience. → Purpose?", "note": "Réponse attendue : « to apologize for a late delivery »."},
+          {"en": "**Please send** your updated resume by Friday. → Purpose?", "note": "Réponse attendue : « to request a document »."}
+        ]
+      },
+      {
+        "title": "Élimine détail vrai et sujet voisin",
+        "text": "Deux distracteurs reviennent souvent. Le premier est un détail vrai du texte mais secondaire : il ne résume pas le document. Le second est un sujet voisin, plausible, que le texte ne traite pas. Demande-toi : cette option couvre-t-elle tout le texte, ou seulement une phrase ?",
+        "examples": [
+          {"en": "A memo announces a new recycling program and mentions the date of a bin delivery. → Mainly about?", "note": "La date de livraison est un détail vrai, pas le sujet : le sujet est le nouveau programme."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "Choisir ce qui est écrit en dernier",
+        "text": "La dernière phrase d'un e-mail est souvent une formule de politesse ou une consigne secondaire. Elle ne donne pas le but. Retourne aux premières lignes avant de te décider."
+      },
+      {
+        "title": "Un détail vrai qui n'est pas le but",
+        "text": "Une option peut être exacte, mot pour mot, d'après le texte, et pourtant fausse pour cette question. On ne te demande pas ce qui est vrai, mais ce que l'ensemble du document cherche à faire."
+      },
+      {
+        "title": "Se laisser piéger par un mot recopié",
+        "text": "Une option qui reprend plusieurs mots du texte est tentante mais méfie-toi : la bonne réponse reformule souvent avec d'autres mots. Compare le sens général, pas le vocabulaire."
+      }
+    ]
+  },
+  "en": {
+    "title": "Main idea and purpose",
+    "summary": "These questions ask why the document exists, not what it says in detail. The answer is almost always in the title, the subject line and the first two sentences. It is general and reworded.",
+    "keyPoints": [
+      "Recognize the question: \"What is the purpose of... ?\", \"Why did X write... ?\", \"What is the article mainly about?\"",
+      "Look first at the title, the e-mail subject and the first two sentences, before reading the rest in detail.",
+      "The right answer is a general verb of intention (\"announce\", \"request\", \"confirm\"...), not a detail from the text."
+    ],
+    "rules": [
+      {
+        "title": "Recognize the purpose question",
+        "text": "Typical forms: \"What is the purpose of this e-mail?\", \"Why was the notice issued?\", \"Why did Mr. Lee write to Ms. Park?\", \"What is the article mainly about?\". In every case, you are asked for the overall intention. You do not need to understand every sentence to answer.",
+        "examples": [
+          {"en": "What is the **purpose** of the e-mail?", "note": "Purpose question: look for what the writer wants to get or to make known."},
+          {"en": "Why was the notice **issued**?", "note": "Same type: the reason for the notice, not a precise detail."}
+        ]
+      },
+      {
+        "title": "Look in the right places",
+        "text": "Look first at the title, the subject line (\"Subject:\") and the first two sentences. Announcement verbs often state the purpose openly: \"I am writing to...\", \"We are pleased to announce...\", \"This is a reminder that...\". Once you spot one, you almost have the answer.",
+        "examples": [
+          {"en": "Subject: Schedule change / **I am writing to inform** you that Friday's training has moved to Monday.", "note": "The announcement verb gives the purpose: to inform about a date change."},
+          {"en": "**This is a reminder that** all expense reports are due on the 30th.", "note": "Purpose: to remind about a deadline. The details that follow do not change it."}
+        ]
+      },
+      {
+        "title": "The right answer is general and reworded",
+        "text": "Options use verbs of intention: \"announce\", \"request\", \"confirm\", \"remind\", \"apologize\", \"invite\". Match the announcement verb in the text to one of them. \"We are pleased to announce...\" becomes \"to announce a new service\". The answer paraphrases; it does not copy.",
+        "examples": [
+          {"en": "We regret that your order was delayed. **We apologize** for the inconvenience. → Purpose?", "note": "Expected answer: \"to apologize for a late delivery\"."},
+          {"en": "**Please send** your updated resume by Friday. → Purpose?", "note": "Expected answer: \"to request a document\"."}
+        ]
+      },
+      {
+        "title": "Remove the true detail and the nearby topic",
+        "text": "Two distractors come back often. The first is a true detail from the text that is only secondary: it does not sum up the document. The second is a nearby topic, plausible but not covered by the text. Ask yourself: does this option cover the whole text, or only one sentence?",
+        "examples": [
+          {"en": "A memo announces a new recycling program and mentions the date of a bin delivery. → Mainly about?", "note": "The delivery date is a true detail, not the topic: the topic is the new program."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "Choosing what comes last",
+        "text": "The last sentence of an e-mail is often a polite phrase or a minor instruction. It does not give the purpose. Go back to the first lines before you decide."
+      },
+      {
+        "title": "A true detail that is not the purpose",
+        "text": "An option can be exactly true according to the text and still be wrong for this question. You are not asked what is true, but what the whole document is trying to do."
+      },
+      {
+        "title": "Falling for a copied word",
+        "text": "An option that reuses several words from the text is tempting, but be careful: the right answer often rewords with other words. Compare the general meaning, not the vocabulary."
+      }
+    ]
+  }
+}

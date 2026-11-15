@@ -1,0 +1,117 @@
+{
+  "tag": "not-true",
+  "fr": {
+    "title": "Questions NOT",
+    "summary": "Une question « NOT » demande l'option fausse ou absente : trois options sont dans le texte, une seule n'y est pas. Au lieu de chercher une réponse, tu dois vérifier quatre options. Ces questions prennent du temps : sache quand les garder pour la fin.",
+    "keyPoints": [
+      "Repère le mot **NOT** (ou **EXCEPT**) dans la question avant de lire les options : il inverse tout.",
+      "Trois options sont **vraies** et se trouvent dans le texte, souvent reformulées. Coche-les une à une : la réponse est celle qui reste.",
+      "Deux cas possibles : l'option est **absente** du texte, ou elle le **contredit**."
+    ],
+    "rules": [
+      {
+        "title": "Reconnaître la question",
+        "text": "Elle se lit à ses mots en majuscules ou à sa négation : « NOT mentioned », « NOT true », « NOT indicated », « EXCEPT ». Souligne mentalement le mot **NOT** : une fois les options lues, on oublie vite que l'on cherche l'intrus.",
+        "examples": [
+          {"en": "What is **NOT** mentioned as a benefit of the new gym?", "note": "Trois avantages sont cités dans le texte ; un seul ne l'est pas."},
+          {"en": "All of the following are included in the price **EXCEPT**", "note": "« EXCEPT » fait le même travail que « NOT » : cherche l'intrus."}
+        ]
+      },
+      {
+        "title": "Cocher trois options, garder la quatrième",
+        "text": "Prends les options une par une et cherche chacune dans le document. Quand tu retrouves une option, barre-la : elle est vraie, donc ce n'est pas la réponse. Les options vraies sont reformulées : cherche l'idée, pas les mots exacts. Souvent elles se trouvent dans une liste ou dans plusieurs paragraphes.",
+        "examples": [
+          {"en": "Fee includes: lunch, parking, a printed guide. / Option: \"A free workshop\"", "note": "Déjeuner, parking et guide sont cochés. L'atelier n'est nulle part : c'est la réponse."},
+          {"en": "Text: \"Staff may now work from home on Fridays.\" / Option: \"Remote work is allowed.\"", "note": "L'option reformule le texte : elle est vraie, donc on la barre."}
+        ]
+      },
+      {
+        "title": "Deux sortes de mauvaise option",
+        "text": "La réponse est soit **absente** du texte (le document n'en parle pas), soit en **contradiction** avec lui (le texte dit le contraire : autre date, autre chiffre, autre lieu). Pour qu'une option soit barrée, il faut la trouver dans le texte ET qu'elle y soit exacte : vérifie les chiffres et les dates.",
+        "examples": [
+          {"en": "Text: \"Registration closes on May 3.\" / Option: \"Registration is open until May 10.\"", "note": "L'option parle bien de l'inscription mais contredit la date : elle est fausse, donc c'est la réponse."},
+          {"en": "Text: \"The store sells shoes and bags.\" / Option: \"It sells watches.\"", "note": "Le texte ne parle pas du tout de montres : option absente, donc c'est la réponse."}
+        ]
+      },
+      {
+        "title": "Gérer son temps",
+        "text": "Une question NOT t'oblige à relire une grande partie du document. Si le temps presse, traite d'abord les questions « detail » et « main idea », puis reviens à la question NOT en dernier. Si tu dois deviner, barre d'abord les options que tu as déjà vues dans le texte.",
+        "examples": [
+          {"en": "Question 3 is a NOT question. Questions 4 and 5 ask for one detail each.", "note": "Fais d'abord les questions 4 et 5, puis reviens à la question 3 s'il te reste du temps."},
+          {"en": "Two options seen in the text, two not found yet. / Reread only for those two.", "note": "Inutile de tout relire : concentre-toi sur les options que tu n'as pas encore vérifiées."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "Choisir une option vraie par réflexe",
+        "text": "Un candidat pressé retrouve une option dans le texte et la coche comme bonne réponse, par habitude des autres questions. Mais ici, une option vraie est une mauvaise réponse. Relis le mot NOT avant de valider."
+      },
+      {
+        "title": "L'option qui reprend les mots du texte",
+        "text": "Une option peut utiliser les mêmes mots que le document mais changer un détail : le jour, le prix, la personne. Elle ressemble au texte, mais elle le contredit. Compare bien chaque détail au passage."
+      },
+      {
+        "title": "Les trois indices éparpillés",
+        "text": "Les trois options vraies sont rarement au même endroit : une dans l'e-mail, une dans le tableau, une dans la dernière phrase. Ne t'arrête pas au premier paragraphe : tant que trois options ne sont pas cochées, continue de lire."
+      }
+    ]
+  },
+  "en": {
+    "title": "NOT questions",
+    "summary": "A \"NOT\" question asks for the option that is false or missing: three options are in the text and only one is not. Instead of looking for one answer, you must check four options. These questions take time: know when to leave them for last.",
+    "keyPoints": [
+      "Spot the word **NOT** (or **EXCEPT**) in the question before you read the options: it reverses everything.",
+      "Three options are **true** and are in the text, often reworded. Check them off one by one: the answer is the one left.",
+      "There are two cases: the option is **missing** from the text, or it **contradicts** it."
+    ],
+    "rules": [
+      {
+        "title": "Recognizing the question",
+        "text": "You see it by its capital letters or its negative: \"NOT mentioned\", \"NOT true\", \"NOT indicated\", \"EXCEPT\". Mentally underline the word **NOT**: after reading the options, it is easy to forget that you are looking for the odd one out.",
+        "examples": [
+          {"en": "What is **NOT** mentioned as a benefit of the new gym?", "note": "Three benefits are in the text; only one is not."},
+          {"en": "All of the following are included in the price **EXCEPT**", "note": "\"EXCEPT\" does the same job as \"NOT\": look for the odd one out."}
+        ]
+      },
+      {
+        "title": "Check off three options, keep the fourth",
+        "text": "Take the options one at a time and look for each in the document. When you find an option, cross it out: it is true, so it is not the answer. True options are reworded: look for the idea, not the exact words. Often they are in a list or spread over several paragraphs.",
+        "examples": [
+          {"en": "Fee includes: lunch, parking, a printed guide. / Option: \"A free workshop\"", "note": "Lunch, parking and guide are checked. The workshop is nowhere: it is the answer."},
+          {"en": "Text: \"Staff may now work from home on Fridays.\" / Option: \"Remote work is allowed.\"", "note": "The option rewords the text: it is true, so you cross it out."}
+        ]
+      },
+      {
+        "title": "Two kinds of wrong option",
+        "text": "The answer is either **missing** from the text (the document does not talk about it) or in **contradiction** with it (the text says the opposite: another date, number or place). To cross out an option, you must find it in the text AND it must be correct there: check numbers and dates.",
+        "examples": [
+          {"en": "Text: \"Registration closes on May 3.\" / Option: \"Registration is open until May 10.\"", "note": "The option does talk about registration but contradicts the date: it is false, so it is the answer."},
+          {"en": "Text: \"The store sells shoes and bags.\" / Option: \"It sells watches.\"", "note": "The text never mentions watches: the option is missing, so it is the answer."}
+        ]
+      },
+      {
+        "title": "Managing your time",
+        "text": "A NOT question makes you reread a large part of the document. If time is short, do the \"detail\" and \"main idea\" questions first, then come back to the NOT question last. If you must guess, cross out the options you have already seen in the text.",
+        "examples": [
+          {"en": "Question 3 is a NOT question. Questions 4 and 5 ask for one detail each.", "note": "Do questions 4 and 5 first, then return to question 3 if you have time left."},
+          {"en": "Two options seen in the text, two not found yet. / Reread only for those two.", "note": "No need to reread everything: focus on the options you have not checked yet."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "Picking a true option by reflex",
+        "text": "A rushed candidate finds an option in the text and picks it as the answer, out of habit from other questions. But here, a true option is a wrong answer. Reread the word NOT before you confirm."
+      },
+      {
+        "title": "The option that uses the text's words",
+        "text": "An option can use the same words as the document but change one detail: the day, the price, the person. It looks like the text, but it contradicts it. Compare each detail with the passage."
+      },
+      {
+        "title": "Three clues spread out",
+        "text": "The three true options are rarely in the same place: one in the e-mail, one in the schedule, one in the last sentence. Do not stop at the first paragraph: until three options are checked off, keep reading."
+      }
+    ]
+  }
+}

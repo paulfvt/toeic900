@@ -1,0 +1,119 @@
+{
+  "tag": "comparatives-superlatives",
+  "fr": {
+    "title": "Comparatifs et superlatifs",
+    "summary": "Le comparatif met deux éléments face à face (« faster than »), le superlatif en isole un dans un groupe (« the fastest »). Au TOEIC, l'indice est dans la phrase : « than », « as … as », « the », « in the », « of all », « ever ».",
+    "keyPoints": [
+      "**-er / more … than** pour comparer deux éléments ; **the -est / the most** pour un élément dans un groupe.",
+      "Pour renforcer un comparatif : **much, far, even, a lot, considerably**. Jamais « very ».",
+      "Irréguliers à connaître : good → better → best, bad → worse → worst, far → further, little → less → least."
+    ],
+    "rules": [
+      {
+        "title": "Comparatif de supériorité et d'égalité",
+        "text": "Adjectif court (une syllabe, ou deux en -y) : **-er** (« faster », « busier »). Adjectif long : **more** devant l'adjectif (« more expensive »). Le second terme est introduit par **than**. Pour l'égalité, on encadre l'adjectif : **as … as**.",
+        "examples": [
+          {"en": "Our new printer is **faster than** the old one.", "note": "Adjectif court + -er, suivi de « than »."},
+          {"en": "The second hotel is **as** convenient **as** the first.", "note": "Égalité : « as » + adjectif + « as »."}
+        ]
+      },
+      {
+        "title": "Les formes irrégulières",
+        "text": "« good / well » donne « better / best » ; « bad / badly » donne « worse / worst » ; « far » donne « further / furthest » (ou « farther / farthest » pour la distance) ; « little » donne « less / least » ; « much / many » donne « more / most ». « further » signifie aussi « supplémentaire ».",
+        "examples": [
+          {"en": "Please contact us if you need **further** information.", "note": "« further » = supplémentaire."},
+          {"en": "Sales were **worse** than expected last quarter.", "note": "Comparatif irrégulier de « bad », suivi de « than »."}
+        ]
+      },
+      {
+        "title": "Renforcer un comparatif",
+        "text": "On renforce un comparatif avec **much, far, even, still, a lot** ou un adverbe comme **considerably, significantly, slightly**. On n'emploie jamais « very » devant un comparatif. « Very » s'utilise devant l'adjectif simple (« very fast »).",
+        "examples": [
+          {"en": "The new system is **far** more efficient than the old one.", "note": "« far » renforce « more efficient »."},
+          {"en": "Deliveries are **slightly** earlier than usual this month.", "note": "L'adverbe de degré précède le comparatif."}
+        ]
+      },
+      {
+        "title": "Superlatif et « the more … the more »",
+        "text": "Le superlatif prend **the** et s'accompagne d'un groupe de référence : « **in** the department », « **of** all », ou d'un « ever » avec le present perfect. La structure **the + comparatif …, the + comparatif** exprime « plus … plus … ».",
+        "examples": [
+          {"en": "She is **the most** experienced engineer in the department.", "note": "« the most » + groupe de référence introduit par « in »."},
+          {"en": "It was **the best** quarter the company has ever had.", "note": "« ever » annonce le superlatif."},
+          {"en": "**The sooner** we send the invoice, **the sooner** we will be paid.", "note": "Deux comparatifs précédés de « the »."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "« very » devant un comparatif",
+        "text": "Les options contiennent souvent « very », « much », « far » et « so ». Devant « more efficient » ou « cheaper », « very » est faux ; choisis « much », « far » ou « even »."
+      },
+      {
+        "title": "Double marque et mauvais mot de liaison",
+        "text": "« more faster » est faux : un seul marqueur de comparatif. Le mot qui suit un comparatif est « than » (jamais « that » ni « then »), et « as » encadre un adjectif de base (« as fast as », pas « as faster as »)."
+      },
+      {
+        "title": "Comparatif ou superlatif ? Lis l'indice",
+        "text": "« than » appelle un comparatif. « in the », « of all » ou « ever » appellent un superlatif avec « the ». « the » sans comparatif possible, comme dans « the sooner … the sooner », annonce la structure parallèle."
+      }
+    ]
+  },
+  "en": {
+    "title": "Comparatives and superlatives",
+    "summary": "The comparative sets two things side by side (\"faster than\"); the superlative picks one out of a group (\"the fastest\"). On the TOEIC, the clue is in the sentence: \"than\", \"as … as\", \"the\", \"in the\", \"of all\", \"ever\".",
+    "keyPoints": [
+      "**-er / more … than** to compare two things; **the -est / the most** for one thing in a group.",
+      "To strengthen a comparative: **much, far, even, a lot, considerably**. Never \"very\".",
+      "Irregular forms to know: good → better → best, bad → worse → worst, far → further, little → less → least."
+    ],
+    "rules": [
+      {
+        "title": "Comparative of superiority and equality",
+        "text": "Short adjective (one syllable, or two ending in -y): **-er** (\"faster\", \"busier\"). Long adjective: **more** before the adjective (\"more expensive\"). The second term is introduced by **than**. For equality, the adjective sits between two words: **as … as**.",
+        "examples": [
+          {"en": "Our new printer is **faster than** the old one.", "note": "Short adjective + -er, followed by \"than\"."},
+          {"en": "The second hotel is **as** convenient **as** the first.", "note": "Equality: \"as\" + adjective + \"as\"."}
+        ]
+      },
+      {
+        "title": "Irregular forms",
+        "text": "\"good / well\" gives \"better / best\"; \"bad / badly\" gives \"worse / worst\"; \"far\" gives \"further / furthest\" (or \"farther / farthest\" for distance); \"little\" gives \"less / least\"; \"much / many\" gives \"more / most\". \"further\" also means \"additional\".",
+        "examples": [
+          {"en": "Please contact us if you need **further** information.", "note": "\"further\" = additional."},
+          {"en": "Sales were **worse** than expected last quarter.", "note": "Irregular comparative of \"bad\", followed by \"than\"."}
+        ]
+      },
+      {
+        "title": "Strengthening a comparative",
+        "text": "You strengthen a comparative with **much, far, even, still, a lot** or an adverb such as **considerably, significantly, slightly**. You never use \"very\" before a comparative. \"Very\" goes before the plain adjective (\"very fast\").",
+        "examples": [
+          {"en": "The new system is **far** more efficient than the old one.", "note": "\"far\" strengthens \"more efficient\"."},
+          {"en": "Deliveries are **slightly** earlier than usual this month.", "note": "The adverb of degree comes before the comparative."}
+        ]
+      },
+      {
+        "title": "Superlative and \"the more … the more\"",
+        "text": "The superlative takes **the** and comes with a reference group: \"**in** the department\", \"**of** all\", or \"ever\" with the present perfect. The structure **the + comparative …, the + comparative** means \"the more … the more …\".",
+        "examples": [
+          {"en": "She is **the most** experienced engineer in the department.", "note": "\"the most\" + a reference group introduced by \"in\"."},
+          {"en": "It was **the best** quarter the company has ever had.", "note": "\"ever\" announces the superlative."},
+          {"en": "**The sooner** we send the invoice, **the sooner** we will be paid.", "note": "Two comparatives, each preceded by \"the\"."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "\"very\" before a comparative",
+        "text": "The options often contain \"very\", \"much\", \"far\" and \"so\". Before \"more efficient\" or \"cheaper\", \"very\" is wrong; choose \"much\", \"far\" or \"even\"."
+      },
+      {
+        "title": "Double marking and the wrong linking word",
+        "text": "\"more faster\" is wrong: only one comparative marker. The word after a comparative is \"than\" (never \"that\" or \"then\"), and \"as\" surrounds a plain adjective (\"as fast as\", not \"as faster as\")."
+      },
+      {
+        "title": "Comparative or superlative? Read the clue",
+        "text": "\"than\" calls for a comparative. \"in the\", \"of all\" or \"ever\" call for a superlative with \"the\". Two \"the\" followed by comparatives, as in \"the sooner … the sooner\", signal the parallel structure."
+      }
+    ]
+  }
+}

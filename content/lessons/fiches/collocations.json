@@ -1,0 +1,133 @@
+{
+  "tag": "collocations",
+  "fr": {
+    "title": "Collocations",
+    "summary": "Une collocation est une association de mots que les anglophones emploient toujours ensemble. Le TOEIC place dans les options des mots de sens voisin, mais un seul s'associe au mot voisin dans la phrase : il faut les connaître par paires.",
+    "keyPoints": [
+      "On n'invente pas la combinaison : « make a decision », « meet a deadline », « place an order ».",
+      "Apprends les mots par paires : verbe et nom, adjectif et nom, adverbe et adjectif, verbe ou adjectif et préposition.",
+      "Le verbe français ne te donne pas le verbe anglais : « prendre une décision » = « make », « tenir une réunion » = « hold »."
+    ],
+    "rules": [
+      {
+        "title": "Verbe + nom",
+        "text": "Les plus fréquentes : « make a decision », « do business », « take measures », « meet a deadline », « place an order », « reach an agreement », « conduct a survey », « hold a meeting », « raise awareness », « submit an application », « file a complaint ».",
+        "examples": [
+          {"en": "The team worked overtime to **meet** the deadline.", "note": "« meet a deadline » = respecter un délai."},
+          {"en": "Customers can **place** an order online or by phone.", "note": "« place an order » = passer une commande."},
+          {"en": "The firm will **conduct** a survey among its clients.", "note": "« conduct a survey » = mener une enquête."},
+          {"en": "After weeks of talks, the two companies **reached** an agreement.", "note": "« reach an agreement » = parvenir à un accord."}
+        ]
+      },
+      {
+        "title": "Adjectif + nom",
+        "text": "Certains adjectifs vont avec certains noms seulement : « heavy traffic », « strong demand », « high priority », « tight schedule ». On ne dit pas « strong traffic ».",
+        "examples": [
+          {"en": "**Heavy** traffic delayed the delegation's arrival.", "note": "« heavy traffic » = forte circulation."},
+          {"en": "Her **tight** schedule leaves no room for another meeting.", "note": "« tight schedule » = emploi du temps serré."},
+          {"en": "The product launch remains a **high** priority for the sales team.", "note": "« high priority » = grande priorité."},
+          {"en": "There is **strong** demand for electric delivery vans.", "note": "« strong demand » = forte demande."}
+        ]
+      },
+      {
+        "title": "Adverbe + adjectif ou participe",
+        "text": "L'adverbe est lié à son adjectif : « highly recommended », « fully booked », « strictly prohibited », « readily available ». Les distracteurs sont des adverbes qui existent, mais qui ne s'associent pas à ce mot. Attention : « highly » est l'adverbe, pas « high ».",
+        "examples": [
+          {"en": "The Hotel Marlow is **fully** booked until the end of the month.", "note": "« fully booked » = complet."},
+          {"en": "Photography is **strictly** prohibited inside the laboratory.", "note": "« strictly prohibited » = formellement interdit."},
+          {"en": "Replacement parts are **readily** available from our website.", "note": "« readily available » = facilement disponible."},
+          {"en": "The consultant was **highly** recommended by two of our partners.", "note": "« highly recommended » = vivement recommandé."}
+        ]
+      },
+      {
+        "title": "Verbe ou adjectif + préposition",
+        "text": "La préposition est imposée : « comply with », « rely on », « be responsible for », « be eligible for », « be familiar with », « result in ». Après la préposition, tu peux avoir un nom ou un -ing : « responsible for managing ».",
+        "examples": [
+          {"en": "All suppliers must **comply** with the new safety regulations.", "note": "« comply with » = se conformer à."},
+          {"en": "Only full-time employees are **eligible** for the bonus.", "note": "« eligible for » = pouvoir bénéficier de."},
+          {"en": "The team **relies** on weekly reports to track progress.", "note": "« rely on » = compter sur."},
+          {"en": "New drivers should be **familiar** with the company's safety rules.", "note": "« familiar with » = connaître bien."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "« make » ou « do »",
+        "text": "« make » sert surtout à créer ou produire quelque chose : « make a decision », « make a mistake », « make a reservation », « make progress ». « do » sert à une activité ou une tâche : « do business », « do research », « do the paperwork », « do a favor ». Dans le doute, retiens l'expression entière plutôt que la règle."
+      },
+      {
+        "title": "Le verbe français ne se traduit pas mot à mot",
+        "text": "Les distracteurs offrent le verbe que le français suggère : « prendre une décision » = « make », « prendre des mesures » = « take », « passer une commande » = « place », « tenir une réunion » = « hold », « respecter un délai » = « meet », « déposer une plainte » = « file »."
+      },
+      {
+        "title": "La préposition voisine",
+        "text": "Le TOEIC remplace la bonne préposition par une proche : « comply to », « rely of », « responsible of » sont faux. Il faut « comply with », « rely on », « responsible for ». Retiens chaque verbe ou adjectif avec sa préposition."
+      }
+    ]
+  },
+  "en": {
+    "title": "Collocations",
+    "summary": "A collocation is a pair of words that English speakers always use together. The TOEIC puts words with similar meanings among the options, but only one goes with the neighboring word in the sentence: you have to know them in pairs.",
+    "keyPoints": [
+      "You cannot invent the combination: \"make a decision\", \"meet a deadline\", \"place an order\".",
+      "Learn words in pairs: verb and noun, adjective and noun, adverb and adjective, verb or adjective and preposition.",
+      "The French verb does not give you the English verb: \"prendre une décision\" = \"make\", \"tenir une réunion\" = \"hold\"."
+    ],
+    "rules": [
+      {
+        "title": "Verb + noun",
+        "text": "The most frequent ones: \"make a decision\", \"do business\", \"take measures\", \"meet a deadline\", \"place an order\", \"reach an agreement\", \"conduct a survey\", \"hold a meeting\", \"raise awareness\", \"submit an application\", \"file a complaint\".",
+        "examples": [
+          {"en": "The team worked overtime to **meet** the deadline.", "note": "\"meet a deadline\" = finish on time."},
+          {"en": "Customers can **place** an order online or by phone.", "note": "\"place an order\" = order something."},
+          {"en": "The firm will **conduct** a survey among its clients.", "note": "\"conduct a survey\" = carry out a survey."},
+          {"en": "After weeks of talks, the two companies **reached** an agreement.", "note": "\"reach an agreement\" = come to an agreement."}
+        ]
+      },
+      {
+        "title": "Adjective + noun",
+        "text": "Some adjectives go only with certain nouns: \"heavy traffic\", \"strong demand\", \"high priority\", \"tight schedule\". You cannot say \"strong traffic\".",
+        "examples": [
+          {"en": "**Heavy** traffic delayed the delegation's arrival.", "note": "\"heavy traffic\" = a lot of traffic."},
+          {"en": "Her **tight** schedule leaves no room for another meeting.", "note": "\"tight schedule\" = very full schedule."},
+          {"en": "The product launch remains a **high** priority for the sales team.", "note": "\"high priority\" = very important."},
+          {"en": "There is **strong** demand for electric delivery vans.", "note": "\"strong demand\" = many people want them."}
+        ]
+      },
+      {
+        "title": "Adverb + adjective or participle",
+        "text": "The adverb is tied to its adjective: \"highly recommended\", \"fully booked\", \"strictly prohibited\", \"readily available\". The distractors are adverbs that exist but do not go with that word. Note: \"highly\" is the adverb, not \"high\".",
+        "examples": [
+          {"en": "The Hotel Marlow is **fully** booked until the end of the month.", "note": "\"fully booked\" = no rooms left."},
+          {"en": "Photography is **strictly** prohibited inside the laboratory.", "note": "\"strictly prohibited\" = absolutely forbidden."},
+          {"en": "Replacement parts are **readily** available from our website.", "note": "\"readily available\" = easy to get."},
+          {"en": "The consultant was **highly** recommended by two of our partners.", "note": "\"highly recommended\" = strongly advised."}
+        ]
+      },
+      {
+        "title": "Verb or adjective + preposition",
+        "text": "The preposition is fixed: \"comply with\", \"rely on\", \"be responsible for\", \"be eligible for\", \"be familiar with\", \"result in\". After the preposition you can have a noun or an -ing form: \"responsible for managing\".",
+        "examples": [
+          {"en": "All suppliers must **comply** with the new safety regulations.", "note": "\"comply with\" = follow a rule."},
+          {"en": "Only full-time employees are **eligible** for the bonus.", "note": "\"eligible for\" = allowed to receive."},
+          {"en": "The team **relies** on weekly reports to track progress.", "note": "\"rely on\" = depend on."},
+          {"en": "New drivers should be **familiar** with the company's safety rules.", "note": "\"familiar with\" = know well."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "\"make\" or \"do\"",
+        "text": "\"make\" is mostly for creating or producing something: \"make a decision\", \"make a mistake\", \"make a reservation\", \"make progress\". \"do\" is for an activity or a task: \"do business\", \"do research\", \"do the paperwork\", \"do a favor\". When in doubt, remember the whole expression rather than the rule."
+      },
+      {
+        "title": "The French verb does not translate word for word",
+        "text": "The distractors offer the verb that French suggests: \"prendre une décision\" = \"make\", \"prendre des mesures\" = \"take\", \"passer une commande\" = \"place\", \"tenir une réunion\" = \"hold\", \"respecter un délai\" = \"meet\", \"déposer une plainte\" = \"file\"."
+      },
+      {
+        "title": "The neighboring preposition",
+        "text": "The TOEIC replaces the right preposition with a close one: \"comply to\", \"rely of\", \"responsible of\" are wrong. You need \"comply with\", \"rely on\", \"responsible for\". Learn each verb or adjective with its preposition."
+      }
+    ]
+  }
+}

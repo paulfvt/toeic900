@@ -1,0 +1,84 @@
+{
+  "units": [
+    {
+      "id": "u1-word-forms",
+      "fr": "Formes du mot",
+      "en": "Word forms",
+      "steps": [
+        {"id": "l-word-form-noun", "kind": "lesson", "tag": "word-form-noun", "part": 5, "units": 5},
+        {"id": "l-word-form-adjective", "kind": "lesson", "tag": "word-form-adjective", "part": 5, "units": 5},
+        {"id": "l-word-form-adverb", "kind": "lesson", "tag": "word-form-adverb", "part": 5, "units": 5},
+        {"id": "l-comparatives-superlatives", "kind": "lesson", "tag": "comparatives-superlatives", "part": 5, "units": 5},
+        {"id": "r-u1-word-forms", "kind": "review", "part": 5, "units": 10}
+      ]
+    },
+    {
+      "id": "u2-verb-forms",
+      "fr": "Formes verbales",
+      "en": "Verb forms",
+      "steps": [
+        {"id": "l-verb-tense", "kind": "lesson", "tag": "verb-tense", "part": 5, "units": 5},
+        {"id": "l-subject-verb-agreement", "kind": "lesson", "tag": "subject-verb-agreement", "part": 5, "units": 5},
+        {"id": "l-passive-voice", "kind": "lesson", "tag": "passive-voice", "part": 5, "units": 5},
+        {"id": "l-gerund-infinitive", "kind": "lesson", "tag": "gerund-infinitive", "part": 5, "units": 5},
+        {"id": "l-participle-adjectives", "kind": "lesson", "tag": "participle-adjectives", "part": 5, "units": 5},
+        {"id": "r-u2-verb-forms", "kind": "review", "part": 5, "units": 10}
+      ]
+    },
+    {
+      "id": "u3-grammar-words",
+      "fr": "Petits mots de grammaire",
+      "en": "Grammar words",
+      "steps": [
+        {"id": "l-pronouns", "kind": "lesson", "tag": "pronouns", "part": 5, "units": 5},
+        {"id": "l-relative-clauses", "kind": "lesson", "tag": "relative-clauses", "part": 5, "units": 5},
+        {"id": "l-quantifiers-determiners", "kind": "lesson", "tag": "quantifiers-determiners", "part": 5, "units": 5},
+        {"id": "l-prepositions", "kind": "lesson", "tag": "prepositions", "part": 5, "units": 5},
+        {"id": "l-conjunctions-connectors", "kind": "lesson", "tag": "conjunctions-connectors", "part": 5, "units": 5},
+        {"id": "r-u3-grammar-words", "kind": "review", "part": 5, "units": 10}
+      ]
+    },
+    {
+      "id": "u4-vocabulary",
+      "fr": "Vocabulaire",
+      "en": "Vocabulary",
+      "steps": [
+        {"id": "l-vocabulary-in-context", "kind": "lesson", "tag": "vocabulary-in-context", "part": 5, "units": 5},
+        {"id": "l-collocations", "kind": "lesson", "tag": "collocations", "part": 5, "units": 5},
+        {"id": "r-u4-vocabulary", "kind": "review", "part": 5, "units": 8}
+      ]
+    },
+    {
+      "id": "u5-part6",
+      "fr": "Textes à trous (Part 6)",
+      "en": "Text completion (Part 6)",
+      "steps": [
+        {"id": "l-sentence-insertion", "kind": "lesson", "tag": "sentence-insertion", "part": 6, "units": 2},
+        {"id": "r-u5-part6", "kind": "review", "part": 6, "units": 3}
+      ]
+    },
+    {
+      "id": "u6-part7-single",
+      "fr": "Lire un document (Part 7)",
+      "en": "Reading one document (Part 7)",
+      "steps": [
+        {"id": "l-main-idea", "kind": "lesson", "tag": "main-idea", "part": 7, "units": 2},
+        {"id": "l-detail", "kind": "lesson", "tag": "detail", "part": 7, "units": 2},
+        {"id": "l-inference", "kind": "lesson", "tag": "inference", "part": 7, "units": 2},
+        {"id": "l-not-true", "kind": "lesson", "tag": "not-true", "part": 7, "units": 2},
+        {"id": "l-synonym-in-context", "kind": "lesson", "tag": "synonym-in-context", "part": 7, "units": 2},
+        {"id": "l-writer-intention", "kind": "lesson", "tag": "writer-intention", "part": 7, "units": 2},
+        {"id": "r-u6-part7-single", "kind": "review", "part": 7, "units": 3}
+      ]
+    },
+    {
+      "id": "u7-part7-multiple",
+      "fr": "Documents multiples (Part 7)",
+      "en": "Multiple documents (Part 7)",
+      "steps": [
+        {"id": "l-cross-reference", "kind": "lesson", "tag": "cross-reference", "part": 7, "units": 2},
+        {"id": "r-u7-part7-multiple", "kind": "review", "part": 7, "units": 2}
+      ]
+    }
+  ]
+}

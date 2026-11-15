@@ -1,0 +1,119 @@
+{
+  "tag": "relative-clauses",
+  "fr": {
+    "title": "Propositions relatives",
+    "summary": "Le pronom relatif relie une proposition à un nom et dépend de deux choses : la nature de ce nom (personne ou chose) et la fonction du pronom dans la relative (sujet, complément, possession). Le mot qui suit le trou est ton meilleur indice.",
+    "keyPoints": [
+      "« **who** » pour une personne, « **which** » pour une chose, « **that** » pour les deux sans virgule ; « **whose** » + nom exprime la possession.",
+      "Regarde ce qui suit le trou : un verbe → « who / which / that » ; un nom → « whose » ; sujet + verbe → « whom / which / that ».",
+      "« **What** » n'a pas d'antécédent (= « the thing that ») ; « that » est interdit après une virgule."
+    ],
+    "rules": [
+      {
+        "title": "Who, which, that : sujet de la relative",
+        "text": "Quand le relatif est le sujet du verbe qui suit, utilise « who » (ou « that ») pour une personne, « which » (ou « that ») pour une chose. Ce relatif sujet ne se supprime jamais : on ne dit pas « the employee manages the team ».",
+        "examples": [
+          {"en": "We need a supplier **who** can deliver on weekends.", "note": "« who » est le sujet de « can deliver » : personne."},
+          {"en": "The software **which** tracks our inventory was updated last night.", "note": "« which » est le sujet de « tracks » : chose."}
+        ]
+      },
+      {
+        "title": "Whom et whose",
+        "text": "« Whom » est le complément d'une personne : il est suivi d'un sujet + verbe, ou placé après une préposition (« to whom »). « Whose » + nom exprime la possession pour une personne ou une chose ; il n'est jamais suivi d'un article avant le nom.",
+        "examples": [
+          {"en": "The applicant **whom** we interviewed on Monday accepted the offer.", "note": "« whom » est l'objet de « interviewed »."},
+          {"en": "The client **whose** order was delayed received a refund.", "note": "« whose order » = « sa commande »."}
+        ]
+      },
+      {
+        "title": "Where, when et what",
+        "text": "« Where » reprend un lieu, « when » un moment. « What » n'a pas d'antécédent : il signifie « the thing that » et peut être sujet de la phrase. Avec un antécédent (« the report », « everything »), on utilise « that » ou « which ».",
+        "examples": [
+          {"en": "The warehouse **where** we store spare parts is near the port.", "note": "« where » reprend le lieu « warehouse »."},
+          {"en": "**What** the customers want is faster delivery.", "note": "« what » = « the thing that » : pas d'antécédent."},
+          {"en": "Everything **that** we ordered has arrived.", "note": "« everything » est un antécédent : « that »."}
+        ]
+      },
+      {
+        "title": "La virgule et la préposition",
+        "text": "Après une virgule, la relative donne une information en plus : « that » est interdit, utilise « who » ou « which ». Après une préposition, on utilise « which » ou « whom », jamais « that » : « the room in which ».",
+        "examples": [
+          {"en": "Our head office, **which** opened in 2019, is in Lyon.", "note": "Après la virgule : « which », pas « that »."},
+          {"en": "The conference room in **which** the meeting will take place is on the third floor.", "note": "Préposition + « which » : « that » est impossible."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "Lire ce qui suit le trou",
+        "text": "Les options « who, whom, whose, which » sont toutes plausibles de loin. Regarde le mot suivant : un verbe appelle « who / which », un nom appelle « whose », un sujet + verbe appelle « whom / which ». « Whom » n'est jamais suivi directement d'un verbe."
+      },
+      {
+        "title": "« That » après une virgule ou une préposition",
+        "text": "« That » est le distracteur favori : il est séduisant, mais faux après une virgule (« the plan, that… ») ou après une préposition (« in that »). Si tu vois une virgule avant le trou, cherche « who » ou « which »."
+      },
+      {
+        "title": "« What » avec un antécédent",
+        "text": "« The report what we received » est faux : « what » ne se place pas après un nom. À l'inverse, sans nom avant le trou (« ___ the customers want »), « that » et « which » sont impossibles : il faut « what »."
+      }
+    ]
+  },
+  "en": {
+    "title": "Relative clauses",
+    "summary": "A relative pronoun links a clause to a noun and depends on two things: the kind of noun (person or thing) and the function of the pronoun in the clause (subject, object, possession). The word after the blank is your best clue.",
+    "keyPoints": [
+      "\"**who**\" for a person, \"**which**\" for a thing, \"**that**\" for both without a comma; \"**whose**\" + noun shows possession.",
+      "Look at what follows the blank: a verb → \"who / which / that\"; a noun → \"whose\"; subject + verb → \"whom / which / that\".",
+      "\"**What**\" has no antecedent (= \"the thing that\"); \"that\" is not allowed after a comma."
+    ],
+    "rules": [
+      {
+        "title": "Who, which, that: subject of the clause",
+        "text": "When the relative pronoun is the subject of the verb that follows, use \"who\" (or \"that\") for a person, \"which\" (or \"that\") for a thing. This subject pronoun can never be left out: you cannot say \"the employee manages the team\".",
+        "examples": [
+          {"en": "We need a supplier **who** can deliver on weekends.", "note": "\"who\" is the subject of \"can deliver\": person."},
+          {"en": "The software **which** tracks our inventory was updated last night.", "note": "\"which\" is the subject of \"tracks\": thing."}
+        ]
+      },
+      {
+        "title": "Whom and whose",
+        "text": "\"Whom\" is the object form for a person: it is followed by a subject + verb, or placed after a preposition (\"to whom\"). \"Whose\" + noun shows possession for a person or a thing; it is never followed by an article before the noun.",
+        "examples": [
+          {"en": "The applicant **whom** we interviewed on Monday accepted the offer.", "note": "\"whom\" is the object of \"interviewed\"."},
+          {"en": "The client **whose** order was delayed received a refund.", "note": "\"whose order\" = \"his or her order\"."}
+        ]
+      },
+      {
+        "title": "Where, when and what",
+        "text": "\"Where\" refers to a place, \"when\" to a time. \"What\" has no antecedent: it means \"the thing that\" and can be the subject of the sentence. With an antecedent (\"the report\", \"everything\"), use \"that\" or \"which\".",
+        "examples": [
+          {"en": "The warehouse **where** we store spare parts is near the port.", "note": "\"where\" refers to the place \"warehouse\"."},
+          {"en": "**What** the customers want is faster delivery.", "note": "\"what\" = \"the thing that\": no antecedent."},
+          {"en": "Everything **that** we ordered has arrived.", "note": "\"everything\" is an antecedent: \"that\"."}
+        ]
+      },
+      {
+        "title": "The comma and the preposition",
+        "text": "After a comma, the relative clause adds extra information: \"that\" is not allowed, use \"who\" or \"which\". After a preposition, use \"which\" or \"whom\", never \"that\": \"the room in which\".",
+        "examples": [
+          {"en": "Our head office, **which** opened in 2019, is in Lyon.", "note": "After the comma: \"which\", not \"that\"."},
+          {"en": "The conference room in **which** the meeting will take place is on the third floor.", "note": "Preposition + \"which\": \"that\" is impossible."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "Read what follows the blank",
+        "text": "The options \"who, whom, whose, which\" all look plausible from a distance. Look at the next word: a verb calls for \"who / which\", a noun calls for \"whose\", a subject + verb calls for \"whom / which\". \"Whom\" is never followed directly by a verb."
+      },
+      {
+        "title": "\"That\" after a comma or a preposition",
+        "text": "\"That\" is the favorite distractor: it is tempting, but wrong after a comma (\"the plan, that…\") or after a preposition (\"in that\"). If you see a comma before the blank, look for \"who\" or \"which\"."
+      },
+      {
+        "title": "\"What\" with an antecedent",
+        "text": "\"The report what we received\" is wrong: \"what\" does not follow a noun. Conversely, with no noun before the blank (\"___ the customers want\"), \"that\" and \"which\" are impossible: you need \"what\"."
+      }
+    ]
+  }
+}

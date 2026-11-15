@@ -1,0 +1,119 @@
+{
+  "tag": "word-form-adjective",
+  "fr": {
+    "title": "Forme du mot : l'adjectif",
+    "summary": "L'adjectif décrit un nom. Il se place devant lui, ou après un verbe d'état comme « be », « seem », « become » ou « remain ». Au TOEIC, il faut aussi reconnaître ses suffixes et se méfier des adjectifs en **-ly** et des paires de mots qui se ressemblent.",
+    "keyPoints": [
+      "Devant un nom, ou après « be / seem / become / remain », la forme attendue est un **adjectif**.",
+      "Suffixes typiques : **-able, -ible, -ive, -al, -ful, -ous, -ic, -ant, -ent**.",
+      "Un mot en **-ly** n'est pas toujours un adverbe : « timely », « costly », « friendly » sont des adjectifs."
+    ],
+    "rules": [
+      {
+        "title": "La place de l'adjectif",
+        "text": "L'adjectif se place devant un nom (« a **reliable** supplier ») ou après un verbe d'état : « be », « seem », « become », « remain », « look », « feel », « sound », « appear ». Entre un déterminant et un nom, un seul mot convient : l'adjectif.",
+        "examples": [
+          {"en": "We need a **reliable** supplier for the new product line.", "note": "Entre « a » et le nom « supplier » : un adjectif."},
+          {"en": "The new schedule seems **flexible**.", "note": "Après « seems » : un adjectif, pas un adverbe."}
+        ]
+      },
+      {
+        "title": "Les suffixes d'adjectifs",
+        "text": "**-able / -ible** (« available », « flexible »), **-ive** (« innovative »), **-ful** (« helpful »), **-ous** (« numerous »), **-ic** (« strategic »), **-al** (« financial »), **-ant / -ent** (« significant », « efficient ») sont des terminaisons d'adjectifs. Si un mot de la liste a l'une d'elles, c'est un candidat quand la place demande un adjectif.",
+        "examples": [
+          {"en": "The company launched an **innovative** product line.", "note": "-ive : adjectif, entre « an » et le nom « product »."},
+          {"en": "Our software is **compatible** with older systems.", "note": "-ible : adjectif après « is »."}
+        ]
+      },
+      {
+        "title": "Les adjectifs en -ly",
+        "text": "Quelques adjectifs finissent en **-ly** : « timely » (opportun), « costly » (coûteux), « friendly » (aimable), « likely » (probable), « lively » (animé), « orderly » (ordonné). Ils se placent comme n'importe quel adjectif, devant un nom ou après « be ». Le **-ly** seul ne suffit donc pas à reconnaître un adverbe.",
+        "examples": [
+          {"en": "Thank you for your **timely** response.", "note": "Devant le nom « response » : adjectif, même avec -ly."},
+          {"en": "Replacing the whole system would be **costly**.", "note": "Après « be » : adjectif."}
+        ]
+      },
+      {
+        "title": "Les paires qui se ressemblent",
+        "text": "Deux adjectifs de la même famille ont des sens différents : « economic » (relatif à l'économie) et « economical » (économe) ; « considerable » (important) et « considerate » (attentionné) ; « confident » (sûr de soi) et « confidential » (confidentiel). Le sens du nom qui suit décide.",
+        "examples": [
+          {"en": "The report contains **confidential** salary data.", "note": "Des données qu'on ne diffuse pas : « confidential »."},
+          {"en": "A **considerable** number of staff attended the training.", "note": "« considerable » = important, en quantité."},
+          {"en": "The new van is more **economical** than the old one.", "note": "« economical » = qui consomme peu ; « economic » parlerait de l'économie."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "Un adverbe ou un nom parmi les options",
+        "text": "Pour un trou devant un nom (« a (success / successful / successfully) project »), seul l'adjectif convient : le nom ne qualifie pas un autre nom ici, et l'adverbe ne modifie pas un nom. Repère le nom qui suit le trou."
+      },
+      {
+        "title": "Le -ly qui trompe",
+        "text": "Beaucoup de candidats éliminent « timely », « costly » ou « friendly » parce qu'ils finissent en -ly. Si le trou est devant un nom ou après « be », ce sont de bons adjectifs. Vérifie la place avant de regarder la terminaison."
+      },
+      {
+        "title": "Deux adjectifs presque identiques",
+        "text": "« economic / economical », « considerable / considerate », « confident / confidential » sont tous deux des adjectifs bien formés. Seul le sens du nom qui suit tranche : traduis la phrase pour choisir."
+      }
+    ]
+  },
+  "en": {
+    "title": "Word form: the adjective",
+    "summary": "An adjective describes a noun. It goes before the noun, or after a linking verb such as \"be\", \"seem\", \"become\" or \"remain\". On the TOEIC, you also need to recognize its suffixes and watch out for adjectives ending in **-ly** and for pairs of similar words.",
+    "keyPoints": [
+      "Before a noun, or after \"be / seem / become / remain\", the form you need is an **adjective**.",
+      "Typical suffixes: **-able, -ible, -ive, -al, -ful, -ous, -ic, -ant, -ent**.",
+      "A word ending in **-ly** is not always an adverb: \"timely\", \"costly\", \"friendly\" are adjectives."
+    ],
+    "rules": [
+      {
+        "title": "Where the adjective goes",
+        "text": "The adjective goes before a noun (\"a **reliable** supplier\") or after a linking verb: \"be\", \"seem\", \"become\", \"remain\", \"look\", \"feel\", \"sound\", \"appear\". Between a determiner and a noun, only one kind of word fits: the adjective.",
+        "examples": [
+          {"en": "We need a **reliable** supplier for the new product line.", "note": "Between \"a\" and the noun \"supplier\": an adjective."},
+          {"en": "The new schedule seems **flexible**.", "note": "After \"seems\": an adjective, not an adverb."}
+        ]
+      },
+      {
+        "title": "Adjective suffixes",
+        "text": "**-able / -ible** (\"available\", \"flexible\"), **-ive** (\"innovative\"), **-ful** (\"helpful\"), **-ous** (\"numerous\"), **-ic** (\"strategic\"), **-al** (\"financial\"), **-ant / -ent** (\"significant\", \"efficient\") are adjective endings. If a word among the options has one of them, it is a candidate when the position asks for an adjective.",
+        "examples": [
+          {"en": "The company launched an **innovative** product line.", "note": "-ive: an adjective, between \"an\" and the noun \"product\"."},
+          {"en": "Our software is **compatible** with older systems.", "note": "-ible: an adjective after \"is\"."}
+        ]
+      },
+      {
+        "title": "Adjectives ending in -ly",
+        "text": "Some adjectives end in **-ly**: \"timely\" (at the right moment), \"costly\" (expensive), \"friendly\", \"likely\" (probable), \"lively\", \"orderly\". They go where any adjective goes, before a noun or after \"be\". So **-ly** alone is not enough to spot an adverb.",
+        "examples": [
+          {"en": "Thank you for your **timely** response.", "note": "Before the noun \"response\": an adjective, even with -ly."},
+          {"en": "Replacing the whole system would be **costly**.", "note": "After \"be\": an adjective."}
+        ]
+      },
+      {
+        "title": "Pairs that look alike",
+        "text": "Two adjectives from the same family can have different meanings: \"economic\" (about the economy) and \"economical\" (cheap to run); \"considerable\" (large) and \"considerate\" (thoughtful); \"confident\" (self-assured) and \"confidential\" (secret). The meaning of the noun that follows decides.",
+        "examples": [
+          {"en": "The report contains **confidential** salary data.", "note": "Data that is not shared: \"confidential\"."},
+          {"en": "A **considerable** number of staff attended the training.", "note": "\"considerable\" = large, for a quantity."},
+          {"en": "The new van is more **economical** than the old one.", "note": "\"economical\" = cheap to run; \"economic\" would be about the economy."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "An adverb or a noun among the options",
+        "text": "For a blank before a noun (\"a (success / successful / successfully) project\"), only the adjective fits: here a noun does not describe another noun, and an adverb does not modify a noun. Spot the noun that follows the blank."
+      },
+      {
+        "title": "The misleading -ly",
+        "text": "Many test takers reject \"timely\", \"costly\" or \"friendly\" because they end in -ly. If the blank is before a noun or after \"be\", they are good adjectives. Check the position before looking at the ending."
+      },
+      {
+        "title": "Two almost identical adjectives",
+        "text": "\"economic / economical\", \"considerable / considerate\", \"confident / confidential\" are all well-formed adjectives. Only the meaning of the noun that follows decides: translate the sentence to choose."
+      }
+    ]
+  }
+}

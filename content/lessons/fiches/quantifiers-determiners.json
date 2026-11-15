@@ -1,0 +1,123 @@
+{
+  "tag": "quantifiers-determiners",
+  "fr": {
+    "title": "Quantifieurs et déterminants",
+    "summary": "Le choix du quantifieur dépend du nom qui le suit : pluriel dénombrable, indénombrable ou singulier. Au TOEIC, repère d'abord la nature du nom, puis élimine les options incompatibles.",
+    "keyPoints": [
+      "« many », « few », « several », « a number of » vont avec un pluriel ; « much », « little », « an amount of » avec un indénombrable.",
+      "« each » et « every » se placent devant un nom au **singulier** et appellent un verbe au singulier.",
+      "« most », « all », « some » : devant un nom seul (« most employees »), mais « of the » devant un nom précis (« most of the employees »)."
+    ],
+    "rules": [
+      {
+        "title": "Dénombrable ou indénombrable ?",
+        "text": "« many », « few », « a few », « several », « a number of » se construisent avec un nom **pluriel**. « much », « little », « a little », « an amount of » se construisent avec un nom **indénombrable**. « few » et « little » ont un sens négatif (presque pas) ; « a few » et « a little » un sens positif (quelques, un peu).",
+        "examples": [
+          {"en": "**A number of** clients have asked for an extension.", "note": "« a number of » + pluriel, verbe au pluriel."},
+          {"en": "The department has **little** funding left this quarter.", "note": "« funding » est indénombrable : « little », pas « few »."}
+        ]
+      },
+      {
+        "title": "Les quantifieurs qui vont avec les deux",
+        "text": "« some », « any », « most », « all », « a lot of », « plenty of » acceptent un pluriel comme un indénombrable. « any » s'emploie surtout dans les questions et les négations. Devant un nom précis (« the », « these », « our »), il faut « of » : « most of the staff », « some of our clients ».",
+        "examples": [
+          {"en": "**Most** employees prefer to work from home on Fridays.", "note": "Sens général, nom seul : pas de « of »."},
+          {"en": "**Most of the** employees in the Lyon office use the new software.", "note": "Nom précis (« the employees ») : « of the » obligatoire."},
+          {"en": "Do you have **any** questions about the schedule?", "note": "« any » dans une question, devant un pluriel."}
+        ]
+      },
+      {
+        "title": "« each » et « every » : toujours le singulier",
+        "text": "« each » et « every » sont suivis d'un nom singulier et d'un verbe au singulier. Pour parler d'un groupe précis, on dit « each of the + pluriel », avec toujours un verbe au singulier. « every » ne se construit pas avec « of » seul.",
+        "examples": [
+          {"en": "**Each** applicant must submit a résumé and two references.", "note": "« each » + singulier (« applicant »)."},
+          {"en": "**Every** shipment is checked before it leaves the warehouse.", "note": "« every » + singulier, verbe au singulier (« is »)."}
+        ]
+      },
+      {
+        "title": "« another », « other », « both », « either », « neither »",
+        "text": "« another » + nom singulier ; « other » + nom pluriel ; « the other » désigne le seul autre (ou « the others » tous les autres). « both » + pluriel. « either » (l'un ou l'autre) et « neither » (ni l'un ni l'autre) + nom singulier.",
+        "examples": [
+          {"en": "**Another** candidate will be interviewed this afternoon.", "note": "« another » + singulier."},
+          {"en": "**Other** departments have already adopted the new software.", "note": "« other » + pluriel, sans « the »."},
+          {"en": "The first printer is broken, but **the other** one works.", "note": "Il n'y en a que deux : « the other »."},
+          {"en": "**Neither** proposal meets our budget.", "note": "« neither » + singulier, verbe au singulier."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "Les indénombrables piégeux",
+        "text": "« information », « equipment », « furniture », « advice », « luggage » et « research » n'ont pas de pluriel et ne prennent pas « a / an » : « much information », « a piece of advice », « several pieces of equipment ». « staff » est un nom collectif : on dit « staff members » pour compter les personnes. Si tu vois « many » ou « few » devant l'un d'eux, élimine."
+      },
+      {
+        "title": "« each » ou « every » devant un pluriel",
+        "text": "Si le nom qui suit est au pluriel sans « of », « each » et « every » sont éliminés (« every employees » est faux) ; il faut « all » ou « many ». Avec « of », seul « each of the + pluriel » fonctionne, et son verbe reste au singulier : « Each of the employees has a badge »."
+      },
+      {
+        "title": "« most » contre « almost »",
+        "text": "Les options proposent souvent « most », « almost » et « the most ». « most » est un déterminant (« most employees ») ; « almost » est un adverbe qui ne se place jamais directement devant un nom : « almost all employees », « almost every employee »."
+      }
+    ]
+  },
+  "en": {
+    "title": "Quantifiers and determiners",
+    "summary": "The quantifier you choose depends on the noun that follows: plural countable, uncountable, or singular. On the TOEIC, first identify the type of noun, then eliminate the incompatible options.",
+    "keyPoints": [
+      "\"many\", \"few\", \"several\", \"a number of\" go with a plural; \"much\", \"little\", \"an amount of\" go with an uncountable noun.",
+      "\"each\" and \"every\" come before a **singular** noun and take a singular verb.",
+      "\"most\", \"all\", \"some\": before a bare noun (\"most employees\"), but \"of the\" before a specific noun (\"most of the employees\")."
+    ],
+    "rules": [
+      {
+        "title": "Countable or uncountable?",
+        "text": "\"many\", \"few\", \"a few\", \"several\", \"a number of\" go with a **plural** noun. \"much\", \"little\", \"a little\", \"an amount of\" go with an **uncountable** noun. \"few\" and \"little\" have a negative sense (almost none); \"a few\" and \"a little\" have a positive sense (some).",
+        "examples": [
+          {"en": "**A number of** clients have asked for an extension.", "note": "\"a number of\" + plural, plural verb."},
+          {"en": "The department has **little** funding left this quarter.", "note": "\"funding\" is uncountable: \"little\", not \"few\"."}
+        ]
+      },
+      {
+        "title": "Quantifiers that go with both",
+        "text": "\"some\", \"any\", \"most\", \"all\", \"a lot of\", \"plenty of\" work with a plural or an uncountable noun. \"any\" is mostly used in questions and negatives. Before a specific noun (\"the\", \"these\", \"our\"), you need \"of\": \"most of the staff\", \"some of our clients\".",
+        "examples": [
+          {"en": "**Most** employees prefer to work from home on Fridays.", "note": "General meaning, bare noun: no \"of\"."},
+          {"en": "**Most of the** employees in the Lyon office use the new software.", "note": "Specific noun (\"the employees\"): \"of the\" is required."},
+          {"en": "Do you have **any** questions about the schedule?", "note": "\"any\" in a question, before a plural."}
+        ]
+      },
+      {
+        "title": "\"each\" and \"every\": always singular",
+        "text": "\"each\" and \"every\" are followed by a singular noun and a singular verb. To talk about a specific group, say \"each of the + plural\", still with a singular verb. \"every\" cannot be followed by \"of\" on its own.",
+        "examples": [
+          {"en": "**Each** applicant must submit a résumé and two references.", "note": "\"each\" + singular (\"applicant\")."},
+          {"en": "**Every** shipment is checked before it leaves the warehouse.", "note": "\"every\" + singular, singular verb (\"is\")."}
+        ]
+      },
+      {
+        "title": "\"another\", \"other\", \"both\", \"either\", \"neither\"",
+        "text": "\"another\" + singular noun; \"other\" + plural noun; \"the other\" means the only remaining one (\"the others\" means all the remaining ones). \"both\" + plural. \"either\" (one or the other) and \"neither\" (not one, not the other) + singular noun.",
+        "examples": [
+          {"en": "**Another** candidate will be interviewed this afternoon.", "note": "\"another\" + singular."},
+          {"en": "**Other** departments have already adopted the new software.", "note": "\"other\" + plural, without \"the\"."},
+          {"en": "The first printer is broken, but **the other** one works.", "note": "There are only two: \"the other\"."},
+          {"en": "**Neither** proposal meets our budget.", "note": "\"neither\" + singular, singular verb."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "Tricky uncountable nouns",
+        "text": "\"information\", \"equipment\", \"furniture\", \"advice\", \"luggage\" and \"research\" have no plural and take no \"a / an\": \"much information\", \"a piece of advice\", \"several pieces of equipment\". \"staff\" is a collective noun: say \"staff members\" to count people. If you see \"many\" or \"few\" before one of them, eliminate it."
+      },
+      {
+        "title": "\"each\" or \"every\" before a plural",
+        "text": "If the noun that follows is plural with no \"of\", \"each\" and \"every\" are out (\"every employees\" is wrong); you need \"all\" or \"many\". With \"of\", only \"each of the + plural\" works, and its verb stays singular: \"Each of the employees has a badge\"."
+      },
+      {
+        "title": "\"most\" versus \"almost\"",
+        "text": "The options often offer \"most\", \"almost\" and \"the most\". \"most\" is a determiner (\"most employees\"); \"almost\" is an adverb that never stands directly before a noun: \"almost all employees\", \"almost every employee\"."
+      }
+    ]
+  }
+}

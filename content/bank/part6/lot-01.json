@@ -1,0 +1,1234 @@
+{
+  "part": 6,
+  "pool": "training",
+  "texts": [
+    {
+      "id": "p6-0001",
+      "part": 6,
+      "genre": "email",
+      "text": "To: Marcus Oyelaran, Events Coordinator\nFrom: Lucia Ferreira, Reservations Manager, Hotel Alvorada\nSubject: Updated group reservation\n\nDear Mr. Oyelaran,\n\nThank you for speaking with me on Tuesday. Right after our conversation, I [[1]] your group booking from 20 to 25 rooms. The arrival date is still Friday, June 6, and the checkout date is Monday, June 9. [[2]] That location gives your guests an easy walk to breakfast, which is served in the Garden Room from 6:30 to 10:00 A.M.\n\nPlease confirm the revised numbers in writing by May 20. [[3]], we cannot guarantee the extra five rooms at the group rate.\n\nThe updated rate sheet is attached. We appreciate your [[4]] and look forward to hosting your team.\n\nSincerely,\nLucia Ferreira",
+      "questions": [
+        {
+          "id": "p6-0001-1",
+          "tags": [
+            "verb-tense"
+          ],
+          "difficulty": 2,
+          "options": [
+            "will increase",
+            "increased",
+            "had increased",
+            "am increasing"
+          ],
+          "answer": "B",
+          "evidence": [
+            "Thank you for speaking with me on Tuesday.",
+            "Right after our conversation,"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« Thank you for speaking with me on Tuesday » place l'échange dans le passé, et « Right after our conversation » situe l'action juste après. On raconte un fait terminé et daté : le prétérit « increased ».",
+              "distractors": {
+                "A": "« will increase » est un futur : l'augmentation a eu lieu juste après l'appel de mardi, elle n'est plus à venir.",
+                "C": "« had increased » est un plus-que-parfait : il suppose une autre action passée, plus récente, qui sert de repère, et il n'y en a pas ici.",
+                "D": "« am increasing » est un présent progressif : il décrit une action en cours maintenant, alors que le texte la situe après la conversation de mardi."
+              },
+              "trap": "Un repère de temps passé donné dans une autre phrase (« on Tuesday », « after our conversation ») impose le prétérit, pas le futur ni le présent."
+            },
+            "en": {
+              "rule": "\"Thank you for speaking with me on Tuesday\" places the conversation in the past, and \"Right after our conversation\" places the action just after it. This is a finished, dated event: the simple past \"increased\".",
+              "distractors": {
+                "A": "\"will increase\" is a future: the change happened right after Tuesday's call, it is no longer to come.",
+                "C": "\"had increased\" is a past perfect: it needs another, more recent past action as a reference point, and there is none here.",
+                "D": "\"am increasing\" is a present progressive: it describes an action in progress now, while the text places it after Tuesday's conversation."
+              },
+              "trap": "A past time marker given in another sentence (\"on Tuesday\", \"after our conversation\") calls for the simple past, not the future or the present."
+            }
+          }
+        },
+        {
+          "id": "p6-0001-2",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 2,
+          "options": [
+            "Checkout time is 11:00 A.M. on the day of departure.",
+            "Breakfast for the group will be included in the room rate.",
+            "All 25 rooms are on the third floor, right next to our Garden Room.",
+            "Late arrivals can check in at any hour through our night desk."
+          ],
+          "answer": "C",
+          "evidence": [
+            "The arrival date is still Friday, June 6, and the checkout date is Monday, June 9.",
+            "That location gives your guests an easy walk to breakfast, which is served in the Garden Room from 6:30 to 10:00 A.M."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase d'avant donne les dates du séjour ; celle d'après commence par « That location » et parle d'un court trajet jusqu'au petit-déjeuner servi dans la Garden Room. Il faut la phrase qui fournit ce lieu : les chambres sont au troisième étage, à côté de cette salle.",
+              "distractors": {
+                "A": "L'heure de départ se rattache aux dates de la phrase d'avant, mais « That location » n'aurait aucun lieu à reprendre.",
+                "B": "Le petit-déjeuner inclus est sur le thème, mais la phrase ne désigne aucun endroit : « That location » resterait sans référent.",
+                "D": "L'arrivée tardive concerne la réception de l'hôtel et non l'emplacement des chambres : « That location » ne reprendrait rien, et le trajet jusqu'au petit-déjeuner n'aurait plus de raison d'être."
+              },
+              "trap": "Un mot de rappel (« That location », « This », « Such ») dans la phrase suivante doit trouver son référent dans la phrase à insérer."
+            },
+            "en": {
+              "rule": "The sentence before gives the stay dates; the one after begins with \"That location\" and mentions a short walk to breakfast served in the Garden Room. You need the sentence that supplies that location: the rooms are on the third floor, next to the Garden Room.",
+              "distractors": {
+                "A": "Checkout time connects to the dates in the previous sentence, but \"That location\" would have nothing to refer to.",
+                "B": "Breakfast being included is on topic, but the sentence names no place: \"That location\" would have no referent.",
+                "D": "Late check-in is about the front desk, not where the rooms are: \"That location\" would refer to nothing, and the short walk to breakfast would lose its reason."
+              },
+              "trap": "A reference word (\"That location\", \"This\", \"Such\") in the next sentence must find its referent in the inserted sentence."
+            }
+          }
+        },
+        {
+          "id": "p6-0001-3",
+          "tags": [
+            "conjunctions-connectors"
+          ],
+          "difficulty": 2,
+          "options": [
+            "Otherwise",
+            "Likewise",
+            "Instead",
+            "Meanwhile"
+          ],
+          "answer": "A",
+          "evidence": [
+            "Please confirm the revised numbers in writing by May 20.",
+            "we cannot guarantee the extra five rooms at the group rate."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase précédente demande une confirmation écrite avant le 20 mai ; celle-ci annonce ce qui arrive sans confirmation : plus de garantie. Il faut le connecteur de conséquence « Otherwise » (sinon).",
+              "distractors": {
+                "B": "« Likewise » (« de même ») ajoute une idée du même genre : une demande et une absence de garantie ne vont pas dans le même sens.",
+                "C": "« Instead » (« à la place ») oppose deux choix dont l'un a été écarté : aucune alternative n'a été évoquée avant.",
+                "D": "« Meanwhile » (« pendant ce temps ») marque une simultanéité : aucune action parallèle n'est mentionnée."
+              },
+              "trap": "Une demande ou une condition suivie d'un risque appelle « otherwise » : regarde ce que dit la phrase d'avant."
+            },
+            "en": {
+              "rule": "The previous sentence asks for written confirmation by May 20; this one says what happens without it: no more guarantee. You need the connector of consequence \"Otherwise\".",
+              "distractors": {
+                "B": "\"Likewise\" adds a similar idea: a request and a lack of guarantee do not point in the same direction.",
+                "C": "\"Instead\" contrasts two options, one of which has been set aside: no alternative was mentioned before.",
+                "D": "\"Meanwhile\" marks simultaneity: no parallel action is mentioned."
+              },
+              "trap": "A request or condition followed by a risk calls for \"otherwise\": look at what the previous sentence says."
+            }
+          }
+        },
+        {
+          "id": "p6-0001-4",
+          "tags": [
+            "word-form-noun"
+          ],
+          "difficulty": 1,
+          "options": [
+            "flexible",
+            "flexibly",
+            "flex",
+            "flexibility"
+          ],
+          "answer": "D",
+          "explanation": {
+            "fr": {
+              "rule": "Après le possessif « your » et le verbe « appreciate », il faut un nom : « your flexibility ».",
+              "distractors": {
+                "A": "« flexible » est un adjectif : il faudrait un nom derrière (« your flexible schedule »), or « and » suit directement.",
+                "B": "« flexibly » est un adverbe : il ne peut pas être le complément d'« appreciate » après « your ».",
+                "C": "« flex » est surtout un verbe (« plier, assouplir ») : il n'a pas le sens de « souplesse » et ne s'emploie pas ainsi."
+              },
+              "trap": "Après un possessif (« your », « their ») sans autre nom derrière, attends-toi à un nom."
+            },
+            "en": {
+              "rule": "After the possessive \"your\" and the verb \"appreciate\", you need a noun: \"your flexibility\".",
+              "distractors": {
+                "A": "\"flexible\" is an adjective: a noun would have to follow (\"your flexible schedule\"), but \"and\" comes right after.",
+                "B": "\"flexibly\" is an adverb: it cannot be the object of \"appreciate\" after \"your\".",
+                "C": "\"flex\" is mostly a verb (\"to bend\"): it does not mean \"being flexible\" and is not used this way."
+              },
+              "trap": "After a possessive (\"your\", \"their\") with no other noun following, expect a noun."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p6-0002",
+      "part": 6,
+      "genre": "memo",
+      "text": "MEMO\nTo: All Sales and Marketing Staff\nFrom: Priya Raghunathan, Finance Department\nDate: September 2\nSubject: New expense report procedure\n\nStarting October 1, all expense reports must be submitted online [[1]] the Finance portal instead of by e-mail. Paper forms will no longer be accepted.\n\nEach report must include a scanned copy of every receipt. Any report that is missing receipts will be [[2]] and will not be processed until every receipt is attached.\n\nEmployees can follow the status of each report on the portal. [[3]] For this reason, please keep the original paper receipts for 90 days. Finance may ask to see [[4]] at any time.\n\nQuestions about the new procedure can be sent to Priya Raghunathan at extension 214.",
+      "questions": [
+        {
+          "id": "p6-0002-1",
+          "tags": [
+            "prepositions"
+          ],
+          "difficulty": 1,
+          "options": [
+            "among",
+            "during",
+            "toward",
+            "through"
+          ],
+          "answer": "D",
+          "explanation": {
+            "fr": {
+              "rule": "Pour soumettre un document « online », on passe par un portail : « through the Finance portal » (c'est le moyen utilisé).",
+              "distractors": {
+                "A": "« among » (« parmi ») se place devant un groupe de plusieurs éléments : un portail unique n'en est pas un.",
+                "B": "« during » (« pendant ») introduit une durée : « the Finance portal » n'est pas une période.",
+                "C": "« toward » (« vers ») indique une direction : on ne soumet pas un rapport « vers » un portail."
+              },
+              "trap": "Pour un moyen ou un canal (portail, site, réseau), pense à « through » ou « via », pas à une préposition de temps ou de direction."
+            },
+            "en": {
+              "rule": "To submit a document \"online\", you go through a portal: \"through the Finance portal\" (it is the means used).",
+              "distractors": {
+                "A": "\"among\" is used before a group of several items: a single portal is not one.",
+                "B": "\"during\" introduces a period of time: \"the Finance portal\" is not a period.",
+                "C": "\"toward\" indicates a direction: you do not submit a report \"toward\" a portal."
+              },
+              "trap": "For a means or channel (portal, website, network), think \"through\" or \"via\", not a preposition of time or direction."
+            }
+          }
+        },
+        {
+          "id": "p6-0002-2",
+          "tags": [
+            "vocabulary-in-context"
+          ],
+          "difficulty": 2,
+          "options": [
+            "returned",
+            "reimbursed",
+            "resolved",
+            "reserved"
+          ],
+          "answer": "A",
+          "evidence": [
+            "Any report that is missing receipts will be",
+            "will not be processed until every receipt is attached."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Un rapport auquel il manque des reçus ne sera pas traité tant que tous ne sont pas joints : il est donc renvoyé à son auteur pour être complété, « returned ».",
+              "distractors": {
+                "B": "« reimbursed » (« remboursé ») contredit « will not be processed » : on ne rembourse pas un dossier incomplet.",
+                "C": "« resolved » (« résolu ») s'applique à un problème ou à un conflit, pas à un document.",
+                "D": "« reserved » (« réservé ») veut dire mis de côté ou prévu : cela ne dit pas que le rapport doit être complété."
+              },
+              "trap": "En vocabulaire en contexte, relis la phrase en entier et cherche l'indice qui départage les mots (ici « will not be processed until… »)."
+            },
+            "en": {
+              "rule": "A report with missing receipts will not be processed until all of them are attached, so it is sent back to its author to be completed: \"returned\".",
+              "distractors": {
+                "B": "\"reimbursed\" contradicts \"will not be processed\": an incomplete report is not paid back.",
+                "C": "\"resolved\" applies to a problem or a dispute, not to a document.",
+                "D": "\"reserved\" means set aside or booked: it does not say the report must be completed."
+              },
+              "trap": "In vocabulary-in-context, reread the whole sentence and look for the clue that separates the words (here \"will not be processed until...\")."
+            }
+          }
+        },
+        {
+          "id": "p6-0002-3",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 3,
+          "options": [
+            "Reimbursements will be deposited into your bank account within ten days.",
+            "Finance will also check a random sample of reports every month.",
+            "The portal can be used from any computer or phone, day or night.",
+            "Reports sent before October 1 may still be submitted on paper."
+          ],
+          "answer": "B",
+          "evidence": [
+            "Employees can follow the status of each report on the portal.",
+            "For this reason, please keep the original paper receipts for 90 days."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase d'avant parle du suivi des rapports sur le portail ; celle d'après commence par « For this reason » et demande de garder les reçus papier 90 jours. Il faut une raison à cette précaution : des contrôles d'un échantillon de rapports chaque mois.",
+              "distractors": {
+                "A": "Le délai de remboursement suit bien le suivi d'un rapport, mais il n'explique pas pourquoi garder les reçus : « For this reason » ne se rattacherait à rien.",
+                "C": "L'accès au portail à toute heure reste sur le thème du portail, mais il ne justifie pas la conservation des reçus papier.",
+                "D": "Le cas des rapports d'avant le 1er octobre est une information de transition : elle ne donne aucune raison de garder les originaux."
+              },
+              "trap": "Un connecteur de cause au début de la phrase suivante (« For this reason », « That is why ») exige que la phrase à insérer donne cette cause."
+            },
+            "en": {
+              "rule": "The sentence before is about following reports on the portal; the one after begins with \"For this reason\" and asks to keep paper receipts for 90 days. You need a reason for that precaution: a monthly check of a sample of reports.",
+              "distractors": {
+                "A": "The payment timing follows on from tracking a report, but it does not explain why to keep receipts: \"For this reason\" would connect to nothing.",
+                "C": "Portal access at any hour stays on the portal topic, but it does not justify keeping the paper receipts.",
+                "D": "Reports from before October 1 is transitional information: it gives no reason to keep the originals."
+              },
+              "trap": "A connector of cause at the start of the next sentence (\"For this reason\", \"That is why\") requires the inserted sentence to supply that cause."
+            }
+          }
+        },
+        {
+          "id": "p6-0002-4",
+          "tags": [
+            "pronouns"
+          ],
+          "difficulty": 2,
+          "options": [
+            "it",
+            "its",
+            "them",
+            "they"
+          ],
+          "answer": "C",
+          "evidence": [
+            "please keep the original paper receipts for 90 days."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Après « see », il faut un complément d'objet. Il reprend « the original paper receipts », un pluriel mentionné dans la phrase précédente : « them ».",
+              "distractors": {
+                "A": "« it » est un singulier : aucun nom singulier de la phrase d'avant n'est ce que Finance voudrait voir.",
+                "B": "« its » est un possessif : il faudrait un nom derrière (« its receipts »), or « at any time » suit.",
+                "D": "« they » est un pronom sujet : après « see », on attend un complément d'objet."
+              },
+              "trap": "Pour un pronom, cherche le référent (singulier ou pluriel) dans la phrase d'avant, puis sa fonction (sujet ou objet)."
+            },
+            "en": {
+              "rule": "After \"see\" you need an object. It refers to \"the original paper receipts\", a plural mentioned in the previous sentence: \"them\".",
+              "distractors": {
+                "A": "\"it\" is singular: no singular noun in the previous sentence is what Finance would want to see.",
+                "B": "\"its\" is a possessive: a noun would have to follow (\"its receipts\"), but \"at any time\" comes next.",
+                "D": "\"they\" is a subject pronoun: after \"see\", an object is expected."
+              },
+              "trap": "For a pronoun, find the referent (singular or plural) in the previous sentence, then its function (subject or object)."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p6-0003",
+      "part": 6,
+      "genre": "notice",
+      "text": "NOTICE TO ALL TENANTS OF CEDAR RIDGE BUSINESS PARK\n\nBeginning Monday, August 11, the north parking lot [[1]] by Redwood Paving Company. The work is expected to take two weeks, and the lot will reopen on Monday, August 25.\n\nTo reduce the inconvenience, we have arranged a [[2]] shuttle service from the south lot to the main entrance. Shuttles will run every ten minutes from 7:30 A.M. to 9:30 A.M.\n\nThe lot will have a new layout. By the time it reopens, the crew [[3]] all of the new parking lines.\n\nFinally, please remove your vehicle from the north lot by 6:00 P.M. on Friday, August 8. [[4]] To avoid this, please contact the management office if you need extra time.",
+      "questions": [
+        {
+          "id": "p6-0003-1",
+          "tags": [
+            "passive-voice"
+          ],
+          "difficulty": 2,
+          "options": [
+            "will be repaved",
+            "will repave",
+            "repaves",
+            "repaving"
+          ],
+          "answer": "A",
+          "explanation": {
+            "fr": {
+              "rule": "Le parking est le sujet et il subit les travaux ; « by Redwood Paving Company » donne l'auteur de l'action. Avec « Beginning Monday » (futur), le passif futur s'impose : « will be repaved ».",
+              "distractors": {
+                "B": "« will repave » est actif : le parking referait quelque chose, et il manquerait un complément d'objet.",
+                "C": "« repaves » est un actif au présent : même problème, et le repère « Beginning Monday » est futur.",
+                "D": "« repaving » est un -ing : seul, il ne peut pas être le verbe conjugué de la phrase."
+              },
+              "trap": "Un sujet qui subit l'action et un complément introduit par « by » = voix passive."
+            },
+            "en": {
+              "rule": "The parking lot is the subject and receives the work; \"by Redwood Paving Company\" names who does it. With \"Beginning Monday\" (future), the future passive is needed: \"will be repaved\".",
+              "distractors": {
+                "B": "\"will repave\" is active: the lot would be repaving something, and an object would be missing.",
+                "C": "\"repaves\" is an active present: same problem, and \"Beginning Monday\" is future.",
+                "D": "\"repaving\" is an -ing form: on its own it cannot be the finite verb of the sentence."
+              },
+              "trap": "A subject that receives the action plus a \"by\" phrase = passive voice."
+            }
+          }
+        },
+        {
+          "id": "p6-0003-2",
+          "tags": [
+            "word-form-adjective"
+          ],
+          "difficulty": 1,
+          "options": [
+            "rely",
+            "reliably",
+            "reliability",
+            "reliable"
+          ],
+          "answer": "D",
+          "explanation": {
+            "fr": {
+              "rule": "Entre l'article « a » et le nom « shuttle service », il faut un adjectif : « a reliable shuttle service ».",
+              "distractors": {
+                "A": "« rely » est un verbe : il ne se place pas devant un nom.",
+                "B": "« reliably » est un adverbe : il modifie un verbe ou un adjectif, pas un nom.",
+                "C": "« reliability » est un nom : « a reliability shuttle service » n'a pas de sens ici."
+              },
+              "trap": "Entre un article et un nom, la forme attendue est l'adjectif."
+            },
+            "en": {
+              "rule": "Between the article \"a\" and the noun \"shuttle service\", you need an adjective: \"a reliable shuttle service\".",
+              "distractors": {
+                "A": "\"rely\" is a verb: it does not go before a noun.",
+                "B": "\"reliably\" is an adverb: it modifies a verb or an adjective, not a noun.",
+                "C": "\"reliability\" is a noun: \"a reliability shuttle service\" makes no sense here."
+              },
+              "trap": "Between an article and a noun, the expected form is the adjective."
+            }
+          }
+        },
+        {
+          "id": "p6-0003-3",
+          "tags": [
+            "verb-tense"
+          ],
+          "difficulty": 3,
+          "options": [
+            "paints",
+            "painted",
+            "will have painted",
+            "was painting"
+          ],
+          "answer": "C",
+          "evidence": [
+            "the lot will reopen on Monday, August 25.",
+            "By the time it reopens,"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le texte annonce que le parking rouvrira le 25 août (futur). « By the time it reopens » fixe une échéance : l'action des ouvriers doit être terminée avant elle, d'où le futur antérieur « will have painted ».",
+              "distractors": {
+                "A": "« paints » est un présent simple (habitude ou fait général) : il n'exprime pas une action achevée avant une échéance future.",
+                "B": "« painted » est un prétérit : il situe l'action dans le passé, alors que la réouverture est à venir.",
+                "D": "« was painting » est un passé progressif : même problème, et l'action n'est pas présentée comme terminée."
+              },
+              "trap": "« By the time + présent » dans un contexte futur annonce un futur antérieur : « will have + participe passé »."
+            },
+            "en": {
+              "rule": "The text announces that the lot will reopen on August 25 (future). \"By the time it reopens\" sets a deadline: the crew's work must be finished before it, hence the future perfect \"will have painted\".",
+              "distractors": {
+                "A": "\"paints\" is a simple present (habit or general fact): it does not express an action completed before a future deadline.",
+                "B": "\"painted\" is a simple past: it places the action in the past, while the reopening is still to come.",
+                "D": "\"was painting\" is a past progressive: same problem, and the action is not presented as finished."
+              },
+              "trap": "\"By the time + present\" in a future context calls for the future perfect: \"will have + past participle\"."
+            }
+          }
+        },
+        {
+          "id": "p6-0003-4",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 2,
+          "options": [
+            "The south lot will remain open to all tenants during the entire project.",
+            "Any vehicle left there after that time will be towed at the owner's expense.",
+            "The new surface will include four spaces reserved for electric vehicles.",
+            "Crews will begin setting up their equipment at 7:00 A.M. on Monday."
+          ],
+          "answer": "B",
+          "evidence": [
+            "please remove your vehicle from the north lot by 6:00 P.M. on Friday, August 8.",
+            "To avoid this, please contact the management office if you need extra time."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase d'avant demande de retirer son véhicule avant 18 h le vendredi 8 août ; celle d'après commence par « To avoid this » et propose de contacter la direction pour avoir plus de temps. Il faut la phrase qui énonce la conséquence à éviter : la mise en fourrière.",
+              "distractors": {
+                "A": "Le parking sud ouvert est sur le thème, mais ce n'est pas une chose à « éviter » : « To avoid this » n'aurait pas de référent.",
+                "C": "Les places pour voitures électriques parlent de la future surface : rien à éviter, et aucun lien avec le déplacement des véhicules avant le 8 août.",
+                "D": "L'installation du matériel lundi est liée au calendrier des travaux, mais ce n'est pas un désagrément que l'on peut éviter en demandant du temps."
+              },
+              "trap": "« To avoid this » attend une conséquence négative dans la phrase d'avant : cherche-la dans l'option."
+            },
+            "en": {
+              "rule": "The sentence before asks tenants to remove their vehicle by 6:00 P.M. on Friday, August 8; the one after begins with \"To avoid this\" and offers to contact the office for more time. You need the sentence that states the consequence to avoid: towing.",
+              "distractors": {
+                "A": "The south lot staying open is on topic, but it is not something to \"avoid\": \"To avoid this\" would have no referent.",
+                "C": "Electric-vehicle spaces are about the future surface: nothing to avoid, and no link with moving cars before August 8.",
+                "D": "Setting up equipment on Monday fits the work schedule, but it is not a problem that asking for more time could avoid."
+              },
+              "trap": "\"To avoid this\" expects a negative consequence in the previous sentence: look for it in the option."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p6-0004",
+      "part": 6,
+      "genre": "advertisement",
+      "title": "Work Better at Harbor Desk",
+      "text": "Tired of working at your kitchen table? Harbor Desk, a new coworking space, opens on March 3 at 215 Dock Street. Our desks are [[1]] than those in a typical home office, and every member receives a private locker.\n\nWe offer flexible plans for freelancers and small teams. [[2]] After that, plans start at $90 per month, and you may cancel at any time.\n\nTo celebrate our opening, we are giving away free one-day passes. Bring this advertisement to the front desk before March 10 to [[3]] yours. Before you sign another long office lease, please consider [[4]] us.",
+      "questions": [
+        {
+          "id": "p6-0004-1",
+          "tags": [
+            "comparatives-superlatives"
+          ],
+          "difficulty": 1,
+          "options": [
+            "comfortable",
+            "most comfortable",
+            "more comfortable",
+            "comfortably"
+          ],
+          "answer": "C",
+          "explanation": {
+            "fr": {
+              "rule": "« than » annonce un comparatif. « comfortable » est un adjectif long : on le met au comparatif avec « more » (« more comfortable than »).",
+              "distractors": {
+                "A": "« comfortable » est la forme de base : sans « more », « than » ne peut pas suivre.",
+                "B": "« most comfortable » est un superlatif : il s'emploie avec « the » et jamais avec « than ».",
+                "D": "« comfortably » est un adverbe : après « are », on attend un adjectif."
+              },
+              "trap": "« than » = comparatif ; un superlatif s'accompagne de « the » et d'un groupe de comparaison (« of », « in »)."
+            },
+            "en": {
+              "rule": "\"than\" signals a comparative. \"comfortable\" is a long adjective, so its comparative is made with \"more\" (\"more comfortable than\").",
+              "distractors": {
+                "A": "\"comfortable\" is the base form: without \"more\", \"than\" cannot follow.",
+                "B": "\"most comfortable\" is a superlative: it goes with \"the\" and never with \"than\".",
+                "D": "\"comfortably\" is an adverb: after \"are\", an adjective is expected."
+              },
+              "trap": "\"than\" = comparative; a superlative comes with \"the\" and a group of comparison (\"of\", \"in\")."
+            }
+          }
+        },
+        {
+          "id": "p6-0004-2",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 3,
+          "options": [
+            "The grand opening party will begin at 6:00 P.M. on March 3.",
+            "Anyone who joins before March 15 will pay nothing for the first month.",
+            "Plans for teams of five or more start at $400 per month.",
+            "Day passes are also available for visitors at $20 each."
+          ],
+          "answer": "B",
+          "evidence": [
+            "We offer flexible plans for freelancers and small teams.",
+            "After that, plans start at $90 per month, and you may cancel at any time."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase d'avant présente des formules d'abonnement ; celle d'après commence par « After that » et donne le prix mensuel de 90 $. Il faut une période qui précède ce prix : le premier mois gratuit pour ceux qui s'inscrivent avant le 15 mars.",
+              "distractors": {
+                "A": "La soirée d'ouverture est sur le thème, mais elle ne se rattache pas aux abonnements, et « After that, plans start at $90 » n'aurait aucun sens après une fête.",
+                "C": "Le tarif des équipes prolonge la phrase d'avant, mais il se contredit avec « plans start at $90 » et « After that » n'aurait rien à suivre.",
+                "D": "Les pass journée parlent aussi de tarifs, mais ce ne sont pas des abonnements : « After that » ne suivrait aucune période."
+              },
+              "trap": "Un repère temporel comme « After that » exige qu'une période ou un événement précis le précède dans la phrase à insérer."
+            },
+            "en": {
+              "rule": "The sentence before introduces membership plans; the one after begins with \"After that\" and gives a monthly price of $90. You need a period that comes before that price: a free first month for people who join before March 15.",
+              "distractors": {
+                "A": "The opening party is on topic, but it has no link with the plans, and \"After that, plans start at $90\" makes no sense after a party.",
+                "C": "Team pricing continues the previous sentence, but it conflicts with \"plans start at $90\" and \"After that\" would follow nothing.",
+                "D": "Day passes also deal with prices, but they are not memberships: \"After that\" would follow no period."
+              },
+              "trap": "A time marker such as \"After that\" requires a specific period or event to precede it in the inserted sentence."
+            }
+          }
+        },
+        {
+          "id": "p6-0004-3",
+          "tags": [
+            "vocabulary-in-context"
+          ],
+          "difficulty": 2,
+          "options": [
+            "refund",
+            "relocate",
+            "recall",
+            "redeem"
+          ],
+          "answer": "D",
+          "evidence": [
+            "we are giving away free one-day passes."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase d'avant annonce des pass gratuits d'une journée ; il suffit d'apporter l'annonce à l'accueil pour « redeem yours », c'est-à-dire échanger son bon contre le pass.",
+              "distractors": {
+                "A": "« refund » (« rembourser ») se dit d'un paiement : le pass est gratuit et ne se rembourse pas.",
+                "B": "« relocate » (« déménager ») ne se dit pas d'un pass.",
+                "C": "« recall » (« se rappeler », « rappeler ») n'a pas de sens avec un pass à obtenir."
+              },
+              "trap": "En vocabulaire en contexte, appuie-toi sur l'objet évoqué plus haut (ici les pass gratuits) pour choisir le verbe."
+            },
+            "en": {
+              "rule": "The sentence before announces free one-day passes; bringing the ad to the front desk lets you \"redeem yours\", meaning exchange it for the pass.",
+              "distractors": {
+                "A": "\"refund\" refers to paying money back: the pass is free and cannot be refunded.",
+                "B": "\"relocate\" (\"to move\") is not said of a pass.",
+                "C": "\"recall\" (\"to remember\", \"to call back\") makes no sense with a pass to obtain."
+              },
+              "trap": "In vocabulary-in-context, rely on the object mentioned earlier (here the free passes) to choose the verb."
+            }
+          }
+        },
+        {
+          "id": "p6-0004-4",
+          "tags": [
+            "gerund-infinitive"
+          ],
+          "difficulty": 2,
+          "options": [
+            "visiting",
+            "to visit",
+            "visit",
+            "visited"
+          ],
+          "answer": "A",
+          "explanation": {
+            "fr": {
+              "rule": "Le verbe « consider » est suivi d'un verbe en -ing : « please consider visiting us ».",
+              "distractors": {
+                "B": "« to visit » est un infinitif : « consider » ne se construit pas ainsi.",
+                "C": "« visit » est la base verbale : elle ne peut pas suivre « consider » directement.",
+                "D": "« visited » est un participe passé : il ne convient pas après « consider » et ne peut pas avoir « us » pour complément ici."
+              },
+              "trap": "Certains verbes sont toujours suivis du -ing : consider, avoid, suggest, enjoy, finish."
+            },
+            "en": {
+              "rule": "The verb \"consider\" is followed by an -ing form: \"please consider visiting us\".",
+              "distractors": {
+                "B": "\"to visit\" is an infinitive: \"consider\" is not used this way.",
+                "C": "\"visit\" is the base form: it cannot follow \"consider\" directly.",
+                "D": "\"visited\" is a past participle: it does not fit after \"consider\" and cannot take \"us\" as its object here."
+              },
+              "trap": "Some verbs are always followed by -ing: consider, avoid, suggest, enjoy, finish."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p6-0005",
+      "part": 6,
+      "genre": "article",
+      "text": "Marguerite's Bakery has served the Alder Hill neighborhood for twelve years and will open a second shop on Fenwick Road next Monday. The new location, [[1]] was formerly a hardware store, has been completely renovated.\n\nOwner Marguerite Okafor says demand drove the decision. Customers often waited more than twenty minutes at the original shop on Saturday mornings. [[2]] the new shop will have three ovens instead of one, she expects lines to be much shorter.\n\nThe shop will open at 6:30 A.M. on Monday, and the first fifty customers will receive a free coffee. [[3]] On Wednesday, for instance, every loaf of the popular rye bread will be half price.\n\nMs. Okafor has hired six new employees, all of whom were [[4]] trained during the past month.",
+      "questions": [
+        {
+          "id": "p6-0005-1",
+          "tags": [
+            "relative-clauses"
+          ],
+          "difficulty": 3,
+          "options": [
+            "that",
+            "which",
+            "who",
+            "where"
+          ],
+          "answer": "B",
+          "explanation": {
+            "fr": {
+              "rule": "Le groupe entre virgules « , ___ was formerly a hardware store, » est une relative non restrictive qui ajoute une information sur « The new location » (une chose) et dont le pronom est le sujet de « was » : « which ».",
+              "distractors": {
+                "A": "« that » est le pronom des relatives restrictives : il ne s'emploie jamais après une virgule.",
+                "C": "« who » ne désigne que des personnes ; « location » est un lieu.",
+                "D": "« where » introduit une relative qui a son propre sujet (« where the owner sold tools ») ; ici « was » n'a pas d'autre sujet, il faut donc un pronom sujet."
+              },
+              "trap": "Virgule avant le pronom relatif : pas de « that ». Prends « which » (chose) ou « who » (personne)."
+            },
+            "en": {
+              "rule": "The group between commas \"__ was formerly a hardware store\" is a non-restrictive relative clause about \"The new location\" (a thing), and the pronoun is the subject of \"was\": \"which\".",
+              "distractors": {
+                "A": "\"that\" is the relative pronoun for restrictive clauses: it is never used after a comma.",
+                "C": "\"who\" refers only to people; a location is not a person.",
+                "D": "\"where\" starts a clause that has its own subject (\"where the owner sold tools\"); here \"was\" has no other subject, so a subject pronoun is required."
+              },
+              "trap": "Comma before the relative pronoun: never \"that\". Use \"which\" (things) or \"who\" (people)."
+            }
+          }
+        },
+        {
+          "id": "p6-0005-2",
+          "tags": [
+            "conjunctions-connectors"
+          ],
+          "difficulty": 2,
+          "options": [
+            "Because",
+            "Although",
+            "Unless",
+            "Whereas"
+          ],
+          "answer": "A",
+          "evidence": [
+            "Customers often waited more than twenty minutes at the original shop on Saturday mornings."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase d'avant décrit le problème (les clients attendaient plus de vingt minutes avec un seul four). Les trois fours expliquent pourquoi les files seront plus courtes : il faut une conjonction de cause, « Because ».",
+              "distractors": {
+                "B": "« Although » marque une concession : or avoir plus de fours ne s'oppose pas à des files plus courtes, cela les explique.",
+                "C": "« Unless » (« à moins que ») introduit une condition négative, ce que le sens exclut ici.",
+                "D": "« Whereas » oppose deux faits sans lien de cause ; ici la principale exprime une conséquence attendue des trois fours, pas un contraste."
+              },
+              "trap": "Choisis le connecteur d'après le rapport logique entre les idées (cause, opposition, condition), pas d'après la grammaire seule."
+            },
+            "en": {
+              "rule": "The sentence before states the problem (customers waited more than twenty minutes with only one oven). The three ovens explain why lines will be shorter, so you need a conjunction of cause: \"Because\".",
+              "distractors": {
+                "B": "\"Although\" signals a concession, but having more ovens does not contrast with shorter lines: it explains them.",
+                "C": "\"Unless\" (\"if not\") introduces a negative condition, which the meaning rules out.",
+                "D": "\"Whereas\" contrasts two facts with no cause link; here the main clause is an expected result of the three ovens, not a contrast."
+              },
+              "trap": "Pick the connector from the logical link between the ideas (cause, contrast, condition), not from grammar alone."
+            }
+          }
+        },
+        {
+          "id": "p6-0005-3",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 2,
+          "options": [
+            "The original shop on Alder Road will keep its regular opening hours.",
+            "Ms. Okafor learned to bake bread from her grandmother in Lagos.",
+            "Several local suppliers will deliver the flour and butter each morning.",
+            "Special offers will then continue for the rest of the opening week."
+          ],
+          "answer": "D",
+          "evidence": [
+            "the first fifty customers will receive a free coffee",
+            "On Wednesday, for instance, every loaf of the popular rye bread will be half price."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase d'avant annonce un café offert aux cinquante premiers clients le jour de l'ouverture ; la suivante donne un exemple (« for instance ») d'offre le mercredi. Il manque la phrase générale qui dit que les offres se poursuivent pendant la semaine.",
+              "distractors": {
+                "A": "Les horaires de l'ancienne boutique ne préparent pas l'exemple « for instance » : aucune offre n'est évoquée à ce moment-là.",
+                "B": "Une anecdote sur l'enfance de la propriétaire n'a aucun lien avec le café offert ni avec le pain à moitié prix.",
+                "C": "Les livraisons de farine sont sur le thème de la boulangerie, mais « On Wednesday, for instance » n'aurait aucune généralité à illustrer."
+              },
+              "trap": "Un « for instance » ou « for example » dans la phrase d'après demande une généralité juste avant : cherche-la."
+            },
+            "en": {
+              "rule": "The sentence before announces a free coffee for the first fifty customers on opening day; the next one gives an example (\"for instance\") of a Wednesday offer. The missing sentence is the general statement that offers continue during the week.",
+              "distractors": {
+                "A": "The old shop's hours do not set up the \"for instance\" example: no offer has been mentioned at that point.",
+                "B": "A story about the owner's childhood has no link to the free coffee or to half-price bread.",
+                "C": "Flour deliveries stay on the bakery theme, but \"On Wednesday, for instance\" would have no general statement to illustrate."
+              },
+              "trap": "\"For instance\" or \"for example\" in the following sentence calls for a general statement just before it: look for it."
+            }
+          }
+        },
+        {
+          "id": "p6-0005-4",
+          "tags": [
+            "word-form-adverb"
+          ],
+          "difficulty": 1,
+          "options": [
+            "thorough",
+            "thoroughness",
+            "thoroughly",
+            "thoroughest"
+          ],
+          "answer": "C",
+          "explanation": {
+            "fr": {
+              "rule": "Le trou est entre « were » et le participe « trained » : pour modifier un verbe (ici un participe passé), il faut un adverbe, « thoroughly ».",
+              "distractors": {
+                "A": "« thorough » est un adjectif : il décrit un nom, pas un participe.",
+                "B": "« thoroughness » est un nom (« la minutie ») : il ne peut pas se placer entre « were » et « trained ».",
+                "D": "« thoroughest » est un superlatif d'adjectif et demanderait « the » devant un nom."
+              },
+              "trap": "Entre l'auxiliaire et le participe, on met un adverbe en -ly."
+            },
+            "en": {
+              "rule": "The blank sits between \"were\" and the participle \"trained\": to modify a verb form you need an adverb, \"thoroughly\".",
+              "distractors": {
+                "A": "\"thorough\" is an adjective: it describes a noun, not a participle.",
+                "B": "\"thoroughness\" is a noun (\"care and detail\"): it cannot sit between \"were\" and \"trained\".",
+                "D": "\"thoroughest\" is a superlative adjective and would need \"the\" before a noun."
+              },
+              "trap": "Between an auxiliary and a participle, use an -ly adverb."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p6-0006",
+      "part": 6,
+      "genre": "letter",
+      "text": "December 2\n\nDear Ms. Lindqvist,\n\nThank you for your continued business. Over the past five years, Harlow Packaging has been proud to [[1]] your company's packaging needs.\n\nBecause of rising paper costs, we must adjust our prices. The new rates [[2]] effect on January 1, and all orders placed before that date will be billed at the current prices. A detailed price list is enclosed.\n\nMr. Petrov, our account manager, has worked with your team since 2021. [[3]] familiarity with your orders is why he will remain your main contact.\n\nWe value our partnership and want to make this change as smooth as possible. [[4]] It applies to any customer who orders more than 500 units a month. Please call Mr. Petrov at 555-0148 with any questions.\n\nSincerely,\nTomas Reyes\nSales Director, Harlow Packaging",
+      "questions": [
+        {
+          "id": "p6-0006-1",
+          "tags": [
+            "collocations"
+          ],
+          "difficulty": 2,
+          "options": [
+            "reach",
+            "hold",
+            "carry",
+            "meet"
+          ],
+          "answer": "D",
+          "explanation": {
+            "fr": {
+              "rule": "On dit « meet someone's needs » (répondre aux besoins de quelqu'un) : c'est la collocation figée avec « needs ».",
+              "distractors": {
+                "A": "« reach » se dit d'un objectif ou d'un lieu (« reach a target »), pas de besoins.",
+                "B": "« hold » signifie tenir ou organiser (« hold a meeting ») ; il ne se construit pas avec « needs ».",
+                "C": "« carry » signifie porter ou stocker (« carry a product line ») ; on ne « porte » pas les besoins d'un client."
+              },
+              "trap": "Apprends « meet » avec : needs, requirements, deadline, demand, standards."
+            },
+            "en": {
+              "rule": "The fixed phrase is \"meet someone's needs\" (satisfy them): it is the standard collocation with \"needs\".",
+              "distractors": {
+                "A": "\"reach\" goes with a goal or a place (\"reach a target\"), not with needs.",
+                "B": "\"hold\" means to keep or organize (\"hold a meeting\"); it does not combine with \"needs\".",
+                "C": "\"carry\" means to bring or stock (\"carry a product line\"); you do not \"carry\" a client's needs."
+              },
+              "trap": "Learn \"meet\" with: needs, requirements, a deadline, demand, standards."
+            }
+          }
+        },
+        {
+          "id": "p6-0006-2",
+          "tags": [
+            "verb-tense"
+          ],
+          "difficulty": 2,
+          "options": [
+            "took",
+            "have taken",
+            "will take",
+            "had taken"
+          ],
+          "answer": "C",
+          "evidence": [
+            "December 2",
+            "all orders placed before that date will be billed at the current prices"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La lettre est datée du « December 2 » et la date d'entrée en vigueur est le « January 1 » : le fait est à venir. De plus, « all orders placed before that date will be billed at the current prices » confirme que cette date n'est pas encore passée. Il faut le futur : « will take effect ».",
+              "distractors": {
+                "A": "« took » est un prétérit : il parlerait d'un 1er janvier déjà passé, alors que la lettre est écrite le 2 décembre.",
+                "B": "« have taken » est un present perfect : il relie un fait déjà arrivé au présent, ce qui n'est pas le cas d'une date à venir.",
+                "D": "« had taken » est un plus-que-parfait : il suppose un événement antérieur à un autre événement passé, ce qui n'a pas de sens ici."
+              },
+              "trap": "Cherche toujours une date ailleurs dans le texte : passée ou future, elle impose le temps du verbe."
+            },
+            "en": {
+              "rule": "The letter is dated \"December 2\" and the effective date is \"January 1\": the event is in the future. Also, \"all orders placed before that date will be billed at the current prices\" confirms that date has not arrived. You need the future: \"will take effect\".",
+              "distractors": {
+                "A": "\"took\" is a simple past: it would describe a January 1 that has already gone, yet the letter is written on December 2.",
+                "B": "\"have taken\" is a present perfect: it links a past event to now, which does not work for a future date.",
+                "D": "\"had taken\" is a past perfect: it needs an event earlier than another past event, which makes no sense here."
+              },
+              "trap": "Look for a date elsewhere in the text: past or future, it decides the verb tense."
+            }
+          }
+        },
+        {
+          "id": "p6-0006-3",
+          "tags": [
+            "pronouns"
+          ],
+          "difficulty": 1,
+          "options": [
+            "His",
+            "He",
+            "Him",
+            "Her"
+          ],
+          "answer": "A",
+          "evidence": [
+            "Mr. Petrov, our account manager, has worked with your team since 2021."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le sujet de la phrase est « ___ familiarity » : devant un nom, il faut un adjectif possessif. Le référent est « Mr. Petrov », cité dans la phrase précédente : un homme, donc « His ».",
+              "distractors": {
+                "B": "« He » est un pronom sujet : il ne se place pas devant un nom (« He familiarity » est impossible).",
+                "C": "« Him » est un pronom complément : même problème, on attend un possessif devant « familiarity ».",
+                "D": "« Her » serait un possessif, mais « Mr. Petrov » est un homme : le référent ne correspond pas."
+              },
+              "trap": "Pour un pronom ou un possessif, trouve d'abord le référent dans la phrase d'avant : genre et nombre."
+            },
+            "en": {
+              "rule": "The subject is \"___ familiarity\": before a noun you need a possessive determiner. The referent is \"Mr. Petrov\", named in the previous sentence: a man, so \"His\".",
+              "distractors": {
+                "B": "\"He\" is a subject pronoun: it cannot go before a noun (\"He familiarity\" is impossible).",
+                "C": "\"Him\" is an object pronoun: same problem, a possessive is needed before \"familiarity\".",
+                "D": "\"Her\" is a possessive, but \"Mr. Petrov\" is a man: it does not match the referent."
+              },
+              "trap": "For a pronoun or possessive, find the referent in the previous sentence first: gender and number."
+            }
+          }
+        },
+        {
+          "id": "p6-0006-4",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 3,
+          "options": [
+            "Our new warehouse in Rotterdam opened in March of last year.",
+            "To that end, we are introducing a new loyalty discount.",
+            "We are confident that the quality of our service will not be affected.",
+            "Our sales office will be closed from December 24 to January 2."
+          ],
+          "answer": "B",
+          "evidence": [
+            "We value our partnership and want to make this change as smooth as possible.",
+            "It applies to any customer who orders more than 500 units a month."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase d'avant dit vouloir rendre le changement aussi doux que possible. « To that end » reprend ce but et annonce une mesure : une remise de fidélité. La phrase suivante, « It applies to any customer who orders more than 500 units a month », a besoin d'un « it » qui désigne cette remise.",
+              "distractors": {
+                "A": "Un entrepôt ouvert l'an dernier est un fait sans lien avec le changement de tarifs, et « It applies to… » n'aurait aucun référent.",
+                "C": "Rassurer sur la qualité va dans le sens de la phrase d'avant, mais « It » ne peut pas désigner la qualité du service : on ne dit pas qu'elle « s'applique » aux clients de plus de 500 unités.",
+                "D": "La fermeture du bureau est un détail pratique hors sujet, et « It applies to any customer… » ne pourrait pas s'y rattacher."
+              },
+              "trap": "Un « it », « this » ou « that » dans la phrase d'après doit avoir un référent dans la phrase insérée : vérifie-le avant de choisir."
+            },
+            "en": {
+              "rule": "The sentence before says the company wants the change to be as smooth as possible. \"To that end\" picks up this goal and announces a measure: a loyalty discount. The next sentence, \"It applies to any customer who orders more than 500 units a month\", needs an \"it\" that points to that discount.",
+              "distractors": {
+                "A": "A warehouse opened last year is unrelated to the price change, and \"It applies to...\" would have no referent.",
+                "C": "Reassuring about quality fits the previous sentence, but \"It\" cannot mean the quality of the service: quality does not \"apply to\" customers who order 500 units.",
+                "D": "The office closing is an off-topic practical detail, and \"It applies to any customer...\" could not attach to it."
+              },
+              "trap": "An \"it\", \"this\" or \"that\" in the following sentence needs a referent in the inserted sentence: check it before choosing."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p6-0007",
+      "part": 6,
+      "genre": "announcement",
+      "title": "Volunteer Day at Brightwell Logistics",
+      "text": "Brightwell Logistics will hold its annual Volunteer Day on Friday, May 16. [[1]] employee will receive one paid day off to work with a local charity of his or her choice. Last year, more than 200 colleagues took part, and the projects ranged from painting a school to sorting food at a regional food bank.\n\nThis year's list of partner organizations is available on the intranet. [[2]] Please register through the Human Resources portal by May 2, so that coordinators can match you with an open project.\n\nMany past participants said that the stories they heard at the food bank left them deeply [[3]], and several still volunteer on weekends. [[4]] the day is fully paid, you will not need to use any vacation time. We hope to see you there!",
+      "questions": [
+        {
+          "id": "p6-0007-1",
+          "tags": [
+            "quantifiers-determiners"
+          ],
+          "difficulty": 1,
+          "options": [
+            "Every",
+            "All",
+            "Many",
+            "Several"
+          ],
+          "answer": "A",
+          "explanation": {
+            "fr": {
+              "rule": "« employee » est un nom singulier, et la suite dit « his or her choice » : il faut un déterminant qui se place devant un singulier, « Every ».",
+              "distractors": {
+                "B": "« All » se construit avec un pluriel (« all employees ») ou un indénombrable, pas avec « employee » au singulier.",
+                "C": "« Many » exige un pluriel (« many employees »).",
+                "D": "« Several » exige aussi un pluriel."
+              },
+              "trap": "every / each + nom singulier ; all / many / several + nom pluriel."
+            },
+            "en": {
+              "rule": "\"employee\" is a singular noun, and the text continues with \"his or her choice\": you need a determiner used with a singular noun, \"Every\".",
+              "distractors": {
+                "B": "\"All\" takes a plural (\"all employees\") or an uncountable noun, not singular \"employee\".",
+                "C": "\"Many\" requires a plural (\"many employees\").",
+                "D": "\"Several\" also requires a plural."
+              },
+              "trap": "every / each + singular noun; all / many / several + plural noun."
+            }
+          }
+        },
+        {
+          "id": "p6-0007-2",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 2,
+          "options": [
+            "Last year's volunteers sent thank-you notes to many of the charities.",
+            "Employees who prefer to work from home may do so on that day.",
+            "Participation in the program has doubled over the past three years.",
+            "Each project has a limited number of places, and these are filled first come, first served."
+          ],
+          "answer": "D",
+          "evidence": [
+            "This year's list of partner organizations is available on the intranet.",
+            "Please register through the Human Resources portal by May 2, so that coordinators can match you with an open project."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase d'après demande de s'inscrire avant le 2 mai pour être associé à un projet « open ». La phrase manquante explique pourquoi : chaque projet a un nombre de places limité, attribuées dans l'ordre des inscriptions.",
+              "distractors": {
+                "A": "Les remerciements de l'an dernier regardent le passé et ne justifient pas la demande de s'inscrire maintenant.",
+                "B": "Elle va à l'encontre de l'esprit de la journée, consacrée à un travail avec une association, et n'a aucun lien avec l'inscription.",
+                "C": "Elle est sur le thème de la participation, mais elle viendrait après « more than 200 colleagues took part » ; ici elle n'amène pas « Please register »."
+              },
+              "trap": "Une consigne (« Please register… ») est souvent précédée de la raison qui la justifie : cherche-la."
+            },
+            "en": {
+              "rule": "The next sentence asks you to register by May 2 to be matched with an \"open\" project. The missing sentence gives the reason: each project has a limited number of places, filled in order of registration.",
+              "distractors": {
+                "A": "Last year's thank-you notes look back and do not explain why you must register now.",
+                "B": "It goes against the spirit of the day, which is about working with a charity, and has no link to registration.",
+                "C": "It stays on the topic of participation, but it would belong after \"more than 200 colleagues took part\"; here it does not lead into \"Please register\"."
+              },
+              "trap": "An instruction (\"Please register...\") is often preceded by the reason for it: look for that reason."
+            }
+          }
+        },
+        {
+          "id": "p6-0007-3",
+          "tags": [
+            "participle-adjectives"
+          ],
+          "difficulty": 3,
+          "options": [
+            "moving",
+            "moved",
+            "movement",
+            "move"
+          ],
+          "answer": "B",
+          "evidence": [
+            "the stories they heard at the food bank left them"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Les histoires « left them deeply ___ » : ce sont les participants (« them ») qui ressentent l'émotion, donc le participe passé en -ed, « moved ».",
+              "distractors": {
+                "A": "« moving » décrit ce qui provoque l'émotion (« the stories were moving »), pas les personnes qui la ressentent : « left them deeply moving » n'a pas de sens.",
+                "C": "« movement » est un nom : il ne peut pas compléter « left them deeply ».",
+                "D": "« move » est un verbe à la base verbale : il ne décrit pas l'état des participants."
+              },
+              "trap": "-ing = ce qui cause l'émotion ; -ed = celui qui la ressent. Regarde le complément : « them » ressent."
+            },
+            "en": {
+              "rule": "The stories \"left them deeply ___\": the participants (\"them\") feel the emotion, so you need the -ed participle, \"moved\".",
+              "distractors": {
+                "A": "\"moving\" describes what causes the feeling (\"the stories were moving\"), not the people who feel it: \"left them deeply moving\" makes no sense.",
+                "C": "\"movement\" is a noun: it cannot complete \"left them deeply\".",
+                "D": "\"move\" is the base form of a verb: it does not describe the state of the participants."
+              },
+              "trap": "-ing = what causes the feeling; -ed = who feels it. Check the object: \"them\" is the one who feels."
+            }
+          }
+        },
+        {
+          "id": "p6-0007-4",
+          "tags": [
+            "conjunctions-connectors"
+          ],
+          "difficulty": 2,
+          "options": [
+            "Although",
+            "Unless",
+            "Since",
+            "Despite"
+          ],
+          "answer": "C",
+          "evidence": [
+            "one paid day off"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le premier paragraphe dit que chaque employé reçoit « one paid day off ». C'est la raison pour laquelle il n'aura pas à poser de congés : il faut une conjonction de cause, « Since ».",
+              "distractors": {
+                "A": "« Although » exprime une opposition : une journée payée n'est pas en contradiction avec le fait de ne pas poser de congés, elle l'explique.",
+                "B": "« Unless » (« à moins que ») introduit une condition négative, ce qui ne correspond pas au sens.",
+                "D": "« Despite » est une préposition : elle ne peut pas introduire « the day is fully paid » (sujet + verbe), et le sens serait de toute façon contraire."
+              },
+              "trap": "Pour une conjonction de Part 6, relis les phrases d'avant : cause, opposition ou condition ?"
+            },
+            "en": {
+              "rule": "The first paragraph says every employee receives \"one paid day off\". That is the reason nobody needs to use vacation time: you need a conjunction of cause, \"Since\".",
+              "distractors": {
+                "A": "\"Although\" expresses a contrast: a paid day does not clash with not using vacation time, it explains it.",
+                "B": "\"Unless\" (\"if not\") introduces a negative condition, which does not fit the meaning.",
+                "D": "\"Despite\" is a preposition: it cannot introduce \"the day is fully paid\" (subject + verb), and the meaning would be reversed anyway."
+              },
+              "trap": "For a Part 6 conjunction, reread the previous sentences: cause, contrast or condition?"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p6-0008",
+      "part": 6,
+      "genre": "instructions",
+      "title": "How to Activate Your New Access Badge",
+      "text": "Every new employee at Calder Financial receives an access badge on the first day. Each badge [[1]] a unique number on the back, which you will need during activation. Your badge will stop working if it is not activated [[2]] seven days of issue.\n\n1. Bring your badge and a photo ID to the Security Desk in the main lobby.\n2. Hand the badge to the officer, who will scan it and register it under your name. [[3]] If both are correct, enter a four-digit PIN of your choice on the keypad.\n3. Hold the badge against any door reader to test it.\n\nA badge that is not used for 30 days is automatically [[4]]. To restore access, return to the Security Desk with your photo ID.",
+      "questions": [
+        {
+          "id": "p6-0008-1",
+          "tags": [
+            "subject-verb-agreement"
+          ],
+          "difficulty": 1,
+          "options": [
+            "have",
+            "are",
+            "has",
+            "having"
+          ],
+          "answer": "C",
+          "explanation": {
+            "fr": {
+              "rule": "Le sujet « Each badge » est singulier, et le verbe doit être conjugué au présent : « has ».",
+              "distractors": {
+                "A": "« have » s'accorde avec un sujet pluriel ou « I / you / we / they ».",
+                "B": "« are » est une forme de « be » au pluriel : « Each badge are a unique number » n'a ni accord ni sens.",
+                "D": "« having » est un participe présent : sans verbe conjugué, la phrase n'aurait pas de verbe principal."
+              },
+              "trap": "« each », « every », « one of » + singulier : le verbe prend le « -s » (has, is, was)."
+            },
+            "en": {
+              "rule": "The subject \"Each badge\" is singular and the verb must be conjugated in the present: \"has\".",
+              "distractors": {
+                "A": "\"have\" goes with a plural subject or \"I / you / we / they\".",
+                "B": "\"are\" is a plural form of \"be\": \"Each badge are a unique number\" has neither agreement nor meaning.",
+                "D": "\"having\" is a present participle: without a conjugated verb the sentence would have no main verb."
+              },
+              "trap": "\"each\", \"every\", \"one of\" + singular: the verb takes -s (has, is, was)."
+            }
+          }
+        },
+        {
+          "id": "p6-0008-2",
+          "tags": [
+            "prepositions"
+          ],
+          "difficulty": 2,
+          "options": [
+            "during",
+            "within",
+            "between",
+            "toward"
+          ],
+          "answer": "B",
+          "explanation": {
+            "fr": {
+              "rule": "« seven days of issue » donne un délai chiffré à partir de la remise du badge : « within seven days of issue » signifie « au plus tard sept jours après ».",
+              "distractors": {
+                "A": "« during » s'emploie avec une période (« during the first week »), pas avec un délai compté à partir d'un point de départ.",
+                "C": "« between » demande deux points (« between May 1 and May 7 »).",
+                "D": "« toward » exprime une direction ou une approximation (« toward the end of the week »), pas un délai maximal."
+              },
+              "trap": "Délai chiffré à partir d'un point : « within ». Période déjà connue : « during »."
+            },
+            "en": {
+              "rule": "\"seven days of issue\" gives a numbered time limit counted from the day the badge is issued: \"within seven days of issue\" means \"no later than seven days after\".",
+              "distractors": {
+                "A": "\"during\" is used with a period (\"during the first week\"), not with a time limit counted from a starting point.",
+                "C": "\"between\" needs two points (\"between May 1 and May 7\").",
+                "D": "\"toward\" expresses direction or approximation (\"toward the end of the week\"), not a maximum time limit."
+              },
+              "trap": "Numbered time limit from a starting point: \"within\". A period already named: \"during\"."
+            }
+          }
+        },
+        {
+          "id": "p6-0008-3",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 2,
+          "options": [
+            "Check that the photo on the screen is yours and that your name is spelled correctly.",
+            "Badges are made of recycled plastic and should not be bent or exposed to heat.",
+            "If you lose your badge, report it to the Security Desk immediately.",
+            "Visitors receive a temporary badge that expires at the end of the day."
+          ],
+          "answer": "A",
+          "evidence": [
+            "Hand the badge to the officer, who will scan it and register it under your name.",
+            "If both are correct, enter a four-digit PIN of your choice on the keypad."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase d'après commence par « If both are correct » : il faut donc, juste avant, une phrase qui cite deux éléments à vérifier. La phrase correcte demande de vérifier la photo et l'orthographe du nom, après l'enregistrement du badge.",
+              "distractors": {
+                "B": "Les matériaux du badge sont sur le thème, mais ils ne donnent pas « both » à vérifier avant d'entrer le code PIN.",
+                "C": "Signaler une perte de badge est une autre démarche ; « If both are correct » n'aurait pas de référent.",
+                "D": "Les badges visiteurs sont un autre sujet, et la phrase d'après n'y est pas rattachée."
+              },
+              "trap": "Dans des instructions, cherche les mots de liaison (« both », « then », « this ») : ils indiquent ce que la phrase manquante doit contenir."
+            },
+            "en": {
+              "rule": "The next sentence begins with \"If both are correct\": the sentence just before must therefore mention two things to check. The right sentence asks you to check the photo and the spelling of your name after the badge is registered.",
+              "distractors": {
+                "B": "The badge materials are on topic, but they do not give \"both\" things to check before entering the PIN.",
+                "C": "Reporting a lost badge is a different procedure; \"If both are correct\" would have no referent.",
+                "D": "Visitor badges are a different subject, and the next sentence does not connect to them."
+              },
+              "trap": "In instructions, look for linking words (\"both\", \"then\", \"this\"): they show what the missing sentence must contain."
+            }
+          }
+        },
+        {
+          "id": "p6-0008-4",
+          "tags": [
+            "vocabulary-in-context"
+          ],
+          "difficulty": 3,
+          "options": [
+            "approved",
+            "released",
+            "replaced",
+            "disabled"
+          ],
+          "answer": "D",
+          "evidence": [
+            "To restore access, return to the Security Desk with your photo ID."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le texte enchaîne sur « To restore access, return to the Security Desk » : un badge inutilisé pendant 30 jours perd donc son accès. « disabled » (désactivé) est le seul mot qui correspond à cette situation.",
+              "distractors": {
+                "A": "« approved » (approuvé) a un sens positif : il irait à l'inverse de « To restore access ».",
+                "B": "« released » (remis, libéré) ne dit rien d'une perte d'accès et n'explique pas la phrase suivante.",
+                "C": "« replaced » (remplacé) est tentant à cause du retour au bureau, mais personne ne remplace automatiquement un badge : la phrase suivante parle de restaurer l'accès, pas d'un nouveau badge."
+              },
+              "trap": "En vocabulaire en contexte, la phrase d'après donne souvent la clé : ici « restore access » implique une perte d'accès."
+            },
+            "en": {
+              "rule": "The text goes on with \"To restore access, return to the Security Desk\": a badge unused for 30 days therefore loses its access. \"disabled\" is the only word that matches this situation.",
+              "distractors": {
+                "A": "\"approved\" has a positive meaning: it would go against \"To restore access\".",
+                "B": "\"released\" (issued, set free) says nothing about losing access and does not explain the next sentence.",
+                "C": "\"replaced\" is tempting because of the return to the desk, but nobody automatically replaces a badge: the next sentence is about restoring access, not about a new badge."
+              },
+              "trap": "In vocabulary questions, the next sentence often gives the key: here \"restore access\" means access was lost."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

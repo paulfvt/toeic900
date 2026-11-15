@@ -1,0 +1,119 @@
+{
+  "tag": "subject-verb-agreement",
+  "fr": {
+    "title": "Accord sujet-verbe",
+    "summary": "Le verbe s'accorde avec son vrai sujet, pas avec le nom le plus proche. Au TOEIC, des mots intercalés, un sujet qui ressemble à un pluriel ou une expression comme « a number of » cherchent à te faire choisir la mauvaise forme.",
+    "keyPoints": [
+      "Repère le **noyau du sujet** et barre ce qui l'entoure : « The list **of items** » : le verbe suit « list », donc « is ».",
+      "Toujours singuliers : « each », « every », « everyone », « either », « neither » + nom singulier, un gérondif sujet et « news ».",
+      "« A number of » + pluriel : verbe pluriel. « The number of » + pluriel : verbe singulier."
+    ],
+    "rules": [
+      {
+        "title": "Trouver le vrai sujet",
+        "text": "Un groupe introduit par « of », « in », « with », « along with » ou « as well as », ou une relative placée après le sujet, ne change pas l'accord. Le verbe s'accorde avec le nom noyau, souvent le premier nom de la phrase.",
+        "examples": [
+          {"en": "The list of items on the invoice **is** incomplete.", "note": "Le sujet est « list » (singulier), pas « items »."},
+          {"en": "The manager, along with two assistants, **is** attending the trade fair.", "note": "« along with two assistants » est un ajout : le sujet reste « the manager »."}
+        ]
+      },
+      {
+        "title": "Les sujets toujours singuliers",
+        "text": "« Each », « every », « everyone », « everybody », « either » et « neither » + nom singulier prennent un verbe singulier, même avec « of » + pluriel (« each of the employees »). Il en va de même d'un gérondif sujet et de « news ».",
+        "examples": [
+          {"en": "Every employee in the department **has** a parking permit.", "note": "« every » + nom singulier : « has »."},
+          {"en": "Reviewing all the contracts **takes** several hours.", "note": "Un gérondif sujet se comporte comme un singulier."},
+          {"en": "The news from the head office **was** encouraging.", "note": "« news » finit par -s mais reste singulier."}
+        ]
+      },
+      {
+        "title": "Les sujets pluriels et « number »",
+        "text": "« Both », « several », « many » et « few » + pluriel prennent un verbe pluriel. « A number of » + nom pluriel signifie « plusieurs » : verbe pluriel. « The number of » + nom pluriel désigne un chiffre : le sujet est « number », verbe singulier.",
+        "examples": [
+          {"en": "A number of clients **have** requested a refund.", "note": "« a number of » = plusieurs clients : pluriel."},
+          {"en": "The number of applicants **has** doubled this year.", "note": "Le sujet est « the number » : singulier."}
+        ]
+      },
+      {
+        "title": "« There is / are » et la relative",
+        "text": "Après « there », le verbe s'accorde avec le nom qui suit. Dans une relative, le verbe s'accorde avec l'antécédent du pronom « who » ou « which », c'est-à-dire le nom placé juste avant.",
+        "examples": [
+          {"en": "There **are** three candidates waiting in the lobby.", "note": "Le nom qui suit (« candidates ») est pluriel."},
+          {"en": "The employees who **work** night shifts receive a bonus.", "note": "« who » remplace « employees » : « work » sans -s."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "Le nom intercalé qui attire l'oreille",
+        "text": "Le distracteur est le verbe qui s'accorde avec le nom voisin du trou (« The list of items ___ »). Barre mentalement le groupe en « of » ou la virgule et relis : sujet + verbe seuls."
+      },
+      {
+        "title": "« One of the » + pluriel",
+        "text": "Après « one of the », « each of the » ou « neither of the » + pluriel, le verbe reste singulier : « One of the printers **is** broken ». Le nom pluriel juste avant le verbe est le piège."
+      },
+      {
+        "title": "Le -s des noms et des verbes",
+        "text": "Un verbe au présent prend -s au singulier (« the manager approves »), un nom prend -s au pluriel (« the managers approve »). Si le sujet n'a pas de -s, le verbe en a un. Et attention à « news », « series », « means »."
+      }
+    ]
+  },
+  "en": {
+    "title": "Subject-verb agreement",
+    "summary": "The verb agrees with its real subject, not with the nearest noun. On the TOEIC, words placed in between, a subject that looks plural or an expression like \"a number of\" try to make you choose the wrong form.",
+    "keyPoints": [
+      "Find the **core of the subject** and ignore what surrounds it: \"The list **of items**\": the verb follows \"list\", so \"is\".",
+      "Always singular: \"each\", \"every\", \"everyone\", \"either\", \"neither\" + singular noun, a gerund subject and \"news\".",
+      "\"A number of\" + plural: plural verb. \"The number of\" + plural: singular verb."
+    ],
+    "rules": [
+      {
+        "title": "Finding the real subject",
+        "text": "A group introduced by \"of\", \"in\", \"with\", \"along with\" or \"as well as\", or a relative clause placed after the subject, does not change the agreement. The verb agrees with the core noun, often the first noun in the sentence.",
+        "examples": [
+          {"en": "The list of items on the invoice **is** incomplete.", "note": "The subject is \"list\" (singular), not \"items\"."},
+          {"en": "The manager, along with two assistants, **is** attending the trade fair.", "note": "\"along with two assistants\" is an addition: the subject stays \"the manager\"."}
+        ]
+      },
+      {
+        "title": "Subjects that are always singular",
+        "text": "\"Each\", \"every\", \"everyone\", \"everybody\", \"either\" and \"neither\" + singular noun take a singular verb, even with \"of\" + plural (\"each of the employees\"). So do a gerund subject and \"news\".",
+        "examples": [
+          {"en": "Every employee in the department **has** a parking permit.", "note": "\"every\" + singular noun: \"has\"."},
+          {"en": "Reviewing all the contracts **takes** several hours.", "note": "A gerund subject behaves like a singular."},
+          {"en": "The news from the head office **was** encouraging.", "note": "\"news\" ends in -s but stays singular."}
+        ]
+      },
+      {
+        "title": "Plural subjects and \"number\"",
+        "text": "\"Both\", \"several\", \"many\" and \"few\" + plural take a plural verb. \"A number of\" + plural noun means \"several\": plural verb. \"The number of\" + plural noun refers to a figure: the subject is \"number\", so the verb is singular.",
+        "examples": [
+          {"en": "A number of clients **have** requested a refund.", "note": "\"a number of\" = several clients: plural."},
+          {"en": "The number of applicants **has** doubled this year.", "note": "The subject is \"the number\": singular."}
+        ]
+      },
+      {
+        "title": "\"There is / are\" and the relative clause",
+        "text": "After \"there\", the verb agrees with the noun that follows. In a relative clause, the verb agrees with the antecedent of \"who\" or \"which\", that is, the noun placed just before it.",
+        "examples": [
+          {"en": "There **are** three candidates waiting in the lobby.", "note": "The noun that follows (\"candidates\") is plural."},
+          {"en": "The employees who **work** night shifts receive a bonus.", "note": "\"who\" stands for \"employees\": \"work\" without -s."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "The noun in between that catches the ear",
+        "text": "The distractor is the verb that agrees with the noun next to the blank (\"The list of items ___\"). Mentally cross out the \"of\" group or the comma phrase and reread: subject + verb only."
+      },
+      {
+        "title": "\"One of the\" + plural",
+        "text": "After \"one of the\", \"each of the\" or \"neither of the\" + plural, the verb stays singular: \"One of the printers **is** broken\". The plural noun right before the verb is the trap."
+      },
+      {
+        "title": "The -s on nouns and verbs",
+        "text": "A present-tense verb takes -s in the singular (\"the manager approves\"), a noun takes -s in the plural (\"the managers approve\"). If the subject has no -s, the verb has one. Watch out for \"news\", \"series\", \"means\"."
+      }
+    ]
+  }
+}

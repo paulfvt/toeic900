@@ -1,0 +1,115 @@
+{
+  "tag": "sentence-insertion",
+  "fr": {
+    "title": "Insertion de phrase",
+    "summary": "Dans les Parts 6 et 7, on te demande où placer une phrase, ou laquelle choisir pour combler un trou. Ne la juge pas seule : une phrase n'est bonne que si elle s'accroche à celle d'avant **et** à celle d'après.",
+    "keyPoints": [
+      "Lis toujours la phrase d'**avant** ET la phrase d'**après** le trou : la bonne réponse fait le pont entre les deux.",
+      "Cherche les mots d'accroche de la phrase à insérer : « it », « they », « this », « the fee », « however », « then »…",
+      "Un mot d'accroche exige un référent juste avant lui : s'il n'existe pas à cet endroit, la position est fausse."
+    ],
+    "rules": [
+      {
+        "title": "Repère les pronoms et les articles définis",
+        "text": "Un pronom (« it », « they », « this », « these ») ou un groupe en « the » (« the fee », « the change ») renvoie à quelque chose déjà mentionné. Avant de choisir une position, vérifie que ce référent se trouve dans la phrase précédente. S'il n'apparaît que plus loin, la phrase ne peut pas aller là.",
+        "examples": [
+          {"en": "[1] The new parking fee starts in May. [2] **It** will be deducted from your pay. → Where does \"It will be deducted\" fit?", "note": "« It » = the fee : la phrase se place juste après la mention du tarif."},
+          {"en": "We moved the event to Hall B. **The change** was due to the size of the crowd.", "note": "« The change » reprend « moved the event » : l'article défini annonce que la chose a déjà été dite."}
+        ]
+      },
+      {
+        "title": "Lis les connecteurs et les mots de temps",
+        "text": "Les connecteurs donnent le lien logique : « however » = contraste, « also » = ajout, « therefore » et « as a result » = conséquence. Les mots de temps (« then », « afterward », « next ») supposent une action qui précède. Demande-toi si le lien annoncé colle vraiment avec la phrase d'avant.",
+        "examples": [
+          {"en": "Sales rose in June. **However**, they fell again in July.", "note": "« However » demande une idée opposée juste avant : ici, une hausse, puis une baisse."},
+          {"en": "Fill out the form. **Then** hand it to the front desk.", "note": "« Then » suppose une première étape juste avant : remplir le formulaire."}
+        ]
+      },
+      {
+        "title": "Suis l'ordre logique du paragraphe",
+        "text": "Un paragraphe avance en général du général au particulier, d'un problème vers sa solution, ou d'une annonce vers ses détails. Si la phrase proposée donne un détail, elle vient après l'annonce. Si elle présente le sujet, elle vient en premier. Une phrase qui renverse cet ordre est rarement la bonne.",
+        "examples": [
+          {"en": "The office will close for repairs. **Staff will work from home until June 3.**", "note": "Annonce d'abord (fermeture), détail ensuite (télétravail et date)."},
+          {"en": "Deliveries have been late. **We have hired two more drivers.**", "note": "Problème d'abord, solution ensuite."}
+        ]
+      },
+      {
+        "title": "Part 7 : teste chaque position [1] à [4]",
+        "text": "Insère mentalement la phrase à chaque position et relis le passage. Élimine d'abord celles où le référent est absent ou où le sens se brise. Il en reste généralement une seule. Pour ce type de question, relire quatre fois vaut mieux que deviner d'après le sujet seul.",
+        "examples": [
+          {"en": "[1] Ms. Ortiz joins us from Delta Bank. [2] She will lead the finance team. [3] A welcome lunch is planned. → Where does \"She has ten years of experience\" fit?", "note": "« She » = Ms. Ortiz : placée avant [1], elle n'aurait pas de référent. La position [2] colle."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "Le bon sujet, mais au mauvais endroit",
+        "text": "Une option peut parler exactement du même thème que le texte et rester fausse : elle ne s'accroche à aucune phrase voisine. Le thème ne suffit pas, c'est le lien avec les phrases autour du trou qui décide."
+      },
+      {
+        "title": "Un référent qui arrive trop tard",
+        "text": "Si la phrase commence par « It » ou « They » et que le nom correspondant n'apparaît qu'après la position, elle ne peut pas aller là. Le pronom renvoie toujours vers l'arrière, jamais vers l'avant."
+      },
+      {
+        "title": "Oublier la phrase d'après",
+        "text": "Beaucoup de candidats ne regardent que ce qui précède. La phrase qui suit le trou doit aussi rester logique : si elle commence par « This » ou « For this reason », elle a besoin de la phrase insérée pour avoir un sens."
+      }
+    ]
+  },
+  "en": {
+    "title": "Sentence insertion",
+    "summary": "In Parts 6 and 7, you must choose which sentence fills a gap, or where to place a sentence. Do not judge it alone: a sentence is right only if it connects to the sentence before **and** the sentence after.",
+    "keyPoints": [
+      "Always read the sentence **before** AND the sentence **after** the gap: the right answer is the bridge between them.",
+      "Look for hook words in the sentence to insert: \"it\", \"they\", \"this\", \"the fee\", \"however\", \"then\"...",
+      "A hook word needs a referent just before it: if it does not exist at that spot, the position is wrong."
+    ],
+    "rules": [
+      {
+        "title": "Spot pronouns and definite articles",
+        "text": "A pronoun (\"it\", \"they\", \"this\", \"these\") or a phrase with \"the\" (\"the fee\", \"the change\") points to something already mentioned. Before choosing a position, check that this referent is in the previous sentence. If it only appears later, the sentence cannot go there.",
+        "examples": [
+          {"en": "[1] The new parking fee starts in May. [2] **It** will be deducted from your pay. → Where does \"It will be deducted\" fit?", "note": "\"It\" = the fee: the sentence goes right after the mention of the charge."},
+          {"en": "We moved the event to Hall B. **The change** was due to the size of the crowd.", "note": "\"The change\" repeats \"moved the event\": the definite article shows the thing was already said."}
+        ]
+      },
+      {
+        "title": "Read connectors and time words",
+        "text": "Connectors give the logical link: \"however\" = contrast, \"also\" = addition, \"therefore\" and \"as a result\" = consequence. Time words (\"then\", \"afterward\", \"next\") need an action that comes first. Ask yourself whether the announced link really fits the sentence before.",
+        "examples": [
+          {"en": "Sales rose in June. **However**, they fell again in July.", "note": "\"However\" needs an opposite idea just before: here, a rise, then a fall."},
+          {"en": "Fill out the form. **Then** hand it to the front desk.", "note": "\"Then\" needs a first step just before: filling out the form."}
+        ]
+      },
+      {
+        "title": "Follow the logical order of the paragraph",
+        "text": "A paragraph usually moves from general to specific, from a problem to its solution, or from an announcement to its details. If the proposed sentence gives a detail, it comes after the announcement. If it introduces the topic, it comes first. A sentence that reverses this order is rarely right.",
+        "examples": [
+          {"en": "The office will close for repairs. **Staff will work from home until June 3.**", "note": "Announcement first (closing), detail next (remote work and date)."},
+          {"en": "Deliveries have been late. **We have hired two more drivers.**", "note": "Problem first, solution next."}
+        ]
+      },
+      {
+        "title": "Part 7: test each position [1] to [4]",
+        "text": "Mentally insert the sentence at each position and reread the passage. First remove the positions where the referent is missing or the meaning breaks. Usually only one is left. For this question type, rereading four times is better than guessing from the topic alone.",
+        "examples": [
+          {"en": "[1] Ms. Ortiz joins us from Delta Bank. [2] She will lead the finance team. [3] A welcome lunch is planned. → Where does \"She has ten years of experience\" fit?", "note": "\"She\" = Ms. Ortiz: placed before [1], it would have no referent. Position [2] fits."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "The right topic in the wrong place",
+        "text": "An option can talk about exactly the same topic as the text and still be wrong: it does not connect to any nearby sentence. The topic is not enough; the link with the sentences around the gap decides."
+      },
+      {
+        "title": "A referent that comes too late",
+        "text": "If the sentence starts with \"It\" or \"They\" and the matching noun only appears after the position, it cannot go there. A pronoun always points backward, never forward."
+      },
+      {
+        "title": "Forgetting the sentence after",
+        "text": "Many test takers only look at what comes before. The sentence after the gap must also stay logical: if it starts with \"This\" or \"For this reason\", it needs the inserted sentence to make sense."
+      }
+    ]
+  }
+}

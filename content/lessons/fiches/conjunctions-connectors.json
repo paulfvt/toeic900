@@ -1,0 +1,131 @@
+{
+  "tag": "conjunctions-connectors",
+  "fr": {
+    "title": "Conjonctions et connecteurs",
+    "summary": "Pour choisir entre « although » et « despite », ou entre « because » et « because of », regarde ce qui suit la lacune : une proposition complète ou un simple groupe nominal. Les adverbes de liaison (« however », « therefore ») suivent, eux, leurs propres règles de ponctuation.",
+    "keyPoints": [
+      "Conjonction + sujet + verbe ; préposition + nom ou -ing. Regarde ce qui suit la lacune.",
+      "Un adverbe de liaison (« however », « therefore ») relie deux phrases : point ou point-virgule avant, virgule après.",
+      "Les paires (« both… and », « either… or », « neither… nor », « not only… but also ») exigent la même structure de chaque côté."
+    ],
+    "rules": [
+      {
+        "title": "Conjonction ou préposition",
+        "text": "« although », « even though », « because », « since » (= puisque) introduisent une proposition avec sujet et verbe. « despite », « in spite of », « because of », « due to » sont suivis d'un nom ou d'un -ing. « despite the fact that » + proposition est aussi possible.",
+        "examples": [
+          {"en": "**Although** the budget was tight, the team finished the project on time.", "note": "« although » + sujet et verbe."},
+          {"en": "**Despite** the heavy rain, the outdoor event was a success.", "note": "« despite » + groupe nominal."},
+          {"en": "The flight was delayed **because** the crew arrived late.", "note": "« because » + sujet et verbe."},
+          {"en": "The shipment was delayed **because of** a labor strike.", "note": "« because of » + nom."}
+        ]
+      },
+      {
+        "title": "Les adverbes de liaison",
+        "text": "« however » et « nevertheless » marquent l'opposition ; « therefore » et « consequently » la conséquence ; « moreover » et « in addition » l'ajout ; « otherwise » l'alternative (sinon) ; « meanwhile » la simultanéité. Ils ne relient pas à eux seuls deux propositions : place un point ou un point-virgule avant, une virgule après.",
+        "examples": [
+          {"en": "The report is ready. **However**, the charts still need to be checked.", "note": "Point avant, virgule après : opposition."},
+          {"en": "Our supplier raised its prices; **therefore**, we are looking for alternatives.", "note": "Point-virgule avant, virgule après : conséquence."},
+          {"en": "Please confirm your attendance; **otherwise**, we will assume you cannot come.", "note": "« otherwise » = sinon."}
+        ]
+      },
+      {
+        "title": "Les paires de conjonctions",
+        "text": "Chaque élément de la paire est suivi du même type de mot ou de groupe : deux noms, deux adjectifs, deux groupes de même forme. Avec « either… or » et « neither… nor », le verbe s'accorde avec le sujet le plus proche.",
+        "examples": [
+          {"en": "The new policy applies to **both** full-time **and** part-time staff.", "note": "« both… and » : même structure des deux côtés."},
+          {"en": "You can pay **either** by credit card **or** by bank transfer.", "note": "« either… or » : deux options parallèles."},
+          {"en": "**Neither** the manager **nor** the assistants were informed of the change.", "note": "Accord avec le sujet le plus proche : « assistants », « were »."},
+          {"en": "The software is **not only** easy to install **but also** inexpensive.", "note": "« not only… but also » : deux adjectifs."}
+        ]
+      },
+      {
+        "title": "« unless », « once », « as soon as », « so that », « whether »",
+        "text": "« unless » = sauf si ; « once » et « as soon as » = dès que ; « provided that » = à condition que ; « so that » = pour que ; « whether » = si (un doute, une alternative). Après « unless », « once » et « as soon as », le verbe reste au présent même pour le futur.",
+        "examples": [
+          {"en": "The seminar will go ahead **unless** fewer than ten people register.", "note": "« unless » = sauf si, verbe au présent."},
+          {"en": "We will send the invoice **as soon as** the order ships.", "note": "« as soon as » + présent, pas de « will »."},
+          {"en": "Please label the boxes **so that** the movers can find them easily.", "note": "« so that » = pour que : but."},
+          {"en": "I am not sure **whether** the client will accept the offer.", "note": "« whether » = si, après un doute."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "Un nom après « although », une proposition après « despite »",
+        "text": "Les distracteurs échangent conjonction et préposition. Regarde juste après la lacune : « the delay » demande « despite » ; « the train was late » demande « although ». « despite of » n'existe pas : c'est « despite » ou « in spite of »."
+      },
+      {
+        "title": "Adverbe ou conjonction ?",
+        "text": "Si la lacune ouvre une phrase et est suivie d'une virgule puis d'une phrase complète, c'est un adverbe (« however », « therefore »). Si elle est suivie directement d'un sujet et d'un verbe et que la phrase a besoin d'une autre proposition, c'est une conjonction (« although », « because »)."
+      },
+      {
+        "title": "Pas de futur après une conjonction de temps",
+        "text": "Après « once », « as soon as », « unless », « when », « before » ou « after », on met le présent pour parler du futur : « as soon as the order ships ». Une option avec « will » dans cette proposition est un distracteur. « unless » contient déjà une négation : pas de « not » derrière."
+      }
+    ]
+  },
+  "en": {
+    "title": "Conjunctions and connectors",
+    "summary": "To choose between \"although\" and \"despite\", or between \"because\" and \"because of\", look at what follows the blank: a full clause or just a noun phrase. Linking adverbs (\"however\", \"therefore\") follow their own punctuation rules.",
+    "keyPoints": [
+      "Conjunction + subject + verb; preposition + noun or -ing. Look at what follows the blank.",
+      "A linking adverb (\"however\", \"therefore\") joins two sentences: a period or semicolon before it, a comma after it.",
+      "Paired words (\"both… and\", \"either… or\", \"neither… nor\", \"not only… but also\") need the same structure on each side."
+    ],
+    "rules": [
+      {
+        "title": "Conjunction or preposition",
+        "text": "\"although\", \"even though\", \"because\", \"since\" (= because) introduce a clause with a subject and a verb. \"despite\", \"in spite of\", \"because of\", \"due to\" are followed by a noun or an -ing form. \"despite the fact that\" + clause is also possible.",
+        "examples": [
+          {"en": "**Although** the budget was tight, the team finished the project on time.", "note": "\"although\" + subject and verb."},
+          {"en": "**Despite** the heavy rain, the outdoor event was a success.", "note": "\"despite\" + noun phrase."},
+          {"en": "The flight was delayed **because** the crew arrived late.", "note": "\"because\" + subject and verb."},
+          {"en": "The shipment was delayed **because of** a labor strike.", "note": "\"because of\" + noun."}
+        ]
+      },
+      {
+        "title": "Linking adverbs",
+        "text": "\"however\" and \"nevertheless\" show contrast; \"therefore\" and \"consequently\" show result; \"moreover\" and \"in addition\" add information; \"otherwise\" gives an alternative (or else); \"meanwhile\" shows things happening at the same time. They cannot join two clauses by themselves: put a period or semicolon before, a comma after.",
+        "examples": [
+          {"en": "The report is ready. **However**, the charts still need to be checked.", "note": "Period before, comma after: contrast."},
+          {"en": "Our supplier raised its prices; **therefore**, we are looking for alternatives.", "note": "Semicolon before, comma after: result."},
+          {"en": "Please confirm your attendance; **otherwise**, we will assume you cannot come.", "note": "\"otherwise\" = or else."}
+        ]
+      },
+      {
+        "title": "Paired conjunctions",
+        "text": "Each part of the pair is followed by the same kind of word or phrase: two nouns, two adjectives, two phrases of the same form. With \"either… or\" and \"neither… nor\", the verb agrees with the nearer subject.",
+        "examples": [
+          {"en": "The new policy applies to **both** full-time **and** part-time staff.", "note": "\"both… and\": same structure on both sides."},
+          {"en": "You can pay **either** by credit card **or** by bank transfer.", "note": "\"either… or\": two parallel options."},
+          {"en": "**Neither** the manager **nor** the assistants were informed of the change.", "note": "Agreement with the nearer subject: \"assistants\", \"were\"."},
+          {"en": "The software is **not only** easy to install **but also** inexpensive.", "note": "\"not only… but also\": two adjectives."}
+        ]
+      },
+      {
+        "title": "\"unless\", \"once\", \"as soon as\", \"so that\", \"whether\"",
+        "text": "\"unless\" = if not; \"once\" and \"as soon as\" = at the moment when; \"provided that\" = on condition that; \"so that\" = in order that; \"whether\" = if (a doubt, an alternative). After \"unless\", \"once\" and \"as soon as\", the verb stays in the present even for the future.",
+        "examples": [
+          {"en": "The seminar will go ahead **unless** fewer than ten people register.", "note": "\"unless\" = except if, verb in the present."},
+          {"en": "We will send the invoice **as soon as** the order ships.", "note": "\"as soon as\" + present, no \"will\"."},
+          {"en": "Please label the boxes **so that** the movers can find them easily.", "note": "\"so that\" = in order that: purpose."},
+          {"en": "I am not sure **whether** the client will accept the offer.", "note": "\"whether\" = if, after a doubt."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "A noun after \"although\", a clause after \"despite\"",
+        "text": "The distractors swap conjunction and preposition. Look right after the blank: \"the delay\" calls for \"despite\"; \"the train was late\" calls for \"although\". \"despite of\" does not exist: it is \"despite\" or \"in spite of\"."
+      },
+      {
+        "title": "Adverb or conjunction?",
+        "text": "If the blank opens a sentence and is followed by a comma and a full sentence, it is an adverb (\"however\", \"therefore\"). If it is followed directly by a subject and a verb and the sentence needs another clause, it is a conjunction (\"although\", \"because\")."
+      },
+      {
+        "title": "No future after a time conjunction",
+        "text": "After \"once\", \"as soon as\", \"unless\", \"when\", \"before\" or \"after\", use the present for the future: \"as soon as the order ships\". An option with \"will\" in that clause is a distractor. \"unless\" already contains a negative: no \"not\" after it."
+      }
+    ]
+  }
+}

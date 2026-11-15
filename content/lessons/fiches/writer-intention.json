@@ -1,0 +1,117 @@
+{
+  "tag": "writer-intention",
+  "fr": {
+    "title": "Intention de l'auteur",
+    "summary": "Dans un échange de messages, on te demande ce que veut dire une courte réplique (« Sounds good », « I'm on it »…). Hors contexte elle est vague : son sens dépend du message auquel elle répond. Lis donc toujours le message juste avant.",
+    "keyPoints": [
+      "Forme : At 10:15 A.M., what does Mr. X most likely mean when he writes, \"…\" ? Le sens de la réplique n'est pas dans ses mots seuls.",
+      "Une réplique **répond** à un message : le plus souvent, celui qui la précède juste avant.",
+      "Reformule la réplique comme une réponse : accepter, refuser, confirmer, s'étonner ou se charger d'une tâche."
+    ],
+    "rules": [
+      {
+        "title": "Reconnaître la question",
+        "text": "Elle apparaît dans les échanges de messages (text-message chain, online chat) et donne une heure et une réplique entre guillemets. Les répliques visées sont courtes et vagues : « Sounds good », « I'm on it », « That works », « Not again », « You bet », « Good point », « I'll pass ». Repère l'heure, puis le message de cette heure.",
+        "examples": [
+          {"en": "At 10:15 A.M., what does Ms. Lee most likely mean when she writes, \"You bet\"?", "note": "Question typique : une heure, une personne, une réplique courte."},
+          {"en": "At 2:40 P.M., what does Mr. Ross mean when he writes, \"I'll pass\"?", "note": "Il faut lire ce qu'on lui a proposé juste avant."}
+        ]
+      },
+      {
+        "title": "Lire le message juste avant",
+        "text": "Remonte d'une ligne dans la conversation : la réplique répond à ce message. Demande-toi ce que l'autre a demandé, proposé ou annoncé. Ne lis pas la réplique seule, et n'attends pas la fin de la conversation pour comprendre.",
+        "examples": [
+          {"en": "Kim: Can you cover my shift on Friday? / Dev: Sure, you bet. / Q: \"You bet\"", "note": "Kim demande un service : « You bet » = « bien sûr », il accepte."},
+          {"en": "Ana: The printer is jammed again. / Tom: Not again. / Q: \"Not again\"", "note": "Il réagit à un problème déjà vu : il est contrarié, il ne refuse rien."}
+        ]
+      },
+      {
+        "title": "Reformuler la réplique comme une réponse",
+        "text": "Traduis la réplique par une fonction : « I accept », « I refuse », « I confirm », « I'm surprised », « I'll take care of it ». Puis cherche l'option qui dit cela. Avec « I'm on it », la personne se charge de la tâche ; avec « That works », elle accepte un horaire ou un plan.",
+        "examples": [
+          {"en": "Lena: Can someone send the client the new price list? / Omar: I'm on it. / Q: \"I'm on it\"", "note": "Omar se charge de l'envoi : il ne dit pas qu'il est en ligne ou occupé."},
+          {"en": "Pia: Could we meet at 4:00 instead? / Raj: That works. / Q: \"That works\"", "note": "Il accepte la nouvelle heure : « That works » = « cela me convient »."}
+        ]
+      },
+      {
+        "title": "Éliminer le sens littéral et l'autre message",
+        "text": "Les distracteurs sont de deux sortes : le sens littéral des mots (« I'm on it » compris comme « I'm on the website ») ou une réaction à un autre message de la conversation. Barre les options qui ne répondent pas au message juste avant.",
+        "examples": [
+          {"en": "Sam: The meeting room is booked until noon. / Jo: Good point. / Q: \"Good point\"", "note": "Jo reconnaît que Sam a raison : ce n'est pas un compliment sur un endroit ni un accord à un autre sujet."},
+          {"en": "Cho: Want to join the training on Monday? / Dan: I'll pass. / Q: \"I'll pass\"", "note": "« I'll pass » = « no thanks », il refuse. Il ne dit pas qu'il transmet quelque chose."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "Le sens littéral des mots",
+        "text": "« I'll pass » peut sembler lié à « passer » quelque chose à quelqu'un, et « Sounds good » à un son. Les options reprennent ces sens naïfs. Si l'option décrit l'action des mots à la lettre, méfie-toi."
+      },
+      {
+        "title": "Répondre au mauvais message",
+        "text": "Dans un échange à trois ou quatre personnes, plusieurs messages sont proches de la réplique. Une option plausible peut répondre à un message plus ancien ou à un autre participant. Vérifie bien à qui s'adresse la réplique."
+      },
+      {
+        "title": "Une réplique qui change de sens avec le ton",
+        "text": "« Not again » exprime l'agacement, « Good point » l'accord, « You bet » l'enthousiasme. Le même mot peut aussi refuser ou accepter selon la question posée. Ne retiens pas une signification fixe : relis toujours le message d'avant."
+      }
+    ]
+  },
+  "en": {
+    "title": "Writer's intention",
+    "summary": "In a message exchange, you are asked what a short reply (\"Sounds good\", \"I'm on it\"…) means. Out of context it is vague: its meaning depends on the message it answers. So always read the message just before.",
+    "keyPoints": [
+      "Form: At 10:15 A.M., what does Mr. X most likely mean when he writes, \"…\"? The meaning of the reply is not in its words alone.",
+      "A reply **answers** a message: most often, the one just before it.",
+      "Reword the reply as an answer: accept, refuse, confirm, show surprise or take on a task."
+    ],
+    "rules": [
+      {
+        "title": "Recognizing the question",
+        "text": "It appears in message exchanges (text-message chain, online chat) and gives a time and a quoted reply. The replies tested are short and vague: \"Sounds good\", \"I'm on it\", \"That works\", \"Not again\", \"You bet\", \"Good point\", \"I'll pass\". Find the time, then the message at that time.",
+        "examples": [
+          {"en": "At 10:15 A.M., what does Ms. Lee most likely mean when she writes, \"You bet\"?", "note": "Typical question: a time, a person, a short reply."},
+          {"en": "At 2:40 P.M., what does Mr. Ross mean when he writes, \"I'll pass\"?", "note": "You must read what was offered to him just before."}
+        ]
+      },
+      {
+        "title": "Read the message just before",
+        "text": "Go up one line in the conversation: the reply answers that message. Ask yourself what the other person asked, offered or announced. Do not read the reply alone, and do not wait for the end of the conversation to understand it.",
+        "examples": [
+          {"en": "Kim: Can you cover my shift on Friday? / Dev: Sure, you bet. / Q: \"You bet\"", "note": "Kim asks for a favor: \"You bet\" = \"of course\", he accepts."},
+          {"en": "Ana: The printer is jammed again. / Tom: Not again. / Q: \"Not again\"", "note": "He reacts to a problem seen before: he is annoyed, he refuses nothing."}
+        ]
+      },
+      {
+        "title": "Reword the reply as an answer",
+        "text": "Translate the reply into a function: \"I accept\", \"I refuse\", \"I confirm\", \"I'm surprised\", \"I'll take care of it\". Then look for the option that says this. With \"I'm on it\", the person takes the task; with \"That works\", they accept a time or a plan.",
+        "examples": [
+          {"en": "Lena: Can someone send the client the new price list? / Omar: I'm on it. / Q: \"I'm on it\"", "note": "Omar takes charge of sending it: he is not saying he is online or busy."},
+          {"en": "Pia: Could we meet at 4:00 instead? / Raj: That works. / Q: \"That works\"", "note": "He accepts the new time: \"That works\" = \"that suits me\"."}
+        ]
+      },
+      {
+        "title": "Eliminate the literal meaning and the other message",
+        "text": "Wrong options are of two kinds: the literal meaning of the words (\"I'm on it\" understood as \"I'm on the website\") or a reaction to another message in the conversation. Cross out the options that do not answer the message just before.",
+        "examples": [
+          {"en": "Sam: The meeting room is booked until noon. / Jo: Good point. / Q: \"Good point\"", "note": "Jo admits that Sam is right: it is not a compliment on a place or an agreement to another subject."},
+          {"en": "Cho: Want to join the training on Monday? / Dan: I'll pass. / Q: \"I'll pass\"", "note": "\"I'll pass\" = \"no thanks\", he refuses. He is not saying he will hand something over."}
+        ]
+      }
+    ],
+    "traps": [
+      {
+        "title": "The literal meaning of the words",
+        "text": "\"I'll pass\" can look like \"passing\" something to somebody, and \"Sounds good\" like a sound. The options use these naive meanings. If an option describes the action of the words literally, be careful."
+      },
+      {
+        "title": "Answering the wrong message",
+        "text": "In an exchange with three or four people, several messages are close to the reply. A plausible option may answer an older message or another participant. Check carefully who the reply is addressed to."
+      },
+      {
+        "title": "A reply that changes meaning with the tone",
+        "text": "\"Not again\" shows annoyance, \"Good point\" agreement, \"You bet\" enthusiasm. The same words can also refuse or accept depending on the question. Do not keep a fixed meaning: always reread the message before."
+      }
+    ]
+  }
+}
