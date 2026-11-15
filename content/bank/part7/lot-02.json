@@ -1,0 +1,665 @@
+{
+  "part": 7,
+  "pool": "training",
+  "sets": [
+    {
+      "id": "p7-0013",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "chat",
+          "title": "Tax Team Chat - Ellery & Moss Accounting",
+          "text": "Dalia Mensah (9:41 A.M.): Quick question about the Whitfield Dental file. Did the owner ever send the missing bank statements for March?\nOwen Tanaka (9:43 A.M.): Not yet. I e-mailed him twice last week and got no answer.\nDalia Mensah (9:44 A.M.): His quarterly filing is due Friday, and I can't finish the report without them.\nOwen Tanaka (9:46 A.M.): I could call his office this morning if you like.\nDalia Mensah (9:47 A.M.): Be my guest. Ask for his assistant, Ms. Reyes. She usually handles his paperwork.\nOwen Tanaka (9:48 A.M.): Will do. And if the statements still don't show up by Thursday?\nDalia Mensah (9:50 A.M.): Then we'll have to request a short extension.\nOwen Tanaka (10:15 A.M.): Good news. Ms. Reyes is scanning the statements now, and they should reach us by noon.\nDalia Mensah (10:16 A.M.): You're a lifesaver! I'll start the report as soon as they arrive."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0013-1",
+          "tags": [
+            "writer-intention"
+          ],
+          "difficulty": 2,
+          "stem": "At 9:47 A.M., what does Ms. Mensah most likely mean when she writes, \"Be my guest\"?",
+          "options": [
+            "She is inviting a visitor to the office.",
+            "She expects Mr. Tanaka to pay for the call.",
+            "She prefers to call the client herself.",
+            "She agrees that Mr. Tanaka should make the call."
+          ],
+          "answer": "D",
+          "evidence": [
+            "I could call his office this morning if you like.",
+            "Ask for his assistant, Ms. Reyes."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« Be my guest » répond au message juste avant : M. Tanaka propose « I could call his office this morning if you like ». Mme Mensah accepte (« Be my guest », c'est « vas-y, je t'en prie ») et enchaîne avec des consignes pour l'appel : « Ask for his assistant, Ms. Reyes ».",
+              "distractors": {
+                "A": "Sens littéral de « guest » (invité) : personne n'est invité, il s'agit d'un appel téléphonique.",
+                "B": "« Be my guest » peut évoquer « c'est moi qui invite », mais il n'est question d'aucun paiement ici.",
+                "C": "Au contraire : elle laisse l'appel à M. Tanaka et lui dit qui demander."
+              },
+              "trap": "Une réplique idiomatique répond au message d'avant : demande-toi ce qui vient d'être proposé, puis traduis par « j'accepte » ou « je refuse », jamais mot à mot."
+            },
+            "en": {
+              "rule": "\"Be my guest\" answers the message just before: Mr. Tanaka offers \"I could call his office this morning if you like\". Ms. Mensah accepts (\"Be my guest\" means \"go ahead\") and then gives instructions for the call: \"Ask for his assistant, Ms. Reyes\".",
+              "distractors": {
+                "A": "The literal meaning of \"guest\": nobody is being invited anywhere, the offer is about a phone call.",
+                "B": "\"Be my guest\" may sound like \"it's on me\", but no payment is mentioned here.",
+                "C": "The opposite: she leaves the call to Mr. Tanaka and tells him who to ask for."
+              },
+              "trap": "An idiomatic reply answers the message before it: ask what was just offered, then translate it as \"yes\" or \"no\", never word for word."
+            }
+          }
+        },
+        {
+          "id": "p7-0013-2",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 2,
+          "stem": "Who most likely is Ms. Reyes?",
+          "options": [
+            "A colleague at the accounting firm",
+            "A staff member at Whitfield Dental",
+            "An official at a tax agency",
+            "A representative of a bank"
+          ],
+          "answer": "B",
+          "evidence": [
+            "Ask for his assistant, Ms. Reyes.",
+            "Ms. Reyes is scanning the statements now"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Mme Mensah parle du propriétaire de Whitfield Dental (« the owner », « his office ») et dit : « Ask for his assistant, Ms. Reyes ». Mme Reyes est donc l'assistante du client, et elle scanne ses relevés (« Ms. Reyes is scanning the statements now »).",
+              "distractors": {
+                "A": "Les collègues du cabinet sont Mme Mensah et M. Tanaka ; Mme Reyes est l'assistante de « his office », c'est-à-dire du client.",
+                "C": "L'administration fiscale n'est citée nulle part comme interlocuteur de Mme Reyes ; elle prépare des documents pour le cabinet.",
+                "D": "Les relevés viennent bien d'une banque, mais Mme Reyes les scanne depuis le bureau du propriétaire : elle n'y travaille pas."
+              },
+              "trap": "Pour « Who most likely is… ? », cherche à qui appartient le possessif (« his assistant ») : il te dit pour qui travaille la personne."
+            },
+            "en": {
+              "rule": "Ms. Mensah talks about the owner of Whitfield Dental (\"the owner\", \"his office\") and says \"Ask for his assistant, Ms. Reyes\". Ms. Reyes is therefore the client's assistant, and she is the one scanning his statements (\"Ms. Reyes is scanning the statements now\").",
+              "distractors": {
+                "A": "The firm's colleagues are Ms. Mensah and Mr. Tanaka; Ms. Reyes is the assistant at \"his office\", meaning the client's.",
+                "C": "No tax agency is mentioned as Ms. Reyes's employer; she prepares documents for the firm.",
+                "D": "The statements do come from a bank, but Ms. Reyes scans them from the owner's office: she does not work at the bank."
+              },
+              "trap": "For \"Who most likely is...?\", look at who the possessive belongs to (\"his assistant\"): it tells you who the person works for."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0014",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "review",
+          "title": "Linden Trust Bank, Ashgrove Branch - Customer Review",
+          "text": "Rating: 4 out of 5 stars\nPosted by Gideon Alvarez on September 18\n\nI opened a small business account at Linden Trust Bank three months ago, and I wanted to share my experience with other owners. My bakery supplies company had been with a large national bank for years, but monthly fees kept rising, so I decided to look at local options.\n\nThe account manager, Ms. Abara, spent almost an hour explaining the fee structure, and she never pressured me to buy extra services. Setup took one afternoon, and the mobile app lets me deposit checks by photographing them. There is no monthly fee as long as I keep a balance of $2,000, which is easy for me. Wire transfers are cheaper than at my previous bank, though still not free.\n\nMy only complaint is the branch's hours. It closes at 4:00 P.M. on weekdays and is not open on Saturdays, so I must plan my visits carefully. The bank has told me it plans to extend hours next spring, which I would welcome.\n\nI would recommend Linden Trust to any small business owner tired of high fees."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0014-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 2,
+          "stem": "What is the purpose of the review?",
+          "options": [
+            "To compare several local banks",
+            "To announce new opening hours",
+            "To recommend a bank to other business owners",
+            "To explain how to open a business account"
+          ],
+          "answer": "C",
+          "evidence": [
+            "I wanted to share my experience with other owners.",
+            "I would recommend Linden Trust to any small business owner tired of high fees."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "L'auteur dit vouloir partager son expérience avec d'autres propriétaires (« share my experience with other owners ») et termine par « I would recommend Linden Trust to any small business owner ». Le but est de recommander cette banque.",
+              "distractors": {
+                "A": "Il a regardé plusieurs options (« look at local options »), mais il ne parle que d'une seule banque.",
+                "B": "Les nouveaux horaires ne sont qu'un détail du troisième paragraphe, et c'est la banque qui les annonce, pas lui.",
+                "D": "Il dit que l'ouverture a pris un après-midi, sans décrire la procédure."
+              },
+              "trap": "Pour un avis, le but se lit au début (pourquoi il écrit) et à la fin (la recommandation) ; un détail du milieu n'est qu'un distracteur."
+            },
+            "en": {
+              "rule": "The writer says he wants to share his experience with other owners (\"share my experience with other owners\") and ends with \"I would recommend Linden Trust to any small business owner\". The purpose is to recommend this bank.",
+              "distractors": {
+                "A": "He looked at several options (\"look at local options\"), but he only reviews one bank.",
+                "B": "The new hours are only a detail in the third paragraph, and it is the bank that announced them, not him.",
+                "D": "He says the setup took one afternoon, but he does not describe the procedure."
+              },
+              "trap": "In a review, the purpose is at the start (why he writes) and at the end (the recommendation); a detail from the middle is just a distractor."
+            }
+          }
+        },
+        {
+          "id": "p7-0014-2",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 2,
+          "stem": "What is suggested about Mr. Alvarez?",
+          "options": [
+            "He owns a bakery.",
+            "He changed banks because of poor service.",
+            "He can easily maintain the minimum balance.",
+            "He visits the branch on Saturdays."
+          ],
+          "answer": "C",
+          "evidence": [
+            "There is no monthly fee as long as I keep a balance of $2,000, which is easy for me."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le compte n'a pas de frais mensuels tant que le solde reste à 2 000 $ (« as long as I keep a balance of $2,000 »), et il ajoute « which is easy for me ». On en déduit qu'il garde sans effort le solde minimum.",
+              "distractors": {
+                "A": "Il dirige une société de fournitures pour boulangeries (« bakery supplies company »), pas une boulangerie.",
+                "B": "Il est parti à cause de frais qui augmentaient (« monthly fees kept rising »), pas à cause du service.",
+                "D": "La succursale n'ouvre pas le samedi (« is not open on Saturdays »)."
+              },
+              "trap": "Une question « suggested » se règle sur une phrase précise : ici « which is easy for me » ; ne retiens pas une option qui reprend seulement un mot du texte (« bakery »)."
+            },
+            "en": {
+              "rule": "The account has no monthly fee as long as the balance stays at $2,000 (\"as long as I keep a balance of $2,000\"), and he adds \"which is easy for me\". You can infer that he keeps the minimum balance without difficulty.",
+              "distractors": {
+                "A": "He runs a bakery supplies company, not a bakery.",
+                "B": "He left because fees kept rising (\"monthly fees kept rising\"), not because of poor service.",
+                "D": "The branch is closed on Saturdays (\"is not open on Saturdays\")."
+              },
+              "trap": "A \"suggested\" question rests on one precise sentence: here \"which is easy for me\"; do not pick an option that merely reuses a word from the text (\"bakery\")."
+            }
+          }
+        },
+        {
+          "id": "p7-0014-3",
+          "tags": [
+            "not-true"
+          ],
+          "difficulty": 3,
+          "stem": "What is NOT true about Linden Trust Bank?",
+          "options": [
+            "Customers can deposit checks with a phone app.",
+            "An account manager gave a detailed explanation of fees.",
+            "It does not charge for wire transfers.",
+            "Its opening hours may be extended."
+          ],
+          "answer": "C",
+          "evidence": [
+            "the mobile app lets me deposit checks by photographing them",
+            "spent almost an hour explaining the fee structure",
+            "it plans to extend hours next spring"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le texte dit des virements : « Wire transfers are cheaper than at my previous bank, though still not free ». Ils coûtent moins cher, mais ne sont pas gratuits : l'option C est fausse. Les trois autres sont dans le texte : « the mobile app lets me deposit checks by photographing them », « spent almost an hour explaining the fee structure », « it plans to extend hours next spring ».",
+              "distractors": {
+                "A": "Vrai : l'application permet de déposer des chèques en les photographiant.",
+                "B": "Vrai : Mme Abara a passé presque une heure à expliquer les frais.",
+                "D": "Vrai : la banque prévoit d'allonger ses horaires au printemps prochain."
+              },
+              "trap": "Pour « NOT true », retrouve dans le texte les trois options vraies ; celle qui reste est la réponse. Attention aux nuances (« cheaper » n'est pas « free »)."
+            },
+            "en": {
+              "rule": "About wire transfers the text says: \"Wire transfers are cheaper than at my previous bank, though still not free\". They cost less but are not free, so C is false. The other three are in the text: \"the mobile app lets me deposit checks by photographing them\", \"spent almost an hour explaining the fee structure\", \"it plans to extend hours next spring\".",
+              "distractors": {
+                "A": "True: the app lets customers deposit checks by photographing them.",
+                "B": "True: Ms. Abara spent almost an hour explaining the fees.",
+                "D": "True: the bank plans to extend its hours next spring."
+              },
+              "trap": "For \"NOT true\", find the three true options in the text; the one left is the answer. Watch for nuances (\"cheaper\" is not \"free\")."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0015",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "form",
+          "title": "Green Valley Growers Cooperative - Seasonal Supply Order Form",
+          "text": "Member name: Haruto Sato\nFarm: Sato Family Orchards\nMember number: GV-2217\nOrder date: August 12\nPickup or delivery: Delivery to member farm\n\nItems ordered:\nApple crates (40 lb) - quantity 30 - $18 per crate\nPear crates (40 lb) - quantity 25 - $22 per crate\nCardboard dividers - quantity 100 - included with crate orders\n\nRequested delivery date: Tuesday, August 26\nDelivery window: before 11:00 A.M.\nSpecial instructions: Please unload at the cold storage barn behind the main house, not at the road gate. Our forklift is out for repairs until August 28, so the driver should bring a pallet jack.\n\nOFFICE USE ONLY\nOrder received by: Leila Moreau\nStatus: Approved. Orders over $1,000 require a 25 percent deposit; an invoice will be sent within two business days. Deliveries are made on Tuesdays and Thursdays only."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0015-1",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 2,
+          "stem": "What does Mr. Sato ask the delivery driver to bring?",
+          "options": [
+            "A pallet jack",
+            "A forklift",
+            "Extra cardboard dividers",
+            "A deposit receipt"
+          ],
+          "answer": "A",
+          "evidence": [
+            "so the driver should bring a pallet jack"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Dans « Special instructions », M. Sato explique que son chariot élévateur est en réparation et demande : « the driver should bring a pallet jack » (un transpalette).",
+              "distractors": {
+                "B": "C'est le chariot élévateur de M. Sato (« Our forklift ») qui est en réparation : il demande justement un autre matériel.",
+                "C": "Les séparateurs en carton sont commandés et « included with crate orders » ; il ne demande rien de plus.",
+                "D": "Un acompte est mentionné dans la partie réservée au bureau, mais aucun reçu n'est demandé au chauffeur."
+              },
+              "trap": "Dans un formulaire, lis les cases libres (« Special instructions ») : elles contiennent souvent la réponse à une question de détail."
+            },
+            "en": {
+              "rule": "In \"Special instructions\", Mr. Sato explains that his forklift is being repaired and asks that \"the driver should bring a pallet jack\".",
+              "distractors": {
+                "B": "It is Mr. Sato's own forklift (\"Our forklift\") that is out for repairs: he is asking for different equipment.",
+                "C": "The cardboard dividers are ordered and \"included with crate orders\"; he asks for nothing more.",
+                "D": "A deposit appears in the office section, but the driver is not asked to bring any receipt."
+              },
+              "trap": "In a form, read the free-text boxes (\"Special instructions\"): they often hold the answer to a detail question."
+            }
+          }
+        },
+        {
+          "id": "p7-0015-2",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 2,
+          "stem": "What is suggested about Mr. Sato's order?",
+          "options": [
+            "He will pick it up at the cooperative.",
+            "He will be asked to pay a deposit.",
+            "It was submitted after a deadline.",
+            "The cardboard dividers will be billed separately."
+          ],
+          "answer": "B",
+          "evidence": [
+            "Apple crates (40 lb) - quantity 30 - $18 per crate",
+            "Pear crates (40 lb) - quantity 25 - $22 per crate",
+            "Orders over $1,000 require a 25 percent deposit"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Il faut calculer : 30 caisses de pommes à 18 $ font 540 $, 25 caisses de poires à 22 $ font 550 $, soit 1 090 $. Or « Orders over $1,000 require a 25 percent deposit » : M. Sato devra verser un acompte, même si le texte ne le lui dit pas directement.",
+              "distractors": {
+                "A": "Le formulaire indique « Delivery to member farm » : la commande sera livrée chez lui.",
+                "C": "Aucune date limite n'est mentionnée, et la commande est « Approved ».",
+                "D": "Les séparateurs sont « included with crate orders » : ils ne sont pas facturés en plus."
+              },
+              "trap": "Quand une règle porte sur un montant (« over $1,000 »), fais le calcul avec les quantités et les prix du formulaire avant de répondre."
+            },
+            "en": {
+              "rule": "You have to calculate: 30 apple crates at $18 make $540, 25 pear crates at $22 make $550, a total of $1,090. Since \"Orders over $1,000 require a 25 percent deposit\", Mr. Sato will have to pay a deposit, even though the form never tells him so directly.",
+              "distractors": {
+                "A": "The form says \"Delivery to member farm\": the order will be delivered to him.",
+                "C": "No deadline is mentioned, and the order is \"Approved\".",
+                "D": "The dividers are \"included with crate orders\": they are not billed extra."
+              },
+              "trap": "When a rule depends on an amount (\"over $1,000\"), do the math with the quantities and prices on the form before answering."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0016",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "chat",
+          "title": "Plant Operations Chat - Line 3",
+          "text": "Bashir Qureshi (6:52 A.M.): Line 3 stopped about ten minutes ago. The packaging sensor keeps giving false readings.\nIngrid Solberg (6:54 A.M.): Did you try resetting it?\nBashir Qureshi (6:55 A.M.): Twice. It works for a minute and then shuts the line down again.\nIngrid Solberg (6:57 A.M.): Then it's probably the sensor itself. We have a spare in the supply cage, but I'm not sure it fits that model. Can you compare the part numbers?\nBashir Qureshi (6:58 A.M.): I'm on it.\nTomasz Wieczorek (7:03 A.M.): I just got in. Should I send the night crew home or keep them until the line restarts?\nIngrid Solberg (7:05 A.M.): Keep them. We have an order for Nordic Foods that ships at 2:00 P.M., and we can't miss it.\nBashir Qureshi (7:09 A.M.): Good news, the spare fits. It should take about 40 minutes to install.\nTomasz Wieczorek (7:10 A.M.): Great. I'll tell the night crew to take a break in the meantime.\nIngrid Solberg (7:11 A.M.): Let's aim to restart by 8:00."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0016-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 3,
+          "stem": "What are the writers mainly discussing?",
+          "options": [
+            "Where to buy a new sensor for the line",
+            "Whether to delay a customer's shipment",
+            "How to organize the night crew's break",
+            "How to get a stopped production line running again"
+          ],
+          "answer": "D",
+          "evidence": [
+            "Line 3 stopped about ten minutes ago.",
+            "Let's aim to restart by 8:00."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Toute la conversation part de « Line 3 stopped about ten minutes ago » et finit par « Let's aim to restart by 8:00 » : ils cherchent comment remettre la ligne en marche (reset, capteur de rechange, installation).",
+              "distractors": {
+                "A": "Personne ne parle d'acheter un capteur : il y en a déjà un de rechange dans la réserve (« a spare in the supply cage »).",
+                "B": "Au contraire : Mme Solberg dit que la commande doit partir à 14 h et qu'ils ne peuvent pas la manquer.",
+                "C": "La pause de l'équipe de nuit n'est qu'un détail, évoqué à 7 h 10."
+              },
+              "trap": "Pour l'idée générale d'un chat, cherche le problème posé au premier message et la solution du dernier ; un détail de milieu de conversation est un piège."
+            },
+            "en": {
+              "rule": "The whole conversation starts with \"Line 3 stopped about ten minutes ago\" and ends with \"Let's aim to restart by 8:00\": they are working out how to get the line running again (reset, spare sensor, installation).",
+              "distractors": {
+                "A": "Nobody talks about buying a sensor: there is already a spare in the supply cage (\"a spare in the supply cage\").",
+                "B": "On the contrary: Ms. Solberg says the order ships at 2:00 P.M. and they cannot miss it.",
+                "C": "The night crew's break is only a detail, mentioned at 7:10."
+              },
+              "trap": "For the main idea of a chat, find the problem in the first message and the solution in the last; a detail from the middle is a trap."
+            }
+          }
+        },
+        {
+          "id": "p7-0016-2",
+          "tags": [
+            "writer-intention"
+          ],
+          "difficulty": 2,
+          "stem": "At 6:58 A.M., what does Mr. Qureshi most likely mean when he writes, \"I'm on it\"?",
+          "options": [
+            "He is already using the spare sensor.",
+            "He is not sure the spare sensor is needed.",
+            "He wants someone else to check the numbers.",
+            "He will take care of comparing the part numbers."
+          ],
+          "answer": "D",
+          "evidence": [
+            "Can you compare the part numbers?"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Mme Solberg vient de lui demander « Can you compare the part numbers? ». « I'm on it » veut dire « je m'en occupe » : il va faire la comparaison.",
+              "distractors": {
+                "A": "Il n'a pas encore installé le capteur : à 7 h 09 il annonce seulement que la pièce convient.",
+                "B": "Il ne doute pas : il accepte la tâche, et le capteur de rechange est bien utilisé ensuite.",
+                "C": "C'est l'inverse : on lui demande de vérifier, et il répond qu'il le fait lui-même."
+              },
+              "trap": "« I'm on it » = « je m'en charge ». Lis la demande juste avant : la réplique y répond directement."
+            },
+            "en": {
+              "rule": "Ms. Solberg has just asked him \"Can you compare the part numbers?\". \"I'm on it\" means \"I'll take care of it\": he is going to do the comparison.",
+              "distractors": {
+                "A": "He has not installed the sensor yet: at 7:09 he only reports that the part fits.",
+                "B": "He has no doubt: he accepts the task, and the spare is used afterward.",
+                "C": "It is the opposite: he is asked to check, and he replies that he is doing it himself."
+              },
+              "trap": "\"I'm on it\" = \"I'll handle it\". Read the request just before: the reply answers it directly."
+            }
+          }
+        },
+        {
+          "id": "p7-0016-3",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 1,
+          "stem": "According to the chat, when will the Nordic Foods order ship?",
+          "options": [
+            "At 7:00 A.M.",
+            "At 8:00 A.M.",
+            "At 2:00 P.M.",
+            "At 4:00 P.M."
+          ],
+          "answer": "C",
+          "evidence": [
+            "an order for Nordic Foods that ships at 2:00 P.M."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Mme Solberg le dit directement : « an order for Nordic Foods that ships at 2:00 P.M. ».",
+              "distractors": {
+                "A": "7 h correspond à peu près au moment où M. Wieczorek arrive, pas à un départ de commande.",
+                "B": "8 h est l'objectif de redémarrage de la ligne (« restart by 8:00 »), pas l'heure d'expédition.",
+                "D": "16 h n'apparaît pas dans la conversation."
+              },
+              "trap": "Ne confonds pas les heures : note à quoi correspond chacune (redémarrage, expédition) avant de choisir."
+            },
+            "en": {
+              "rule": "Ms. Solberg says it directly: \"an order for Nordic Foods that ships at 2:00 P.M.\".",
+              "distractors": {
+                "A": "About 7:00 is when Mr. Wieczorek arrives, not when an order ships.",
+                "B": "8:00 is the target time for restarting the line (\"restart by 8:00\"), not the shipping time.",
+                "D": "4:00 P.M. does not appear in the conversation."
+              },
+              "trap": "Do not mix up the times: note what each one refers to (restart, shipping) before choosing."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0017",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "advertisement",
+          "title": "Bluefin Creative Studio: Make your brand impossible to ignore",
+          "text": "For eleven years, Bluefin Creative Studio has helped small and midsize companies in the Portland area attract new customers. Our team of designers, writers, and video producers builds campaigns from the first sketch to the final launch.\n\nThis spring, new clients can book a free two-hour brand review. During the session, one of our strategists will examine your logo, website, and social media accounts, then send you a written summary of recommendations within five business days. There is no obligation to hire us afterward.\n\nClients who sign a six-month contract before May 31 will also receive a free product photo shoot, a $1,200 value. Our packages start at $2,500 per month and include a dedicated account manager who will handle every project from start to finish.\n\nSpace for brand reviews is limited. To book yours, call 555-0142 or visit www.bluefincreative.example."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0017-1",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 2,
+          "stem": "What can new clients receive without signing a contract?",
+          "options": [
+            "An assessment of their branding",
+            "A reduced monthly rate",
+            "A product photo shoot",
+            "A dedicated account manager"
+          ],
+          "answer": "A",
+          "evidence": [
+            "new clients can book a free two-hour brand review",
+            "There is no obligation to hire us afterward."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La « free two-hour brand review » est offerte aux nouveaux clients, et « There is no obligation to hire us afterward » : aucun contrat n'est requis. Examiner le logo, le site et les réseaux sociaux, c'est évaluer l'image de marque.",
+              "distractors": {
+                "B": "Aucun tarif réduit n'est annoncé : les forfaits « start at $2,500 per month ».",
+                "C": "La séance photo n'est offerte qu'à ceux qui signent un contrat de six mois (« Clients who sign a six-month contract »).",
+                "D": "Le responsable de compte fait partie des forfaits payants (« Our packages… include a dedicated account manager »)."
+              },
+              "trap": "Une offre « gratuite » a souvent une condition : vérifie à qui elle s'adresse (tous les nouveaux clients, ou seulement ceux qui signent)."
+            },
+            "en": {
+              "rule": "The \"free two-hour brand review\" is offered to new clients, and \"There is no obligation to hire us afterward\": no contract is needed. Examining the logo, website and social media accounts means assessing the brand.",
+              "distractors": {
+                "B": "No reduced rate is announced: the packages \"start at $2,500 per month\".",
+                "C": "The photo shoot is only for those who sign a six-month contract (\"Clients who sign a six-month contract\").",
+                "D": "The account manager comes with the paid packages (\"Our packages... include a dedicated account manager\")."
+              },
+              "trap": "A \"free\" offer often has a condition: check who it applies to (all new clients, or only those who sign)."
+            }
+          }
+        },
+        {
+          "id": "p7-0017-2",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 2,
+          "stem": "What is implied about a client who signs a six-month contract?",
+          "options": [
+            "The client will have to pay for the brand review.",
+            "The client will work with a different manager on each project.",
+            "The client must schedule the photo shoot in May.",
+            "The client will pay at least $15,000 in total."
+          ],
+          "answer": "D",
+          "evidence": [
+            "Clients who sign a six-month contract before May 31",
+            "Our packages start at $2,500 per month"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Un contrat de six mois (« six-month contract ») avec des forfaits à partir de 2 500 $ par mois (« start at $2,500 per month ») : 6 x 2 500 = 15 000 $ au minimum.",
+              "distractors": {
+                "A": "La séance d'évaluation est gratuite (« free two-hour brand review »), y compris pour ceux qui signent ensuite.",
+                "B": "Le client a un seul responsable « dedicated » qui suit chaque projet du début à la fin.",
+                "C": "Le texte fixe une date limite pour signer (« before May 31 »), pas pour faire la séance photo."
+              },
+              "trap": "Quand le texte donne une durée et un tarif mensuel, multiplie : l'inférence est un calcul, pas une information écrite."
+            },
+            "en": {
+              "rule": "A six-month contract and packages starting at $2,500 per month (\"start at $2,500 per month\"): 6 x $2,500 = $15,000 at the very least.",
+              "distractors": {
+                "A": "The review is free (\"free two-hour brand review\"), even for those who sign afterward.",
+                "B": "The client gets one \"dedicated\" manager who handles every project from start to finish.",
+                "C": "The text sets a deadline for signing (\"before May 31\"), not for holding the photo shoot."
+              },
+              "trap": "When the text gives a length of time and a monthly price, multiply: the inference is a calculation, not a written fact."
+            }
+          }
+        },
+        {
+          "id": "p7-0017-3",
+          "tags": [
+            "synonym-in-context"
+          ],
+          "difficulty": 2,
+          "stem": "The word \"handle\" in paragraph 3 is closest in meaning to",
+          "options": [
+            "manage",
+            "touch",
+            "sell",
+            "tolerate"
+          ],
+          "answer": "A",
+          "evidence": [
+            "a dedicated account manager who will handle every project from start to finish"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« A dedicated account manager who will handle every project from start to finish » : le responsable s'occupe des projets, il les gère. « Handle » veut ici dire « manage ».",
+              "distractors": {
+                "B": "« touch » est le sens physique de « handle » (tenir dans les mains), qui ne va pas avec « project ».",
+                "C": "« sell » est un autre sens possible (« handle a brand » = la vendre), mais le responsable ne vend pas les projets, il les suit.",
+                "D": "« tolerate » correspond à « can't handle it » (supporter), sens étranger à cette phrase."
+              },
+              "trap": "Pour un synonyme, remplace le mot par chaque option dans la phrase. Le sens physique (« toucher ») est un piège classique."
+            },
+            "en": {
+              "rule": "\"A dedicated account manager who will handle every project from start to finish\": the manager takes care of the projects, he manages them. Here \"handle\" means \"manage\".",
+              "distractors": {
+                "B": "\"touch\" is the physical sense of \"handle\" (hold in the hands), which does not fit \"project\".",
+                "C": "\"sell\" is another possible sense (\"handle a brand\" = sell it), but the manager does not sell the projects, he follows them.",
+                "D": "\"tolerate\" matches \"can't handle it\" (bear), a sense that does not belong in this sentence."
+              },
+              "trap": "For a synonym question, put each option back into the sentence. The physical sense (\"touch\") is a classic trap."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0018",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "chat",
+          "title": "Fernwood Garden Center - Staff Chat",
+          "text": "Carla Whitaker (8:30 A.M.): The truck from Lakeview Nursery arrives at 10:00 with 200 tomato and pepper seedlings. Who can help unload?\nYusuf Demir (8:32 A.M.): I have a customer consultation at 10:00 about a patio planting plan, so I can't.\nAdaeze Eze (8:33 A.M.): I'm free until 11:00. I can take it.\nCarla Whitaker (8:34 A.M.): Thanks, Adaeze. The seedlings need to be on the shaded tables within an hour of arriving, and they also need price tags before noon.\nAdaeze Eze (8:36 A.M.): No sweat.\nYusuf Demir (8:41 A.M.): Good news. The customer just moved our consultation to 11:30, so I'm free at 10:00. I'll meet you at the loading dock, Adaeze.\nAdaeze Eze (8:42 A.M.): Perfect, see you there."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0018-1",
+          "tags": [
+            "writer-intention"
+          ],
+          "difficulty": 2,
+          "stem": "At 8:36 A.M., what does Ms. Eze most likely mean when she writes, \"No sweat\"?",
+          "options": [
+            "The extra tasks will not be a problem for her.",
+            "She does not want to work outdoors.",
+            "The seedlings will not need any watering.",
+            "It is too early in the day to begin."
+          ],
+          "answer": "A",
+          "evidence": [
+            "The seedlings need to be on the shaded tables within an hour of arriving, and they also need price tags before noon."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Mme Whitaker vient de lui confier des tâches : mettre les plants à l'ombre dans l'heure et poser les étiquettes avant midi (« within an hour… price tags before noon »). « No sweat » veut dire « pas de problème » : elle accepte facilement.",
+              "distractors": {
+                "B": "Rien ne dit qu'elle refuse de travailler dehors ; elle vient de proposer de décharger (« I can take it »).",
+                "C": "Sens littéral de « sweat » (transpiration) ou de l'arrosage : le message d'avant ne parle pas d'eau.",
+                "D": "Elle est libre jusqu'à 11 h et accepte les tâches : elle ne dit pas qu'il est trop tôt."
+              },
+              "trap": "Ne traduis pas une expression mot à mot (« sweat » = sueur) : cherche ce qui vient d'être demandé, puis ce qu'une réponse naturelle voudrait dire (« pas de souci »)."
+            },
+            "en": {
+              "rule": "Ms. Whitaker has just given her tasks: put the seedlings on the shaded tables within an hour and add price tags before noon (\"within an hour... price tags before noon\"). \"No sweat\" means \"no problem\": she accepts easily.",
+              "distractors": {
+                "B": "Nothing says she refuses to work outdoors; she has just offered to unload (\"I can take it\").",
+                "C": "The literal sense of \"sweat\" or watering: the message before says nothing about water.",
+                "D": "She is free until 11:00 and accepts the tasks: she does not say it is too early."
+              },
+              "trap": "Do not translate an expression word for word (\"sweat\"): look at what was just asked, then what a natural answer would mean (\"no worries\")."
+            }
+          }
+        },
+        {
+          "id": "p7-0018-2",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 2,
+          "stem": "What will most likely happen at 10:00 A.M.?",
+          "options": [
+            "Ms. Whitaker will unload the truck by herself.",
+            "Ms. Eze and Mr. Demir will unload the delivery together.",
+            "Mr. Demir will meet with a customer.",
+            "Ms. Whitaker will drive to Lakeview Nursery."
+          ],
+          "answer": "B",
+          "evidence": [
+            "The customer just moved our consultation to 11:30, so I'm free at 10:00.",
+            "I'll meet you at the loading dock, Adaeze."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La livraison arrive à 10 h (« arrives at 10:00 »). Mme Eze s'est proposée pour décharger, et M. Demir, libre à 10 h (« I'm free at 10:00 »), la rejoint (« I'll meet you at the loading dock »). Les deux déchargeront donc le camion.",
+              "distractors": {
+                "A": "Mme Whitaker ne propose pas de décharger : Mme Eze s'en charge, rejointe par M. Demir.",
+                "C": "Le rendez-vous client a été déplacé à 11 h 30 (« moved our consultation to 11:30 »).",
+                "D": "Mme Whitaker ne se déplace nulle part : c'est le camion de Lakeview Nursery qui vient au magasin."
+              },
+              "trap": "Pour « most likely happen », combine les messages dans l'ordre : le dernier changement (consultation déplacée) annule l'information du début."
+            },
+            "en": {
+              "rule": "The delivery arrives at 10:00 (\"arrives at 10:00\"). Ms. Eze offered to unload, and Mr. Demir, who is free at 10:00 (\"I'm free at 10:00\"), will join her (\"I'll meet you at the loading dock\"). So the two of them will unload the truck.",
+              "distractors": {
+                "A": "Ms. Whitaker does not offer to unload: Ms. Eze takes it on, joined by Mr. Demir.",
+                "C": "The customer meeting was moved to 11:30 (\"moved our consultation to 11:30\").",
+                "D": "Ms. Whitaker goes nowhere: it is the Lakeview Nursery truck that comes to the store."
+              },
+              "trap": "For \"most likely happen\", combine the messages in order: the latest change (the consultation moved) cancels the earlier information."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
