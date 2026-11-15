@@ -1,0 +1,634 @@
+{
+  "part": 7,
+  "pool": "training",
+  "sets": [
+    {
+      "id": "p7-0019",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "review",
+          "title": "Millbrook Family Pharmacy - Customer Review",
+          "text": "Rating: 3 out of 5 stars\nPosted by Dennis Holloway on March 14\n\nI have filled prescriptions at Millbrook Family Pharmacy for six years, and the pharmacists are excellent. They remember my name, they explain every medication clearly, and once they even called my doctor on a Saturday to correct an error on a form. I usually collect my medication on my way home from work, and the shop is always clean, quiet, and well organized. That is why I am sorry to write a critical review.\n\nLast month the pharmacy moved all refill requests to a new phone app and removed the old automated telephone line. The app often fails to load on my older phone. When I finally managed to submit a refill on March 10, nobody told me that the order was ready, so I waited two extra days. I would give five stars to the staff and one star to the new system. I understand that technology can save time, but not everyone is comfortable with it. Please keep a telephone option for customers like me."
+        },
+        {
+          "genre": "email",
+          "text": "To: Dennis Holloway\nFrom: Soledad Ibarra, Pharmacy Manager, Millbrook Family Pharmacy\nDate: March 17\nSubject: Your review of our refill service\n\nDear Mr. Holloway,\n\nThank you for your honest review and for six years as our customer. You are right that we should have kept a telephone option while customers got used to the app. Our automated refill line will return on March 24 and will work alongside the app.\n\nI also want to explain why you were not told that your order was ready. The app is supposed to send a text message at that moment, but the feature was switched off by mistake during the first two weeks. We corrected the problem on March 12.\n\nTo thank you for your patience, we would like to deliver your next three refills to your home free of charge. Please show this e-mail to any pharmacist at the counter to arrange it. Your comments have been shared with our whole team, and we will keep working to improve the service. If you have any other suggestions, please reply to this message or call me directly. We hope to see you soon.\n\nSincerely,\nSoledad Ibarra"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0019-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 3,
+          "stem": "What is the main purpose of the review?",
+          "options": [
+            "To thank the pharmacists for their help",
+            "To object to a change in how refills are requested",
+            "To report a mistake on a prescription",
+            "To recommend the pharmacy's new app"
+          ],
+          "answer": "B",
+          "evidence": [
+            "Last month the pharmacy moved all refill requests to a new phone app and removed the old automated telephone line.",
+            "Please keep a telephone option for customers like me."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le deuxième paragraphe est le coeur de l'avis : « moved all refill requests to a new phone app and removed the old automated telephone line », puis « Please keep a telephone option ». Le client conteste un changement du système de renouvellement.",
+              "distractors": {
+                "A": "Les éloges du premier paragraphe sont réels, mais ils servent d'introduction (« That is why I am sorry to write a critical review »), pas de but.",
+                "C": "L'erreur sur un formulaire a été corrigée par les pharmaciens il y a longtemps ; c'est un exemple de leur bon travail, pas l'objet de l'avis.",
+                "D": "Il dit que l'application « often fails to load » et donne une étoile au système : il ne la recommande pas."
+              },
+              "trap": "Le but d'un avis se lit dans ce qui motive la note et dans la demande finale, pas dans les compliments d'ouverture, qui servent souvent de leurre."
+            },
+            "en": {
+              "rule": "The second paragraph is the heart of the review: \"moved all refill requests to a new phone app and removed the old automated telephone line\", then \"Please keep a telephone option\". The customer objects to a change in the refill system.",
+              "distractors": {
+                "A": "The praise in the first paragraph is genuine, but it is an introduction (\"That is why I am sorry to write a critical review\"), not the purpose.",
+                "C": "The error on a form was corrected by the pharmacists long ago; it is an example of their good work, not the subject of the review.",
+                "D": "He says the app \"often fails to load\" and gives the system one star: he does not recommend it."
+              },
+              "trap": "The purpose of a review is found in what justifies the rating and in the final request, not in the opening compliments, which are often a decoy."
+            }
+          }
+        },
+        {
+          "id": "p7-0019-2",
+          "tags": [
+            "synonym-in-context"
+          ],
+          "difficulty": 2,
+          "stem": "In the review, the word \"managed\" in the second paragraph is closest in meaning to",
+          "options": [
+            "directed",
+            "succeeded",
+            "handled",
+            "organized"
+          ],
+          "answer": "B",
+          "evidence": [
+            "When I finally managed to submit a refill on March 10"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« managed to submit » suit « finally » et « often fails to load » : après des difficultés, il a réussi à envoyer sa demande. « succeeded » (réussir à) est le seul sens qui convient.",
+              "distractors": {
+                "A": "« directed » (diriger) est un autre sens de « manage », mais on ne dirige pas une demande de renouvellement.",
+                "C": "« handled » (traiter, gérer) irait pour « managed the order », pas pour « managed to + verbe ».",
+                "D": "« organized » (organiser) est un sens proche de « manage » pour un projet ou un planning, pas ici."
+              },
+              "trap": "Dans « manage to + verbe », « manage » veut dire réussir, pas diriger. Remplace le mot par chaque option dans la phrase pour tester."
+            },
+            "en": {
+              "rule": "\"managed to submit\" follows \"finally\" and \"often fails to load\": after difficulties, he succeeded in sending his request. \"succeeded\" is the only meaning that fits.",
+              "distractors": {
+                "A": "\"directed\" is another meaning of \"manage\", but you do not direct a refill request.",
+                "C": "\"handled\" would suit \"managed the order\", not \"managed to + verb\".",
+                "D": "\"organized\" is close to \"manage\" for a project or a schedule, not here."
+              },
+              "trap": "In \"manage to + verb\", \"manage\" means succeed, not direct. Put each option back into the sentence to test it."
+            }
+          }
+        },
+        {
+          "id": "p7-0019-3",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 1,
+          "stem": "What does Mr. Holloway imply about the new app?",
+          "options": [
+            "It was designed by the pharmacists.",
+            "It is available only to new customers.",
+            "It does not work well on every phone.",
+            "It can be used only on weekends."
+          ],
+          "answer": "C",
+          "evidence": [
+            "The app often fails to load on my older phone."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Il écrit : « The app often fails to load on my older phone ». On en déduit que l'application ne fonctionne pas bien sur tous les téléphones.",
+              "distractors": {
+                "A": "Rien n'indique qui a conçu l'application ; il parle des pharmaciens seulement pour louer leur service.",
+                "B": "Il est client depuis six ans et a lui-même essayé de l'utiliser : elle n'est pas réservée aux nouveaux clients.",
+                "D": "Aucune restriction horaire n'est mentionnée ; le samedi apparaît seulement dans l'anecdote sur son médecin."
+              },
+              "trap": "« Imply » : la réponse généralise une phrase précise (un téléphone ancien, donc pas tous les téléphones). Cherche cette phrase, ne rajoute aucun fait."
+            },
+            "en": {
+              "rule": "He writes: \"The app often fails to load on my older phone\". You can infer that the app does not work well on every phone.",
+              "distractors": {
+                "A": "Nothing says who designed the app; he mentions the pharmacists only to praise their service.",
+                "B": "He has been a customer for six years and has tried to use it himself: it is not limited to new customers.",
+                "D": "No time restriction is mentioned; Saturday appears only in the story about his doctor."
+              },
+              "trap": "\"Imply\": the answer generalizes one precise sentence (an older phone, so not every phone). Find that sentence and do not add facts."
+            }
+          }
+        },
+        {
+          "id": "p7-0019-4",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 1,
+          "stem": "What most likely caused the delay that Mr. Holloway describes?",
+          "options": [
+            "His doctor did not approve the refill.",
+            "A text-message alert was not sent.",
+            "The app did not accept his request.",
+            "The pharmacy was closed for two days."
+          ],
+          "answer": "B",
+          "evidence": [
+            "nobody told me that the order was ready, so I waited two extra days",
+            "The app is supposed to send a text message at that moment, but the feature was switched off by mistake during the first two weeks."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "L'avis décrit le retard : « nobody told me that the order was ready ». L'e-mail en donne la cause : le message texte censé prévenir le client était désactivé par erreur, jusqu'au 12 mars, donc au moment de sa commande du 10 mars.",
+              "distractors": {
+                "A": "Aucun des deux documents ne parle d'un refus de son médecin.",
+                "C": "Il dit avoir réussi à envoyer sa demande le 10 mars (« managed to submit ») : le problème vient de l'absence de notification.",
+                "D": "Aucune fermeture n'est mentionnée ; la pharmacie a préparé la commande, mais personne ne l'a prévenu."
+              },
+              "trap": "Un retard décrit dans un document s'explique souvent dans l'autre. Repère le fait (« nobody told me »), puis cherche la cause dans la réponse."
+            },
+            "en": {
+              "rule": "The review describes the delay: \"nobody told me that the order was ready\". The e-mail gives the cause: the text message meant to notify customers was switched off by mistake until March 12, which includes his March 10 order.",
+              "distractors": {
+                "A": "Neither document mentions his doctor refusing anything.",
+                "C": "He says he managed to submit the request on March 10: the problem was the missing notification.",
+                "D": "No closure is mentioned; the order was prepared, but nobody told him."
+              },
+              "trap": "A delay described in one document is often explained in the other. Find the fact (\"nobody told me\"), then look for the cause in the reply."
+            }
+          }
+        },
+        {
+          "id": "p7-0019-5",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 3,
+          "stem": "What does Ms. Ibarra say will happen on March 24?",
+          "options": [
+            "The text-message feature will be repaired.",
+            "The automated refill line will be available again.",
+            "Free home deliveries will start.",
+            "The new app will be removed."
+          ],
+          "answer": "B",
+          "evidence": [
+            "Our automated refill line will return on March 24 and will work alongside the app."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "L'e-mail dit : « Our automated refill line will return on March 24 ». « return » est reformulé par « be available again ».",
+              "distractors": {
+                "A": "La fonction de message a déjà été réparée le 12 mars (« We corrected the problem on March 12 »).",
+                "C": "Les livraisons gratuites sont proposées, mais aucune date de début n'est donnée ; il faut présenter l'e-mail à un pharmacien.",
+                "D": "L'application reste en service : la ligne téléphonique fonctionnera « alongside the app », à côté d'elle."
+              },
+              "trap": "Plusieurs dates figurent dans le texte : associe chaque date à son événement avant de répondre, et méfie-toi des options qui déplacent un fait vers une autre date."
+            },
+            "en": {
+              "rule": "The e-mail says: \"Our automated refill line will return on March 24\". \"return\" is paraphrased as \"be available again\".",
+              "distractors": {
+                "A": "The text-message feature was already repaired on March 12 (\"We corrected the problem on March 12\").",
+                "C": "Free deliveries are offered, but no start date is given; he must show the e-mail to a pharmacist.",
+                "D": "The app stays in service: the telephone line will work \"alongside the app\"."
+              },
+              "trap": "Several dates appear in the text: match each date to its event before answering, and beware of options that move a fact to another date."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0020",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "job-posting",
+          "title": "Tidewater Expo Group - Job Opening",
+          "text": "Position: Exhibitor Services Coordinator (full-time)\nLocation: Harbor Convention Center, Port Alden\n\nTidewater Expo Group organizes the Tidewater Building & Design Show, held every October in Port Alden and attended by more than 300 exhibiting companies. We are looking for a coordinator to support our exhibitors before and during the show. The Harbor Convention Center is a five-minute walk from the Port Alden train station, and our offices are on the same street.\n\nResponsibilities: answer exhibitors' questions by phone and e-mail; assign booth space to participating companies; prepare the exhibitor manual; and oversee the setup crews during the three days before the show opens.\n\nRequirements: at least two years of experience in event planning or customer service; excellent organizational skills; willingness to work some weekends. Knowledge of Spanish is a plus.\n\nCompensation: $46,000 to $52,000 per year. Benefits include health insurance, 15 days of paid vacation, and an annual training allowance.\n\nTo apply, send a cover letter and resume to Alma Voss, Human Resources Manager, by August 22. Interviews will take place on September 2 and 3, and the new coordinator will begin on September 15."
+        },
+        {
+          "genre": "letter",
+          "text": "August 18\n\nAlma Voss\nHuman Resources Manager\nTidewater Expo Group\n210 Quay Street, Port Alden\n\nDear Ms. Voss,\n\nI am writing to apply for the Exhibitor Services Coordinator position advertised on your website. For the past three years I have worked as a project assistant at Kestrel Display Systems, the company that builds the exhibitor booths at your October show. During that time I answered questions from exhibitors, drew floor plans, and coordinated deliveries to the Harbor Convention Center. I also speak fluent Spanish, which I use daily with clients in Latin America.\n\nI have enclosed my resume and two references. My current contract ends on September 11, so I would be free to start on September 15 as planned. However, I will be out of the country until September 5 for a trade fair in Valencia. If you cannot reschedule my interview, I would be glad to take part by video call from Spain.\n\nThank you for considering my application. I have long admired the way your team runs the show, and I would be proud to contribute to its success. I look forward to hearing from you.\n\nSincerely,\nRohan Banerjee"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0020-1",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 1,
+          "stem": "According to the job posting, what will the coordinator do?",
+          "options": [
+            "Assign booth space to companies",
+            "Design advertising for the show",
+            "Sell admission tickets to visitors",
+            "Negotiate prices with the convention center"
+          ],
+          "answer": "A",
+          "evidence": [
+            "assign booth space to participating companies"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La liste des responsabilités contient : « assign booth space to participating companies ». « Companies » reprend « exhibitors » : c'est la réponse écrite.",
+              "distractors": {
+                "B": "La publicité du salon n'apparaît pas dans les tâches ; le coordinateur prépare un manuel pour les exposants.",
+                "C": "La vente de billets n'est pas citée ; les exposants sont la clientèle de ce poste.",
+                "D": "Le centre de congrès est un lieu, pas un partenaire avec lequel le coordinateur négocie."
+              },
+              "trap": "Pour une question « what will the coordinator do », va droit à la liste « Responsibilities » : une tâche y est reformulée, les autres sont plausibles mais absentes."
+            },
+            "en": {
+              "rule": "The list of responsibilities includes: \"assign booth space to participating companies\". The answer is written in the text.",
+              "distractors": {
+                "B": "Advertising for the show is not among the tasks; the coordinator prepares a manual for exhibitors.",
+                "C": "Ticket sales are not mentioned; exhibitors are the clients of this job.",
+                "D": "The convention center is a venue, not a partner the coordinator negotiates with."
+              },
+              "trap": "For a \"what will the coordinator do\" question, go straight to the \"Responsibilities\" list: one task is reworded, the others are plausible but absent."
+            }
+          }
+        },
+        {
+          "id": "p7-0020-2",
+          "tags": [
+            "not-true"
+          ],
+          "difficulty": 2,
+          "stem": "What is NOT mentioned as a benefit of the job?",
+          "options": [
+            "Medical coverage",
+            "A free parking space",
+            "Time off with pay",
+            "Money for professional training"
+          ],
+          "answer": "B",
+          "evidence": [
+            "Benefits include health insurance, 15 days of paid vacation, and an annual training allowance."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Une seule phrase énumère les avantages : « health insurance, 15 days of paid vacation, and an annual training allowance ». Trois options la reformulent ; le parking n'y figure pas.",
+              "distractors": {
+                "A": "« Medical coverage » reformule « health insurance ».",
+                "C": "« Time off with pay » reformule « 15 days of paid vacation ».",
+                "D": "« Money for professional training » reformule « an annual training allowance »."
+              },
+              "trap": "Question « NOT » : barre chaque option que tu retrouves dans le texte, même reformulée ; celle qui reste est la réponse."
+            },
+            "en": {
+              "rule": "One sentence lists the benefits: \"health insurance, 15 days of paid vacation, and an annual training allowance\". Three options paraphrase it; parking is not in it.",
+              "distractors": {
+                "A": "\"Medical coverage\" paraphrases \"health insurance\".",
+                "C": "\"Time off with pay\" paraphrases \"15 days of paid vacation\".",
+                "D": "\"Money for professional training\" paraphrases \"an annual training allowance\"."
+              },
+              "trap": "\"NOT\" question: cross out every option you find in the text, even reworded; the one left is the answer."
+            }
+          }
+        },
+        {
+          "id": "p7-0020-3",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 1,
+          "stem": "Which skill that the job posting calls a plus does Mr. Banerjee have?",
+          "options": [
+            "A degree in event management",
+            "Fluency in Spanish",
+            "Experience in retail sales",
+            "Training in video production"
+          ],
+          "answer": "B",
+          "evidence": [
+            "Knowledge of Spanish is a plus.",
+            "I also speak fluent Spanish, which I use daily with clients in Latin America."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "L'offre indique : « Knowledge of Spanish is a plus ». Dans sa lettre, M. Banerjee écrit : « I also speak fluent Spanish ». Il faut relier les deux documents.",
+              "distractors": {
+                "A": "Aucun diplôme n'est mentionné ni dans l'offre ni dans la lettre.",
+                "C": "La vente au détail n'apparaît nulle part ; il travaille pour un fabricant de stands.",
+                "D": "La vidéo n'est citée que pour l'entretien à distance, pas comme compétence."
+              },
+              "trap": "Quand la question demande ce que « the posting calls a plus », trouve d'abord l'atout dans l'offre, puis vérifie dans la lettre que le candidat le possède."
+            },
+            "en": {
+              "rule": "The posting says: \"Knowledge of Spanish is a plus\". In his letter, Mr. Banerjee writes: \"I also speak fluent Spanish\". You have to link the two documents.",
+              "distractors": {
+                "A": "No degree is mentioned in the posting or the letter.",
+                "C": "Retail sales appear nowhere; he works for a company that builds booths.",
+                "D": "Video is mentioned only for the remote interview, not as a skill."
+              },
+              "trap": "When the question asks what \"the posting calls a plus\", first find the plus in the posting, then check in the letter that the candidate has it."
+            }
+          }
+        },
+        {
+          "id": "p7-0020-4",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 2,
+          "stem": "What is suggested about Mr. Banerjee?",
+          "options": [
+            "He is already familiar with the Tidewater show.",
+            "He has applied for the position before.",
+            "He currently works for Tidewater Expo Group.",
+            "He has no experience with exhibitors."
+          ],
+          "answer": "A",
+          "evidence": [
+            "the company that builds the exhibitor booths at your October show"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Son employeur actuel construit « the exhibitor booths at your October show » et il a répondu à des exposants et livré au centre de congrès : il connaît donc déjà le salon Tidewater.",
+              "distractors": {
+                "B": "Rien n'indique une candidature antérieure.",
+                "C": "Il travaille pour Kestrel Display Systems, un fournisseur de Tidewater Expo Group, pas pour Tidewater lui-même.",
+                "D": "Il écrit au contraire : « I answered questions from exhibitors »."
+              },
+              "trap": "Une déduction s'appuie sur un détail précis (ici, l'employeur construit les stands du salon). Évite les options qui contredisent la lettre ou ajoutent un fait."
+            },
+            "en": {
+              "rule": "His current employer builds \"the exhibitor booths at your October show\" and he has dealt with exhibitors and deliveries at the convention center: he already knows the Tidewater show.",
+              "distractors": {
+                "B": "Nothing suggests an earlier application.",
+                "C": "He works for Kestrel Display Systems, a supplier to Tidewater Expo Group, not for Tidewater itself.",
+                "D": "He says the opposite: \"I answered questions from exhibitors\"."
+              },
+              "trap": "An inference rests on one precise detail (here, his employer builds the show's booths). Avoid options that contradict the letter or add a fact."
+            }
+          }
+        },
+        {
+          "id": "p7-0020-5",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 2,
+          "stem": "What problem might the hiring schedule cause for Mr. Banerjee?",
+          "options": [
+            "He may be unable to attend an interview in person.",
+            "He cannot begin work on September 15.",
+            "He will miss the application deadline.",
+            "He will not receive the training allowance."
+          ],
+          "answer": "A",
+          "evidence": [
+            "Interviews will take place on September 2 and 3",
+            "I will be out of the country until September 5 for a trade fair in Valencia."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "L'offre fixe les entretiens aux 2 et 3 septembre. La lettre dit que M. Banerjee sera à l'étranger jusqu'au 5 septembre : il ne pourra sans doute pas venir en personne, d'où sa proposition d'une visioconférence.",
+              "distractors": {
+                "B": "Il écrit au contraire : « I would be free to start on September 15 as planned ».",
+                "C": "Il écrit le 18 août ; la date limite de candidature est le 22 août.",
+                "D": "La prime de formation n'est liée à aucun calendrier et il n'en est pas question dans la lettre."
+              },
+              "trap": "Pour un problème de calendrier, place les dates des deux documents sur une même ligne du temps : le conflit apparaît quand deux dates se chevauchent."
+            },
+            "en": {
+              "rule": "The posting sets interviews for September 2 and 3. The letter says Mr. Banerjee will be abroad until September 5, so he probably cannot come in person, which is why he offers a video call.",
+              "distractors": {
+                "B": "He says the opposite: \"I would be free to start on September 15 as planned\".",
+                "C": "He writes on August 18; the application deadline is August 22.",
+                "D": "The training allowance is not tied to any date and the letter never mentions it."
+              },
+              "trap": "For a scheduling problem, put the dates from both documents on one timeline: the conflict appears where two dates overlap."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-0021",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "schedule",
+          "title": "Crestline Mutual Insurance - Regional Claims Workshop",
+          "text": "Wednesday, October 14 - Program\nRedfern Conference Center\n\n8:30 A.M. - Check-in and breakfast (Atrium)\n9:00 A.M. - Welcome from Director Naomi Fairweather\n9:15 A.M. - Session 1: Handling Storm-Damage Claims (Room 204) - Gareth Mbeki\n10:15 A.M. - Break\n10:30 A.M. - Session 2: New Digital Claim Forms (Room 204) - Yuki Hamasaki\n11:30 A.M. - Session 3: Talking With Customers After a Loss (Room 210) - Delphine Arnaud\n12:30 P.M. - Lunch (Atrium)\n1:30 P.M. - Session 4: Spotting Fraud Warning Signs (Room 204) - Gareth Mbeki\n2:45 P.M. - Closing remarks and certificates (Room 204)\n\nCoffee, tea, and a light snack will be served during the break. Please bring a photo ID to collect your badge at check-in. Parking in Lot C is free for workshop participants. Participants who attend all four sessions receive a certificate worth three continuing-education credits. Questions about the program should be sent to Ainsley Park, Training Coordinator, at training@crestlinemutual.example."
+        },
+        {
+          "genre": "email",
+          "text": "To: Ainsley Park, Training Coordinator\nFrom: Tobias Wren\nDate: October 6\nSubject: Workshop on October 14\n\nDear Ms. Park,\n\nThank you for sending the program for next week's claims workshop, and thank you also for the clear directions to the conference center. I am a senior agent at our Dunmore office, and I have been looking forward to the event since I registered in September. Unfortunately, a long-standing client has asked to meet me at 3:00 P.M. on the same day, and the meeting cannot be moved. I would need to leave right after lunch.\n\nI am especially interested in the session on the new digital forms, because my office will start using them in November. I hope the workshop will cover the changes in detail, since several of my colleagues have already asked me how they work.\n\nWould it still be possible for me to receive a certificate if I miss the afternoon? If not, I would be glad to make up the missed session online at a later date.\n\nI apologize for any inconvenience and appreciate your help. I will also send the program to two colleagues from my office who may wish to register for a future workshop.\n\nSincerely,\nTobias Wren\nSenior Agent, Dunmore Office"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-0021-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 2,
+          "stem": "Why did Mr. Wren write to Ms. Park?",
+          "options": [
+            "To cancel his registration for the workshop",
+            "To request a change to the program",
+            "To ask how to receive credit after missing part of a workshop",
+            "To suggest a topic for a future session"
+          ],
+          "answer": "C",
+          "evidence": [
+            "Would it still be possible for me to receive a certificate if I miss the afternoon?"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "M. Wren explique qu'il devra partir après le déjeuner, puis demande : « Would it still be possible for me to receive a certificate if I miss the afternoon? ». Il veut savoir comment obtenir son attestation malgré une absence partielle.",
+              "distractors": {
+                "A": "Il reste inscrit : il dit attendre l'événement avec impatience et propose de rattraper la session manquée.",
+                "B": "Il ne demande aucune modification du programme ; il le commente seulement.",
+                "D": "Il parle d'un thème qui l'intéresse déjà au programme, pas d'un sujet futur."
+              },
+              "trap": "Le but d'un e-mail se lit dans la demande précise, souvent au dernier paragraphe, pas seulement dans l'ouverture : ici, la question sur l'attestation."
+            },
+            "en": {
+              "rule": "Mr. Wren explains that he will have to leave after lunch, then asks: \"Would it still be possible for me to receive a certificate if I miss the afternoon?\" He wants to know how to get credit despite missing part of the day.",
+              "distractors": {
+                "A": "He remains registered: he says he has been looking forward to the event and offers to make up the missed session.",
+                "B": "He does not ask for any change to the program; he only comments on it.",
+                "D": "He talks about a topic that is already on the program, not a future one."
+              },
+              "trap": "The purpose of an e-mail is found in its specific request, often in the last paragraph, not only in the opening: here, the question about the certificate."
+            }
+          }
+        },
+        {
+          "id": "p7-0021-2",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 2,
+          "stem": "Which session will Mr. Wren miss?",
+          "options": [
+            "Handling Storm-Damage Claims",
+            "New Digital Claim Forms",
+            "Talking With Customers After a Loss",
+            "Spotting Fraud Warning Signs"
+          ],
+          "answer": "D",
+          "evidence": [
+            "I would need to leave right after lunch.",
+            "12:30 P.M. - Lunch (Atrium)",
+            "1:30 P.M. - Session 4: Spotting Fraud Warning Signs (Room 204) - Gareth Mbeki"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Dans l'e-mail, M. Wren doit partir « right after lunch ». Le programme place le déjeuner à 12 h 30, et la seule session qui suit est la quatrième, « Spotting Fraud Warning Signs », à 13 h 30.",
+              "distractors": {
+                "A": "La session 1 a lieu à 9 h 15, avant son départ.",
+                "B": "La session 2, à 10 h 30, a lieu avant le déjeuner ; c'est même celle qui l'intéresse le plus.",
+                "C": "La session 3 se tient à 11 h 30, avant le déjeuner."
+              },
+              "trap": "Traduis l'indice de l'e-mail (« after lunch ») en heure grâce au programme, puis repère ce qui vient après."
+            },
+            "en": {
+              "rule": "In the e-mail, Mr. Wren must leave \"right after lunch\". The schedule puts lunch at 12:30 P.M., and the only session afterward is Session 4, \"Spotting Fraud Warning Signs\", at 1:30 P.M.",
+              "distractors": {
+                "A": "Session 1 takes place at 9:15 A.M., before he leaves.",
+                "B": "Session 2, at 10:30 A.M., is before lunch; it is even the one he cares about most.",
+                "C": "Session 3 is at 11:30 A.M., before lunch."
+              },
+              "trap": "Turn the e-mail clue (\"after lunch\") into a time using the schedule, then find what comes after it."
+            }
+          }
+        },
+        {
+          "id": "p7-0021-3",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 1,
+          "stem": "What are participants asked to bring to the workshop?",
+          "options": [
+            "A printed registration form",
+            "A photo ID",
+            "A company laptop",
+            "Payment for parking"
+          ],
+          "answer": "B",
+          "evidence": [
+            "Please bring a photo ID to collect your badge at check-in."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le programme demande : « Please bring a photo ID to collect your badge at check-in ». La réponse est écrite telle quelle.",
+              "distractors": {
+                "A": "Aucun formulaire d'inscription à imprimer n'est mentionné.",
+                "C": "Aucun ordinateur n'est demandé.",
+                "D": "Le parking est gratuit : « Parking in Lot C is free for workshop participants »."
+              },
+              "trap": "Pour ce qu'on doit apporter, cherche les verbes « bring », « present », « show » : l'information est en général dans les consignes en bas du document."
+            },
+            "en": {
+              "rule": "The schedule asks: \"Please bring a photo ID to collect your badge at check-in\". The answer is written word for word.",
+              "distractors": {
+                "A": "No registration form to print is mentioned.",
+                "C": "No computer is requested.",
+                "D": "Parking is free: \"Parking in Lot C is free for workshop participants\"."
+              },
+              "trap": "For what participants must bring, look for \"bring\", \"present\", \"show\": the information is usually in the instructions at the bottom of the document."
+            }
+          }
+        },
+        {
+          "id": "p7-0021-4",
+          "tags": [
+            "synonym-in-context"
+          ],
+          "difficulty": 2,
+          "stem": "In the e-mail, the word \"cover\" in the second paragraph is closest in meaning to",
+          "options": [
+            "discuss",
+            "hide",
+            "travel",
+            "insure"
+          ],
+          "answer": "A",
+          "evidence": [
+            "I hope the workshop will cover the changes in detail"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« the workshop will cover the changes in detail » : un atelier traite un sujet, il l'aborde. « discuss » (aborder, traiter) convient.",
+              "distractors": {
+                "B": "« hide » (cacher) est un sens de « cover » pour un objet, pas pour un atelier.",
+                "C": "« travel » vient de « cover a distance » (parcourir), qui ne s'applique pas à des changements.",
+                "D": "« insure » est un piège lié au métier : « cover » veut dire assurer pour un contrat, mais un atelier n'assure pas des changements."
+              },
+              "trap": "Dans une entreprise d'un secteur précis, le sens technique du mot (ici l'assurance) est souvent le piège : teste chaque option dans la phrase."
+            },
+            "en": {
+              "rule": "\"the workshop will cover the changes in detail\": a workshop deals with a subject, it addresses it. \"discuss\" fits.",
+              "distractors": {
+                "B": "\"hide\" is a meaning of \"cover\" for an object, not for a workshop.",
+                "C": "\"travel\" comes from \"cover a distance\", which does not apply to changes.",
+                "D": "\"insure\" is a trap linked to the business: \"cover\" means to insure under a contract, but a workshop does not insure changes."
+              },
+              "trap": "In a company from a specific industry, the technical meaning of the word (here, insurance) is often the trap: test each option in the sentence."
+            }
+          }
+        },
+        {
+          "id": "p7-0021-5",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 1,
+          "stem": "Who will lead the session that Mr. Wren is most interested in?",
+          "options": [
+            "Yuki Hamasaki",
+            "Gareth Mbeki",
+            "Delphine Arnaud",
+            "Ainsley Park"
+          ],
+          "answer": "A",
+          "evidence": [
+            "I am especially interested in the session on the new digital forms",
+            "Session 2: New Digital Claim Forms (Room 204) - Yuki Hamasaki"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "L'e-mail dit que M. Wren s'intéresse surtout à « the session on the new digital forms ». Dans le programme, la session 2, « New Digital Claim Forms », est animée par Yuki Hamasaki.",
+              "distractors": {
+                "B": "Gareth Mbeki anime les sessions 1 (tempêtes) et 4 (fraude).",
+                "C": "Delphine Arnaud anime la session 3, sur la relation avec les clients.",
+                "D": "Ainsley Park est la coordinatrice de la formation, destinataire de l'e-mail, pas une intervenante."
+              },
+              "trap": "L'e-mail donne le sujet, le programme donne le nom : retrouve le titre dans la liste, puis lis le nom à côté."
+            },
+            "en": {
+              "rule": "The e-mail says Mr. Wren is especially interested in \"the session on the new digital forms\". In the schedule, Session 2, \"New Digital Claim Forms\", is led by Yuki Hamasaki.",
+              "distractors": {
+                "B": "Gareth Mbeki leads Sessions 1 (storms) and 4 (fraud).",
+                "C": "Delphine Arnaud leads Session 3, on talking with customers.",
+                "D": "Ainsley Park is the training coordinator who receives the e-mail, not a speaker."
+              },
+              "trap": "The e-mail gives the topic, the schedule gives the name: find the title in the list, then read the name next to it."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
