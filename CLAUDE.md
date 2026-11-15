@@ -21,7 +21,7 @@ Répondre en français.
 - **Stack** : Kotlin, Jetpack Compose, Material 3, Navigation Compose, Room, DataStore, kotlinx.serialization, JUnit ; Media3 pour l'audio en Phase 4. Un seul module Gradle, injection manuelle. Python pour le pipeline `content/`.
 - **Cible** : Samsung Galaxy S25+ ; Android 8 minimum (`minSdk 26`).
 - **Emplacement du dépôt** : `C:\dev\toeic900`, hors OneDrive et sans espace dans le chemin. Le dossier `OneDrive\Bureau\App TOEIC` n'a servi qu'aux maquettes et au contexte de départ.
-- **Visuel** : direction « Élan » choisie par l'auteur sur maquettes. Traduire les tokens en thème Compose (couleurs, typographie, formes, boutons « à tranche ») sans réinventer de palette. Polices Nunito (interface) et Nunito Sans (textes d'examen) embarquées. Le mode sombre est vérifié en contraste par calcul, mais n'a jamais été relu visuellement.
+- **Visuel** : direction « Élan » choisie par l'auteur sur maquettes. Traduire les tokens en thème Compose (couleurs, typographie, formes, boutons « à tranche ») sans réinventer de palette. Polices Nunito (interface) et Nunito Sans (textes d'examen) embarquées. Mode sombre vérifié en contraste par calcul et relu à l'écran sur les écrans de la Phase 2 (émulateur).
 - **Architecture** : `domain/` en Kotlin pur testable sur JVM (révision espacée, score, série, XP, recommandation), `data/` (Room, import du contenu), `ui/` (Compose et ViewModels).
 - **Deux bases reliées par des identifiants stables** (ex. `p5-0142`) : la base de contenu est reconstruite depuis les JSON à chaque version de contenu, la base utilisateur n'est jamais détruite.
 - **Révision espacée** : Leitner à 5 boîtes (1, 2, 4, 8, 16 jours) au niveau de la compétence (tag). Une compétence due amène une question encore jamais vue sur ce tag. Une question ratée revient une fois, au moins 7 jours plus tard. Vocabulaire : Leitner par mot.
@@ -43,23 +43,30 @@ Répondre en français.
 | Phase | Contenu | État |
 |---|---|---|
 | 1 | Squelette, base locale, entraînement Part 5 avec corrections, révision espacée, premier lot de 120 questions Part 5 | terminée le 12/11/2026 |
-| 2 | Parts 6 et 7, fiches de cours, chemin de leçons, Part 5 complétée à 300 questions | en cours : lire `docs/reprise-phase-2.md` avant tout |
+| 2 | Parts 6 et 7, fiches de cours, chemin de leçons, Part 5 complétée à 300 questions | terminée le 16/11/2026 (bilan : `docs/bilan-phase-2.md`) |
 | 3 | Stats, score estimé, XP, série, badges, objectifs, notifications, animations, demi-test Reading | à faire |
 | 4 | Pipeline audio et images, Parts 1 à 4 | à faire |
 | 5 | Diagnostic complet, tests blancs, session recommandée | à faire |
 
 Le demi-test Reading est avancé en Phase 3 : sans lui, le score estimé n'aurait aucun test blanc sur lequel s'appuyer.
 
-## État du code après la Phase 1
+## État du code après la Phase 2 (pour la Phase 3)
 
 - **Outils** : wrapper Gradle 9.8.0, AGP 9.4.1 (Kotlin intégré, pas de plugin `kotlin-android`), Kotlin 2.4.20, KSP 2.3.12, Room 2.8.5, Compose 1.12.1, Material 3 1.4.0. Versions dans `gradle/libs.versions.toml`. Le JDK embarqué d'Android Studio est en version 25 : `JAVA_HOME="C:\Program Files\Android\Android Studio\jbr"`.
-- **Paquet** : `fr.toeic900`. `domain/` (Leitner, QuestionReview, QuestionPicker), `data/` (ContentDatabase, UserDatabase, ContentImporter, TrainingRepository, SettingsRepository), `ui/` (thème Élan, composants, écrans). Injection manuelle dans `AppContainer`.
-- **Contenu** : sources dans `content/bank/part5/lot-0N.json`, schéma et taxonomie (16 tags) dans `content/schemas/`, guide dans `content/GUIDE-REDACTION.md`. `python content/tools/build.py` valide puis écrit `app/src/main/assets/content/content.json` ; l'app réimporte quand la version calculée change. Identifiants utilisés : `p5-0001` à `p5-0120` ; continuer à `p5-0121`, ne jamais renuméroter.
-- **Rédaction des lots** : sous-agents Sonnet par lots de 30, avec tag, difficulté et lettre de la bonne réponse imposés par question ; relecture critique ensuite. Donner à chaque sous-agent son propre dossier de travail : en Phase 1, deux d'entre eux ont écrasé le script temporaire de l'autre dans le dossier partagé.
-- **Tests** : `gradlew testDebugUnitTest` (43), `python -m unittest discover -s content/tools/tests` (36), et 4 tests sur appareil lancés par `adb shell am instrument -w fr.toeic900.test/androidx.test.runner.AndroidJUnitRunner` après `gradlew installDebug installDebugAndroidTest`. `gradlew connectedDebugAndroidTest` réussit mais rapporte 0 test sur ce poste : ne pas s'y fier.
-- **Émulateur** : l'appareil virtuel s'appelle `Medium_Phone_API_37.0`. `local.properties` s'écrit avec des `/` (`sdk.dir=C:/Users/...`).
-- **Galaxy S25+ de l'auteur** (SM-S936B, Android 17, API 37) : installation par câble, lancement et 4 tests sur appareil réussis le 12/11/2026. Son écran fait 384 dp de large, contre 411 dp pour l'émulateur : vérifier à cette largeur les textes longs, qui passent sinon sur deux lignes.
-- **Non vérifié** : session menée jusqu'à l'expiration du chronomètre ; relecture visuelle complète du mode sombre (seuls l'accueil, le choix de session, une question et le bilan ont été vus).
+- **Paquet** : `fr.toeic900`. `domain/` (Leitner, QuestionReview, QuestionPicker, UnitPicker, LessonPath), `data/` (ContentDatabase, UserDatabase et `MIGRATION_1_2`, ContentImporter, TrainingRepository, SettingsRepository), `ui/` (thème Élan, composants, `AppNav`, écrans dont `training/TrainingScreen.kt`). Injection manuelle dans `AppContainer`.
+- **Décisions de la Phase 2** (documentées dans le code, à ne pas rouvrir sans raison) :
+  - unité servie : une question en Part 5, un texte entier en Parts 6-7 (`UnitPicker`, `UnitRef`) ; Leitner reste par compétence, chaque question d'un texte met à jour la boîte de son tag ;
+  - retour unique : un texte dont une question a été ratée revient une fois, en entier, 7 jours plus tard ; ce jour-là toutes ses questions sont marquées « retour fait » (`QuestionReview.afterAnswer`, `controlReturn`) ;
+  - chemin : étapes débloquées l'une après l'autre, validées à 70 % sur un passage mené au bout, une étape réussie le reste (`LessonPath`) ; identifiants d'étape (`l-verb-tense`) stables comme ceux des questions ;
+  - preuves : chaque question Part 7 porte `evidence` (citations mot pour mot), surlignées à la correction et contrôlées par le validateur ;
+  - session rapide de l'accueil : toutes parts mélangées (`part = 0`) ;
+  - `user.db` en version 2 (migration `MIGRATION_1_2`, testée sur appareil et sur une vraie base de la Phase 1) ; `content.db` en version 2, jetable.
+- **Contenu** : `content/bank/part5/` (lots 01 à 10, `p5-0001` à `p5-0300`), `part6/` (lots 01 à 05, `p6-0001` à `p6-0025`), `part7/` (lots 01 à 10, `p7-0001` à `p7-0050`), 24 fiches dans `content/lessons/fiches/`, chemin dans `content/lessons/path.json` (7 unités, 31 étapes). Schémas et taxonomie (24 tags) dans `content/schemas/`, guide dans `content/GUIDE-REDACTION.md`. `python content/tools/build.py` valide puis écrit `content.json` (1,2 Mo) ; l'app réimporte quand la version change (environ 4 s au premier lancement sur l'émulateur). Ne jamais renuméroter.
+- **Rédaction des lots** : sous-agents Sonnet, deux à la fois au plus, chacun avec son dossier de travail et un fichier de sortie, plan imposé (tag, difficulté, lettre) produit par `content/drafts/p5_plan.py` ou `content/drafts/reading_plan.py`, puis relecture critique ici. Défauts récurrents trouvés à la relecture : distracteur défendable à l'oral, phrase d'insertion qui tient à deux endroits, mot de synonyme déjà testé (« cover » quatre fois), noms de personnes et d'entreprises repris d'un document à l'autre (les rédacteurs les vérifient mal : relancer une détection sur toute la banque).
+- **Tests** : `gradlew testDebugUnitTest` (103), `python -m unittest discover -s content/tools/tests` (97), et 11 tests sur appareil lancés par `adb shell am instrument -w fr.toeic900.test/androidx.test.runner.AndroidJUnitRunner` après `gradlew installDebug installDebugAndroidTest`. `gradlew connectedDebugAndroidTest` rapporte 0 test sur ce poste : ne pas s'y fier.
+- **Émulateur** : `Medium_Phone_API_37.0` (411 dp ; `adb shell wm density 450` simule les 384 dp du S25+, `wm density reset` pour revenir). Laissé allumé une nuit, son système est tombé (`DeadSystemException`, installation « Broken pipe ») : le redémarrer (`adb emu kill`) plutôt que chercher dans l'app. `local.properties` s'écrit avec des `/`.
+- **Galaxy S25+ de l'auteur** (SM-S936B, Android 17, API 37, 384 dp) : Phase 1 installée et testée le 12/11/2026 ; la version de la Phase 2 n'y a pas encore été installée.
+- **Non vérifié** : session menée jusqu'à l'expiration du chronomètre ; Phase 2 sur le vrai téléphone.
 - **Limites connues** : session en cours non reprise après fermeture de l'app ; textes d'interface en français dans le code (pas de `strings.xml`) ; difficulté des questions estimée, non calibrée.
 
 ## Façon de travailler
