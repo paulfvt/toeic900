@@ -206,4 +206,5 @@ test (cause non élucidée) : ne pas s'y fier pour l'instant.
 - Les textes de l'interface sont en français uniquement et écrits dans le code ; seules les
   explications et les fiches passent en anglais.
 - Pas encore de statistiques, de score estimé, de série, de badges ni de notifications (Phase 3).
-- La Phase 2 a été vérifiée sur l'émulateur (411 et 384 dp, clair et sombre), pas encore sur le Galaxy S25+.
+- La Phase 2 a été vérifiée en détail sur l'émulateur (411 et 384 dp, clair et sombre) ; sur le Galaxy S25+,
+  elle est installée (18/11/2026) mais seul l'écran d'accueil y a été contrôlé.

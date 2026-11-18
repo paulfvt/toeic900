@@ -47,7 +47,8 @@ en bout) ; réimportation du contenu complet sur une base existante.
 
 ## Ce qui reste
 
-- **Installer la Phase 2 sur le Galaxy S25+** (par-dessus, sans désinstaller) et refaire un parcours rapide.
+- Phase 2 installée sur le Galaxy S25+ le 18/11/2026, par-dessus la Phase 1 : l'app s'ouvre et la
+  progression est conservée (27 réponses). Les parcours Parts 6-7 n'y ont pas encore été joués.
 - Phase 3 : statistiques, score estimé, XP, série, badges, objectifs, notifications, animations,
   demi-test Reading.
 
