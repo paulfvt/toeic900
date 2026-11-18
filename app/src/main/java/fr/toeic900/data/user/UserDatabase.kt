@@ -7,6 +7,7 @@ import androidx.room.Database
 import androidx.room.Entity
 import androidx.room.Index
 import androidx.room.Insert
+import androidx.room.OnConflictStrategy
 import androidx.room.PrimaryKey
 import androidx.room.Query
 import androidx.room.Room
@@ -33,6 +34,7 @@ import kotlinx.coroutines.flow.Flow
  * Historique :
  *   1 (Phase 1) : skill_state, question_state, session, attempt.
  *   2 (Phase 2) : lesson_progress ; session.stepId et session.exercisesCompleted ; attempt.stimulusId.
+ *   3 (Phase 3) : mock_result et mock_answer (demi-tests), badge_unlock, goal_day.
  */
 
 /** Boîte de Leitner d'une compétence. */
@@ -125,6 +127,57 @@ data class LessonProgressEntity(
 
 fun StepProgress.toEntity() = LessonProgressEntity(stepId, attempts, bestCorrect, bestTotal, lastAttemptDay, completedDay)
 
+/** Un test blanc (Phase 3 : demi-test Reading). Ses réponses ne touchent pas à la révision espacée. */
+@Entity(tableName = "mock_result")
+data class MockResultEntity(
+    @PrimaryKey(autoGenerate = true) val id: Long = 0,
+    /** Identifiant stable du test dans le contenu (ex. reading-1). */
+    val testId: String,
+    val startedAt: Long,
+    val endedAt: Long? = null,
+    /** Jour du début (epoch day). */
+    val day: Long,
+    val plannedMinutes: Int,
+    /** Temps réellement passé, pauses exclues. */
+    val elapsedMs: Long = 0,
+    /** Nombre de questions du test (réponses données ou non). */
+    val questionCount: Int,
+    val correctCount: Int = 0,
+    /** Vrai si le chronomètre a expiré avant la fin. */
+    val timedOut: Boolean = false,
+    /** Vrai si le test a été rendu (fini ou temps écoulé) ; faux s'il a été abandonné. */
+    val completed: Boolean = false,
+)
+
+/** Une réponse d'un test blanc ; selectedIndex = -1 pour une question laissée sans réponse. */
+@Entity(tableName = "mock_answer", indices = [Index("mockId"), Index("day")])
+data class MockAnswerEntity(
+    @PrimaryKey(autoGenerate = true) val id: Long = 0,
+    val mockId: Long,
+    val questionId: String,
+    val tagId: String,
+    val selectedIndex: Int,
+    val correct: Boolean,
+    val day: Long,
+    val timeSpentMs: Long,
+)
+
+/** Un badge débloqué : il le reste, même si sa condition n'est plus remplie. */
+@Entity(tableName = "badge_unlock")
+data class BadgeUnlockEntity(
+    @PrimaryKey val badgeId: String,
+    val unlockedDay: Long,
+    /** Faux tant que l'utilisateur n'a pas vu l'annonce du badge. */
+    val seen: Boolean = false,
+)
+
+/** Un jour où l'objectif quotidien a été atteint, enregistré avec l'objectif de ce jour-là. */
+@Entity(tableName = "goal_day")
+data class GoalDayEntity(@PrimaryKey val day: Long)
+
+/** Une réponse réduite à ce dont les statistiques ont besoin. */
+data class AnswerRow(val day: Long, val questionId: String, val tagId: String, val correct: Boolean, val timeSpentMs: Long)
+
 data class AttemptTotals(val total: Int, val correct: Int)
 
 @Dao
@@ -195,6 +248,72 @@ abstract class UserDao {
         upsertQuestionState(questionState)
         countAnswer(attempt.sessionId, if (attempt.correct) 1 else 0)
     }
+
+    // ------------------------------------------------------------ Phase 3 : progrès
+
+    @Query("SELECT day, questionId, tagId, correct, timeSpentMs FROM attempt")
+    abstract fun observeAnswerRows(): Flow<List<AnswerRow>>
+
+    @Query("SELECT day, questionId, tagId, correct, timeSpentMs FROM mock_answer")
+    abstract fun observeMockAnswerRows(): Flow<List<AnswerRow>>
+
+    @Query("SELECT day, questionId, tagId, correct, timeSpentMs FROM attempt")
+    abstract suspend fun answerRows(): List<AnswerRow>
+
+    @Query("SELECT day, questionId, tagId, correct, timeSpentMs FROM mock_answer")
+    abstract suspend fun mockAnswerRows(): List<AnswerRow>
+
+    @Query("SELECT * FROM mock_result WHERE completed = 1 ORDER BY startedAt")
+    abstract fun observeCompletedMocks(): Flow<List<MockResultEntity>>
+
+    @Query("SELECT * FROM mock_result WHERE completed = 1 ORDER BY startedAt")
+    abstract suspend fun completedMocks(): List<MockResultEntity>
+
+    @Query("SELECT * FROM mock_result WHERE id = :id")
+    abstract suspend fun mockResult(id: Long): MockResultEntity?
+
+    @Query("SELECT * FROM mock_answer WHERE mockId = :mockId ORDER BY id")
+    abstract suspend fun mockAnswers(mockId: Long): List<MockAnswerEntity>
+
+    @Insert
+    abstract suspend fun insertMockResult(result: MockResultEntity): Long
+
+    @Insert
+    protected abstract suspend fun insertMockAnswers(answers: List<MockAnswerEntity>)
+
+    @Query(
+        "UPDATE mock_result SET endedAt = :endedAt, elapsedMs = :elapsedMs, correctCount = :correct, " +
+            "timedOut = :timedOut, completed = 1 WHERE id = :id",
+    )
+    protected abstract suspend fun completeMock(id: Long, endedAt: Long, elapsedMs: Long, correct: Int, timedOut: Boolean)
+
+    /** Rend un test blanc : toutes ses réponses et son résultat, en une seule transaction. */
+    @Transaction
+    open suspend fun submitMock(id: Long, answers: List<MockAnswerEntity>, endedAt: Long, elapsedMs: Long, timedOut: Boolean) {
+        insertMockAnswers(answers)
+        completeMock(id, endedAt, elapsedMs, answers.count { it.correct }, timedOut)
+    }
+
+    @Query("SELECT * FROM badge_unlock")
+    abstract fun observeBadgeUnlocks(): Flow<List<BadgeUnlockEntity>>
+
+    @Query("SELECT * FROM badge_unlock")
+    abstract suspend fun badgeUnlocks(): List<BadgeUnlockEntity>
+
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    abstract suspend fun insertBadgeUnlocks(unlocks: List<BadgeUnlockEntity>)
+
+    @Query("UPDATE badge_unlock SET seen = 1 WHERE seen = 0")
+    abstract suspend fun markBadgesSeen()
+
+    @Query("SELECT day FROM goal_day")
+    abstract fun observeGoalDays(): Flow<List<Long>>
+
+    @Query("SELECT day FROM goal_day")
+    abstract suspend fun goalDays(): List<Long>
+
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    abstract suspend fun insertGoalDay(day: GoalDayEntity)
 }
 
 /**
@@ -217,6 +336,28 @@ val MIGRATION_1_2 = object : Migration(1, 2) {
     }
 }
 
+/** Passage de la Phase 2 à la Phase 3 : quatre tables nouvelles, rien ne change dans les anciennes. */
+val MIGRATION_2_3_SQL = listOf(
+    "CREATE TABLE IF NOT EXISTS `mock_result` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `testId` TEXT NOT NULL, " +
+        "`startedAt` INTEGER NOT NULL, `endedAt` INTEGER, `day` INTEGER NOT NULL, `plannedMinutes` INTEGER NOT NULL, " +
+        "`elapsedMs` INTEGER NOT NULL, `questionCount` INTEGER NOT NULL, `correctCount` INTEGER NOT NULL, " +
+        "`timedOut` INTEGER NOT NULL, `completed` INTEGER NOT NULL)",
+    "CREATE TABLE IF NOT EXISTS `mock_answer` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `mockId` INTEGER NOT NULL, " +
+        "`questionId` TEXT NOT NULL, `tagId` TEXT NOT NULL, `selectedIndex` INTEGER NOT NULL, `correct` INTEGER NOT NULL, " +
+        "`day` INTEGER NOT NULL, `timeSpentMs` INTEGER NOT NULL)",
+    "CREATE INDEX IF NOT EXISTS `index_mock_answer_mockId` ON `mock_answer` (`mockId`)",
+    "CREATE INDEX IF NOT EXISTS `index_mock_answer_day` ON `mock_answer` (`day`)",
+    "CREATE TABLE IF NOT EXISTS `badge_unlock` (`badgeId` TEXT NOT NULL, `unlockedDay` INTEGER NOT NULL, " +
+        "`seen` INTEGER NOT NULL, PRIMARY KEY(`badgeId`))",
+    "CREATE TABLE IF NOT EXISTS `goal_day` (`day` INTEGER NOT NULL, PRIMARY KEY(`day`))",
+)
+
+val MIGRATION_2_3 = object : Migration(2, 3) {
+    override fun migrate(db: SupportSQLiteDatabase) {
+        MIGRATION_2_3_SQL.forEach(db::execSQL)
+    }
+}
+
 @Database(
     entities = [
         SkillStateEntity::class,
@@ -224,8 +365,12 @@ val MIGRATION_1_2 = object : Migration(1, 2) {
         SessionEntity::class,
         AttemptEntity::class,
         LessonProgressEntity::class,
+        MockResultEntity::class,
+        MockAnswerEntity::class,
+        BadgeUnlockEntity::class,
+        GoalDayEntity::class,
     ],
-    version = 2,
+    version = 3,
     exportSchema = true,
 )
 abstract class UserDatabase : RoomDatabase() {
@@ -235,7 +380,7 @@ abstract class UserDatabase : RoomDatabase() {
         const val FILE_NAME = "user.db"
 
         /** Toutes les migrations, dans l'ordre. À compléter à chaque changement de version. */
-        val MIGRATIONS = arrayOf(MIGRATION_1_2)
+        val MIGRATIONS = arrayOf(MIGRATION_1_2, MIGRATION_2_3)
 
         fun build(context: Context): UserDatabase =
             Room.databaseBuilder(context, UserDatabase::class.java, FILE_NAME)

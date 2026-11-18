@@ -14,7 +14,7 @@ import org.junit.Test
 
 /**
  * La migration de user.db comparée aux schémas exportés par Room (app/schemas), sur le PC.
- * Elle doit mener exactement du schéma 1 au schéma 2, sans rien retirer. Le test sur appareil
+ * Chaque étape doit mener exactement d'un schéma au suivant, sans rien retirer. Le test sur appareil
  * (UserDatabaseMigrationTest) vérifie ensuite la même chose avec le vrai SQLite et de vraies données.
  */
 class UserMigrationSqlTest {
@@ -43,64 +43,89 @@ class UserMigrationSqlTest {
 
     private fun JsonObject.text(key: String) = getValue(key).jsonPrimitive.content
 
-    private val before = schema(1)
-    private val after = schema(2)
+    /** Une étape de migration et ce qu'elle doit créer. */
+    private class Step(val from: Int, val to: Int, val sql: List<String>, val newTables: Set<String>, val newColumns: Int) {
+        val label = "$from -> $to"
+    }
+
+    private val steps = listOf(
+        Step(1, 2, MIGRATION_1_2_SQL, setOf("lesson_progress"), newColumns = 3),
+        Step(2, 3, MIGRATION_2_3_SQL, setOf("mock_result", "mock_answer", "badge_unlock", "goal_day"), newColumns = 0),
+    )
 
     @Test
-    fun `the migration never removes or rewrites anything`() {
-        for (sql in MIGRATION_1_2_SQL) {
-            val statement = sql.uppercase()
-            assertFalse(sql, listOf("DROP ", "DELETE ", "UPDATE ", "RENAME ", "REPLACE ").any { it in statement })
+    fun `the migrations never remove or rewrite anything`() {
+        for (step in steps) {
+            for (sql in step.sql) {
+                val statement = sql.uppercase()
+                assertFalse("${step.label} : $sql", listOf("DROP ", "DELETE ", "UPDATE ", "RENAME ", "REPLACE ").any { it in statement })
+            }
         }
     }
 
     @Test
-    fun `every table and column of phase 1 is kept as it was`() {
-        for ((name, table) in before) {
-            val kept = after[name] ?: error("la table $name a disparu")
-            val columns = kept.columns.associateBy { it.name }
-            for (column in table.columns) {
-                assertEquals("$name.${column.name}", column, columns[column.name])
+    fun `every table and column of the previous version is kept as it was`() {
+        for (step in steps) {
+            val before = schema(step.from)
+            val after = schema(step.to)
+            for ((name, table) in before) {
+                val kept = after[name] ?: error("${step.label} : la table $name a disparu")
+                val columns = kept.columns.associateBy { it.name }
+                for (column in table.columns) {
+                    assertEquals("${step.label} : $name.${column.name}", column, columns[column.name])
+                }
             }
         }
     }
 
     @Test
     fun `new tables are created with the statement room expects`() {
-        val created = after.keys - before.keys
-        assertEquals(setOf("lesson_progress"), created)
-        for (name in created) {
-            assertTrue("CREATE TABLE manquant pour $name", after.getValue(name).createSql in MIGRATION_1_2_SQL)
+        for (step in steps) {
+            val before = schema(step.from)
+            val after = schema(step.to)
+            val created = after.keys - before.keys
+            assertEquals(step.label, step.newTables, created)
+            for (name in created) {
+                assertTrue("${step.label} : CREATE TABLE manquant pour $name", after.getValue(name).createSql in step.sql)
+            }
         }
     }
 
     @Test
     fun `each new column has its alter table statement and no other is added`() {
-        val expected = before.keys.flatMap { name ->
-            val known = before.getValue(name).columns.map { it.name }.toSet()
-            after.getValue(name).columns.filter { it.name !in known }.map { column ->
-                val constraint = if (column.notNull) " NOT NULL DEFAULT ${column.defaultValue}" else ""
-                "ALTER TABLE `$name` ADD COLUMN `${column.name}` ${column.affinity}$constraint"
+        for (step in steps) {
+            val before = schema(step.from)
+            val after = schema(step.to)
+            val expected = before.keys.flatMap { name ->
+                val known = before.getValue(name).columns.map { it.name }.toSet()
+                after.getValue(name).columns.filter { it.name !in known }.map { column ->
+                    val constraint = if (column.notNull) " NOT NULL DEFAULT ${column.defaultValue}" else ""
+                    "ALTER TABLE `$name` ADD COLUMN `${column.name}` ${column.affinity}$constraint"
+                }
             }
+            assertEquals(step.label, expected.toSet(), step.sql.filter { it.startsWith("ALTER TABLE") }.toSet())
+            assertEquals(step.label, step.newColumns, expected.size)
         }
-        assertEquals(expected.toSet(), MIGRATION_1_2_SQL.filter { it.startsWith("ALTER TABLE") }.toSet())
-        assertEquals(3, expected.size)
     }
 
     @Test
     fun `a column added to existing rows is nullable or has a default value`() {
         // SQLite refuse d'ajouter une colonne NOT NULL sans valeur par défaut à une table non vide.
-        for ((name, table) in before) {
-            val known = table.columns.map { it.name }.toSet()
-            for (column in after.getValue(name).columns.filter { it.name !in known }) {
-                assertTrue("$name.${column.name}", !column.notNull || column.defaultValue != null)
+        for (step in steps) {
+            val before = schema(step.from)
+            val after = schema(step.to)
+            for ((name, table) in before) {
+                val known = table.columns.map { it.name }.toSet()
+                for (column in after.getValue(name).columns.filter { it.name !in known }) {
+                    assertTrue("${step.label} : $name.${column.name}", !column.notNull || column.defaultValue != null)
+                }
             }
         }
     }
 
     @Test
     fun `migrations cover every version up to the current one`() {
-        val steps = UserDatabase.MIGRATIONS.map { it.startVersion to it.endVersion }
-        assertEquals(listOf(1 to 2), steps)
+        val pairs = UserDatabase.MIGRATIONS.map { it.startVersion to it.endVersion }
+        assertEquals(steps.map { it.from to it.to }, pairs)
     }
 }

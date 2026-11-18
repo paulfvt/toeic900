@@ -1,0 +1,546 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 3,
+    "identityHash": "ce9ceebb83d12e4c2d74ff5e85de2cad",
+    "entities": [
+      {
+        "tableName": "skill_state",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`tagId` TEXT NOT NULL, `box` INTEGER NOT NULL, `dueDay` INTEGER NOT NULL, `lastReviewedDay` INTEGER, `lapses` INTEGER NOT NULL, PRIMARY KEY(`tagId`))",
+        "fields": [
+          {
+            "fieldPath": "tagId",
+            "columnName": "tagId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "box",
+            "columnName": "box",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dueDay",
+            "columnName": "dueDay",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lastReviewedDay",
+            "columnName": "lastReviewedDay",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "lapses",
+            "columnName": "lapses",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "tagId"
+          ]
+        }
+      },
+      {
+        "tableName": "question_state",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`questionId` TEXT NOT NULL, `timesSeen` INTEGER NOT NULL, `timesCorrect` INTEGER NOT NULL, `lastSeenDay` INTEGER NOT NULL, `lastCorrect` INTEGER NOT NULL, `retryDueDay` INTEGER, `retryDone` INTEGER NOT NULL, PRIMARY KEY(`questionId`))",
+        "fields": [
+          {
+            "fieldPath": "questionId",
+            "columnName": "questionId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "timesSeen",
+            "columnName": "timesSeen",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "timesCorrect",
+            "columnName": "timesCorrect",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lastSeenDay",
+            "columnName": "lastSeenDay",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lastCorrect",
+            "columnName": "lastCorrect",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "retryDueDay",
+            "columnName": "retryDueDay",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "retryDone",
+            "columnName": "retryDone",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "questionId"
+          ]
+        }
+      },
+      {
+        "tableName": "session",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `startedAt` INTEGER NOT NULL, `endedAt` INTEGER, `part` INTEGER NOT NULL, `focusTagId` TEXT, `plannedMinutes` INTEGER NOT NULL, `questionCount` INTEGER NOT NULL, `correctCount` INTEGER NOT NULL, `stepId` TEXT, `exercisesCompleted` INTEGER NOT NULL DEFAULT 0)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "startedAt",
+            "columnName": "startedAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "endedAt",
+            "columnName": "endedAt",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "part",
+            "columnName": "part",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "focusTagId",
+            "columnName": "focusTagId",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "plannedMinutes",
+            "columnName": "plannedMinutes",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "questionCount",
+            "columnName": "questionCount",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "correctCount",
+            "columnName": "correctCount",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "stepId",
+            "columnName": "stepId",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "exercisesCompleted",
+            "columnName": "exercisesCompleted",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "attempt",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `sessionId` INTEGER NOT NULL, `questionId` TEXT NOT NULL, `tagId` TEXT NOT NULL, `selectedIndex` INTEGER NOT NULL, `correct` INTEGER NOT NULL, `answeredAt` INTEGER NOT NULL, `day` INTEGER NOT NULL, `timeSpentMs` INTEGER NOT NULL, `reason` TEXT NOT NULL, `boxBefore` INTEGER, `boxAfter` INTEGER NOT NULL, `stimulusId` TEXT)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sessionId",
+            "columnName": "sessionId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "questionId",
+            "columnName": "questionId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "tagId",
+            "columnName": "tagId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "selectedIndex",
+            "columnName": "selectedIndex",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "correct",
+            "columnName": "correct",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "answeredAt",
+            "columnName": "answeredAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "day",
+            "columnName": "day",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "timeSpentMs",
+            "columnName": "timeSpentMs",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "reason",
+            "columnName": "reason",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "boxBefore",
+            "columnName": "boxBefore",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "boxAfter",
+            "columnName": "boxAfter",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "stimulusId",
+            "columnName": "stimulusId",
+            "affinity": "TEXT"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_attempt_sessionId",
+            "unique": false,
+            "columnNames": [
+              "sessionId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_attempt_sessionId` ON `${TABLE_NAME}` (`sessionId`)"
+          },
+          {
+            "name": "index_attempt_questionId",
+            "unique": false,
+            "columnNames": [
+              "questionId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_attempt_questionId` ON `${TABLE_NAME}` (`questionId`)"
+          },
+          {
+            "name": "index_attempt_day",
+            "unique": false,
+            "columnNames": [
+              "day"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_attempt_day` ON `${TABLE_NAME}` (`day`)"
+          }
+        ]
+      },
+      {
+        "tableName": "lesson_progress",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`stepId` TEXT NOT NULL, `attempts` INTEGER NOT NULL, `bestCorrect` INTEGER NOT NULL, `bestTotal` INTEGER NOT NULL, `lastAttemptDay` INTEGER NOT NULL, `completedDay` INTEGER, PRIMARY KEY(`stepId`))",
+        "fields": [
+          {
+            "fieldPath": "stepId",
+            "columnName": "stepId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "attempts",
+            "columnName": "attempts",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "bestCorrect",
+            "columnName": "bestCorrect",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "bestTotal",
+            "columnName": "bestTotal",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lastAttemptDay",
+            "columnName": "lastAttemptDay",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "completedDay",
+            "columnName": "completedDay",
+            "affinity": "INTEGER"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "stepId"
+          ]
+        }
+      },
+      {
+        "tableName": "mock_result",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `testId` TEXT NOT NULL, `startedAt` INTEGER NOT NULL, `endedAt` INTEGER, `day` INTEGER NOT NULL, `plannedMinutes` INTEGER NOT NULL, `elapsedMs` INTEGER NOT NULL, `questionCount` INTEGER NOT NULL, `correctCount` INTEGER NOT NULL, `timedOut` INTEGER NOT NULL, `completed` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "testId",
+            "columnName": "testId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "startedAt",
+            "columnName": "startedAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "endedAt",
+            "columnName": "endedAt",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "day",
+            "columnName": "day",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "plannedMinutes",
+            "columnName": "plannedMinutes",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "elapsedMs",
+            "columnName": "elapsedMs",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "questionCount",
+            "columnName": "questionCount",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "correctCount",
+            "columnName": "correctCount",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "timedOut",
+            "columnName": "timedOut",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "completed",
+            "columnName": "completed",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "mock_answer",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `mockId` INTEGER NOT NULL, `questionId` TEXT NOT NULL, `tagId` TEXT NOT NULL, `selectedIndex` INTEGER NOT NULL, `correct` INTEGER NOT NULL, `day` INTEGER NOT NULL, `timeSpentMs` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "mockId",
+            "columnName": "mockId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "questionId",
+            "columnName": "questionId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "tagId",
+            "columnName": "tagId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "selectedIndex",
+            "columnName": "selectedIndex",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "correct",
+            "columnName": "correct",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "day",
+            "columnName": "day",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "timeSpentMs",
+            "columnName": "timeSpentMs",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_mock_answer_mockId",
+            "unique": false,
+            "columnNames": [
+              "mockId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_mock_answer_mockId` ON `${TABLE_NAME}` (`mockId`)"
+          },
+          {
+            "name": "index_mock_answer_day",
+            "unique": false,
+            "columnNames": [
+              "day"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_mock_answer_day` ON `${TABLE_NAME}` (`day`)"
+          }
+        ]
+      },
+      {
+        "tableName": "badge_unlock",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`badgeId` TEXT NOT NULL, `unlockedDay` INTEGER NOT NULL, `seen` INTEGER NOT NULL, PRIMARY KEY(`badgeId`))",
+        "fields": [
+          {
+            "fieldPath": "badgeId",
+            "columnName": "badgeId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "unlockedDay",
+            "columnName": "unlockedDay",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "seen",
+            "columnName": "seen",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "badgeId"
+          ]
+        }
+      },
+      {
+        "tableName": "goal_day",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`day` INTEGER NOT NULL, PRIMARY KEY(`day`))",
+        "fields": [
+          {
+            "fieldPath": "day",
+            "columnName": "day",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "day"
+          ]
+        }
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'ce9ceebb83d12e4c2d74ff5e85de2cad')"
+    ]
+  }
+}
