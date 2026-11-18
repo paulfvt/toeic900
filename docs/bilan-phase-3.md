@@ -53,6 +53,13 @@ Phase lancée et terminée le 18/11/2026.
   l'émulateur : base en version 3, aucune réponse perdue.
 - Parcours à l'écran sur l'émulateur à 384 dp : accueil, onglet Progrès, introduction du demi-test,
   questions des Parts 5, 6 et 7, confirmation de remise, résultats et revue d'une erreur avec son texte.
+- Expiration du chronomètre : un demi-test laissé jusqu'au bout des 38 minutes est rendu d'office
+  (« Temps écoulé »), les réponses déjà données comptent. C'était la limite « jamais testé » de la
+  Phase 2.
+- Mode sombre relu à l'écran sur le demi-test (alerte de retard comprise).
+- **Galaxy S25+** : Phase 3 installée par-dessus la Phase 2 le 18/11/2026 (`adb install -r`) ; base
+  passée en version 3 avec toute la progression (27 réponses, 16 compétences), XP recalculée depuis
+  l'historique, accueil vérifié à l'écran. En attente des retours d'usage de l'auteur.
 - Relecture critique des 50 questions du demi-test : une seule retouche (difficulté de p5-9007).
   Aucun nom propre repris de la banque d'entraînement.
 
