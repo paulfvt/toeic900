@@ -57,6 +57,13 @@ import fr.toeic900.data.PickedQuestion
 import fr.toeic900.data.PickedUnit
 import fr.toeic900.data.settings.ExplanationLanguage
 import fr.toeic900.domain.Document
+import fr.toeic900.domain.Xp
+import fr.toeic900.data.Achievements
+import fr.toeic900.ui.components.AchievementBanner
+import fr.toeic900.ui.components.AnswerBadge
+import fr.toeic900.ui.components.FeedbackSound
+import fr.toeic900.ui.components.XpPop
+import fr.toeic900.ui.components.rememberFeedback
 import fr.toeic900.domain.Question
 import fr.toeic900.domain.Leitner
 import fr.toeic900.domain.PickReason
@@ -92,9 +99,14 @@ fun TrainingScreen(
 ) {
     val container = appContainer()
     val viewModel = viewModel {
-        TrainingViewModel(container.repository, container.settings, SystemClock, part, focusTag, minutes, stepId)
+        TrainingViewModel(container.repository, container.progress, container.settings, SystemClock, part, focusTag, minutes, stepId)
     }
     val state by viewModel.state.collectAsStateWithLifecycle()
+
+    // Son et vibration à chaque correction, et pour un badge débloqué.
+    val feedback = rememberFeedback()
+    LaunchedEffect(state.outcome) { state.outcome?.let { feedback(if (it.correct) FeedbackSound.CORRECT else FeedbackSound.WRONG) } }
+    LaunchedEffect(state.achievements) { if (state.achievements.badges.isNotEmpty()) feedback(FeedbackSound.BADGE) }
 
     LaunchedEffect(state.finishedSessionId, state.abandoned) {
         state.finishedSessionId?.let(onFinished)
@@ -274,6 +286,7 @@ private fun QuestionArea(
                     outcome = outcome,
                     english = english,
                     continueLabel = continueLabel(state),
+                    achievements = state.achievements,
                     onContinue = onNext,
                     onOpenLesson = onOpenLesson,
                     modifier = Modifier.heightIn(max = maxSheetHeight).onSizeChanged { sheetHeightPx = it.height },
@@ -378,6 +391,7 @@ private fun StimulusArea(
                     outcome = outcome,
                     english = english,
                     continueLabel = continueLabel(state),
+                    achievements = state.achievements,
                     onContinue = { expanded = true; onNext() },
                     onOpenLesson = onOpenLesson,
                     modifier = Modifier.heightIn(max = maxPanelHeight),
@@ -582,6 +596,7 @@ private fun FeedbackSheet(
     outcome: AnswerOutcome,
     english: Boolean,
     continueLabel: String,
+    achievements: Achievements,
     onContinue: () -> Unit,
     onOpenLesson: (() -> Unit)?,
     modifier: Modifier = Modifier,
@@ -607,14 +622,17 @@ private fun FeedbackSheet(
             verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Icon(if (outcome.correct) ElanIcons.CheckCircle else ElanIcons.XCircle, contentDescription = null, tint = ink, modifier = Modifier.size(24.dp))
+                AnswerBadge(outcome.correct, ink)
                 Spacer(Modifier.width(8.dp))
                 Text(
                     if (outcome.correct) tr("Bonne réponse !", "Correct!") else tr("Pas tout à fait", "Not quite"),
                     style = type.titleL,
                     color = ink,
+                    modifier = Modifier.weight(1f),
                 )
+                XpPop(if (outcome.correct) Xp.CORRECT else Xp.WRONG)
             }
+            AchievementBanner(achievements)
             Text(
                 tr("Bonne réponse : ", "Correct answer: ") + "(${LETTERS[question.answerIndex]}) ${question.options[question.answerIndex]}",
                 style = type.titleM,

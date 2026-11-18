@@ -7,6 +7,8 @@ import fr.toeic900.data.PathStepView
 import fr.toeic900.data.PickedQuestion
 import fr.toeic900.data.PickedUnit
 import fr.toeic900.data.SessionScope
+import fr.toeic900.data.Achievements
+import fr.toeic900.data.ProgressRepository
 import fr.toeic900.data.TrainingRepository
 import fr.toeic900.data.settings.ExplanationLanguage
 import fr.toeic900.data.settings.SettingsRepository
@@ -42,6 +44,8 @@ data class TrainingUiState(
     val finishedSessionId: Long? = null,
     /** Session quittée sans aucune réponse : retour direct, sans bilan. */
     val abandoned: Boolean = false,
+    /** Ce que la dernière réponse a débloqué (objectif du jour, badges), affiché dans la correction. */
+    val achievements: Achievements = Achievements(),
 ) {
     val plannedMs: Long get() = plannedMinutes * 60_000L
     val timeIsUp: Boolean get() = plannedMinutes > 0 && elapsedMs >= plannedMs
@@ -63,6 +67,7 @@ data class TrainingUiState(
  */
 class TrainingViewModel(
     private val repository: TrainingRepository,
+    private val progress: ProgressRepository,
     settings: SettingsRepository,
     private val clock: Clock,
     part: Int,
@@ -127,6 +132,8 @@ class TrainingViewModel(
             _state.update {
                 it.copy(outcome = outcome, answered = it.answered + 1, correct = it.correct + if (outcome.correct) 1 else 0)
             }
+            val unlocked = progress.checkAchievements()
+            _state.update { it.copy(achievements = unlocked) }
         }
     }
 
@@ -137,7 +144,7 @@ class TrainingViewModel(
         viewModelScope.launch {
             if (!current.isLastQuestionOfUnit) {
                 questionShownAt = clock.nowMillis()
-                _state.update { it.copy(questionIndex = it.questionIndex + 1, selectedIndex = null, outcome = null) }
+                _state.update { it.copy(questionIndex = it.questionIndex + 1, selectedIndex = null, outcome = null, achievements = Achievements()) }
                 return@launch
             }
             val done = current.unitsDone + 1
@@ -164,7 +171,7 @@ class TrainingViewModel(
         }
         asked += unit.id
         questionShownAt = clock.nowMillis()
-        _state.update { it.copy(loading = false, unit = unit, questionIndex = 0, selectedIndex = null, outcome = null) }
+        _state.update { it.copy(loading = false, unit = unit, questionIndex = 0, selectedIndex = null, outcome = null, achievements = Achievements()) }
     }
 
     private suspend fun finish(exercisesCompleted: Boolean) {

@@ -162,6 +162,8 @@ private fun AppNavHost() {
                     onPath = { nav.goToTab(PathRoute) },
                     onLessons = { nav.navigate(LessonListRoute) },
                     onSettings = { nav.navigate(SettingsRoute) },
+                    onProgress = { nav.goToTab(ProgressRoute) },
+                    onBadges = { nav.navigate(BadgesRoute) },
                 )
             }
             composable<PathRoute> {

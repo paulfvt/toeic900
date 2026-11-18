@@ -26,6 +26,10 @@ import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.compose.viewModel
 import fr.toeic900.data.HomeStats
 import fr.toeic900.data.PathOverview
+import fr.toeic900.data.ProgressOverview
+import fr.toeic900.data.ProgressRepository
+import fr.toeic900.domain.GoalType
+import fr.toeic900.ui.progress.StreakLine
 import fr.toeic900.data.TrainingRepository
 import fr.toeic900.domain.StepKind
 import fr.toeic900.ui.appContainer
@@ -45,7 +49,11 @@ import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.stateIn
 
-class HomeViewModel(repository: TrainingRepository) : ViewModel() {
+class HomeViewModel(repository: TrainingRepository, progress: ProgressRepository) : ViewModel() {
+    /** null tant que les chiffres de progression ne sont pas calculés. */
+    val progress: StateFlow<ProgressOverview?> = progress.observe()
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
+
     val stats: StateFlow<HomeStats> = repository.observeHome()
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), HomeStats())
 
@@ -61,10 +69,13 @@ fun HomeScreen(
     onPath: () -> Unit,
     onLessons: () -> Unit,
     onSettings: () -> Unit,
+    onProgress: () -> Unit,
+    onBadges: () -> Unit,
 ) {
     val container = appContainer()
-    val viewModel = viewModel { HomeViewModel(container.repository) }
+    val viewModel = viewModel { HomeViewModel(container.repository, container.progress) }
     val stats by viewModel.stats.collectAsStateWithLifecycle()
+    val progress by viewModel.progress.collectAsStateWithLifecycle()
     val path by viewModel.path.collectAsStateWithLifecycle()
     val c = ElanTheme.colors
     val type = ElanTheme.type
@@ -81,6 +92,10 @@ fun HomeScreen(
                 .padding(bottom = ElanDimens.gapMajor),
             verticalArrangement = Arrangement.spacedBy(ElanDimens.gapSection),
         ) {
+            progress?.let { o ->
+                if (o.unseenBadges.isNotEmpty()) NewBadgesCard(o, onBadges)
+                GoalCard(o)
+            }
             path?.let { PathCard(it, onOpenStep, onPath) }
 
             ElanCard {
@@ -92,25 +107,7 @@ fun HomeScreen(
                 ElanButton("Réviser · 15 min", onQuickStart, Modifier.fillMaxWidth(), style = ButtonStyle.Outlined)
             }
 
-            Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                ElanCard(Modifier.weight(1f)) {
-                    LabelSmall("Aujourd'hui")
-                    Spacer(Modifier.height(4.dp))
-                    Text(stats.answeredToday.toString(), style = type.headline, color = c.onSurface)
-                    Text(plural(stats.answeredToday, "question", "questions"), style = type.bodyM, color = c.muted)
-                }
-                ElanCard(Modifier.weight(1f)) {
-                    LabelSmall("Depuis le début")
-                    Spacer(Modifier.height(4.dp))
-                    Text(stats.totalAnswered.toString(), style = type.headline, color = c.onSurface)
-                    val detail = if (stats.totalAnswered == 0) {
-                        "questions"
-                    } else {
-                        "${(100f * stats.totalCorrect / stats.totalAnswered).roundToInt()} % de réussite"
-                    }
-                    Text(detail, style = type.bodyM, color = c.muted)
-                }
-            }
+            progress?.let { o -> ScoreMiniCard(o, stats, onProgress) }
 
             ElanCard(onClick = onLessons) {
                 Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
@@ -122,6 +119,78 @@ fun HomeScreen(
                     Icon(ElanIcons.ChevronRight, contentDescription = null, tint = c.muted, modifier = Modifier.size(20.dp))
                 }
             }
+        }
+    }
+}
+
+/** Objectif du jour, série hebdomadaire et niveau : le résumé de la motivation. */
+@Composable
+private fun GoalCard(o: ProgressOverview) {
+    val c = ElanTheme.colors
+    val type = ElanTheme.type
+    val unit = if (o.goal.type == GoalType.MINUTES) "min" else "questions"
+    ElanCard {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            LabelSmall("Objectif du jour", Modifier.weight(1f))
+            Text("Niveau ${o.level.number} · ${o.level.totalXp} XP", style = type.labelL, color = c.muted)
+        }
+        Spacer(Modifier.height(4.dp))
+        Row(verticalAlignment = Alignment.Bottom) {
+            Text("${minOf(o.todayProgress, 999)}", style = type.headline, color = c.onSurface)
+            Text(" / ${o.goal.target} $unit", style = type.titleM, color = c.muted, modifier = Modifier.padding(bottom = 3.dp))
+            Spacer(Modifier.weight(1f))
+            if (o.goalMetToday) {
+                Icon(ElanIcons.CheckCircle, contentDescription = null, tint = c.successInk, modifier = Modifier.size(20.dp))
+                Text(" Atteint", style = type.labelL, color = c.successInk)
+            }
+        }
+        Spacer(Modifier.height(8.dp))
+        ElanProgress(o.todayProgress.toFloat() / o.goal.target, Modifier.fillMaxWidth(), description = "Objectif du jour")
+        Spacer(Modifier.height(16.dp))
+        StreakLine(o)
+    }
+}
+
+@Composable
+private fun NewBadgesCard(o: ProgressOverview, onBadges: () -> Unit) {
+    val c = ElanTheme.colors
+    ElanCard(style = CardStyle.Tonal, onClick = onBadges) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            Icon(ElanIcons.Award, contentDescription = null, tint = c.accentInk, modifier = Modifier.size(28.dp))
+            Column(Modifier.weight(1f)) {
+                val n = o.unseenBadges.size
+                Text(if (n == 1) "Nouveau badge !" else "$n nouveaux badges !", style = ElanTheme.type.titleM, color = c.onSurface)
+                Text(o.unseenBadges.joinToString(" · ") { it.titleFr }, style = ElanTheme.type.bodyM, color = c.muted)
+            }
+            Icon(ElanIcons.ChevronRight, contentDescription = null, tint = c.muted, modifier = Modifier.size(20.dp))
+        }
+    }
+}
+
+/** Le score estimé en une ligne, et le total des réponses ; mène à l'onglet Progrès. */
+@Composable
+private fun ScoreMiniCard(o: ProgressOverview, stats: HomeStats, onProgress: () -> Unit) {
+    val c = ElanTheme.colors
+    val type = ElanTheme.type
+    ElanCard(onClick = onProgress) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            Icon(ElanIcons.Chart, contentDescription = null, tint = c.primaryInk, modifier = Modifier.size(24.dp))
+            Column(Modifier.weight(1f)) {
+                LabelSmall("Score Reading estimé")
+                val r = o.reading
+                Text(
+                    if (r == null) "Pas encore d'estimation" else "≈ ${r.score} (${r.low} à ${r.high})${if (r.provisional) ", provisoire" else ""}",
+                    style = type.titleM,
+                    color = c.onSurface,
+                )
+                val detail = if (stats.totalAnswered == 0) {
+                    "Aucune réponse pour l'instant"
+                } else {
+                    "${stats.totalAnswered} réponses · ${(100f * stats.totalCorrect / stats.totalAnswered).roundToInt()} % de réussite"
+                }
+                Text(detail, style = type.bodyM, color = c.muted)
+            }
+            Icon(ElanIcons.ChevronRight, contentDescription = null, tint = c.muted, modifier = Modifier.size(20.dp))
         }
     }
 }

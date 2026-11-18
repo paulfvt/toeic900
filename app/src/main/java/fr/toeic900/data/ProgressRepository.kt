@@ -64,6 +64,11 @@ data class ProgressOverview(
     val goalMetToday: Boolean get() = todayProgress >= goal.target
 }
 
+/** Ce qu'une réponse vient de débloquer : l'objectif du jour, des badges. */
+data class Achievements(val goalReached: Boolean = false, val badges: List<Badge> = emptyList()) {
+    val isEmpty: Boolean get() = !goalReached && badges.isEmpty()
+}
+
 /** Tout ce que l'écran Progrès, l'accueil et les badges lisent. */
 class ProgressRepository(
     private val contentDao: ContentDao,
@@ -122,6 +127,9 @@ class ProgressRepository(
         )
     }
 
+    /** Les chiffres du moment, sans abonnement (rappel quotidien). */
+    suspend fun today(): ProgressOverview = snapshot()
+
     private suspend fun snapshot(): ProgressOverview = build(
         static(),
         Inputs(
@@ -133,11 +141,12 @@ class ProgressRepository(
 
     /**
      * À appeler après une réponse, une session ou un test blanc : enregistre le jour si l'objectif
-     * vient d'être atteint, puis les badges nouvellement mérités. Renvoie ces badges.
+     * vient d'être atteint, puis les badges nouvellement mérités. Renvoie ce qui vient d'être débloqué.
      */
-    suspend fun checkAchievements(): List<Badge> {
+    suspend fun checkAchievements(): Achievements {
         var overview = snapshot()
-        if (overview.goalMetToday && overview.today !in userDao.goalDays()) {
+        val goalReached = overview.goalMetToday && overview.today !in userDao.goalDays()
+        if (goalReached) {
             userDao.insertGoalDay(GoalDayEntity(overview.today))
             overview = snapshot()
         }
@@ -145,7 +154,7 @@ class ProgressRepository(
         if (newOnes.isNotEmpty()) {
             userDao.insertBadgeUnlocks(newOnes.map { BadgeUnlockEntity(it.id, overview.today) })
         }
-        return newOnes
+        return Achievements(goalReached, newOnes)
     }
 
     suspend fun markBadgesSeen() = userDao.markBadgesSeen()
