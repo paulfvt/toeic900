@@ -3,6 +3,7 @@
 Application Android personnelle de préparation au TOEIC pour son auteur, **débutant en développement mobile** : chaque étape d'installation, de build et de lancement s'explique comme à un débutant. Objectif : 900. Examen prévu début 2027 (« dans 2 à 3 mois », dit le 12/11/2026 ; date exacte non fixée). Point faible : le Reading.
 
 - Brief complet de l'auteur, **il fait foi** : `docs/brief.md` (non versionné)
+- Contexte personnel (profil, score, matériel, téléphone) : `CLAUDE.local.md`, non versionné, lu automatiquement par Claude Code. **Rien de personnel dans les fichiers suivis par git** : le dépôt GitHub est public. Avant chaque push, `git grep` les infos de `CLAUDE.local.md`.
 - Proposition d'architecture (stack, modèle de données, phases) : `docs/proposition.md`
 - Tokens visuels : `design-system/styles.css`, blocs `[data-dir="elan"]` et `[data-dir="elan"][data-mode="dark"]` ; maquettes : `design-system/concept.html`
 

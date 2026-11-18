@@ -26,3 +26,7 @@ desktop.ini
 
 # Réglages locaux de Claude Code
 .claude/settings.local.json
+
+# Contexte personnel : le dépôt est public, ces fichiers restent sur le PC
+CLAUDE.local.md
+docs/brief.md
