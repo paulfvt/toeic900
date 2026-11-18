@@ -45,16 +45,16 @@ Répondre en français.
 |---|---|---|
 | 1 | Squelette, base locale, entraînement Part 5 avec corrections, révision espacée, premier lot de 120 questions Part 5 | terminée le 12/11/2026 |
 | 2 | Parts 6 et 7, fiches de cours, chemin de leçons, Part 5 complétée à 300 questions | terminée le 16/11/2026 (bilan : `docs/bilan-phase-2.md`) |
-| 3 | Stats, score estimé, XP, série, badges, objectifs, notifications, animations, demi-test Reading | à faire |
+| 3 | Stats, score estimé, XP, série, badges, objectifs, notifications, animations, demi-test Reading | terminée le 18/11/2026 (bilan : `docs/bilan-phase-3.md`) |
 | 4 | Pipeline audio et images, Parts 1 à 4 | à faire |
 | 5 | Diagnostic complet, tests blancs, session recommandée | à faire |
 
 Le demi-test Reading est avancé en Phase 3 : sans lui, le score estimé n'aurait aucun test blanc sur lequel s'appuyer.
 
-## État du code après la Phase 2 (pour la Phase 3)
+## État du code après la Phase 3 (pour la Phase 4)
 
 - **Outils** : wrapper Gradle 9.8.0, AGP 9.4.1 (Kotlin intégré, pas de plugin `kotlin-android`), Kotlin 2.4.20, KSP 2.3.12, Room 2.8.5, Compose 1.12.1, Material 3 1.4.0. Versions dans `gradle/libs.versions.toml`. Le JDK embarqué d'Android Studio est en version 25 : `JAVA_HOME="C:\Program Files\Android\Android Studio\jbr"`.
-- **Paquet** : `fr.toeic900`. `domain/` (Leitner, QuestionReview, QuestionPicker, UnitPicker, LessonPath), `data/` (ContentDatabase, UserDatabase et `MIGRATION_1_2`, ContentImporter, TrainingRepository, SettingsRepository), `ui/` (thème Élan, composants, `AppNav`, écrans dont `training/TrainingScreen.kt`). Injection manuelle dans `AppContainer`.
+- **Paquet** : `fr.toeic900`. `domain/` (Leitner, QuestionReview, QuestionPicker, UnitPicker, LessonPath ; Phase 3 : ScoreEstimator, Progress (XP, objectif, série), Badges, Stats, MockPace, ReminderTime), `data/` (ContentDatabase, UserDatabase et ses migrations, ContentImporter, TrainingRepository, ProgressRepository, MockRepository, SettingsRepository), `reminder/` (alarme et notification), `ui/` (thème Élan, composants dont FeedbackPlayer et Celebrations, `AppNav` à 4 onglets, écrans dont `training/`, `progress/`, `mock/`). Injection manuelle dans `AppContainer`.
 - **Décisions de la Phase 2** (documentées dans le code, à ne pas rouvrir sans raison) :
   - unité servie : une question en Part 5, un texte entier en Parts 6-7 (`UnitPicker`, `UnitRef`) ; Leitner reste par compétence, chaque question d'un texte met à jour la boîte de son tag ;
   - retour unique : un texte dont une question a été ratée revient une fois, en entier, 7 jours plus tard ; ce jour-là toutes ses questions sont marquées « retour fait » (`QuestionReview.afterAnswer`, `controlReturn`) ;
@@ -62,13 +62,23 @@ Le demi-test Reading est avancé en Phase 3 : sans lui, le score estimé n'aurai
   - preuves : chaque question Part 7 porte `evidence` (citations mot pour mot), surlignées à la correction et contrôlées par le validateur ;
   - session rapide de l'accueil : toutes parts mélangées (`part = 0`) ;
   - `user.db` en version 2 (migration `MIGRATION_1_2`, testée sur appareil et sur une vraie base de la Phase 1) ; `content.db` en version 2, jetable.
-- **Contenu** : `content/bank/part5/` (lots 01 à 10, `p5-0001` à `p5-0300`), `part6/` (lots 01 à 05, `p6-0001` à `p6-0025`), `part7/` (lots 01 à 10, `p7-0001` à `p7-0050`), 24 fiches dans `content/lessons/fiches/`, chemin dans `content/lessons/path.json` (7 unités, 31 étapes). Schémas et taxonomie (24 tags) dans `content/schemas/`, guide dans `content/GUIDE-REDACTION.md`. `python content/tools/build.py` valide puis écrit `content.json` (1,2 Mo) ; l'app réimporte quand la version change (environ 4 s au premier lancement sur l'émulateur). Ne jamais renuméroter.
+- **Décisions de la Phase 3** (même règle) :
+  - score estimé : table maison du taux de bonnes réponses vers 5-495, tests blancs 80 % (le plus récent pèse 1, le précédent 0,6…), entraînement des 30 derniers jours 20 % s'il compte au moins 30 réponses ; fourchette = incertitude statistique + 20 points (+ 30 sans test blanc, alors « provisoire ») ; tout est dans `docs/score-estime.md` ;
+  - XP, série, statistiques et badges sont recalculés depuis l'historique (`ProgressRepository.build`) ; seuls sont stockés les jours d'objectif atteint (`goal_day`, pour qu'un objectif relevé n'efface pas le passé) et les badges débloqués (`badge_unlock`, ils restent acquis) ;
+  - série : semaine du lundi au dimanche validée à N jours d'objectif (5 par défaut, réglable de 3 à 7) ; la semaine en cours ne casse jamais la série ;
+  - badges de score total (750 à 900) en attente du Listening ; badges Reading 375 à 450 seulement avec au moins un demi-test ;
+  - tests blancs : pool `mock`, identifiants 9001 et suivants (diagnostic 8000-8999, entraînement jusqu'à 7999, exemples du guide 7991-7992), définis dans `content/mock/*.json` (unités dans l'ordre, minutes), contenu embarqué au format 3 ; leurs réponses vont dans `mock_answer` et ne touchent jamais à Leitner ;
+  - demi-test : chronomètre sur l'horloge murale (il continue si l'on quitte l'app), navigation libre, réponses modifiables jusqu'à la remise, copie rendue d'office au bout du temps ; rythme pondéré 22/30/61 s par question de Part 5/6/7, alerte au-delà de 2 min de retard ;
+  - rappel : alarme inexacte (`setAndAllowWhileIdle`, pas de permission d'alarme exacte), reprogrammée au démarrage de l'app et du téléphone, notification seulement si l'objectif du jour n'est pas atteint ;
+  - sons synthétisés par `content/tools/sounds.py` (ffmpeg), joués par SoundPool ; sons et vibrations coupables séparément ;
+  - `user.db` en version 3 (`MIGRATION_2_3`, quatre tables ajoutées, testée sur appareil et sur une vraie base de la Phase 2) ; `content.db` en version 3 (`mock_test`).
+- **Contenu** : `content/bank/part5/` (lots 01 à 10, `p5-0001` à `p5-0300`), `part6/` (lots 01 à 05, `p6-0001` à `p6-0025`), `part7/` (lots 01 à 10, `p7-0001` à `p7-0050`), `mock/` (demi-test Reading n° 1 : `p5-9001` à `p5-9015`, `p6-9001` et `p6-9002`, `p7-9001` à `p7-9008`, 50 questions ; plan : `content/drafts/mock_plan.py`), 24 fiches dans `content/lessons/fiches/`, chemin dans `content/lessons/path.json` (7 unités, 31 étapes). Schémas et taxonomie (24 tags) dans `content/schemas/`, guide dans `content/GUIDE-REDACTION.md`. `python content/tools/build.py` valide puis écrit `content.json` (1,2 Mo) ; l'app réimporte quand la version change (environ 4 s au premier lancement sur l'émulateur). Ne jamais renuméroter.
 - **Rédaction des lots** : sous-agents Sonnet, deux à la fois au plus, chacun avec son dossier de travail et un fichier de sortie, plan imposé (tag, difficulté, lettre) produit par `content/drafts/p5_plan.py` ou `content/drafts/reading_plan.py`, puis relecture critique ici. Défauts récurrents trouvés à la relecture : distracteur défendable à l'oral, phrase d'insertion qui tient à deux endroits, mot de synonyme déjà testé (« cover » quatre fois), noms de personnes et d'entreprises repris d'un document à l'autre (les rédacteurs les vérifient mal : relancer une détection sur toute la banque).
-- **Tests** : `gradlew testDebugUnitTest` (103), `python -m unittest discover -s content/tools/tests` (97), et 11 tests sur appareil lancés par `adb shell am instrument -w fr.toeic900.test/androidx.test.runner.AndroidJUnitRunner` après `gradlew installDebug installDebugAndroidTest`. `gradlew connectedDebugAndroidTest` rapporte 0 test sur ce poste : ne pas s'y fier.
+- **Tests** : `gradlew testDebugUnitTest` (147), `python -m unittest discover -s content/tools/tests` (105), et 13 tests sur appareil lancés par `adb shell am instrument -w fr.toeic900.test/androidx.test.runner.AndroidJUnitRunner` après `gradlew installDebug installDebugAndroidTest`. `gradlew connectedDebugAndroidTest` rapporte 0 test sur ce poste : ne pas s'y fier.
 - **Émulateur** : `Medium_Phone_API_37.0` (411 dp ; `adb shell wm density 450` simule les 384 dp du S25+, `wm density reset` pour revenir). Laissé allumé une nuit, son système est tombé (`DeadSystemException`, installation « Broken pipe ») : le redémarrer (`adb emu kill`) plutôt que chercher dans l'app. `local.properties` s'écrit avec des `/`.
-- **Galaxy S25+ de l'auteur** (SM-S936B, Android 17, API 37, 384 dp) : Phase 1 installée et testée le 12/11/2026 ; Phase 2 installée par-dessus le 18/11/2026 (progression conservée, accueil vérifié).
-- **Non vérifié** : session menée jusqu'à l'expiration du chronomètre ; parcours Parts 6-7 complets sur le vrai téléphone (seul l'accueil y a été vu).
-- **Limites connues** : session en cours non reprise après fermeture de l'app ; textes d'interface en français dans le code (pas de `strings.xml`) ; difficulté des questions estimée, non calibrée.
+- **Galaxy S25+ de l'auteur** (SM-S936B, Android 17, API 37, 384 dp) : Phase 1 installée et testée le 12/11/2026 ; Phase 2 installée par-dessus le 18/11/2026 (progression conservée, accueil vérifié) ; Phase 3 : voir `docs/bilan-phase-3.md`.
+- **Non vérifié** : voir `docs/bilan-phase-3.md`.
+- **Limites connues** : session ou demi-test en cours non repris après fermeture de l'app ; textes d'interface en français dans le code (pas de `strings.xml`) ; difficulté des questions estimée, non calibrée ; un seul demi-test (ne mesure qu'au premier passage).
 
 ## Façon de travailler
 

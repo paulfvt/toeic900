@@ -44,7 +44,6 @@ import fr.toeic900.domain.SystemClock
 import fr.toeic900.ui.appContainer
 import fr.toeic900.ui.components.ButtonStyle
 import fr.toeic900.ui.components.ElanButton
-import fr.toeic900.ui.components.ElanChip
 import fr.toeic900.ui.components.ElanIconButton
 import fr.toeic900.ui.components.ElanProgress
 import fr.toeic900.ui.components.LabelSmall
@@ -148,7 +147,8 @@ private fun MockBar(state: MockUiState, onClose: () -> Unit) {
         ) {
             ElanIconButton(ElanIcons.Close, "Abandonner le demi-test", onClose)
             Column(Modifier.weight(1f)) {
-                Text("Question ${state.index + 1} / ${state.total}", style = type.titleM, color = c.onSurface)
+                val part = state.position?.first?.part
+                Text("Question ${state.index + 1} / ${state.total}${part?.let { " · Part $it" } ?: ""}", style = type.titleM, color = c.onSurface)
                 ElanProgress(state.answers.size.toFloat() / state.total.coerceAtLeast(1), Modifier.fillMaxWidth(), description = "${state.answers.size} réponses sur ${state.total}")
             }
             Icon(ElanIcons.Clock, contentDescription = null, tint = c.onSurface, modifier = Modifier.size(18.dp))
@@ -187,7 +187,6 @@ private fun SentenceQuestion(index: Int, total: Int, q: MockQuestion, selected: 
         modifier = Modifier.fillMaxSize().verticalScroll(scroll).padding(horizontal = ElanDimens.gutter).padding(top = 4.dp, bottom = 16.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
-        ElanChip("Part 5", tonal = true)
         val stem = q.question.stem
         val start = stem.indexOf(BLANK)
         val c = ElanTheme.colors
@@ -234,13 +233,13 @@ private fun DocumentQuestion(state: MockUiState, unit: MockUnit, inUnit: Int, q:
     LaunchedEffect(unit.id) { scroll.scrollTo(0) }
     val questions = unit.questions.map { it.question }
     BoxWithConstraints(Modifier.fillMaxSize()) {
-        val maxPanel = maxHeight * 0.6f
+        // La moitié de la zone au plus : le texte et son trou restent visibles au-dessus.
+        val maxPanel = maxHeight * 0.5f
         Column(Modifier.fillMaxSize()) {
             Column(
                 modifier = Modifier.weight(1f).fillMaxWidth().verticalScroll(scroll).padding(horizontal = ElanDimens.gutter).padding(bottom = 12.dp),
                 verticalArrangement = Arrangement.spacedBy(12.dp),
             ) {
-                ElanChip("Part ${unit.part}", tonal = true)
                 unit.documents.forEachIndexed { i, doc ->
                     val text = documentText(doc, questions, inUnit, corrected = false, c = c, chosen = { blank ->
                         questions.getOrNull(blank)?.let { question -> state.answers[question.id]?.let { question.options[it] } }

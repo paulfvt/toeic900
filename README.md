@@ -3,7 +3,7 @@
 Application Android personnelle de préparation au TOEIC : 100 % hors ligne, gratuite, au contenu
 entièrement original. Objectif : viser un score de 900.
 
-**État : Phase 2 terminée (16/11/2026).** L'app couvre tout le Reading du TOEIC :
+**État : Phase 3 terminée (18/11/2026).** L'app couvre tout le Reading du TOEIC :
 
 - **Part 5** (phrases à compléter) : 300 questions sur 16 compétences de grammaire et de vocabulaire ;
 - **Part 6** (textes à trous) : 25 textes de 4 questions, dont une insertion de phrase par texte ;
@@ -16,7 +16,20 @@ entièrement original. Objectif : viser un score de 900.
 - révision espacée : chaque compétence avance dans 5 boîtes (revue 1, 2, 4, 8 puis 16 jours plus tard) ;
 - explications en français ou en anglais (Réglages).
 
-Les phases suivantes (statistiques et score estimé, audio, tests blancs) sont décrites dans `CLAUDE.md`.
+Depuis la Phase 3, elle suit aussi la progression et entretient la motivation :
+
+- **un demi-test Reading** chronométré (50 questions en 38 min, distinctes de l'entraînement), avec un
+  indicateur de rythme, puis les résultats par part et par compétence et la revue de chaque erreur ;
+- **un score Reading estimé**, toujours avec sa fourchette : demi-tests 80 %, entraînement 20 %
+  (méthode et limites : `docs/score-estime.md`) ;
+- **un onglet Progrès** : niveau et XP, série, activité sur 28 jours, réussite par part et par compétence,
+  historique des demi-tests ;
+- **XP et niveaux, objectif quotidien** (en questions ou en minutes), **série hebdomadaire** (semaine
+  validée quand l'objectif est atteint au moins 5 jours sur 7, seuil réglable) et **25 badges** ;
+- **un rappel quotidien** à l'heure choisie, seulement si l'objectif du jour n'est pas atteint ;
+- **sons, vibrations et animations** à chaque correction (désactivables dans les Réglages).
+
+Les phases suivantes (audio des Parts 1 à 4, diagnostic, tests blancs complets) sont décrites dans `CLAUDE.md`.
 
 ---
 
@@ -118,6 +131,8 @@ Le contenu est fait de fichiers JSON :
 | `content/bank/part7/` | jeux Part 7 : un à trois documents, puis leurs questions et les citations qui les justifient (`evidence`) |
 | `content/lessons/fiches/` | une fiche de cours par compétence (`<compétence>.json`) |
 | `content/lessons/path.json` | le chemin de leçons : unités, étapes, nombre d'exercices par étape |
+| `content/bank/mock/` | questions des tests blancs (pool `mock`, identifiants 9001 et suivants), jamais servies à l'entraînement |
+| `content/mock/` | la définition de chaque test blanc : ses unités dans l'ordre et sa durée (`reading-1.json`) |
 | `content/drafts/` | scripts qui ont produit les plans de rédaction imposés (compétence, difficulté, lettre de la bonne réponse) |
 
 L'app n'embarque pas ces fichiers directement, mais un fichier assemblé :
@@ -151,14 +166,22 @@ python -m unittest discover -s content/tools/tests
 Pour écrire de nouvelles questions : `content/GUIDE-REDACTION.md` (règles, format, exemples) et
 `content/schemas/` (schéma JSON et liste des compétences).
 
+Les trois sons de l'app (`app/src/main/res/raw/`) sont synthétisés par ffmpeg, sans aucun fichier
+téléchargé. Pour les régénérer :
+
+```powershell
+python content/tools/sounds.py
+```
+
 ## 6. Organisation du dépôt
 
 ```
 toeic900/
 ├─ app/                          l'application Android
 │  ├─ src/main/java/fr/toeic900/
-│  │  ├─ domain/                 logique pure, sans Android : boîtes de Leitner, choix de la question
-│  │  ├─ data/                   bases de données (Room), import du contenu, réglages
+│  │  ├─ domain/                 logique pure, sans Android : Leitner, choix des exercices, score estimé, XP, série, badges, rythme
+│  │  ├─ data/                   bases de données (Room), import du contenu, réglages, progression, tests blancs
+│  │  ├─ reminder/               rappel quotidien (alarme et notification)
 │  │  └─ ui/                     écrans (Jetpack Compose) et thème « Élan »
 │  ├─ src/main/assets/content/   content.json, généré par build.py
 │  ├─ src/test/                  tests unitaires (sur le PC)
@@ -166,22 +189,23 @@ toeic900/
 │  └─ schemas/                   structure des deux bases, exportée par Room
 ├─ content/                      questions (JSON), schémas, scripts Python
 ├─ design-system/                maquettes et tokens visuels « Élan »
-├─ docs/                         brief, proposition d'architecture, bilan de la Phase 2
+├─ docs/                         proposition d'architecture, score estimé, bilans des Phases 2 et 3
 └─ licenses/                     licences des polices Nunito et Nunito Sans (OFL)
 ```
 
 Deux bases de données sur le téléphone :
 
 - `content.db` : les questions. Jetable, reconstruite à chaque nouvelle version du contenu.
-- `user.db` : ta progression (boîtes, réponses, sessions). Jamais détruite.
+- `user.db` : ta progression (boîtes, réponses, sessions, demi-tests, badges). Jamais détruite :
+  chaque changement de structure passe par une migration testée (version 3 depuis la Phase 3).
 
 ## 7. Tests
 
 | Tests | Commande | Où |
 |---|---|---|
-| Logique (Leitner, choix des exercices, chemin, import, migration SQL) : 103 tests | `.\gradlew.bat testDebugUnitTest` | PC |
-| Contenu (validation des Parts 5-7, fiches, chemin, assemblage) : 97 tests | `python -m unittest discover -s content/tools/tests` | PC |
-| Bases de données réelles et migration de `user.db` : 11 tests | voir ci-dessous | émulateur ou téléphone |
+| Logique (Leitner, choix des exercices, chemin, score estimé, XP, série, badges, rythme, rappel, import, migrations SQL) : 147 tests | `.\gradlew.bat testDebugUnitTest` | PC |
+| Contenu (validation des Parts 5-7, fiches, chemin, tests blancs, assemblage) : 105 tests | `python -m unittest discover -s content/tools/tests` | PC |
+| Bases de données réelles et migrations de `user.db` (1 → 2 → 3) : 13 tests | voir ci-dessous | émulateur ou téléphone |
 
 Tests sur appareil, émulateur démarré :
 
@@ -193,18 +217,20 @@ Tests sur appareil, émulateur démarré :
 & "$env:LOCALAPPDATA\Android\Sdk\platform-tools\adb.exe" shell am instrument -w fr.toeic900.test/androidx.test.runner.AndroidJUnitRunner
 ```
 
-La sortie doit se terminer par `OK (11 tests)`. La commande habituelle
+La sortie doit se terminer par `OK (13 tests)`. La commande habituelle
 `.\gradlew.bat connectedDebugAndroidTest` se termine sans erreur sur ce poste mais n'exécute aucun
 test (cause non élucidée) : ne pas s'y fier pour l'instant.
 
-## 8. Limites connues (fin de Phase 2)
+## 8. Limites connues (fin de Phase 3)
 
 - Les questions sont originales et relues, mais elles ne sont pas calibrées sur de vrais candidats :
-  leur difficulté est estimée.
-- Une session interrompue par la fermeture de l'app n'est pas reprise ; les réponses déjà données
-  sont, elles, enregistrées.
+  leur difficulté est estimée, et le score estimé repose sur une table de conversion maison
+  (`docs/score-estime.md`). Un test officiel avant l'examen reste le meilleur recalage.
+- Un seul demi-test Reading : il ne mesure vraiment qu'au premier passage. Les tests blancs complets
+  arrivent en Phase 5 ; le Listening (et donc le score total) en Phase 4.
+- Une session ou un demi-test interrompus par la fermeture de l'app ne sont pas repris ; les réponses
+  d'entraînement déjà données sont, elles, enregistrées.
 - Les textes de l'interface sont en français uniquement et écrits dans le code ; seules les
   explications et les fiches passent en anglais.
-- Pas encore de statistiques, de score estimé, de série, de badges ni de notifications (Phase 3).
-- La Phase 2 a été vérifiée en détail sur l'émulateur (411 et 384 dp, clair et sombre) ; sur le Galaxy S25+,
-  elle est installée (18/11/2026) mais seul l'écran d'accueil y a été contrôlé.
+- Le rappel quotidien utilise une alarme « inexacte » d'Android : il peut arriver avec quelques minutes
+  de retard.
