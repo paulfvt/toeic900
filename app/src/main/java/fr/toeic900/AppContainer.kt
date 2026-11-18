@@ -1,6 +1,7 @@
 package fr.toeic900
 
 import android.content.Context
+import fr.toeic900.data.MockRepository
 import fr.toeic900.data.ProgressRepository
 import fr.toeic900.data.TrainingRepository
 import fr.toeic900.data.content.ContentDatabase
@@ -37,6 +38,7 @@ class AppContainer(context: Context) {
     val settings by lazy { SettingsRepository(appContext) }
     val repository by lazy { TrainingRepository(contentDb.contentDao(), userDb.userDao(), SystemClock) }
     val progress by lazy { ProgressRepository(contentDb.contentDao(), userDb.userDao(), settings, SystemClock) }
+    val mock by lazy { MockRepository(contentDb.contentDao(), userDb.userDao(), SystemClock) }
 
     private val _contentStatus = MutableStateFlow<ContentStatus>(ContentStatus.Loading)
     val contentStatus: StateFlow<ContentStatus> = _contentStatus

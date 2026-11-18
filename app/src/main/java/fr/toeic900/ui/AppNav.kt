@@ -35,7 +35,12 @@ import fr.toeic900.ui.home.HomeScreen
 import fr.toeic900.ui.lessons.LessonListScreen
 import fr.toeic900.ui.lessons.LessonScreen
 import fr.toeic900.ui.lessons.StepIntroScreen
+import fr.toeic900.ui.mock.MockIntroScreen
+import fr.toeic900.ui.mock.MockResultScreen
+import fr.toeic900.ui.mock.MockScreen
 import fr.toeic900.ui.path.PathScreen
+import fr.toeic900.ui.progress.BadgesScreen
+import fr.toeic900.ui.progress.ProgressScreen
 import fr.toeic900.ui.settings.SettingsScreen
 import fr.toeic900.ui.theme.ElanIcons
 import fr.toeic900.ui.theme.ElanTheme
@@ -46,10 +51,16 @@ import kotlinx.serialization.Serializable
 
 // Les « routes » : une par écran. Leurs champs sont les paramètres passés à l'écran.
 
-// Les trois onglets de la barre du bas.
+// Les quatre onglets de la barre du bas.
 @Serializable data object HomeRoute
 @Serializable data object PathRoute
 @Serializable data object ExercisesRoute
+@Serializable data object ProgressRoute
+
+@Serializable data object BadgesRoute
+@Serializable data object MockIntroRoute
+@Serializable data class MockRoute(val testId: String)
+@Serializable data class MockResultRoute(val mockId: Long)
 
 /**
  * Une session de questions. Entraînement libre : part (0 = toutes), compétence et durée.
@@ -77,6 +88,7 @@ private val TABS = listOf(
     BottomTab("Accueil", ElanIcons.Home) to HomeRoute,
     BottomTab("Chemin", ElanIcons.Map) to PathRoute,
     BottomTab("Exercices", ElanIcons.Target) to ExercisesRoute,
+    BottomTab("Progrès", ElanIcons.Chart) to ProgressRoute,
 )
 
 @Composable
@@ -131,12 +143,13 @@ private fun AppNavHost() {
     val nav = rememberNavController()
     val entry by nav.currentBackStackEntryAsState()
     val destination = entry?.destination
-    // La barre du bas n'apparaît que sur les trois onglets, pas pendant une session ou une fiche.
+    // La barre du bas n'apparaît que sur les quatre onglets, pas pendant une session ou une fiche.
     val tabIndex = when {
         destination == null -> -1
         destination.hasRoute<HomeRoute>() -> 0
         destination.hasRoute<PathRoute>() -> 1
         destination.hasRoute<ExercisesRoute>() -> 2
+        destination.hasRoute<ProgressRoute>() -> 3
         else -> -1
     }
 
@@ -159,6 +172,37 @@ private fun AppNavHost() {
             }
             composable<ExercisesRoute> {
                 TrainingSetupScreen(onStart = { part, tag, minutes -> nav.navigate(TrainingRoute(part, tag, minutes)) })
+            }
+            composable<ProgressRoute> {
+                ProgressScreen(
+                    onMockTest = { nav.navigate(MockIntroRoute) },
+                    onBadges = { nav.navigate(BadgesRoute) },
+                    onOpenLesson = { tagId -> nav.navigate(LessonRoute(tagId)) },
+                    onOpenMock = { mockId -> nav.navigate(MockResultRoute(mockId)) },
+                )
+            }
+            composable<BadgesRoute> { BadgesScreen(onBack = { nav.popBackStack() }) }
+            composable<MockIntroRoute> {
+                MockIntroScreen(
+                    onBack = { nav.popBackStack() },
+                    onStart = { testId -> nav.navigate(MockRoute(testId)) },
+                    onOpenResult = { mockId -> nav.navigate(MockResultRoute(mockId)) },
+                )
+            }
+            composable<MockRoute> { entry ->
+                MockScreen(
+                    testId = entry.toRoute<MockRoute>().testId,
+                    // Les résultats remplacent le test : « retour » ne rouvre pas la copie.
+                    onFinished = { mockId -> nav.navigate(MockResultRoute(mockId)) { popUpTo<MockRoute> { inclusive = true } } },
+                    onAbandon = { nav.popBackStack() },
+                )
+            }
+            composable<MockResultRoute> { entry ->
+                MockResultScreen(
+                    mockId = entry.toRoute<MockResultRoute>().mockId,
+                    onClose = { nav.popBackStack() },
+                    onOpenLesson = { tagId -> nav.navigate(LessonRoute(tagId)) },
+                )
             }
             composable<StepIntroRoute> { entry ->
                 val stepId = entry.toRoute<StepIntroRoute>().stepId

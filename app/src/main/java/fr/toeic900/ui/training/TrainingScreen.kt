@@ -37,6 +37,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.onSizeChanged
 import androidx.compose.ui.platform.LocalDensity
@@ -56,6 +57,7 @@ import fr.toeic900.data.PickedQuestion
 import fr.toeic900.data.PickedUnit
 import fr.toeic900.data.settings.ExplanationLanguage
 import fr.toeic900.domain.Document
+import fr.toeic900.domain.Question
 import fr.toeic900.domain.Leitner
 import fr.toeic900.domain.PickReason
 import fr.toeic900.domain.SystemClock
@@ -398,7 +400,7 @@ private val GENRE_LABELS = mapOf(
 )
 
 @Composable
-private fun DocumentCard(document: Document, index: Int, total: Int, text: AnnotatedString) {
+internal fun DocumentCard(document: Document, index: Int, total: Int, text: AnnotatedString) {
     val c = ElanTheme.colors
     Column(
         modifier = Modifier
@@ -433,8 +435,21 @@ private fun documentText(
     questionIndex: Int,
     corrected: Boolean,
     c: ElanColors,
+): AnnotatedString = documentText(document, unit.questions.map { it.question }, questionIndex, corrected, c)
+
+/**
+ * Même mise en forme, à partir des questions du texte. [chosen] sert au test blanc : il donne,
+ * pour chaque trou de Part 6, l'option choisie par l'utilisateur (sans révéler la bonne réponse).
+ */
+internal fun documentText(
+    document: Document,
+    questions: List<Question>,
+    questionIndex: Int,
+    corrected: Boolean,
+    c: ElanColors,
+    chosen: ((blankIndex: Int) -> String?)? = null,
 ): AnnotatedString = buildAnnotatedString {
-    val evidence = if (corrected) unit.questions.getOrNull(questionIndex)?.question?.evidence.orEmpty() else emptyList()
+    val evidence = if (corrected) questions.getOrNull(questionIndex)?.evidence.orEmpty() else emptyList()
     val bold = SpanStyle(fontWeight = FontWeight.W700)
 
     fun appendPlain(segment: String) {
@@ -460,9 +475,15 @@ private fun documentText(
     for (match in P6_BLANK.findAll(document.text)) {
         appendPlain(document.text.substring(cursor, match.range.first))
         val blankIndex = match.groupValues[1].toInt() - 1
-        val question = unit.questions.getOrNull(blankIndex)?.question
-        val filled = blankIndex < questionIndex || (blankIndex == questionIndex && corrected)
+        val question = questions.getOrNull(blankIndex)
+        val filled = chosen == null && (blankIndex < questionIndex || (blankIndex == questionIndex && corrected))
+        val mine = chosen?.invoke(blankIndex)
         when {
+            mine != null ->
+                withStyle(SpanStyle(color = c.primaryInk, fontWeight = FontWeight.W700, textDecoration = TextDecoration.Underline,
+                    background = if (blankIndex == questionIndex) c.primaryContainer else Color.Unspecified)) {
+                    append(" (${blankIndex + 1}) $mine ")
+                }
             filled && question != null ->
                 withStyle(SpanStyle(color = c.successInk, fontWeight = FontWeight.W700, textDecoration = TextDecoration.Underline)) {
                     append(question.options[question.answerIndex])

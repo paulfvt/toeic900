@@ -58,5 +58,10 @@ object ElanIcons {
     }
     val Lock by lazy { strokeIcon("lock", "M5 11h14a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2z", "M7 11V7a5 5 0 0 1 10 0v4") }
     val Play by lazy { strokeIcon("play", "M6 4l13 8-13 8z") }
+    val Chart by lazy { strokeIcon("chart", "M3 3v18h18", "M7 15l4-4 3 3 6-7") }
+    val Flame by lazy {
+        strokeIcon("flame", "M12 22c4 0 7-2.7 7-7 0-4-3-6.5-4-10-2 1.5-3 3.5-3 5.5C11 9 10 8 9.5 6.5 7 8.5 5 11.5 5 15c0 4.3 3 7 7 7z")
+    }
+    val Bell by lazy { strokeIcon("bell", "M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9", "M13.73 21a2 2 0 0 1-3.46 0") }
     val Award by lazy { strokeIcon("award", "M5 8a7 7 0 1 0 14 0a7 7 0 1 0 -14 0z", "M8.21 13.89L7 23l5-3 5 3-1.21-9.12") }
 }
