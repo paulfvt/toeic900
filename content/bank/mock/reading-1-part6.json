@@ -1,0 +1,321 @@
+{
+  "part": 6,
+  "pool": "mock",
+  "texts": [
+    {
+      "id": "p6-9001",
+      "part": 6,
+      "genre": "email",
+      "text": "To: Ms. Linnea Solheim\nFrom: Kwabena Asante, Events Desk, Larkspur Conference Center\nSubject: Your booking for the Regional Packaging Forum\n\nDear Ms. Solheim,\n\nThank you for choosing Larkspur Conference Center. The Maple Room, which seats up to 120 guests, is reserved for you [[1]] 8:00 A.M. and 5:00 P.M. on Thursday, April 9. To confirm the booking, we ask that you [[2]] a deposit of 30 percent by March 20.\n\nFinal guest numbers [[3]] by March 30. [[4]] Numbers received after that date cannot be reduced, although extra guests can usually be added.\n\nPlease call me at 555-0148 if you have any questions.\n\nSincerely,\nKwabena Asante",
+      "questions": [
+        {
+          "id": "p6-9001-1",
+          "tags": [
+            "prepositions"
+          ],
+          "difficulty": 3,
+          "options": [
+            "within",
+            "since",
+            "between",
+            "among"
+          ],
+          "answer": "C",
+          "evidence": [
+            "8:00 A.M. and 5:00 P.M. on Thursday, April 9"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le trou est suivi de deux heures reliées par « and » (« 8:00 A.M. and 5:00 P.M. ») : la préposition qui annonce deux bornes est « between … and ».",
+              "distractors": {
+                "A": "« within » signifie « à l'intérieur de » une durée ou une zone : il ne se combine pas avec « … and ».",
+                "B": "« since » indique un point de départ dans le passé : la réservation concerne le 9 avril à venir.",
+                "D": "« among » se dit de plus de deux éléments pris en groupe (« among the guests ») et ne s'emploie pas avec des heures."
+              },
+              "trap": "« ------- X and Y » → between (X and Y) ; « from X to Y » est l'autre structure possible. Regarde ce qui suit le trou."
+            },
+            "en": {
+              "rule": "The blank is followed by two times joined by \"and\" (\"8:00 A.M. and 5:00 P.M.\"): the preposition that introduces two limits is \"between … and\".",
+              "distractors": {
+                "A": "\"within\" means \"inside\" a period or area: it does not combine with \"… and\".",
+                "B": "\"since\" gives a starting point in the past: the booking is for the coming April 9.",
+                "D": "\"among\" refers to a group of three or more things (\"among the guests\") and is not used with clock times."
+              },
+              "trap": "\"------- X and Y\" → between (X and Y); \"from X to Y\" is the other possible pattern. Look at what follows the blank."
+            }
+          }
+        },
+        {
+          "id": "p6-9001-2",
+          "tags": [
+            "collocations"
+          ],
+          "difficulty": 2,
+          "options": [
+            "do",
+            "take",
+            "hold",
+            "make"
+          ],
+          "answer": "D",
+          "evidence": [
+            "we ask that you"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "On dit « make a deposit » : verser un acompte. C'est le verbe associé à « deposit » quand c'est le client qui paie.",
+              "distractors": {
+                "A": "« do » ne s'emploie pas avec « deposit » : on dit « do a favor », « do research », pas « do a deposit ».",
+                "B": "« take » se dit plutôt de celui qui reçoit l'argent (« take a deposit ») ; ici « you » est le client, qui verse l'acompte.",
+                "C": "« hold » veut dire garder ou conserver (« we hold your deposit ») : le client ne « hold » pas un acompte qu'il doit payer."
+              },
+              "trap": "Pour « deposit », retiens make a deposit (le client) et hold a deposit (l'entreprise qui le garde)."
+            },
+            "en": {
+              "rule": "The collocation is \"make a deposit\": to pay a deposit. It is the verb used with \"deposit\" when the customer is paying.",
+              "distractors": {
+                "A": "\"do\" is not used with \"deposit\": you \"do a favor\" or \"do research\", but not \"do a deposit\".",
+                "B": "\"take\" is used for the one who receives the money (\"take a deposit\"); here \"you\" is the customer, who pays it.",
+                "C": "\"hold\" means to keep (\"we hold your deposit\"): the customer does not \"hold\" a deposit that is still to be paid."
+              },
+              "trap": "For \"deposit\", remember make a deposit (the customer) and hold a deposit (the business keeping it)."
+            }
+          }
+        },
+        {
+          "id": "p6-9001-3",
+          "tags": [
+            "passive-voice"
+          ],
+          "difficulty": 2,
+          "options": [
+            "should be confirmed",
+            "should confirm",
+            "should be confirming",
+            "should have confirmed"
+          ],
+          "answer": "A",
+          "evidence": [
+            "by March 30"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« Final guest numbers » ne confirment rien : c'est vous qui les confirmez. Après « should », il faut un passif, « should be confirmed », avec « by March 30 » comme échéance.",
+              "distractors": {
+                "B": "« should confirm » est actif : les chiffres ne peuvent pas confirmer, et il n'y a pas de complément d'objet.",
+                "C": "« should be confirming » est un progressif actif : même problème de sujet, et il ne se combine pas avec une échéance.",
+                "D": "« should have confirmed » est un parfait actif (reproche sur le passé) : sujet impossible, et la date du 30 mars est à venir."
+              },
+              "trap": "Sujet = une chose qui reçoit l'action + « by » + date : passif (be + participe passé)."
+            },
+            "en": {
+              "rule": "\"Final guest numbers\" do not confirm anything: someone confirms them. After \"should\" you need a passive, \"should be confirmed\", with \"by March 30\" as the deadline.",
+              "distractors": {
+                "B": "\"should confirm\" is active: numbers cannot confirm anything, and no object follows.",
+                "C": "\"should be confirming\" is an active progressive: same subject problem, and it does not fit a deadline.",
+                "D": "\"should have confirmed\" is an active perfect (criticism about the past): impossible subject, and March 30 is in the future."
+              },
+              "trap": "Subject = a thing that receives the action + \"by\" + date: passive (be + past participle)."
+            }
+          }
+        },
+        {
+          "id": "p6-9001-4",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 1,
+          "options": [
+            "The Maple Room is also available for evening events.",
+            "Your deposit has already been returned to your credit card.",
+            "Our technicians will arrive at 7:30 A.M. to set up the equipment.",
+            "The kitchen needs this deadline to order ingredients and schedule enough staff."
+          ],
+          "answer": "D",
+          "evidence": [
+            "by March 30",
+            "Numbers received after that date cannot be reduced, although extra guests can usually be added."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase d'avant fixe une échéance (« by March 30 ») et celle d'après parle de « that date » et des chiffres reçus après. Il faut une phrase qui explique le rôle de cette échéance : « this deadline ».",
+              "distractors": {
+                "A": "« evening events » ne rattache pas la salle à l'échéance du 30 mars, et la phrase suivante (« Numbers received after that date… ») n'a plus de référent.",
+                "B": "L'acompte vient d'être demandé (« we ask that you make a deposit ») : dire qu'il est déjà rendu contredit le texte.",
+                "C": "L'arrivée des techniciens n'a aucun lien avec les nombres d'invités ni avec « that date »."
+              },
+              "trap": "Une phrase insérée doit s'accrocher des deux côtés : « this deadline » reprend la date avant, « that date » prépare ce qui suit."
+            },
+            "en": {
+              "rule": "The sentence before sets a deadline (\"by March 30\") and the one after talks about \"that date\" and numbers received later. You need a sentence that explains what the deadline is for: \"this deadline\".",
+              "distractors": {
+                "A": "\"evening events\" does not link the room to the March 30 deadline, and the next sentence (\"Numbers received after that date…\") loses its reference.",
+                "B": "The deposit has just been requested (\"we ask that you make a deposit\"): saying it was already returned contradicts the text.",
+                "C": "The technicians' arrival has no link with guest numbers or \"that date\"."
+              },
+              "trap": "An inserted sentence must connect on both sides: \"this deadline\" picks up the date before, \"that date\" prepares what follows."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p6-9002",
+      "part": 6,
+      "genre": "article",
+      "title": "Halvane Biosciences Opens Testing Laboratory",
+      "text": "Halvane Biosciences, a pharmaceutical company based in Wexmoor, opened a new quality-control laboratory on Tuesday. [[1]] Until now, every batch of tablets made at the Wexmoor plant had to be shipped to an outside laboratory, which often delayed deliveries to pharmacies by several days.\n\nThe new facility employs 40 technicians and has instruments that can [[2]] a sample for more than 200 different impurities in under an hour. According to plant director Ayesha Oduya, the speed of testing will allow the company to respond [[3]] to urgent orders from hospitals.\n\n\"The technicians trained for six months before opening day,\" Ms. Oduya said, \"and [[4]] deserve much of the credit for this success.\"",
+      "questions": [
+        {
+          "id": "p6-9002-1",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 3,
+          "options": [
+            "The laboratory will let the company test its own tablets on site for the first time.",
+            "Outside laboratories will keep testing every batch, as they have always done.",
+            "The company's tablets are now sold in more than twenty countries.",
+            "Halvane Biosciences was founded in 1986 by two chemists from Wexmoor."
+          ],
+          "answer": "A",
+          "evidence": [
+            "opened a new quality-control laboratory on Tuesday.",
+            "Until now, every batch of tablets made at the Wexmoor plant had to be shipped to an outside laboratory"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase suivante commence par « Until now » et décrit l'ancien système (envoi à un laboratoire extérieur). Il faut donc une phrase qui annonce le changement apporté par le nouveau laboratoire : tester sur place, pour la première fois.",
+              "distractors": {
+                "B": "Cette phrase dit que rien ne change, ce qui contredit « Until now… » et l'ouverture d'un laboratoire interne.",
+                "C": "Les ventes à l'étranger ne préparent pas « Until now, every batch… had to be shipped » : le lien avec les tests manque.",
+                "D": "L'histoire de la fondation n'a aucun rapport avec les tests ni avec l'expression « Until now », qui n'aurait plus de sens."
+              },
+              "trap": "« Until now » annonce un contraste avec le présent : la phrase à insérer doit décrire ce qui a changé."
+            },
+            "en": {
+              "rule": "The next sentence starts with \"Until now\" and describes the old system (shipping to an outside laboratory). The missing sentence must announce the change the new laboratory brings: testing on site for the first time.",
+              "distractors": {
+                "B": "This sentence says nothing changes, which contradicts \"Until now…\" and the opening of an in-house laboratory.",
+                "C": "Sales abroad do not prepare \"Until now, every batch… had to be shipped\": the link with testing is missing.",
+                "D": "The company's founding history has no link with testing or with \"Until now\", which would lose its meaning."
+              },
+              "trap": "\"Until now\" signals a contrast with the present: the inserted sentence must describe what has changed."
+            }
+          }
+        },
+        {
+          "id": "p6-9002-2",
+          "tags": [
+            "vocabulary-in-context"
+          ],
+          "difficulty": 2,
+          "options": [
+            "cover",
+            "screen",
+            "cast",
+            "display"
+          ],
+          "answer": "B",
+          "evidence": [
+            "a sample for more than 200 different impurities in under an hour"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« screen a sample for impurities » veut dire examiner un échantillon pour y détecter des impuretés ; « for » introduit ce qu'on cherche.",
+              "distractors": {
+                "A": "« cover » veut dire recouvrir ou couvrir : on ne « cover a sample for » des impuretés.",
+                "C": "« cast » veut dire lancer ou couler (du métal) : il ne convient pas à un test sur un échantillon.",
+                "D": "« display » veut dire afficher : un instrument peut afficher un résultat, mais pas « display a sample for impurities »."
+              },
+              "trap": "« screen … for » = rechercher la présence de quelque chose (screen for impurities, screen for errors)."
+            },
+            "en": {
+              "rule": "\"screen a sample for impurities\" means to examine a sample to detect impurities; \"for\" introduces what is being looked for.",
+              "distractors": {
+                "A": "\"cover\" means to put something over another: you do not \"cover a sample for\" impurities.",
+                "C": "\"cast\" means to throw or to pour (metal): it does not fit testing a sample.",
+                "D": "\"display\" means to show: an instrument can display a result, but not \"display a sample for impurities\"."
+              },
+              "trap": "\"screen … for\" = look for the presence of something (screen for impurities, screen for errors)."
+            }
+          }
+        },
+        {
+          "id": "p6-9002-3",
+          "tags": [
+            "word-form-adverb"
+          ],
+          "difficulty": 1,
+          "options": [
+            "quick",
+            "quickness",
+            "quickly",
+            "quicken"
+          ],
+          "answer": "C",
+          "evidence": [
+            "the speed of testing will allow the company to respond"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le trou suit le verbe « respond » : il faut un adverbe de manière, « quickly ».",
+              "distractors": {
+                "A": "« quick » est un adjectif : il ne peut pas modifier un verbe.",
+                "B": "« quickness » est un nom (la rapidité) : il ne peut pas suivre « respond » sans préposition.",
+                "D": "« quicken » est un verbe (accélérer) : deux verbes ne peuvent pas se suivre ainsi."
+              },
+              "trap": "Verbe + trou + « to » → un adverbe décrit la manière de l'action."
+            },
+            "en": {
+              "rule": "The blank follows the verb \"respond\": you need an adverb of manner, \"quickly\".",
+              "distractors": {
+                "A": "\"quick\" is an adjective: it cannot modify a verb.",
+                "B": "\"quickness\" is a noun (speed): it cannot follow \"respond\" without a preposition.",
+                "D": "\"quicken\" is a verb (to speed up): two verbs cannot follow each other like this."
+              },
+              "trap": "Verb + blank + \"to\" → an adverb describes how the action is done."
+            }
+          }
+        },
+        {
+          "id": "p6-9002-4",
+          "tags": [
+            "pronouns"
+          ],
+          "difficulty": 2,
+          "options": [
+            "it",
+            "they",
+            "theirs",
+            "them"
+          ],
+          "answer": "B",
+          "evidence": [
+            "The technicians trained for six months before opening day"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le trou est le sujet de « deserve » et reprend « The technicians » (pluriel) de la proposition précédente : le pronom sujet pluriel est « they ».",
+              "distractors": {
+                "A": "« it » est singulier et ne reprend pas « technicians » ; il ne s'accorde pas avec « deserve ».",
+                "C": "« theirs » est un pronom possessif (« the credit is theirs ») : il ne peut pas être sujet de « deserve ».",
+                "D": "« them » est un pronom complément : il ne peut pas être sujet du verbe « deserve »."
+              },
+              "trap": "Pour un pronom sujet, trouve le référent dans la phrase d'avant, puis vérifie son nombre et sa fonction (sujet → they)."
+            },
+            "en": {
+              "rule": "The blank is the subject of \"deserve\" and refers back to \"The technicians\" (plural) in the previous clause: the plural subject pronoun is \"they\".",
+              "distractors": {
+                "A": "\"it\" is singular and does not stand for \"technicians\"; it does not agree with \"deserve\".",
+                "C": "\"theirs\" is a possessive pronoun (\"the credit is theirs\"): it cannot be the subject of \"deserve\".",
+                "D": "\"them\" is an object pronoun: it cannot be the subject of \"deserve\"."
+              },
+              "trap": "For a subject pronoun, find its referent in the previous sentence, then check number and function (subject → they)."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -38,6 +38,7 @@ data class ContentRows(
     val lessons: List<LessonEntity>,
     val pathUnits: List<PathUnitEntity>,
     val pathSteps: List<PathStepEntity>,
+    val mockTests: List<MockTestEntity> = emptyList(),
 )
 
 fun ContentBundle.toRows(): ContentRows {
@@ -64,6 +65,9 @@ fun ContentBundle.toRows(): ContentRows {
         lessons = lessons.map { LessonEntity(tagId = it.tag, content = it) },
         pathUnits = path.units.mapIndexed { index, unit -> PathUnitEntity(unit.id, index, unit.fr, unit.en) },
         pathSteps = steps,
+        mockTests = mockTests.mapIndexed { index, m ->
+            MockTestEntity(id = m.id, sortOrder = index, section = m.section, titleFr = m.fr, titleEn = m.en, minutes = m.minutes, units = m.units)
+        },
     )
 }
 

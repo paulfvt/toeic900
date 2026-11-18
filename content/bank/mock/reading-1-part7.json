@@ -1,0 +1,1164 @@
+{
+  "part": 7,
+  "pool": "mock",
+  "sets": [
+    {
+      "id": "p7-9001",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "chat",
+          "title": "Staff Chat - Harbourline Language School",
+          "text": "Wendeline Aarts (2:05 P.M.): Bastien, 14 students signed up for Thursday's Business English class, but Room 3 only seats 12. Where can we move it?\nBastien Lemaire (2:07 P.M.): Room 5 seats 20.\nWendeline Aarts (2:08 P.M.): The students need a projector for their presentation practice, though.\nBastien Lemaire (2:09 P.M.): The projector in Room 5 is not working, and the technician won't be here until Friday.\nWendeline Aarts (2:10 P.M.): Then that's out. What about Room 2? It has a projector and seats 16.\nBastien Lemaire (2:11 P.M.): Keiko's class is in there until 6:30, and ours starts at 6:00.\nWendeline Aarts (2:12 P.M.): Keiko, could you end your Thursday class half an hour early?\nKeiko Sandoval (2:14 P.M.): That would be a stretch.\nKeiko Sandoval (2:14 P.M.): The listening test takes the whole session.\nBastien Lemaire (2:16 P.M.): Then I'll check Room 4. It seats 14, and its projector works fine.\nWendeline Aarts (2:17 P.M.): Perfect. That is exactly the number we need."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-9001-1",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 3,
+          "stem": "Why is Room 5 not suitable for Thursday's Business English class?",
+          "options": [
+            "It does not have enough seats.",
+            "It is already booked by another class.",
+            "It will be used for a listening test.",
+            "Its projector will not be repaired in time."
+          ],
+          "answer": "D",
+          "evidence": [
+            "The projector in Room 5 is not working, and the technician won't be here until Friday.",
+            "14 students signed up for Thursday's Business English class"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Room 5 est assez grande (20 places), mais son projecteur est en panne et le technicien ne vient que vendredi, donc après le cours du jeudi : le projecteur ne sera pas réparé à temps. Il faut relier deux informations (panne, puis date du technicien) à la date du cours.",
+              "distractors": {
+                "A": "La salle 5 compte 20 places pour 14 étudiants : elle est assez grande.",
+                "B": "Personne ne dit que la salle 5 est réservée ; c'est la salle 2 qui est occupée par la classe de Keiko.",
+                "C": "Le test d'écoute concerne la classe de Keiko, dans la salle 2, pas la salle 5."
+              },
+              "trap": "Quand une raison n'est pas écrite telle quelle, relie les informations du texte à la date ou à la contrainte de la question (ici : jeudi contre vendredi)."
+            },
+            "en": {
+              "rule": "Room 5 is big enough (20 seats), but its projector is broken and the technician only comes on Friday, after Thursday's class: the projector will not be repaired in time. You must connect two facts (the breakdown, then the technician's date) to the class date.",
+              "distractors": {
+                "A": "Room 5 seats 20 for 14 students: it is big enough.",
+                "B": "Nobody says Room 5 is booked; Room 2 is the one occupied by Keiko's class.",
+                "C": "The listening test belongs to Keiko's class, in Room 2, not to Room 5."
+              },
+              "trap": "When a reason is not written word for word, connect the facts in the text to the date or constraint in the question (here: Thursday versus Friday)."
+            }
+          }
+        },
+        {
+          "id": "p7-9001-2",
+          "tags": [
+            "writer-intention"
+          ],
+          "difficulty": 3,
+          "stem": "At 2:14 P.M., what does Ms. Sandoval most likely mean when she writes, \"That would be a stretch\"?",
+          "options": [
+            "She doubts that 14 students have registered.",
+            "She is willing to give her students extra time.",
+            "Ending her class early would be hard to manage.",
+            "She wants a longer class on Thursday."
+          ],
+          "answer": "C",
+          "evidence": [
+            "Keiko, could you end your Thursday class half an hour early?",
+            "The listening test takes the whole session."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« That » désigne la demande de finir la classe une demi-heure plus tôt. Keiko répond que ce serait difficile, et elle explique juste après : le test d'écoute prend toute la séance.",
+              "distractors": {
+                "A": "Elle ne parle pas du nombre d'inscrits : « that » renvoie à la demande qui vient d'être faite.",
+                "B": "Elle refuse plutôt de réduire son cours ; elle ne propose pas de temps supplémentaire.",
+                "D": "Elle ne demande rien de plus : elle explique pourquoi raccourcir est difficile."
+              },
+              "trap": "Une courte réplique se comprend par ce qu'elle reprend (« that ») : relis le message précédent et le suivant."
+            },
+            "en": {
+              "rule": "\"That\" refers to the request to end the class half an hour early. Keiko answers that it would be difficult, and she explains right after: the listening test takes the whole session.",
+              "distractors": {
+                "A": "She does not talk about the number of students: \"that\" refers to the request just made.",
+                "B": "She is declining to shorten her class; she does not offer extra time.",
+                "D": "She is not asking for more time: she explains why shortening the class is difficult."
+              },
+              "trap": "A short reply is understood through what it points back to (\"that\"): reread the message before it and the one after it."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-9002",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "notice",
+          "title": "Norland & Pike Relocation",
+          "text": "NOTICE TO CUSTOMERS\n\nChanges to our booking policy, effective March 1\n\nBeginning March 1, customers who need to change the date of a booked move are asked to give us advance notice. Changes requested at least 72 hours before the scheduled start are free. Requests made later than that carry a rescheduling fee of $45, because the crew and truck assigned to a move can rarely be given to another customer on short notice.\n\nUntil now, we allowed date changes at any time without charge. We are introducing this policy because late changes have caused delays for other customers, particularly at the end of each month, when demand is highest.\n\nThe policy applies to every move booked for March 1 or later. To change a date, call our scheduling office at 555-0148 on weekdays between 8:00 A.M. and 5:00 P.M., or use the Manage My Move page on our Web site. Packing supplies ordered with a move are not affected by this notice and may still be returned unopened within 10 days for a full refund.\n\nNorland & Pike Relocation"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-9002-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 2,
+          "stem": "What is the purpose of the notice?",
+          "options": [
+            "To announce higher prices for packing supplies",
+            "To explain a new rule for rescheduling moves",
+            "To apologize for recent late arrivals",
+            "To advertise discounts for end-of-month moves"
+          ],
+          "answer": "B",
+          "evidence": [
+            "Changes to our booking policy, effective March 1",
+            "Changes requested at least 72 hours before the scheduled start are free."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le titre annonce un changement de règle de réservation, et le premier paragraphe détaille les conditions pour modifier la date d'un déménagement : c'est une nouvelle règle de report.",
+              "distractors": {
+                "A": "Les fournitures d'emballage sont citées uniquement pour dire qu'elles « are not affected » ; aucun prix ne change.",
+                "C": "Les retards sont évoqués comme raison de la règle, mais l'avis ne contient aucune excuse.",
+                "D": "« End of each month » est cité comme la période de forte demande, pas comme une période de promotions."
+              },
+              "trap": "Pour une question de but, regarde le titre : ici « Changes to our booking policy ». Les détails annexes servent de distracteurs."
+            },
+            "en": {
+              "rule": "The heading announces a change to the booking policy, and the first paragraph gives the conditions for changing a move date: it is a new rescheduling rule.",
+              "distractors": {
+                "A": "Packing supplies are mentioned only to say they \"are not affected\"; no price changes.",
+                "C": "Delays are given as a reason for the rule, but the notice contains no apology.",
+                "D": "\"End of each month\" is named as the busiest period, not as a time for discounts."
+              },
+              "trap": "For a purpose question, look at the heading: here \"Changes to our booking policy\". Side details are used as distractors."
+            }
+          }
+        },
+        {
+          "id": "p7-9002-2",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 2,
+          "stem": "According to the notice, what will happen if a customer asks to change a moving date two days in advance?",
+          "options": [
+            "The request will be refused.",
+            "The change will be made at no cost.",
+            "The customer will be charged a fee.",
+            "The customer will be given a different crew."
+          ],
+          "answer": "C",
+          "evidence": [
+            "Changes requested at least 72 hours before the scheduled start are free.",
+            "Requests made later than that carry a rescheduling fee of $45"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "72 heures font trois jours. Une demande faite deux jours (48 heures) à l'avance est donc « later than that », et elle entraîne des frais de 45 $.",
+              "distractors": {
+                "A": "Le texte ne parle d'aucun refus : les demandes tardives sont acceptées, avec des frais.",
+                "B": "Le changement n'est gratuit que s'il est demandé au moins 72 heures à l'avance, ce qui n'est pas le cas ici.",
+                "D": "Le texte dit seulement que l'équipe et le camion ne peuvent pas être réaffectés facilement ; il ne promet pas une autre équipe."
+              },
+              "trap": "Convertis les délais dans la même unité (72 heures = 3 jours) avant de comparer avec la situation de la question."
+            },
+            "en": {
+              "rule": "72 hours is three days. A request made two days (48 hours) ahead is therefore \"later than that\", and it carries a $45 fee.",
+              "distractors": {
+                "A": "The text mentions no refusal: late requests are accepted, with a fee.",
+                "B": "A change is free only if requested at least 72 hours ahead, which is not the case here.",
+                "D": "The text only says the crew and truck can rarely be reassigned; it does not promise a different crew."
+              },
+              "trap": "Convert deadlines into the same unit (72 hours = 3 days) before comparing them with the situation in the question."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-9003",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "email",
+          "text": "To: All Store Managers, Eastern Region\nFrom: Ilvana Ferrant, Regional Operations\nDate: April 14\nSubject: New produce delivery schedule\n\nDear managers,\n\nStarting Monday, May 5, fresh produce will arrive at your stores on Tuesdays, Thursdays, and Saturdays instead of Mondays and Fridays. [1] The change comes from our new distribution center in Brandvik, which can load trucks more quickly than our old warehouse. [2] Because the trucks will leave Brandvik before dawn, deliveries will reach most stores by 6:30 A.M. [3]\n\nTo prepare, please review your staffing plans so that at least two employees are available to receive and check each delivery. Stores that cannot accept a delivery before 7:00 A.M. should tell me by April 25. [4]\n\nThank you for your cooperation.\n\nIlvana Ferrant\nFennick Fresh Markets"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-9003-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 2,
+          "stem": "Why did Ms. Ferrant send the e-mail?",
+          "options": [
+            "To announce a new delivery schedule",
+            "To ask managers to hire more staff",
+            "To report a problem at the old warehouse",
+            "To request a list of products to order"
+          ],
+          "answer": "A",
+          "evidence": [
+            "fresh produce will arrive at your stores on Tuesdays, Thursdays, and Saturdays instead of Mondays and Fridays",
+            "Subject: New produce delivery schedule"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "L'objet et la première phrase annoncent les nouveaux jours de livraison des produits frais : l'e-mail annonce un nouveau calendrier de livraison.",
+              "distractors": {
+                "B": "Elle demande de vérifier les plannings, pas d'embaucher : « review your staffing plans ».",
+                "C": "L'ancien entrepôt est cité seulement pour dire que le nouveau centre charge plus vite ; aucun problème n'est signalé.",
+                "D": "Aucune liste de produits n'est demandée : seule une information sur l'heure de réception est attendue, et seulement de certains magasins."
+              },
+              "trap": "Objet de l'e-mail + première phrase : c'est là que se trouve presque toujours le but."
+            },
+            "en": {
+              "rule": "The subject line and the first sentence announce the new delivery days for fresh produce: the e-mail announces a new delivery schedule.",
+              "distractors": {
+                "B": "She asks managers to review staffing plans, not to hire: \"review your staffing plans\".",
+                "C": "The old warehouse is mentioned only to say the new center loads faster; no problem is reported.",
+                "D": "No product list is requested: only information about receiving times is expected, and only from some stores."
+              },
+              "trap": "Subject line + first sentence: this is almost always where the purpose is."
+            }
+          }
+        },
+        {
+          "id": "p7-9003-2",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 1,
+          "stem": "What is suggested about the stores' produce deliveries before May 5?",
+          "options": [
+            "They arrived twice a week.",
+            "They arrived before 6:30 A.M.",
+            "They came from the Brandvik center.",
+            "They were checked by Ms. Ferrant."
+          ],
+          "answer": "A",
+          "evidence": [
+            "fresh produce will arrive at your stores on Tuesdays, Thursdays, and Saturdays instead of Mondays and Fridays"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Les nouveaux jours (mardi, jeudi, samedi) remplacent « Mondays and Fridays » : avant le 5 mai, les magasins recevaient donc leurs produits frais deux fois par semaine.",
+              "distractors": {
+                "B": "6 h 30 est l'heure prévue pour le nouveau système ; l'ancien horaire n'est pas donné.",
+                "C": "Le centre de Brandvik est nouveau : c'est lui qui provoque le changement.",
+                "D": "Ce sont les employés des magasins qui reçoivent et vérifient les livraisons, pas Mme Ferrant."
+              },
+              "trap": "Une inférence « avant / après » se lit dans ce que le texte remplace : « instead of » décrit l'ancienne situation."
+            },
+            "en": {
+              "rule": "The new days (Tuesday, Thursday, Saturday) replace \"Mondays and Fridays\": before May 5, stores therefore received fresh produce twice a week.",
+              "distractors": {
+                "B": "6:30 A.M. is the time planned under the new system; the old time is not given.",
+                "C": "The Brandvik center is new: it is the reason for the change.",
+                "D": "Store employees receive and check deliveries, not Ms. Ferrant."
+              },
+              "trap": "A \"before / after\" inference is found in what the text replaces: \"instead of\" describes the old situation."
+            }
+          }
+        },
+        {
+          "id": "p7-9003-3",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 2,
+          "stem": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"Please explain the reason for the restriction when you write to me.\"",
+          "options": [
+            "[1]",
+            "[2]",
+            "[3]",
+            "[4]"
+          ],
+          "answer": "D",
+          "evidence": [
+            "Stores that cannot accept a delivery before 7:00 A.M. should tell me by April 25."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "La phrase parle d'une « restriction » et d'un message (« when you write to me »). Elle ne peut suivre que la demande faite aux magasins qui ne peuvent pas recevoir avant 7 h : « should tell me by April 25 ».",
+              "distractors": {
+                "A": "En [1], on vient d'annoncer les nouveaux jours ; aucun message ni restriction n'a été évoqué.",
+                "B": "En [2], on explique la raison du changement ; il n'est pas encore question de restriction.",
+                "C": "En [3], on parle de l'arrivée des camions à 6 h 30 ; la demande aux magasins arrive seulement dans le paragraphe suivant."
+              },
+              "trap": "Dans une insertion, cherche les mots qui renvoient à autre chose (« the restriction », « you write to me ») et place la phrase juste après ce à quoi ils renvoient."
+            },
+            "en": {
+              "rule": "The sentence mentions a \"restriction\" and a message (\"when you write to me\"). It can only follow the request made to stores that cannot receive deliveries before 7:00 A.M.: \"should tell me by April 25\".",
+              "distractors": {
+                "A": "At [1], the new days have just been announced; no message or restriction has been mentioned.",
+                "B": "At [2], the reason for the change is explained; no restriction has come up yet.",
+                "C": "At [3], the text is about the trucks arriving at 6:30; the request to stores only comes in the next paragraph."
+              },
+              "trap": "In an insertion question, look for words that point elsewhere (\"the restriction\", \"you write to me\") and place the sentence right after what they refer to."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-9004",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "advertisement",
+          "text": "Corvale Road Business Travel\n\nBusiness travel, handled.\n\nYour employees should be closing deals, not searching for flights. Our advisors take care of every detail of your company's trips, so you can focus on your work.\n\n* A real person answers our phone line 24 hours a day, every day of the year.\n* You receive one combined invoice each month, however many people travel.\n* If a lower fare for your flight appears before departure, we rebook you at no charge.\n* Employees never pay out of pocket, because we settle every hotel and rental-car charge directly with the supplier.\n\nThere is no setup fee for companies with fewer than ten regular travelers.\n\nBook your first three trips with us before June 30, and we will review your company's past twelve months of travel spending at no charge. Call 555-0193 or visit www.corvaleroad.example to meet your advisor."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-9004-1",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 2,
+          "stem": "What is offered to companies that make three bookings before June 30?",
+          "options": [
+            "A discount on hotel rates",
+            "A lower monthly service fee",
+            "A free review of earlier travel costs",
+            "A personal advisor for each employee"
+          ],
+          "answer": "C",
+          "evidence": [
+            "Book your first three trips with us before June 30, and we will review your company's past twelve months of travel spending at no charge."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Pour trois premiers voyages réservés avant le 30 juin, l'agence propose d'examiner gratuitement les dépenses de voyage des douze derniers mois, soit une analyse gratuite des frais passés.",
+              "distractors": {
+                "A": "Aucune remise sur les hôtels n'est liée à cette offre.",
+                "B": "Les frais mensuels ne sont pas mentionnés ; seule l'absence de frais d'installation pour les petites entreprises l'est.",
+                "D": "Les employés rencontrent « your advisor » (au singulier) ; il n'y a pas un conseiller par employé."
+              },
+              "trap": "Repère le chiffre et la date de la question (« three », « June 30 ») : la réponse est dans la même phrase, reformulée (« past twelve months » devient « earlier »)."
+            },
+            "en": {
+              "rule": "For the first three trips booked before June 30, the agency offers to review the past twelve months of travel spending at no charge, that is, a free review of earlier costs.",
+              "distractors": {
+                "A": "No hotel discount is tied to this offer.",
+                "B": "Monthly fees are not mentioned; only the absence of a setup fee for small companies is.",
+                "D": "Employees meet \"your advisor\" (singular); there is not one advisor per employee."
+              },
+              "trap": "Find the number and date from the question (\"three\", \"June 30\"): the answer is in the same sentence, reworded (\"past twelve months\" becomes \"earlier\")."
+            }
+          }
+        },
+        {
+          "id": "p7-9004-2",
+          "tags": [
+            "not-true"
+          ],
+          "difficulty": 2,
+          "stem": "What is NOT mentioned as a service of Corvale Road?",
+          "options": [
+            "Airport transportation by company drivers",
+            "Round-the-clock telephone support",
+            "A single monthly invoice",
+            "Rebooking when a cheaper fare appears"
+          ],
+          "answer": "A",
+          "evidence": [
+            "A real person answers our phone line 24 hours a day, every day of the year.",
+            "You receive one combined invoice each month, however many people travel.",
+            "If a lower fare for your flight appears before departure, we rebook you at no charge."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Trois services sont cités : une ligne téléphonique 24 h sur 24, une facture mensuelle unique et le changement de réservation quand un tarif plus bas apparaît. Le transport depuis l'aéroport n'est jamais mentionné.",
+              "distractors": {
+                "B": "Mentionné : « A real person answers our phone line 24 hours a day ».",
+                "C": "Mentionné : « one combined invoice each month ».",
+                "D": "Mentionné : « we rebook you at no charge » si un tarif plus bas apparaît."
+              },
+              "trap": "Question « NOT » : retrouve chaque option dans le texte une par une ; celle que tu ne peux pas citer est la réponse."
+            },
+            "en": {
+              "rule": "Three services are listed: a 24-hour phone line, one monthly invoice, and rebooking when a lower fare appears. Airport transportation is never mentioned.",
+              "distractors": {
+                "B": "Mentioned: \"A real person answers our phone line 24 hours a day\".",
+                "C": "Mentioned: \"one combined invoice each month\".",
+                "D": "Mentioned: \"we rebook you at no charge\" if a lower fare appears."
+              },
+              "trap": "For a \"NOT\" question, find each option in the text one by one; the one you cannot quote is the answer."
+            }
+          }
+        },
+        {
+          "id": "p7-9004-3",
+          "tags": [
+            "synonym-in-context"
+          ],
+          "difficulty": 3,
+          "stem": "In the advertisement, the word \"settle\" in the fourth bullet point is closest in meaning to",
+          "options": [
+            "decide",
+            "calm",
+            "pay",
+            "relocate"
+          ],
+          "answer": "C",
+          "evidence": [
+            "we settle every hotel and rental-car charge directly with the supplier"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Les employés ne paient pas de leur poche : l'agence règle (« settle ») chaque frais d'hôtel et de location de voiture auprès du fournisseur. Ici « settle » signifie donc « pay ».",
+              "distractors": {
+                "A": "« decide » correspond à « settle on a date », mais on ne décide pas d'un frais auprès d'un fournisseur.",
+                "B": "« calm » correspond à « settle down », sans rapport avec des frais.",
+                "D": "« relocate » correspond à « settle in a new city », pas à un paiement."
+              },
+              "trap": "Remplace le mot par chaque option DANS la phrase ; le contexte (ici « charge », « supplier ») écarte les autres sens."
+            },
+            "en": {
+              "rule": "Employees do not pay out of pocket: the agency settles each hotel and rental-car charge with the supplier. Here \"settle\" means \"pay\".",
+              "distractors": {
+                "A": "\"decide\" matches \"settle on a date\", but you do not decide a charge with a supplier.",
+                "B": "\"calm\" matches \"settle down\", which has nothing to do with charges.",
+                "D": "\"relocate\" matches \"settle in a new city\", not a payment."
+              },
+              "trap": "Put each option back INTO the sentence; the context (here \"charge\", \"supplier\") rules out the other meanings."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-9005",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "webpage",
+          "text": "Pinegrove Commercial Cleaning\nCleaning plans for offices and shops\n\nEvery Pinegrove plan includes trash removal, restroom cleaning, and vacuuming of all floors. Our crews bring their own supplies and equipment, and they work after your business hours so that your staff and customers are never disturbed.\n\nEssential: Three visits per week. Carpets are shampooed twice a year.\n\nComplete: Five visits per week. Carpets are shampooed every three months, and interior windows are washed monthly.\n\nPremier: Daily visits, including weekends. Carpets are shampooed monthly, interior and exterior windows are washed monthly, and a supervisor inspects your premises every week.\n\nAll plans start with a free walk-through of your space. To request one, fill out the form on this page or call 555-0126. Most estimates are sent within one business day."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-9005-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 1,
+          "stem": "What is the purpose of the Web page?",
+          "options": [
+            "To announce a new office location",
+            "To recruit cleaning employees",
+            "To describe cleaning plans for businesses",
+            "To explain how to shampoo a carpet"
+          ],
+          "answer": "C",
+          "evidence": [
+            "Cleaning plans for offices and shops",
+            "Every Pinegrove plan includes trash removal, restroom cleaning, and vacuuming of all floors."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le sous-titre « Cleaning plans for offices and shops » puis la description des trois formules montrent que la page présente des offres de nettoyage pour entreprises.",
+              "distractors": {
+                "A": "Aucune adresse ni ouverture de bureau n'est mentionnée.",
+                "B": "La page s'adresse aux clients potentiels ; aucun poste n'est proposé.",
+                "D": "Les tapis sont cités comme un élément de chaque formule, pas comme un tutoriel."
+              },
+              "trap": "Le titre et le sous-titre d'une page web donnent presque toujours le but."
+            },
+            "en": {
+              "rule": "The subtitle \"Cleaning plans for offices and shops\" and the description of the three plans show that the page presents cleaning offers for businesses.",
+              "distractors": {
+                "A": "No address or office opening is mentioned.",
+                "B": "The page addresses potential customers; no job is offered.",
+                "D": "Carpets appear as one element of each plan, not as a how-to guide."
+              },
+              "trap": "The title and subtitle of a Web page almost always give its purpose."
+            }
+          }
+        },
+        {
+          "id": "p7-9005-2",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 3,
+          "stem": "How often are carpets shampooed under the plan that includes monthly window washing but no weekly supervisor inspection?",
+          "options": [
+            "Once a month",
+            "Every three months",
+            "Twice a year",
+            "Every week"
+          ],
+          "answer": "B",
+          "evidence": [
+            "Complete: Five visits per week. Carpets are shampooed every three months, and interior windows are washed monthly.",
+            "Premier: Daily visits, including weekends. Carpets are shampooed monthly"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le lavage mensuel des vitres figure dans les formules Complete et Premier ; seule Premier ajoute l'inspection hebdomadaire d'un superviseur. La formule cherchée est donc Complete : tapis shampouinés tous les trois mois.",
+              "distractors": {
+                "A": "Un shampouinage mensuel correspond à Premier, qui comprend l'inspection hebdomadaire.",
+                "C": "Deux fois par an correspond à Essential, qui n'inclut pas le lavage des vitres.",
+                "D": "Aucune formule ne prévoit un shampouinage chaque semaine."
+              },
+              "trap": "Une question à deux critères : élimine d'abord les formules qui ne respectent pas l'un des critères, puis lis la donnée demandée dans celle qui reste."
+            },
+            "en": {
+              "rule": "Monthly window washing is in both Complete and Premier; only Premier adds a weekly supervisor inspection. The plan in question is therefore Complete: carpets shampooed every three months.",
+              "distractors": {
+                "A": "Monthly shampooing belongs to Premier, which includes the weekly inspection.",
+                "C": "Twice a year belongs to Essential, which does not include window washing.",
+                "D": "No plan shampoos carpets every week."
+              },
+              "trap": "With a two-criteria question, first eliminate plans that fail one criterion, then read the requested detail in the remaining plan."
+            }
+          }
+        },
+        {
+          "id": "p7-9005-3",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 1,
+          "stem": "What is suggested about customers of Pinegrove?",
+          "options": [
+            "They must buy their own cleaning products.",
+            "They receive visits only on weekends.",
+            "They are all large office buildings.",
+            "They do not need to supply cleaning equipment."
+          ],
+          "answer": "D",
+          "evidence": [
+            "Our crews bring their own supplies and equipment"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Les équipes apportent leur matériel et leurs produits : les clients n'ont donc pas à fournir de matériel de nettoyage.",
+              "distractors": {
+                "A": "C'est l'inverse : les équipes apportent leurs propres fournitures.",
+                "B": "Les visites de week-end n'existent que dans la formule Premier ; les autres ont trois ou cinq visites par semaine.",
+                "C": "La page s'adresse aux bureaux et aux commerces (« offices and shops »), pas seulement aux grands immeubles."
+              },
+              "trap": "Une inférence simple se déduit d'UNE phrase : « they bring their own » implique « you do not provide »."
+            },
+            "en": {
+              "rule": "The crews bring their own supplies and equipment: customers therefore do not need to supply cleaning equipment.",
+              "distractors": {
+                "A": "It is the opposite: the crews bring their own supplies.",
+                "B": "Weekend visits exist only in the Premier plan; the others have three or five visits a week.",
+                "C": "The page addresses offices and shops, not only large office buildings."
+              },
+              "trap": "A simple inference follows from ONE sentence: \"they bring their own\" implies \"you do not provide\"."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-9006",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "article",
+          "text": "Harlan Basin Power to Test Evening Discounts\n\nHarlan Basin Power, which supplies electricity to about 80,000 homes and businesses in the Harlan Basin region, will begin a six-month pricing trial on September 1, the company announced on Tuesday. [1] The trial is open to 2,000 customers who already have a smart meter installed.\n\nUnder the trial, electricity used between 9:00 P.M. and 6:00 A.M. will cost 30 percent less than the standard rate. [2] Rates during the day and early evening will stay the same. Company spokesperson Anneli Kjellberg said demand is highest on weekday evenings, when families cook dinner and run appliances at the same time. [3] \"If even a small share of customers move some of their use to the night, we can keep the grid steadier and avoid the highest-cost power,\" she said.\n\nParticipants will receive a free in-home display showing their hourly use. Customers who draw most of their power at night, such as those who charge electric vehicles or run dishwashers on timers, could see the biggest savings. [4]\n\nResults will be reviewed in March, and the company will decide then whether to offer the rates to all customers. Applications are available at www.harlanbasin.example and close on August 15."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-9006-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 3,
+          "stem": "What is the article mainly about?",
+          "options": [
+            "A plan to expand the company's generating capacity",
+            "A test of rates meant to change when customers use power",
+            "The installation of smart meters across a region",
+            "An increase in prices for evening electricity use"
+          ],
+          "answer": "B",
+          "evidence": [
+            "will begin a six-month pricing trial on September 1",
+            "electricity used between 9:00 P.M. and 6:00 A.M. will cost 30 percent less than the standard rate."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "L'article présente un essai de six mois de tarifs réduits la nuit, avec l'idée d'encourager les clients à déplacer une partie de leur consommation vers la nuit. C'est donc un test de tarifs pour changer les moments d'utilisation.",
+              "distractors": {
+                "A": "Le texte ne parle pas d'agrandir la capacité de production ; il évoque seulement une meilleure gestion du réseau.",
+                "C": "Les compteurs intelligents sont une condition de participation, pas le sujet : aucune installation n'est annoncée.",
+                "D": "Les tarifs de jour et de début de soirée restent les mêmes ; seule la nuit devient moins chère."
+              },
+              "trap": "Pour l'idée générale, ne retiens pas un détail (compteur, réseau) : choisis l'option qui résume le premier paragraphe ET la suite."
+            },
+            "en": {
+              "rule": "The article presents a six-month trial of lower night rates, with the idea of encouraging customers to move part of their use to nighttime. It is therefore a test of rates meant to change when customers use power.",
+              "distractors": {
+                "A": "The text does not mention expanding generating capacity; it only talks about steadier grid management.",
+                "C": "Smart meters are a condition for joining, not the subject: no installation is announced.",
+                "D": "Daytime and early-evening rates stay the same; only the night becomes cheaper."
+              },
+              "trap": "For the main idea, do not pick a detail (meter, grid): choose the option that sums up the first paragraph AND what follows."
+            }
+          }
+        },
+        {
+          "id": "p7-9006-2",
+          "tags": [
+            "synonym-in-context"
+          ],
+          "difficulty": 3,
+          "stem": "In the article, the word \"draw\" in the third paragraph is closest in meaning to",
+          "options": [
+            "sketch",
+            "attract",
+            "extend",
+            "consume"
+          ],
+          "answer": "D",
+          "evidence": [
+            "Customers who draw most of their power at night"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Il s'agit de clients qui prélèvent la plus grande partie de leur électricité la nuit : « draw » signifie ici « consume », utiliser.",
+              "distractors": {
+                "A": "« sketch » est le sens « dessiner », sans rapport avec l'électricité.",
+                "B": "« attract » est le sens « attirer » : les clients ne sont pas les sujets qui attirent de l'électricité.",
+                "C": "« extend » correspond à « draw out » (prolonger), pas à l'usage d'énergie."
+              },
+              "trap": "Quand un verbe courant a plusieurs sens, regarde son complément : « draw power » veut dire utiliser de l'énergie."
+            },
+            "en": {
+              "rule": "These are customers who take most of their electricity at night: \"draw\" means \"consume\" (use) here.",
+              "distractors": {
+                "A": "\"sketch\" is the \"draw a picture\" meaning, unrelated to electricity.",
+                "B": "\"attract\" is the \"draw people in\" meaning: customers are not attracting electricity.",
+                "C": "\"extend\" matches \"draw out\" (make longer), not using energy."
+              },
+              "trap": "When a common verb has several meanings, look at its object: \"draw power\" means use energy."
+            }
+          }
+        },
+        {
+          "id": "p7-9006-3",
+          "tags": [
+            "not-true"
+          ],
+          "difficulty": 1,
+          "stem": "What is NOT indicated about the trial?",
+          "options": [
+            "It will last six months.",
+            "It is limited to 2,000 customers.",
+            "Participants must already have a smart meter.",
+            "Participants will pay a fee to join."
+          ],
+          "answer": "D",
+          "evidence": [
+            "will begin a six-month pricing trial on September 1",
+            "The trial is open to 2,000 customers who already have a smart meter installed."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Les trois premières options figurent dans le premier paragraphe : six mois, 2 000 clients, compteur intelligent déjà installé. Aucun droit d'entrée n'est mentionné ; au contraire, un afficheur est offert.",
+              "distractors": {
+                "A": "Indiqué : « a six-month pricing trial ».",
+                "B": "Indiqué : « open to 2,000 customers ».",
+                "C": "Indiqué : « who already have a smart meter installed »."
+              },
+              "trap": "Question « NOT » : trois options sont écrites, une ne l'est pas. Barre celles que tu retrouves dans le texte."
+            },
+            "en": {
+              "rule": "The first three options appear in the first paragraph: six months, 2,000 customers, a smart meter already installed. No joining fee is mentioned; on the contrary, a display is given free.",
+              "distractors": {
+                "A": "Indicated: \"a six-month pricing trial\".",
+                "B": "Indicated: \"open to 2,000 customers\".",
+                "C": "Indicated: \"who already have a smart meter installed\"."
+              },
+              "trap": "For a \"NOT\" question, three options are written in the text and one is not. Cross out the ones you can find."
+            }
+          }
+        },
+        {
+          "id": "p7-9006-4",
+          "tags": [
+            "sentence-insertion"
+          ],
+          "difficulty": 2,
+          "stem": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"That surge forces the company to buy extra power from outside suppliers at high prices.\"",
+          "options": [
+            "[1]",
+            "[2]",
+            "[3]",
+            "[4]"
+          ],
+          "answer": "C",
+          "evidence": [
+            "demand is highest on weekday evenings, when families cook dinner and run appliances at the same time."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "« That surge » renvoie à la pointe de demande décrite juste avant : les soirées de semaine, quand les familles cuisinent et utilisent leurs appareils en même temps. La phrase explique ensuite la citation de la porte-parole sur le réseau et l'électricité coûteuse.",
+              "distractors": {
+                "A": "En [1], on annonce l'essai ; aucune hausse de demande n'a encore été mentionnée.",
+                "B": "En [2], on vient de parler d'une réduction de 30 % la nuit ; « that surge » n'aurait pas de référent.",
+                "D": "En [4], on parle des économies des clients qui consomment la nuit ; la pointe du soir n'est plus le sujet."
+              },
+              "trap": "« That / this + nom » (ici « that surge ») doit suivre immédiatement l'idée qu'il reprend."
+            },
+            "en": {
+              "rule": "\"That surge\" refers to the demand peak described just before: weekday evenings, when families cook and use appliances at the same time. The sentence then leads into the spokesperson's quote about the grid and costly power.",
+              "distractors": {
+                "A": "At [1], the trial is announced; no rise in demand has been mentioned yet.",
+                "B": "At [2], a 30 percent night discount has just been described; \"that surge\" would have no referent.",
+                "D": "At [4], the text is about savings for night-time users; the evening peak is no longer the topic."
+              },
+              "trap": "\"That / this + noun\" (here \"that surge\") must immediately follow the idea it refers to."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-9007",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "job-posting",
+          "title": "Norrland Cycleworks - Job Opening",
+          "text": "Position: Quality Assurance Technician\nLocation: Tamsworth\n\nNorrland Cycleworks builds electric and traditional bicycles for commuters in more than twenty countries. We are expanding our second shift at our plant in Tamsworth and are looking for a technician to inspect frames and finished bicycles before they ship.\n\nResponsibilities: Test the brakes, gears, and wheels of every bicycle on the line; record defects in our tracking system; and work with the welding team to find the cause of repeated problems.\n\nRequirements: Two years of experience in manufacturing or bicycle repair; ability to lift 20 kilograms; and a willingness to work from 2:00 P.M. to 10:30 P.M. Experience with electric motors is an advantage but not required.\n\nPay: $24 per hour. Benefits begin after 60 days.\n\nTo apply, send a resume and a short letter to Oksana Pereira, Human Resources, by March 14."
+        },
+        {
+          "genre": "email",
+          "text": "To: Oksana Pereira, Human Resources, Norrland Cycleworks\nFrom: Daniel Achterfeld\nDate: March 10\nSubject: Quality Assurance Technician\n\nDear Ms. Pereira,\n\nI am writing to apply for the quality assurance position. For six years I have repaired and tested bicycles at a shop in Harrow Point, where I also trained two new mechanics. I have not worked with electric motors, but I completed a course in battery safety last year. My resume is attached.\n\nI have two points to raise. First, my current job ends on March 31, so I could start the evening shift only after April 1. Would that date be acceptable? Second, an old shoulder injury means I cannot lift more than 15 kilograms. I hope this will not prevent you from considering me.\n\nSincerely,\nDaniel Achterfeld"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-9007-1",
+          "tags": [
+            "main-idea"
+          ],
+          "difficulty": 2,
+          "stem": "Why did Mr. Achterfeld write to Ms. Pereira?",
+          "options": [
+            "To recommend a colleague for the position",
+            "To apply for a job and ask about his start date",
+            "To complain about a delay in hiring",
+            "To withdraw an earlier application"
+          ],
+          "answer": "B",
+          "evidence": [
+            "I am writing to apply for the quality assurance position.",
+            "I could start the evening shift only after April 1."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le premier paragraphe dit « I am writing to apply for the quality assurance position », et le second demande si un début après le 1er avril est acceptable (« Would that date be acceptable? »). Il postule donc et pose une question sur sa date de début.",
+              "distractors": {
+                "A": "Il parle de lui-même et de sa propre expérience, pas d'un collègue.",
+                "C": "Il ne se plaint de rien et ne mentionne aucun retard de recrutement.",
+                "D": "Il envoie une candidature ; il n'en retire aucune."
+              },
+              "trap": "Pour une question de but, combine l'ouverture du message (« I am writing to... ») et la demande finale : l'option juste reprend les deux."
+            },
+            "en": {
+              "rule": "The first paragraph says \"I am writing to apply for the quality assurance position\", and the second asks whether starting after April 1 is acceptable (\"Would that date be acceptable?\"). He is applying and asking about his start date.",
+              "distractors": {
+                "A": "He writes about himself and his own experience, not about a colleague.",
+                "C": "He does not complain about anything or mention a hiring delay.",
+                "D": "He is sending an application; he does not withdraw one."
+              },
+              "trap": "For a purpose question, combine the opening of the message (\"I am writing to...\") with its closing request: the right option covers both."
+            }
+          }
+        },
+        {
+          "id": "p7-9007-2",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 2,
+          "stem": "According to the job posting, what is an advantage for applicants?",
+          "options": [
+            "Having worked with electric motors",
+            "Knowing how to weld frames",
+            "Living near the plant",
+            "Speaking several languages"
+          ],
+          "answer": "A",
+          "evidence": [
+            "Experience with electric motors is an advantage but not required."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "L'annonce dit « Experience with electric motors is an advantage but not required ». « Having worked with electric motors » reformule « Experience with electric motors ».",
+              "distractors": {
+                "B": "L'équipe de soudure est citée, mais aucune compétence en soudure n'est demandée ni présentée comme un atout.",
+                "C": "Aucun lieu de résidence n'est mentionné dans l'annonce.",
+                "D": "Les langues ne sont mentionnées nulle part dans les exigences."
+              },
+              "trap": "Un « atout » (advantage) est souvent séparé des exigences obligatoires : cherche la phrase qui contient « advantage »."
+            },
+            "en": {
+              "rule": "The posting says \"Experience with electric motors is an advantage but not required\". \"Having worked with electric motors\" paraphrases \"Experience with electric motors\".",
+              "distractors": {
+                "B": "The welding team is mentioned, but no welding skill is required or called an advantage.",
+                "C": "No place of residence is mentioned in the posting.",
+                "D": "Languages are not mentioned anywhere in the requirements."
+              },
+              "trap": "An \"advantage\" is often kept apart from the mandatory requirements: look for the sentence that contains \"advantage\"."
+            }
+          }
+        },
+        {
+          "id": "p7-9007-3",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 1,
+          "stem": "Which requirement in the job posting does Mr. Achterfeld say he may not meet?",
+          "options": [
+            "Ability to lift 20 kilograms",
+            "Two years of work experience",
+            "Willingness to work evenings",
+            "Experience with electric motors"
+          ],
+          "answer": "A",
+          "evidence": [
+            "ability to lift 20 kilograms",
+            "I cannot lift more than 15 kilograms."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "L'annonce exige « ability to lift 20 kilograms », alors que M. Achterfeld écrit « I cannot lift more than 15 kilograms ». Il ne remplit donc pas cette exigence.",
+              "distractors": {
+                "B": "Il a six ans d'expérience, alors que l'annonce en demande deux.",
+                "C": "Il propose de commencer le poste de soirée après le 1er avril : il accepte les horaires.",
+                "D": "Il avoue ne pas avoir cette expérience, mais l'annonce la présente comme un atout, pas comme une exigence."
+              },
+              "trap": "Compare chaque exigence de l'annonce à ce que dit le candidat, et vérifie si l'élément est une exigence ou seulement un atout."
+            },
+            "en": {
+              "rule": "The posting requires \"ability to lift 20 kilograms\", but Mr. Achterfeld writes \"I cannot lift more than 15 kilograms\". He therefore does not meet that requirement.",
+              "distractors": {
+                "B": "He has six years of experience, while the posting asks for two.",
+                "C": "He offers to start the evening shift after April 1, so he accepts the hours.",
+                "D": "He admits he lacks this experience, but the posting calls it an advantage, not a requirement."
+              },
+              "trap": "Compare each requirement in the posting with what the applicant says, and check whether an item is a requirement or only an advantage."
+            }
+          }
+        },
+        {
+          "id": "p7-9007-4",
+          "tags": [
+            "synonym-in-context"
+          ],
+          "difficulty": 1,
+          "stem": "The word \"plant\" in the first paragraph of the job posting is closest in meaning to",
+          "options": [
+            "shrub",
+            "factory",
+            "seed",
+            "office"
+          ],
+          "answer": "B",
+          "evidence": [
+            "We are expanding our second shift at our plant in Tamsworth and are looking for a technician to inspect frames and finished bicycles before they ship."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Dans la phrase, « plant » désigne le site où l'on fabrique et inspecte des vélos avant expédition : une usine, « factory ».",
+              "distractors": {
+                "A": "« shrub » est un sens botanique de « plant » ; une équipe de nuit n'y inspecte pas de vélos.",
+                "C": "« seed » renvoie aussi à la botanique et ne désigne pas un lieu de travail.",
+                "D": "« office » est un lieu de travail, mais l'entreprise fabrique et expédie des vélos : le contexte parle d'un site de production."
+              },
+              "trap": "Pour un mot à plusieurs sens, élimine les sens qui ne vont pas avec le secteur du texte (ici la fabrication)."
+            },
+            "en": {
+              "rule": "In the sentence, \"plant\" is the site where bicycles are built and inspected before shipping: a factory.",
+              "distractors": {
+                "A": "\"shrub\" is a botanical sense of \"plant\"; a work shift does not inspect bicycles there.",
+                "C": "\"seed\" is also botanical and is not a workplace.",
+                "D": "\"office\" is a workplace, but the company builds and ships bicycles: the context describes a production site."
+              },
+              "trap": "For a word with several meanings, remove the senses that do not fit the text's field (here, manufacturing)."
+            }
+          }
+        },
+        {
+          "id": "p7-9007-5",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 1,
+          "stem": "What is indicated about Mr. Achterfeld's application?",
+          "options": [
+            "It was sent before the closing date.",
+            "It was sent to the wrong department.",
+            "It included a letter from a past employer.",
+            "It arrived after the deadline."
+          ],
+          "answer": "A",
+          "evidence": [
+            "by March 14",
+            "Date: March 10"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "L'annonce fixe la date limite au 14 mars (« by March 14 ») et l'e-mail est daté du 10 mars (« Date: March 10 »). Sa candidature est donc envoyée avant la date de clôture.",
+              "distractors": {
+                "B": "L'annonce demande d'écrire à Ms. Pereira aux Ressources humaines : c'est bien elle qu'il contacte.",
+                "C": "Il joint son CV ; aucune lettre d'un ancien employeur n'est citée.",
+                "D": "Le 10 mars est antérieur au 14 mars : il n'est pas en retard."
+              },
+              "trap": "Pour savoir si un délai est respecté, rapproche la date d'envoi du message et la date limite donnée dans l'autre document."
+            },
+            "en": {
+              "rule": "The posting sets the deadline at March 14 (\"by March 14\") and the e-mail is dated March 10 (\"Date: March 10\"). The application was sent before the closing date.",
+              "distractors": {
+                "B": "The posting asks applicants to write to Ms. Pereira in Human Resources: he writes to her.",
+                "C": "He attaches a resume; no letter from a past employer is mentioned.",
+                "D": "March 10 is earlier than March 14: he is not late."
+              },
+              "trap": "To check a deadline, compare the date a message was sent with the deadline given in the other document."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7-9008",
+      "part": 7,
+      "documents": [
+        {
+          "genre": "schedule",
+          "title": "Riverbend Folk Festival - Saturday, June 21",
+          "text": "Main Stage\n12:00 P.M. - Gates open\n1:00 P.M. - The Quillen Sisters\n2:30 P.M. - Kofi Lindgren Trio\n4:00 P.M. - Sound check for evening acts (stage closed to the public)\n5:30 P.M. - Rosalind Vega Band\n7:30 P.M. - Northern Ember\n\nGarden Stage\n1:30 P.M. - Children's sing-along\n3:00 P.M. - Poetry and music with Noelle Faulkner\n4:30 P.M. - Open microphone (sign up at the information tent)\n\nEntry is free for children under 12, and food vendors will be open all day. All times may change in bad weather. Updates will be posted at the information tent."
+        },
+        {
+          "genre": "email",
+          "text": "To: Gabriel Ferrante, Tour Manager, Northern Ember\nFrom: Hanneke Vos, Production Manager, Riverbend Folk Festival\nDate: June 9\nSubject: Your Saturday set time\n\nDear Mr. Ferrante,\n\nThank you for returning the hospitality form so quickly. Unfortunately, the schedule needs to change. The weather service expects storms to reach Riverbend after 8:30 P.M. on Saturday. Your set, which lasts 90 minutes, was due to begin at 7:30 P.M., so we would like to swap Northern Ember with the Rosalind Vega Band. Its agent has already agreed.\n\nBecause of this change, your crew must arrive earlier. The stage crew can fit you in for a sound check only if you arrive by 3:30 P.M., which is an hour before the time you gave us on the form. Please confirm by June 14 that this is possible.\n\nParking passes for your two vehicles will be waiting at the main gate. The festival can provide meals for up to five people per act. Please let me know if you need anything else.\n\nSincerely,\nHanneke Vos"
+        },
+        {
+          "genre": "form",
+          "title": "Riverbend Folk Festival - Artist Hospitality Form",
+          "text": "Act name: Northern Ember\nContact: Gabriel Ferrante, Tour Manager\nPerformance date: Saturday, June 21\nPeople traveling with the act: 8 (5 musicians and 3 crew members)\nEstimated arrival: 4:30 P.M.\nVehicles: 1 tour bus and 1 equipment truck\nLodging: Booked by the act\nDietary needs: 2 vegetarian"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p7-9008-1",
+          "tags": [
+            "detail"
+          ],
+          "difficulty": 2,
+          "stem": "According to the schedule, what will happen at 4:00 P.M. on the Main Stage?",
+          "options": [
+            "A jazz group will perform.",
+            "Equipment will be tested for later acts.",
+            "Visitors will sign up for an event.",
+            "A children's activity will begin."
+          ],
+          "answer": "B",
+          "evidence": [
+            "4:00 P.M. - Sound check for evening acts (stage closed to the public)"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "À 16 h, le programme indique « Sound check for evening acts ». « Equipment will be tested for later acts » reformule cette ligne.",
+              "distractors": {
+                "A": "Le trio de jazz joue à 14 h 30, pas à 16 h.",
+                "C": "L'inscription à la scène ouverte se fait pour la Garden Stage, pas pour la Main Stage.",
+                "D": "Le chant pour enfants est à 13 h 30 sur la Garden Stage."
+              },
+              "trap": "Lis la ligne de l'heure demandée ET la bonne scène : les deux scènes ont des horaires proches."
+            },
+            "en": {
+              "rule": "At 4:00 P.M. the schedule says \"Sound check for evening acts\". \"Equipment will be tested for later acts\" paraphrases that line.",
+              "distractors": {
+                "A": "The jazz trio plays at 2:30 P.M., not 4:00 P.M.",
+                "C": "The sign-up for the open microphone is for the Garden Stage, not the Main Stage.",
+                "D": "The children's sing-along is at 1:30 P.M. on the Garden Stage."
+              },
+              "trap": "Read the line for the time asked AND the right stage: the two stages have similar times."
+            }
+          }
+        },
+        {
+          "id": "p7-9008-2",
+          "tags": [
+            "inference"
+          ],
+          "difficulty": 2,
+          "stem": "What is implied about Northern Ember's original set time?",
+          "options": [
+            "It would have ended before the storms were expected.",
+            "It would have run past the time the storms were expected.",
+            "It was shorter than the other bands' sets.",
+            "It was on the Garden Stage."
+          ],
+          "answer": "B",
+          "evidence": [
+            "Your set, which lasts 90 minutes, was due to begin at 7:30 P.M.",
+            "The weather service expects storms to reach Riverbend after 8:30 P.M."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le groupe devait commencer à 19 h 30 pour 90 minutes, donc finir vers 21 h, alors que les orages sont attendus après 20 h 30. Le concert aurait donc dépassé l'heure prévue des orages.",
+              "distractors": {
+                "A": "C'est le contraire : 19 h 30 plus 90 minutes dépasse 20 h 30.",
+                "C": "Rien ne compare la durée de ce concert à celle des autres.",
+                "D": "Le programme place Northern Ember sur la Main Stage."
+              },
+              "trap": "Pour une inférence, ajoute la durée à l'heure de début et compare avec l'autre heure donnée dans le texte."
+            },
+            "en": {
+              "rule": "The band was to start at 7:30 P.M. for 90 minutes, so it would end around 9:00 P.M., while storms are expected after 8:30 P.M. The set would have run past the storm time.",
+              "distractors": {
+                "A": "It is the opposite: 7:30 P.M. plus 90 minutes goes beyond 8:30 P.M.",
+                "C": "Nothing compares this set's length with the others.",
+                "D": "The schedule places Northern Ember on the Main Stage."
+              },
+              "trap": "For an inference, add the duration to the start time and compare it with the other time given in the text."
+            }
+          }
+        },
+        {
+          "id": "p7-9008-3",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 3,
+          "stem": "At what time will Northern Ember most likely perform?",
+          "options": [
+            "5:30 P.M.",
+            "7:30 P.M.",
+            "4:00 P.M.",
+            "8:30 P.M."
+          ],
+          "answer": "A",
+          "evidence": [
+            "5:30 P.M. - Rosalind Vega Band",
+            "we would like to swap Northern Ember with the Rosalind Vega Band"
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "L'e-mail propose d'échanger Northern Ember et le Rosalind Vega Band, et le programme place ce dernier à 17 h 30. Northern Ember prendra donc le créneau de 17 h 30.",
+              "distractors": {
+                "B": "C'est l'ancien horaire de Northern Ember, que l'e-mail change.",
+                "C": "16 h est la balance (sound check) des groupes du soir, pas un concert.",
+                "D": "20 h 30 est l'heure à partir de laquelle des orages sont attendus."
+              },
+              "trap": "Quand un message annonce un échange, retrouve dans l'autre document l'horaire de l'autre partie : c'est le nouvel horaire."
+            },
+            "en": {
+              "rule": "The e-mail proposes to swap Northern Ember with the Rosalind Vega Band, and the schedule puts the latter at 5:30 P.M. Northern Ember will take the 5:30 P.M. slot.",
+              "distractors": {
+                "B": "That is Northern Ember's old time, which the e-mail changes.",
+                "C": "4:00 P.M. is the sound check for evening acts, not a performance.",
+                "D": "8:30 P.M. is when storms are expected to arrive."
+              },
+              "trap": "When a message announces a swap, find the other party's time in the other document: it is the new time."
+            }
+          }
+        },
+        {
+          "id": "p7-9008-4",
+          "tags": [
+            "not-true"
+          ],
+          "difficulty": 2,
+          "stem": "What is NOT mentioned as something the festival will provide to Northern Ember?",
+          "options": [
+            "Parking passes",
+            "Meals for part of the group",
+            "Time for a sound check",
+            "Hotel rooms"
+          ],
+          "answer": "D",
+          "evidence": [
+            "Parking passes for your two vehicles will be waiting at the main gate.",
+            "The festival can provide meals for up to five people per act.",
+            "The stage crew can fit you in for a sound check only if you arrive by 3:30 P.M."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "L'e-mail cite des passes de parking, des repas pour cinq personnes et un créneau de balance. Les chambres d'hôtel ne sont pas offertes : le formulaire précise « Lodging: Booked by the act ».",
+              "distractors": {
+                "A": "L'e-mail dit que des passes de parking attendront à l'entrée principale.",
+                "B": "L'e-mail offre des repas pour cinq personnes au plus par groupe.",
+                "C": "L'équipe de scène peut caser une balance si le groupe arrive à 15 h 30."
+              },
+              "trap": "Dans une question NOT, vérifie chaque option dans les textes : celle qu'on ne trouve pas (ou qu'un autre document contredit) est la réponse."
+            },
+            "en": {
+              "rule": "The e-mail mentions parking passes, meals for five people, and a sound check slot. Hotel rooms are not offered: the form says \"Lodging: Booked by the act\".",
+              "distractors": {
+                "A": "The e-mail says parking passes will be waiting at the main gate.",
+                "B": "The e-mail offers meals for up to five people per act.",
+                "C": "The stage crew can fit in a sound check if the band arrives by 3:30 P.M."
+              },
+              "trap": "In a NOT question, check each option against the texts: the one you cannot find (or that another document contradicts) is the answer."
+            }
+          }
+        },
+        {
+          "id": "p7-9008-5",
+          "tags": [
+            "cross-reference"
+          ],
+          "difficulty": 2,
+          "stem": "How many people with Northern Ember will have to pay for their own meals?",
+          "options": [
+            "One",
+            "Two",
+            "Three",
+            "Five"
+          ],
+          "answer": "C",
+          "evidence": [
+            "People traveling with the act: 8 (5 musicians and 3 crew members)",
+            "The festival can provide meals for up to five people per act."
+          ],
+          "explanation": {
+            "fr": {
+              "rule": "Le formulaire indique 8 personnes, et l'e-mail dit que le festival offre des repas pour cinq personnes au plus. 8 moins 5 font 3 personnes qui paieront leur repas.",
+              "distractors": {
+                "A": "Ce serait le cas avec 6 voyageurs, pas 8.",
+                "B": "Ce serait le cas avec 7 voyageurs, pas 8.",
+                "D": "Cinq est le nombre de repas offerts, pas le nombre de personnes qui paient."
+              },
+              "trap": "Dans une question de calcul, repère le total dans un document et la limite dans l'autre, puis vérifie ce que demande la question : le reste, pas le total."
+            },
+            "en": {
+              "rule": "The form lists 8 people, and the e-mail says the festival provides meals for up to five. Eight minus five leaves three people paying for their own meals.",
+              "distractors": {
+                "A": "That would be true for 6 travelers, not 8.",
+                "B": "That would be true for 7 travelers, not 8.",
+                "D": "Five is the number of meals provided, not the number of people who pay."
+              },
+              "trap": "In a calculation question, find the total in one document and the limit in the other, then check what is asked: the remainder, not the total."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

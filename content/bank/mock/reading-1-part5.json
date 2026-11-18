@@ -1,0 +1,546 @@
+{
+  "part": 5,
+  "pool": "mock",
+  "questions": [
+    {
+      "id": "p5-9001",
+      "part": 5,
+      "tags": [
+        "vocabulary-in-context"
+      ],
+      "difficulty": 3,
+      "stem": "The retailer plans to ------- its same-day delivery service to rural areas by next spring.",
+      "options": [
+        "extend",
+        "prolong",
+        "enlarge",
+        "lengthen"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "« extend X to Y » signifie étendre un service ou un réseau à une nouvelle zone : « to rural areas » est l'indice.",
+          "distractors": {
+            "B": "« prolong » veut dire faire durer dans le temps (« prolong a contract ») : il ne s'applique pas à une zone géographique.",
+            "C": "« enlarge » veut dire agrandir physiquement et ne se construit pas avec « to » : on ne dirait pas « enlarge a service to areas ».",
+            "D": "« lengthen » veut dire allonger (une durée, une distance matérielle) : on ne l'emploie pas pour un service."
+          },
+          "trap": "Cherche la préposition qui suit le trou : « extend … to » = étendre à. Les synonymes de « agrandir » ne prennent pas ce complément."
+        },
+        "en": {
+          "rule": "\"extend X to Y\" means to make a service or network reach a new area: \"to rural areas\" is the clue.",
+          "distractors": {
+            "B": "\"prolong\" means to make something last longer in time (\"prolong a contract\"): it does not apply to a geographic area.",
+            "C": "\"enlarge\" means to make physically bigger and is not followed by \"to\": you would not say \"enlarge a service to areas\".",
+            "D": "\"lengthen\" means to make longer (a time, a physical distance): it is not used for a service."
+          },
+          "trap": "Look at the preposition after the blank: \"extend … to\" = make reach. Synonyms of \"make bigger\" do not take that complement."
+        }
+      }
+    },
+    {
+      "id": "p5-9002",
+      "part": 5,
+      "tags": [
+        "gerund-infinitive"
+      ],
+      "difficulty": 2,
+      "stem": "The warehouse crew succeeded in ------- the backlog before the holiday shipping season began.",
+      "options": [
+        "clear",
+        "to clear",
+        "clearing",
+        "cleared"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "« succeed in » est suivi d'un nom ou d'un verbe en -ing : « succeeded in clearing ». « in » est une préposition.",
+          "distractors": {
+            "A": "« clear » est la base verbale : impossible après la préposition « in ».",
+            "B": "« to clear » est un infinitif : on ne met pas « to » après une préposition comme « in ».",
+            "D": "« cleared » est un participe passé ou un prétérit : il ne peut pas suivre « succeeded in » avec « the backlog » pour complément."
+          },
+          "trap": "Verbe + préposition (succeed in, insist on, object to) : toujours -ing derrière, jamais l'infinitif."
+        },
+        "en": {
+          "rule": "\"succeed in\" is followed by a noun or an -ing verb: \"succeeded in clearing\". \"in\" is a preposition.",
+          "distractors": {
+            "A": "\"clear\" is the base form: it cannot follow the preposition \"in\".",
+            "B": "\"to clear\" is an infinitive: you do not put \"to\" after a preposition such as \"in\".",
+            "D": "\"cleared\" is a past form or participle: it cannot follow \"succeeded in\" and take \"the backlog\" as its object."
+          },
+          "trap": "Verb + preposition (succeed in, insist on, object to): always -ing afterward, never the infinitive."
+        }
+      }
+    },
+    {
+      "id": "p5-9003",
+      "part": 5,
+      "tags": [
+        "conjunctions-connectors"
+      ],
+      "difficulty": 3,
+      "stem": "------- it was introduced only three weeks ago, the scheduling tool has already reduced overtime costs.",
+      "options": [
+        "Although",
+        "Despite",
+        "Whereas",
+        "Unless"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "Le trou est suivi d'une proposition complète (« it was introduced… ») et la proposition principale dit le contraire de ce qu'on attend d'un outil récent : concession, « Although ».",
+          "distractors": {
+            "B": "« Despite » est une préposition : elle demande un nom ou un -ing (« Despite its recent introduction »), pas sujet + verbe.",
+            "C": "« Whereas » oppose deux faits parallèles (« X est grand, alors que Y est petit ») : ici il n'y a pas deux éléments comparés.",
+            "D": "« Unless » (« à moins que ») pose une condition négative : le fait est acquis (« has already reduced »), il n'y a pas de condition."
+          },
+          "trap": "Sujet + verbe après le trou et idée de contraste → conjonction de concession (although) ; pour « despite », il faut un groupe nominal."
+        },
+        "en": {
+          "rule": "The blank is followed by a full clause (\"it was introduced…\") and the main clause says the opposite of what you would expect from a recent tool: concession, \"Although\".",
+          "distractors": {
+            "B": "\"Despite\" is a preposition: it needs a noun or -ing form (\"Despite its recent introduction\"), not subject + verb.",
+            "C": "\"Whereas\" contrasts two parallel facts (\"X is large, whereas Y is small\"): here two items are not being compared.",
+            "D": "\"Unless\" (\"if not\") sets a negative condition: the result is already achieved (\"has already reduced\"), so there is no condition."
+          },
+          "trap": "Subject + verb after the blank and a sense of contrast → conjunction of concession (although); \"despite\" needs a noun phrase."
+        }
+      }
+    },
+    {
+      "id": "p5-9004",
+      "part": 5,
+      "tags": [
+        "relative-clauses"
+      ],
+      "difficulty": 2,
+      "stem": "Applicants ------- résumés do not include references will not be considered for the position.",
+      "options": [
+        "who",
+        "which",
+        "whose",
+        "whom"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "Le trou relie « Applicants » à « résumés » (les CV des candidats) : il exprime la possession, donc « whose ».",
+          "distractors": {
+            "A": "« who » est sujet et remplacerait « applicants » : « Applicants who résumés » est impossible, il manquerait le verbe.",
+            "B": "« which » désigne une chose et ne peut pas marquer que les CV appartiennent aux candidats.",
+            "D": "« whom » est un complément d'objet (« applicants whom we interviewed ») : il n'exprime pas la possession."
+          },
+          "trap": "Relatif + nom sans article ni verbe immédiat (« ------- résumés ») → whose."
+        },
+        "en": {
+          "rule": "The blank links \"Applicants\" to \"résumés\" (their résumés): it shows possession, so \"whose\".",
+          "distractors": {
+            "A": "\"who\" is a subject and would stand for \"applicants\": \"Applicants who résumés\" is impossible, a verb is missing.",
+            "B": "\"which\" refers to a thing and cannot show that the résumés belong to the applicants.",
+            "D": "\"whom\" is an object (\"applicants whom we interviewed\"): it does not express possession."
+          },
+          "trap": "Relative + noun with no article and no verb right after (\"------- résumés\") → whose."
+        }
+      }
+    },
+    {
+      "id": "p5-9005",
+      "part": 5,
+      "tags": [
+        "participle-adjectives"
+      ],
+      "difficulty": 3,
+      "stem": "Customers who had been waiting more than an hour for a refund were visibly ------- when the manager finally appeared.",
+      "options": [
+        "frustrating",
+        "frustrate",
+        "frustration",
+        "frustrated"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "Les clients ressentent l'émotion : on emploie le participe passé en -ed, « frustrated ». L'adverbe « visibly » (visiblement) porte sur ce qu'on voit chez eux, leur état.",
+          "distractors": {
+            "A": "« frustrating » décrit ce qui provoque l'émotion : des clients « visibly frustrating » seraient des gens qui agacent, ce n'est pas le sens.",
+            "B": "« frustrate » est un verbe à la base verbale : il ne peut pas suivre « were visibly ».",
+            "C": "« frustration » est un nom : « the customers were frustration » n'a pas de sens."
+          },
+          "trap": "-ing = la cause de l'émotion ; -ed = celui qui la ressent. Les mots intercalés (proposition relative, adverbe) ne changent pas la règle."
+        },
+        "en": {
+          "rule": "The customers feel the emotion, so you need the -ed past participle, \"frustrated\". The adverb \"visibly\" describes the state we can see in them.",
+          "distractors": {
+            "A": "\"frustrating\" describes what causes the feeling: customers who were \"visibly frustrating\" would be annoying people, which is not the meaning.",
+            "B": "\"frustrate\" is a base-form verb: it cannot follow \"were visibly\".",
+            "C": "\"frustration\" is a noun: \"the customers were frustration\" makes no sense."
+          },
+          "trap": "-ing = the cause of the feeling; -ed = the one who feels it. Words in between (relative clause, adverb) do not change the rule."
+        }
+      }
+    },
+    {
+      "id": "p5-9006",
+      "part": 5,
+      "tags": [
+        "verb-tense"
+      ],
+      "difficulty": 2,
+      "stem": "By the time the inspectors arrived on Monday, the crew ------- all of the faulty valves.",
+      "options": [
+        "is replacing",
+        "will replace",
+        "replaces",
+        "had replaced"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "« By the time the inspectors arrived » est au passé : l'action du trou est antérieure à cette arrivée, donc le plus-que-parfait « had replaced ».",
+          "distractors": {
+            "A": "« is replacing » est un présent progressif : il ne convient pas à une action située avant une date passée.",
+            "B": "« will replace » est un futur : il contredit « arrived », qui place la scène dans le passé.",
+            "C": "« replaces » est un présent simple : il ne peut pas suivre une proposition au passé introduite par « by the time »."
+          },
+          "trap": "« By the time + passé simple » demande le plus-que-parfait (had + participe) pour l'action déjà terminée."
+        },
+        "en": {
+          "rule": "\"By the time the inspectors arrived\" is in the past: the action in the blank happened before that arrival, so the past perfect \"had replaced\".",
+          "distractors": {
+            "A": "\"is replacing\" is a present progressive: it does not fit an action that comes before a past date.",
+            "B": "\"will replace\" is a future: it contradicts \"arrived\", which sets the scene in the past.",
+            "C": "\"replaces\" is a simple present: it cannot follow a past clause introduced by \"by the time\"."
+          },
+          "trap": "\"By the time + simple past\" calls for the past perfect (had + participle) for the action already completed."
+        }
+      }
+    },
+    {
+      "id": "p5-9007",
+      "part": 5,
+      "tags": [
+        "prepositions"
+      ],
+      "difficulty": 2,
+      "stem": "The new compliance policy will take effect ------- the first day of the next fiscal year, regardless of when staff complete training.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "since"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "On emploie « on » devant un jour ou une date précise : « take effect on the first day of the next fiscal year ». Les mots qui suivent (« regardless of… ») ne changent pas la préposition.",
+          "distractors": {
+            "A": "« in » s'emploie avec un mois, une année, une période (« in April ») : on ne dit pas « in the first day ».",
+            "C": "« at » s'emploie avec une heure ou un moment (« at noon ») : on ne dit pas « at the first day ».",
+            "D": "« since » marque un point de départ dans le passé : il ne convient pas à une date à venir (« will take effect »)."
+          },
+          "trap": "Jour ou date → on ; mois ou année → in ; heure → at."
+        },
+        "en": {
+          "rule": "Use \"on\" before a specific day or date: \"take effect on the first day of the next fiscal year\". The words that follow (\"regardless of…\") do not change the preposition.",
+          "distractors": {
+            "A": "\"in\" goes with months, years and periods (\"in April\"): you do not say \"in the first day\".",
+            "C": "\"at\" goes with clock times or moments (\"at noon\"): you do not say \"at the first day\".",
+            "D": "\"since\" marks a starting point in the past: it does not fit a future date (\"will take effect\")."
+          },
+          "trap": "Day or date → on; month or year → in; clock time → at."
+        }
+      }
+    },
+    {
+      "id": "p5-9008",
+      "part": 5,
+      "tags": [
+        "word-form-adjective"
+      ],
+      "difficulty": 2,
+      "stem": "Mr. Salazar's presentation was both ------- and easy to follow, which impressed the visiting investors.",
+      "options": [
+        "informative",
+        "informatively",
+        "information",
+        "informed"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "Après « was both », le trou est coordonné par « and » à « easy to follow », qui est un adjectif : il faut un adjectif, « informative » (qui apporte des informations).",
+          "distractors": {
+            "B": "« informatively » est un adverbe : il ne peut pas être coordonné à l'adjectif « easy to follow » pour décrire « presentation ».",
+            "C": "« information » est un nom : « the presentation was information » n'a pas de sens.",
+            "D": "« informed » est un participe (renseigné) : il s'emploie pour une personne ; une présentation n'est pas « informed »."
+          },
+          "trap": "Les éléments coordonnés par « and » ont la même nature : adjectif avec adjectif."
+        },
+        "en": {
+          "rule": "After \"was both\", the blank is joined by \"and\" to \"easy to follow\", which is an adjective: you need an adjective, \"informative\" (full of useful information).",
+          "distractors": {
+            "B": "\"informatively\" is an adverb: it cannot be joined to the adjective \"easy to follow\" to describe \"presentation\".",
+            "C": "\"information\" is a noun: \"the presentation was information\" makes no sense.",
+            "D": "\"informed\" is a participle (knowledgeable): it describes a person; a presentation is not \"informed\"."
+          },
+          "trap": "Items joined by \"and\" have the same grammatical nature: adjective with adjective."
+        }
+      }
+    },
+    {
+      "id": "p5-9009",
+      "part": 5,
+      "tags": [
+        "quantifiers-determiners"
+      ],
+      "difficulty": 1,
+      "stem": "------- of the three candidates interviewed on Tuesday has relevant experience in logistics.",
+      "options": [
+        "Each",
+        "All",
+        "Both",
+        "Several"
+      ],
+      "answer": "A",
+      "explanation": {
+        "fr": {
+          "rule": "Le verbe est « has » (singulier) et le groupe « of the three candidates » : il faut un quantifieur singulier, « Each ».",
+          "distractors": {
+            "B": "« All » est suivi d'un verbe pluriel (« all of the candidates have »).",
+            "C": "« Both » désigne deux personnes ; il y en a trois ici, et le verbe serait « have ».",
+            "D": "« Several » est pluriel : il demanderait « have », pas « has »."
+          },
+          "trap": "Verbe singulier après « ------- of the candidates » → each, one, neither… Verbe pluriel → all, several, both."
+        },
+        "en": {
+          "rule": "The verb is \"has\" (singular) and the phrase is \"of the three candidates\": you need a singular quantifier, \"Each\".",
+          "distractors": {
+            "B": "\"All\" takes a plural verb (\"all of the candidates have\").",
+            "C": "\"Both\" means two people; there are three here, and the verb would be \"have\".",
+            "D": "\"Several\" is plural: it would need \"have\", not \"has\"."
+          },
+          "trap": "Singular verb after \"------- of the candidates\" → each, one, neither… Plural verb → all, several, both."
+        }
+      }
+    },
+    {
+      "id": "p5-9010",
+      "part": 5,
+      "tags": [
+        "comparatives-superlatives"
+      ],
+      "difficulty": 1,
+      "stem": "The new model uses ------- energy than the previous one, saving the plant about $4,000 a month.",
+      "options": [
+        "little",
+        "least",
+        "less",
+        "lesser"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "« than » annonce une comparaison, et « energy » est indénombrable : le comparatif de « little » est « less ».",
+          "distractors": {
+            "A": "« little » est la forme de base : il ne peut pas être suivi de « than ».",
+            "B": "« least » est un superlatif (« the least energy ») : il n'est pas suivi de « than ».",
+            "D": "« lesser » est un adjectif qui veut dire « moindre » (« the lesser of two evils ») ; il ne se construit pas avec « than » devant un nom indénombrable."
+          },
+          "trap": "« than » dans la phrase → cherche un comparatif (-er, more, less)."
+        },
+        "en": {
+          "rule": "\"than\" signals a comparison, and \"energy\" is uncountable: the comparative of \"little\" is \"less\".",
+          "distractors": {
+            "A": "\"little\" is the base form: it cannot be followed by \"than\".",
+            "B": "\"least\" is a superlative (\"the least energy\"): it is not followed by \"than\".",
+            "D": "\"lesser\" is an adjective meaning \"smaller in importance\" (\"the lesser of two evils\"); it is not used with \"than\" before an uncountable noun."
+          },
+          "trap": "\"than\" in the sentence → look for a comparative (-er, more, less)."
+        }
+      }
+    },
+    {
+      "id": "p5-9011",
+      "part": 5,
+      "tags": [
+        "pronouns"
+      ],
+      "difficulty": 2,
+      "stem": "The two department heads decided to review the budget ------- before sending it to the board.",
+      "options": [
+        "them",
+        "themselves",
+        "their",
+        "theirs"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "Le sujet « the two department heads » fait l'action sur lui-même (« review the budget themselves ») : le pronom réfléchi ou d'insistance, « themselves », signifie qu'ils le font eux-mêmes, sans déléguer.",
+          "distractors": {
+            "A": "« them » est un pronom complément : il ne peut pas suivre « the budget » sans verbe ni préposition.",
+            "C": "« their » est un déterminant possessif : il doit être suivi d'un nom.",
+            "D": "« theirs » est un pronom possessif (« the budget is theirs ») : il ne s'emploie pas après « the budget » ici."
+          },
+          "trap": "Un pronom en -self / -selves qui rappelle le sujet peut le renforcer (« do it yourself »)."
+        },
+        "en": {
+          "rule": "The subject \"the two department heads\" does the action personally (\"review the budget themselves\"): the reflexive or emphatic pronoun \"themselves\" means they do it on their own, without delegating.",
+          "distractors": {
+            "A": "\"them\" is an object pronoun: it cannot follow \"the budget\" without a verb or preposition.",
+            "C": "\"their\" is a possessive determiner: it must be followed by a noun.",
+            "D": "\"theirs\" is a possessive pronoun (\"the budget is theirs\"): it does not fit after \"the budget\" here."
+          },
+          "trap": "A -self / -selves pronoun that echoes the subject can add emphasis (\"do it yourself\")."
+        }
+      }
+    },
+    {
+      "id": "p5-9012",
+      "part": 5,
+      "tags": [
+        "passive-voice"
+      ],
+      "difficulty": 2,
+      "stem": "Applications for the travel grant ------- no later than June 15 by e-mail.",
+      "options": [
+        "must submit",
+        "must be submitted",
+        "must be submitting",
+        "must have submitted"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "Les « applications » ne se soumettent pas elles-mêmes : on les soumet. Après « must », il faut un passif à l'infinitif, « must be submitted », avec « by e-mail » et une échéance.",
+          "distractors": {
+            "A": "« must submit » est actif : il demanderait un complément d'objet, et le sujet « applications » ne peut pas soumettre.",
+            "C": "« must be submitting » est un progressif actif : même problème, et il ne s'accorde pas avec « no later than June 15 ».",
+            "D": "« must have submitted » est un parfait actif : le sujet « applications » ne peut pas agir, et il n'y a pas de complément."
+          },
+          "trap": "Sujet qui reçoit l'action + pas de complément d'objet après le verbe → passif (be + participe passé)."
+        },
+        "en": {
+          "rule": "The \"applications\" do not submit themselves: someone submits them. After \"must\" you need a passive infinitive, \"must be submitted\", with \"by e-mail\" and a deadline.",
+          "distractors": {
+            "A": "\"must submit\" is active: it would need an object, and the subject \"applications\" cannot submit anything.",
+            "C": "\"must be submitting\" is an active progressive: same problem, and it does not fit \"no later than June 15\".",
+            "D": "\"must have submitted\" is an active perfect: the subject \"applications\" cannot act, and no object follows."
+          },
+          "trap": "Subject that receives the action + no object after the verb → passive (be + past participle)."
+        }
+      }
+    },
+    {
+      "id": "p5-9013",
+      "part": 5,
+      "tags": [
+        "word-form-noun"
+      ],
+      "difficulty": 1,
+      "stem": "Ms. Reyes received a promotion in ------- of her outstanding sales record.",
+      "options": [
+        "recognize",
+        "recognizable",
+        "recognizing",
+        "recognition"
+      ],
+      "answer": "D",
+      "explanation": {
+        "fr": {
+          "rule": "Après « in » et devant « of », le trou est un nom : « in recognition of » (en reconnaissance de).",
+          "distractors": {
+            "A": "« recognize » est un verbe : impossible entre « in » et « of ».",
+            "B": "« recognizable » est un adjectif (reconnaissable) : il ne peut pas suivre la préposition « in » ici.",
+            "C": "« recognizing » est un gérondif : « in recognizing of » n'est pas grammatical, car « of » demande un nom."
+          },
+          "trap": "Expression « in + nom + of » (in recognition of, in honor of, in need of) : le trou est un nom."
+        },
+        "en": {
+          "rule": "After \"in\" and before \"of\", the blank is a noun: \"in recognition of\".",
+          "distractors": {
+            "A": "\"recognize\" is a verb: it cannot sit between \"in\" and \"of\".",
+            "B": "\"recognizable\" is an adjective: it cannot follow the preposition \"in\" here.",
+            "C": "\"recognizing\" is a gerund: \"in recognizing of\" is not grammatical, because \"of\" needs a noun."
+          },
+          "trap": "Pattern \"in + noun + of\" (in recognition of, in honor of, in need of): the blank is a noun."
+        }
+      }
+    },
+    {
+      "id": "p5-9014",
+      "part": 5,
+      "tags": [
+        "collocations"
+      ],
+      "difficulty": 1,
+      "stem": "To ------- the deadline, the print shop hired three temporary workers.",
+      "options": [
+        "hold",
+        "meet",
+        "arrive",
+        "stand"
+      ],
+      "answer": "B",
+      "explanation": {
+        "fr": {
+          "rule": "On dit « meet a deadline » : respecter une échéance. C'est une collocation figée.",
+          "distractors": {
+            "A": "« hold » se dit d'une réunion ou d'un événement (« hold a meeting »), pas d'une échéance.",
+            "C": "« arrive » ne prend pas de complément d'objet : on dit « arrive at » un lieu.",
+            "D": "« stand » (se tenir, supporter) ne s'associe pas à « deadline » dans cette phrase."
+          },
+          "trap": "Apprends les verbes avec leur nom : meet a deadline, hold a meeting, reach an agreement."
+        },
+        "en": {
+          "rule": "The set phrase is \"meet a deadline\" (finish in time).",
+          "distractors": {
+            "A": "\"hold\" goes with meetings or events (\"hold a meeting\"), not with a deadline.",
+            "C": "\"arrive\" takes no direct object: you \"arrive at\" a place.",
+            "D": "\"stand\" (to be upright, to tolerate) is not paired with \"deadline\" in this sentence."
+          },
+          "trap": "Learn verbs with their nouns: meet a deadline, hold a meeting, reach an agreement."
+        }
+      }
+    },
+    {
+      "id": "p5-9015",
+      "part": 5,
+      "tags": [
+        "subject-verb-agreement"
+      ],
+      "difficulty": 2,
+      "stem": "The list of approved vendors, along with the updated pricing sheets, ------- available on the company intranet.",
+      "options": [
+        "are",
+        "were",
+        "is",
+        "have been"
+      ],
+      "answer": "C",
+      "explanation": {
+        "fr": {
+          "rule": "Le sujet est « The list » (singulier) ; « of approved vendors » et « along with the updated pricing sheets » sont des ajouts qui ne changent pas le nombre. Le présent « is » convient pour une information disponible maintenant.",
+          "distractors": {
+            "A": "« are » est pluriel : il s'accorde avec « vendors » ou « sheets », qui ne sont pas le sujet.",
+            "B": "« were » est un pluriel au passé : même accord erroné, et le passé n'est pas indiqué.",
+            "D": "« have been » est pluriel : le sujet « list » demanderait « has been »."
+          },
+          "trap": "Ignore les groupes entre virgules (along with, as well as, together with) : le verbe s'accorde avec le sujet principal."
+        },
+        "en": {
+          "rule": "The subject is \"The list\" (singular); \"of approved vendors\" and \"along with the updated pricing sheets\" are add-ons that do not change the number. The present \"is\" fits information that is available now.",
+          "distractors": {
+            "A": "\"are\" is plural: it agrees with \"vendors\" or \"sheets\", which are not the subject.",
+            "B": "\"were\" is a plural past form: same wrong agreement, and no past time is indicated.",
+            "D": "\"have been\" is plural: the subject \"list\" would need \"has been\"."
+          },
+          "trap": "Ignore phrases between commas (along with, as well as, together with): the verb agrees with the main subject."
+        }
+      }
+    }
+  ]
+}

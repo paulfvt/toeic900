@@ -59,7 +59,7 @@ Un fichier par lot, conforme à `content/schemas/part5.schema.json` :
   "pool": "training",
   "questions": [
     {
-      "id": "p5-9001",
+      "id": "p5-7991",
       "part": 5,
       "tags": ["participle-adjectives"],
       "difficulty": 2,
@@ -88,7 +88,7 @@ Un fichier par lot, conforme à `content/schemas/part5.schema.json` :
       }
     },
     {
-      "id": "p5-9002",
+      "id": "p5-7992",
       "part": 5,
       "tags": ["conjunctions-connectors"],
       "difficulty": 2,
@@ -120,7 +120,7 @@ Un fichier par lot, conforme à `content/schemas/part5.schema.json` :
 }
 ```
 
-Les identifiants `p5-9001` et `p5-9002` ne servent qu'à ces exemples : ils ne font pas partie de la banque.
+Les identifiants `p5-7991` et `p5-7992` ne servent qu'à ces exemples : ils ne font pas partie de la banque. Plages par pool : entraînement de 0001 à 7999 (7990 à 7999 réservés aux exemples), diagnostic de 8000 à 8999, tests blancs de 9000 à 9999.
 
 ## Contrôle
 

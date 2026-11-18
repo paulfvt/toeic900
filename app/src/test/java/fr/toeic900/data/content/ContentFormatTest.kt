@@ -8,7 +8,7 @@ import org.junit.Assert.assertThrows
 import org.junit.Assert.assertTrue
 import org.junit.Test
 
-/** Un petit contenu au format 2 : une question Part 5, un texte Part 6, une fiche, un chemin. */
+/** Un petit contenu au format 3 : une question Part 5, un texte Part 6, une fiche, un chemin (le test blanc a ses propres tests). */
 private fun explanation(answer: String): Map<String, ExplanationDto> {
     val wrong = "ABCD".map { it.toString() }.filter { it != answer }
     return mapOf(
@@ -17,11 +17,11 @@ private fun explanation(answer: String): Map<String, ExplanationDto> {
     )
 }
 
-private fun question(id: String, part: Int, tag: String, stimulusId: String? = null, position: Int = 0, evidence: List<String> = emptyList()) =
+private fun question(id: String, part: Int, tag: String, stimulusId: String? = null, position: Int = 0, evidence: List<String> = emptyList(), pool: String = "training") =
     QuestionDto(
         id = id,
         part = part,
-        pool = "training",
+        pool = pool,
         tags = listOf(tag),
         difficulty = 2,
         stem = if (part == 6) "" else "The manager ------- the report yesterday.",
@@ -42,7 +42,7 @@ private val lessonContent = LessonContentDto(
 )
 
 private fun sample() = ContentBundle(
-    format = 2,
+    format = 3,
     version = "v2",
     tags = listOf(
         TagDto("verb-tense", listOf(5, 6), "grammar", "Temps des verbes", "Verb tenses", 0),
@@ -68,7 +68,7 @@ private fun sample() = ContentBundle(
     ),
 )
 
-class ContentFormat2Test {
+class ContentFormatTest {
     private fun parse(bundle: ContentBundle) = ContentParser.parse(Json.encodeToString(bundle))
 
     private fun assertRejected(bundle: ContentBundle, fragment: String) {
@@ -85,7 +85,7 @@ class ContentFormat2Test {
 
     @Test
     fun `a content without texts lessons or path is still valid`() {
-        val minimal = """{"format":2,"version":"v","tags":[{"id":"verb-tense","parts":[5],"group":"grammar","fr":"T","en":"T","order":0}],
+        val minimal = """{"format":3,"version":"v","tags":[{"id":"verb-tense","parts":[5],"group":"grammar","fr":"T","en":"T","order":0}],
             "questions":[${Json.encodeToString(question("p5-0001", 5, "verb-tense"))}]}"""
         val parsed = ContentParser.parse(minimal)
         assertTrue(parsed.stimuli.isEmpty() && parsed.lessons.isEmpty() && parsed.path.units.isEmpty())
@@ -228,5 +228,27 @@ class EmbeddedReadingContentTest {
         val first = bundle.path.units.first().steps.first()
         assertEquals("lesson" to 5, first.kind to first.part)
         assertEquals("grammar", bundle.tags.first { it.id == first.tags.single() }.group)
+    }
+
+    // ------------------------------------------------------------ tests blancs (format 3)
+
+    private fun withMock(units: List<String>, extra: List<QuestionDto> = listOf(question("p5-9001", 5, "verb-tense", pool = "mock"))) =
+        sample().let { it.copy(questions = it.questions + extra, mockTests = listOf(MockTestDto("reading-1", "reading", "Demi-test", "Half-test", 38, units))) }
+
+    @Test
+    fun `a mock test made of mock questions is parsed and stored`() {
+        val bundle = withMock(listOf("p5-9001"))
+        assertEquals(bundle, ContentParser.parse(Json.encodeToString(bundle)))
+        val row = bundle.toRows().mockTests.single()
+        assertEquals(listOf("p5-9001"), row.units)
+        assertEquals(38, row.minutes)
+    }
+
+    @Test
+    fun `a mock test cannot use training questions or unknown units`() {
+        for ((units, fragment) in listOf(listOf("p5-0001") to "pas une question de test blanc", listOf("p5-9999") to "unité inconnue")) {
+            val error = assertThrows(ContentFormatException::class.java) { ContentParser.parse(Json.encodeToString(withMock(units))) }
+            assertTrue(error.message, error.message!!.contains(fragment))
+        }
     }
 }

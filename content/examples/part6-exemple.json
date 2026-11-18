@@ -3,13 +3,13 @@
   "pool": "training",
   "texts": [
     {
-      "id": "p6-9001",
+      "id": "p6-7991",
       "part": 6,
       "genre": "email",
       "text": "To: All Lakeshore Fitness members\nFrom: Dana Whitfield, Membership Services\nSubject: Pool closure in March\n\nDear members,\n\nThe indoor pool will be closed from March 3 to March 14 while the filtration system is [[1]]. During this period, the sauna and the fitness studios will remain open at their usual hours.\n\nWe know that many of you swim every week. [[2]] Simply show your membership card at the front desk of the Harbor Street location.\n\n[[3]], the monthly fee for March will be reduced by 20 percent for all members with a swim plan. The discount will appear on your next statement, so no action is needed on your part.\n\nWe apologize for the inconvenience and look forward to [[4]] you back in the water soon.\n\nSincerely,\nDana Whitfield",
       "questions": [
         {
-          "id": "p6-9001-1",
+          "id": "p6-7991-1",
           "tags": ["passive-voice"],
           "difficulty": 2,
           "options": ["replacing", "replaces", "being replaced", "to replace"],
@@ -36,7 +36,7 @@
           }
         },
         {
-          "id": "p6-9001-2",
+          "id": "p6-7991-2",
           "tags": ["sentence-insertion"],
           "difficulty": 2,
           "options": [
@@ -72,7 +72,7 @@
           }
         },
         {
-          "id": "p6-9001-3",
+          "id": "p6-7991-3",
           "tags": ["conjunctions-connectors"],
           "difficulty": 2,
           "options": ["In addition", "However", "Otherwise", "For example"],
@@ -100,7 +100,7 @@
           }
         },
         {
-          "id": "p6-9001-4",
+          "id": "p6-7991-4",
           "tags": ["gerund-infinitive"],
           "difficulty": 2,
           "options": ["welcome", "welcomed", "welcoming", "be welcomed"],

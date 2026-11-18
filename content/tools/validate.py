@@ -41,6 +41,7 @@ BANK_DIR = CONTENT_DIR / "bank"
 LESSONS_DIR = CONTENT_DIR / "lessons"
 FICHES_DIR = LESSONS_DIR / "fiches"
 PATH_FILE = LESSONS_DIR / "path.json"
+MOCK_DIR = CONTENT_DIR / "mock"
 TAGS_FILE = CONTENT_DIR / "schemas" / "tags.json"
 
 LETTERS = "ABCD"
@@ -56,6 +57,15 @@ ID_PATTERNS = {
     6: re.compile(r"^p6-\d{4}$"),
     7: re.compile(r"^p7-\d{4}$"),
 }
+# Plages d'identifiants par pool (partie numérique) : un identifiant dit à lui seul d'où vient
+# une question, et une question de test blanc ne peut pas se glisser dans l'entraînement.
+POOL_ID_RANGES = {"training": (1, 7999), "diagnostic": (8000, 8999), "mock": (9000, 9999)}
+
+# Tests blancs (content/mock/*.json)
+MOCK_TEST_FIELDS = {"id", "section", "fr", "en", "minutes", "units"}
+MOCK_SECTIONS = ("reading",)
+MOCK_MINUTES = (10, 120)
+
 # Nom de la liste dans un fichier de lot, selon la part.
 FILE_KEYS = {5: "questions", 6: "texts", 7: "sets"}
 
@@ -184,6 +194,7 @@ class Content:
     questions: list[dict]
     lessons: list[dict]
     path: dict | None
+    mock_tests: list[dict] = field(default_factory=list)
 
 
 def load_tags(path: Path = TAGS_FILE) -> dict[str, dict]:
@@ -612,6 +623,20 @@ def _near_duplicate(a: str, b: str) -> float | None:
     return None
 
 
+def check_pool_ranges(questions: list[dict], report: Report) -> None:
+    """Chaque identifiant dans la plage de son pool (p5-0142 : entraînement ; p5-9001 : test blanc)."""
+    seen: set[str] = set()
+    for q in questions:
+        unit_id = q["_stimulus"]["id"] if q.get("_stimulus") else q["id"]
+        if unit_id in seen:
+            continue
+        seen.add(unit_id)
+        number = int(unit_id.split("-")[1])
+        low, high = POOL_ID_RANGES[q["_pool"]]
+        if not low <= number <= high:
+            report.error(q["_source"], f"{unit_id} : le pool {q['_pool']!r} utilise les numéros {low:04d} à {high:04d}")
+
+
 def check_duplicates(questions: list[dict], report: Report) -> None:
     """Doublons sur toute la banque, tous pools confondus : une question de test blanc
     ne doit pas non plus exister à l'entraînement."""
@@ -628,7 +653,8 @@ def check_duplicates(questions: list[dict], report: Report) -> None:
     option_sets: dict[tuple, str] = {}
     for i, q in enumerate(unique):
         where = f"{q['_source']} › {q['id']}"
-        key = tuple(sorted(o.lower() for o in q["options"]))
+        # Variété de la révision : seulement au sein d'un même pool.
+        key = (q["_pool"], *sorted(o.lower() for o in q["options"]))
         if key in option_sets:
             report.warning(where, f"mêmes 4 options que {option_sets[key]} : peu de variété pour la révision")
         else:
@@ -735,6 +761,7 @@ def validate_bank(paths: list[Path], known_tags: dict[str, dict] | None = None,
         data = _load_json(path, report)
         if data is not None:
             questions.extend(validate_file_data(data, known_tags, _source_name(path), report))
+    check_pool_ranges(questions, report)
     check_duplicates(questions, report)
     check_distributions(questions, known_tags, report)
     return report, questions
@@ -950,9 +977,74 @@ def validate_path(data: object, known_tags: dict[str, dict], lessons: list[dict]
     return {"units": result} if len(report.errors) == before else None
 
 
+def validate_mock_test(data: object, questions: list[dict], used: set[str], report: Report, source: str) -> dict | None:
+    """Un test blanc : la liste ordonnée de ses unités (question Part 5, texte Part 6, jeu Part 7),
+    toutes du pool mock, et sa durée. Une unité n'appartient qu'à un seul test."""
+    if not isinstance(data, dict) or set(data) != MOCK_TEST_FIELDS:
+        report.error(source, f"un test blanc contient exactement {sorted(MOCK_TEST_FIELDS)}")
+        return None
+    before = len(report.errors)
+    if not isinstance(data["id"], str) or not STEP_ID_PATTERN.match(data["id"]):
+        report.error(source, f"id invalide : {data['id']!r}")
+    if data["section"] not in MOCK_SECTIONS:
+        report.error(source, f"section non prise en charge : {data['section']!r}")
+    for lang in LANGS:
+        if not _is_text(data[lang], 3) or len(data[lang]) > 60:
+            report.error(source, f"{lang} : titre de 3 à 60 caractères attendu")
+    minutes = data["minutes"]
+    if not isinstance(minutes, int) or isinstance(minutes, bool) or not _in_range(minutes, MOCK_MINUTES):
+        report.error(source, f"minutes doit être un entier de {MOCK_MINUTES[0]} à {MOCK_MINUTES[1]}")
+    units: dict[str, dict] = {}
+    for q in questions:
+        unit_id = q["_stimulus"]["id"] if q.get("_stimulus") else q["id"]
+        units.setdefault(unit_id, {"pool": q["_pool"], "part": q["part"], "count": 0})["count"] += 1
+    listed = data["units"]
+    if not isinstance(listed, list) or not listed:
+        report.error(source, "units doit être une liste non vide")
+        return None
+    parts = []
+    count = 0
+    for unit_id in listed:
+        unit = units.get(unit_id)
+        if unit is None:
+            report.error(source, f"unité inconnue : {unit_id!r}")
+            continue
+        if unit["pool"] != "mock":
+            report.error(source, f"{unit_id} n'est pas du pool mock (pool {unit['pool']!r})")
+        if unit_id in used:
+            report.error(source, f"{unit_id} figure déjà dans un test blanc")
+        used.add(unit_id)
+        parts.append(unit["part"])
+        count += unit["count"]
+    if parts != sorted(parts):
+        report.error(source, "les unités suivent l'ordre de l'examen : Part 5, puis 6, puis 7")
+    if len(report.errors) != before:
+        return None
+    return {**data, "questionCount": count}
+
+
+def validate_mock_tests(paths: list[Path], questions: list[dict], report: Report) -> list[dict]:
+    used: set[str] = set()
+    tests = []
+    for path in paths:
+        data = _load_json(path, report)
+        if data is not None:
+            test = validate_mock_test(data, questions, used, report, _source_name(path))
+            if test is not None:
+                tests.append(test)
+    ids = [t["id"] for t in tests]
+    for duplicate in {i for i in ids if ids.count(i) > 1}:
+        report.error("mock", f"id de test blanc en double : {duplicate!r}")
+    mock_units = {q["_stimulus"]["id"] if q.get("_stimulus") else q["id"] for q in questions if q["_pool"] == "mock"}
+    for unit_id in sorted(mock_units - used):
+        report.warning("mock", f"{unit_id} est du pool mock mais n'appartient à aucun test blanc")
+    return tests
+
+
 def validate_content(bank_paths: list[Path] | None = None, fiche_paths: list[Path] | None = None,
-                     path_file: Path | None = PATH_FILE, known_tags: dict[str, dict] | None = None) -> Content:
-    """Valide tout le contenu : banque, fiches, chemin."""
+                     path_file: Path | None = PATH_FILE, known_tags: dict[str, dict] | None = None,
+                     mock_paths: list[Path] | None = None) -> Content:
+    """Valide tout le contenu : banque, fiches, chemin, tests blancs."""
     known_tags = load_tags() if known_tags is None else known_tags
     report, questions = validate_bank(find_bank_files() if bank_paths is None else bank_paths, known_tags)
     lessons = validate_lessons(find_fiche_files() if fiche_paths is None else fiche_paths, known_tags, report)
@@ -967,10 +1059,14 @@ def validate_content(bank_paths: list[Path] | None = None, fiche_paths: list[Pat
             path = validate_path(data, known_tags, lessons, questions, report, _source_name(path_file))
     else:
         report.warning("lessons/path.json", "pas de chemin de leçons")
-    return Content(report, questions, lessons, path)
+    if mock_paths is None:
+        mock_paths = sorted(MOCK_DIR.glob("*.json")) if MOCK_DIR.is_dir() else []
+    mock_tests = validate_mock_tests(mock_paths, questions, report)
+    return Content(report, questions, lessons, path, mock_tests)
 
 
-def summarize(questions: list[dict], lessons: list[dict] | None = None, path: dict | None = None) -> str:
+def summarize(questions: list[dict], lessons: list[dict] | None = None, path: dict | None = None,
+              mock_tests: list[dict] | None = None) -> str:
     lines = [f"{len(questions)} question(s) valide(s)"]
     by_part: dict[int, list[dict]] = defaultdict(list)
     for q in questions:
@@ -990,6 +1086,8 @@ def summarize(questions: list[dict], lessons: list[dict] | None = None, path: di
     if path is not None:
         steps = sum(len(unit["steps"]) for unit in path["units"])
         lines.append(f"Chemin : {len(path['units'])} unité(s), {steps} étape(s)")
+    if mock_tests:
+        lines.append("Tests blancs : " + ", ".join(f"{t['id']} ({t['questionCount']} questions, {t['minutes']} min)" for t in mock_tests))
     return "\n".join(lines)
 
 
@@ -1017,7 +1115,7 @@ def main(argv: list[str] | None = None) -> int:
     else:
         content = validate_content()
         report = content.report
-        summary = summarize(content.questions, content.lessons, content.path)
+        summary = summarize(content.questions, content.lessons, content.path, content.mock_tests)
         if not content.questions:
             print("Aucune question valide dans content/bank/.")
             return 1

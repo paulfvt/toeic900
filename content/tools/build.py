@@ -8,7 +8,7 @@ Usage (depuis la racine du dépôt) :
   1. valide tout le contenu de content/ (mêmes contrôles que validate.py) et s'arrête à la
      première erreur : un contenu invalide n'entre jamais dans l'app ;
   2. écrit app/src/main/assets/content/content.json : les tags, les questions, les textes et
-     documents des Parts 6 et 7, les fiches de cours, le chemin de leçons, et une « version »
+     documents des Parts 6 et 7, les fiches de cours, le chemin de leçons, les tests blancs, et une « version »
      calculée à partir du contenu lui-même.
 
 Au démarrage, l'app compare cette version à celle de sa base de contenu : si elle a changé,
@@ -32,11 +32,12 @@ OUTPUT_FILE = REPO_DIR / "app" / "src" / "main" / "assets" / "content" / "conten
 # un fichier dont elle ne connaît pas le format.
 #   1 : Part 5 seule (Phase 1).
 #   2 : textes et documents (stimuli), fiches de cours (lessons), chemin de leçons (path).
-FORMAT_VERSION = 2
+#   3 : tests blancs (mockTests).
+FORMAT_VERSION = 3
 
 
 def build_bundle(questions: list[dict], tags: dict[str, dict], lessons: list[dict] | None = None,
-                 path: dict | None = None) -> dict:
+                 path: dict | None = None, mock_tests: list[dict] | None = None) -> dict:
     """Construit le contenu embarqué. Déterministe : mêmes sources, même résultat, même version."""
     bundle_tags = [
         {"id": t["id"], "parts": t["parts"], "group": t["group"], "fr": t["fr"], "en": t["en"], "order": order}
@@ -75,6 +76,10 @@ def build_bundle(questions: list[dict], tags: dict[str, dict], lessons: list[dic
         "questions": bundle_questions,
         "lessons": bundle_lessons,
         "path": bundle_path,
+        "mockTests": [
+            {"id": m["id"], "section": m["section"], "fr": m["fr"], "en": m["en"], "minutes": m["minutes"], "units": m["units"]}
+            for m in mock_tests or []
+        ],
     }
     canonical = json.dumps(payload, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
     version = hashlib.sha256(canonical.encode("utf-8")).hexdigest()[:16]
@@ -90,14 +95,14 @@ def main() -> int:
         print(f"{len(content.report.errors)} erreur(s) : contenu non généré. Corrige le contenu puis relance.")
         return 1
 
-    bundle = build_bundle(content.questions, tags, content.lessons, content.path)
+    bundle = build_bundle(content.questions, tags, content.lessons, content.path, content.mock_tests)
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_FILE.write_text(
         json.dumps(bundle, ensure_ascii=False, separators=(",", ":")) + "\n",
         encoding="utf-8",
         newline="\n",
     )
-    print(validate.summarize(content.questions, content.lessons, content.path))
+    print(validate.summarize(content.questions, content.lessons, content.path, content.mock_tests))
     print(f"Écrit : {OUTPUT_FILE.relative_to(REPO_DIR).as_posix()} (version {bundle['version']}, {OUTPUT_FILE.stat().st_size // 1024} Ko)")
     return 0
 

@@ -21,6 +21,8 @@ data class ContentBundle(
     val lessons: List<LessonDto> = emptyList(),
     /** Chemin de leçons. */
     val path: PathDto = PathDto(),
+    /** Tests blancs (format 3). */
+    val mockTests: List<MockTestDto> = emptyList(),
 )
 
 @Serializable
@@ -127,10 +129,22 @@ data class PathStepDto(
     val units: Int,
 )
 
+/** Un test blanc : ses unités (question Part 5, texte Part 6, jeu Part 7) dans l'ordre de l'examen. */
+@Serializable
+data class MockTestDto(
+    val id: String,
+    /** "reading" (Phase 3) ; "listening" et "full" plus tard. */
+    val section: String,
+    val fr: String,
+    val en: String,
+    val minutes: Int,
+    val units: List<String>,
+)
+
 class ContentFormatException(message: String, cause: Throwable? = null) : Exception(message, cause)
 
 object ContentParser {
-    const val SUPPORTED_FORMAT = 2
+    const val SUPPORTED_FORMAT = 3
     const val LETTERS = "ABCD"
     val LANGUAGES = setOf("fr", "en")
     val STEP_KINDS = setOf("lesson", "review")
@@ -208,6 +222,18 @@ object ContentParser {
             step.tags.firstOrNull { it !in knownTags }?.let { fail("tag inconnu « $it »") }
             if (step.units < 1) fail("aucun exercice")
             if (step.kind == "lesson" && step.tags.first() !in lessonTags) fail("pas de fiche pour « ${step.tags.first()} »")
+        }
+
+        firstDuplicate(bundle.mockTests.map { it.id })?.let { throw ContentFormatException("test blanc en double : $it") }
+        val poolOfUnit = bundle.questions.associate { (it.stimulusId ?: it.id) to it.pool }
+        for (test in bundle.mockTests) {
+            fun fail(reason: String): Nothing = throw ContentFormatException("test blanc ${test.id} : $reason")
+            if (test.minutes < 1) fail("durée nulle")
+            if (test.units.isEmpty()) fail("aucune question")
+            for (unit in test.units) {
+                val pool = poolOfUnit[unit] ?: fail("unité inconnue « $unit »")
+                if (pool != "mock") fail("« $unit » n'est pas une question de test blanc")
+            }
         }
     }
 

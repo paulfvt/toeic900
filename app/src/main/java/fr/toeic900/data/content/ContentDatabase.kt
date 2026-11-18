@@ -81,6 +81,18 @@ data class LessonEntity(
     val content: LessonDto,
 )
 
+/** Un test blanc : ses unités dans l'ordre de l'examen, et sa durée. */
+@Entity(tableName = "mock_test")
+data class MockTestEntity(
+    @PrimaryKey val id: String,
+    val sortOrder: Int,
+    val section: String,
+    val titleFr: String,
+    val titleEn: String,
+    val minutes: Int,
+    val units: List<String>,
+)
+
 @Entity(tableName = "path_unit")
 data class PathUnitEntity(
     @PrimaryKey val id: String,
@@ -217,6 +229,18 @@ abstract class ContentDao {
     @Query("DELETE FROM content_meta")
     protected abstract suspend fun deleteMeta()
 
+    @Query("DELETE FROM mock_test")
+    protected abstract suspend fun deleteMockTests()
+
+    @Insert
+    protected abstract suspend fun insertMockTests(tests: List<MockTestEntity>)
+
+    @Query("SELECT * FROM mock_test ORDER BY sortOrder")
+    abstract suspend fun mockTests(): List<MockTestEntity>
+
+    @Query("SELECT * FROM mock_test WHERE id = :id")
+    abstract suspend fun mockTest(id: String): MockTestEntity?
+
     @Insert
     protected abstract suspend fun insertQuestions(questions: List<QuestionEntity>)
 
@@ -252,6 +276,7 @@ abstract class ContentDao {
         deletePathSteps()
         deletePathUnits()
         deleteMeta()
+        deleteMockTests()
         insertTags(rows.tags)
         insertStimuli(rows.stimuli)
         insertQuestions(rows.questions)
@@ -259,6 +284,7 @@ abstract class ContentDao {
         insertLessons(rows.lessons)
         insertPathUnits(rows.pathUnits)
         insertPathSteps(rows.pathSteps)
+        insertMockTests(rows.mockTests)
         insertMeta(meta)
     }
 }
@@ -273,9 +299,11 @@ abstract class ContentDao {
         PathUnitEntity::class,
         PathStepEntity::class,
         ContentMetaEntity::class,
+        MockTestEntity::class,
     ],
     // 2 : textes et documents (stimulus), fiches (lesson), chemin (path_unit, path_step).
-    version = 2,
+    // 3 : tests blancs (mock_test).
+    version = 3,
     exportSchema = true,
 )
 @TypeConverters(Converters::class)

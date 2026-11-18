@@ -60,7 +60,7 @@ class Part6Test(ReadingTestCase):
         report, questions = self.check_file(self.data)
         self.assertEqual([], [str(i) for i in report.issues])
         self.assertEqual(4, len(questions))
-        self.assertEqual(["p6-9001"] * 4, [q["_stimulus"]["id"] for q in questions])
+        self.assertEqual(["p6-7991"] * 4, [q["_stimulus"]["id"] for q in questions])
         self.assertEqual([0, 1, 2, 3], [q["_position"] for q in questions])
         self.assertEqual({6}, {q["part"] for q in questions})
 
@@ -82,8 +82,8 @@ class Part6Test(ReadingTestCase):
         self.assertRejected(self.data, "exactement 4 questions")
 
     def test_question_ids_follow_the_text_id(self):
-        self.text["questions"][1]["id"] = "p6-9001-5"
-        self.assertRejected(self.data, "doit avoir l'id 'p6-9001-2'")
+        self.text["questions"][1]["id"] = "p6-7991-5"
+        self.assertRejected(self.data, "doit avoir l'id 'p6-7991-2'")
 
     def test_exactly_one_sentence_insertion(self):
         self.text["questions"][1]["tags"] = ["vocabulary-in-context"]
@@ -384,7 +384,7 @@ class BundleTest(unittest.TestCase):
         path = {"units": [{"id": "u1", "fr": "Unité", "en": "Unit", "steps": []}]}
         bundle = build.build_bundle(self.questions, TAGS, [FICHE], path)
         self.assertEqual(build.FORMAT_VERSION, bundle["format"])
-        self.assertEqual(["p6-9001", "p7-9001", "p7-9002"], [s["id"] for s in bundle["stimuli"]])
+        self.assertEqual(["p6-7991", "p7-7991", "p7-7992"], [s["id"] for s in bundle["stimuli"]])
         self.assertEqual(2, len(bundle["stimuli"][2]["documents"]))
         self.assertEqual({"genre", "title", "text"}, set(bundle["stimuli"][0]["documents"][0]))
         self.assertIsNone(bundle["stimuli"][0]["documents"][0]["title"])
@@ -394,11 +394,11 @@ class BundleTest(unittest.TestCase):
     def test_bundle_questions_point_to_their_stimulus(self):
         bundle = build.build_bundle(self.questions, TAGS)
         by_id = {q["id"]: q for q in bundle["questions"]}
-        blank = by_id["p6-9001-3"]
-        self.assertEqual(("p6-9001", 2, ""), (blank["stimulusId"], blank["position"], blank["stem"]))
+        blank = by_id["p6-7991-3"]
+        self.assertEqual(("p6-7991", 2, ""), (blank["stimulusId"], blank["position"], blank["stem"]))
         self.assertEqual(["the monthly fee for March will be reduced by 20 percent"], blank["evidence"])
-        self.assertEqual([], by_id["p6-9001-1"]["evidence"])
-        self.assertEqual("p7-9002", by_id["p7-9002-5"]["stimulusId"])
+        self.assertEqual([], by_id["p6-7991-1"]["evidence"])
+        self.assertEqual("p7-7992", by_id["p7-7992-5"]["stimulusId"])
         self.assertFalse(any(key.startswith("_") for q in bundle["questions"] for key in q))
         self.assertEqual({"units": []}, bundle["path"])
 
@@ -427,7 +427,7 @@ class RepositoryContentTest(unittest.TestCase):
         self.assertEqual(12, len(questions))
 
     def test_examples_are_not_part_of_the_bank(self):
-        self.assertFalse(any("-90" in q["id"] for q in self.content.questions))
+        self.assertFalse(any(q["id"].split("-")[1].startswith("799") for q in self.content.questions))
 
     def test_schemas_match_the_validator(self):
         schemas = validate.CONTENT_DIR / "schemas"

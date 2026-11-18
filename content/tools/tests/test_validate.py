@@ -288,9 +288,79 @@ class RepositoryContentTest(unittest.TestCase):
             self.skipTest("content.json pas encore généré")
         embedded = json.loads(build.OUTPUT_FILE.read_text(encoding="utf-8"))
         content = validate.validate_content(known_tags=self.tags)
-        expected = build.build_bundle(content.questions, self.tags, content.lessons, content.path)
+        expected = build.build_bundle(content.questions, self.tags, content.lessons, content.path, content.mock_tests)
         self.assertEqual(expected["version"], embedded["version"], "relance : python content/tools/build.py")
 
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class PoolsAndMockTestsTest(unittest.TestCase):
+    """Phase 3 : plages d'identifiants par pool et définition des tests blancs."""
+
+    def test_mock_ids_must_be_in_the_9000_range(self):
+        report = Report()
+        valid = validate.validate_file_data({"part": 5, "pool": "mock", "questions": [make_question(12)]}, TAGS, "mock.json", report)
+        validate.check_pool_ranges(valid, report)
+        self.assertTrue(any("9000" in str(issue) for issue in report.errors))
+
+    def test_training_ids_cannot_use_the_mock_range(self):
+        report = Report()
+        valid = validate.validate_file_data({"part": 5, "pool": "training", "questions": [make_question(9001)]}, TAGS, "t.json", report)
+        validate.check_pool_ranges(valid, report)
+        self.assertTrue(any("7999" in issue.message for issue in report.errors))
+
+    def test_same_options_warning_stays_within_a_pool(self):
+        report = Report()
+        training = validate.validate_file_data({"part": 5, "pool": "training", "questions": [make_question(1)]}, TAGS, "t.json", report)
+        mock = validate.validate_file_data({"part": 5, "pool": "mock", "questions": [make_question(9001)]}, TAGS, "m.json", report)
+        validate.check_duplicates(training + mock, report)
+        self.assertFalse(any("mêmes 4 options" in str(issue) for issue in report.warnings))
+
+    def _mock_questions(self):
+        report = Report()
+        mock = validate.validate_file_data(
+            {"part": 5, "pool": "mock", "questions": [make_question(9001), make_question(9002)]}, TAGS, "m.json", report)
+        training = validate.validate_file_data({"part": 5, "pool": "training", "questions": [make_question(3)]}, TAGS, "t.json", report)
+        return mock + training
+
+    def _test(self, **overrides):
+        data = {"id": "reading-1", "section": "reading", "fr": "Demi-test", "en": "Half-test", "minutes": 38,
+                "units": ["p5-9001", "p5-9002"]}
+        data.update(overrides)
+        return data
+
+    def test_a_valid_mock_test_counts_its_questions(self):
+        report = Report()
+        test = validate.validate_mock_test(self._test(), self._mock_questions(), set(), report, "mock/r.json")
+        self.assertTrue(report.ok, report.issues)
+        self.assertEqual(2, test["questionCount"])
+
+    def test_a_mock_test_rejects_training_and_unknown_units(self):
+        report = Report()
+        validate.validate_mock_test(self._test(units=["p5-9001", "p5-0003", "p5-9999"]), self._mock_questions(), set(), report, "m")
+        messages = " ".join(str(i) for i in report.errors)
+        self.assertIn("pool mock", messages)
+        self.assertIn("inconnue", messages)
+
+    def test_a_unit_belongs_to_one_mock_test_only(self):
+        report = Report()
+        used = set()
+        validate.validate_mock_test(self._test(), self._mock_questions(), used, report, "a")
+        validate.validate_mock_test(self._test(id="reading-2"), self._mock_questions(), used, report, "b")
+        self.assertTrue(any("déjà dans un test blanc" in str(i) for i in report.errors))
+
+    def test_a_mock_test_needs_a_sane_duration(self):
+        report = Report()
+        validate.validate_mock_test(self._test(minutes=500), self._mock_questions(), set(), report, "m")
+        self.assertFalse(report.ok)
+
+    def test_the_repository_mock_test_has_50_questions_from_the_mock_pool(self):
+        content = validate.validate_content()
+        self.assertTrue(content.report.ok)
+        tests = {t["id"]: t for t in content.mock_tests}
+        self.assertEqual(50, tests["reading-1"]["questionCount"])
+        bundle = build.build_bundle(content.questions, validate.load_tags(), content.lessons, content.path, content.mock_tests)
+        self.assertEqual(3, bundle["format"])
+        self.assertEqual(["reading-1"], [m["id"] for m in bundle["mockTests"]])

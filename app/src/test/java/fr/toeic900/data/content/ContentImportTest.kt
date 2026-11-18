@@ -19,7 +19,7 @@ private fun question(id: String = "p5-0001", answer: String = "B", tag: String =
 
 private fun bundle(
     version: String = "v1",
-    format: Int = 2,
+    format: Int = ContentParser.SUPPORTED_FORMAT,
     questions: List<String> = listOf(question()),
 ): String = """{"format":$format,"version":"$version",
     "tags":[{"id":"verb-tense","parts":[5,6],"group":"grammar","fr":"Temps des verbes","en":"Verb tenses","order":0}],
@@ -43,10 +43,10 @@ class ContentParserTest {
     fun `broken json is rejected`() = assertRejected("{ not json", "illisible")
 
     @Test
-    fun `an unknown format is rejected`() = assertRejected(bundle(format = 3), "format de contenu 3")
+    fun `an unknown format is rejected`() = assertRejected(bundle(format = 99), "format de contenu 99")
 
     @Test
-    fun `the format of phase 1 is no longer accepted`() = assertRejected(bundle(format = 1), "format de contenu 1")
+    fun `older formats are no longer accepted`() = assertRejected(bundle(format = 2), "format de contenu 2")
 
     @Test
     fun `an empty bank is rejected`() = assertRejected(bundle(questions = emptyList()), "aucune question")
